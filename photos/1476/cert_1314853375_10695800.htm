@@ -1,0 +1,2012 @@
+
+
+
+
+
+<html>
+<head>
+   <title>INSIGHT Condition Report</title>
+   <link rel="stylesheet" href="css/insight/shared.css" type="text/css">
+   <link rel="stylesheet" href="css/insight/INSIGHTBUYER.css" type="text/css">
+   <script type="text/javascript" src="thickbox/jquery-latest.js"></script>
+   <script type="text/javascript" src="thickbox/thickbox.js"></script>
+
+   <link rel="stylesheet" href="thickbox/thickbox.css" type="text/css" media="screen" />   
+   
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+   var preload_list = new Array(
+      
+         
+            
+         
+         'activeImg/ECR/SVAA/tn_large/1091329002.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329003.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329004.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329005.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329006.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329007.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329008.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329009.jpg'
+      
+         
+         ,'activeImg/ECR/SVAA/tn_large/1091329001.jpg'
+      
+      );
+   var path_to_images = "//mmsci.manheim.com/";
+   var myString;
+   var myTextarray;
+   var size = 0;
+
+   // preload (change path to images if necessary)
+   if (document.images)
+   {
+      var image_list = new Array();
+      for (var preload_counter = 0; preload_counter < preload_list.length; preload_counter++)
+      {
+         mystring = preload_list[preload_counter];
+         myTextarray = mystring.split('/');
+         size = (myTextarray.length);
+         path_to_images = "//mmsci.manheim.com/";
+         image_list[preload_counter] = new Image();
+         image_list[preload_counter].src = path_to_images + preload_list[preload_counter];   
+      }
+   }
+
+   var swapTimer;
+   // delay before restoring original image onmouseout
+   var restore_delay = 7000; // milliseconds
+   function swapImage(num)
+   {
+      clearTimeout(swapTimer);
+      if (document.images)
+      {
+         document.swap.src = image_list[num].src;
+      }
+   }
+
+   function restoreImg()
+   {
+      swapTimer = setTimeout( "swapImage(" + 0 + ")", restore_delay );
+   }
+   
+   function viewResizedImage(image){
+       popUrl = "displayImage.htm?imageUrl=" + image.src + "&noImageUrl=" + "images/no_image.jpg" ;
+       image_window = window.open(popUrl, "resizeImage", "width=439,height=390,scrollbars=0,location=0,toolbar=0");
+       image_window.focus();
+   }
+   function viewResizedThumbnail(imageUrl){
+       popUrl = "displayImage.htm?imageUrl=" + imageUrl + "&noImageUrl=" + "images/no_image.jpg" ;
+       image_window = window.open(popUrl, "resizeImage", "width=439,height=390,scrollbars=0,location=0,toolbar=0");
+       image_window.focus();
+   }
+</script>
+
+<!-- ALWAYS ON TOP FLOATING LAYER POP-UP -->
+
+<script language="JavaScript" type="text/javascript">
+<!-- Copyright 2003, Sandeep Gangadharan -->
+<!-- For more free scripts go to http://sivamdesign.com/scripts/ -->
+<!--
+var y1 = 20;   // change the # on the left to adjuct the Y co-ordinate
+(document.getElementById) ? dom = true : dom = false;
+
+function hideIt(theLayer) {
+  if (dom) {document.getElementById(theLayer).style.visibility='hidden';}
+  if (document.layers) {document.layers[theLayer].visibility='hide';} }
+
+function showIt(theLayer) {
+  if (dom) {document.getElementById(theLayer).style.visibility='visible';}
+  if (document.layers) {document.layers[theLayer].visibility='show';} }
+
+////function placeIt() {
+////  if (dom && !document.all) {document.getElementById("layer1").style.top = window.pageYOffset + (window.innerHeight - (window.innerHeight-y1))}
+////  if (document.layers) {document.layers["layer1"].top = window.pageYOffset + (window.innerHeight - (window.innerHeight-y1))}
+////  if (document.all) {document.all["layer1"].style.top = document.body.scrollTop + (document.body.clientHeight - (document.body.clientHeight-y1));}
+////  window.setTimeout("placeIt()", 10); }
+// -->
+</script>
+
+</head>
+<div align="center" id="Layer1" style="position:absolute; top:5; left:20; width:300; height:101; visibility:hidden">
+   <div style="float:left; background-color:white; padding:3px; border:1px solid black">
+   <span style="float:right; background-color:gray; color:white; font:Arial; font-size:10pt; text-align:right; cursor:pointer" onclick="javascript:hideIt('Layer1')">&nbsp;close&nbsp;</span>
+   			<table border="0" cellspacing="2" cellpadding="0" height="450" width="100%">
+				<tr><td valign="top">
+				         <table width="100%" border="0" cellspacing="6" cellpadding="8">
+							<tr height="94"><td colspan="2" height="94"><div align="center"><img src="images/buywithconfidence.jpg" alt="" height="105" width="248" border="0" /></div></td>							</tr>
+							<tr height="10"><td colspan="2" width="100%" height="10"><hr /></td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Gallery of multi-view images plus major damage photos</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Model-specific options and description data using industry enhanced tools</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Interior and exterior condition using state-of-the-art standardized inspection processes</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Manheim's AutoGrade delivers consistency and accuracy</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Maintenance checks with advisement</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Wheel and tire information</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Special notes and disclosures</td></tr>
+							<tr><td width="40"><img src="images/checkmark.jpg" alt="" height="24" width="21" border="0" /></td><td class="content12">Visual structural inspection**</td></tr>
+							<tr><td class="mainfontbold" colspan="2">**does not include lift, pit or ramp, test drive or mechanical repair estimate</td></tr>
+							<tr><td colspan="2" height="10"><hr /></td></tr>
+							<tr height="82"><td colspan="2" height="82"><div align="center"><img src="images/insightecr_logo.jpg" alt="" height="57" width="147" border="0" /></div></td></tr>
+						</table>
+				</td></tr>
+	 </table>
+</div></div>
+
+<div align="center" id="Layer2" style="position:absolute; top:50; left:250; width:300; visibility:hidden">
+    <div style="float:left; background-color:white; padding:2px; border:1px solid black">
+    <span style="float:right; background-color:gray; color:white; font:Arial; font-size:9pt; text-align:right; cursor:pointer" onclick="javascript:hideIt('Layer2')">&nbsp;close&nbsp;</span>
+   			<table width="300" border="0" cellspacing="4" cellpadding="0">
+				<tr>
+					<td valign="top">
+						<table width="100%" border="0" cellspacing="2" cellpadding="0">
+						<tr><td class="mainfontheading">&nbsp;Manheim Abbreviations&nbsp;</td></tr>
+						<tr><td class="mainfont"><b>4 X 2</b>&nbsp;-&nbsp;2 wheel drive</td></tr><tr><td class="mainfont"><b>4 X 4</b>&nbsp;-&nbsp;4 wheel drive</td></tr><tr><td class="mainfont"><b>A/C</b>&nbsp;-&nbsp;Air Conditioning</td></tr><tr><td class="mainfont"><b>ACS</b>&nbsp;-&nbsp;Active Comfort Seats</td></tr><tr><td class="mainfont"><b>ALT</b>&nbsp;-&nbsp;Aluminum Trim</td></tr><tr><td class="mainfont"><b>ARH</b>&nbsp;-&nbsp;Adjustable Ride Height</td></tr><tr><td class="mainfont"><b>ARP</b>&nbsp;-&nbsp;Adaptive Ride Package</td></tr><tr><td class="mainfont"><b>AWD</b>&nbsp;-&nbsp;All Wheel Drive</td></tr><tr><td class="mainfont"><b>AXL</b>&nbsp;-&nbsp;Adaptive Xenon Lights</td></tr><tr><td class="mainfont"><b>Books</b>&nbsp;-&nbsp;may or may not include service records</td></tr><tr><td class="mainfont"><b>BXL</b>&nbsp;-&nbsp;Bi-xenon Headlights</td></tr><tr><td class="mainfont"><b>CD</b>&nbsp;-&nbsp;Compact Disc Player</td></tr><tr><td class="mainfont"><b>CONV. PKG</b>&nbsp;-&nbsp;Convenience Package</td></tr><tr><td class="mainfont"><b>CS</b>&nbsp;-&nbsp;Comfort Seats</td></tr><tr><td class="mainfont"><b>CTL</b>&nbsp;-&nbsp;Control</td></tr><tr><td class="mainfont"><b>CWP</b>&nbsp;-&nbsp;Cold Weather Package</td></tr><tr><td class="mainfont"><b>DMG</b>&nbsp;-&nbsp;Damaged</td></tr><tr><td class="mainfont"><b>DSC</b>&nbsp;-&nbsp;Directional Stability Control</td></tr><tr><td class="mainfont"><b>EDC</b>&nbsp;-&nbsp;Electronic Damping Control</td></tr><tr><td class="mainfont"><b>Extra Keys</b>&nbsp;-&nbsp;Master key/K1, K2; Remotes/R1, R2 (subject to number of keys returned with vehicle)</td></tr><tr><td class="mainfont"><b>FDRS</b>&nbsp;-&nbsp;Fold Down Rear Seats</td></tr><tr><td class="mainfont"><b>GR</b>&nbsp;-&nbsp;Greater Than</td></tr><tr><td class="mainfont"><b>HS</b>&nbsp;-&nbsp;Heated Seats</td></tr><tr><td class="mainfont"><b>HSW</b>&nbsp;-&nbsp;Heated Steering Wheel</td></tr><tr><td class="mainfont"><b>HT</b>&nbsp;-&nbsp;Removable Hardtop</td></tr><tr><td class="mainfont"><b>HUD</b>&nbsp;-&nbsp;Head-up Display</td></tr><tr><td class="mainfont"><b>In</b>    ? Op  Inoperative</td></tr><tr><td class="mainfont"><b>L/F</b>&nbsp;-&nbsp;Left Front</td></tr><tr><td class="mainfont"><b>L/R</b>&nbsp;-&nbsp;Left Rear</td></tr><tr><td class="mainfont"><b>LUX SEATS</b>&nbsp;-&nbsp;Luxury Seating Package</td></tr><tr><td class="mainfont"><b>MCC</b>&nbsp;-&nbsp;Manual Climate Control</td></tr><tr><td class="mainfont"><b>MULT</b>&nbsp;-&nbsp;Multiple</td></tr><tr><td class="mainfont"><b>Mtpl</b>&nbsp;-&nbsp;Multiple Instances</td></tr><tr><td class="mainfont"><b>NAV</b>&nbsp;-&nbsp;Navigational System</td></tr><tr><td class="mainfont"><b>No Books</b>&nbsp;-&nbsp;NO BOOKS</td></tr><tr><td class="mainfont"><b>OBC</b>&nbsp;-&nbsp;On Board Computer</td></tr><tr><td class="mainfont"><b>OEM</b>&nbsp;-&nbsp;Original Equipment Manufacture</td></tr><tr><td class="mainfont"><b>PDC</b>&nbsp;-&nbsp;Parking Distance Control</td></tr><tr><td class="mainfont"><b>PDR</b>&nbsp;-&nbsp;Paint less Dent Removal</td></tr><tr><td class="mainfont"><b>PERF PKG</b>&nbsp;-&nbsp;Performance Package</td></tr><tr><td class="mainfont"><b>Phone</b>&nbsp;-&nbsp;BMW Cell Phone</td></tr><tr><td class="mainfont"><b>PNL</b>&nbsp;-&nbsp; Panel</td></tr><tr><td class="mainfont"><b>PREM PKG</b>&nbsp;-&nbsp;Premium Package</td></tr><tr><td class="mainfont"><b>Premium Sound</b>&nbsp;-&nbsp;DSP, HK, M Audio, L7</td></tr><tr><td class="mainfont"><b>PREV</b>&nbsp;-&nbsp;Previous</td></tr><tr><td class="mainfont"><b>PWR</b>&nbsp;-&nbsp;Power</td></tr><tr><td class="mainfont"><b>RCS</b>&nbsp;-&nbsp;Rear Comfort Seats</td></tr><tr><td class="mainfont"><b>R/F</b>&nbsp;-&nbsp;Right Front</td></tr><tr><td class="mainfont"><b>RHS</b>&nbsp;-&nbsp;Rear Heated Seats</td></tr><tr><td class="mainfont"><b>R/R</b>&nbsp;-&nbsp;Right Rear</td></tr><tr><td class="mainfont"><b>RP</b>&nbsp;-&nbsp;Rollover Protection</td></tr><tr><td class="mainfont"><b>RPL</b>&nbsp;-&nbsp;Replace</td></tr><tr><td class="mainfont"><b>RPLD</b>&nbsp;-&nbsp;Replaced</td></tr><tr><td class="mainfont"><b>RVS</b>&nbsp;-&nbsp;Rear Ventilated Seats</td></tr><tr><td class="mainfont"><b>SCRT</b>&nbsp;-&nbsp;Scratch</td></tr><tr><td class="mainfont"><b>SLF</b>&nbsp;-&nbsp;Sliding Load Floor</td></tr><tr><td class="mainfont"><b>SLS</b>&nbsp;-&nbsp;Self-leveling Rear Suspension</td></tr><tr><td class="mainfont"><b>SMG</b>&nbsp;-&nbsp;Sequential Manual Gearbox</td></tr><tr><td class="mainfont"><b>SP</b>&nbsp;-&nbsp;Spare Tire</td></tr><tr><td class="mainfont"><b>SPT PKG</b>&nbsp;-&nbsp;Sport Package</td></tr><tr><td class="mainfont"><b>SPT/PREM PKG</b>&nbsp;-&nbsp;Sport/Premium Package- SPT/PREM PKG</td></tr><tr><td class="mainfont"><b>SS</b>&nbsp;-&nbsp;Sunshades</td></tr><tr><td class="mainfont"><b>ST</b>&nbsp;-&nbsp;Steptronic Transmission</td></tr><tr><td class="mainfont"><b>SUBSTD</b>&nbsp;-&nbsp;Substandard Repair</td></tr><tr><td class="mainfont"><b>TPM</b>&nbsp;-&nbsp;Tire Pressure Monitor</td></tr><tr><td class="mainfont"><b>WT</b>&nbsp;-&nbsp;Wood Trim</td></tr><tr><td class="mainfont"><b>XL</b>&nbsp;-&nbsp;Xenon Lights</td></tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			</div>
+</div>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" marginwidth="0">
+    <form name="ECR20" method="post" action="ECR2I.PGM">
+    
+<input type="hidden" name="SAUCI" value="SVAA">
+<input type="hidden" name="SWO" value="1091329">
+<input type="hidden" name="SBLU2" value="11754712">
+<input type="hidden" name="CLIENT" value="AUCTN">
+<input type="hidden" name="CONFIGID" value="BUYER">
+<input type="hidden" name="ECRTYPE" value="L1">
+<input type="hidden" name="GROUP" value="HEND"> 
+        <!--  PRINTABLE TABLE -->
+	<table class="mainback" cellpadding="0" cellspacing="0" border="0">
+	  <tr><td>
+        <table summary="vehicleInfo" cellpadding="0" cellspacing="0" border="0"  id="printable" class="printable">
+	        <!--  HEADER section -->
+            <tr><td align="left" valign="top">
+<!-- PAGE HEADER TABLE -->
+<table summary="headerTable" width="100%"  border="0" cellpadding="2" cellspacing="0"  class="textbox">
+  <tr>
+	 <td align="left">
+	   
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+ 
+	 
+	
+		<a href="#" onClick="javascript:showIt('Layer1')">
+			<img alt="logo" src="images/insightECR_horiz.gif" class="headerimg">
+		</a>
+	
+
+</td>
+<td valign="middle">
+<a href="#" onClick="javascript:showIt('Layer1')">
+<img alt="Learn more about Insight" src="images/learnmore.jpg" width="110" height="18" border="1">
+</a>
+</td>
+</tr>
+</table>
+	 </td>
+
+	 <td align="right">
+	 
+
+	 <table border="0" class="mainfontbold">
+		<tr><td>Manheim Statesville</td></tr>
+		<tr><td>145 Auction Ln</td></tr>
+		<tr><td>Statesville,&nbsp;NC&nbsp;28625-9009</td></tr>
+		
+		<tr><td>(704) 876-1111</td></tr>
+		
+	  </table>
+
+	 </td>
+  </tr>
+</table>
+<!-- PAGE HEADER TABLE END-->
+</td></tr>
+	
+	        <!--  VEHICLE DETAILS section -->
+			<tr><td>   
+   
+   
+   
+   
+
+   <!-- VEHICLE DETAILS TABLE STARTS -->
+      <table summary="headerTable" width="100%"  border="0" cellpadding="2" cellspacing="0"  class="textbox">   
+      <tr>
+        <td align="left" class="mainfontheading">VEHICLE DETAILS  -  
+
+
+
+
+	2005
+
+
+	&nbsp;LEXUS
+
+
+	&nbsp;GX470
+
+
+
+</td>
+      </tr>
+      <tr>
+         <td align="left" valign="bottom" nowrap colspan="2" >
+           <table border="0" width="100%">
+              <tr>
+              
+                <td nowrap class="mainfont">VIN:&nbsp;</td>
+                <td class="mainfont">JTJBT20X050072376&nbsp;&nbsp;</td>
+                
+                
+                <td class="mainfont">Body Style:&nbsp;</td>
+	            <td class="mainfont">4SUV</td>
+                
+
+                
+                <td class="mainfont">Top Type:&nbsp;</td>
+                <td class="mainfont">Sun Roof</td>
+				
+              </tr>
+              <tr>
+				
+                <td nowrap class="mainfont">Ext Color:&nbsp;</td>
+                <td class="mainfont">BLACK</td>
+                
+                
+				
+                
+				
+                <td class="mainfont">Odometer:&nbsp;</td>
+                <td class="mainfont">
+                	100,058
+	                
+                </td>
+                
+              </tr>
+              <tr><td class="mainfont">Work Order:&nbsp;</td><td class="mainfont">1091329</td>
+				<!--	Change to seller Names can be long so give it more space.	-->
+				<td nowrap class="mainfont">Seller:&nbsp;</td><td class="mainfont">HENDRICK LEXUS                                  &nbsp;</td>
+			  
+	                <td class="mainfont">Received Date:&nbsp;</td>
+					
+					<td class="mainfont">08/29/2011</td>
+					
+					
+                
+			  </tr>
+			   <tr>
+<td nowrap class="mainfont">Sale Number:&nbsp;</td><td class="mainfont">35</td>
+<td nowrap class="mainfont">Lane Number:&nbsp;</td><td class="mainfont">11</td>
+<td nowrap class="mainfont">Run Number:&nbsp;</td><td class="mainfont">19</td>
+              </tr>
+			  <tr>
+				
+                <td class="mainfont">Inspector:&nbsp;</td>
+                
+					<td class="mainfont">LBLAIR    &nbsp;08/29/2011</td>
+					
+					
+                
+                
+	                <td class="mainfont">InService Date:&nbsp;</td>
+					
+					
+					<td class="mainfont">N/A</td>
+					
+                
+                
+              </tr>
+          </table>
+    	</td>
+      </tr>
+      <tr class="sectionDivider">
+         <td colspan="100%"><hr noshade color="#000000" /></td>
+      </tr>
+   </table>
+   <!-- VEHICLE DETAILS TABLE ENDS --></td></tr>
+			<tr><td>
+		        <!--  VEHICLE IMAGES/OPTIONS section -->
+				   
+   
+   
+   
+   
+     
+	<!-- VEHICLE IMAGES/OPTIONS TABLE STARTS -->
+	<table summary="vehicleInfo" width="100%" border="0" cellpadding="3" cellspacing="0" class="textbox">
+	  <tr>
+		<td class="mainfontheadingimg" colspan="4">&nbsp;VEHICLE IMAGES</td>
+	  </tr>
+	  
+	  <tr>
+	  
+		<td class="thumbnails" valign="top" width="140">
+			
+	<table summary="thumbnails" border="0" cellpadding="0" cellspacing="2">
+		<tr valign="top">
+		
+		
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(0);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329002.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture-FRONT/LFT FRNT" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(1);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329003.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture-REAR/RGT REAR" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									</tr>
+									<tr>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(2);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329004.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture - Wheel" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(3);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329005.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture - Interior" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									</tr>
+									<tr>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(4);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329006.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture - Dash" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(5);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329007.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture - Odometer" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									</tr>
+									<tr>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(6);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329008.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture VIN/ID Sticker" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(7);restoreImg()"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329009.jpg" onerror="javascript:this.src = 'images/no_image_small.jpg';" alt="Overall Picture - Cargo Area" align="right" width="68" height="51" hspace="1" vspace="0" border="1"></a></td>
+								
+									</tr>
+									<tr>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+		</tr>
+	</table>
+		</td>
+	  
+		<td width="288" rowspan="2" valign="top"  nowrap="nowrap">
+			
+
+   <table summary="image" cellpadding="0" cellspacing="1" border="0">
+   <tr valign="top">
+   <td align="left" valign="top">
+         <span class="notes">
+            <span class="mainfont"><img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329002.jpg" onerror="javascript:this.src = 'images/no_image.jpg';" name="swap" width="328" height="246" vspace="1" border="2" hspace="1" id="swap" onclick="viewResizedImage(this)" alt="mainImage"></span><br>
+         </span>
+   </td>
+   </tr>
+   
+   
+   
+   </table>
+
+		</td>
+		<td width="10"></td>
+		<td align="left" valign="top">
+		<!--options here-->                          	
+			  
+
+ 
+<fieldset>
+<legend class="mainfontbold">GRADING</legend>
+<table  summary="options" width="100%" border="0" cellpadding="1" cellspacing="0">
+   <tr>
+      <td class="mainfont" valign="top">
+         <table summary="optionsData" width="100%" border="0" cellpadding="0" cellspacing="0">
+            <!-- start if check here -->
+            <tr align="center">
+                <td class="mainfont" valign="top">
+	                <a class="thickbox" title="Manheim Auto Grade Explained" href="html/autograde.html?keepThis=true&TB_iframe=true&height=550&width=650"><img width="98" height="74" border="0" src="images/AutoGrade.jpg"/></a>
+                </td>
+            </tr>
+            <!--  end if here  -->
+            <tr align="center">
+               <td nowrap="nowrap">
+				<br>
+               	<span STYLE="font-weight: bolder;font-size: 12px; font-family:Arial;color:005479; background-color: CCDDE4; width: 52px; text-align: center">&nbsp;Grade 3.7 
+               	<span STYLE="font-weight: bolder;font-size: 12px; font-family:Arial;color:CCDDE4; background-color: 005479; width: 52px; text-align: center">&nbsp;Average&nbsp;
+               	</span>
+               </td>
+            </tr>
+            
+             
+             <tr>
+               <td class="mainfont" align="center" valign="center"><a class="thickbox" title="Manheim Auto Grade Explained" href="html/autograde.html?keepThis=true&TB_iframe=true&height=550&width=650"><img src="images/icon_questionmark.gif" border="0" width="17" height="17"> More About Auto Grade</a><br></td>
+            </tr>  
+            
+            <tr>
+				<td class="mainfont" valign="top" align="center">
+					
+					&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;<font size="2" face="Verdana"><b>MSRP</b>&nbsp;-&nbsp;Not Available<br></font>
+				</td>
+            </tr>
+            
+            <tr>
+				<td class="mainfont" valign="top" align="center">
+					&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;<font size="2" face="Verdana"><b>Engine Starts</b>&nbsp;-&nbsp;Yes</font>
+				</td>
+            </tr>
+            
+            </table>
+            
+      </td>
+   </tr>
+</table>
+</fieldset>
+		</td>
+		<td rowspan="2" valign="top" align="right" nowrap="nowrap">
+		</td>
+	  </tr>
+	</table>
+	<!-- VEHICLE IMAGES/OPTIONS TABLE ENDS -->
+		        <!--  VEHICLE INFORMATION section -->
+				
+
+        
+	<!-- VEHICLE INFORMATION TABLE STARTS -->
+	<table summary="vehicleInfo" width="100%"  border="0" cellpadding="2" cellspacing="0" id="vehicleInformation" class="textbox">
+		<tr>
+			<td class="mainfontheading" colspan="2">&nbsp;VEHICLE INFORMATION</td>
+		</tr>
+		<tr class="sectionDivider">
+			<td colspan="100%"><hr noshade color="#000000" /></td>
+		</tr>
+		<tr><!-- 1st data row -->
+				
+
+<td colspan="2" valign="top">
+<fieldset>
+<legend class="mainfontbold">OPTIONS</legend>
+<table  summary="options" width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	  <td class="mainfont" valign="top">
+		<table summary="vehicleInfo" width="100%" border="0" cellpadding="3" cellspacing="0">
+		  <tr>
+			<td valign="top" class="mainfont">
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Side Air Bags<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Pwr Seats - Both<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Cassette Tape<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;HomeLink<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Trip Counter<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Steering Wheel Audio Control<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Trailer Hitch - Bolt On<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;50 State Emissions<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Traction Control<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Running Board<br>
+					
+				
+					
+				
+					
+				
+					
+				
+		   </td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td valign="top" class="mainfont">
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Power Locks<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Tilt Steering<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Dual Air Bags<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Dual Air Conditioning<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Heated Mirrors<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;CD Changer - 6<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Rear Air Conditioning<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Rear Wiper<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Third Seat<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Ride Control<br>
+					
+				
+					
+				
+					
+				
+			</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td valign="top" class="mainfont">
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Pwr Steering<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;A/C<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Luggage Rack<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Owner&#039;s Manual<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Heated Seats<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;ABS Brakes<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Trip Computer<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;US EPA Label<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Memory Seat<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Power Telescopic Steering<br>
+					
+				
+					
+				
+			</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td valign="top" class="mainfont">
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Power Windows<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Cruise Control<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Security System<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Woodgrain Interior Package<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Power Tilt Steering<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Spoiler<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Tinted Windows<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Navigation System<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Power Mirrors<br>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						&nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Fog Lamps<br>
+					
+				
+			</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+</table>
+</fieldset>
+</td>
+		</tr>
+		<tr class="displayspace">
+			<td class="mainfont" colspan="2">&nbsp;</td>
+		</tr>
+		<tr><!--  2cnd data row -->
+			
+
+
+<td valign="top" width="50%">
+<fieldset>
+	<legend class="mainfontbold">MECHANICAL</legend>
+	<table summary="mechanical" width="100%" border="0" cellpadding="1" cellspacing="0">
+		<tr>
+			<td class="mainfont" valign="top">
+				
+				   &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;8 Cylinder Gas<br>
+				
+				   &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Automatic<br>
+				
+				   &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Pwr Brakes<br>
+				
+				   &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;4X4<br>
+				
+				   &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;4.7 L<br>
+				
+			 </td>
+		</tr>
+	</table>
+</fieldset>
+</td>
+
+
+			
+			
+
+
+<td valign="top" width="50%">
+<fieldset>
+<legend class="mainfontbold">INTERIOR</legend>
+<table summary="interior" width="100%" border="0" cellpadding="1" cellspacing="0">
+    <tr>
+        <td class="mainfont" valign="top">
+			
+            &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">
+            &nbsp;Odometer -   Digits 
+            Digital 
+            -Operable<br>
+               
+			
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Int Odor: OK<br>
+            
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Wood Trim Dash<br>
+            
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Leather<br>
+            
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Interior Condition - Average<br>
+            
+         </td>
+    </tr>
+</table>
+</fieldset>
+</td>
+
+
+		</tr>
+		<tr class="displayspace">
+			<td class="mainfont" colspan="2">&nbsp;</td>
+		</tr>
+		<tr><!--  3rd data row -->
+			
+
+<td valign="top" width="50%">
+<fieldset>
+<legend class="mainfontbold">TIRES AND WHEELS</legend>
+<table summary="tires" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+		<td class="mainfont" valign="top">
+			<table border="0" cellpadding="2" cellspacing="1" width="100%">
+				<tr class="mainfont">
+					<td align="left"  nowrap="nowrap"><b>Tire Condition:</b></td><td>Average</td>
+					<td align="left" nowrap="nowrap" ><b>Wheels:</b></td><td> Alloy</td>
+				</tr>
+				<tr class="mainfont"><td colspan="4"></td></tr>
+				<tr class="tiresheading">
+					<td align="center" nowrap="nowrap">Tire</td>
+					<td align="center" nowrap="nowrap">Tread Depth</td>
+					<td align="center" nowrap="nowrap">Brand</td>
+					<td align="center" nowrap="nowrap">Size</td>
+				</tr>
+
+	            
+				
+				<tr class="mainfont">
+					<td align="left" colspan="1" nowrap="nowrap">Left Front:</td><td align="center" >4/32"</td><td colspan="1">MICHELIN</td><td>225/65R17</td>
+				</tr>
+				
+				
+				
+				
+								
+	            
+				
+				
+				
+				<tr  class="mainfont">
+					<td align="left" colspan="1" nowrap="nowrap">Left Rear:</td><td align="center" >4/32"</td><td colspan="1">MICHELIN</td><td>225/65R17</td>
+				</tr>
+				
+				
+								
+	            
+				
+				
+				<tr class="mainfont">
+					<td align="left" colspan="1" nowrap="nowrap">Right Front:</td><td align="center" >4/32"</td><td colspan="1">MICHELIN</td><td>225/65R17</td>
+				</tr>
+				
+				
+				
+								
+	            
+				
+				
+				
+				
+				<tr class="mainfont">
+					<td align="left" colspan="1" nowrap="nowrap">Right Rear:</td><td align="center" >4/32"</td><td colspan="1">MICHELIN</td><td>225/65R17</td>
+				</tr>
+				
+								
+	            
+				
+				
+				
+				
+				
+				<tr class="mainfont">
+					<td align="left" colspan="1" nowrap="nowrap">Spare:</td>
+					<td align="center" >
+						12/32"
+					    
+					</td>
+					<td colspan="1">MICHELIN</td>
+					<td>225/65R17</td>
+				</tr>
+								
+	            
+			</table>                                               
+		</td>
+	</tr>
+</table>
+</fieldset>
+</td>
+
+			
+
+ 
+<td valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tr>
+<td valign="top" width="100%">
+<fieldset>
+<legend class="mainfontbold">KEYS</legend>          
+<table summary="keys" width="100%" border="0" cellpadding="1" cellspacing="0">
+	<tr>
+		<td class="mainfont" valign="top">
+			
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Combo Key - 1<br>
+            
+            &nbsp;
+         </td>
+    </tr>
+</table>
+</fieldset>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" width="100%">
+<fieldset>
+<legend class="mainfontbold">OTHER</legend>          
+<table summary="keys" width="100%" border="0" cellpadding="1" cellspacing="0">
+	<tr>
+		<td class="mainfont" valign="top">		
+               &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Title State:&nbsp;   <br>
+               
+               
+               
+         &nbsp;&nbsp;<img src="images/blackdot.jpg" width="5" height="5">&nbsp;&nbsp;Title Received Date:&nbsp;N/A
+         
+         </td>
+    </tr>
+
+</table>
+</fieldset>
+</td>
+</tr>
+
+</table>
+</td>
+
+		</tr>
+		<tr class="displayspace">
+			<td class="mainfont" colspan="2">&nbsp;</td>
+		</tr>
+	</table>
+	<!-- VEHICLE INFORMATION TABLE ENDS -->
+   
+			</td></tr>
+			<tr><td>
+		        <!--  ADDITIONAL INFORMATION section -->
+				
+
+
+
+<!-- ADDITIONAL INFORMATION TABLE STARTS -->
+<table width="100%"  border="0" cellpadding="1" cellspacing="0" id="conditions" class="textbox"> 
+	<tr class="sectionDivider"> 
+		<td colspan="100%"><hr noshade color="#000000" />
+		</td> 
+	</tr> 
+	<tr> 
+		<td class="mainfontheading" colspan="3">ADDITIONAL INFORMATION</td> 
+	</tr>
+	
+	
+	<tr class="announcements"> 
+		<td class="mainfont" valign="top"> &nbsp;&nbsp;*MO                                      </td>
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="commonAbbrevation"> 
+		<td class="mainfont" valign="top" align="right"> <a href="#" onClick="javascript:showIt('Layer2')"><span class="mainfont">Common Abbreviations</a> </td> 
+	</tr>
+</table> 
+<!-- ADDITIONAL INFORMATION TABLE ENDS -->
+			</td></tr>
+		</table>
+	  </td></tr>
+	  </table>
+	  <div style="page-break-after:always;">&nbsp;</div>
+	 <table class="mainback" width="640" cellpadding="0" cellspacing="0" border="0">
+	 <tr><td>
+	         <table summary="vehicleInfo" cellpadding="0" cellspacing="0" border="0"  id="printable" class="printable">
+	  <!-- CHARGABLE section -->
+	  <tr><td></td></tr>
+	   <!--  DAMAGES section -->
+	  <tr><td>
+
+
+
+<table summary="damage" border="0" cellpadding="0" cellspacing="0" id="damages" class="printable">
+   <tr>
+      <td colspan="100%" class="mainfontheading">&nbsp;EXISTING DAMAGES AND SUGGESTED REPAIRS</td>
+   </tr>
+   <tr class="mainfontbold">
+      <td colspan="7">Suggested repairs are based on Manheim professional inspector's recommendation.<br>Labor hours include paint, body or repair estimates.</td>
+   </tr>   
+   <tr>
+      <td class="mainfontbold" valign="bottom" align="left">&nbsp;</td>
+      <td class="mainfontbold" valign="bottom" align="left">DESCRIPTION</td>
+      <td class="mainfontbold" valign="bottom" align="left">CONDITION</td>
+      <td class="mainfontbold" valign="bottom" align="left">SEVERITY</td>
+      <td class="mainfontbold" valign="bottom" align="left">SUGGESTED<br>REPAIR</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">Front Bumper Cover</td>
+      <td class="mainfont" align="left">Prev Repair</td>
+      <td class="mainfont" align="left">Acceptable</td>
+      <td class="mainfont" align="left">No Action Required</td>      
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">Hood</td>
+      <td class="mainfont" align="left">Light Mult Scratches</td>
+      <td class="mainfont" align="left">10 or More</td>
+      <td class="mainfont" align="left">Wet Sand</td>      
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">RF Fender</td>
+      <td class="mainfont" align="left">Chipped</td>
+      <td class="mainfont" align="left">2</td>
+      <td class="mainfont" align="left">Paint Chip Repair</td>      
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">RF Door</td>
+      <td class="mainfont" align="left">Dent/No Paint Dmg</td>
+      <td class="mainfont" align="left">PDR/2</td>
+      <td class="mainfont" align="left">PDR</td>      
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">R Qtr Panel</td>
+      <td class="mainfont" align="left">Dent/No Paint Dmg</td>
+      <td class="mainfont" align="left">PDR/2</td>
+      <td class="mainfont" align="left">PDR</td>      
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+   
+   
+   
+   
+   
+   
+   <!-- Thin line separation between the damage items with no labor hours and those with-->
+   <tr>
+       <td colspan="100%"><hr noshade color="#747170"/></td>
+   </tr>
+   <tr>
+      <td valign="bottom" align="left">&nbsp;</td>
+      <td valign="bottom" align="left">&nbsp;</td>
+      <td valign="bottom" align="left">&nbsp;</td>
+      <td valign="bottom" align="left">&nbsp;</td>
+      <td valign="bottom" align="left">&nbsp;</td>
+      <td class="mainfontbold" valign="bottom" align="right">LABOR<br>HOURS</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+                     <img src="//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329001.jpg" alt="Rear Bumper Cover" width="60" height="40" onclick="viewResizedThumbnail('//mmsci.manheim.com/activeImg/ECR/SVAA/tn_large/1091329001.jpg')" onerror="javascript:this.src = 'images/no_image_small.jpg';">
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">Rear Bumper Cover</td>
+      <td class="mainfont" align="left">Dent/Paint Dmg</td>
+      <td class="mainfont" align="left">2&#034; to 3&#034;</td>
+      <td class="mainfont" align="left">Replace</td>
+      <td class="mainfont" align="right">5.20</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="mainfont" align="center">
+         
+            
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+                  
+               
+            
+         
+      </td>
+      <td class="mainfont" align="left">Warning - Maintenance</td>
+      <td class="mainfont" align="left">On</td>
+      <td class="mainfont" align="left">Repair Required</td>
+      <td class="mainfont" align="left">Mech Ck</td>
+      <td class="mainfont" align="right">1.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+      
+   
+   
+   <tr>
+      <td colspan="100%">&nbsp;</td>
+   </tr>
+   
+   <!-- Approved damage items with repair status will be shown in this section -->
+   
+    <tr>
+      <td colspan="100%">&nbsp;</td>
+   </tr>
+</table></td></tr>
+	    <tr><td><table border="0" cellpadding="0" cellspacing="0" id="conditions" class="mainback"> 
+                         <tr class="mainfont"><td nowrap class="mainfontbold">VIN:&nbsp;JTJBT20X050072376,&nbsp;Work Order:&nbsp;1091329</td></tr>
+</table></td></tr>
+</table>
+</td>
+</tr>
+</table>
+<!--  FOOTER section -->
+<table class="footer" cellborder="0" cellspacing="0" cellpadding="0" width="640"><tr class="footer"><td>
+
+<script language="JavaScript">
+function submitEmail()
+{
+	window.location = "/MABEL/emailECR.htm?SAUCI=SVAA&SWO=1091329&CLIENT=AUCTN&CONFIGID=BUYER&ECRTYPE=L1";
+}
+</script>
+
+<table summary="footer" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr>
+<td align="center">
+<span class="formSubmit"><input id="submit" type="submit" value="Submit"></span>
+<input type="button" value="Print" id="Print" onclick="window.print();">
+
+</td>
+</tr>
+<tr><td align="right">© <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> Manheim All Rights Reserved</td></tr>
+</table>
+
+<!-- tracking tag - DO NOT REMOVE -->
+
+<script language="javascript" type="text/javascript">
+<!--
+var gDomain="statse.webtrendslive.com";
+var gDcsId="dcs2kn42a10000kvhqbus53pb_7f8s";
+var gFpc="WT_FPC";
+var gConvert=true;
+if ((typeof(gConvert)!="undefined")&&gConvert&&(document.cookie.indexOf(gFpc+"=")==-1)&&(document.cookie.indexOf("WTLOPTOUT=")==-1)){
+	document.write("<SCR"+"IPT TYPE='text/javascript' SRC='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\/SCR"+"IPT>");
+}
+//-->
+</script>
+
+<script language="javascript" src="javascript/webtrendsscript.js" type="text/javascript"></script>
+
+<noscript>
+       <img src="http://statse.webtrendslive.com/dcs2kn42a10000kvhqbus53pb_7f8s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" width="1" height="1" alt="" border="0" name="DCSIMG" />
+</noscript>
+
+</td></tr></table>
+</form>
+</body>
+</html>
+
+<!-- 
+ Server: tx-app01/10.145.11.21
+ App Name: ECRWeb
+ Version: 1.33
+ Build Date: Mon Jul 11 17:05:00 EDT 2011
+-->

@@ -1,0 +1,2075 @@
+Content-Type: multipart/related; start=<op.mhtml.1236378212713.71838a001823bdb0@192.168.1.114>; boundary=----------w8Pddaiq76gygYUFhmV4Zy
+Content-Location: https://mmsc400.manheim.com/MABEL/ECR2I.PGM?LOADIT=Y&SESSION=2777&LIBRLIST=*DEFAULT&VERSION=&SWO=1084436&SAUCI=BBAA&CLIENT=CYBER&CONFIGID=BUYER
+Subject: =?utf-8?Q?Condition=20Report?=
+MIME-Version: 1.0
+
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=ECR2I.htm
+Content-Type: text/html; charset=ISO-8859-1; name=ECR2I.htm
+Content-Id: <op.mhtml.1236378212713.71838a001823bdb0@192.168.1.114>
+Content-Location: https://mmsc400.manheim.com/MABEL/ECR2I.PGM?LOADIT=Y&SESSION=2777&LIBRLIST=*DEFAULT&VERSION=&SWO=1084436&SAUCI=BBAA&CLIENT=CYBER&CONFIGID=BUYER
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+<html>
+<head>
+   <title>Condition Report</title>
+
+   <link rel="stylesheet" href="css/shared.css" type="text/css">
+   <link rel="stylesheet" href="css/CYBER.css" type="text/css">
+   <link rel="stylesheet" href="css/CYBERBUYER.css" type="text/css">
+   
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+   var preload_list = new Array(
+      
+         
+            
+         
+         'archive/ECR/200903/BBAA/tn_large/1084436001.jpg'
+      
+         
+         ,'archive/ECR/200903/BBAA/tn_large/1084436002.jpg'
+      
+         
+         ,'archive/ECR/200903/BBAA/tn_large/1084436003.jpg'
+      
+      );
+   var path_to_images = "//mmsci.manheim.com/";
+   var myString;
+   var myTextarray;
+   var size = 0;
+
+   // preload (change path to images if necessary)
+   if (document.images)
+   {
+      var image_list = new Array();
+      for (var preload_counter = 0; preload_counter < preload_list.length; preload_counter++)
+      {
+         mystring = preload_list[preload_counter];
+         myTextarray = mystring.split('/');
+         size = (myTextarray.length);
+         path_to_images = "//mmsci.manheim.com/";
+         image_list[preload_counter] = new Image();
+         image_list[preload_counter].src = path_to_images + preload_list[preload_counter];   
+      }
+   }
+
+   var swapTimer;
+   // delay before restoring original image onmouseout
+   var restore_delay = 7000; // milliseconds
+   function swapImage(num)
+   {
+      clearTimeout(swapTimer);
+      if (document.images)
+      {
+         document.swap.src = image_list[num].src;
+      }
+   }
+
+   function restoreImg()
+   {
+      swapTimer = setTimeout( "swapImage(" + 0 + ")", restore_delay );
+   }
+   
+   function viewResizedImage(image){
+       popUrl = "//mmsc400.manheim.com/MABEL/displayImage.htm?imageUrl=" + image.src + "&noImageUrl=" + "//mmsc400.manheim.com/MABEL/images/no_image.jpg" ;
+       image_window = window.open(popUrl, "resizeImage", "width=439,height=390,scrollbars=0,location=0,toolbar=0");
+       image_window.focus();
+   }
+   function viewResizedThumbnail(imageUrl){
+       popUrl = "//mmsc400.manheim.com/MABEL/displayImage.htm?imageUrl=" + imageUrl + "&noImageUrl=" + "//mmsc400.manheim.com/MABEL/images/no_image.jpg" ;
+       image_window = window.open(popUrl, "resizeImage", "width=439,height=390,scrollbars=0,location=0,toolbar=0");
+       image_window.focus();
+   }
+</script>
+
+<!-- ALWAYS ON TOP FLOATING LAYER POP-UP -->
+
+<script language="JavaScript" type="text/javascript">
+<!-- Copyright 2003, Sandeep Gangadharan -->
+<!-- For more free scripts go to http://sivamdesign.com/scripts/ -->
+<!--
+var y1 = 20;   // change the # on the left to adjuct the Y co-ordinate
+(document.getElementById) ? dom = true : dom = false;
+
+function hideIt(theLayer) {
+  if (dom) {document.getElementById(theLayer).style.visibility='hidden';}
+  if (document.layers) {document.layers[theLayer].visibility='hide';} }
+
+function showIt(theLayer) {
+  if (dom) {document.getElementById(theLayer).style.visibility='visible';}
+  if (document.layers) {document.layers[theLayer].visibility='show';} }
+
+////function placeIt() {
+////  if (dom && !document.all) {document.getElementById("layer1").style.top = window.pageYOffset + (window.innerHeight - (window.innerHeight-y1))}
+////  if (document.layers) {document.layers["layer1"].top = window.pageYOffset + (window.innerHeight - (window.innerHeight-y1))}
+////  if (document.all) {document.all["layer1"].style.top = document.body.scrollTop + (document.body.clientHeight - (document.body.clientHeight-y1));}
+////  window.setTimeout("placeIt()", 10); }
+// -->
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" marginwidth="0">
+    <form name="ECR20" method="post" action="ECR2I.PGM">
+    
+<input type="hidden" name="SAUCI" value="BBAA">
+<input type="hidden" name="SWO" value="1084436">
+<input type="hidden" name="SBLU2" value="10566385">
+<input type="hidden" name="CLIENT" value="CYBER">
+<input type="hidden" name="CONFIGID" value="BUYER">
+<input type="hidden" name="ECRTYPE" value="L1">
+<input type="hidden" name="CACHEDATA" value="">
+<input type="hidden" name="GROUP" value="LSE"> 
+        <!--  PRINTABLE TABLE -->
+        <table summary="vehicleInfo" cellpadding="0" cellspacing="0" border="0"  id="printable" class="printable">
+            <tr>
+                <td align="center" valign="top">
+                    
+    <!-- PAGE HEADER TABLE -->
+   <table summary="headerTable" width="100%"  border="0" cellpadding="2" cellspacing="0">
+      <tr>
+         <td align="left" valign="top">
+
+
+
+ 
+	 
+	
+<img height="55" width="210" alt="logo" src="images/cybersuite_ecr.gif">
+	
+
+
+<br/><span class="ecrType"><font class="header18bold">Condition Report - L1</font></span></td>
+         <td align="right" valign="bottom" nowrap class="header18bold">
+
+
+
+
+	<td align="right" valign="bottom" nowrap class="header18bold" >
+		2002 BMW X5 4.6L 4.6IS&nbsp;-&nbsp;BLACK<br>
+    	<span class="label14">VIN: </span>
+	    <span class="data12">5UXFB93582LN78251</span>&nbsp;&nbsp;
+	    <span class="label14">Work Order #: </span>
+    	<span class="data12">1084436<br></span>
+	    <a class="info" href="#">
+    	Manheim Metro Atlanta
+	      <span>
+        	 &nbsp;2244 Metropolitan Pkwy SW<br>
+    	     &nbsp;Atlanta,&nbsp;GA&nbsp;30315-6229<br>
+	         
+        	 &nbsp;((40) 4)  - 767-3652
+    	     
+	      </span>
+    	</a>
+	</td>    
+</td>
+      </tr>
+      
+      <tr class="sectionDivider">
+         <td colspan="100%"><hr noshade color="#000000" /></td>
+      </tr>
+   </table>
+   <!-- PAGE HEADER TABLE END-->
+                    <table summary="vehicleInfo" width="100%" border="0" cellpadding="2" cellspacing="0">
+                        <tr>
+                            <td valign="top">
+                                   
+   
+   
+   
+   <!-- GENERAL INFORMATION TOP NESTED TABLE -->
+   <table width="100%" border="0" cellspacing="1" cellpadding="0" id="generalInformation">
+      <tr class="vin">
+         <td class="label12" valign="top">VIN:</td>
+         <td class="data12">5UXFB93582LN78251</td>
+      </tr>
+      <tr class="bodyStyle" valign="top">
+         <td class="label12">Body Style:</td>
+         <td class="data12">4CUV - Moon Roof</td>
+      </tr>
+      <tr class="extColor" valign="top">
+         <td class="label12">Ext Color/Code:</td>
+         <td class="data12">BLACK </td>
+      </tr>
+      
+      <tr class="intColor" valign="top">
+         <td class="label12">Int Color/Code:</td>
+         <td class="data12">BLK </td>
+      </tr>
+      
+      <tr class="mileage" valign="top">
+         <td class="label12">Mileage:&nbsp;</td>
+         <td class="data12">
+         
+         105,777
+         
+         &nbsp;</td>
+      </tr>
+      
+      <tr class="ecmMileage" valign="top">
+         <td class="label12">ECM Mileage:</td>
+         <td class="data12"></td>
+      </tr>
+      
+      
+      <tr class="seller" valign="top">
+         <td class="label12" valign="top">Seller:</td>
+         <td class="data12">PROFESSIONAL FINANCIAL SERVICES CORP</td>
+      </tr>
+   
+
+      
+      <tr class="titleState" valign="top">
+         <td class="label12">Title State:</td>
+         <td class="data12">GA</td>
+      </tr>
+      
+      <tr class="certified" valign="top">
+         <td class="label12">Certified:</td>
+         <td class="data12">No</td>
+      </tr>
+      <tr class="condition_grade" valign="top">
+         <td class="label12">Condition/Grade:</td>
+         <td class="data12"><!--<span class="condition">CL, --><span class="grade">4.0,&nbsp;Clean                      </span></td>
+      </tr>
+      
+      <tr class="saleNum" valign="top">
+         <td class="label12">Sale:</td>
+         <td class="data12">8</td>
+      </tr>
+      <tr class="laneNum" valign="top">
+         <td class="label12">Lane:</td>
+         <td class="data12">3</td>
+      </tr>
+      <tr class="runNum" valign="top">
+         <td class="label12">Run:</td>
+         <td class="data12">164</td>
+      </tr>
+      
+      <tr class="inspector" valign="top">
+         <td class="label12">Inspection:</td>
+         <td class="data12">CKEMP 02/20/2009</td>
+      </tr>
+      <tr class="cyberlot" valign="top">
+         <td class="label12">Cyberlot:</td>
+         <td class="data12">No</td>
+      </tr>
+      <tr class="driveable" valign="top">
+         <td class="label12">Drivable:</td>
+         <td class="data12">Yes</td>
+      </tr>
+      
+      
+      
+   </table>
+                            </td>
+                            <td rowspan="2" valign="top" align="right" nowrap="nowrap">
+                                
+	<table summary="thumbnails" border="0" cellpadding="0" cellspacing="3">
+		<tr valign="top">
+		
+		
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(0);restoreImg()"><img src="//mmsci.manheim.com/archive/ECR/200903/BBAA/tn_large/1084436001.jpg" onerror="javascript:this.src = '//mmsc400.manheim.com/MABEL/images/no_image_small.jpg';" alt="Overall Picture - Front" align="right" width="60" height="40" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+				
+			
+		
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(1);restoreImg()"><img src="//mmsci.manheim.com/archive/ECR/200903/BBAA/tn_large/1084436002.jpg" onerror="javascript:this.src = '//mmsc400.manheim.com/MABEL/images/no_image_small.jpg';" alt="Overall Picture - Rear" align="right" width="60" height="40" hspace="1" vspace="0" border="1"></a></td>
+								
+									</tr>
+									<tr>
+								
+									
+							
+						
+					
+				
+			
+				
+			
+		
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<td valign="top"><a href="#" onclick="swapImage(2);restoreImg()"><img src="//mmsci.manheim.com/archive/ECR/200903/BBAA/tn_large/1084436003.jpg" onerror="javascript:this.src = '//mmsc400.manheim.com/MABEL/images/no_image_small.jpg';" alt="Overall Picture - Interior" align="right" width="60" height="40" hspace="1" vspace="0" border="1"></a></td>
+								
+									
+							
+						
+					
+				
+			
+		
+		</tr>
+	</table>
+                            </td>
+                            <td rowspan="2" valign="top" align="right" nowrap="nowrap">
+                                
+
+   <table summary="image" cellpadding="0" cellspacing="0" border="0">
+   <tr valign="top">
+   <td align="left" valign="top">
+         <span class="notes">
+            <span class="data12"><img src="//mmsci.manheim.com/archive/ECR/200903/BBAA/tn_large/1084436001.jpg" onerror="javascript:this.src = '//mmsc400.manheim.com/MABEL/images/no_image.jpg';" name="swap" width="288" height="216" vspace="0" border="1" id="swap" onclick="viewResizedImage(this)" alt="mainImage"></span><br>
+         </span>
+   </td>
+   </tr>
+   
+   </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                    
+
+   <!-- VEHICLE INFORMATION TABLE -->
+   <table summary="vehicleInfo" width="100%"  border="0" cellpadding="1" cellspacing="0" id="vehicleInformation">
+      <tr>
+          <td class="content8" colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+         <td class="header18bold" colspan="3">VEHICLE INFORMATION</td>
+      </tr>
+      <tr class="sectionDivider">
+         <td colspan="100%"><hr noshade color="#000000" /></td>
+      </tr>
+      <tr><!-- 1st data row -->
+          <td valign="top">
+
+
+<table summary="mechanical" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="header14bold">MECHANICAL</td>
+    </tr>
+    <tr>
+        <td class="data10" valign="top">
+            
+               8 Cylinder Gas<br>
+            
+               Automatic<br>
+            
+               AWD<br>
+            
+               Pwr Brakes<br>
+            
+               4.6 L<br>
+            
+            <br>
+         </td>
+    </tr>
+</table>
+</td>
+          <td valign="top">
+
+
+<table summary="interior" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="header14bold">INTERIOR</td>
+    </tr>
+    <tr>
+        <td class="data10" valign="top">
+        
+            Odometer - 6 Digits Digital Operable<br>
+            
+            
+               Clean<br>
+            
+               BLK - Leather<br>
+            
+               Int Odor: OK<br>
+            
+               Regular Dash<br>
+            
+            <br>
+         </td>
+    </tr>
+</table></td>
+          <td rowspan="3" valign="top">
+
+
+<table  summary="options" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr>
+      <td class="header14bold" colspan="2">OPTIONS</td>
+   </tr>
+   <tr>
+      <td class="data10" valign="top">
+         <table summary="optionsData">
+            <tr>
+               <td valign="top" class="data10">
+                  
+                     
+                        Pwr Lock<br>
+                     
+                  
+                     
+                  
+                     
+                        Pwr Window<br>
+                     
+                  
+                     
+                  
+                     
+                        Tilt Steering<br>
+                     
+                  
+                     
+                  
+                     
+                        Cruise Ctl<br>
+                     
+                  
+                     
+                  
+                     
+                        Tape/CD<br>
+                     
+                  
+                     
+                  
+                     
+                        Dual Air Bags<br>
+                     
+                  
+                     
+                  
+                     
+                        ABS Brakes<br>
+                     
+                  
+                     
+                  
+                     
+                        Trip Counter<br>
+                     
+                  
+                     
+                  
+                     
+                        CD Changer - FACTORY - 6.00<br>
+                     
+                  
+                     
+                  
+                     
+                        Security System<br>
+                     
+                  
+                     
+                  
+                     
+                        Dual Air Conditioning<br>
+                     
+                  
+                     
+                  
+                     
+                        Heated Seats<br>
+                     
+                  
+                     
+                  
+                     
+                        Memory Seat<br>
+                     
+                  
+                     
+                  
+                     
+                        Navigation System<br>
+                     
+                  
+                     
+                  
+                  <br>
+               </td>
+               <td>&nbsp;&nbsp;&nbsp;</td>
+               <td valign="top" class="data10">
+                  
+                     
+                  
+                     
+                        Pwr Steering<br>
+                     
+                  
+                     
+                  
+                     
+                        Pwr Seats - Both<br>
+                     
+                  
+                     
+                  
+                     
+                        A/C<br>
+                     
+                  
+                     
+                  
+                     
+                        Rear Defrost<br>
+                     
+                  
+                     
+                  
+                     
+                        Side Air Bags<br>
+                     
+                  
+                     
+                  
+                     
+                        Power Mirrors<br>
+                     
+                  
+                     
+                  
+                     
+                        Tinted Windows<br>
+                     
+                  
+                     
+                  
+                     
+                        Rear Air Conditioning<br>
+                     
+                  
+                     
+                  
+                     
+                        Luggage Rack<br>
+                     
+                  
+                     
+                  
+                     
+                        Steering Wheel Audio Control<br>
+                     
+                  
+                     
+                  
+                     
+                        HomeLink<br>
+                     
+                  
+                     
+                  
+                     
+                        Heated Rear Seats<br>
+                     
+                  
+                     
+                  
+                     
+                        DVD with Screen<br>
+                     
+                  
+                     
+                  
+                     
+                        Headphones<br>
+                     
+                  
+                  <br>
+               </td>
+            </tr>
+         </table>
+      </td>
+   </tr>
+</table>
+</td>
+      </tr>
+      <tr><!--  2cnd data row -->
+          <td valign="top">
+
+
+<table summary="fluids"  width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="header14bold" valign="top" colspan="2">FLUID LEVELS</td>
+    </tr>
+    <tr> 
+        <td valign="top" class="data10" colspan="2">
+            
+               Fuel Level: Unknown<br>
+            
+            &nbsp;<br>
+        </td>
+    </tr>
+</table>
+</td>
+          <td valign="top">&nbsp;</td>
+      </tr>
+      <tr><!--  3rd data row -->
+          <td valign="top">
+
+
+<table summary="tires" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="header14bold" valign="top" nowrap="nowrap">TIRES AND WHEELS</td>
+    </tr>
+    <tr>
+        <td class="label10" valign="top">
+        
+        <table border="0" cellpadding="0" cellspacing="1">
+            <tr class="tiresheading">
+					<td align="left" nowrap="nowrap">Tire</td>
+					<td align="center" nowrap="nowrap">Tread Depth</td>
+					<td align="center" nowrap="nowrap">Brand</td>
+					<td align="center" nowrap="nowrap">Size</td>
+				</tr>
+				<!--  Tire Data is the TireWheelDetails object -->
+            
+				
+				<tr class="data10" valign="top"><td width="115" align="left" colspan="1">Left Front:</td><td align="center" >8/32"</td><td align="center" >MICHELIN&nbsp;</td><td nowrap="nowrap">275/40R20&nbsp;</td></tr>
+				
+				
+				
+				
+						
+				
+				    
+				     
+				     
+				     
+				     
+				     				     
+				     
+				     
+				     
+
+	            
+				
+				
+				
+				<tr  class="data10" valign="top">
+					<td width="115" align="left" colspan="1">Left Rear:</td><td align="center" >6/32"</td><td align="center" >DUNLOP&nbsp;</td><td nowrap="nowrap">275/40R20&nbsp;</td>
+				</tr>
+				
+				
+						
+				
+				    
+				     
+				     
+				     
+				     
+				     				     
+				     
+				     
+				     
+
+	            
+				
+				
+				<tr class="data10" valign="top">
+					<td width="115" align="left" colspan="1" >Right Front:</td><td align="center" >5/32"</td><td align="center" >MICHELIN&nbsp;</td><td nowrap="nowrap">275/40R20&nbsp;</td>
+				</tr>
+				
+				
+				
+						
+				
+				    
+				     
+				     
+				     
+				     
+				     				     
+				     
+				     
+				     
+
+	            
+				
+				
+				
+				
+				<tr class="data10" valign="top">
+					<td width="115" align="left" colspan="1">Right Rear:</td><td align="center" >6/32"</td><td align="center" >DUNLOP&nbsp;</td><td nowrap="nowrap">275/40R20&nbsp;</td>
+				</tr>
+				
+						
+				
+				    
+				     
+				     
+				     
+				     
+				     				     
+				     
+				     
+				     
+
+	            
+				
+				
+				
+				
+				
+				<tr class="data10" valign="top">
+					<td width="115" align="left" colspan="1">Spare:</td><td align="center" >0/32"</td><td align="center">&nbsp;</td><td>&nbsp;</td>
+				</tr>
+						
+				
+				    
+				     
+				     
+				     
+				     
+				     				     
+				     
+				     
+				     
+
+	            
+				
+				
+				
+				<tr class="data10" valign="top">
+					<td align="left" colspan="4" ><b>Tire Condition:</b>&nbsp;Average</td>
+				</tr>
+				
+				
+				<tr class="data10" valign="top">
+					<td align="left" colspan="4" ><b>Wheels:</b>&nbsp; Alloy</td>
+				</tr>
+				
+				</table>
+				
+         </td>
+    </tr>
+</table>
+</td>
+          <td valign="top">
+
+
+<table summary="keys" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+         <td class="header14bold" valign="top">KEYS</td>
+    </tr>
+    <tr>
+         <td class="data10" valign="top">
+            
+               Master Key - 1<br>
+            
+            &nbsp;
+         </td>
+    </tr>
+</table>
+</td>
+      </tr>
+      <tr>
+          <td class="content8" colspan="3">&nbsp;</td>
+      </tr>
+   </table>
+                    <!-- CONDITION TABLE -->
+                    
+
+
+<!-- CONDITION TABLE -->
+<table width="100%"  border="0" cellpadding="1" cellspacing="0" id="conditions">
+   <tr class="sectionDivider">
+      <td colspan="100%"><hr noshade color="#000000" /></td>
+   </tr>
+   <tr class="announcements">
+      <td class="header14bold" valign="top">
+         ANNOUNCED CONDITION: 
+         <font color="#666666">MILES OVER</font>
+      </td>
+   </tr>
+   <tr class="internetRemarks">
+      <td class="header14bold" valign="top">
+         INTERNET REMARKS:
+         <font color="#666666"></font>
+      </td>
+   </tr>
+   <tr class="additionalRemarks">
+      <td class="header14bold" valign="top">
+         REMARKS/ADDITIONAL DAMAGE:
+         <font color="#666666"></font>
+      </td>
+   </tr>
+   <tr class="disclosures">
+      <td class="header14bold" valign="top">
+         DISCLOSURES:
+         <font color="#666666">COOLANT OK</font>
+      </td>
+   </tr>
+   <tr class="consignorNotes">
+      <td class="header14bold" valign="top">
+         NOTES TO CONSIGNOR: 
+         <font color="#666666"></font>
+      </td>
+   </tr>
+   <tr class="consignorRemarks">
+      <td class="header14bold" valign="top">
+         REMARKS: 
+         <font color="#666666"></font>
+      </td>
+   </tr>
+   <tr class="consignorComments">
+      <td class="header14bold" valign="top">
+         COMMENTS FOR CONSIGNOR:
+         <font color="#666666">NO RECON, COOLANT OK</font>
+      </td>
+   </tr>
+   
+</table>
+                    <br>
+                    <div style="page-break-after:always;">&nbsp;</div>
+                    
+    <!-- PAGE HEADER TABLE -->
+   <table summary="headerTable" width="100%"  border="0" cellpadding="2" cellspacing="0">
+      <tr>
+         <td align="left" valign="top">&nbsp;</td>
+         <td align="right" valign="bottom" nowrap class="header18bold">
+
+
+
+
+	<td align="right" valign="bottom" nowrap class="header18bold" >
+		2002 BMW X5 4.6L 4.6IS&nbsp;-&nbsp;BLACK<br>
+    	<span class="label14">VIN: </span>
+	    <span class="data12">5UXFB93582LN78251</span>&nbsp;&nbsp;
+	    <span class="label14">Work Order #: </span>
+    	<span class="data12">1084436<br></span>
+	    <a class="info" href="#">
+    	Manheim Metro Atlanta
+	      <span>
+        	 &nbsp;2244 Metropolitan Pkwy SW<br>
+    	     &nbsp;Atlanta,&nbsp;GA&nbsp;30315-6229<br>
+	         
+        	 &nbsp;((40) 4)  - 767-3652
+    	     
+	      </span>
+    	</a>
+	</td>    
+</td>
+      </tr>
+      
+      <tr class="sectionDivider">
+         <td colspan="100%"><hr noshade color="#000000" /></td>
+      </tr>
+   </table>
+   <!-- PAGE HEADER TABLE END-->
+                    <!-- CHARGABLE section -->
+                    
+                    <!--  DAMAGES section -->
+                    
+
+
+
+<table summary="damage" class="damages" width="100%" border="0" cellpadding="1" cellspacing="0" id="damages">
+   <tr>
+      <td colspan="100%" class="header14bold">DAMAGES</td>
+   </tr>
+   <tr>
+      <td class="header12bold" valign="bottom" align="left">&nbsp;</td>
+      <td class="header12bold" valign="bottom" align="left">DESCRIPTION</td>
+      <td class="header12bold" valign="bottom" align="left">CONDITION</td>
+      <td class="header12bold" valign="bottom" align="left">SEVERITY</td>
+      <td class="header12bold" valign="bottom" align="right">REPAIR<br>HOURS</td>
+      <td class="header12bold" valign="bottom" align="right">PAINT<br>HOURS</td>
+      <td class="header12bold" valign="bottom" align="right">PART<br>HOURS</td>
+      <td class="header12bold" valign="bottom" align="right">TOTAL<br>HOURS</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">Front Bumper</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">Less 1&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">Hood</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">Less 1&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">4.20</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">4.20</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">LF Fender</td>
+      <td class="data12" align="left">Dent</td>
+      <td class="data12" align="left">3&#034; to 4&#034;</td>      
+      <td class="data12" align="right">1.50</td>
+      <td class="data12" align="right">2.80</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">4.30</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">LF Door</td>
+      <td class="data12" align="left">Scratched</td>
+      <td class="data12" align="left">4&#034; to 5&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">LR Door</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">3&#034; to 4&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">L Qtr Panel</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">3&#034; to 4&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">RF Fender</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">2&#034; to 3&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">2.80</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">2.80</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">R Qtr Panel</td>
+      <td class="data12" align="left">Scratches</td>
+      <td class="data12" align="left">3&#034; to 4&#034;</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">3.10</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">3.10</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">LR Speaker Cove</td>
+      <td class="data12" align="left">Missing</td>
+      <td class="data12" align="left">Replacement Req</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td class="data12" align="center">
+         
+      </td>
+      <td class="data12" align="left">Oil</td>
+      <td class="data12" align="left">Dirty</td>
+      <td class="data12" align="left">Unacceptable</td>      
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+      <td class="data12" align="right">.00</td>
+   </tr>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <tr>
+      <td align="center" class="data12" colspan="3">&nbsp;</td>
+      <td class="header12bold" align="right">TOTALS</td>
+      <td align="right" class="data12">1.50</td>
+      <td align="right" class="data12">12.90</td>
+      <td align="right" class="data12">.00</td>
+      <td align="right" class="data12">14.40</td>
+   </tr>
+   
+   <tr>
+      <td colspan="100%">&nbsp;</td>
+   </tr>
+   <!-- If no repaired items then don't show the section-->
+   
+   
+</table>
+                    <!--  CONDITION RATINGS -->
+                    
+
+
+
+                    <!--  Footer RATINGS -->
+                </td>
+                <tr>
+                <td>
+                    
+<script language="JavaScript">
+function submitEmail()
+{
+	window.location = "/MABEL/emailECR.htm?SAUCI=BBAA&SWO=1084436&CLIENT=CYBER&CONFIGID=BUYER&ECRTYPE=L1";
+}
+</script>
+
+<table summary="footer" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr>
+<td align="center">
+<span class="formSubmit"><input id="submit" type="submit" value="Submit"></span>
+<input type="button" value="Print" id="Print" onclick="window.print();">
+
+</td>
+</tr>
+</table>
+<!-- tracking tag - DO NOT REMOVE -->
+
+<script language="javascript" type="text/javascript">
+<!--
+var gDomain="statse.webtrendslive.com";
+var gDcsId="dcsyg3n5l00000oiq766izfwi_2g6f";
+var gFpc="WT_FPC";
+var gConvert=true;
+if ((typeof(gConvert)!="undefined")&&gConvert&&(document.cookie.indexOf(gFpc+"=")==-1)&&(document.cookie.indexOf("WTLOPTOUT=")==-1)){
+document.write("<SCR"+"IPT TYPE='text/javascript' SRC='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\/SCR"+"IPT>"); }
+//-->
+</script>
+
+<script language="javascript" src="javascript/webtrendsscript_v2.js" type="text/javascript"></script>
+
+<noscript>
+<img src="http://statse.webtrendslive.com/dcsyg3n5l00000oiq766izfwi_2g6f/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" width="1" height="1" alt="" border="0" name="DCSIMG" />
+</noscript>
+
+
+                </td>
+                </tr>
+        </table>
+        <br>
+    </form>
+    
+</body>
+</html>
+    
+<!-- 
+ Server: tx-app07/10.145.11.27
+ App Name: ECRWeb
+ Version: 1.20
+ Build Date: Fri Feb 27 12:41:00 EST 2009
+-->
+
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=shared.css
+Content-Type: text/css; charset=ISO-8859-1; name=shared.css
+Content-Location: https://mmsc400.manheim.com/MABEL/css/shared.css
+Content-Transfer-Encoding: 8bit
+
+@media screen {
+    table.printable {
+        width: 720;
+    }
+}
+
+@media print {
+    table.printable {
+        width: 640;
+    }
+	body {
+		left: 0px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	    margin-left: 1px;
+	    margin-right 1px;
+        margin: 0px;
+    }
+	img.printme {width:636} 
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin: 0px;
+}
+
+a: {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000cc
+}
+
+a:visited {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000cc
+}
+
+a:active {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000cc
+}
+
+a:hover {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000
+}
+
+a.info {
+    position: relative;;
+    z-index: 24;
+    color: #000066;
+    text-decoration: none;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px
+}
+
+a.info:hover {
+    z-index: 25;
+    background-color: #cccccc
+}
+
+a.info span {
+    display: none
+}
+
+a.info:hover span {
+    display: block;
+    position: absolute;
+    top: 2em;;
+    right: 0em;
+    width: 20em;
+    margin-left: 2px;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+    color: #00000;;
+    text-align: left
+}
+
+div #counter {
+    margin-top: 100px
+}
+
+.notes {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000
+}
+
+.greyHR {
+    background-color: #666666
+}
+
+.auctionInfo {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: #000066
+}
+
+.label10 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold
+}
+
+.label12 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold
+}
+
+.label14 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold
+}
+
+.content8 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 8px
+}
+
+.content10 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px
+}
+
+.data10 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: #333333;
+    font-weight: normal
+}
+
+.data12 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    font-weight: normal
+}
+
+.data14 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333
+}
+
+.header10bold {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold
+}
+
+.header12bold {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold
+}
+
+.header14bold {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold
+}
+
+.header16bold {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold
+}
+
+.header18bold {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold
+}
+.header18 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+.pageBreak {
+	page-break-after:always;
+}
+
+.error12Red {
+	font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: red;
+    font-weight: bold
+}
+
+.error10Red {
+	font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: red;
+    font-weight: bold
+}
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=CYBER.css
+Content-Type: text/css; charset=ISO-8859-1; name=CYBER.css
+Content-Location: https://mmsc400.manheim.com/MABEL/css/CYBER.css
+Content-Transfer-Encoding: 8bit
+
+.consignorComments {
+	display:none;
+}
+.formSubmit {
+    display: none;
+}
+
+.sectionDivider{
+    display:none;
+}
+
+.ecrType{
+    display:none;
+}
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=CYBERBUYER.css
+Content-Type: text/css; charset=ISO-8859-1; name=CYBERBUYER.css
+Content-Location: https://mmsc400.manheim.com/MABEL/css/CYBERBUYER.css
+Content-Transfer-Encoding: 8bit
+
+.mmrValue{
+	display:none;
+}
+.receivedDate{
+	display:none;
+}
+.leaseAccount{
+	display: none;
+}
+.invoicePrice{
+	display: none;
+}
+.charges {
+    display: none;
+}
+.consignorNotes{
+    display: none;
+}
+
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=cybersuite_ecr.gif
+Content-Type: image/gif; name=cybersuite_ecr.gif
+Content-Location: https://mmsc400.manheim.com/MABEL/images/cybersuite_ecr.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODdh1AA3APcAAAAAAAAAVQAAqgAA/wAkAAAkVQAkqgAk/wBJAABJVQBJqgBJ
+/wBtAABtVQBtqgBt/wCSAACSVQCSqgCS/wC2AAC2VQC2qgC2/wDbAADbVQDbqgDb
+/wD/AAD/VQD/qgD//yQAACQAVSQAqiQA/yQkACQkVSQkqiQk/yRJACRJVSRJqiRJ
+/yRtACRtVSRtqiRt/ySSACSSVSSSqiSS/yS2ACS2VSS2qiS2/yTbACTbVSTbqiTb
+/yT/ACT/VST/qiT//0kAAEkAVUkAqkkA/0kkAEkkVUkkqkkk/0lJAElJVUlJqklJ
+/0ltAEltVUltqklt/0mSAEmSVUmSqkmS/0m2AEm2VUm2qkm2/0nbAEnbVUnbqknb
+/0n/AEn/VUn/qkn//20AAG0AVW0Aqm0A/20kAG0kVW0kqm0k/21JAG1JVW1Jqm1J
+/21tAG1tVW1tqm1t/22SAG2SVW2Sqm2S/222AG22VW22qm22/23bAG3bVW3bqm3b
+/23/AG3/VW3/qm3//5IAAJIAVZIAqpIA/5IkAJIkVZIkqpIk/5JJAJJJVZJJqpJJ
+/5JtAJJtVZJtqpJt/5KSAJKSVZKSqpKS/5K2AJK2VZK2qpK2/5LbAJLbVZLbqpLb
+/5L/AJL/VZL/qpL//7YAALYAVbYAqrYA/7YkALYkVbYkqrYk/7ZJALZJVbZJqrZJ
+/7ZtALZtVbZtqrZt/7aSALaSVbaSqraS/7a2ALa2Vba2qra2/7bbALbbVbbbqrbb
+/7b/ALb/Vbb/qrb//9sAANsAVdsAqtsA/9skANskVdskqtsk/9tJANtJVdtJqttJ
+/9ttANttVdttqttt/9uSANuSVduSqtuS/9u2ANu2Vdu2qtu2/9vbANvbVdvbqtvb
+/9v/ANv/Vdv/qtv///8AAP8AVf8Aqv8A//8kAP8kVf8kqv8k//9JAP9JVf9Jqv9J
+//9tAP9tVf9tqv9t//+SAP+SVf+Sqv+S//+2AP+2Vf+2qv+2///bAP/bVf/bqv/b
+////AP//Vf//qv///yH5BAAAAAAALAAAAADUADcAQAj/AP8JHEiwoMGDCBMqXMiw
+ocOHECNKnEiRorZs+qrBalUtW72P9aqFHFktX7181aAxalSSWixrEmGxgsWIEbSH
+KmkyqlYxYrWa+noKHToxW7ZosfIpzRetZLal2LLxo9XGki2rtvplw6f0aT5Y0PLh
+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
+
+------------w8Pddaiq76gygYUFhmV4Zy
+Content-Disposition: inline; filename=webtrendsscript_v2.js
+Content-Type: text/javascript; charset=ISO-8859-1; name=webtrendsscript_v2.js
+Content-Location: https://mmsc400.manheim.com/MABEL/javascript/webtrendsscript_v2.js
+Content-Transfer-Encoding: 8bit
+
+<!-- START OF SDC Advanced Tracking Code -->
+<!-- Copyright (c) 1996-2005 WebTrends Inc.  All rights reserved. -->
+<!-- $DateTime: 2006/03/08 11:31:03 $ -->
+<!-- 02/21 GC updated gFPCDom for cookie tracking -->
+<!-- 05/29 AH commented out gFPCDom to ensure default cookie tracking functionality -->
+
+var gService = true;
+var gTimeZone = -5;
+// Code section for Enable First-Party Cookie Tracking
+function dcsCookie(){
+	if (typeof(dcsOther)=="function"){
+		dcsOther();
+	}
+	else if (typeof(dcsPlugin)=="function"){
+		dcsPlugin();
+	}
+	else if (typeof(dcsFPC)=="function"){
+		dcsFPC(gTimeZone);
+	}
+}
+function dcsGetCookie(name){
+	var pos=document.cookie.indexOf(name+"=");
+	if (pos!=-1){
+		var start=pos+name.length+1;
+		var end=document.cookie.indexOf(";",start);
+		if (end==-1){
+			end=document.cookie.length;
+		}
+		return unescape(document.cookie.substring(start,end));
+	}
+	return null;
+}
+function dcsGetCrumb(name,crumb){
+	var aCookie=dcsGetCookie(name).split(":");
+	for (var i=0;i<aCookie.length;i++){
+		var aCrumb=aCookie[i].split("=");
+		if (crumb==aCrumb[0]){
+			return aCrumb[1];
+		}
+	}
+	return null;
+}
+function dcsGetIdCrumb(name,crumb){
+	var cookie=dcsGetCookie(name);
+	var id=cookie.substring(0,cookie.indexOf(":lv="));
+	var aCrumb=id.split("=");
+	for (var i=0;i<aCrumb.length;i++){
+		if (crumb==aCrumb[0]){
+			return aCrumb[1];
+		}
+	}
+	return null;
+}
+function dcsFPC(offset){
+	if (typeof(offset)=="undefined"){
+		return;
+	}
+	if (document.cookie.indexOf("WTLOPTOUT=")!=-1){
+		return;
+	}
+	var name=gFpc;
+	var dCur=new Date();
+	var adj=(dCur.getTimezoneOffset()*60000)+(offset*3600000);
+	dCur.setTime(dCur.getTime()+adj);
+	var dExp=new Date(dCur.getTime()+315360000000);
+	var dSes=new Date(dCur.getTime());
+	WT.co_f=WT.vt_sid=WT.vt_f=WT.vt_f_a=WT.vt_f_s=WT.vt_f_d=WT.vt_f_tlh=WT.vt_f_tlv="";
+	if (document.cookie.indexOf(name+"=")==-1){
+		if ((typeof(gWtId)!="undefined")&&(gWtId!="")){
+			WT.co_f=gWtId;
+		}
+		else if ((typeof(gTempWtId)!="undefined")&&(gTempWtId!="")){
+			WT.co_f=gTempWtId;
+			WT.vt_f="1";
+		}
+		else{
+			WT.co_f="2";
+			var cur=dCur.getTime().toString();
+			for (var i=2;i<=(32-cur.length);i++){
+				WT.co_f+=Math.floor(Math.random()*16.0).toString(16);
+			}
+			WT.co_f+=cur;
+			WT.vt_f="1";
+		}
+		if (typeof(gWtAccountRollup)=="undefined"){
+			WT.vt_f_a="1";
+		}
+		WT.vt_f_s=WT.vt_f_d="1";
+		WT.vt_f_tlh=WT.vt_f_tlv="0";
+	}
+	else{
+		var id=dcsGetIdCrumb(name,"id");
+		var lv=parseInt(dcsGetCrumb(name,"lv"));
+		var ss=parseInt(dcsGetCrumb(name,"ss"));
+		if ((id==null)||(id=="null")||isNaN(lv)||isNaN(ss)){
+			return;
+		}
+		WT.co_f=id;
+		var dLst=new Date(lv);
+		WT.vt_f_tlh=Math.floor((dLst.getTime()-adj)/1000);
+		dSes.setTime(ss);
+		if ((dCur.getTime()>(dLst.getTime()+1800000))||(dCur.getTime()>(dSes.getTime()+28800000))){
+			WT.vt_f_tlv=Math.floor((dSes.getTime()-adj)/1000);
+			dSes.setTime(dCur.getTime());
+			WT.vt_f_s="1";
+		}
+		if ((dCur.getDay()!=dLst.getDay())||(dCur.getMonth()!=dLst.getMonth())||(dCur.getYear()!=dLst.getYear())){
+			WT.vt_f_d="1";
+		}
+	}
+	WT.co_f=escape(WT.co_f);
+	WT.vt_sid=WT.co_f+"."+(dSes.getTime()-adj);
+	var expiry="; expires="+dExp.toGMTString();
+	document.cookie=name+"="+"id="+WT.co_f+":lv="+dCur.getTime().toString()+":ss="+dSes.getTime().toString()+expiry+"; path=/"+(((typeof(gFpcDom)!="undefined")&&(gFpcDom!=""))?("; domain="+gFpcDom):(""));
+	if (document.cookie.indexOf(name+"=")==-1){
+		WT.co_f=WT.vt_sid=WT.vt_f_s=WT.vt_f_d=WT.vt_f_tlh=WT.vt_f_tlv="";
+		WT.vt_f=WT.vt_f_a="2";
+	}
+}
+
+
+// The individual First-Party Cookie domain will not be set to ensure default behavior and "New vs. Returning Visitor" metrics
+//var gFpcDom="";
+
+function dcsAdv(){
+	dcsFunc("dcsET");
+	dcsFunc("dcsCookie");
+	dcsFunc("dcsAdSearch");
+	dcsFunc("dcsTP");
+}
+<!-- END OF SDC Advanced Tracking Code -->
+
+var gImages=new Array;
+var gIndex=0;
+var DCS=new Object();
+var WT=new Object();
+var DCSext=new Object();
+var gQP=new Array();
+var gI18n=false;
+if (window.RegExp){
+	var RE={"%09":/\t/g,"%20":/ /g,"%23":/\#/g,"%26":/\&/g,"%2B":/\+/g,"%3F":/\?/g,"%5C":/\\/g,"%22":/\"/g,"%7F":/\x7F/g,"%A0":/\xA0/g};
+	var I18NRE={"%25":/\%/g};
+}
+
+// Begin customization
+function dcsOffsite(evt){
+	evt=evt||(window.event||"");
+	if (evt){
+		var e=dcsEvt(evt,"A");
+		if (e.hostname&&!dcsIsOnsite(e.hostname)){
+			var qry=e.search?e.search.substring(e.search.indexOf("?")+1,e.search.length):"";
+			if (qry.toUpperCase().indexOf("WT.SVL=")==-1){
+				WT.svl=dcsParseSvl(e.name?e.name.toString():(e.onclick?e.onclick.toString():""));
+			}
+			var path=e.pathname?((e.pathname.indexOf("/")!=0)?"/"+e.pathname:e.pathname):"/";
+			var trim=true;
+			dcsSaveHref(evt);
+			dcsMultiTrack("DCS.dcssip",e.hostname,"DCS.dcsuri",path,"DCS.dcsqry",trim?"":qry,"WT.ti","Offsite:"+e.hostname+path+qry,"WT.os","1");
+			DCS.dcssip=DCS.dcsuri=DCS.dcsqry=WT.ti=WT.svl=WT.os="";
+		}
+	}
+}
+
+function dcsDownload(evt){
+	evt=evt||(window.event||"");
+	if (evt){
+		var e=dcsEvt(evt,"A");
+		if (e.hostname&&dcsIsOnsite(e.hostname)){
+			var types="xls,doc,pdf,txt,csv,zip";
+			if (types.indexOf(e.pathname.substring(e.pathname.lastIndexOf(".")+1,e.pathname.length))!=-1){
+				var qry=e.search?e.search.substring(e.search.indexOf("?")+1,e.search.length):"";
+				if (qry.toUpperCase().indexOf("WT.SVL=")==-1){
+					WT.svl=dcsParseSvl(e.name?e.name.toString():(e.onclick?e.onclick.toString():""));
+				}
+				var path=e.pathname?((e.pathname.indexOf("/")!=0)?"/"+e.pathname:e.pathname):"/";
+				dcsSaveHref(evt);
+				dcsMultiTrack("DCS.dcssip",e.hostname,"DCS.dcsuri",path,"DCS.dcsqry",e.search||"","WT.ti","Download:"+(e.innerHTML||""),"WT.dl","1");
+				DCS.dcssip=DCS.dcsuri=DCS.dcsqry=WT.ti=WT.svl=WT.dl="";
+			}
+		}
+	}
+}
+
+function dcsRightClick(evt){
+	evt=evt||(window.event||"");
+	if (evt){
+		var btn=evt.which||evt.button;
+		if (btn!=1){
+			var e=evt.target||evt.srcElement;
+			if (dcsIsHttp(e)){
+				var types="xls,doc,pdf,txt,csv,zip";
+				if (types.indexOf(e.pathname.substring(e.pathname.lastIndexOf(".")+1,e.pathname.length))!=-1){
+					var path=e.pathname?((e.pathname.indexOf("/")!=0)?"/"+e.pathname:e.pathname):"/";
+					dcsSaveHref(evt);
+					dcsMultiTrack("DCS.dcssip",e.hostname,"DCS.dcsuri",path,"DCS.dcsqry","","WT.ti","Download:"+path,"WT.dl","1","WT.rc","1");
+					DCS.dcssip=DCS.dcsuri=WT.ti=WT.dl=WT.rc="";
+				}
+			}
+		}
+	}
+}
+
+
+// End customization
+
+function dcsVar(){
+	var dCurrent=new Date();
+	WT.tz=dCurrent.getTimezoneOffset()/60*-1;
+	if (WT.tz==0){
+		WT.tz="0";
+	}
+	WT.bh=dCurrent.getHours();
+	WT.ul=navigator.appName=="Netscape"?navigator.language:navigator.userLanguage;
+	if (typeof(screen)=="object"){
+		WT.cd=navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth;
+		WT.sr=screen.width+"x"+screen.height;
+	}
+	if (typeof(navigator.javaEnabled())=="boolean"){
+		WT.jo=navigator.javaEnabled()?"Yes":"No";
+	}
+	if (document.title){
+		WT.ti=gI18n?dcsEscape(dcsEncode(document.title),I18NRE):document.title;
+	}
+	WT.js="Yes";
+	WT.jv=dcsJV();
+	if (document.body&&document.body.addBehavior){
+		document.body.addBehavior("#default#clientCaps");
+		if (document.body.connectionType){
+			WT.ct=document.body.connectionType;
+		}
+		document.body.addBehavior("#default#homePage");
+		WT.hp=document.body.isHomePage(location.href)?"1":"0";
+	}
+	if (parseInt(navigator.appVersion)>3){
+		if ((navigator.appName=="Microsoft Internet Explorer")&&document.body){
+			WT.bs=document.body.offsetWidth+"x"+document.body.offsetHeight;
+		}
+		else if (navigator.appName=="Netscape"){
+			WT.bs=window.innerWidth+"x"+window.innerHeight;
+		}
+	}
+	WT.fi="No";
+	if (window.ActiveXObject){
+		for(var i=10;i>0;i--){
+			try{
+				var flash = new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);
+				WT.fi="Yes";
+				WT.fv=i+".0";
+				break;
+			}
+			catch(e){
+			}
+		}
+	}
+	else if (navigator.plugins&&navigator.plugins.length){
+		for (var i=0;i<navigator.plugins.length;i++){
+			if (navigator.plugins[i].name.indexOf('Shockwave Flash')!=-1){
+				WT.fi="Yes";
+				WT.fv=navigator.plugins[i].description.split(" ")[2];
+				break;
+			}
+		}
+	}
+	if (gI18n){
+		WT.em=(typeof(encodeURIComponent)=="function")?"uri":"esc";
+		if (typeof(document.defaultCharset)=="string"){
+			WT.le=document.defaultCharset;
+		} 
+		else if (typeof(document.characterSet)=="string"){
+			WT.le=document.characterSet;
+		}
+	}
+	WT.sp="@@SPLITVALUE@@";
+	DCS.dcsdat=dCurrent.getTime();
+	DCS.dcssip=window.location.hostname;
+	DCS.dcsuri=window.location.pathname;
+	if (window.location.search){
+		DCS.dcsqry=window.location.search;
+		if (gQP.length>0){
+			for (var i=0;i<gQP.length;i++){
+				var pos=DCS.dcsqry.indexOf(gQP[i]);
+				if (pos!=-1){
+					var front=DCS.dcsqry.substring(0,pos);
+					var end=DCS.dcsqry.substring(pos+gQP[i].length,DCS.dcsqry.length);
+					DCS.dcsqry=front+end;
+				}
+			}
+		}
+	}
+	if ((window.document.referrer!="")&&(window.document.referrer!="-")){
+		if (!(navigator.appName=="Microsoft Internet Explorer"&&parseInt(navigator.appVersion)<4)){
+			DCS.dcsref=gI18n?dcsEscape(window.document.referrer, I18NRE):window.document.referrer;
+		}
+	}
+}
+
+function dcsA(N,V){
+	return "&"+N+"="+dcsEscape(V, RE);
+}
+
+function dcsEscape(S, REL){
+	if (typeof(REL)!="undefined"){
+		var retStr = new String(S);
+		for (R in REL){
+			retStr = retStr.replace(REL[R],R);
+		}
+		return retStr;
+	}
+	else{
+		return escape(S);
+	}
+}
+
+function dcsEncode(S){
+	return (typeof(encodeURIComponent)=="function")?encodeURIComponent(S):escape(S);
+}
+
+function dcsCreateImage(dcsSrc){
+	if (document.images){
+		gImages[gIndex]=new Image;
+		if ((typeof(gHref)!="undefined")&&(gHref.length>0)){
+			gImages[gIndex].onload=gImages[gIndex].onerror=dcsLoadHref;
+		}
+		gImages[gIndex].src=dcsSrc;
+		gIndex++;
+	}
+	else{
+		document.write('<IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="'+dcsSrc+'">');
+	}
+}
+
+function dcsMeta(){
+	var elems;
+	if (document.all){
+		elems=document.all.tags("meta");
+	}
+	else if (document.documentElement){
+		elems=document.getElementsByTagName("meta");
+	}
+	if (typeof(elems)!="undefined"){
+		for (var i=1;i<=elems.length;i++){
+			var meta=elems.item(i-1);
+			if (meta.name){
+				if (meta.name.indexOf('WT.')==0){
+					WT[meta.name.substring(3)]=(gI18n&&(meta.name.indexOf('WT.ti')==0))?dcsEscape(dcsEncode(meta.content),I18NRE):meta.content;
+				}
+				else if (meta.name.indexOf('DCSext.')==0){
+					DCSext[meta.name.substring(7)]=meta.content;
+				}
+				else if (meta.name.indexOf('DCS.')==0){
+					DCS[meta.name.substring(4)]=(gI18n&&(meta.name.indexOf('DCS.dcsref')==0))?dcsEscape(meta.content,I18NRE):meta.content;
+				}
+			}
+		}
+	}
+}
+
+function dcsTag(){
+	if (document.cookie.indexOf("WTLOPTOUT=")!=-1){
+		return;
+	}
+	var P="http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://"+gDomain+(gDcsId==""?'':'/'+gDcsId)+"/dcs.gif?";
+	for (N in DCS){
+		if (DCS[N]) {
+			P+=dcsA(N,DCS[N]);
+		}
+	}
+	for (N in WT){
+		if (WT[N]) {
+			P+=dcsA("WT."+N,WT[N]);
+		}
+	}
+	for (N in DCSext){
+		if (DCSext[N]) {
+			P+=dcsA(N,DCSext[N]);
+		}
+	}
+	if (P.length>2048&&navigator.userAgent.indexOf('MSIE')>=0){
+		P=P.substring(0,2040)+"&WT.tu=1";
+	}
+	dcsCreateImage(P);
+}
+
+function dcsJV(){
+	var agt=navigator.userAgent.toLowerCase();
+	var major=parseInt(navigator.appVersion);
+	var mac=(agt.indexOf("mac")!=-1);
+	var nn=((agt.indexOf("mozilla")!=-1)&&(agt.indexOf("compatible")==-1));
+	var nn4=(nn&&(major==4));
+	var nn6up=(nn&&(major>=5));
+	var ie=((agt.indexOf("msie")!=-1)&&(agt.indexOf("opera")==-1));
+	var ie4=(ie&&(major==4)&&(agt.indexOf("msie 4")!=-1));
+	var ie5up=(ie&&!ie4);
+	var op=(agt.indexOf("opera")!=-1);
+	var op5=(agt.indexOf("opera 5")!=-1||agt.indexOf("opera/5")!=-1);
+	var op6=(agt.indexOf("opera 6")!=-1||agt.indexOf("opera/6")!=-1);
+	var op7up=(op&&!op5&&!op6);
+	var jv="1.1";
+	if (nn6up||op7up){
+		jv="1.5";
+	}
+	else if ((mac&&ie5up)||op6){
+		jv="1.4";
+	}
+	else if (ie5up||nn4||op5){
+		jv="1.3";
+	}
+	else if (ie4){
+		jv="1.2";
+	}
+	return jv;
+}
+
+function dcsFunc(func){
+	if (typeof(window[func])=="function"){
+		window[func]();
+	}
+}
+
+dcsVar();
+dcsMeta();
+dcsFunc("dcsAdv");
+dcsTag();
+
+
+------------w8Pddaiq76gygYUFhmV4Zy--
