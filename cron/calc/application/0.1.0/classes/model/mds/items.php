@@ -1,0 +1,89 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Model_MDS_Items extends Jelly_Model {
+
+   const DETALIS = 'detalis';
+
+   public static function initialize(Jelly_Meta $meta)
+   {
+      $meta->db(Database::$default)
+      ->table('mds_items')
+      ->fields(array(
+         'id' => new Field_Primary,
+         'parent_id' => new Field_Integer,
+         'year' => new Field_Integer,
+         'name' => new Field_String,
+         'url' => new Field_String,
+         'is_new' => new Field_Integer(array('default' => 1)),
+         'sold' => new Field_Integer(array('default' => 0)),
+         'date_added' => new Field_Timestamp(array(
+            'auto_now_create' => TRUE,
+            'format' => 'Y-m-d'
+         )),
+      ));
+   }
+
+   /**
+    * Поиск по условиюю
+    * 
+    * @param array $search
+    * @param Jelly_Builder $select
+    * @return Database_MySQL_Result object
+    */
+   public function search($search, Jelly_Builder $select)
+   {
+      if (! is_array($search))
+      {
+         throw new Kohana_Exception('Condition must be an array. :type given',
+            array(':type' => gettype($search)));
+      }
+
+      $sql  = (string) $select;
+      $sql .= ' HAVING (';
+      $sql .= '('.self::_build_like($search['condition']).')';
+
+      if (Arr::get($search, 'exception'))
+      {
+         $sql .= ' AND ('.self::_build_like($search['exception'], FALSE).')';
+      }
+
+      $sql .= ')';
+
+      // Debug::vars($sql);
+
+      return DB::query(Database::SELECT, $sql)->execute();
+   }
+
+   /**
+    * Возвращает строку условий отбора.
+    *
+    * на входе:
+    * foo|(bar,baz)
+    *
+    * на выходе:
+    * `detalis` LIKE|NOT LIKE '%foo%'
+    * OR (`detalis` LIKE '%bar%' AND `detalis` LIKE '%baz%')
+    *
+    * @param string $condition
+    * @return string
+    */
+   private static function _build_like($condition, $like = TRUE)
+   {
+      $pattern = array(
+         '/([a-z0-9-\s]+)/i',
+         '[,]',
+         '[\|]',
+         "['%]",
+      );
+
+      $replace = array(
+         "'%$1%'",
+         ' AND ',
+         ' OR ',
+         "`".self::DETALIS."` ".(! $like ? 'NOT' : '')." LIKE '%",
+      );
+
+      return preg_replace($pattern, $replace, $condition);
+   }
+
+}

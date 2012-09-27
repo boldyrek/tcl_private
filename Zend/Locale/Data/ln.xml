@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.49 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="ln"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="af">afrikГЎnsi</language>
+			<language type="afh">afrГ­hili</language>
+			<language type="ak">akan</language>
+			<language type="am">liamariki</language>
+			<language type="ar">liarabu</language>
+			<language type="as">liasame</language>
+			<language type="az">liazerbayani</language>
+			<language type="bai">nkГіtГЎ ya Bamileke</language>
+			<language type="be">belarusi</language>
+			<language type="bg">kibulgaria</language>
+			<language type="bh">libiyari</language>
+			<language type="bm">bambara</language>
+			<language type="bn">bengali</language>
+			<language type="br">breton</language>
+			<language type="bs">libosinia</language>
+			<language type="ca">katalani</language>
+			<language type="cs">litshЙ›ki</language>
+			<language type="cy">liwelesi</language>
+			<language type="da">lidanemark</language>
+			<language type="de">lialemani</language>
+			<language type="el">ligreki</language>
+			<language type="en">lingЙ›lЙ›МЃsa</language>
+			<language type="en_CA">lingЙ›lЙ›МЃsa (CA)</language>
+			<language type="eo">lisipelanto</language>
+			<language type="es">lispanyola</language>
+			<language type="et">liestonia</language>
+			<language type="eu">libaske</language>
+			<language type="fa">lipЙ›rsi</language>
+			<language type="fi">lifilandi</language>
+			<language type="fil">litagalog</language>
+			<language type="fo">lifarose</language>
+			<language type="fr">lifalansГ©</language>
+			<language type="fr_CA">lifalansГ© (CA)</language>
+			<language type="fy">lifrisi</language>
+			<language type="ga">lirlande</language>
+			<language type="gd">ligaeliki</language>
+			<language type="gl">ligalicia</language>
+			<language type="gn">ligwarani</language>
+			<language type="gu">liguzarati</language>
+			<language type="he">liyuda</language>
+			<language type="hi">lihindi</language>
+			<language type="hr">likroasia</language>
+			<language type="hu">liungaria</language>
+			<language type="hy">liarmenya</language>
+			<language type="ia">interlingua</language>
+			<language type="id">lindonesi</language>
+			<language type="ie">interlingue</language>
+			<language type="is">lislanda</language>
+			<language type="it">litaliano</language>
+			<language type="ja">liyapani</language>
+			<language type="jv">lizava</language>
+			<language type="ka">lizorzi</language>
+			<language type="kg">kikЙ”МЃngЙ”</language>
+			<language type="km">likambodia</language>
+			<language type="kn">kanada</language>
+			<language type="ko">likorea</language>
+			<language type="ku">likurdi</language>
+			<language type="ky">kirgizi</language>
+			<language type="la">kilatini</language>
+			<language type="ln">lingГЎla</language>
+			<language type="lo">lilao</language>
+			<language type="lt">lituani</language>
+			<language type="lua">ciluba</language>
+			<language type="lun">lunda</language>
+			<language type="lv">lilativa</language>
+			<language type="mk">limasedonia</language>
+			<language type="ml">limalayalami</language>
+			<language type="mn">limongoli</language>
+			<language type="mr">limarati</language>
+			<language type="ms">limalasi</language>
+			<language type="mt">limalta</language>
+			<language type="mul">nkГіtГЎ mГ­ngi</language>
+			<language type="ne">linepali</language>
+			<language type="nl">lifalamГЎ</language>
+			<language type="nn">linovezi-nynorsk</language>
+			<language type="no">linovezi</language>
+			<language type="oc">liosita</language>
+			<language type="or">oriya</language>
+			<language type="pa">lipunzabi</language>
+			<language type="pl">lipoloni</language>
+			<language type="ps">pashto</language>
+			<language type="pt">lipulutugЙ›МЃsi</language>
+			<language type="pt_BR">lipulutugЙ›МЃsi (Brazil)</language>
+			<language type="ro">lirumani</language>
+			<language type="ru">lirusi</language>
+			<language type="sa">indu-ya-kala</language>
+			<language type="sd">lisindi</language>
+			<language type="sg">sango</language>
+			<language type="sh">liserbokroata</language>
+			<language type="si">lisinalЙ›МЃsi</language>
+			<language type="sk">lisolovaki</language>
+			<language type="sl">lisoloveni</language>
+			<language type="so">lisomali</language>
+			<language type="sq">lialbania</language>
+			<language type="sr">liserbia</language>
+			<language type="st">Sotho ya Sidi</language>
+			<language type="su">lisundanЙ›МЃsi</language>
+			<language type="sv">liswГ©dwa</language>
+			<language type="sw">kiswahili</language>
+			<language type="ta">tamili</language>
+			<language type="te">litelegu</language>
+			<language type="th">thai</language>
+			<language type="ti">tigirinya</language>
+			<language type="tk">turkmen</language>
+			<language type="tlh">kilingoni</language>
+			<language type="tr">turk</language>
+			<language type="tw">twi</language>
+			<language type="ug">uighur</language>
+			<language type="uk">liukrenia</language>
+			<language type="und">lokГіtГЎ eyГ©bГЎmГ­ tЙ›МЃ</language>
+			<language type="ur">liurdu</language>
+			<language type="uz">liusibeki</language>
+			<language type="vi">livietnami</language>
+			<language type="xh">xhosa</language>
+			<language type="yi">yiddish</language>
+			<language type="zu">zulu</language>
+		</languages>
+		<scripts>
+			<script type="Arab">arabu</script>
+			<script type="Latn">latЙ›МЃ</script>
+			<script type="Zxxx">ekomГ­ tЙ›МЃ</script>
+			<script type="Zzzz">bokomi boyГ©bГЎmГ­ tЙ›МЃ</script>
+		</scripts>
+		<territories>
+			<territory type="001">mokili mobimba</territory>
+			<territory type="002">AfrГ­ka</territory>
+			<territory type="005">AmerГ­ka ya SГ­di</territory>
+			<territory type="011">AfrГ­ka ya lГ­mbe</territory>
+			<territory type="015">AfrГ­ka ya Nola</territory>
+			<territory type="018">AfrГ­ka ya SГ­di</territory>
+			<territory type="142">AzГ­a</territory>
+			<territory type="150">ErГіpa</territory>
+			<territory type="154">ErГіpa ya Nola</territory>
+			<territory type="155">ErГіpa ya lГ­mbe</territory>
+			<territory type="AD">Andora</territory>
+			<territory type="AF">AfganistГЎni</territory>
+			<territory type="AG">Antigua mpГ© Barbuda</territory>
+			<territory type="AO">AngГіla</territory>
+			<territory type="AR">Argentina</territory>
+			<territory type="AX">Albania</territory>
+			<territory type="BA">Bosnia na Erzegovina</territory>
+			<territory type="BD">BГЎngaladЙ›МЃsi</territory>
+			<territory type="BE">BЙ›МЃljika</territory>
+			<territory type="BF">Burkina Faso</territory>
+			<territory type="BG">Bulgaria</territory>
+			<territory type="BI">Burundi</territory>
+			<territory type="BR">BresГ­li</territory>
+			<territory type="BT">ButГЎni</territory>
+			<territory type="BW">Botswana</territory>
+			<territory type="BY">Bielorusia</territory>
+			<territory type="CA">KanadГЎ</territory>
+			<territory type="CD">KongГі-KinsГЎsГЎ</territory>
+			<territory type="CF">SantrafrГ­ka</territory>
+			<territory type="CG">KongГі-Brazzaville</territory>
+			<territory type="CH">Swisi</territory>
+			<territory type="CM">Kamerun</territory>
+			<territory type="CN">SГ­na</territory>
+			<territory type="CZ">Republiki Sheki</territory>
+			<territory type="DE">AlГ©mani</territory>
+			<territory type="DJ">Djibuti</territory>
+			<territory type="DZ">Aljeria</territory>
+			<territory type="EG">Ejipti</territory>
+			<territory type="EH">Sahara ya lГ­mbe</territory>
+			<territory type="ES">Espania</territory>
+			<territory type="ET">Etiopya</territory>
+			<territory type="FI">Finilanda</territory>
+			<territory type="FR">Falansia</territory>
+			<territory type="GB">IngЙ›lЙ›МЃtЙ›lЙ›</territory>
+			<territory type="GH">Ghana</territory>
+			<territory type="GI">Gibraltar</territory>
+			<territory type="GM">Gambia</territory>
+			<territory type="GN">Gine</territory>
+			<territory type="GR">Gresi</territory>
+			<territory type="GW">Gine-Bisau</territory>
+			<territory type="HR">Kroasia</territory>
+			<territory type="HU">Ungri</territory>
+			<territory type="ID">IndoneziГЎ</territory>
+			<territory type="IE">IrlandГ­</territory>
+			<territory type="IN">ЖђndЙ›</territory>
+			<territory type="IS">Islandi</territory>
+			<territory type="IT">Italia</territory>
+			<territory type="JO">ZordanГ­</territory>
+			<territory type="JP">Yapan</territory>
+			<territory type="KE">Kenya</territory>
+			<territory type="KG">KirghizistГЎni</territory>
+			<territory type="KI">KI</territory>
+			<territory type="KP">Kore ya Nola</territory>
+			<territory type="KR">Kore ya Sidi</territory>
+			<territory type="KZ">KazakstГЎni</territory>
+			<territory type="LB">Liban</territory>
+			<territory type="LR">Liberia</territory>
+			<territory type="LT">Litwani</territory>
+			<territory type="LU">Luksamburg</territory>
+			<territory type="LV">Letoni</territory>
+			<territory type="LY">LibГ­ya</territory>
+			<territory type="MK">Masedoni</territory>
+			<territory type="ML">Mali</territory>
+			<territory type="MN">MongolГ­</territory>
+			<territory type="MO">Makau</territory>
+			<territory type="MV">MadГ­vi</territory>
+			<territory type="MZ">MozambГ­ki</territory>
+			<territory type="NA">Namibia</territory>
+			<territory type="NE">NijГ©</territory>
+			<territory type="NG">Nijeria</territory>
+			<territory type="NL">Holanda</territory>
+			<territory type="NO">Norvej</territory>
+			<territory type="NP">NepГЎli</territory>
+			<territory type="PK">PakistГЎni</territory>
+			<territory type="PL">Poloni</territory>
+			<territory type="PT">Pulutugal</territory>
+			<territory type="RO">Rumania</territory>
+			<territory type="RU">RusГ­</territory>
+			<territory type="RW">Rwanda</territory>
+			<territory type="SD">Sudani</territory>
+			<territory type="SE">SwГ©si</territory>
+			<territory type="SH">Santu Helena</territory>
+			<territory type="SM">Santu Marino</territory>
+			<territory type="SO">Somalia</territory>
+			<territory type="ST">SЗЋo TomГ© na Principe</territory>
+			<territory type="SY">SirГ­</territory>
+			<territory type="TG">Togo</territory>
+			<territory type="TJ">TazikistГЎni</territory>
+			<territory type="TM">TurkmenistГЎni</territory>
+			<territory type="TN">Tunizia</territory>
+			<territory type="TR">TurkГ­</territory>
+			<territory type="TT">Trinidad mpГ© Tobago</territory>
+			<territory type="TW">Taiwan</territory>
+			<territory type="US">EtazГ­ni</territory>
+			<territory type="UZ">UzbekistГЎni</territory>
+			<territory type="VA">VatikГЎni</territory>
+			<territory type="VN">Vietnami</territory>
+			<territory type="YE">YemГ©ni</territory>
+			<territory type="ZA">SidafrГ­ka</territory>
+			<territory type="ZM">Zambia</territory>
+			<territory type="ZW">Zimbabwe</territory>
+			<territory type="ZZ">EsГ­kГЎ eyГ©bГЎmГ­ tЙ›МЃ</territory>
+		</territories>
+		<keys>
+			<key type="calendar">manГЎka</key>
+			<key type="collation">elandiseli</key>
+			<key type="currency">mbЙ”МЃngЙ”</key>
+		</keys>
+		<types>
+			<type type="gregorian" key="calendar">manГЎka ya Gregor</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">na mГ­li</measurementSystemName>
+			<measurementSystemName type="metric">na mЙ›МЃtЙ›lЙ›</measurementSystemName>
+		</measurementSystemNames>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[a ГЎ Гў ЗЋ b-e Г© ГЄ Д› Й› {Й›\u0301} {Й›\u0302} {Й›\u030C} f g {gb} h i Г­ Г® Зђ k-m {mb} {mp} n {nd} {ng} {nk} {ns} {nt} {nz} o Гі Гґ З’ Й” {Й”\u0301} {Й”\u0302} {Й”\u030C} p r-u Гє Г» З” v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[j q x]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[c f F]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>В«</quotationStart>
+		<quotationEnd>В»</quotationEnd>
+		<alternateQuotationStart>вЂњ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂќ</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">s1</month>
+							<month type="2">s2</month>
+							<month type="3">s3</month>
+							<month type="4">s4</month>
+							<month type="5">s5</month>
+							<month type="6">s6</month>
+							<month type="7">s7</month>
+							<month type="8">s8</month>
+							<month type="9">s9</month>
+							<month type="10">s10</month>
+							<month type="11">s11</month>
+							<month type="12">s12</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">sГЎnzГЎ ya yambo</month>
+							<month type="2">sГЎnzГЎ ya mГ­balГ©</month>
+							<month type="3">sГЎnzГЎ ya mГ­sГЎto</month>
+							<month type="4">sГЎnzГЎ ya mГ­nei</month>
+							<month type="5">sГЎnzГЎ ya mГ­tГЎno</month>
+							<month type="6">sГЎnzГЎ ya motГіbГЎ</month>
+							<month type="7">sГЎnzГЎ ya nsambo</month>
+							<month type="8">sГЎnzГЎ ya mwambe</month>
+							<month type="9">sГЎnzГЎ ya libwa</month>
+							<month type="10">sГЎnzГЎ ya zГіmi</month>
+							<month type="11">sГЎnzГЎ ya zГіmi na mЙ”МЊkЙ”МЃ</month>
+							<month type="12">sГЎnzГЎ ya zГіmi na mГ­balГ©</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">eye</day>
+							<day type="mon">m1</day>
+							<day type="tue">m2</day>
+							<day type="wed">m3</day>
+							<day type="thu">m4</day>
+							<day type="fri">m5</day>
+							<day type="sat">mps</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">eyenga</day>
+							<day type="mon">mokЙ”lЙ” ya libosГі</day>
+							<day type="tue">mokЙ”lЙ” ya mГ­balГ©</day>
+							<day type="wed">mokЙ”lЙ” ya mГ­sГЎto</day>
+							<day type="thu">mokЙ”lЙ” ya mГ­nГ©i</day>
+							<day type="fri">mokЙ”lЙ” ya mГ­tГЎno</day>
+							<day type="sat">mpЙ”МЃsЙ”</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">SM1</quarter>
+							<quarter type="2">SM2</quarter>
+							<quarter type="3">SM3</quarter>
+							<quarter type="4">SM4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">sГЎnzГЎ mГ­sГЎto ya yambo</quarter>
+							<quarter type="2">sГЎnzГЎ mГ­sГЎto ya mГ­balГ©</quarter>
+							<quarter type="3">sГЎnzГЎ mГ­sГЎto ya mГ­sГЎto</quarter>
+							<quarter type="4">sГЎnzГЎ mГ­sГЎto ya mГ­nei</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
+				<eras>
+					<eraNames>
+						<era type="0">libosГі ya Y.-K.</era>
+						<era type="1">nsima ya Y.-K.</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">libosГі ya Y.-K.</era>
+						<era type="1">nsima ya Y.-K.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, y MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>y MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="day">
+						<displayName>mokЙ”lЙ”</displayName>
+						<relative type="0">lЙ›lЙ”МЃ</relative>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<zone type="Africa/Kinshasa">
+				<exemplarCity>KinsГЎsГЎ</exemplarCity>
+			</zone>
+			<zone type="Africa/Bangui">
+				<exemplarCity>SantrafrГ­ka</exemplarCity>
+			</zone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>.</decimal>
+		</symbols>
+		<currencies>
+			<currency type="BEF">
+				<displayName>falГЎnga ya BЙ›МЃljika</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>falГЎnga ya Burundi</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>falГЎnga kongolГ©</displayName>
+				<symbol>F</symbol>
+			</currency>
+			<currency type="CHF">
+				<displayName>FalГЎnga ya Swisi</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>FalГЎnga ya Falansia</displayName>
+			</currency>
+			<currency type="XOF">
+				<displayName>FalГЎnga CFA BCEAO</displayName>
+			</currency>
+			<currency type="XPF">
+				<displayName>FalГЎnga CFP</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>mbЙ”МЃngЙ” eyГ©bГЎmГ­ tЙ›МЃ</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>
+

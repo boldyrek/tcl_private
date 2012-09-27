@@ -1,0 +1,1 @@
+ALTER TABLE `ccl_cars`  ADD COLUMN `counted` TINYINT(4) NOT NULL DEFAULT '0' AFTER `type`;

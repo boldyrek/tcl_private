@@ -1,0 +1,2544 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.112 $"/>
+		<generation date="$Date: 2009/05/05 23:06:40 $"/>
+		<language type="sl"/>
+	</identity>
+	<localeDisplayNames>
+		<localeDisplayPattern>
+			<localePattern>{0} ({1})</localePattern>
+			<localeSeparator>, </localeSeparator>
+		</localeDisplayPattern>
+		<languages>
+			<language type="aa">afarЕЎДЌina</language>
+			<language type="ab">abhaЕЎДЌina</language>
+			<language type="ace">aДЌejЕЎДЌina</language>
+			<language type="ach">aДЌolijЕЎДЌina</language>
+			<language type="ada">adangmejЕЎДЌina</language>
+			<language type="ady">adigejЕЎДЌina</language>
+			<language type="ae">avestijЕЎДЌina</language>
+			<language type="af">afrikanЕЎДЌina</language>
+			<language type="afa">afroazijski jezik</language>
+			<language type="afh">afrihili</language>
+			<language type="ain">ainujЕЎДЌina</language>
+			<language type="ak">akanЕЎДЌina</language>
+			<language type="akk">akadЕЎДЌina</language>
+			<language type="ale">aleutЕЎДЌina</language>
+			<language type="alg">algonkinski jezik</language>
+			<language type="alt">juЕѕna altajЕЎДЌina</language>
+			<language type="am">amharЕЎДЌina</language>
+			<language type="an">aragonЕЎДЌina</language>
+			<language type="ang">stara angleЕЎДЌina</language>
+			<language type="anp">angikaЕЎДЌina</language>
+			<language type="apa">apaЕЎki jezik</language>
+			<language type="ar">arabЕЎДЌina</language>
+			<language type="arc">aramejЕЎДЌina</language>
+			<language type="arn">aravkanЕЎДЌina</language>
+			<language type="arp">arapaЕЎДЌina</language>
+			<language type="art">umetni jezik</language>
+			<language type="arw">aravaЕЎДЌina</language>
+			<language type="as">asamЕЎДЌina</language>
+			<language type="ast">asturijЕЎДЌina</language>
+			<language type="ath">atabaЕЎki jezik</language>
+			<language type="aus">avstralski jezik</language>
+			<language type="av">avarЕЎДЌina</language>
+			<language type="awa">avadЕЎДЌina</language>
+			<language type="ay">ajmarЕЎДЌina</language>
+			<language type="az">azerbajdЕѕanЕЎДЌina</language>
+			<language type="ba">baЕЎkirЕЎДЌina</language>
+			<language type="bad">bandaЕЎki jezik</language>
+			<language type="bai">bamilekejski jezik</language>
+			<language type="bal">beludЕѕijЕЎДЌina</language>
+			<language type="ban">balijЕЎДЌina</language>
+			<language type="bas">basa</language>
+			<language type="bat">baltski jezik</language>
+			<language type="be">beloruЕЎДЌina</language>
+			<language type="bej">bedЕѕa</language>
+			<language type="bem">bemba</language>
+			<language type="ber">berberЕЎДЌina</language>
+			<language type="bg">bolgarЕЎДЌina</language>
+			<language type="bh">biharЕЎДЌina</language>
+			<language type="bho">bodЕѕpuri</language>
+			<language type="bi">bislamЕЎДЌina</language>
+			<language type="bik">bikolski jezik</language>
+			<language type="bin">edo</language>
+			<language type="bla">siksika</language>
+			<language type="bm">bambarЕЎДЌina</language>
+			<language type="bn">bengalЕЎДЌina</language>
+			<language type="bnt">bantujЕЎДЌina</language>
+			<language type="bo">tibetanЕЎДЌina</language>
+			<language type="br">bretonЕЎДЌina</language>
+			<language type="bra">bradЕѕbakanЕЎДЌina</language>
+			<language type="bs">bosanЕЎДЌina</language>
+			<language type="btk">bataЕЎki jezik</language>
+			<language type="bua">burjatЕЎДЌina</language>
+			<language type="bug">buginЕЎДЌina</language>
+			<language type="byn">blinЕЎДЌina</language>
+			<language type="ca">katalonЕЎДЌina</language>
+			<language type="cad">kadoЕЎДЌina</language>
+			<language type="cai">srednjeameriЕЎki indijanski jezik</language>
+			<language type="car">karibski jezik</language>
+			<language type="cau">kavkaЕЎki jezik</language>
+			<language type="ce">ДЌeДЌenЕЎДЌina</language>
+			<language type="ceb">sebuanЕЎДЌina</language>
+			<language type="cel">keltski jezik</language>
+			<language type="ch">ДЌamorЕЎДЌina</language>
+			<language type="chb">ДЌibДЌevЕЎДЌina</language>
+			<language type="chg">ДЌagatajЕЎДЌina</language>
+			<language type="chk">trukeЕЎДЌina</language>
+			<language type="chm">marijЕЎДЌina</language>
+			<language type="chn">ДЌinuЕЎki Еѕargon</language>
+			<language type="cho">ДЌoktavЕЎДЌina</language>
+			<language type="chp">ДЌipevЕЎДЌina</language>
+			<language type="chr">ДЌerokeЕЎДЌina</language>
+			<language type="chy">ДЌejenЕЎДЌina</language>
+			<language type="cmc">camski jezik</language>
+			<language type="co">korziЕЎДЌina</language>
+			<language type="cop">koptЕЎДЌina</language>
+			<language type="cpe">angleЕЎka kreolЕЎДЌina ali pidЕѕinЕЎДЌina</language>
+			<language type="cpf">francoska kreolЕЎДЌina ali pidЕѕinЕЎДЌina</language>
+			<language type="cpp">portugalska kreolЕЎДЌina ali pidЕѕinЕЎДЌina</language>
+			<language type="cr">krijЕЎДЌina</language>
+			<language type="crh">krimska tatarЕЎДЌina</language>
+			<language type="crp">kreolЕЎДЌina ali pidЕѕinЕЎДЌina</language>
+			<language type="cs">ДЌeЕЎДЌina</language>
+			<language type="csb">kaЕЎubЕЎДЌina</language>
+			<language type="cu">stara cerkvena slovanЕЎДЌina</language>
+			<language type="cus">kuЕЎitЕЎДЌina</language>
+			<language type="cv">ДЌuvaЕЎДЌina</language>
+			<language type="cy">valiЕѕanЕЎДЌina</language>
+			<language type="da">danЕЎДЌina</language>
+			<language type="dak">dakotЕЎДЌina</language>
+			<language type="dar">darginЕЎДЌina</language>
+			<language type="day">dajaЕЎДЌina</language>
+			<language type="de">nemЕЎДЌina</language>
+			<language type="de_CH">visoka nemЕЎДЌina (Е vica)</language>
+			<language type="del">delavarЕЎДЌina</language>
+			<language type="den">slavejЕЎДЌina</language>
+			<language type="dgr">dogrib</language>
+			<language type="din">dinka</language>
+			<language type="doi">dogri</language>
+			<language type="dra">dravidski jezik</language>
+			<language type="dsb">dolnja luЕѕiЕЎka srbЕЎДЌina</language>
+			<language type="dua">duala</language>
+			<language type="dum">srednja nizozemЕЎДЌina</language>
+			<language type="dv">diveЕЎДЌina</language>
+			<language type="dyu">diula</language>
+			<language type="dz">dzonka</language>
+			<language type="ee">evenЕЎДЌina</language>
+			<language type="efi">efiЕЎДЌina</language>
+			<language type="egy">stara egipДЌanЕЎДЌina</language>
+			<language type="eka">ekajuk</language>
+			<language type="el">grЕЎДЌina</language>
+			<language type="elx">elamЕЎДЌina</language>
+			<language type="en">angleЕЎДЌina</language>
+			<language type="en_GB">angleЕЎДЌina (VB)</language>
+			<language type="en_US">angleЕЎДЌina (ZDA)</language>
+			<language type="enm">srednja angleЕЎДЌina</language>
+			<language type="eo">esperanto</language>
+			<language type="es">ЕЎpanЕЎДЌina</language>
+			<language type="es_419">latinskoameriЕЎka ЕЎpanЕЎДЌina</language>
+			<language type="es_ES">iberska ЕЎpanЕЎДЌina</language>
+			<language type="et">estonЕЎДЌina</language>
+			<language type="eu">baskovЕЎДЌina</language>
+			<language type="ewo">evondovЕЎДЌina</language>
+			<language type="fa">perzijЕЎДЌina</language>
+			<language type="fan">fangijЕЎДЌina</language>
+			<language type="fat">fantijЕЎДЌina</language>
+			<language type="ff">fulЕЎДЌina</language>
+			<language type="fi">finЕЎДЌina</language>
+			<language type="fil">filipinЕЎДЌina</language>
+			<language type="fiu">ugrofinski jezik</language>
+			<language type="fj">fidЕѕijЕЎДЌina</language>
+			<language type="fo">ferЕЎДЌina</language>
+			<language type="fon">fonЕЎДЌina</language>
+			<language type="fr">francoЕЎДЌina</language>
+			<language type="frm">srednja francoЕЎДЌina</language>
+			<language type="fro">stara francoЕЎДЌina</language>
+			<language type="frr">severna frizijЕЎДЌina</language>
+			<language type="frs">vzhodna frizijЕЎДЌina</language>
+			<language type="fur">furlanЕЎДЌina</language>
+			<language type="fy">frizijЕЎДЌina</language>
+			<language type="ga">irЕЎДЌina</language>
+			<language type="gaa">ga</language>
+			<language type="gay">gajЕЎДЌina</language>
+			<language type="gba">gbajЕЎДЌina</language>
+			<language type="gd">ЕЎkotska gelЕЎДЌina</language>
+			<language type="gem">germanski jezik</language>
+			<language type="gez">etiopЕЎДЌina</language>
+			<language type="gil">kiribatЕЎДЌina</language>
+			<language type="gl">galicijЕЎДЌina</language>
+			<language type="gmh">srednja visoka nemЕЎДЌina</language>
+			<language type="gn">gvaranijЕЎДЌina</language>
+			<language type="goh">stara visoka nemЕЎДЌina</language>
+			<language type="gon">gondi</language>
+			<language type="gor">gorontalЕЎДЌina</language>
+			<language type="got">gotЕЎДЌina</language>
+			<language type="grb">grebЕЎДЌina</language>
+			<language type="grc">stara grЕЎДЌina</language>
+			<language type="gsw">nemЕЎДЌina (Е vica)</language>
+			<language type="gu">gudЕѕaratЕЎДЌina</language>
+			<language type="gv">manЕЎДЌina</language>
+			<language type="gwi">gwi</language>
+			<language type="ha">havЕЎДЌina</language>
+			<language type="hai">haidЕЎДЌina</language>
+			<language type="haw">havajЕЎДЌina</language>
+			<language type="he">hebrejЕЎДЌina</language>
+			<language type="hi">hindujЕЎДЌina</language>
+			<language type="hil">hiligajnonЕЎДЌina</language>
+			<language type="him">himaДЌalЕЎДЌina</language>
+			<language type="hit">hetitЕЎДЌina</language>
+			<language type="hmn">hmonЕЎДЌina</language>
+			<language type="ho">hiri motu</language>
+			<language type="hr">hrvaЕЎДЌina</language>
+			<language type="hsb">gornja luЕѕiЕЎka srbЕЎДЌina</language>
+			<language type="ht">haitijska kreolЕЎДЌina</language>
+			<language type="hu">madЕѕarЕЎДЌina</language>
+			<language type="hup">hupa</language>
+			<language type="hy">armenЕЎДЌina</language>
+			<language type="hz">herero</language>
+			<language type="ia">interlingva</language>
+			<language type="iba">ibanЕЎДЌina</language>
+			<language type="id">indonezijЕЎДЌina</language>
+			<language type="ie">interlingve</language>
+			<language type="ig">igboЕЎДЌina</language>
+			<language type="ii">ii</language>
+			<language type="ijo">ijo</language>
+			<language type="ik">inupiaЕЎДЌina</language>
+			<language type="ilo">ilokanЕЎДЌina</language>
+			<language type="inc">indijski jezik</language>
+			<language type="ine">indoevropski jezik</language>
+			<language type="inh">inguЕЎДЌina</language>
+			<language type="io">ido</language>
+			<language type="ira">iranski jezik</language>
+			<language type="iro">irokeЕЎki jezik</language>
+			<language type="is">islandЕЎДЌina</language>
+			<language type="it">italijanЕЎДЌina</language>
+			<language type="iu">inuktitutЕЎДЌina</language>
+			<language type="ja">japonЕЎДЌina</language>
+			<language type="jbo">lojban</language>
+			<language type="jpr">judovska perzijЕЎДЌina</language>
+			<language type="jrb">judovska arabЕЎДЌina</language>
+			<language type="jv">javanЕЎДЌina</language>
+			<language type="ka">gruzinЕЎДЌina</language>
+			<language type="kaa">karakalpaЕЎДЌina</language>
+			<language type="kab">kabilЕЎДЌina</language>
+			<language type="kac">kaДЌinЕЎДЌina</language>
+			<language type="kaj">kaj</language>
+			<language type="kam">kamba</language>
+			<language type="kar">karenЕЎДЌina</language>
+			<language type="kaw">kavi</language>
+			<language type="kbd">kabardinЕЎДЌina</language>
+			<language type="kcg">tjapska nigerijЕЎДЌina</language>
+			<language type="kfo">kfo</language>
+			<language type="kg">kongovЕЎДЌina</language>
+			<language type="kha">kasi</language>
+			<language type="khi">koisanski jezik</language>
+			<language type="kho">kotanЕЎДЌina</language>
+			<language type="ki">kikujЕЎДЌina</language>
+			<language type="kj">kvanjama</language>
+			<language type="kk">kazaЕЎДЌina</language>
+			<language type="kl">grenlandЕЎДЌina</language>
+			<language type="km">kmerЕЎДЌina</language>
+			<language type="kmb">kimbundu</language>
+			<language type="kn">kanada</language>
+			<language type="ko">korejЕЎДЌina</language>
+			<language type="kok">konkanЕЎДЌina</language>
+			<language type="kos">kosrajЕЎДЌina</language>
+			<language type="kpe">kpelejЕЎДЌina</language>
+			<language type="kr">kanurЕЎДЌina</language>
+			<language type="krc">karaДЌaj-balkarЕЎДЌina</language>
+			<language type="krl">karelЕЎДЌina</language>
+			<language type="kro">jezik kru</language>
+			<language type="kru">kuruk</language>
+			<language type="ks">kaЕЎmirЕЎДЌina</language>
+			<language type="ku">kurdЕЎДЌina</language>
+			<language type="kum">kumiЕЎДЌina</language>
+			<language type="kut">kutenajЕЎДЌina</language>
+			<language type="kv">komijЕЎДЌina</language>
+			<language type="kw">kornijЕЎДЌina</language>
+			<language type="ky">kirgiЕЎДЌina</language>
+			<language type="la">latinЕЎДЌina</language>
+			<language type="lad">ladinЕЎДЌina</language>
+			<language type="lah">landa</language>
+			<language type="lam">lamba</language>
+			<language type="lb">luksemburЕЎДЌina</language>
+			<language type="lez">lezginЕЎДЌina</language>
+			<language type="lg">ganda</language>
+			<language type="li">limburЕЎДЌina</language>
+			<language type="ln">lingala</language>
+			<language type="lo">laoЕЎДЌina</language>
+			<language type="lol">mongo</language>
+			<language type="loz">lozi</language>
+			<language type="lt">litovЕЎДЌina</language>
+			<language type="lu">luba-katanga</language>
+			<language type="lua">luba-lulua</language>
+			<language type="lui">luisenЕЎДЌina</language>
+			<language type="lun">lunda</language>
+			<language type="luo">luo</language>
+			<language type="lus">lushai</language>
+			<language type="lv">latvijЕЎДЌina</language>
+			<language type="mad">madurЕЎДЌina</language>
+			<language type="mag">magadЕЎДЌina</language>
+			<language type="mai">maitili</language>
+			<language type="mak">makasarЕЎДЌina</language>
+			<language type="man">mandingo</language>
+			<language type="map">avstronezijski jezik</language>
+			<language type="mas">masajЕЎДЌina</language>
+			<language type="mdf">mokЕЎavЕЎДЌina</language>
+			<language type="mdr">mandarЕЎДЌina</language>
+			<language type="men">mende</language>
+			<language type="mg">malagaЕЎДЌina</language>
+			<language type="mga">srednja irЕЎДЌina</language>
+			<language type="mh">marshallovЕЎДЌina</language>
+			<language type="mi">maorЕЎДЌina</language>
+			<language type="mic">mikmaЕЎДЌina</language>
+			<language type="min">minangkabau</language>
+			<language type="mis">drugi jeziki</language>
+			<language type="mk">makedonЕЎДЌina</language>
+			<language type="mkh">monsko-kmerski jezik</language>
+			<language type="ml">malajalamЕЎДЌina</language>
+			<language type="mn">mongolЕЎДЌina</language>
+			<language type="mnc">mandЕѕurЕЎДЌina</language>
+			<language type="mni">manipurЕЎДЌina</language>
+			<language type="mno">kotabatski manobo</language>
+			<language type="mo">moldavЕЎДЌina</language>
+			<language type="moh">mohoЕЎДЌina</language>
+			<language type="mos">mosijЕЎДЌina</language>
+			<language type="mr">maratЕЎДЌina</language>
+			<language type="ms">malajЕЎДЌina</language>
+			<language type="mt">malteЕЎДЌina</language>
+			<language type="mul">veДЌ jezikov</language>
+			<language type="mun">mundski jezik</language>
+			<language type="mus">mus</language>
+			<language type="mwl">mirandeЕЎДЌina</language>
+			<language type="mwr">marvarЕЎДЌina</language>
+			<language type="my">burmanЕЎДЌina</language>
+			<language type="myn">majevski jezik</language>
+			<language type="myv">erzjanЕЎДЌina</language>
+			<language type="na">naurujЕЎДЌina</language>
+			<language type="nah">nahuatl</language>
+			<language type="nai">severnoameriЕЎki indijanski jezik</language>
+			<language type="nap">napolitanЕЎДЌina</language>
+			<language type="nb">knjiЕѕna norveЕЎДЌina</language>
+			<language type="nd">severna ndebelЕЎДЌina</language>
+			<language type="nds">nizka nemЕЎДЌina</language>
+			<language type="ne">nepalЕЎДЌina</language>
+			<language type="new">nevarЕЎДЌina</language>
+			<language type="ng">ng</language>
+			<language type="nia">niaЕЎДЌina</language>
+			<language type="nic">nigrsko-kordofanski jezik</language>
+			<language type="niu">niuejЕЎДЌina</language>
+			<language type="nl">nizozemЕЎДЌina</language>
+			<language type="nl_BE">flamЕЎДЌina</language>
+			<language type="nn">novonorveЕЎДЌina</language>
+			<language type="no">norveЕЎДЌina</language>
+			<language type="nog">nogajЕЎДЌina</language>
+			<language type="non">stara nordijЕЎДЌina</language>
+			<language type="nqo">nqo</language>
+			<language type="nr">juЕѕna ndebelЕЎДЌina</language>
+			<language type="nso">severna sotЕЎДЌina</language>
+			<language type="nub">nubijski jezik</language>
+			<language type="nv">navajЕЎДЌina</language>
+			<language type="nwc">klasiДЌna nevarЕЎДЌina</language>
+			<language type="ny">njanЕЎДЌina</language>
+			<language type="nym">njamveЕЎДЌina</language>
+			<language type="nyn">njankole</language>
+			<language type="nyo">njoro</language>
+			<language type="nzi">nzima</language>
+			<language type="oc">okcitanЕЎДЌina</language>
+			<language type="oj">anaЕЎinabЕЎДЌina</language>
+			<language type="om">oromo</language>
+			<language type="or">orijЕЎДЌina</language>
+			<language type="os">osetinЕЎДЌina</language>
+			<language type="osa">osage</language>
+			<language type="ota">otomanska turЕЎДЌina</language>
+			<language type="oto">otomijski jezik</language>
+			<language type="pa">pandЕѕabЕЎДЌina</language>
+			<language type="paa">papuanski jezik</language>
+			<language type="pag">pangasinanЕЎДЌina</language>
+			<language type="pal">pal</language>
+			<language type="pam">pampanЕЎДЌina</language>
+			<language type="pap">papiamentu</language>
+			<language type="pau">palavanЕЎДЌina</language>
+			<language type="peo">stara perzijЕЎДЌina</language>
+			<language type="phi">filipinski jezik</language>
+			<language type="phn">feniДЌanЕЎДЌina</language>
+			<language type="pi">palijЕЎДЌina</language>
+			<language type="pl">poljЕЎДЌina</language>
+			<language type="pon">ponpejЕЎДЌina</language>
+			<language type="pra">prakritski jezik</language>
+			<language type="pro">stara provansalЕЎДЌina</language>
+			<language type="ps">paЕЎtu</language>
+			<language type="pt">portugalЕЎДЌina</language>
+			<language type="pt_BR">brazilska portugalЕЎДЌina</language>
+			<language type="pt_PT">iberska portugalЕЎДЌina</language>
+			<language type="qu">keДЌuanЕЎДЌina</language>
+			<language type="raj">radЕѕastanЕЎДЌina</language>
+			<language type="rap">rapanujЕЎДЌina</language>
+			<language type="rar">rarotongЕЎДЌina</language>
+			<language type="rm">retoromanЕЎДЌina</language>
+			<language type="rn">rundЕЎДЌina</language>
+			<language type="ro">romunЕЎДЌina</language>
+			<language type="roa">romanski jezik</language>
+			<language type="rom">romЕЎДЌina</language>
+			<language type="root">root</language>
+			<language type="ru">ruЕЎДЌina</language>
+			<language type="rup">aromunЕЎДЌina</language>
+			<language type="rw">ruandЕЎДЌina</language>
+			<language type="sa">sanskrt</language>
+			<language type="sad">sad</language>
+			<language type="sah">jakutЕЎДЌina</language>
+			<language type="sai">sai</language>
+			<language type="sal">sal</language>
+			<language type="sam">samaritanska aramejЕЎДЌina</language>
+			<language type="sas">sasaЕЎДЌina</language>
+			<language type="sat">santalЕЎДЌina</language>
+			<language type="sc">sardinЕЎДЌina</language>
+			<language type="scn">sicilijanЕЎДЌina</language>
+			<language type="sco">ЕЎkotЕЎДЌina</language>
+			<language type="sd">sindЕЎДЌina</language>
+			<language type="se">severna samijЕЎДЌina</language>
+			<language type="sel">selkupЕЎДЌina</language>
+			<language type="sem">semitski jezik</language>
+			<language type="sg">sango</language>
+			<language type="sga">stara irЕЎДЌina</language>
+			<language type="sgn">znakovni jezik</language>
+			<language type="sh">srbohrvaЕЎДЌina</language>
+			<language type="shn">ЕЎanЕЎДЌina</language>
+			<language type="si">singalЕЎДЌina</language>
+			<language type="sid">sidamЕЎДЌina</language>
+			<language type="sio">sijuЕЎДЌina</language>
+			<language type="sit">kitajsko-tibetanski jezik</language>
+			<language type="sk">slovaЕЎДЌina</language>
+			<language type="sl">slovenЕЎДЌina</language>
+			<language type="sla">slovanski jezik</language>
+			<language type="sm">samoanЕЎДЌina</language>
+			<language type="sma">juЕѕna samijЕЎДЌina</language>
+			<language type="smi">samijski jezik</language>
+			<language type="smj">luleЕЎka samijЕЎДЌina</language>
+			<language type="smn">inarska samijЕЎДЌina</language>
+			<language type="sms">samijЕЎДЌina Skolt</language>
+			<language type="sn">ЕЎonЕЎДЌina</language>
+			<language type="snk">snk</language>
+			<language type="so">somalЕЎДЌina</language>
+			<language type="sog">sog</language>
+			<language type="son">songajЕЎДЌina</language>
+			<language type="sq">albanЕЎДЌina</language>
+			<language type="sr">srbЕЎДЌina</language>
+			<language type="srn">surinamska kreolЕЎДЌina</language>
+			<language type="srr">sererЕЎДЌina</language>
+			<language type="ss">svazijЕЎДЌina</language>
+			<language type="ssa">nilsko-saharski jezik</language>
+			<language type="st">sesoto</language>
+			<language type="su">sundanЕЎДЌina</language>
+			<language type="suk">sukuma</language>
+			<language type="sus">susujЕЎДЌina</language>
+			<language type="sux">sumerЕЎДЌina</language>
+			<language type="sv">ЕЎvedЕЎДЌina</language>
+			<language type="sw">svahili</language>
+			<language type="syc">klasiДЌna sirЕЎДЌina</language>
+			<language type="syr">sirЕЎДЌina</language>
+			<language type="ta">tamilЕЎДЌina</language>
+			<language type="tai">tajski jezik</language>
+			<language type="te">telugijЕЎДЌina</language>
+			<language type="tem">temnejЕЎДЌina</language>
+			<language type="ter">ter</language>
+			<language type="tet">tetumЕЎДЌina</language>
+			<language type="tg">tadЕѕiЕЎДЌina</language>
+			<language type="th">tajЕЎДЌina</language>
+			<language type="ti">tigrajЕЎДЌina</language>
+			<language type="tig">tigrejЕЎДЌina</language>
+			<language type="tiv">tivЕЎДЌina</language>
+			<language type="tk">turkmenЕЎДЌina</language>
+			<language type="tkl">tokelavЕЎДЌina</language>
+			<language type="tl">tagalogЕЎДЌina</language>
+			<language type="tlh">klingonЕЎДЌina</language>
+			<language type="tli">tlingitЕЎДЌina</language>
+			<language type="tmh">tamajaЕЎДЌina</language>
+			<language type="tn">cvanЕЎДЌina</language>
+			<language type="to">tongЕЎДЌina</language>
+			<language type="tog">malavijska tongЕЎДЌina</language>
+			<language type="tpi">tok pisin</language>
+			<language type="tr">turЕЎДЌina</language>
+			<language type="ts">tsonga</language>
+			<language type="tsi">tsimЕЎДЌina</language>
+			<language type="tt">tatarЕЎДЌina</language>
+			<language type="tum">tumbukЕЎДЌina</language>
+			<language type="tup">tupijski jezik</language>
+			<language type="tut">altajski jezik</language>
+			<language type="tvl">tuvalujЕЎДЌina</language>
+			<language type="tw">tvi</language>
+			<language type="ty">tahitЕЎДЌina</language>
+			<language type="tyv">tuvinЕЎДЌina</language>
+			<language type="udm">udmurtЕЎДЌina</language>
+			<language type="ug">ujgurЕЎДЌina</language>
+			<language type="uga">ugaritski jezik</language>
+			<language type="uk">ukrajinЕЎДЌina</language>
+			<language type="umb">umbundЕЎДЌina</language>
+			<language type="und">neznan ali neveljaven jezik</language>
+			<language type="ur">urdujЕЎДЌina</language>
+			<language type="uz">uzbeЕЎДЌina</language>
+			<language type="vai">vajЕЎДЌina</language>
+			<language type="ve">venda</language>
+			<language type="vi">vietnamЕЎДЌina</language>
+			<language type="vo">volapuk</language>
+			<language type="vot">votjaЕЎДЌina</language>
+			<language type="wa">valonЕЎДЌina</language>
+			<language type="wak">vakaЕЎki jezik</language>
+			<language type="wal">valamЕЎДЌina</language>
+			<language type="war">varajЕЎДЌina</language>
+			<language type="was">vaЕЎajЕЎДЌina</language>
+			<language type="wen">luЕѕiЕЎko srbski jezik</language>
+			<language type="wo">volofЕЎДЌina</language>
+			<language type="xal">kalmiЕЎДЌina</language>
+			<language type="xh">xhosa</language>
+			<language type="yao">jaojЕЎДЌina</language>
+			<language type="yap">japЕЎДЌina</language>
+			<language type="yi">jidiЕЎ</language>
+			<language type="yo">jorubЕЎДЌina</language>
+			<language type="ypk">jupiЕЎki jezik</language>
+			<language type="za">za</language>
+			<language type="zap">zapoteЕЎДЌina</language>
+			<language type="zbl">znakovni jezik Bliss</language>
+			<language type="zen">zenaЕЎДЌina</language>
+			<language type="zh">kitajЕЎДЌina</language>
+			<language type="zh_Hans">poenostavljena kitajЕЎДЌina</language>
+			<language type="zh_Hant">tradicionalna kitajЕЎДЌina</language>
+			<language type="znd">zandejЕЎДЌina</language>
+			<language type="zu">zulujЕЎДЌina</language>
+			<language type="zun">zunijЕЎДЌina</language>
+			<language type="zxx">brez jezikoslovne vsebine</language>
+			<language type="zza">zazajЕЎДЌina</language>
+		</languages>
+		<scripts>
+			<script type="Arab">arabski</script>
+			<script type="Armi">imperialno-aramejski</script>
+			<script type="Armn">armenski</script>
+			<script type="Avst">avestanski</script>
+			<script type="Bali">balijski</script>
+			<script type="Batk">bataЕЎki</script>
+			<script type="Beng">bengalski</script>
+			<script type="Blis">znakovna pisava Bliss</script>
+			<script type="Bopo">bopomofo</script>
+			<script type="Brah">bramanski</script>
+			<script type="Brai">braillova pisava</script>
+			<script type="Bugi">buginski</script>
+			<script type="Buhd">buhidski</script>
+			<script type="Cakm">Cakm</script>
+			<script type="Cans">poenotena zlogovna pisava kanadskih staroselcev</script>
+			<script type="Cari">Cari</script>
+			<script type="Cham">Cham</script>
+			<script type="Cher">ДЌerokeЕЎki</script>
+			<script type="Cirt">kirt</script>
+			<script type="Copt">koptski</script>
+			<script type="Cprt">ciprski</script>
+			<script type="Cyrl">cirilica</script>
+			<script type="Cyrs">starocerkvenoslovanska cirilica</script>
+			<script type="Deva">devanagarЕЎДЌica</script>
+			<script type="Dsrt">fonetska pisava deseret</script>
+			<script type="Egyd">demotska egipДЌanska pisava</script>
+			<script type="Egyh">hieratska egipДЌanska pisava</script>
+			<script type="Egyp">egipДЌanska slikovna pisava</script>
+			<script type="Ethi">etiopski</script>
+			<script type="Geok">cerkvenogruzijski</script>
+			<script type="Geor">gruzijski</script>
+			<script type="Glag">glagoliЕЎki</script>
+			<script type="Goth">gotski</script>
+			<script type="Grek">grЕЎki</script>
+			<script type="Gujr">gudЕѕaratski</script>
+			<script type="Guru">gurmuki</script>
+			<script type="Hang">hangul</script>
+			<script type="Hani">kanji</script>
+			<script type="Hano">hanunski</script>
+			<script type="Hans">poenostavljena pisava han</script>
+			<script type="Hant">tradicionalna pisava han</script>
+			<script type="Hebr">hebrejski</script>
+			<script type="Hira">hiragana</script>
+			<script type="Hmng">pahavhmonska zlogovna pisava</script>
+			<script type="Hrkt">katakana ali hiragana</script>
+			<script type="Hung">staroogrski</script>
+			<script type="Inds">induЕЎki</script>
+			<script type="Ital">staroitalski</script>
+			<script type="Java">javanski</script>
+			<script type="Jpan">japonski</script>
+			<script type="Kali">karenski</script>
+			<script type="Kana">katakana</script>
+			<script type="Khar">gandarski</script>
+			<script type="Khmr">kmerski</script>
+			<script type="Knda">kanadski</script>
+			<script type="Kore">korejski</script>
+			<script type="Kthi">kajatski</script>
+			<script type="Lana">Lana</script>
+			<script type="Laoo">laoЕЎki</script>
+			<script type="Latf">fraktura</script>
+			<script type="Latg">gelski latiniДЌni</script>
+			<script type="Latn">latinica</script>
+			<script type="Lepc">lepЕЎki</script>
+			<script type="Limb">limbuЕЎki</script>
+			<script type="Lina">linearna pisava A</script>
+			<script type="Linb">linearna pisava B</script>
+			<script type="Lyci">licijski</script>
+			<script type="Lydi">lidijski</script>
+			<script type="Mand">mandanski</script>
+			<script type="Mani">manihejski</script>
+			<script type="Maya">majevska slikovna pisava</script>
+			<script type="Mero">meroitski</script>
+			<script type="Mlym">malajalamski</script>
+			<script type="Mong">mongolski</script>
+			<script type="Moon">Moonova pisava za slepe</script>
+			<script type="Mtei">manipurski</script>
+			<script type="Mymr">mjanmarski</script>
+			<script type="Nkoo">Nkoo</script>
+			<script type="Ogam">ogamski</script>
+			<script type="Olck">santalski</script>
+			<script type="Orkh">orkonski</script>
+			<script type="Orya">orijski</script>
+			<script type="Osma">osmanski</script>
+			<script type="Perm">staropermijski</script>
+			<script type="Phag">pagpajski</script>
+			<script type="Phli">vrezani napisi pahlavi</script>
+			<script type="Phlp">psalmski pahlavi</script>
+			<script type="Phlv">knjiЕѕno palavanski</script>
+			<script type="Phnx">feniДЌanski</script>
+			<script type="Plrd">Pollardova fonetska pisava</script>
+			<script type="Prti">Prti</script>
+			<script type="Qaai">podedovan</script>
+			<script type="Rjng">Rjng</script>
+			<script type="Roro">rongorongo</script>
+			<script type="Runr">runski</script>
+			<script type="Samr">samaritanski</script>
+			<script type="Sara">saratski</script>
+			<script type="Saur">Saur</script>
+			<script type="Sgnw">znakovna pisava</script>
+			<script type="Shaw">ЕЎojevski</script>
+			<script type="Sinh">sinhalski</script>
+			<script type="Sund">sundanski</script>
+			<script type="Sylo">siletsko-nagarijski</script>
+			<script type="Syrc">sirijski</script>
+			<script type="Syre">sirska abeceda estrangelo</script>
+			<script type="Syrj">zahodnosirijski</script>
+			<script type="Syrn">vzhodnosirijski</script>
+			<script type="Tagb">tagbanski</script>
+			<script type="Tale">Tale</script>
+			<script type="Talu">Talu</script>
+			<script type="Taml">tamilski</script>
+			<script type="Tavt">tajsko-vietnamski</script>
+			<script type="Telu">teluЕЎki</script>
+			<script type="Teng">tengvarski</script>
+			<script type="Tfng">tifinajski</script>
+			<script type="Tglg">tagaloЕЎki</script>
+			<script type="Thaa">tanajski</script>
+			<script type="Thai">tajski</script>
+			<script type="Tibt">tibetanski</script>
+			<script type="Ugar">ugaritski</script>
+			<script type="Vaii">zlogovna pisava vai</script>
+			<script type="Visp">vidni govor</script>
+			<script type="Xpeo">staroperzijski</script>
+			<script type="Xsux">sumersko-akadski klinopis</script>
+			<script type="Yiii">Yiii</script>
+			<script type="Zmth">matematiДЌna znamenja</script>
+			<script type="Zsym">simboli</script>
+			<script type="Zxxx">nenapisano</script>
+			<script type="Zyyy">sploЕЎno</script>
+			<script type="Zzzz">neznan ali neveljaven zapis</script>
+		</scripts>
+		<territories>
+			<territory type="001">Svet</territory>
+			<territory type="002">Afrika</territory>
+			<territory type="003">Severna Amerika</territory>
+			<territory type="005">JuЕѕna Amerika</territory>
+			<territory type="009">Oceanija</territory>
+			<territory type="011">Zahodna Afrika</territory>
+			<territory type="013">Srednja Amerika</territory>
+			<territory type="014">Vzhodna Afrika</territory>
+			<territory type="015">Severna Afrika</territory>
+			<territory type="017">Srednja Afrika</territory>
+			<territory type="018">JuЕѕna Afrika</territory>
+			<territory type="019">Amerike</territory>
+			<territory type="021">severnoameriЕЎka celina</territory>
+			<territory type="029">Karibi</territory>
+			<territory type="030">Vzhodna Azija</territory>
+			<territory type="034">JuЕѕna Azija</territory>
+			<territory type="035">Jugovzhodna Azija</territory>
+			<territory type="039">JuЕѕna Evropa</territory>
+			<territory type="053">Avstralija in Nova Zelandija</territory>
+			<territory type="054">Melanezija</territory>
+			<territory type="057">mikronezijska regija</territory>
+			<territory type="061">Polinezija</territory>
+			<territory type="062">JuЕѕna osrednja Azija</territory>
+			<territory type="142">Azija</territory>
+			<territory type="143">Osrednja Azija</territory>
+			<territory type="145">Zahodna Azija</territory>
+			<territory type="150">Evropa</territory>
+			<territory type="151">Vzhodna Evropa</territory>
+			<territory type="154">Severna Evropa</territory>
+			<territory type="155">Zahodna Evropa</territory>
+			<territory type="172">Skupnost neodvisnih drЕѕav</territory>
+			<territory type="419">Latinska Amerika in Karibi</territory>
+			<territory type="830">Kanalski otoki</territory>
+			<territory type="AD">Andora</territory>
+			<territory type="AE">ZdruЕѕeni arabski emirati</territory>
+			<territory type="AF">Afganistan</territory>
+			<territory type="AG">Antigva in Barbuda</territory>
+			<territory type="AI">Angvila</territory>
+			<territory type="AL">Albanija</territory>
+			<territory type="AM">Armenija</territory>
+			<territory type="AN">Nizozemski Antili</territory>
+			<territory type="AO">Angola</territory>
+			<territory type="AQ">Antarktika</territory>
+			<territory type="AR">Argentina</territory>
+			<territory type="AS">AmeriЕЎka Samoa</territory>
+			<territory type="AT">Avstrija</territory>
+			<territory type="AU">Avstralija</territory>
+			<territory type="AW">Aruba</territory>
+			<territory type="AX">Alandsko otoДЌje</territory>
+			<territory type="AZ">AzerbajdЕѕan</territory>
+			<territory type="BA">Bosna in Hercegovina</territory>
+			<territory type="BB">Barbados</territory>
+			<territory type="BD">BangladeЕЎ</territory>
+			<territory type="BE">Belgija</territory>
+			<territory type="BF">Burkina Faso</territory>
+			<territory type="BG">Bolgarija</territory>
+			<territory type="BH">Bahrajn</territory>
+			<territory type="BI">Burundi</territory>
+			<territory type="BJ">Benin</territory>
+			<territory type="BL">Saint Barthelemy</territory>
+			<territory type="BM">Bermudi</territory>
+			<territory type="BN">Brunej</territory>
+			<territory type="BO">Bolivija</territory>
+			<territory type="BR">Brazilija</territory>
+			<territory type="BS">Bahami</territory>
+			<territory type="BT">Butan</territory>
+			<territory type="BV">Bouvetov otok</territory>
+			<territory type="BW">Bocvana</territory>
+			<territory type="BY">Belorusija</territory>
+			<territory type="BZ">Belize</territory>
+			<territory type="CA">Kanada</territory>
+			<territory type="CC">Kokosovi otoki</territory>
+			<territory type="CD">DemokratiДЌna republika Kongo</territory>
+			<territory type="CF">CentralnoafriЕЎka republika</territory>
+			<territory type="CG">Kongo</territory>
+			<territory type="CH">Е vica</territory>
+			<territory type="CI">SlonokoЕЎДЌena obala</territory>
+			<territory type="CK">Cookovo otoДЌje</territory>
+			<territory type="CL">ДЊile</territory>
+			<territory type="CM">Kamerun</territory>
+			<territory type="CN">Kitajska</territory>
+			<territory type="CO">Kolumbija</territory>
+			<territory type="CR">Kostarika</territory>
+			<territory type="CS">Srbija in ДЊrna gora</territory>
+			<territory type="CU">Kuba</territory>
+			<territory type="CV">Zelenortski otoki</territory>
+			<territory type="CX">BoЕѕiДЌni otok</territory>
+			<territory type="CY">Ciper</territory>
+			<territory type="CZ">ДЊeЕЎka</territory>
+			<territory type="DE">NemДЌija</territory>
+			<territory type="DJ">DЕѕibuti</territory>
+			<territory type="DK">Danska</territory>
+			<territory type="DM">Dominika</territory>
+			<territory type="DO">Dominikanska republika</territory>
+			<territory type="DZ">AlЕѕirija</territory>
+			<territory type="EC">Ekvador</territory>
+			<territory type="EE">Estonija</territory>
+			<territory type="EG">Egipt</territory>
+			<territory type="EH">Zahodna Sahara</territory>
+			<territory type="ER">Eritreja</territory>
+			<territory type="ES">Е panija</territory>
+			<territory type="ET">Etiopija</territory>
+			<territory type="FI">Finska</territory>
+			<territory type="FJ">FidЕѕi</territory>
+			<territory type="FK">Falklandski otoki</territory>
+			<territory type="FM">Mikronezija</territory>
+			<territory type="FO">Ferski otoki</territory>
+			<territory type="FR">Francija</territory>
+			<territory type="GA">Gabon</territory>
+			<territory type="GB">Velika Britanija</territory>
+			<territory type="GD">Grenada</territory>
+			<territory type="GE">Gruzija</territory>
+			<territory type="GF">Francoska Gvajana</territory>
+			<territory type="GG">Guernsey</territory>
+			<territory type="GH">Gana</territory>
+			<territory type="GI">Gibraltar</territory>
+			<territory type="GL">Grenlandija</territory>
+			<territory type="GM">Gambija</territory>
+			<territory type="GN">Gvineja</territory>
+			<territory type="GP">Gvadalupe</territory>
+			<territory type="GQ">Ekvatorialna Gvineja</territory>
+			<territory type="GR">GrДЌija</territory>
+			<territory type="GS">JuЕѕna Georgia in JuЕѕni Sandwichevi otoki</territory>
+			<territory type="GT">Gvatemala</territory>
+			<territory type="GU">Guam</territory>
+			<territory type="GW">Gvineja Bissau</territory>
+			<territory type="GY">Gvajana</territory>
+			<territory type="HK">Posebno administrativno obmoДЌje LR Kitajske Hong Kong</territory>
+			<territory type="HM">Otok Heard in otoДЌje McDonald</territory>
+			<territory type="HN">Honduras</territory>
+			<territory type="HR">HrvaЕЎka</territory>
+			<territory type="HT">Haiti</territory>
+			<territory type="HU">MadЕѕarska</territory>
+			<territory type="ID">Indonezija</territory>
+			<territory type="IE">Irska</territory>
+			<territory type="IL">Izrael</territory>
+			<territory type="IM">Otok Man</territory>
+			<territory type="IN">Indija</territory>
+			<territory type="IO">Britansko ozemlje v Indijskem oceanu</territory>
+			<territory type="IQ">Irak</territory>
+			<territory type="IR">Iran</territory>
+			<territory type="IS">Islandija</territory>
+			<territory type="IT">Italija</territory>
+			<territory type="JE">Jersey</territory>
+			<territory type="JM">Jamajka</territory>
+			<territory type="JO">Jordanija</territory>
+			<territory type="JP">Japonska</territory>
+			<territory type="KE">Kenija</territory>
+			<territory type="KG">Kirgizistan</territory>
+			<territory type="KH">KambodЕѕa</territory>
+			<territory type="KI">Kiribati</territory>
+			<territory type="KM">Komori</territory>
+			<territory type="KN">Saint Kitts in Nevis</territory>
+			<territory type="KP">Severna Koreja</territory>
+			<territory type="KR">JuЕѕna Koreja</territory>
+			<territory type="KW">Kuvajt</territory>
+			<territory type="KY">Kajmanski otoki</territory>
+			<territory type="KZ">Kazahstan</territory>
+			<territory type="LA">Laos</territory>
+			<territory type="LB">Libanon</territory>
+			<territory type="LC">Saint Lucia</territory>
+			<territory type="LI">LihtenЕЎtajn</territory>
+			<territory type="LK">Е rilanka</territory>
+			<territory type="LR">Liberija</territory>
+			<territory type="LS">Lesoto</territory>
+			<territory type="LT">Litva</territory>
+			<territory type="LU">Luksemburg</territory>
+			<territory type="LV">Latvija</territory>
+			<territory type="LY">Libija</territory>
+			<territory type="MA">Maroko</territory>
+			<territory type="MC">Monako</territory>
+			<territory type="MD">Moldavija</territory>
+			<territory type="ME">ДЊrna gora</territory>
+			<territory type="MF">Saint Martin</territory>
+			<territory type="MG">Madagaskar</territory>
+			<territory type="MH">Marshallovi otoki</territory>
+			<territory type="MK">Makedonija</territory>
+			<territory type="ML">Mali</territory>
+			<territory type="MM">Mjanmar</territory>
+			<territory type="MN">Mongolija</territory>
+			<territory type="MO">Posebno administrativno obmoДЌje LR Kitajske Macao</territory>
+			<territory type="MP">Severni Marianski otoki</territory>
+			<territory type="MQ">Martinik</territory>
+			<territory type="MR">Mavretanija</territory>
+			<territory type="MS">Montserrat</territory>
+			<territory type="MT">Malta</territory>
+			<territory type="MU">Mauritius</territory>
+			<territory type="MV">Maldivi</territory>
+			<territory type="MW">Malavi</territory>
+			<territory type="MX">Mehika</territory>
+			<territory type="MY">Malezija</territory>
+			<territory type="MZ">Mozambik</territory>
+			<territory type="NA">Namibija</territory>
+			<territory type="NC">Nova Kaledonija</territory>
+			<territory type="NE">Niger</territory>
+			<territory type="NF">NorfolЕЎki otok</territory>
+			<territory type="NG">Nigerija</territory>
+			<territory type="NI">Nikaragva</territory>
+			<territory type="NL">Nizozemska</territory>
+			<territory type="NO">NorveЕЎka</territory>
+			<territory type="NP">Nepal</territory>
+			<territory type="NR">Nauru</territory>
+			<territory type="NU">Niue</territory>
+			<territory type="NZ">Nova Zelandija</territory>
+			<territory type="OM">Oman</territory>
+			<territory type="PA">Panama</territory>
+			<territory type="PE">Peru</territory>
+			<territory type="PF">Francoska Polinezija</territory>
+			<territory type="PG">Papua Nova Gvineja</territory>
+			<territory type="PH">Filipini</territory>
+			<territory type="PK">Pakistan</territory>
+			<territory type="PL">Poljska</territory>
+			<territory type="PM">Saint Pierre in Miquelon</territory>
+			<territory type="PN">Pitcairn</territory>
+			<territory type="PR">Portoriko</territory>
+			<territory type="PS">Palestinsko ozemlje</territory>
+			<territory type="PT">Portugalska</territory>
+			<territory type="PW">Palau</territory>
+			<territory type="PY">Paragvaj</territory>
+			<territory type="QA">Katar</territory>
+			<territory type="QO">Ostala oceanija</territory>
+			<territory type="QU">Evropska unija</territory>
+			<territory type="RE">Reunion</territory>
+			<territory type="RO">Romunija</territory>
+			<territory type="RS">Srbija</territory>
+			<territory type="RU">Rusija</territory>
+			<territory type="RW">Ruanda</territory>
+			<territory type="SA">Saudova Arabija</territory>
+			<territory type="SB">Salomonovi otoki</territory>
+			<territory type="SC">SejЕЎeli</territory>
+			<territory type="SD">Sudan</territory>
+			<territory type="SE">Е vedska</territory>
+			<territory type="SG">Singapur</territory>
+			<territory type="SH">Sveta Helena</territory>
+			<territory type="SI">Slovenija</territory>
+			<territory type="SJ">Svalbard in Jan Mayen</territory>
+			<territory type="SK">SlovaЕЎka</territory>
+			<territory type="SL">Sierra Leone</territory>
+			<territory type="SM">San Marino</territory>
+			<territory type="SN">Senegal</territory>
+			<territory type="SO">Somalija</territory>
+			<territory type="SR">Surinam</territory>
+			<territory type="ST">Sao Tome in Principe</territory>
+			<territory type="SV">Salvador</territory>
+			<territory type="SY">Sirija</territory>
+			<territory type="SZ">Svazi</territory>
+			<territory type="TC">OtoДЌji Turks in Caicos</territory>
+			<territory type="TD">ДЊad</territory>
+			<territory type="TF">Francosko juЕѕno ozemlje</territory>
+			<territory type="TG">Togo</territory>
+			<territory type="TH">Tajska</territory>
+			<territory type="TJ">TadЕѕikistan</territory>
+			<territory type="TK">Tokelau</territory>
+			<territory type="TL">Vzhodni Timor</territory>
+			<territory type="TM">Turkmenistan</territory>
+			<territory type="TN">Tunizija</territory>
+			<territory type="TO">Tonga</territory>
+			<territory type="TR">TurДЌija</territory>
+			<territory type="TT">Trinidad in Tobago</territory>
+			<territory type="TV">Tuvalu</territory>
+			<territory type="TW">Tajvan</territory>
+			<territory type="TZ">Tanzanija</territory>
+			<territory type="UA">Ukrajina</territory>
+			<territory type="UG">Uganda</territory>
+			<territory type="UM">Druga ameriЕЎka ozemlja v Tihem oceanu</territory>
+			<territory type="US">ZdruЕѕene drЕѕave Amerike</territory>
+			<territory type="UY">Urugvaj</territory>
+			<territory type="UZ">Uzbekistan</territory>
+			<territory type="VA">Vatikan</territory>
+			<territory type="VC">Saint Vincent in Grenadine</territory>
+			<territory type="VE">Venezuela</territory>
+			<territory type="VG">Britanski DeviЕЎki otoki</territory>
+			<territory type="VI">AmeriЕЎki DeviЕЎki otoki</territory>
+			<territory type="VN">Vietnam</territory>
+			<territory type="VU">Vanuatu</territory>
+			<territory type="WF">Wallis in Futuna</territory>
+			<territory type="WS">Samoa</territory>
+			<territory type="YE">Jemen</territory>
+			<territory type="YT">Mayotte</territory>
+			<territory type="ZA">JuЕѕnoafriЕЎka republika</territory>
+			<territory type="ZM">Zambija</territory>
+			<territory type="ZW">Zimbabve</territory>
+			<territory type="ZZ">Neznano ali neveljavno obmoДЌje</territory>
+		</territories>
+		<variants>
+			<variant type="1901">tradicionalni nemЕЎki pravopis</variant>
+			<variant type="1994">standardizirani rezijanski pravopis (1994)</variant>
+			<variant type="1996">novi nemЕЎki pravopis (1996)</variant>
+			<variant type="1606NICT">pozna srednja francoЕЎДЌina (do 1606)</variant>
+			<variant type="1694ACAD">zgodnja sodobna francoЕЎДЌina</variant>
+			<variant type="AREVELA">vzhodna armenЕЎДЌina</variant>
+			<variant type="AREVMDA">zahodna armenЕЎДЌina</variant>
+			<variant type="BAKU1926">modernizirana turЕЎka latinica</variant>
+			<variant type="BISKE">rezijansko nareДЌje Bila (San Giorgio)</variant>
+			<variant type="BOONT">boonvilski jezik</variant>
+			<variant type="FONIPA">mednarodna fonetiДЌna pisava IPA</variant>
+			<variant type="FONUPA">uralska fonetska pisava UPA</variant>
+			<variant type="LIPAW">rezijansko nareДЌje iz Lipovca (Lipovaz)</variant>
+			<variant type="MONOTON">monotonalni pravopis</variant>
+			<variant type="NEDIS">nadiЕЎko nareДЌje</variant>
+			<variant type="NJIVA">rezijansko nareДЌje Njiva (Gniva)</variant>
+			<variant type="OSOJS">rezijansko nareДЌje iz Osojan (Oseacco)</variant>
+			<variant type="POLYTON">politonalni pravopis</variant>
+			<variant type="POSIX">standard prenosljivosti programske opreme</variant>
+			<variant type="REVISED">revidiran pravopis</variant>
+			<variant type="ROZAJ">rezijanЕЎДЌina</variant>
+			<variant type="SCOTLAND">standardna ЕЎkotska angleЕЎДЌina</variant>
+			<variant type="SCOUSE">liverpoolsko angleЕЎko nareДЌje scouse</variant>
+			<variant type="SOLBA">rezijansko nareДЌje iz Solbice (Stolvizza)</variant>
+			<variant type="TARASK">TaraЕЎkieviДЌeva beloruska slovnica</variant>
+			<variant type="VALENCIA">valencijski pravopis</variant>
+		</variants>
+		<keys>
+			<key type="calendar">koledar</key>
+			<key type="collation">razvrЕЎДЌanje</key>
+			<key type="currency">valuta</key>
+		</keys>
+		<types>
+			<type type="big5han" key="collation">razvrЕЎДЌanje po sistemu tradicionalne kitajЕЎДЌine - Big5</type>
+			<type type="buddhist" key="calendar">budistiДЌni koledar</type>
+			<type type="chinese" key="calendar">kitajski koledar</type>
+			<type type="direct" key="collation">neposredno razvrЕЎДЌanje</type>
+			<type type="gb2312han" key="collation">razvrЕЎДЌanje po sistemu poenostavljene kitajЕЎДЌine - GB2312</type>
+			<type type="gregorian" key="calendar">gregorijanski koledar</type>
+			<type type="hebrew" key="calendar">hebrejski koledar</type>
+			<type type="indian" key="calendar">indijanski koledar</type>
+			<type type="islamic" key="calendar">islamski koledar</type>
+			<type type="islamic-civil" key="calendar">islamski civilni koledar</type>
+			<type type="japanese" key="calendar">japonski koledar</type>
+			<type type="phonebook" key="collation">razvrЕЎДЌanje po abecedi</type>
+			<type type="pinyin" key="collation">razvrЕЎДЌanje po sistemu pinjin</type>
+			<type type="roc" key="calendar">kitajski drЕѕavni koledar</type>
+			<type type="stroke" key="collation">razvrЕЎДЌanje po zaporedju pisanja pismenk</type>
+			<type type="traditional" key="collation">razvrЕЎДЌanje po tradicionalnem sistemu</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">imperialni</measurementSystemName>
+			<measurementSystemName type="metric">metriДЌni</measurementSystemName>
+		</measurementSystemNames>
+		<codePatterns>
+			<codePattern type="language">Jezik: {0}</codePattern>
+			<codePattern type="territory">Regija: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<layout>
+		<inText type="keys">titlecase-firstword</inText>
+		<inText type="types">titlecase-firstword</inText>
+	</layout>
+	<characters>
+		<exemplarCharacters>[a-c ДЌ d-p r s ЕЎ t-v z Еѕ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[ГЎ Г  Дѓ Гў ГҐ Г¤ ДЃ Г¦ Г§ Г© ГЁ Д• ГЄ Г« Д“ Г­ Г¬ Д­ Г® ГЇ Д« Г± Гі ГІ ЕЏ Гґ Г¶ Гё ЕЌ Е“ q Гџ Гє Г№ Е­ Г» Гј Е« w-y Гї]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-z]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>В»</quotationStart>
+		<quotationEnd>В«</quotationEnd>
+		<alternateQuotationStart>вЂћ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂњ</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<dateRangePattern>{0} вЂ“ {1}</dateRangePattern>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">jan</month>
+							<month type="2">feb</month>
+							<month type="3">mar</month>
+							<month type="4">apr</month>
+							<month type="5">maj</month>
+							<month type="6">jun</month>
+							<month type="7">jul</month>
+							<month type="8">avg</month>
+							<month type="9">sep</month>
+							<month type="10">okt</month>
+							<month type="11">nov</month>
+							<month type="12">dec</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">januar</month>
+							<month type="2">februar</month>
+							<month type="3">marec</month>
+							<month type="4">april</month>
+							<month type="5">maj</month>
+							<month type="6">junij</month>
+							<month type="7">julij</month>
+							<month type="8">avgust</month>
+							<month type="9">september</month>
+							<month type="10">oktober</month>
+							<month type="11">november</month>
+							<month type="12">december</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">j</month>
+							<month type="2">f</month>
+							<month type="3">m</month>
+							<month type="4">a</month>
+							<month type="5">m</month>
+							<month type="6">j</month>
+							<month type="7">j</month>
+							<month type="8">a</month>
+							<month type="9">s</month>
+							<month type="10">o</month>
+							<month type="11">n</month>
+							<month type="12">d</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">ned</day>
+							<day type="mon">pon</day>
+							<day type="tue">tor</day>
+							<day type="wed">sre</day>
+							<day type="thu">ДЌet</day>
+							<day type="fri">pet</day>
+							<day type="sat">sob</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">nedelja</day>
+							<day type="mon">ponedeljek</day>
+							<day type="tue">torek</day>
+							<day type="wed">sreda</day>
+							<day type="thu">ДЌetrtek</day>
+							<day type="fri">petek</day>
+							<day type="sat">sobota</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">n</day>
+							<day type="mon">p</day>
+							<day type="tue">t</day>
+							<day type="wed">s</day>
+							<day type="thu">ДЌ</day>
+							<day type="fri">p</day>
+							<day type="sat">s</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1. ДЌetrtletje</quarter>
+							<quarter type="2">2. ДЌetrtletje</quarter>
+							<quarter type="3">3. ДЌetrtletje</quarter>
+							<quarter type="4">4. ДЌetrtletje</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>dop.</am>
+				<pm>pop.</pm>
+				<eras>
+					<eraNames>
+						<era type="0">pred naЕЎim ЕЎtetjem</era>
+						<era type="1">naЕЎe ЕЎtetje</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">pr. n. ЕЎt.</era>
+						<era type="1">po Kr.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, dd. MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>dd. MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d. MMM. yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d. MM. yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>H:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMdd">dd. MMMM</dateFormatItem>
+						<dateFormatItem id="Md">d. M.</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">y</dateFormatItem>
+						<dateFormatItem id="yyQ">Q/yy</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} вЂ“ {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">M.вЂ“M.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E., d. M. вЂ“ E., d. M.</greatestDifference>
+							<greatestDifference id="d">E., d. вЂ“ E., d. M.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">MMMвЂ“MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E., d. MMM. вЂ“ E., d. MMM.</greatestDifference>
+							<greatestDifference id="d">E., d. вЂ“ E., d. MMM.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMM">
+							<greatestDifference id="M">LLLLвЂ“LLLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">d. MMM. вЂ“ d. MMM.</greatestDifference>
+							<greatestDifference id="d">d.вЂ“d. MMM.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">d. M. вЂ“ d. M.</greatestDifference>
+							<greatestDifference id="d">d. вЂ“ d. M.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d.вЂ“d.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">HHвЂ“HH</greatestDifference>
+							<greatestDifference id="h">HHвЂ“HH</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="a">HH:mmвЂ“HH:mm</greatestDifference>
+							<greatestDifference id="h">HH:mmвЂ“HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mmвЂ“HH:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">HH:mmвЂ“HH:mm v</greatestDifference>
+							<greatestDifference id="h">HH:mmвЂ“HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mmвЂ“HH:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">HHвЂ“HH v</greatestDifference>
+							<greatestDifference id="h">HHвЂ“HH v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">yвЂ“y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">M вЂ“ M/yy</greatestDifference>
+							<greatestDifference id="y">M/yy вЂ“ M/yy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">E., d. M. вЂ“ E., d. M. yy</greatestDifference>
+							<greatestDifference id="d">E., d. вЂ“ E., d. M. yy</greatestDifference>
+							<greatestDifference id="y">E., d. M. yy вЂ“ E., d. M. yy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">MMM. вЂ“ MMM. y</greatestDifference>
+							<greatestDifference id="y">MMM. y вЂ“ MMM. y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E., d. MMM. вЂ“ E., d. MMM. y</greatestDifference>
+							<greatestDifference id="d">E., d. MMM. вЂ“ E., d. MMM. y</greatestDifference>
+							<greatestDifference id="y">E., d. MMM. y вЂ“ E., d. MMM. y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMM">
+							<greatestDifference id="M">MMвЂ“MM yyyy</greatestDifference>
+							<greatestDifference id="y">MM/yyyy вЂ“ MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">d. MMM. вЂ“ d. MMM. y</greatestDifference>
+							<greatestDifference id="d">d.вЂ“d. MMM. y</greatestDifference>
+							<greatestDifference id="y">d. MMM. y вЂ“ d. MMM. y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">d. M. вЂ“ d. M. yy</greatestDifference>
+							<greatestDifference id="d">d. M. yy вЂ“ d. M. yy</greatestDifference>
+							<greatestDifference id="y">d. M. yy вЂ“ d. M. yy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="era">
+						<displayName>Doba</displayName>
+					</field>
+					<field type="year">
+						<displayName>Leto</displayName>
+					</field>
+					<field type="month">
+						<displayName>Mesec</displayName>
+					</field>
+					<field type="week">
+						<displayName>Teden</displayName>
+					</field>
+					<field type="day">
+						<displayName>Dan</displayName>
+						<relative type="-3">Pred tremi dnevi</relative>
+						<relative type="-2">PredvДЌerajЕЎnjim</relative>
+						<relative type="-1">VДЌeraj</relative>
+						<relative type="0">Danes</relative>
+						<relative type="1">Jutri</relative>
+						<relative type="2">PojutriЕЎnjem</relative>
+						<relative type="3">ДЊez tri dni</relative>
+					</field>
+					<field type="weekday">
+						<displayName>Dan v tednu</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>ДЊas dneva</displayName>
+					</field>
+					<field type="hour">
+						<displayName>Ura</displayName>
+					</field>
+					<field type="minute">
+						<displayName>Minuta</displayName>
+					</field>
+					<field type="second">
+						<displayName>Sekunda</displayName>
+					</field>
+					<field type="zone">
+						<displayName>ObmoДЌje</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>neznano</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>Andora</exemplarCity>
+			</zone>
+			<zone type="Asia/Dubai">
+				<exemplarCity>Dubaj</exemplarCity>
+			</zone>
+			<zone type="Europe/Tirane">
+				<exemplarCity>Tirana</exemplarCity>
+			</zone>
+			<zone type="Asia/Yerevan">
+				<exemplarCity>Erevan</exemplarCity>
+			</zone>
+			<zone type="Antarctica/South_Pole">
+				<exemplarCity>JuЕѕni teДЌaj</exemplarCity>
+			</zone>
+			<zone type="America/Cordoba">
+				<exemplarCity>Kordova</exemplarCity>
+			</zone>
+			<zone type="Europe/Vienna">
+				<exemplarCity>Dunaj</exemplarCity>
+			</zone>
+			<zone type="Asia/Dhaka">
+				<exemplarCity>Daka</exemplarCity>
+			</zone>
+			<zone type="Europe/Brussels">
+				<exemplarCity>Bruselj</exemplarCity>
+			</zone>
+			<zone type="Europe/Sofia">
+				<exemplarCity>Sofija</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>Bahrajn</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity>Bermudi</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity>Brunej</exemplarCity>
+			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity>Kokosovi</exemplarCity>
+			</zone>
+			<zone type="Africa/Kinshasa">
+				<exemplarCity>KinЕЎasa</exemplarCity>
+			</zone>
+			<zone type="Africa/Lubumbashi">
+				<exemplarCity>LubumbaЕЎi</exemplarCity>
+			</zone>
+			<zone type="Africa/Abidjan">
+				<exemplarCity>AbidЕѕan</exemplarCity>
+			</zone>
+			<zone type="Pacific/Easter">
+				<exemplarCity>VelikonoДЌni otok</exemplarCity>
+			</zone>
+			<zone type="Asia/Kashgar">
+				<exemplarCity>KaЕЎgar</exemplarCity>
+			</zone>
+			<zone type="Asia/Shanghai">
+				<exemplarCity>Е angaj</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>Kostarika</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity>Zelenortski otoki</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity>BoЕѕiДЌni</exemplarCity>
+			</zone>
+			<zone type="Asia/Nicosia">
+				<exemplarCity>Nikozija</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>DЕѕibuti</exemplarCity>
+			</zone>
+			<zone type="Europe/Copenhagen">
+				<exemplarCity>Kopenhagen</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>Dominika</exemplarCity>
+			</zone>
+			<zone type="Africa/Algiers">
+				<exemplarCity>AlЕѕir</exemplarCity>
+			</zone>
+			<zone type="Europe/Tallinn">
+				<exemplarCity>Talin</exemplarCity>
+			</zone>
+			<zone type="Africa/Cairo">
+				<exemplarCity>Kairo</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>Kanarski otoki</exemplarCity>
+			</zone>
+			<zone type="Africa/Addis_Ababa">
+				<exemplarCity>Adis Abeba</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>FidЕѕi</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity>Ferski otoki</exemplarCity>
+			</zone>
+			<zone type="Europe/Paris">
+				<exemplarCity>Pariz</exemplarCity>
+			</zone>
+			<zone type="Africa/Accra">
+				<exemplarCity>Akra</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity>Gvadelupe</exemplarCity>
+			</zone>
+			<zone type="Europe/Athens">
+				<exemplarCity>Atene</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>Gvatemala</exemplarCity>
+			</zone>
+			<zone type="Africa/Bissau">
+				<exemplarCity>Bisau</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>Gvajana</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>Hongkong</exemplarCity>
+			</zone>
+			<zone type="Europe/Budapest">
+				<exemplarCity>BudimpeЕЎta</exemplarCity>
+			</zone>
+			<zone type="Asia/Jakarta">
+				<exemplarCity>DЕѕakarta</exemplarCity>
+			</zone>
+			<zone type="Asia/Makassar">
+				<exemplarCity>Makasar</exemplarCity>
+			</zone>
+			<zone type="Asia/Baghdad">
+				<exemplarCity>Bagdad</exemplarCity>
+			</zone>
+			<zone type="Asia/Tehran">
+				<exemplarCity>Teheran</exemplarCity>
+			</zone>
+			<zone type="Europe/Rome">
+				<exemplarCity>Rim</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>Jamajka</exemplarCity>
+			</zone>
+			<zone type="Asia/Amman">
+				<exemplarCity>Aman</exemplarCity>
+			</zone>
+			<zone type="Asia/Tokyo">
+				<exemplarCity>Tokio</exemplarCity>
+			</zone>
+			<zone type="Asia/Bishkek">
+				<exemplarCity>BiЕЎkek</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity>St. Kitts</exemplarCity>
+			</zone>
+			<zone type="Asia/Pyongyang">
+				<exemplarCity>Pjongjang</exemplarCity>
+			</zone>
+			<zone type="Asia/Seoul">
+				<exemplarCity>Seul</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity>Kuvajt</exemplarCity>
+			</zone>
+			<zone type="America/Cayman">
+				<exemplarCity>Kajman</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtau">
+				<exemplarCity>Aktau</exemplarCity>
+			</zone>
+			<zone type="Asia/Oral">
+				<exemplarCity>Uralsk</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtobe">
+				<exemplarCity>Aktobe</exemplarCity>
+			</zone>
+			<zone type="Asia/Almaty">
+				<exemplarCity>Almati</exemplarCity>
+			</zone>
+			<zone type="Asia/Beirut">
+				<exemplarCity>Bejrut</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity>St. Lucia</exemplarCity>
+			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity>Vilna</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>Luksemburg</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>Monako</exemplarCity>
+			</zone>
+			<zone type="Asia/Ulaanbaatar">
+				<exemplarCity>Ulan Bator</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity>Macao</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity>Martinik</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>Maldivi</exemplarCity>
+			</zone>
+			<zone type="Asia/Karachi">
+				<exemplarCity>KaraДЌi</exemplarCity>
+			</zone>
+			<zone type="Europe/Warsaw">
+				<exemplarCity>VarЕЎava</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity>Portoriko</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Azores">
+				<exemplarCity>Azori</exemplarCity>
+			</zone>
+			<zone type="Europe/Lisbon">
+				<exemplarCity>Lizbona</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>Katar</exemplarCity>
+			</zone>
+			<zone type="Europe/Bucharest">
+				<exemplarCity>BukareЕЎta</exemplarCity>
+			</zone>
+			<zone type="Europe/Moscow">
+				<exemplarCity>Moskva</exemplarCity>
+			</zone>
+			<zone type="Asia/Yekaterinburg">
+				<exemplarCity>Jekaterinburg</exemplarCity>
+			</zone>
+			<zone type="Asia/Krasnoyarsk">
+				<exemplarCity>Krasnojarsk</exemplarCity>
+			</zone>
+			<zone type="Asia/Yakutsk">
+				<exemplarCity>Jakutsk</exemplarCity>
+			</zone>
+			<zone type="Asia/Sakhalin">
+				<exemplarCity>Sahalin</exemplarCity>
+			</zone>
+			<zone type="Asia/Kamchatka">
+				<exemplarCity>KamДЌatka</exemplarCity>
+			</zone>
+			<zone type="Asia/Anadyr">
+				<exemplarCity>Anadir</exemplarCity>
+			</zone>
+			<zone type="Asia/Riyadh">
+				<exemplarCity>Rijad</exemplarCity>
+			</zone>
+			<zone type="Africa/Khartoum">
+				<exemplarCity>Kartum</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>Singapur</exemplarCity>
+			</zone>
+			<zone type="Atlantic/St_Helena">
+				<exemplarCity>St. Helena</exemplarCity>
+			</zone>
+			<zone type="Africa/Mogadishu">
+				<exemplarCity>MogadiЕЎ</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>Salvador</exemplarCity>
+			</zone>
+			<zone type="Asia/Damascus">
+				<exemplarCity>Damask</exemplarCity>
+			</zone>
+			<zone type="Asia/Ashgabat">
+				<exemplarCity>AЕЎgabat</exemplarCity>
+			</zone>
+			<zone type="Africa/Dar_es_Salaam">
+				<exemplarCity>Darussalam</exemplarCity>
+			</zone>
+			<zone type="Europe/Uzhgorod">
+				<exemplarCity>UЕѕgorod</exemplarCity>
+			</zone>
+			<zone type="Europe/Kiev">
+				<exemplarCity>Kijev</exemplarCity>
+			</zone>
+			<zone type="Europe/Zaporozhye">
+				<exemplarCity>ZaporoЕѕje</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/New_Salem">
+				<exemplarCity>New Salem, Severna Dakota</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/Center">
+				<exemplarCity>Center, Severna Dakota</exemplarCity>
+			</zone>
+			<zone type="Asia/Tashkent">
+				<exemplarCity>TaЕЎkent</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity>St. Vincent</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity>St. Thomas</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>Sajgon</exemplarCity>
+			</zone>
+			<metazone type="Europe_Central">
+				<long>
+					<standard>Srednjeevropski ДЌas</standard>
+					<daylight>Srednjeevropski poletni ДЌas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Europe_Eastern">
+				<long>
+					<standard>Vzhodnoevropski ДЌas</standard>
+					<daylight>Vzhodnoevropski poletni ДЌas</daylight>
+				</long>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>.</group>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<patternDigit>#</patternDigit>
+			<plusSign>+</plusSign>
+			<minusSign>вЂ“</minusSign>
+			<exponential>e</exponential>
+			<perMille>вЂ°</perMille>
+			<infinity>в€ћ</infinity>
+			<nan>NaN</nan>
+		</symbols>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<scientificFormats>
+			<scientificFormatLength>
+				<scientificFormat>
+					<pattern>#E0</pattern>
+				</scientificFormat>
+			</scientificFormatLength>
+		</scientificFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="ADP">
+				<displayName>andorska peseta</displayName>
+			</currency>
+			<currency type="AED">
+				<displayName>dirham ZdruЕѕenih arabskih emiratov</displayName>
+			</currency>
+			<currency type="AFA">
+				<displayName>stari afganistanski afgani (1927вЂ“2002)</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>afgani</displayName>
+			</currency>
+			<currency type="ALL">
+				<displayName>albanski lek</displayName>
+			</currency>
+			<currency type="AMD">
+				<displayName>armenski dram</displayName>
+			</currency>
+			<currency type="ANG">
+				<displayName>nizozemsko-antilski gulden</displayName>
+			</currency>
+			<currency type="AOA">
+				<displayName>angolska kvanza</displayName>
+			</currency>
+			<currency type="AOK">
+				<displayName>stara angolska kvanza (1977вЂ“1990)</displayName>
+			</currency>
+			<currency type="AON">
+				<displayName>angolska nova kvanza (1990вЂ“2000)</displayName>
+			</currency>
+			<currency type="AOR">
+				<displayName>konvertibilna angolska kvanza (1995вЂ“1999)</displayName>
+			</currency>
+			<currency type="ARA">
+				<displayName>argentinski avstral</displayName>
+			</currency>
+			<currency type="ARP">
+				<displayName>argentinski peso (1983вЂ“1985)</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>argentinski peso</displayName>
+			</currency>
+			<currency type="ATS">
+				<displayName>avstrijski ЕЎiling</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>avstralski dolar</displayName>
+			</currency>
+			<currency type="AWG">
+				<displayName>arubski florin</displayName>
+			</currency>
+			<currency type="AZM">
+				<displayName>stari azerbajdЕѕanski manat (1993вЂ“2006)</displayName>
+			</currency>
+			<currency type="AZN">
+				<displayName>azerbajdЕѕanski manat</displayName>
+			</currency>
+			<currency type="BAD">
+				<displayName>bosansko-hercegovski dinar</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>bosansko-hercegovska konvertibilna marka</displayName>
+			</currency>
+			<currency type="BBD">
+				<displayName>barbadoЕЎki dolar</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>bangladeЕЎka taka</displayName>
+			</currency>
+			<currency type="BEC">
+				<displayName>belgijski konvertibilni frank</displayName>
+			</currency>
+			<currency type="BEF">
+				<displayName>belgijski frank</displayName>
+			</currency>
+			<currency type="BEL">
+				<displayName>belgijski finanДЌni frank</displayName>
+			</currency>
+			<currency type="BGL">
+				<displayName>stari bolgarski lev</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>bolgarski lev</displayName>
+			</currency>
+			<currency type="BHD">
+				<displayName>bahranski dinar</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>burundski frank</displayName>
+			</currency>
+			<currency type="BMD">
+				<displayName>bermudski dolar</displayName>
+			</currency>
+			<currency type="BND">
+				<displayName>brunejski dolar</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>bolivijski boliviano</displayName>
+			</currency>
+			<currency type="BOP">
+				<displayName>bolivijski peso</displayName>
+			</currency>
+			<currency type="BOV">
+				<displayName>bolivijski mvdol</displayName>
+			</currency>
+			<currency type="BRB">
+				<displayName>brazilski novi kruzeiro (1967вЂ“1986)</displayName>
+			</currency>
+			<currency type="BRC">
+				<displayName>brazilski kruzado</displayName>
+			</currency>
+			<currency type="BRE">
+				<displayName>stari brazilski kruzeiro (1990вЂ“1993)</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>brazilski real</displayName>
+			</currency>
+			<currency type="BRN">
+				<displayName>novi brazilski kruzado</displayName>
+			</currency>
+			<currency type="BRR">
+				<displayName>brazilski kruzeiro</displayName>
+			</currency>
+			<currency type="BSD">
+				<displayName>bahamski dolar</displayName>
+			</currency>
+			<currency type="BTN">
+				<displayName>butanski ngultrum</displayName>
+			</currency>
+			<currency type="BUK">
+				<displayName>burmanski kjat</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>bocvanska pula</displayName>
+			</currency>
+			<currency type="BYB">
+				<displayName>beloruski novi rubelj (1994вЂ“1999)</displayName>
+			</currency>
+			<currency type="BYR">
+				<displayName>beloruski rubelj</displayName>
+			</currency>
+			<currency type="BZD">
+				<displayName>belizejski dolar</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>kanadski dolar</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>kongoЕЎki frank</displayName>
+			</currency>
+			<currency type="CHE">
+				<displayName>evro WIR</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>ЕЎvicarski frank</displayName>
+			</currency>
+			<currency type="CHW">
+				<displayName>frank WIR</displayName>
+			</currency>
+			<currency type="CLF">
+				<displayName>ДЌilski unidades de fomento</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>ДЌilski peso</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>kitajski juan renminbi</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>kolumbijski peso</displayName>
+			</currency>
+			<currency type="COU">
+				<displayName>kolumbijska enota realne vrednosti</displayName>
+			</currency>
+			<currency type="CRC">
+				<displayName>kostariЕЎki kolon</displayName>
+			</currency>
+			<currency type="CSD">
+				<displayName>stari srbski dinar</displayName>
+			</currency>
+			<currency type="CSK">
+				<displayName>ДЌeЕЎkoslovaЕЎka krona</displayName>
+			</currency>
+			<currency type="CUP">
+				<displayName>kubanski peso</displayName>
+			</currency>
+			<currency type="CVE">
+				<displayName>zelenortski eskudo</displayName>
+			</currency>
+			<currency type="CYP">
+				<displayName>ciprski funt</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>ДЌeЕЎka krona</displayName>
+			</currency>
+			<currency type="DDM">
+				<displayName>vzhodnonemЕЎka marka</displayName>
+			</currency>
+			<currency type="DEM">
+				<displayName>nemЕЎka marka</displayName>
+			</currency>
+			<currency type="DJF">
+				<displayName>dЕѕibutski frank</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>danska krona</displayName>
+			</currency>
+			<currency type="DOP">
+				<displayName>dominikanski peso</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>alЕѕirski dinar</displayName>
+			</currency>
+			<currency type="ECS">
+				<displayName>ekvadorski sukre</displayName>
+			</currency>
+			<currency type="ECV">
+				<displayName>ekvadorska enota realne vrednosti (UVC)</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>estonska krona</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>egiptovski funt</displayName>
+			</currency>
+			<currency type="ERN">
+				<displayName>eritrejska nakfa</displayName>
+			</currency>
+			<currency type="ESA">
+				<displayName>ЕЎpanska pezeta (raДЌun A)</displayName>
+			</currency>
+			<currency type="ESB">
+				<displayName>ЕЎpanska pezeta (raДЌun B)</displayName>
+			</currency>
+			<currency type="ESP">
+				<displayName>ЕЎpanska pezeta</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>etiopski bir</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>evro</displayName>
+			</currency>
+			<currency type="FIM">
+				<displayName>finska marka</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>fidЕѕijski dolar</displayName>
+			</currency>
+			<currency type="FKP">
+				<displayName>falklandski funt</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>francoski frank</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>britanski funt</displayName>
+			</currency>
+			<currency type="GEK">
+				<displayName>gruzijski bon lari</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>gruzijski lari</displayName>
+			</currency>
+			<currency type="GHC">
+				<displayName>stari ganski cedi (1979вЂ“2007)</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>ganski cedi</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>gibraltarski funt</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>gambijski dalasi</displayName>
+			</currency>
+			<currency type="GNS">
+				<displayName>gvinejski sili</displayName>
+			</currency>
+			<currency type="GQE">
+				<displayName>ekwele Ekvatorialne Gvineje</displayName>
+			</currency>
+			<currency type="GRD">
+				<displayName>grЕЎka drahma</displayName>
+			</currency>
+			<currency type="GTQ">
+				<displayName>gvatemalski kecal</displayName>
+			</currency>
+			<currency type="GWE">
+				<displayName>eskudo Portugalske Gvineje</displayName>
+			</currency>
+			<currency type="GWP">
+				<displayName>peso Gvineje Bissau</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>gvajanski dolar</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>hongkonЕЎki dolar</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>honduraЕЎka lempira</displayName>
+			</currency>
+			<currency type="HRD">
+				<displayName>hrvaЕЎki dinar</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>hrvaЕЎka kuna</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>haitski gurd</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>madЕѕarski forint</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>indonezijska rupija</displayName>
+			</currency>
+			<currency type="IEP">
+				<displayName>irski funt</displayName>
+			</currency>
+			<currency type="ILP">
+				<displayName>izraelski funt</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>izraelski ЕЎekel</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>indijska rupija</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>iraЕЎki dinar</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>iranski rial</displayName>
+			</currency>
+			<currency type="ISK">
+				<displayName>islandska krona</displayName>
+			</currency>
+			<currency type="ITL">
+				<displayName>italijanska lira</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>jamajЕЎki dolar</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>jordanski dinar</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>japonski jen</displayName>
+				<symbol>ВҐ</symbol>
+			</currency>
+			<currency type="KES">
+				<displayName>kenijski ЕЎiling</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>kirgiЕЎki som</displayName>
+			</currency>
+			<currency type="KHR">
+				<displayName>kamboЕЎki riel</displayName>
+			</currency>
+			<currency type="KMF">
+				<displayName>komorski frank</displayName>
+			</currency>
+			<currency type="KPW">
+				<displayName>severnokorejski von</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>juЕѕnokorejski von</displayName>
+			</currency>
+			<currency type="KWD">
+				<displayName>kuvajtski dinar</displayName>
+			</currency>
+			<currency type="KYD">
+				<displayName>kajmanski dolar</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>kazahstanski tenge</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>laoЕЎki kip</displayName>
+			</currency>
+			<currency type="LBP">
+				<displayName>libanonski funt</displayName>
+			</currency>
+			<currency type="LKR">
+				<displayName>ЕЎrilanЕЎka rupija</displayName>
+			</currency>
+			<currency type="LRD">
+				<displayName>liberijski dolar</displayName>
+			</currency>
+			<currency type="LSL">
+				<displayName>lesoЕЎki loti</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>litovski litas</displayName>
+			</currency>
+			<currency type="LTT">
+				<displayName>litvanski litas</displayName>
+			</currency>
+			<currency type="LUC">
+				<displayName>luksemburЕЎki konvertibilni frank</displayName>
+			</currency>
+			<currency type="LUF">
+				<displayName>luksemburЕЎki frank</displayName>
+			</currency>
+			<currency type="LUL">
+				<displayName>luksemburЕЎki finanДЌni frank</displayName>
+			</currency>
+			<currency type="LVL">
+				<displayName>latvijski lats</displayName>
+			</currency>
+			<currency type="LVR">
+				<displayName>latvijski rubelj</displayName>
+			</currency>
+			<currency type="LYD">
+				<displayName>libijski dinar</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>maroЕЎki dirham</displayName>
+			</currency>
+			<currency type="MAF">
+				<displayName>maroЕЎki frank</displayName>
+			</currency>
+			<currency type="MDL">
+				<displayName>moldavijski leu</displayName>
+			</currency>
+			<currency type="MGA">
+				<displayName>malgaЕЎki ariarij</displayName>
+			</currency>
+			<currency type="MGF">
+				<displayName>malgaЕЎki frank</displayName>
+			</currency>
+			<currency type="MKD">
+				<displayName>makedonski denar</displayName>
+			</currency>
+			<currency type="MLF">
+				<displayName>malijski frank</displayName>
+			</currency>
+			<currency type="MMK">
+				<displayName>mjanmarski kjat</displayName>
+			</currency>
+			<currency type="MNT">
+				<displayName>mongolski tugrik</displayName>
+			</currency>
+			<currency type="MOP">
+				<displayName>makavska pataka</displayName>
+			</currency>
+			<currency type="MRO">
+				<displayName>mavretanska uguija</displayName>
+			</currency>
+			<currency type="MTL">
+				<displayName>malteЕЎka lira</displayName>
+			</currency>
+			<currency type="MTP">
+				<displayName>malteЕЎki funt</displayName>
+			</currency>
+			<currency type="MUR">
+				<displayName>mavricijska rupija</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>maldivska rufija</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>malavijska kvaДЌa</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>mehiЕЎki peso</displayName>
+			</currency>
+			<currency type="MXP">
+				<displayName>mehiЕЎki srebrni peso (1861-1992)</displayName>
+			</currency>
+			<currency type="MXV">
+				<displayName>mehiЕЎka inverzna enota (UDI)</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>malezijski ringit</displayName>
+			</currency>
+			<currency type="MZE">
+				<displayName>mozambiЕЎki eskudo</displayName>
+			</currency>
+			<currency type="MZM">
+				<displayName>stari mozambiЕЎki metikal</displayName>
+			</currency>
+			<currency type="MZN">
+				<displayName>mozambiЕЎki metikal</displayName>
+			</currency>
+			<currency type="NAD">
+				<displayName>namibijski dolar</displayName>
+			</currency>
+			<currency type="NGN">
+				<displayName>nigerijska naira</displayName>
+			</currency>
+			<currency type="NIC">
+				<displayName>nikaraЕЎka kordova</displayName>
+			</currency>
+			<currency type="NIO">
+				<displayName>nikaraЕЎka zlata kordova</displayName>
+			</currency>
+			<currency type="NLG">
+				<displayName>nizozemski gulden</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>norveЕЎka krona</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>nepalska rupija</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>novozelandski dolar</displayName>
+			</currency>
+			<currency type="OMR">
+				<displayName>omanski rial</displayName>
+			</currency>
+			<currency type="PAB">
+				<displayName>panamska balboa</displayName>
+			</currency>
+			<currency type="PEI">
+				<displayName>perujski inti</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>perujski novi sol</displayName>
+			</currency>
+			<currency type="PES">
+				<displayName>perujski sol</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>kina Papue Nove Gvineje</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>filipinski peso</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>pakistanska rupija</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>poljski novi zlot</displayName>
+			</currency>
+			<currency type="PLZ">
+				<displayName>stari poljski zlot (1950вЂ“1995)</displayName>
+			</currency>
+			<currency type="PTE">
+				<displayName>portugalski eskudo</displayName>
+			</currency>
+			<currency type="PYG">
+				<displayName>paragvajski gvarani</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>katarski rial</displayName>
+			</currency>
+			<currency type="RHD">
+				<displayName>rodezijski dolar</displayName>
+			</currency>
+			<currency type="ROL">
+				<displayName>stari romunski leu</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>romunski leu</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>srbski dinar</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>ruski rubelj</displayName>
+			</currency>
+			<currency type="RUR">
+				<displayName>ruski rubelj (1991вЂ“1998)</displayName>
+			</currency>
+			<currency type="RWF">
+				<displayName>ruandski frank</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>saudski rial</displayName>
+			</currency>
+			<currency type="SBD">
+				<displayName>solomonski dolar</displayName>
+			</currency>
+			<currency type="SCR">
+				<displayName>sejЕЎelska rupija</displayName>
+			</currency>
+			<currency type="SDD">
+				<displayName>stari sudanski dinar</displayName>
+			</currency>
+			<currency type="SDG">
+				<displayName>sudanski funt</displayName>
+			</currency>
+			<currency type="SDP">
+				<displayName>stari sudanski funt</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>ЕЎvedska krona</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>singapurski dolar</displayName>
+			</currency>
+			<currency type="SHP">
+				<displayName>funt Sv. Helene</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>slovenski tolar</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>slovaЕЎka krona</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>sieraleonski leone</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>somalski ЕЎiling</displayName>
+			</currency>
+			<currency type="SRD">
+				<displayName>surinamski dolar</displayName>
+			</currency>
+			<currency type="SRG">
+				<displayName>surinamski gulden</displayName>
+			</currency>
+			<currency type="STD">
+				<displayName>saotomejska dobra</displayName>
+			</currency>
+			<currency type="SUR">
+				<displayName>sovjetski rubelj</displayName>
+			</currency>
+			<currency type="SVC">
+				<displayName>salvadorski kolon</displayName>
+			</currency>
+			<currency type="SYP">
+				<displayName>sirijski funt</displayName>
+			</currency>
+			<currency type="SZL">
+				<displayName>svazijski lilangeni</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>tajski baht</displayName>
+			</currency>
+			<currency type="TJR">
+				<displayName>tadЕѕikistanski rubelj</displayName>
+			</currency>
+			<currency type="TJS">
+				<displayName>tadЕѕikistanski somoni</displayName>
+			</currency>
+			<currency type="TMM">
+				<displayName>turkmenski manat</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>tunizijski dinar</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>tongovska paanga</displayName>
+			</currency>
+			<currency type="TPE">
+				<displayName>timorski eskudo</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>stara turЕЎka lira</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>nova turЕЎka lira</displayName>
+			</currency>
+			<currency type="TTD">
+				<displayName>dolar Trinidada in Tobaga</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>novi tajvanski dolar</displayName>
+			</currency>
+			<currency type="TZS">
+				<displayName>tanzanijski ЕЎiling</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>ukrajinska grivna</displayName>
+			</currency>
+			<currency type="UAK">
+				<displayName>ukrajinski karbovanci</displayName>
+			</currency>
+			<currency type="UGS">
+				<displayName>stari ugandski ЕЎiling (1966вЂ“1987)</displayName>
+			</currency>
+			<currency type="UGX">
+				<displayName>ugandski ЕЎiling</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>ameriЕЎki dolar</displayName>
+				<symbol>$</symbol>
+			</currency>
+			<currency type="USN">
+				<displayName>ameriЕЎki dolar, naslednji dan</displayName>
+			</currency>
+			<currency type="USS">
+				<displayName>ameriЕЎki dolar, isti dan</displayName>
+			</currency>
+			<currency type="UYP">
+				<displayName>stari urugvajski peso (1975вЂ“1993)</displayName>
+			</currency>
+			<currency type="UYU">
+				<displayName>urugvajski peso</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>uzbeЕЎki sum</displayName>
+			</currency>
+			<currency type="VEB">
+				<displayName>venezuelski bolivar</displayName>
+			</currency>
+			<currency type="VEF">
+				<displayName>venezuelski bolivar fuerte</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>vientnamski dong</displayName>
+			</currency>
+			<currency type="VUV">
+				<displayName>vanuatujski vatu</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>samoanska tala</displayName>
+			</currency>
+			<currency type="XAF">
+				<displayName>CFA frank BEAC</displayName>
+			</currency>
+			<currency type="XAG">
+				<displayName>srebro</displayName>
+			</currency>
+			<currency type="XAU">
+				<displayName>zlato</displayName>
+			</currency>
+			<currency type="XBA">
+				<displayName>evropska sestavljena enota</displayName>
+			</currency>
+			<currency type="XBB">
+				<displayName>evropska monetarna enota</displayName>
+			</currency>
+			<currency type="XBC">
+				<displayName>evropska obraДЌunska enota (XBC)</displayName>
+			</currency>
+			<currency type="XBD">
+				<displayName>evropska obraДЌunska enota (XBD)</displayName>
+			</currency>
+			<currency type="XCD">
+				<displayName>vzhodnokaribski dolar</displayName>
+			</currency>
+			<currency type="XDR">
+				<displayName>posebne pravice ДЌrpanja</displayName>
+			</currency>
+			<currency type="XEU">
+				<displayName>evropska denarna enota</displayName>
+			</currency>
+			<currency type="XFO">
+				<displayName>zlati frank</displayName>
+			</currency>
+			<currency type="XFU">
+				<displayName>frank UIC</displayName>
+			</currency>
+			<currency type="XOF">
+				<displayName>CFA frank BCEAO</displayName>
+			</currency>
+			<currency type="XPD">
+				<displayName>paladij</displayName>
+			</currency>
+			<currency type="XPF">
+				<displayName>CFP frank</displayName>
+			</currency>
+			<currency type="XPT">
+				<displayName>platina</displayName>
+			</currency>
+			<currency type="XRE">
+				<displayName>XRE</displayName>
+			</currency>
+			<currency type="XTS">
+				<displayName>koda za potrebe testiranja</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>neznana ali neveljavna valuta</displayName>
+			</currency>
+			<currency type="YDD">
+				<displayName>jemenski dinar</displayName>
+			</currency>
+			<currency type="YER">
+				<displayName>jemenski rial</displayName>
+			</currency>
+			<currency type="YUD">
+				<displayName>stari jugoslovanski dinar</displayName>
+			</currency>
+			<currency type="YUM">
+				<displayName>novi jugoslovanski dinar</displayName>
+			</currency>
+			<currency type="YUN">
+				<displayName>jugoslovanski konvertibilni dinar</displayName>
+			</currency>
+			<currency type="ZAL">
+				<displayName>juЕѕnoafriЕЎki finanДЌni rand</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>juЕѕnoafriЕЎki rand</displayName>
+			</currency>
+			<currency type="ZMK">
+				<displayName>zambijska kvaДЌa</displayName>
+			</currency>
+			<currency type="ZRN">
+				<displayName>zairski novi zaire</displayName>
+			</currency>
+			<currency type="ZRZ">
+				<displayName>zairski zaire</displayName>
+			</currency>
+			<currency type="ZWD">
+				<displayName>zimbabvejski dolar</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="day">
+			<unitPattern count="few">{0} dnevi</unitPattern>
+			<unitPattern count="one">{0} dan</unitPattern>
+			<unitPattern count="other">{0} dni</unitPattern>
+			<unitPattern count="two">{0} dni</unitPattern>
+		</unit>
+		<unit type="hour">
+			<unitPattern count="few">{0} ure</unitPattern>
+			<unitPattern count="one">{0} ura</unitPattern>
+			<unitPattern count="other">{0} ur</unitPattern>
+			<unitPattern count="two">{0} uri</unitPattern>
+		</unit>
+		<unit type="minute">
+			<unitPattern count="few">{0} minute</unitPattern>
+			<unitPattern count="one">{0} minuta</unitPattern>
+			<unitPattern count="other">{0} minut</unitPattern>
+			<unitPattern count="two">{0} minuti</unitPattern>
+		</unit>
+		<unit type="month">
+			<unitPattern count="few">{0} meseci</unitPattern>
+			<unitPattern count="one">{0} mesec</unitPattern>
+			<unitPattern count="other">{0} mesecev</unitPattern>
+			<unitPattern count="two">{0} meseca</unitPattern>
+		</unit>
+		<unit type="second">
+			<unitPattern count="few">{0} sekunde</unitPattern>
+			<unitPattern count="one">{0} sekunda</unitPattern>
+			<unitPattern count="other">{0} sekund</unitPattern>
+			<unitPattern count="two">{0} sekundi</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="few">{0} tedni</unitPattern>
+			<unitPattern count="one">{0} teden</unitPattern>
+			<unitPattern count="other">{0} tednov</unitPattern>
+			<unitPattern count="two">{0} tedna</unitPattern>
+		</unit>
+		<unit type="year">
+			<unitPattern count="few">{0} leta</unitPattern>
+			<unitPattern count="one">{0} leto</unitPattern>
+			<unitPattern count="other">{0} let</unitPattern>
+			<unitPattern count="two">{0} leti</unitPattern>
+		</unit>
+	</units>
+	<posix>
+		<messages>
+			<yesstr>da:d</yesstr>
+			<nostr>ne:n</nostr>
+		</messages>
+	</posix>
+</ldml>
+

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.31 $"/>
+		<generation date="$Date: 2009/05/05 23:06:34 $"/>
+		<language type="az"/>
+		<script type="Cyrl"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="az">РђР·У™СЂР±Р°СТ№Р°РЅ</language>
+			<language type="de">Р°Р»РјР°РЅТ№Р°</language>
+			<language type="en">РёРЅТќРёР»РёСЃТ№У™</language>
+			<language type="es">РёСЃРїР°РЅТ№Р°</language>
+			<language type="fr">С„СЂР°РЅСЃС‹Р·Т№Р°</language>
+			<language type="it">РёС‚Р°Р»СР°РЅТ№Р°</language>
+			<language type="ja">СР°РїРѕРЅТ№Р°</language>
+			<language type="pt">РїРѕСЂС‚СѓРіР°Р»Т№Р°</language>
+			<language type="ru">СЂСѓСЃТ№Р°</language>
+			<language type="zh">С‡РёРЅТ№У™</language>
+		</languages>
+		<territories>
+			<territory type="AZ">РђР·У™СЂР±Р°СТ№Р°РЅ</territory>
+			<territory type="BR">Р‘СЂР°Р·РёР»РёСР°</territory>
+			<territory type="CN">Р§РёРЅ</territory>
+			<territory type="DE">РђР»РјР°РЅРёСР°</territory>
+			<territory type="FR">Р¤СЂР°РЅСЃР°</territory>
+			<territory type="IN">ТєРёРЅРґРёСЃС‚Р°РЅ</territory>
+			<territory type="IT">РС‚Р°Р»РёСР°</territory>
+			<territory type="JP">Р€Р°РїРѕРЅРёСР°</territory>
+			<territory type="RU">Р СѓСЃРёСР°</territory>
+			<territory type="US">РђРјРµСЂРёРєР° Р‘РёСЂР»У™С€РјРёС€ РЁС‚Р°С‚Р»Р°СЂС‹</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[Р° У™ Р±-Рі Т“ Рґ-Р№ С Рє Тќ Р»-Рѕ У© Рї-Сѓ ТЇ С„ С… Т» С‡ Т№ С€ С‹]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[С† С‰ СЉ СЊ-СЏ]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">СР°РЅРІР°СЂ</month>
+							<month type="2">С„РµРІСЂР°Р»</month>
+							<month type="3">РјР°СЂС‚</month>
+							<month type="4">Р°РїСЂРµР»</month>
+							<month type="5">РјР°Р№</month>
+							<month type="6">РёССѓРЅ</month>
+							<month type="7">РёССѓР»</month>
+							<month type="8">Р°РІРіСѓСЃС‚</month>
+							<month type="9">СЃРµРЅС‚СР°Р±СЂ</month>
+							<month type="10">РѕРєС‚СР°Р±СЂ</month>
+							<month type="11">РЅРѕСР°Р±СЂ</month>
+							<month type="12">РґРµРєР°Р±СЂ</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="wide">
+							<day type="sun">Р±Р°Р·Р°СЂ</day>
+							<day type="mon">Р±Р°Р·Р°СЂ РµСЂС‚У™СЃРё</day>
+							<day type="tue">С‡У™СЂС€У™РЅР±У™ Р°С…С€Р°РјС‹</day>
+							<day type="wed">С‡У™СЂС€У™РЅР±У™</day>
+							<day type="thu">Т№ТЇРјУ™ Р°С…С€Р°РјС‹</day>
+							<day type="fri">Т№ТЇРјУ™</day>
+							<day type="sat">С€У™РЅР±У™</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<currencies>
+			<currency type="AZN">
+				<displayName>РјР°РЅР°С‚</displayName>
+				<symbol>РјР°РЅ.</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>

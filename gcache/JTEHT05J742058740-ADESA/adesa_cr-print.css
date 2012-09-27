@@ -1,0 +1,655 @@
+body {
+	text-align:center;
+}
+.banner, .toolBar, #nav, .small_text_gray {
+	display:none;
+}
+.wrapper {
+	width:100%%;
+}
+.outbound {
+	text-align:center;
+	background-color:#DCD4C3;
+	overflow:visible;
+}
+.cr-wrapper {
+	clear:none;
+	text-align:left;
+	margin:0;
+	padding:0;
+	width:100%;
+	background:none;
+	overflow:visible;
+}
+.outbound .cr-wrapper {
+	clear:none;
+	text-align:left;
+	margin:0;
+	padding:0;
+	width:97%;
+	background:none;
+	overflow:visible;
+}
+table, table.wrapper { 
+	overflow:visible !important;
+}
+table, div {
+	float:none !important;
+}
+/* Header */
+.cr-header {
+	clear:both;
+	float:left;
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#f0eddf;
+	overflow:visible;
+}
+.cr-header .printOnly {
+	clear:none;
+	float:left !important;
+	margin:0;
+	padding:0;
+	width:115px;
+	display:inline;
+}
+.infoBar {
+	display:none;
+}
+.cr-logo {
+	clear:none;
+	float:left !important;
+	margin:0 0 0 5px;
+	padding:0;
+	width:115px;
+	display:none;
+}
+.cr-title {
+	clear:none;
+	float:left !important;
+	margin:0;
+	padding:5px 0 0 0;
+	width:300px;
+	display:block;
+}
+.cr-title h1 {
+	margin:0;
+	padding:11px 0 0 0;
+	color:#756957;
+	font-size:19px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+.cr-assistance {
+	color:#333;
+	font-size:.9em;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1em;
+	margin-top:2px;
+}
+.cr-toolbar {
+	display:none;
+}
+.cr-toolbar img.btn-rpadding {
+	margin:0;
+	padding:5px 5px 0 0;
+}
+.cr-toolbar img.btn-lpadding {
+	margin:0;
+	padding:5px 0 0 5px;
+}
+
+/* Content */
+.cr-content {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+	padding:0;
+	width:100%;
+	background-color:#FFF;
+}
+.cr-mod-vehicle {
+	clear:none;
+	float:left !important;
+	margin:0;
+	padding:0;
+	width:62%; /* 65% = 624px while inside 960px container */
+	text-align:left;
+}
+.cr-mod-vehicle h1 {
+	margin:0;
+	padding:0 0 10px 0;
+	font-size:1.8em;
+	font-weight:bold;
+}
+.cr-buttons {
+	display:none;
+}
+.cr-buttons img {
+	margin:0 0 5px 0;
+	padding:0;
+}
+.cr-details {
+	clear:none;
+	float:left !important;
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align:left;
+	font-size:.9em;
+}
+.cr-details a {
+	color:#000000;
+}
+.cr-mod-auction {
+	clear:none;
+	float:left !important;
+	margin:0;
+	padding:0;
+	width:35%; /* 65% = 624px while inside 960px container */
+	overflow:visible;
+}
+.cr-mod-auction .c_480 {
+	float:left !important;
+	margin:0;
+	padding:0;
+	width:48%;
+}
+.cr-block {
+	border:none;
+	width:100%;
+}
+.cr-block .mod_tmargin {
+	display:none;
+}
+.noPrint {
+	display:none !important;
+}
+
+
+/* Image Gallery and Zoom Viewer */
+.cr-mod-gallery {
+	clear:both;
+	float:left;
+	width:958px;
+	margin:0;
+	padding:0;
+	border:1px solid #322d25;
+	background-color:#DCD4C3;
+	display:none;/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+}
+.gallery {
+	clear:none;
+	float:left;
+	width:550px;
+	height:325px;
+	margin:0;
+	padding:0;
+}
+.cr-gallery-thumbnails {
+	clear:none;
+	float:left;
+	width:407px;
+	height:325px;
+	margin:0;
+	padding:0;
+	border-left:1px solid #322d25;
+	background:#F0EDDF;
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #322D25;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+div.controls {
+	height: 32px;
+	position:relative;
+	top:-160px;
+}
+a.next {
+	background:url(../images/arrows.png) center no-repeat;
+	text-decoration:none;
+	padding:10px;
+	margin:0 0 0 445px;
+}
+a.prev {
+	background:url(../images/cr-prev_image.png) center no-repeat;
+	text-decoration:none;
+	padding:10px;
+	margin:0 0 0 27px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: left;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 305px; /* This should be set to be at least the height of the largest image in the slideshow */
+	padding 0;
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 400px;
+	height: 300px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color:#322D25;
+	padding:0 67px;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 406px;
+	height: 302px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 290px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+	text-decoration:none;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border:1px solid #322d25;
+}
+div.caption-container {
+	position: relative;
+	clear: left;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 550px;
+	top: 0;
+	left: 0;
+	
+}
+div.caption {
+	padding: 3px 5px 0 5px;
+	font-weight:bold;
+	text-align:center;
+	font-size: 1em;
+	height:17px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+}
+div.navigation {
+	height:285px
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0 0 5px 25px;
+	height:215px;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 8px 7px 0 0;
+	list-style: none;
+	opacity:1;
+}
+a.thumb {
+	padding: 1px;
+	display: block;
+	/*border: 1px solid #ccc;*/
+}
+ul.thumbs li.selected a.thumb {
+	background: #FF9900;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: 1px solid #322D25;
+	display: block;
+}
+ul.thumbs li.selected a.thumb img {
+	border: 1px solid #FF9900;
+}
+div.pagination {
+	clear: both;
+	margin:5px;
+}
+div.navigation div.top {
+	margin: 2px;
+	height: 24px;
+}
+div.navigation div.bottom {
+	margin-top: 2px ;
+	margin-left: 26px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #766b5a;
+	background-color:#d3cab7;
+}
+div.pagination a:hover {
+	background-color: #EDEAE2;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #766b5a;
+	border-color: #766b5a;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+
+
+
+.cr-mod-info {
+	clear:both;
+	float:left;
+	width:100%;
+	margin:10px 0 0 0;
+	padding:0;
+	border:none;
+}
+.cr-disclaimer {
+	clear:both;
+	float:left;
+	margin:0 0 9px 0;
+	padding:0;
+	width: 100%;
+	color:#666;
+	font-size:.85em;
+	line-height:1.3em;
+}
+.cr-disclaimer strong {
+	font-weight: bold;
+	color:#333;
+	font-size:1.1em;
+}
+.cr-info-table {
+	clear:both;
+	margin:0 0 9px 0;
+	padding:0;
+	background-color:#FFF;
+	border:1px solid #948671;
+	border-collapse:separate;
+	font-size:11px;
+	text-align:left;
+}
+.cr-info-table thead th{
+	padding:4px 5px;
+	color:#FFF;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:1.1em;
+	background:#726757  url(http://media.adesa.com/v2/ui/th-dark-brown-bg.gif) top repeat-x;
+	text-align:center;
+}
+.cr-info-table table tr {;
+	border-bottom:1px solid #FFF;
+}
+.rowA {
+	background-color:#d3cab7;
+	/* background-color:#F6F6F6; /* Alternating Row Color 1 */
+}
+.rowB {
+	background-color:#ece5d4; /* Alternating Row Color 2 */
+	/* background-color:#EEE; /* Alternating Row Color 2 */
+}
+.cr-info-pagination {
+	clear:none;
+	float:right;
+	text-align:right;
+}
+.cr-info-pagination a {
+	
+}
+.announcements {
+	border:1px solid #c86923;
+}
+.announcements thead th{
+	background:#e46701  url(http://media.adesa.com/v2/ui/th-important-bg.gif) top repeat-x;
+	
+}
+
+.cr-info-table th {
+	font-weight:normal;
+	color:#FFF;
+	text-align:left;
+	background-color:#948671;
+}
+
+/* CR Tooltip Styles */
+
+.tooltipTopRight a { }
+.tooltipTopRight a:hover {
+	position: relative;
+	padding-bottom:0;
+	text-decoration: none;
+}
+.tooltipTopRight a span {
+	display: block;
+}
+.tooltipTopRight a:hover span {
+	display:block;
+	position:absolute;
+	bottom: 15px; 
+	left: -18px;
+/* formating only styles */
+	margin:0;
+	padding:5px 7px 15px;
+	width:156px;
+	color:#000;
+	size:.9em;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.2em;
+	z-index: 999;
+	cursor:pointer;
+	border-top:1px solid #e37f1c;
+	background:transparent url(http://media.adesa.com/v2/ui/bg-tooltipTopRight.gif) bottom left no-repeat; 
+}
+
+.tooltipTopLeft a { }
+.tooltipTopLeft a:hover {
+	position: relative;
+	padding-bottom:0;
+	text-decoration: none;
+}
+.tooltipTopLeft a span {
+	display: none;
+}
+.tooltipTopLeft a:hover span {
+	display:block;
+	position:absolute;
+	bottom: 15px; 
+	right: -18px;
+/* formating only styles */
+	margin:0;
+	padding:5px 7px 15px;
+	width:156px;
+	color:#000;
+	size:.9em;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.2em;
+	z-index: 999;
+	cursor:pointer;
+	border-top:1px solid #e37f1c;
+	background:transparent url(http://media.adesa.com/v2/ui/bg-tooltipTopLeft.gif) bottom left no-repeat; 
+}
+
+.tooltipVehicleCondition a { }
+.tooltipVehicleCondition a:hover {
+	position: relative;
+	padding-bottom:0;
+	text-decoration: none;
+}
+.tooltipVehicleCondition a span {
+	display: none;
+}
+.tooltipVehicleCondition a:hover span {
+	display:block;
+	position:absolute;
+	bottom: 15px; 
+	right: 1px;
+/* formating only styles */
+	margin:0;
+	padding:5px 7px 15px;
+	width:156px;
+	color:#000;
+	size:.9em;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.2em;
+	z-index: 999;
+	cursor:pointer;
+	border-top:1px solid #e37f1c;
+	background:transparent url(http://media.adesa.com/v2/ui/bg-tooltipTopLeft.gif) bottom left no-repeat; 
+}
+
+
+.tooltipCertification a {
+	padding-bottom:1px;
+	color: #000;
+	text-decoration: underline;
+}
+
+.tooltipCertification a:hover {
+	position: relative;
+	padding-bottom:0px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.tooltipCertification a:visited {
+	padding-bottom:1px;
+	cursor:pointer;
+	color: #000;
+	text-decoration:underline;
+}
+
+.tooltipCertification a span {
+	display: none;
+}
+.tooltipCertification a:hover span {
+	display: block;
+	text-decoration:none;
+	position: absolute;
+	left: -80px;
+	bottom: 25px;
+	cursor:pointer;
+	/* formatting only styles */
+	margin:0;
+	padding:0px;
+	width:auto;
+	color:#000;
+	text-align:left;
+	line-height:16px;
+	z-index: 999;
+	background: #d3cab7;
+	border: 1px solid #74644d;
+	/* end formatting */
+}
+
+/* Footer */
+.footer {
+	clear:both;
+	margin:10px 0 0 0;
+	float:left;
+	padding:5px 0;
+	width:100%;
+	font-size:.8em;
+	color:#666;
+	border-top:1px solid #CCC;
+}
+.footerLeft {
+	clear:none;
+	float:left;
+	margin:0;
+	padding:0;
+	width:44%;
+	text-align:left;
+}
+.tooltipTop a {
+	padding-bottom:1px;
+}
+.tooltipTop a:hover {
+	color:#e37f1c;
+	position: relative;
+	padding-bottom:0px;
+}
+.tooltipTop a span {
+	display: none;
+}
+.tooltipTop a:hover span {
+	display: block;
+	position: absolute; 
+	bottom: 20px; 
+	left: -60px;
+	/* formatting only styles */
+	margin:0;
+	padding:6px 5px 15px 5px; 
+	width:124px;
+	color:#000;
+	line-height:1.1em;
+	text-align:center;
+	z-index: 999;
+	cursor:pointer;
+	background:transparent url(http://media.adesa.com/v2/ui/tooltip-bg1.gif) bottom no-repeat; /* background image currently 250px tall */
+	border-top: 1px solid #e37f1c;
+	/* end formatting */
+}
+
+.footerRight {
+	clear:none;
+	float:right;
+	margin:0;
+	padding:0;
+	width:55%;
+	text-align:right;
+}
+.printOnly {
+	display:block;
+	list-style:none;
+}
+.printOnly li {
+	float:left;
+	list-style:none;
+	margin:5px;
+}
+.cr-info-table .option-desc{
+	display:block;
+}
+.cr-info-table .option-abv{
+	display:none;
+}
+.footerRight{
+	display:none;
+}

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.24 $"/>
+		<generation date="$Date: 2009/05/05 23:06:39 $"/>
+		<language type="pa"/>
+		<script type="Arab"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="pa">ЩѕЩ†Ш¬Ш§ШЁ</language>
+		</languages>
+		<scripts>
+			<script type="Arab">Ш§Щ„Ш№Ш±ШЁЩЉШ©</script>
+			<script type="Guru">ЪЇЩЏШ±Щ…ЩЏЪ©ЪѕЫЊ</script>
+		</scripts>
+		<territories>
+			<territory type="PK">ЩѕЪ©ШіШЄШ§Щ†</territory>
+		</territories>
+	</localeDisplayNames>
+	<layout>
+		<orientation characters="right-to-left"/>
+	</layout>
+	<characters>
+		<exemplarCharacters>[\u064F ШЎ Шў Ш¤ Ш¦-ШЁ Щѕ ШЄ Ш« Щ№ Ш¬ Ъ† Ш­-Ш° Ъ€ Ш± ШІ Ъ‘ Ъ Ші-Шє ЩЃ Щ‚ Ъ© ЪЇ Щ„-Щ† Ъє Щ‡ Ъѕ ЫЃ Щ€ ЫЊ Ы’]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[ШЈ Щ» Ш© Щє Щј ЩЅ]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">Ш¬Щ†Щ€Ш±ЫЊ</month>
+							<month type="2">ЩЃШ±Щ€Ш±ЫЊ</month>
+							<month type="3">Щ…Ш§Ш±Ъ†</month>
+							<month type="4">Ш§ЩѕШ±ЫЊЩ„</month>
+							<month type="5">Щ…Ш¦</month>
+							<month type="6">Ш¬Щ€Щ†</month>
+							<month type="7">Ш¬Щ€Щ„Ш§Ш¦ЫЊ</month>
+							<month type="8">Ш§ЪЇШіШЄ</month>
+							<month type="9">ШіШЄЩ…ШЁШ±</month>
+							<month type="10">Ш§Ъ©ШЄЩ€ШЁШ±</month>
+							<month type="11">Щ†Щ€Щ…ШЁШ±</month>
+							<month type="12">ШЇШіЩ…ШЁШ±</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="wide">
+							<day type="sun">Ш§ШЄЩ€Ш§Ш±</day>
+							<day type="mon">ЩѕЫЊШ±</day>
+							<day type="tue">Щ…Щ†ЪЇЩ„</day>
+							<day type="wed">ШЁЩЏШЇЪѕ</day>
+							<day type="thu">Ш¬Щ…Ш№Ш±Ш§ШЄ</day>
+							<day type="fri">Ш¬Щ…Ш№ЫЃ</day>
+							<day type="sat">ЫЃЩЃШЄЫЃ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="wide">
+							<quarter type="1">Ъ†Щ€ШЄЪѕШ§ЩЉ ЩѕЫЃЩ„Ш§Ъє</quarter>
+							<quarter type="2">Ъ†Щ€ШЄЪѕШ§ЩЉ ШЇЩ€Ш¬Ш§</quarter>
+							<quarter type="3">Ъ†Щ€ШЄЪѕШ§ЩЉ ШЄЩЉШ¬Ш§</quarter>
+							<quarter type="4">Ъ†Щ€ШЄЪѕШ§ЩЉ Ъ†Щ€ШЄЪѕШ§</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<eras>
+					<eraNames>
+						<era type="0">Ш§ЩЉШіШ§ЩѕЩ€Ш±Щ€</era>
+						<era type="1">ШіЪє</era>
+					</eraNames>
+				</eras>
+				<fields>
+					<field type="year">
+						<displayName>Щ€Ш±ЪѕШ§</displayName>
+					</field>
+					<field type="month">
+						<displayName>Щ…ЫЃЩЉЩ†Ш§</displayName>
+					</field>
+					<field type="week">
+						<displayName>ЫЃЩЃШЄЫЃ</displayName>
+					</field>
+					<field type="day">
+						<displayName>ШЇШ¦Щ†</displayName>
+					</field>
+					<field type="weekday">
+						<displayName>ЫЃЩЃШЄЫ’ ШЇШ§ ШЇЩ†</displayName>
+					</field>
+					<field type="hour">
+						<displayName>ЪЇЪѕЩ†Щ№Ш§</displayName>
+					</field>
+					<field type="minute">
+						<displayName>Щ…Щ†Щ№</displayName>
+					</field>
+					<field type="zone">
+						<displayName>Щ№ЩѕЫЃ</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<defaultNumberingSystem>arab</defaultNumberingSystem>
+		<symbols>
+			<nativeZeroDigit>Щ </nativeZeroDigit>
+		</symbols>
+		<currencies>
+			<currency type="EUR">
+				<displayName>ЩЉЩ€Ш±Щ€</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>Ш±Щ€ЩѕШ¦ЫЊЫЃ [INR]</displayName>
+				<symbol>Ш± [INR]</symbol>
+			</currency>
+			<currency type="PKR">
+				<displayName>Ш±Щ€ЩѕШ¦ЫЊЫЃ</displayName>
+				<symbol>Ш±</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>ЫЃШ§Ъє</yesstr>
+			<nostr>Щ†ЫЃЩЉЪє</nostr>
+		</messages>
+	</posix>
+</ldml>
+

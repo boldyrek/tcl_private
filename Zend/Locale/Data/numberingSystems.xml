@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<supplementalData>
+    <version number="$Revision: 1.9 $"/>
+    <generation date="$Date: 2009/05/05 23:15:57 $"/>
+    <numberingSystems>
+        <numberingSystem id="arab" type="numeric" digits="Щ ЩЎЩўЩЈЩ¤ЩҐЩ¦Щ§ЩЁЩ©"/>
+        <numberingSystem id="arabext" type="numeric" digits="Ы°Ы±ЫІЫіЫґЫµЫ¶Ы·ЫёЫ№"/>
+        <numberingSystem id="armn" type="algorithmic" rules="armenian-upper"/>
+        <numberingSystem id="armnlow" type="algorithmic" rules="armenian-lower"/>
+        <numberingSystem id="beng" type="numeric" digits="а§¦а§§а§Ёа§©а§Єа§«а§¬а§­а§®а§Ї"/>
+        <numberingSystem id="deva" type="numeric" digits="аҐ¦аҐ§аҐЁаҐ©аҐЄаҐ«аҐ¬аҐ­аҐ®аҐЇ"/>
+        <numberingSystem id="ethi" type="algorithmic" rules="ethiopic"/>
+        <numberingSystem id="fullwide" type="numeric" digits="пјђпј‘пј’пј“пј”пј•пј–пј—пјпј™"/>
+        <numberingSystem id="geor" type="algorithmic" rules="georgian"/>
+        <numberingSystem id="grek" type="algorithmic" rules="greek-upper"/>
+        <numberingSystem id="greklow" type="algorithmic" rules="greek-lower"/>
+        <numberingSystem id="gujr" type="numeric" digits="а«¦а«§а«Ёа«©а«Єа««а«¬а«­а«®а«Ї"/>
+        <numberingSystem id="guru" type="numeric" digits="а©¦а©§а©Ёа©©а©Єа©«а©¬а©­а©®а©Ї"/>
+        <numberingSystem id="hans" type="algorithmic" rules="zh/SpelloutRules/spellout-cardinal"/>
+        <numberingSystem id="hansfin" type="algorithmic" rules="zh/SpelloutRules/spellout-cardinal-financial"/>
+        <numberingSystem id="hant" type="algorithmic" rules="zh_Hant/SpelloutRules/spellout-cardinal"/>
+        <numberingSystem id="hantfin" type="algorithmic" rules="zh_Hant/SpelloutRules/spellout-cardinal-financial"/>
+        <numberingSystem id="hebr" type="algorithmic" rules="hebrew"/>
+        <numberingSystem id="jpan" type="algorithmic" rules="ja/SpelloutRules/spellout-cardinal"/>
+        <numberingSystem id="jpanfin" type="algorithmic" rules="ja/SpelloutRules/spellout-cardinal-financial"/>
+        <numberingSystem id="khmr" type="numeric" digits="бџ бџЎбџўбџЈбџ¤бџҐбџ¦бџ§бџЁбџ©"/>
+        <numberingSystem id="knda" type="numeric" digits="аі¦аі§аіЁаі©аіЄаі«аі¬аі­аі®аіЇ"/>
+        <numberingSystem id="laoo" type="numeric" digits="а»ђа»‘а»’а»“а»”а»•а»–а»—а»а»™"/>
+        <numberingSystem id="latn" type="numeric" digits="0123456789"/>
+        <numberingSystem id="mlym" type="numeric" digits="аµ¦аµ§аµЁаµ©аµЄаµ«аµ¬аµ­аµ®аµЇ"/>
+        <numberingSystem id="mong" type="numeric" digits="б ђб ‘б ’б “б ”б •б –б —б б ™"/>
+        <numberingSystem id="mymr" type="numeric" digits="бЃЂбЃЃбЃ‚бЃѓбЃ„бЃ…бЃ†бЃ‡бЃ€бЃ‰"/>
+        <numberingSystem id="orya" type="numeric" digits="а­¦а­§а­Ёа­©а­Єа­«а­¬а­­а­®а­Ї"/>
+        <numberingSystem id="roman" type="algorithmic" rules="roman-upper"/>
+        <numberingSystem id="romanlow" type="algorithmic" rules="roman-lower"/>
+        <numberingSystem id="taml" type="algorithmic" rules="tamil"/>
+        <numberingSystem id="telu" type="numeric" digits="а±¦а±§а±Ёа±©а±Єа±«а±¬а±­а±®а±Ї"/>
+        <numberingSystem id="thai" type="numeric" digits="а№ђа№‘а№’а№“а№”а№•а№–а№—а№а№™"/>
+        <numberingSystem id="tibt" type="numeric" digits="ај ајЎајўајЈај¤ајҐај¦ај§ајЁај©"/>
+    </numberingSystems>
+</supplementalData>

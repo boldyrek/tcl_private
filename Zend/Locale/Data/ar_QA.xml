@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.48 $"/>
+		<generation date="$Date: 2009/05/05 23:06:34 $"/>
+		<language type="ar"/>
+		<territory type="QA"/>
+	</identity>
+	<localeDisplayNames>
+		<scripts>
+			<script type="Ital">Ш§Щ„Щ„ШЈЩЉШ·Ш§Щ„ЩЉШ© Ш§Щ„Щ‚ШЇЩЉЩ…Ш©</script>
+		</scripts>
+	</localeDisplayNames>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">Ш§Щ„ШЈШ­ШЇ</day>
+							<day type="mon">Ш§Щ„Ш§Ш«Щ†ЩЉЩ†</day>
+							<day type="tue">Ш§Щ„Ш«Щ„Ш§Ш«Ш§ШЎ</day>
+							<day type="wed">Ш§Щ„ШЈШ±ШЁШ№Ш§ШЎ</day>
+							<day type="thu">Ш§Щ„Ш®Щ…ЩЉШі</day>
+							<day type="fri">Ш§Щ„Ш¬Щ…Ш№Ш©</day>
+							<day type="sat">Ш§Щ„ШіШЁШЄ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#0.###;#0.###-</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+	</numbers>
+</ldml>

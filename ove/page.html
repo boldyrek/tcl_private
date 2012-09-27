@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Send to OVE.com</title>
+<style>
+html, body
+{
+	height: 384px;
+	overflow:hidden;
+}
+body, td{
+	font-family: Tahoma, Arial;
+	font-size:11px;
+}
+</style>
+<script src="js/jquery.js"></script>
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#E0DDB4">
+<img id="stoped" src="img/stoped.gif" style="display:none;">
+<table border="0" width="602" cellspacing="0" cellpadding="0" height="384" style="border: 2px solid #22593c" bgcolor="#e0ddb4">
+	<tr>
+		<td height="58" style="padding:0 7px;">
+			
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="164"><img border="0" src="img/logo_ove.gif" width="164" height="58"></td>
+				<td align="right" valign="bottom" style="padding-bottom:8px;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="padding-right:7px;">Progress:</td>
+						<td style="padding-top:1px;"><img id="progress" border="0" src="img/progress.gif" width="195" height="10"></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+			
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:0 7px 7px 7px;">
+			
+		<div id="box_msg" style="width:572px;height:301px;background-color:#ffffff; border:1px solid #22593c; padding:5px; overflow:auto;"></div>
+							
+		</td>
+	</tr>
+</table>
+<div id="error_msg" style="display:none;font-weight:bold; color:#cc0000; position: absolute; top:170px; width:525px; background: url(img/alert.gif) 7px scroll no-repeat #fae6e6; border:1px solid #cc0000; padding:10px 10px 10px 35px;left:15px">
+	<u>ERROR OPERATION OVE.COM !!!</u> <br><span></span>
+</div>
+<script>
+function addContent(text){
+	var box = $('#box_msg');
+	var row = $('<div style="display:none;padding: 2px 0;"></div>');
+	row.html(text);
+	box.prepend(row);
+	row.slideDown('slow');
+}
+function displayError(text)
+{
+	$("#error_msg span").html(text);
+	$("#error_msg").fadeIn();
+	$("#progress").attr('src', $("#stoped").attr("src"));
+	addContent("All operation stoped.")
+}
+function stopProgress()
+{
+	$("#progress").attr('src', $("#stoped").attr("src"));
+}
+</script>
+</body>
+
+</html>

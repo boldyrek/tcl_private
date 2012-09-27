@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+BODY {
+	 font-size:10px;
+   font-family:tahoma;
+   text-align:left;
+}
+td {
+   font-size: 10px;
+}
+a {
+  color: #1897c6;
+}
+a:link {
+  color: #1897c6;
+}
+a:link {
+  color: #1897c6;
+}
+a:visited {
+  color: #c8c8c8;
+}
+a:active {
+  color: #1897c6;
+}
+a:hover {
+  color: #1897c6;
+}
+-->
+</style>
+<link rel="stylesheet" href="style.css" type="text/css">
+</HEAD>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" rightmargin="0"><link type="text/css" href="style.css" rel="stylesheet"><h1>Просмотр лота</h1><table align="center" width="100%" border="0" cellspacing="0" cellpadding="10"><tr><td width="30%"><a href="http://gsmotors.us/"><img src="logo.png" border="0" height="90"/></a></td><td valign="top" align="justify">  Нажав кнопку "ПОСТАВИТЬ СТАВКУ", Вы получаете возможность поучавствовать в онлайн-торгах на данный автомобиль. Ваша ставка будет действительна после подписания договора и внесения депозита в размере $1000 для автомобилей с предположительной стоимостью меньше $10000 или 10% от стоимости лотов дороже $10000. Депозит будет учтен при оплате полной стоимости автомобиля.</td></tr></table><script type="text/javascript">var noSmallImageUrl = 'images/no-image.gif';var noLargeImageUrl = 'images/no-image-full.gif';var newImage = new Array (      'https://images.ove.com/scaled_images/304/227/2012/9/13/a47c7295-c198-47b8-9a1f-0481d9722c27.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/832e70ee-969a-428d-81dc-f50bf32e82bd.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/f2066c31-0bad-48ca-9952-e338765f5942.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/e26fbbf4-ae93-4f18-ba8f-c79868561e6f.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/ef600dc4-577a-4e41-9f0c-fda82f39612a.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/c30f119d-77c6-4819-81ab-e085f425eb79.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/10a42e90-0d0d-49e7-8db0-79b714b46740.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/d33aebd3-1a7e-485d-954e-fb13d4ec2e96.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/14b51fa1-3b63-42bb-922b-87366e2778a0.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/878eb928-89b9-4e1c-9535-1bd79f855902.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/f6bac432-f1da-419f-8b71-c2cdc358896a.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/b9129193-355c-4343-903b-9a756aaa1e7f.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/3298663a-1872-4a97-be3f-ec4503768d4e.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/1f0003c3-fe45-4873-83ce-87450dd2ecb8.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/f138226f-af5c-427a-adf9-701ba612fc65.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/7e5ad4f0-7ff7-45e5-bdf8-5fda138acc9d.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/6eb927e4-aecc-4c6d-a04d-8139bf63ffe2.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/a52a999f-4a32-4023-aa64-d7b609734262.jpeg', 
+      'https://images.ove.com/scaled_images/304/227/2012/9/13/ed5d5d71-43a7-44a6-9655-489a298e6a4c.jpeg');
+   function showMain(thisNum) {
+      document.getElementById('image').src = newImage[thisNum-1];
+   }
+   var backToSrpQuery = '';
+   function backToResults(screen) {
+         if (backToSrpQuery == null || backToSrpQuery == '') {
+             backToSrpQuery = '';
+         }
+      var formElement = document.getElementById('searchForm');
+      if (formElement) {
+      var query = '';
+      // globally replace all spaces with '+'
+      formElement.submittedQstr.value = query.replace( / /g, "+" );
+      formElement.newSort.value = false;
+
+      if (screen == 'searchResults') { formElement.action = 'index.php?mode=list&backToSrpQuery=' + escape(backToSrpQuery)+ '&searchResultsOffset='+ '&workbookOffset=';
+      } else {
+       	formElement.action = '';
+      }
+
+      formElement.submit();
+	  } else {
+	      if (screen == 'searchResults') {
+	      	window.location.href = '{$prefix}index.php?mode=list&backToSrpQuery=' + escape(backToSrpQuery);
+	      } else {
+	  	  	window.location.href = '';
+          }
+	  }
+   }
+
+
+</script>
+
+<form action="index.php?mode=list" method="post" name="searchForm" id="searchForm"></form><table width="" border="0" cellspacing="0" cellpadding="10"><tr valign="top"><td><table width="" border="0" cellspacing="0" cellpadding="5"><tr><td width=""><strong>Продавец:</strong><br />
+				WESTFALL AUTO SALES
+				
+			<br /><strong>Прогнозируемая цена:</strong><br />Нет данных</td><td><strong>Местоположение:</strong><br />  PA - Manheim Pennsylvania<br /><strong>Дата и время проведения аукциона:</strong><br />09/14/2012 | 09:15 AM Eastern Time</td><td><strong>Номер линии и очередь:</strong><br />Линия: 15; Очередь: 122<br /></td></tr></table><br><table width="" border="0" cellspacing="0" cellpadding="5" align="center"><tr><td><strong>Информация об автомобиле</strong></td></tr></table><table width="" border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td width=""><table width="" border="0" cellspacing="0" cellpadding="3" class="description"><tr><td align="right">Марка:</td><td><span>LEXUS</span>                </td></tr><tr><td align="right">Модель:</td><td><span>RX350</span>                </td></tr><tr><td width="" align="right">Год выпуска:</td><td><span>2008</span>                </td></tr><tr><td align="right">Модификация:</td><td align="left"><span>Not Specified</span>                </td></tr><tr><td align="right">Пробег:</td><td><span>94,698 mi</span>                </td></tr><tr><td align="right">Двигатель:</td><td><span><script type="text/javascript">document.write('<img width="1" height="1" src="right">Объем двигателя:</td><td><span>Нет данных</span>                </td></tr><tr><td align="right">Трансмиссия:</td><td><span>Not Specified</span>                </td></tr><tr><td align="right">Дата обслуживания: </td><td>Нет данных</td></tr><tr><td align="right">Цвет кузова:</td><td>Серебро</td></tr><tr><td align="right">Цвет салона:</td><td><span></span></td></tr><tr><td align="right">Стикер:</td><td>Нет данных</td></tr></table></td><td width=""><table width="100%" border="0" cellspacing="0" cellpadding="3" class="description"><tr><td align="right">VIN:</td><td><span>2T2HK31U48C084837</span>                </td></tr><tr><td align="right">Кузов:</td><td><span>Купе</span>                </td></tr><tr><td align="right">Дверей:</td><td><span>Not Specified</span>                </td></tr><tr><td align="right">Вид:</td><td><span>Внедорожник</span>                </td></tr><tr><td align="right">Штат:</td><td><span>OH</span>                </td></tr><tr><td align="right">Техпаспорт:</td><td><span>Нет данных</span>                </td></tr><tr><td align="right">Привод:</td><td>Привод на все колёса</td></tr><tr><td align="right">Салон:</td><td><span>Not Specified</span></td></tr><tr><td align="right">Крыша:</td><td>Not Specified</td></tr><tr><td align="right">Музыка:</td><td>Нет информации</td></tr><tr><td align="right">Подушки безопасности:</td><td><span>Нет данных</span></td></tr></table></td></tr><tr><td colspan="2" align="center"><input class="but bluebut" type="button" onclick="javascript:window.open('http://www.gsmotors.us/manheim/index.php?mode=mail', '', 'width=830,height=1000,status=no,menubar=no,scrollbars=yes,toolbar=no')" value="Поставить ставку"/></td></tr></table></td><td width="314" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="3"><tr><td align="center"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2E0N2M3Mjk1LWMxOTgtNDdiOC05YTFmLTA0ODFkOTcyMmMyNy5qcGVn" name="image" width="304" height="227"  id="image" onerror="javascript:this.src = noLargeImageUrl;"></td></tr><tr><td align="center"><table border="0" cellspacing="0" cellpadding="3"><tr><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2E0N2M3Mjk1LWMxOTgtNDdiOC05YTFmLTA0ODFkOTcyMmMyNy5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2E0N2M3Mjk1LWMxOTgtNDdiOC05YTFmLTA0ODFkOTcyMmMyNy5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><br/><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzgzMmU3MGVlLTk2OWEtNDI4ZC04MWRjLWY1MGJmMzJlODJiZC5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzgzMmU3MGVlLTk2OWEtNDI4ZC04MWRjLWY1MGJmMzJlODJiZC5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2YyMDY2YzMxLTBiYWQtNDhjYS05OTUyLWUzMzg3NjVmNTk0Mi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2YyMDY2YzMxLTBiYWQtNDhjYS05OTUyLWUzMzg3NjVmNTk0Mi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2UyNmZiYmY0LWFlOTMtNGYxOC1iYThmLWM3OTg2ODU2MWU2Zi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2UyNmZiYmY0LWFlOTMtNGYxOC1iYThmLWM3OTg2ODU2MWU2Zi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2VmNjAwZGM0LTU3N2EtNGU0MS05ZjBjLWZkYTgyZjM5NjEyYS5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2VmNjAwZGM0LTU3N2EtNGU0MS05ZjBjLWZkYTgyZjM5NjEyYS5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2MzMGYxMTlkLTc3YzYtNDgxOS04MWFiLWUwODVmNDI1ZWI3OS5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2MzMGYxMTlkLTc3YzYtNDgxOS04MWFiLWUwODVmNDI1ZWI3OS5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><br/><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzEwYTQyZTkwLTBkMGQtNDllNy04ZGIwLTc5YjcxNGI0Njc0MC5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzEwYTQyZTkwLTBkMGQtNDllNy04ZGIwLTc5YjcxNGI0Njc0MC5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2QzM2FlYmQzLTFhN2UtNDg1ZC05NTRlLWZiMTNkNGVjMmU5Ni5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2QzM2FlYmQzLTFhN2UtNDg1ZC05NTRlLWZiMTNkNGVjMmU5Ni5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzE0YjUxZmExLTNiNjMtNDJiYi05MjJiLTg3MzY2ZTI3NzhhMC5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzE0YjUxZmExLTNiNjMtNDJiYi05MjJiLTg3MzY2ZTI3NzhhMC5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzg3OGViOTI4LTg5YjktNGUxYy05NTM1LTFiZDc5Zjg1NTkwMi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzg3OGViOTI4LTg5YjktNGUxYy05NTM1LTFiZDc5Zjg1NTkwMi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2Y2YmFjNDMyLWYxZGEtNDE5Zi04YjcxLWMyY2RjMzU4ODk2YS5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2Y2YmFjNDMyLWYxZGEtNDE5Zi04YjcxLWMyY2RjMzU4ODk2YS5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><br/><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2I5MTI5MTkzLTM1NWMtNDM0My05MDNiLTlhNzU2YWFhMWU3Zi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2I5MTI5MTkzLTM1NWMtNDM0My05MDNiLTlhNzU2YWFhMWU3Zi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzMyOTg2NjNhLTE4NzItNGE5Ny1iZTNmLWVjNDUwMzc2OGQ0ZS5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzMyOTg2NjNhLTE4NzItNGE5Ny1iZTNmLWVjNDUwMzc2OGQ0ZS5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzFmMDAwM2MzLWZlNDUtNDg3My04M2NlLTg3NDUwZGQyZWNiOC5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzFmMDAwM2MzLWZlNDUtNDg3My04M2NlLTg3NDUwZGQyZWNiOC5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2YxMzgyMjZmLWFmNWMtNDI3YS1hZGY5LTcwMWJhNjEyZmM2NS5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2YxMzgyMjZmLWFmNWMtNDI3YS1hZGY5LTcwMWJhNjEyZmM2NS5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzdlNWFkNGYwLTdmZjctNDVlNS1iZGY4LTVmZGExMzhhY2M5ZC5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzdlNWFkNGYwLTdmZjctNDVlNS1iZGY4LTVmZGExMzhhY2M5ZC5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><br/><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzZlYjkyN2U0LWFlY2MtNGM2ZC1hMDRkLTgxMzliZjYzZmZlMi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzLzZlYjkyN2U0LWFlY2MtNGM2ZC1hMDRkLTgxMzliZjYzZmZlMi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2E1MmE5OTlmLTRhMzItNDAyMy1hYTY0LWQ3YjYwOTczNDI2Mi5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2E1MmE5OTlmLTRhMzItNDAyMy1hYTY0LWQ3YjYwOTczNDI2Mi5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a><a target="_blank" href="getImg.php?img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2VkNWQ1ZDcxLTQzYTctNDRhNi05NjU1LTQ4OWEyOThlNmE0Yy5qcGVn"><img src="img=aHR0cHM6Ly9pbWFnZXMub3ZlLmNvbS9zY2FsZWRfaW1hZ2VzLzMwNC8yMjcvMjAxMi85LzEzL2VkNWQ1ZDcxLTQzYTctNDRhNi05NjU1LTQ4OWEyOThlNmE0Yy5qcGVn" alt="auto" style="max-width:120px; max-height:120px;" /></a></tr></table></td></tr></table></td></tr></table><table width="100%" border="0" cellspacing="0" cellpadding="3" class="description"><tr><td width="120" valign="top"><strong>Комплектация:</strong></td><td valign="top"><table><tr><td></table></td></tr></table>

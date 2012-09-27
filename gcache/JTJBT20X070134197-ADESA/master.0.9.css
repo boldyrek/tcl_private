@@ -1,0 +1,591 @@
+.navMA {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.navMA A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.navMA A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.navMA A:hover {
+	COLOR: 666666; TEXT-DECORATION: none; FONT-WEIGHT: bold
+}
+.tab A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tab A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tab A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tab A:hover {
+	COLOR: #666666
+}
+.tblHdr A:link {
+	COLOR: #f1e7d1; TEXT-DECORATION: none
+}
+.tblHdr A:active {
+	COLOR: #f1e7d1; TEXT-DECORATION: none
+}
+.tblHdr A:visited {
+	COLOR: #f1e7d1; TEXT-DECORATION: none
+}
+.tblHdr A:hover {
+	COLOR: #f1e7d1; TEXT-DECORATION: none; FONT-WEIGHT: bold
+}
+
+
+.header {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tab {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #FFFFFF; FONT-FAMILY: verdana, helvetica, arial, sans-serif; BACKGROUND-COLOR: #9999cc
+}
+.tabsel {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana, helvetica, arial, sans-serif; BACKGROUND-COLOR: #e4e4e4
+}
+.tabsel A:link {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.tabsel A:active {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.tabsel A:visited {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.tabsel A:hover {
+	COLOR: #999999; TEXT-DECORATION: none; FONT-WEIGHT: bold
+}
+.smallest {
+	FONT-SIZE: 8px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.small {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.small_text_gray {
+	FONT-SIZE: 10px;
+	COLOR: #666666;
+	FONT-FAMILY: verdana, helvetica, arial;
+	text-decoration: none;
+}
+.medium {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.large {
+	FONT-SIZE: 14px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.title2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.title3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgHdr {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTitle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #003366; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTitle2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTitle3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTxt {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTxt2 {
+	FONT-SIZE: 14px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTxtB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTxtG {
+	FONT-SIZE: 12px; COLOR: green; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgTxt2G {
+	FONT-SIZE: 14px; COLOR: green; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.errmsg {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tblHdr {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #74644d; color:#f1e7d1; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tblHdrB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tdEven {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #e4e4e4
+}
+.tdOdd {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #ffffff
+}
+.even {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #e4e4e4
+}
+.odd {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #ffffff
+}
+.reqFld {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, helvetica, arial, sans-serif;                                               
+}
+.frmTxt {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana, helvetica, arial, sans-serif; 
+}
+.frmTxtB {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.txtNavBtn {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tblTxt {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tblTxtB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgLabel {
+	FONT-SIZE: 11px; COLOR: gray; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.pgLabelB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: gray; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.clmntitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #003366; FONT-FAMILY: Verdana, Arial, Helvetica, Geneva, sans-serif; TEXT-ALIGN: center
+}
+.clmntext {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, Geneva, sans-serif; TEXT-ALIGN: center
+}
+.youOn {
+	COLOR: green
+}
+.youOff {
+	COLOR: red
+}
+.youWarching {
+	COLOR: black
+}
+.tblHdrReq {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #ff0000; COLOR: #ffffff; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+.tabNew {
+	BACKGROUND: #333333
+}
+.tabNewInside {
+	BACKGROUND: #f0e7cd; COLOR: #000000; TEXT-ALIGN: center
+}
+.tabNewText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tabNewInsideSel {
+	BACKGROUND: #ffffff; COLOR: #000000; TEXT-ALIGN: center
+}
+.tabNewSel {
+	BACKGROUND: #ffffff
+}
+.tabNewText A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.tabNewText A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.tabNewText A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.tab A:hover {
+	COLOR: #003366
+}
+.subTblHdr {
+	FONT-WEIGHT: bold
+}
+.subTdEven {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #ffffdf
+}
+.subTdOdd {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #ffffff
+}
+.bullet {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	list-style-type: disc;
+}
+.intro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	background-position: right top;
+}
+/* -- Changes made by Vidhya on 24-Sept-2008: Add disclaimer to Website CQP0100026532 : START  -- */
+
+.introDisclaimer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	background-position: right top;
+}
+/* -- Changes made by Vidhya on 24-Sept-2008: Add disclaimer to Website CQP0100026532 : END  -- */
+
+/* -- Changes made by Vidhya on 30-Nov-2008: Disable AutoBid if Floor Price is zero. CQP0100030567 : START -- */
+.updatePricesAlert {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	background-position: right top;
+}
+/* -- Changes made by Vidhya on 30-Nov-2008: Disable AutoBid if Floor Price is zero. CQP0100030567 : END -- */
+
+/*subscription style*/
+
+.subscriptionLink {
+	text-decoration: none;
+}
+
+.pgTxtBPayment{
+	font-weight: bold;
+	font-size: 11px;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.labHr {
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	background-color: #9999CC;
+}
+
+.labHr1 {
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	background-color: #666699 ;
+}
+
+.pgTxtB1{
+	font-weight: bold;
+	font-size: 11px;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	text-align: right;
+}
+.pgTxtSpecial{
+	font-weight: bold;
+	font-size: 14px;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	text-align: center;
+	color: #56a7b8;
+}
+
+.small_text_gray A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.small_text_gray A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.small_text_gray A:hover { 
+    text-decoration: none; color:#666666; FONT-WEIGHT: bold
+	
+}
+
+.small_text_gray_table A:link {
+	COLOR: #666666; TEXT-DECORATION: none;
+    font-weight: 400; 
+}
+.small_text_gray_table A:visited {
+	COLOR: #666666; TEXT-DECORATION: none;
+	font-weight: 400; 
+	                                 
+}
+.small_text_gray_table A:hover { 
+    text-decoration:underline; color:#a33100;
+	font-weight: 400; 
+	
+}
+
+.specialLink {
+	TEXT-DECORATION: none;
+}
+.tabbackground01 {
+	BACKGROUND: #d9d9d9;
+}
+.tdbackground01 {
+	BACKGROUND: #f0f0f0;
+}
+
+/* CancelOrder History */
+table.cancelSalAutoBidLog{
+	border:1px solid #000;
+	border-collapse:collapse;
+	text-align:center;
+}
+table.cancelSalAutoBidLog th{
+	border:1px solid black;
+
+	background-color: #fab255; 
+	font-weight: bold;
+	font-size: 12px;
+	font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	color : #243c8e;
+}
+table.cancelSalAutoBidLog td{
+	border:1px solid black;
+}
+a.businessName:link{
+	color:blue;
+	text-decoration:none;
+}
+
+a.businessName:visited {
+	color:blue;
+	text-decoration:none;
+}
+a.businessName:hover {
+	color: red; text-decoration : none;
+}
+
+/*KK: New Login Page: Starts */
+.style3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style7 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.copyright {
+	color: #333333;
+	font-family: verdana, helvetica, arial;
+	font-size: 10px;
+	font-style: italic;
+}
+.small_text_white_bold {
+	color: #ffffff;
+	font-family: verdana, helvetica, arial;
+	font-size: 10px;
+	font-weight: bold;
+}
+.nav_form_input {
+	width: 138px;
+}
+.link_regular_bold {
+	font-family: verdana, arial, helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a33100;
+}
+/*KK: New Login Page: Ends */
+/*Srikanth Ginjupalli: Transportation  Page: Starts */
+.style8 {font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;}
+
+
+/*----------- Tooltip-Right Popups -----------*/
+
+.tooltip a {
+
+
+      }
+
+ 
+
+.tooltip a:link {
+
+      }
+
+.tooltip a:visited {
+
+      }
+
+.tooltip a:hover {
+
+      position: relative;
+
+      }
+
+.tooltip a:active {
+
+      }
+
+.tooltip a span {
+
+      display: none;
+
+      color:#000;
+
+      text-decoration:none;
+
+      }
+
+.tooltip a:hover span {
+
+      display:block;
+
+      position:absolute; 
+
+      top:-15px; 
+
+      left:15px;
+
+    /* formatting only styles */
+
+      padding:6px; 
+
+      margin:10px; 
+
+      z-index:100;
+
+      width:130px;
+
+      text-align:left;
+
+      background-color:#FFFF99; 
+
+      border:1px solid #000;
+
+/* end formatting */
+
+      }
+
+.tooltip1 a {
+
+      }
+
+ 
+
+.tooltip1 a:link {
+
+      }
+
+.tooltip1 a:visited {
+
+      }
+
+.tooltip1 a:hover {
+
+      position: relative;
+
+      }
+
+.tooltip1 a:active {
+
+      }
+
+.tooltip1 a span {
+
+      display: none;
+
+      color:#000;
+
+      text-decoration:none;
+
+      }
+
+.tooltip1 a:hover span {
+
+      display:block;
+
+      position:absolute; 
+
+      top:-15px; 
+
+      left:-150px;
+
+    /* formatting only styles */
+
+      padding:6px; 
+
+      margin:10px; 
+
+      z-index:100;
+
+      width:130px;
+
+      text-align:left;
+
+      background-color:#FFFF99; 
+
+      border:1px solid #000;
+
+/* end formatting */
+
+      }
+
+	
+/*Srikanth Ginjupalli: Transportation  Page Page: Ends */
+/* Changes made by Pavithra on 10-Oct-2008 for Toyota Accessories Data(Build Data) CQP0100024932:START  */
+   div.buildDataTextArea {
+	width:590px;
+	height:32px;  	         
+	border:1px solid #4C7D7E;      
+	FONT-FAMILY: verdana, helvetica, arial, sans-serif;
+	background: #ffffff;
+	padding:3px;    
+	overflow-y:scroll; 
+ 	}    
+  .heading {
+	vertical-align:top;    
+	FONT-FAMILY: verdana, helvetica, arial, sans-serif;                
+	color:#666666; 
+   }     
+   .buildData {  
+	 vertical-align:top; 
+	 FONT-FAMILY: verdana, helvetica, arial, sans-serif;          
+	 color:#666666;         
+	 FONT-SIZE: 11px;     
+   }
+   .disc {  
+     FONT-FAMILY: verdana, helvetica, arial, sans-serif;
+	 color:#666666;      
+	 FONT-SIZE: 9px;
+   }  
+/* Changes made by Pavithra on 10-Oct-2008 for Toyota Accessories Data(Build Data) CQP0100024932:END */
+
+/*Changes made by AbBi: 19-Feb-2009: Project - Chrysler Midstream Program: DR 27785 */
+.style15 {font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color : red;
+	font-size: 12px;}
+/*Changes made by AbBi: 19-Feb-2009: Project - Chrysler Midstream Program: DR 27785 */
+.tblHdr2
+	{ 
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+	}
+.tbldata
+	{
+	 FONT-SIZE: 12px; FONT-FAMILY:sans-serif,verdana,helvetica
+	 }
+.srrefinedropdown
+	{
+	display:none;
+	}
+.srrefine
+	{
+	color:red;
+	}
+
+

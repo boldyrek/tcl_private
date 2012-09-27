@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+
+<supplementalData>
+    <version number="$Revision: 1.19 $"/>
+    <generation date="$Date: 2009/05/05 23:15:57 $"/>
+    <characters>
+        <character-fallback>
+            <character value = "В©">
+                <substitute>(C)</substitute>
+            </character>
+            <character value = "В«">
+                <substitute>&lt;&lt;</substitute>
+            </character>
+            <character value = "В­">
+                <substitute>-</substitute>
+            </character>
+            <character value = "В®">
+                <substitute>(R)</substitute>
+            </character>
+            <character value = "В»">
+                <substitute>&gt;&gt;</substitute>
+            </character>
+            <character value = "Вј">
+                <substitute> 1/4</substitute>
+            </character>
+            <character value = "ВЅ">
+                <substitute> 1/2</substitute>
+            </character>
+            <character value = "Вѕ">
+                <substitute> 3/4</substitute>
+            </character>
+            <character value = "Г†">
+                <substitute>AE</substitute>
+            </character>
+            <character value = "Гџ">
+                <substitute>ss</substitute>
+            </character>
+            <character value = "Г¦">
+                <substitute>ae</substitute>
+            </character>
+            <character value = "Е‰">
+                <substitute>&apos;n</substitute>
+            </character>
+            <character value = "Е’">
+                <substitute>OE</substitute>
+            </character>
+            <character value = "Е“">
+                <substitute>oe</substitute>
+            </character>
+            <character value = "И">
+                <substitute>Ећ</substitute>
+            </character>
+            <character value = "И™">
+                <substitute>Еџ</substitute>
+            </character>
+            <character value = "Иљ">
+                <substitute>Еў</substitute>
+            </character>
+            <character value = "И›">
+                <substitute>ЕЈ</substitute>
+            </character>
+            <character value="Цѕ">
+                <substitute>-</substitute>
+            </character>
+            <character value="Чі">
+                <substitute>&apos;</substitute>
+            </character>
+            <character value="Чґ">
+                <substitute>&quot;</substitute>
+            </character>
+            <character value = "Щ«">
+                <substitute>,</substitute>
+            </character>
+            <character value = "Щ¬">
+                <substitute>&apos;</substitute>
+            </character>
+            <character value = "вЂђ">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ‘">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ’">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ“">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ”">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ•">
+                <substitute>-</substitute>
+            </character>
+            <character value = "вЂ">
+                <substitute>&apos;</substitute>
+            </character>
+            <character value = "вЂ™">
+                <substitute>&apos;</substitute>
+            </character>
+            <character value = "вЂљ">
+                <substitute>,</substitute>
+            </character>
+            <character value = "вЂ›">
+                <substitute>&apos;</substitute>
+            </character>
+            <character value = "вЂњ">
+                <substitute>&quot;</substitute>
+            </character>
+            <character value = "вЂќ">
+                <substitute>&quot;</substitute>
+            </character>
+            <character value = "вЂћ">
+                <substitute>,,</substitute>
+            </character>
+            <character value = "вЂџ">
+                <substitute>&quot;</substitute>
+            </character>
+            <character value = "вЂў">
+                <substitute>В·</substitute>
+            </character>
+            <character value = "вЂ§">
+                <substitute>В·</substitute>
+            </character>
+            <character value = "вЃ„">
+                <substitute>/</substitute>
+            </character>
+            <character value = "в‚ ">
+                <substitute>CE</substitute>
+            </character>
+            <character value = "в‚Ў">
+                <substitute>CRC</substitute>
+            </character>
+            <character value = "в‚µ">
+                <substitute>Вў</substitute>
+            </character>
+            <character value = "в‚ў">
+                <substitute>Cr</substitute>
+            </character>
+            <character value = "в‚Ј">
+                <substitute>Fr.</substitute>
+            </character>
+            <character value = "в‚¤">
+                <substitute>L.</substitute>
+            </character>
+            <character value = "в‚¦">
+                <substitute>NGN</substitute>
+            </character>
+            <character value = "в‚§">
+                <substitute>Pts</substitute>
+            </character>
+            <character value = "в‚©">
+                <substitute>KRW</substitute>
+            </character>
+            <character value = "в‚Є">
+                <substitute>ILS</substitute>
+            </character>
+            <character value = "в‚«">
+                <substitute>VND</substitute>
+            </character>
+            <character value = "в‚¬">
+                <substitute>EUR</substitute>
+            </character>
+            <character value = "в‚­">
+                <substitute>LAK</substitute>
+            </character>
+            <character value = "в‚®">
+                <substitute>MNT</substitute>
+            </character>
+            <character value = "в‚Ї">
+                <substitute>GRD</substitute>
+            </character>
+            <character value = "в‚±">
+                <substitute>PHP</substitute>
+            </character>
+            <character value = "в‚І">
+                <substitute>PYG</substitute>
+            </character>
+            <character value = "в‚µ">
+                <substitute>GHS</substitute>
+            </character>
+            <character value = "в„ћ">
+                <substitute>Rx</substitute>
+            </character>
+            <character value = "в…“">
+                <substitute> 1/3</substitute>
+            </character>
+            <character value = "в…”">
+                <substitute> 2/3</substitute>
+            </character>
+            <character value = "в…•">
+                <substitute> 1/5</substitute>
+            </character>
+            <character value = "в…–">
+                <substitute> 2/5</substitute>
+            </character>
+            <character value = "в…—">
+                <substitute> 3/5</substitute>
+            </character>
+            <character value = "в…">
+                <substitute> 4/5</substitute>
+            </character>
+            <character value = "в…™">
+                <substitute> 1/6</substitute>
+            </character>
+            <character value = "в…љ">
+                <substitute> 5/6</substitute>
+            </character>
+            <character value = "в…›">
+                <substitute> 1/8</substitute>
+            </character>
+            <character value = "в…њ">
+                <substitute> 3/8</substitute>
+            </character>
+            <character value = "в…ќ">
+                <substitute> 5/8</substitute>
+            </character>
+            <character value = "в…ћ">
+                <substitute> 7/8</substitute>
+            </character>
+            <character value = "в…џ">
+                <substitute> 1/</substitute>
+            </character>
+            <character value = "в€Џ">
+                <substitute>О </substitute>
+            </character>
+            <character value = "в€‘">
+                <substitute>ОЈ</substitute>
+            </character>
+            <character value = "в€’">
+                <substitute>-</substitute>
+            </character>
+            <character value = "в€•">
+                <substitute>/</substitute>
+            </character>
+            <character value = "в€–">
+                <substitute>\</substitute>
+            </character>
+            <character value = "в€Ј">
+                <substitute>|</substitute>
+            </character>
+            <character value = "в€Ґ">
+                <substitute>||</substitute>
+            </character>
+            <character value = "гЂЂ">
+                <substitute>  </substitute>
+            </character>
+            <character value = "гЌё">
+                <substitute>dmВІ</substitute>
+            </character>
+            <character value = "гЌ№">
+                <substitute>dmВі</substitute>
+            </character>
+            <character value = "гЋџ">
+                <substitute>mmВІ</substitute>
+            </character>
+            <character value = "гЋ ">
+                <substitute>cmВІ</substitute>
+            </character>
+            <character value = "гЋЎ">
+                <substitute>mВІ</substitute>
+            </character>
+            <character value = "гЋў">
+                <substitute>kmВІ</substitute>
+            </character>
+            <character value = "гЋЈ">
+                <substitute>mmВі</substitute>
+            </character>
+            <character value = "гЋ¤">
+                <substitute>cmВі</substitute>
+            </character>
+            <character value = "гЋҐ">
+                <substitute>mВі</substitute>
+            </character>
+            <character value = "гЋ¦">
+                <substitute>kmВі</substitute>
+            </character>
+            <character value = "гЋ§">
+                <substitute>m/s</substitute>
+            </character>
+            <character value = "гЋЁ">
+                <substitute>m/sВІ</substitute>
+            </character>
+            <character value = "гЋ®">
+                <substitute>rad/s</substitute>
+            </character>
+            <character value = "гЋЇ">
+                <substitute>rad/sВІ</substitute>
+            </character>
+            <character value = "гЏ„">
+                <substitute>CC</substitute>
+            </character>
+            <character value = "гЏ†">
+                <substitute>C/kg</substitute>
+            </character>
+            <character value = "гЏ—">
+                <substitute>pH</substitute>
+            </character>
+            <character value = "гЏћ">
+                <substitute>V/m</substitute>
+            </character>
+            <character value = "гЏџ">
+                <substitute>A/m</substitute>
+            </character>
+            <character value = "п¬…">
+                <substitute>Еїt</substitute>
+            </character>
+            <character value = "пЅџ">
+                <substitute>((</substitute>
+            </character>
+            <character value = "пЅ ">
+                <substitute>))</substitute>
+            </character>
+            <character value = "пѕћ">
+                <substitute>г‚›</substitute>
+            </character>
+            <character value = "пѕџ">
+                <substitute>г‚њ</substitute>
+            </character>
+            <character value = "пѕ ">
+                <substitute>г…¤</substitute>
+            </character>
+            <character value = "пѕЎ">
+                <substitute>г„±</substitute>
+            </character>
+            <character value = "пѕў">
+                <substitute>г„І</substitute>
+            </character>
+            <character value = "пѕЈ">
+                <substitute>г„і</substitute>
+            </character>
+            <character value = "пѕ¤">
+                <substitute>г„ґ</substitute>
+            </character>
+            <character value = "пѕҐ">
+                <substitute>г„µ</substitute>
+            </character>
+            <character value = "пѕ¦">
+                <substitute>г„¶</substitute>
+            </character>
+            <character value = "пѕ§">
+                <substitute>г„·</substitute>
+            </character>
+            <character value = "пѕЁ">
+                <substitute>г„ё</substitute>
+            </character>
+            <character value = "пѕ©">
+                <substitute>г„№</substitute>
+            </character>
+            <character value = "пѕЄ">
+                <substitute>г„є</substitute>
+            </character>
+            <character value = "пѕ«">
+                <substitute>г„»</substitute>
+            </character>
+            <character value = "пѕ¬">
+                <substitute>г„ј</substitute>
+            </character>
+            <character value = "пѕ­">
+                <substitute>г„Ѕ</substitute>
+            </character>
+            <character value = "пѕ®">
+                <substitute>г„ѕ</substitute>
+            </character>
+            <character value = "пѕЇ">
+                <substitute>г„ї</substitute>
+            </character>
+            <character value = "пѕ°">
+                <substitute>г…Ђ</substitute>
+            </character>
+            <character value = "пѕ±">
+                <substitute>г…Ѓ</substitute>
+            </character>
+            <character value = "пѕІ">
+                <substitute>г…‚</substitute>
+            </character>
+            <character value = "пѕі">
+                <substitute>г…ѓ</substitute>
+            </character>
+            <character value = "пѕґ">
+                <substitute>г…„</substitute>
+            </character>
+            <character value = "пѕµ">
+                <substitute>г……</substitute>
+            </character>
+            <character value = "пѕ¶">
+                <substitute>г…†</substitute>
+            </character>
+            <character value = "пѕ·">
+                <substitute>г…‡</substitute>
+            </character>
+            <character value = "пѕё">
+                <substitute>г…€</substitute>
+            </character>
+            <character value = "пѕ№">
+                <substitute>г…‰</substitute>
+            </character>
+            <character value = "пѕє">
+                <substitute>г…Љ</substitute>
+            </character>
+            <character value = "пѕ»">
+                <substitute>г…‹</substitute>
+            </character>
+            <character value = "пѕј">
+                <substitute>г…Њ</substitute>
+            </character>
+            <character value = "пѕЅ">
+                <substitute>г…Ќ</substitute>
+            </character>
+            <character value = "пѕѕ">
+                <substitute>г…Ћ</substitute>
+            </character>
+            <character value = "пї‚">
+                <substitute>г…Џ</substitute>
+            </character>
+            <character value = "пїѓ">
+                <substitute>г…ђ</substitute>
+            </character>
+            <character value = "пї„">
+                <substitute>г…‘</substitute>
+            </character>
+            <character value = "пї…">
+                <substitute>г…’</substitute>
+            </character>
+            <character value = "пї†">
+                <substitute>г…“</substitute>
+            </character>
+            <character value = "пї‡">
+                <substitute>г…”</substitute>
+            </character>
+            <character value = "пїЉ">
+                <substitute>г…•</substitute>
+            </character>
+            <character value = "пї‹">
+                <substitute>г…–</substitute>
+            </character>
+            <character value = "пїЊ">
+                <substitute>г…—</substitute>
+            </character>
+            <character value = "пїЌ">
+                <substitute>г…</substitute>
+            </character>
+            <character value = "пїЋ">
+                <substitute>г…™</substitute>
+            </character>
+            <character value = "пїЏ">
+                <substitute>г…љ</substitute>
+            </character>
+            <character value = "пї’">
+                <substitute>г…›</substitute>
+            </character>
+            <character value = "пї“">
+                <substitute>г…њ</substitute>
+            </character>
+            <character value = "пї”">
+                <substitute>г…ќ</substitute>
+            </character>
+            <character value = "пї•">
+                <substitute>г…ћ</substitute>
+            </character>
+            <character value = "пї–">
+                <substitute>г…џ</substitute>
+            </character>
+            <character value = "пї—">
+                <substitute>г… </substitute>
+            </character>
+            <character value = "пїљ">
+                <substitute>г…Ў</substitute>
+            </character>
+            <character value = "пї›">
+                <substitute>г…ў</substitute>
+            </character>
+            <character value = "пїњ">
+                <substitute>г…Ј</substitute>
+            </character>
+            <character value = "пїЈ">
+                <substitute>ВЇ</substitute>
+            </character>
+        </character-fallback>
+    </characters>
+</supplementalData>

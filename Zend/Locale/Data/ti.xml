@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.69 $"/>
+		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<language type="ti"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="af">бЉ бЌЌб€Єб‰ѓбЉ•б€°бЉ›</language>
+			<language type="am">бЉ б€ќб€ђб€ЁбЉ›</language>
+			<language type="ar">б‹“б€Ёб‰ бЉ›</language>
+			<language type="az">бЉ б‹њб€­б‰Јб‹­бЊѓбЉ•бЉ›</language>
+			<language type="be">б‰¤б€‹б€«б€»бЉ›</language>
+			<language type="bg">б‰Ўб€ЌбЊ‹б€ЄбЉ›</language>
+			<language type="bh">б‰ўб€ѓб€Є</language>
+			<language type="bn">б‰ бЉ•бЊ‹б€ЉбЉ›</language>
+			<language type="br">б‰Ґб€¬б‰¶бЉ•</language>
+			<language type="bs">б‰¦б€µбЉ’б‹«бЉ•</language>
+			<language type="ca">бЉ«б‰іб€‹бЉ•</language>
+			<language type="cs">б‰јбЉ­бЉ›</language>
+			<language type="cy">б‹€б€Ќб€Ѕ</language>
+			<language type="da">б‹ґбЉ’б€Ѕ</language>
+			<language type="de">бЊЂб€­б€бЉ•</language>
+			<language type="el">бЊЌб€ЄбЉЁбЉ›</language>
+			<language type="en">бЉҐбЉ•бЊЌб€Љб‹ќбЉ›</language>
+			<language type="eo">бЉ¤б€µбЌђб€«бЉ•б‰¶</language>
+			<language type="es">б€µбЌ“бЉ’б€Ѕ</language>
+			<language type="et">бЉ¤б€µб‰¶бЉ’бЉ бЉ•</language>
+			<language type="eu">б‰Јб€µбЉ­бЉ›</language>
+			<language type="fa">бЌђб€­б€Іб‹«бЉ›</language>
+			<language type="fi">бЌЉбЉ’б€Ѕ</language>
+			<language type="fil">б‰ібЊ‹б€ЋбЊ€бЉ›</language>
+			<language type="fo">бЌ‹б€®бЉ›</language>
+			<language type="fr">бЌ€б€ЁбЉ•б€іб‹­бЉ›</language>
+			<language type="fy">бЌЌб€Єб€°бЉ›</language>
+			<language type="ga">бЉ б‹­б€Єб€Ѕ</language>
+			<language type="gd">бЉҐб€µбЉ®б‰µб€µ бЊЊб€ЌбЉ­бЉ›</language>
+			<language type="gl">бЊ‹б€€б‰ЄбЉ›</language>
+			<language type="gn">бЊ“б€«бЉ’</language>
+			<language type="gu">бЊ‰бЊѓб€«б‰ІбЉ›</language>
+			<language type="he">б‹•б‰Ґб€«б€µбЊҐ</language>
+			<language type="hi">б€•бЉ•б‹°бЉ›</language>
+			<language type="hr">бЉ­б€®б€Ѕб‹«бЉ•бЉ›</language>
+			<language type="hu">б€ЂбЉ•бЊ‹б€ЄбЉ›</language>
+			<language type="ia">бЉўбЉ•б‰ґб€­ б‰‹бЉ•б‰‹</language>
+			<language type="id">бЉҐбЉ•б‹¶бЉ‘б€ІбЉ›</language>
+			<language type="is">бЉ б‹­б€µб€‹бЉ•б‹°бЉ›</language>
+			<language type="it">бЊЈб€Љб‹«бЉ•бЉ›</language>
+			<language type="ja">бЊѓбЌ“бЉ•бЉ›</language>
+			<language type="jv">бЊѓб‰«бЉ•бЉ›</language>
+			<language type="ka">бЊЉб‹®б€­бЊЉб‹«бЉ›</language>
+			<language type="kn">бЉ«б€›б‹°бЉ›</language>
+			<language type="ko">бЉ®б€Єб‹«бЉ›</language>
+			<language type="ku">бЉ©б€­б‹µб€Ѕ</language>
+			<language type="ky">бЉЄб€©бЊ‹б‹љ</language>
+			<language type="la">б€‹б‰ІбЉ•бЉ›</language>
+			<language type="lt">б€Љб‰±бЉ бЉ’б‹ЁбЉ•</language>
+			<language type="lv">б€‹б‰Іб‰Єб‹«бЉ•</language>
+			<language type="mk">б€›бЉ­б‹¶бЉ’бЉ›</language>
+			<language type="ml">б€›б€‹б‹«б€‹б€ќбЉ›</language>
+			<language type="mr">б€›б€«б‰ІбЉ›</language>
+			<language type="ms">б€›б€‹б‹­бЉ›</language>
+			<language type="mt">б€›б€Ќб‰Іб€µбЉ›</language>
+			<language type="ne">бЉ”бЌ–б€ЉбЉ›</language>
+			<language type="nl">б‹°б‰Ѕ</language>
+			<language type="nn">бЉ–б€­б‹Њб‹­бЉ› (бЉ“б‹­ бЉќбЉ–б€­б€µбЉ­)</language>
+			<language type="no">бЉ–б€­б‹ЊбЊ‚б‹«бЉ•</language>
+			<language type="oc">бЉ¦бЉЄб‰ібЉ•бЉ›</language>
+			<language type="or">бЉ¦б€Єб‹«</language>
+			<language type="pa">бЌ‘бЉ•бЊѓб‰ўбЉ›</language>
+			<language type="pl">бЌ–б€Љб€Ѕ</language>
+			<language type="ps">бЌ“б€Ѕб‰¶</language>
+			<language type="pt">бЌ–б€­б‰±бЊ‹б€ЉбЉ›</language>
+			<language type="pt_BR">бЌ–б€­б‰±бЊ‹б€ЌбЉ› (бЉ“б‹­ б‰Ґб€«б‹љб€Ќ)</language>
+			<language type="pt_PT">бЌ–б€­б‰±бЊ‹б€ЌбЉ› (бЉ“б‹­ бЌ–б€­б‰±бЊ‹б€Ќ)</language>
+			<language type="ro">б€®б€›бЉ’б‹«бЉ•</language>
+			<language type="ru">б€«б€ЅбЉ›</language>
+			<language type="sh">б€°б€­б‰¦- бЉ­б€®б‹Љб‰ібЉ•</language>
+			<language type="si">б€µбЉ•б€ѓб€ЌбЉ›</language>
+			<language type="sk">б€µб€Ћб‰ЁбЉ­бЉ›</language>
+			<language type="sl">б€µб‰Ѓб‰ЄбЉ›</language>
+			<language type="sq">бЉ б€Ќб‰¤бЉ’бЉ›</language>
+			<language type="sr">б€°б€­б‰ўбЉ›</language>
+			<language type="st">б€°б€ґб‰¶</language>
+			<language type="su">б€±б‹ібЉ•бЉ›</language>
+			<language type="sv">б€µб‹Љб‹µбЉ•бЉ›</language>
+			<language type="sw">б€°б‹‹б€‚б€ЉбЉ›</language>
+			<language type="ta">б‰іб€љб€ЌбЉ›</language>
+			<language type="te">б‰°б€‰бЊ‰бЉ›</language>
+			<language type="th">б‰іб‹­бЉ›</language>
+			<language type="ti">б‰µбЊЌб€­бЉ›</language>
+			<language type="tk">бЉ“б‹­ б‰±б€­бЉЄ б€°б‰Ґб‹“б‹­ (б‰±б€­бЉ«б‹Љ)</language>
+			<language type="tlh">бЉ­б€ЉбЉ•бЊЌбЉ¦бЉ•бЉ›</language>
+			<language type="tr">б‰±б€­бЉЁбЉ›</language>
+			<language type="tw">б‰µб‹Љ</language>
+			<language type="uk">б‹©бЉ­б€ЁбЉ’бЉ›</language>
+			<language type="ur">бЉЎб€­б‹±бЉ›</language>
+			<language type="uz">бЉЎб‹ќб‰ бЉ­бЉ›</language>
+			<language type="vi">б‰Єб‰µбЉ“б€ќбЉ›</language>
+			<language type="xh">б‹ћб€ібЉ›</language>
+			<language type="yi">б‹Єб‹Іб€Ѕ</language>
+			<language type="zu">б‹™б€‰бЉ›</language>
+		</languages>
+		<scripts>
+			<script type="Ethi">бЌЉб‹°б€Ќ</script>
+			<script type="Latn">б€‹б‰ІбЉ•</script>
+		</scripts>
+		<territories>
+			<alias source="am"/>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[\u135F б€Ђ-б€† б€€-б‰† б‰€ б‰Љ-б‰Ќ б‰ђ-б‰– б‰ б‰љ-б‰ќ б‰ -бЉ† бЉ€ бЉЉ-бЉЌ бЉђ-бЉ® бЉ° бЉІ-бЉµ бЉё-бЉѕ б‹Ђ б‹‚-б‹… б‹€-б‹Ћ б‹ђ-б‹– б‹-б‹® б‹°-б‹· бЊЂ-бЊЋ бЊђ бЊ’-бЊ• бЊ -бЌ—]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[бЋђ-бЋ™ б€‡ в¶Ђ бЋЂ-бЋѓ в¶Ѓ-в¶„ б‰‡ бЋ„-бЋ‡ в¶…-в¶‡ бЉ‡ в¶€-в¶Љ бЉЇ б‹Џ в¶‹ б‹Ї в¶Њ б‹ё-б‹ї в¶Ќ в¶Ћ бЊЏ бЊ-бЊџ в¶“-в¶– в¶Џ-в¶‘ бЌ‡ бЋ€-бЋЏ в¶’ бЌ-бЌљ в¶ -в¶¦ в¶Ё-в¶® в¶°-в¶¶ в¶ё-в¶ѕ в·Ђ-в·† в·€-в·Ћ в·ђ-в·– в·-в·ћ]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">бЊѓбЉ•б‹©</month>
+							<month type="2">бЌЊб‰Ґб€©</month>
+							<month type="3">б€›б€­б‰Ѕ</month>
+							<month type="4">бЉ¤бЌ•б€Ё</month>
+							<month type="5">б€њб‹­</month>
+							<month type="6">бЊЃбЉ•</month>
+							<month type="7">бЊЃб€‹б‹­</month>
+							<month type="8">бЉ¦бЊ€б€µ</month>
+							<month type="9">б€ґбЌ•б‰ґ</month>
+							<month type="10">бЉ¦бЉ­б‰°</month>
+							<month type="11">бЉ–б‰¬б€ќ</month>
+							<month type="12">б‹Іб€ґб€ќ</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">бЊѓбЉ•б‹©б‹€б€Є</month>
+							<month type="2">бЌЊб‰Ґб€©б‹€б€Є</month>
+							<month type="3">б€›б€­б‰Ѕ</month>
+							<month type="4">бЉ¤бЌ•б€Ёб€Ќ</month>
+							<month type="5">б€њб‹­</month>
+							<month type="6">бЊЃбЉ•</month>
+							<month type="7">бЊЃб€‹б‹­</month>
+							<month type="8">бЉ¦бЊ€б€µб‰µ</month>
+							<month type="9">б€ґбЌ•б‰ґб€ќб‰ б€­</month>
+							<month type="10">бЉ¦бЉ­б‰°б‹Ќб‰ б€­</month>
+							<month type="11">бЉ–б‰¬б€ќб‰ б€­</month>
+							<month type="12">б‹Іб€ґб€ќб‰ б€­</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">бЊѓ</month>
+							<month type="2">бЌЊ</month>
+							<month type="3">б€›</month>
+							<month type="4">бЉ¤</month>
+							<month type="5">б€њ</month>
+							<month type="6">бЊЃ</month>
+							<month type="7">бЊЃ</month>
+							<month type="8">бЉ¦</month>
+							<month type="9">б€ґ</month>
+							<month type="10">бЉ¦</month>
+							<month type="11">бЉ–</month>
+							<month type="12">б‹І</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">б€°бЉ•б‰ </day>
+							<day type="mon">б€°бЉ‘б‹­</day>
+							<day type="tue">б€ б€‰б€µ</day>
+							<day type="wed">б€Ёб‰Ўб‹•</day>
+							<day type="thu">бЉѓб€™б€µ</day>
+							<day type="fri">б‹“б€­б‰ў</day>
+							<day type="sat">б‰Ђб‹іб€ќ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">б€°бЉ•б‰ б‰µ</day>
+							<day type="mon">б€°бЉ‘б‹­</day>
+							<day type="tue">б€ б€‰б€µ</day>
+							<day type="wed">б€Ёб‰Ўб‹•</day>
+							<day type="thu">бЉѓб€™б€µ</day>
+							<day type="fri">б‹“б€­б‰ў</day>
+							<day type="sat">б‰Ђб‹іб€ќ</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">б€°</day>
+							<day type="mon">б€°</day>
+							<day type="tue">б€ </day>
+							<day type="wed">б€Ё</day>
+							<day type="thu">бЉѓ</day>
+							<day type="fri">б‹“</day>
+							<day type="sat">б‰Ђ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>бЉ•бЊ‰б€† б€°б‹“б‰°</am>
+				<pm>б‹µб€•б€­ б€°б‹“б‰µ</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">б‹“/б‹“</era>
+						<era type="1">б‹“/б€ќ</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEEбЌЈ dd MMMM б€б‹“б€Ќб‰І y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>dd MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd-MMM-y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd/MM/yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>h:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>h:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>h:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>h:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MMMMdd">dd MMMM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="BRL">
+				<displayName>б‹Ёб‰Ґб€«б‹љб€Ќ б€Єб€Ќ</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>б‹Ёб‰»б‹­бЉ“ б‹©бЉ бЉ• б€ЁбЉ•б€љбЉ•б‰ў</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>б‹ЁбЉўб‰µб‹®бЊµб‹« б‰Ґб€­</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>бЉ б‹Ќб€®</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>б‹ЁбЉҐбЉ•бЊЌб€Љб‹ќ бЌ“б‹ЌбЉ•б‹µ б€µб‰°б€­б€ЉбЉ•бЊЌ</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>б‹Ёб€•бЉ•б‹µ б€©бЌ’</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>б‹ЁбЊѓбЌ“бЉ• б‹ЁбЉ•</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>б‹Ёб€«б€» б€©б‰Ґб€Ќ</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>б‹ЁбЉ б€њб€ЄбЉ«бЉ• б‹¶б€‹б€­</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>
+

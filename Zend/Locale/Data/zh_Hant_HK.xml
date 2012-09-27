@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.77 $"/>
+		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<language type="zh"/>
+		<script type="Hant"/>
+		<territory type="HK"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="it">ж„Џе¤§е€©ж–‡</language>
+			<language type="lol">и’™еЏ¤иЄћ</language>
+		</languages>
+		<scripts>
+			<script type="Hang">йџ“ж–‡е­—жЇЌ</script>
+		</scripts>
+		<variants>
+			<variant type="1901">е‚ізµ±еѕ·ењ‹ж‹је­—жі•</variant>
+			<variant type="1996">1996 еѕ·ењ‹ж‹је­—жі•</variant>
+			<variant type="BISKE">San Giorgio/Bila ж–№иЁЂ</variant>
+			<variant type="NJIVA">Gniva/Njiva ж–№иЁЂ</variant>
+			<variant type="OSOJS">Oseacco/Osojane ж–№иЁЂ</variant>
+			<variant type="REVISED">е·Ідї®иЁ‚ж‹је­—жі•</variant>
+			<variant type="SCOTLAND">и‡ж ји­жЁ™жє–и‹±иЄћ</variant>
+			<variant type="SOLBA">Stolvizza/Solbica ж–№иЁЂ</variant>
+		</variants>
+		<types>
+			<type type="big5han" key="collation">з№Ѓй«”дё­ж–‡й †еєЏ - Big5</type>
+			<type type="gb2312han" key="collation">з°Ўй«”дё­ж–‡й †еєЏ - GB2312</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="metric">еЌЃйЂІе€¶</measurementSystemName>
+		</measurementSystemNames>
+	</localeDisplayNames>
+	<dates>
+		<calendars>
+			<calendar type="chinese">
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MMMMEd">Mжњ€dж—ҐE</dateFormatItem>
+						<dateFormatItem id="yMEd">yе№ґMжњ€dж—ҐпјЊE</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="gregorian">
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>yе№ґMжњ€dж—ҐEEEE</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>yе№ґMжњ€dж—Ґ</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>yе№ґMжњ€dж—Ґ</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yyе№ґMжњ€dж—Ґ</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>ahh:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{1}{0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{1}{0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="yyyyM">yyyy/M</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">Mжњ€dж—ҐEи‡іMжњ€dж—ҐE</greatestDifference>
+							<greatestDifference id="d">Mжњ€dж—ҐEи‡іdж—ҐE</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">Mжњ€dж—Ґи‡іMжњ€dж—Ґ</greatestDifference>
+							<greatestDifference id="d">Mжњ€dж—Ґи‡іdж—Ґ</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="h">ahи‡іhж™‚</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">ah:mmи‡іah:mmv</greatestDifference>
+							<greatestDifference id="h">ah:mmи‡іh:mmv</greatestDifference>
+							<greatestDifference id="m">ah:mmи‡іh:mmv</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">ahж™‚и‡іahж™‚v</greatestDifference>
+							<greatestDifference id="h">ahи‡іhж™‚v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">yyе№ґMжњ€и‡іMжњ€</greatestDifference>
+							<greatestDifference id="y">yyе№ґMжњ€и‡іyyе№ґMжњ€</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">yyе№ґMжњ€dж—ҐEи‡іMжњ€dж—ҐE</greatestDifference>
+							<greatestDifference id="d">yyе№ґMжњ€dж—ҐEи‡іdж—ҐE</greatestDifference>
+							<greatestDifference id="y">yyе№ґMжњ€dж—ҐEи‡іyyе№ґMжњ€dж—ҐE</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">yyе№ґMжњ€dж—Ґи‡іMжњ€dж—Ґ</greatestDifference>
+							<greatestDifference id="d">yyе№ґMжњ€dж—Ґи‡іdж—Ґ</greatestDifference>
+							<greatestDifference id="y">yyе№ґMжњ€dж—Ґи‡іyyе№ґMжњ€dж—Ґ</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##0.00;(В¤#,##0.00)</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="AUD">
+				<displayName>жѕіе…ѓ</displayName>
+			</currency>
+			<currency type="BAD">
+				<displayName>жіўж–Їе°јдєћ-й»‘еЎће“Ґз¶­й‚Јз¬¬зґЌз€ѕ</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>жіўж–Їе°јдєћ-й»‘еЎће“Ґз¶­й‚ЈеЏЇиЅ‰жЏ›й¦¬е…‹</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>еЉ е…ѓ</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>жёЇе…ѓ</displayName>
+				<symbol>$</symbol>
+			</currency>
+			<currency type="ITL">
+				<displayName>ж„Џе¤§е€©й‡Њж‹‰</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>зґђиҐїи­е…ѓ</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>еЎћз€ѕз¶­дєћз¬¬зґЌз€ѕ</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>ж–°еЉ еќЎе…ѓ</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>ж–°еЏ°е№Ј</displayName>
+			</currency>
+			<currency type="USD">
+				<symbol>US$</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="hour">
+			<unitPattern count="other">{0}ж™‚</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="other">{0}жџжњџ</unitPattern>
+		</unit>
+	</units>
+	<posix>
+		<messages>
+			<yesstr>жЇ</yesstr>
+			<nostr>еђ¦</nostr>
+		</messages>
+	</posix>
+</ldml>
+

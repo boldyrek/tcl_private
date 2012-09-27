@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* ADESA.COM RESET STYLE SHEET */
+/* Zeroes out default browser styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 13px Arial, Arial, Helvetica, sans-serif;
+	*font-size: small;
+	*font: x-small;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, li, em, pre, code {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+}
+ul {
+	list-style: disc;
+}
+ul ul {
+	list-style: circle;
+}
+ul ul ul {
+	list-style: square;
+}
+h1 {
+	font-size:220%;
+}
+h2 {
+	font-size:185%;
+}
+h3 {
+	font-size:150%;
+}
+h4 {
+	font-size:125%;
+}
+h5 {
+	font-size:110%;
+}
+h4, h5, h6 {
+	font-weight:bold;
+}
+table {
+	font-size: inherit;
+	font: 100%;
+	border-collapse:collapse;
+}
+img {
+	border: 0;
+}
+p {
+	margin: 1em 0;
+}
+/*:focus {
+	outline: 0; 
+}*/
+form {
+	margin:0;
+	padding:0;
+}
+label {
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+input {
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+select {
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.48 $"/>
+		<generation date="$Date: 2009/05/05 23:06:37 $"/>
+		<language type="hy"/>
+		<territory type="AM"/>
+		<variant type="REVISED"/>
+	</identity>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">ХЂХ¶Хѕ</month>
+							<month type="2">Х“ХїХѕ</month>
+							<month type="6">ХЂХ¶ХЅ</month>
+							<month type="7">ХЂХ¬ХЅ</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">ХЂХёЦ‚Х¶ХѕХЎЦЂ</month>
+							<month type="2">Х“ХҐХїЦЂХѕХЎЦЂ</month>
+							<month type="6">ХЂХёЦ‚Х¶Х«ХЅ</month>
+							<month type="7">ХЂХёЦ‚Х¬Х«ХЅ</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<pm>ФїХҐвЂ¤</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">Х„вЂ¤Ф№вЂ¤Ф±вЂ¤</era>
+						<era type="1">Х„вЂ¤Ф№вЂ¤</era>
+					</eraAbbr>
+				</eras>
+			</calendar>
+		</calendars>
+	</dates>
+</ldml>

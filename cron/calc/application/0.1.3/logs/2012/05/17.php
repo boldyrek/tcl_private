@@ -1,0 +1,139 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-05-17 08:00:06 --- INFO: PTM. Mercedes-Benz M-Class, 2006: found - 0, passed - 0
+2012-05-17 08:00:10 --- INFO: PTM. Mercedes-Benz M-Class, 2007: found - 0, passed - 0
+2012-05-17 08:00:18 --- INFO: PTM. Mercedes-Benz M-Class, 2008: found - 0, passed - 0
+2012-05-17 08:00:22 --- INFO: PTM. Infiniti FX, 2009: found - 0, passed - 0
+2012-05-17 08:00:26 --- INFO: PTM. Honda Accord Crosstour, 2010: found - 0, passed - 0
+2012-05-17 08:00:34 --- INFO: PTM. Toyota Venza, 2009: found - 0, passed - 0
+2012-05-17 08:00:40 --- INFO: PTM. Toyota Venza, 2010: found - 0, passed - 0
+2012-05-17 08:00:45 --- INFO: PTM. BMW X5, 2007: found - 0, passed - 0
+2012-05-17 08:00:51 --- INFO: PTM. BMW X5, 2008: found - 0, passed - 0
+2012-05-17 08:00:58 --- INFO: PTM. Subaru Forester, 2009: found - 0, passed - 0
+2012-05-17 08:01:06 --- INFO: PTM. Subaru Forester, 2010: found - 0, passed - 0
+2012-05-17 08:01:12 --- INFO: PTM. Toyota Highlander, 2008: found - 0, passed - 0
+2012-05-17 08:01:16 --- INFO: PTM. Toyota Highlander, 2009: found - 0, passed - 0
+2012-05-17 08:01:20 --- INFO: PTM. Toyota Sienna, 2006: found - 0, passed - 0
+2012-05-17 08:01:25 --- INFO: PTM. Toyota Sienna, 2007: found - 0, passed - 0
+2012-05-17 08:01:30 --- INFO: PTM. Toyota Sienna, 2008: found - 0, passed - 0
+2012-05-17 08:01:34 --- INFO: PTM. Toyota Sienna, 2009: found - 0, passed - 0
+2012-05-17 08:01:38 --- INFO: PTM. Toyota Sienna, 2010: found - 0, passed - 0
+2012-05-17 08:01:42 --- INFO: PTM. Acura MDX, 2007: found - 0, passed - 0
+2012-05-17 08:01:54 --- INFO: PTM. Acura MDX, 2008: found - 0, passed - 0
+2012-05-17 08:01:59 --- INFO: PTM. Acura MDX, 2009: found - 0, passed - 0
+2012-05-17 08:02:04 --- INFO: PTM. Acura RDX, 2007: found - 0, passed - 0
+2012-05-17 08:02:11 --- INFO: PTM. Acura RDX, 2008: found - 0, passed - 0
+2012-05-17 08:02:16 --- INFO: PTM. Acura RDX, 2009: found - 0, passed - 0
+2012-05-17 08:02:21 --- INFO: PTM. Acura TL, 2006: found - 0, passed - 0
+2012-05-17 08:02:26 --- INFO: PTM. Acura TL, 2007: found - 0, passed - 0
+2012-05-17 08:02:31 --- INFO: PTM. Acura TL, 2008: found - 0, passed - 0
+2012-05-17 08:02:35 --- INFO: PTM. Acura TL, 2009: found - 0, passed - 0
+2012-05-17 08:02:38 --- INFO: PTM. Acura TSX, 2006: found - 0, passed - 0
+2012-05-17 08:02:42 --- INFO: PTM. Acura TSX, 2007: found - 0, passed - 0
+2012-05-17 08:02:50 --- INFO: PTM. Acura TSX, 2008: found - 0, passed - 0
+2012-05-17 08:02:55 --- INFO: PTM. Acura TSX, 2009: found - 0, passed - 0
+2012-05-17 08:02:59 --- INFO: PTM. Acura TSX, 2010: found - 0, passed - 0
+2012-05-17 08:03:09 --- INFO: PTM. Honda Odyssey, 2006: found - 0, passed - 0
+2012-05-17 08:03:16 --- INFO: PTM. Honda Odyssey, 2007: found - 0, passed - 0
+2012-05-17 08:03:21 --- INFO: PTM. Honda Odyssey, 2008: found - 0, passed - 0
+2012-05-17 08:03:25 --- INFO: PTM. Honda Odyssey, 2009: found - 0, passed - 0
+2012-05-17 08:03:29 --- INFO: PTM. Honda Odyssey, 2010: found - 0, passed - 0
+2012-05-17 08:03:33 --- INFO: PTM. Honda CR-V, 2007: found - 0, passed - 0
+2012-05-17 08:03:39 --- INFO: PTM. Honda CR-V, 2008: found - 0, passed - 0
+2012-05-17 08:03:45 --- INFO: PTM. Honda CR-V, 2009: found - 0, passed - 0
+2012-05-17 08:03:52 --- INFO: PTM. Honda CR-V, 2010: found - 0, passed - 0
+2012-05-17 08:03:56 --- INFO: PTM. Honda CR-V, 2011: found - 0, passed - 0
+2012-05-17 08:04:00 --- INFO: PTM. Honda Pilot, 2007: found - 0, passed - 0
+2012-05-17 08:04:08 --- INFO: PTM. Honda Pilot, 2008: found - 0, passed - 0
+2012-05-17 08:04:15 --- INFO: PTM. Honda Pilot, 2009: found - 0, passed - 0
+2012-05-17 08:04:19 --- INFO: PTM. Honda Pilot, 2010: found - 0, passed - 0
+2012-05-17 08:04:24 --- INFO: PTM. Honda Pilot, 2011: found - 0, passed - 0
+2012-05-17 08:04:30 --- INFO: PTM. Mitsubishi Outlander, 2011: found - 0, passed - 0
+2012-05-17 08:04:37 --- INFO: PTM. Nissan Murano, 2009: found - 0, passed - 0
+2012-05-17 08:04:42 --- INFO: PTM. Nissan Murano, 2010: found - 0, passed - 0
+2012-05-17 08:04:46 --- INFO: PTM. Nissan Maxima, 2009: found - 0, passed - 0
+2012-05-17 08:04:50 --- INFO: PTM. Nissan Maxima, 2010: found - 0, passed - 0
+2012-05-17 08:04:55 --- INFO: PTM. Nissan Pathfinder, 2006: found - 0, passed - 0
+2012-05-17 08:04:59 --- INFO: PTM. Nissan Pathfinder, 2007: found - 0, passed - 0
+2012-05-17 08:05:01 --- INFO: PTM. Nissan Pathfinder, 2008: found - 0, passed - 0
+2012-05-17 08:05:05 --- INFO: PTM. Nissan Pathfinder, 2009: found - 0, passed - 0
+2012-05-17 08:05:08 --- INFO: PTM. Nissan Pathfinder, 2010: found - 0, passed - 0
+2012-05-17 08:05:15 --- INFO: PTM. Honda Accord, 2008: found - 0, passed - 0
+2012-05-17 08:05:22 --- INFO: PTM. Honda Accord, 2009: found - 0, passed - 0
+2012-05-17 08:05:29 --- INFO: PTM. Honda Accord, 2010: found - 0, passed - 0
+2012-05-17 08:05:35 --- INFO: PTM. Infiniti G, 2007: found - 0, passed - 0
+2012-05-17 08:05:41 --- INFO: PTM. Infiniti G, 2008: found - 0, passed - 0
+2012-05-17 08:05:47 --- INFO: PTM. Infiniti G, 2009: found - 0, passed - 0
+2012-05-17 08:05:51 --- INFO: PTM. Infiniti G, 2010: found - 0, passed - 0
+2012-05-17 08:05:55 --- INFO: PTM. Subaru Impreza WRX, 2007: found - 0, passed - 0
+2012-05-17 08:05:58 --- INFO: PTM. Subaru Impreza WRX, 2008: found - 0, passed - 0
+2012-05-17 08:06:02 --- INFO: PTM. Subaru Impreza WRX, 2009: found - 0, passed - 0
+2012-05-17 08:06:07 --- INFO: PTM. Subaru Impreza WRX, 2010: found - 0, passed - 0
+2012-05-17 08:06:12 --- INFO: PTM. Subaru Outback, 2007: found - 0, passed - 0
+2012-05-17 08:06:17 --- INFO: PTM. Subaru Outback, 2008: found - 0, passed - 0
+2012-05-17 08:06:22 --- INFO: PTM. Subaru Outback, 2009: found - 0, passed - 0
+2012-05-17 08:06:25 --- INFO: PTM. Subaru Outback, 2010: found - 0, passed - 0
+2012-05-17 08:06:28 --- INFO: PTM. Subaru Tribeca, 2007: found - 0, passed - 0
+2012-05-17 08:06:32 --- INFO: PTM. Subaru Tribeca, 2008: found - 0, passed - 0
+2012-05-17 08:06:37 --- INFO: PTM. Subaru Tribeca, 2009: found - 0, passed - 0
+2012-05-17 08:06:38 --- INFO: PTM. Subaru Tribeca, 2010: found - 0, passed - 0
+2012-05-17 08:06:43 --- INFO: PTM. Lexus RX 350, 2007: found - 0, passed - 0
+2012-05-17 08:06:50 --- INFO: PTM. Lexus RX 350, 2008: found - 0, passed - 0
+2012-05-17 08:06:56 --- INFO: PTM. Lexus RX 350, 2009: found - 0, passed - 0
+2012-05-17 08:07:02 --- INFO: PTM. Lexus RX 350, 2010: found - 0, passed - 0
+2012-05-17 08:07:09 --- INFO: PTM. Lexus GS 350, 2007: found - 0, passed - 0
+2012-05-17 08:07:12 --- INFO: PTM. Lexus GS 350, 2008: found - 0, passed - 0
+2012-05-17 08:07:15 --- INFO: PTM. Lexus GS 350, 2009: found - 0, passed - 0
+2012-05-17 08:07:19 --- INFO: PTM. Lexus ES 350, 2007: found - 0, passed - 0
+2012-05-17 08:07:24 --- INFO: PTM. Lexus ES 350, 2008: found - 0, passed - 0
+2012-05-17 08:07:34 --- INFO: PTM. Lexus ES 350, 2009: found - 0, passed - 0
+2012-05-17 08:07:36 --- INFO: PTM. Audi A8, 2007: found - 0, passed - 0
+2012-05-17 08:07:40 --- INFO: PTM. Audi A8, 2008: found - 0, passed - 0
+2012-05-17 08:07:42 --- INFO: PTM. Audi A8, 2009: found - 0, passed - 0
+2012-05-17 08:07:47 --- INFO: PTM. Audi A6, 2007: found - 0, passed - 0
+2012-05-17 08:07:53 --- INFO: PTM. Audi A6, 2008: found - 0, passed - 0
+2012-05-17 08:07:56 --- INFO: PTM. Audi A6, 2009: found - 0, passed - 0
+2012-05-17 08:08:01 --- INFO: PTM. Audi A4, 2007: found - 0, passed - 0
+2012-05-17 08:08:06 --- INFO: PTM. Audi A4, 2008: found - 0, passed - 0
+2012-05-17 08:08:13 --- INFO: PTM. Audi A4, 2009: found - 0, passed - 0
+2012-05-17 08:08:18 --- INFO: PTM. Audi A4, 2010: found - 0, passed - 0
+2012-05-17 08:08:22 --- INFO: PTM. Audi Q5, 2009: found - 0, passed - 0
+2012-05-17 08:08:26 --- INFO: PTM. Audi Q5, 2010: found - 0, passed - 0
+2012-05-17 08:08:30 --- INFO: PTM. Audi Q7, 2007: found - 0, passed - 0
+2012-05-17 08:08:35 --- INFO: PTM. Audi Q7, 2008: found - 0, passed - 0
+2012-05-17 08:08:40 --- INFO: PTM. Audi Q7, 2009: found - 0, passed - 0
+2012-05-17 08:08:42 --- INFO: PTM. Mercedes-Benz E-Class, 2006: found - 0, passed - 0
+2012-05-17 08:08:48 --- INFO: PTM. Mercedes-Benz E-Class, 2007: found - 0, passed - 0
+2012-05-17 08:08:53 --- INFO: PTM. Mercedes-Benz E-Class, 2008: found - 0, passed - 0
+2012-05-17 08:08:58 --- INFO: PTM. Mercedes-Benz E-Class, 2009: found - 0, passed - 0
+2012-05-17 08:09:06 --- INFO: PTM. Mercedes-Benz GLK-Class, 2010: found - 0, passed - 0
+2012-05-17 08:09:12 --- INFO: PTM. Mercedes-Benz C-Class, 2008: found - 0, passed - 0
+2012-05-17 08:09:17 --- INFO: PTM. Mercedes-Benz C-Class, 2009: found - 0, passed - 0
+2012-05-17 08:09:21 --- INFO: PTM. Mercedes-Benz S-Class, 2007: found - 0, passed - 0
+2012-05-17 08:09:33 --- INFO: PTM. Lexus IS 350, 2006: found - 0, passed - 0
+2012-05-17 08:09:36 --- INFO: PTM. Lexus IS 350, 2007: found - 0, passed - 0
+2012-05-17 08:09:37 --- INFO: PTM. Lexus IS 350, 2008: found - 0, passed - 0
+2012-05-17 08:09:41 --- INFO: PTM. Lexus IS 350, 2009: found - 0, passed - 0
+2012-05-17 08:09:43 --- INFO: PTM. Lexus IS 350, 2006: found - 0, passed - 0
+2012-05-17 08:09:46 --- INFO: PTM. Lexus IS 350, 2007: found - 0, passed - 0
+2012-05-17 08:09:48 --- INFO: PTM. Lexus IS 350, 2008: found - 0, passed - 0
+2012-05-17 08:09:52 --- INFO: PTM. Lexus IS 350, 2009: found - 0, passed - 0
+2012-05-17 08:09:54 --- INFO: PTM. BMW 1-Series, 2006: found - 0, passed - 0
+2012-05-17 08:09:56 --- INFO: PTM. BMW 1-Series, 2007: found - 0, passed - 0
+2012-05-17 08:10:00 --- INFO: PTM. BMW 1-Series, 2008: found - 0, passed - 0
+2012-05-17 08:10:01 --- INFO: PTM. BMW 1-Series, 2009: found - 0, passed - 0
+2012-05-17 08:10:03 --- INFO: PTM. BMW 1-Series, 2010: found - 0, passed - 0
+2012-05-17 08:10:07 --- INFO: PTM. BMW 3-Series, 2006: found - 0, passed - 0
+2012-05-17 08:10:10 --- INFO: PTM. BMW 3-Series, 2007: found - 0, passed - 0
+2012-05-17 08:10:13 --- INFO: PTM. BMW 3-Series, 2008: found - 0, passed - 0
+2012-05-17 08:10:16 --- INFO: PTM. BMW 3-Series, 2009: found - 0, passed - 0
+2012-05-17 08:10:18 --- INFO: PTM. BMW 3-Series, 2010: found - 0, passed - 0
+2012-05-17 08:10:24 --- INFO: PTM. BMW 5-Series, 2006: found - 0, passed - 0
+2012-05-17 08:10:27 --- INFO: PTM. BMW 5-Series, 2007: found - 0, passed - 0
+2012-05-17 08:10:30 --- INFO: PTM. BMW 5-Series, 2008: found - 0, passed - 0
+2012-05-17 08:10:33 --- INFO: PTM. BMW 5-Series, 2009: found - 0, passed - 0
+2012-05-17 08:10:37 --- INFO: PTM. BMW X3, 2006: found - 0, passed - 0
+2012-05-17 08:10:42 --- INFO: PTM. BMW X3, 2007: found - 0, passed - 0
+2012-05-17 08:10:48 --- INFO: PTM. BMW X3, 2008: found - 0, passed - 0
+2012-05-17 08:10:52 --- INFO: PTM. BMW X3, 2009: found - 0, passed - 0
+2012-05-17 09:00:04 --- ERROR: Kohana_Exception [ 0 ]: MDS calculation period has expired in 13-04-2012 ~ APPPATH/classes/autotrader/mds.php [ 28 ]

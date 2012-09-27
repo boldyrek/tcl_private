@@ -1,0 +1,239 @@
+<?
+
+//проверка и корректировка данных сертификата
+
+if(@mysql_num_rows($certificate)=='1')
+{
+	$cert = @mysql_fetch_array($certificate);
+	$open_link = '<a href="'.$root_path.'?mod=certificates&sw=print&id='.$cert['car'].'">открыть файл</a>';
+}
+else {
+	$cert = array();
+	$cert['fuel_type'] = 'БЕНЗИН';
+}
+if(isset($_GET['success'])) $report = 'Изменения сохранены!';
+$print .= '<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ</title>
+<style>
+p,div,td,body {
+	font-size:10pt;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bold_title {
+	font-size:8pt; font-weight:bold;
+}
+.bigTable td { 
+	background-color:#fff;
+	padding:2px;
+}
+.tableWidth {
+	width:900px;
+}	
+</style>
+</head>
+<body>
+<div class="report">'.$report.'</div>
+<form name="invoice" class="myForm" action="'.$root_path.'?mod=certificates&sw=save" method="post">
+  <input type="hidden" name="cert_id" value="'.$cert['id'].'">
+  <input type="hidden" name="car_id" value="'.$car['id'].'">
+  <table cellspacing="1" cellpadding="0"class="bigTable tableWidth" border="0" >
+    <tbody>
+      <tr height="31">
+        <td valign="bottom" nowrap="nowrap" width="70" height="31">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap" width="118" height="31" align="right"><span class="rowB title">
+          <input type="text" name="cert_reg_number" value="'.$cert['cert_reg_number'].'" size="10">
+          </span></td>
+        <td width="748" height="31" valign="bottom" nowrap="nowrap"><p><strong> № СВИДЕТЕЛЬСТВА О РЕГИСТРАЦИИ</strong></p></td>
+      </tr>
+      <tr height="18">
+        <td valign="bottom" nowrap="nowrap" height="18">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap" height="18">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap" height="18"><p>УЧЕТНЫЙ НОМЕР <span class="title" style="text-transform: uppercase;">
+            <input type="text" name="uchet_nomer" value="'.$cert['uchet_nomer'].'" size="25">
+            </span></p></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="tableWidth" style="background-color:#000;">
+  <table width="900" border="0" cellpadding="2" cellspacing="1" class="bigTable" >
+    <tbody>
+      <tr height="17">
+        <td height="17" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>РЕГИСТРАЦИОННЫЙ <br />
+            НОМЕР</strong></p></td>
+        <td width="135" height="17" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ДАТА СНЯТИЯ   С УЧЕТА</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="2" height="17"><p class="bold_title"><strong>ДАТА   ВЫПУСКА</strong></p></td>
+        <td height="17" colspan="5" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>НОМЕР   КУЗОВА</strong></p></td>
+      </tr>
+      <tr height="35">
+        <td height="35" colspan="2" valign="bottom" nowrap="nowrap"><span class="rowB title">
+          <input type="text" name="car_reg_number" value="'.$cert['car_reg_number'].'">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap" height="35"><span class="rowB title">
+          <input name="reg_cancel_date" type="text" value="'.$cert['reg_cancel_date'].'" size="12">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap" colspan="2" height="35"><span class="rowB title">
+          <input name="export_date" type="text" value="'.$cert['export_date'].'" size="12">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap" colspan="5" height="35"><span class="title">'.$car['frame'].'</span></td>
+      </tr>
+      <tr height="17">
+        <td height="17" colspan="5" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>НАЗВАНИЕ   АВТОМОБИЛЯ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="3" height="17" x:str="МОДЕЛЬ КУЗОВА "><p class="bold_title"><strong>МОДЕЛЬ   КУЗОВА </strong></p></td>
+        <td height="17" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>МОДЕЛЬ   ДВИГАТЕЛЯ</strong></p></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="5" valign="bottom" nowrap="nowrap"><span class="rowB title">'.$car['model'].'</span></td>
+        <td height="33" colspan="3" valign="bottom" nowrap="nowrap"><span class="rowB title">
+          <input type="text" name="frame_model" value="'.$cert['frame_model'].'" size="20">
+          </span></td>
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap"><span class="rowB title">
+          <input type="text" name="engine_model" value="'.$cert['engine_model'].'" size="6">
+          </span></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ИМЯ   ВЛАДЕЛЬЦА</strong></p></td>
+        <td height="33" colspan="8" valign="bottom" nowrap="nowrap"><span class="title rowB" style="text-transform: uppercase;">
+          <input name="supplier_name" type="text" id="supplier_name" value="'.$supplier['name'].'" style="width:98%;">
+          </span></td>
+      </tr>
+      <tr height="33">
+        <td height="29" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>АДРЕС   ВЛАДЕЛЬЦА</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="8" height="29"><span class="title">
+          <input name="supplier_address" type="text" id="supplier_address" value="'.$supplier['address'].'" style="width:98%;">
+          </span></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ИМЯ   ПОЛЬЗОВАТЕЛЯ</strong></p></td>
+        <td height="33" colspan="8" valign="bottom" nowrap="nowrap"><p>***</p></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>АДРЕС   ПОЛЬЗОВАТЕЛЯ</strong></p></td>
+        <td height="33" colspan="8" valign="bottom" nowrap="nowrap"><p>***</p></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong> МЕСТОНАХОЖДЕНИЕ АВТОМОБИЛЯ</strong></p></td>
+        <td height="33" colspan="8" valign="bottom" nowrap="nowrap"><p>***</p></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="900" border="0" cellpadding="2" cellspacing="1" class="bigTable" >
+    <tbody>
+      <tr height="15">
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong>ТИП КУЗОВА</strong></p></td>
+        <td height="15" colspan="-1" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>КЛАССИФИКАЦИЯ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong> ВИД <br>
+            ЭКСПЛУАТАЦИИ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="2" height="15"><p class="bold_title"><strong> ВИД   АВТОМОБИЛЯ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong>КОЛИЧЕСТВО<br>
+            МЕСТ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="2" height="15"><p class="bold_title"><strong>ГРУЗОПОДЪЕМНОСТЬ</strong></p></td>
+        <td height="15" align="left" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ВЕС <br>
+            АВТОМОБИЛЯ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong>СНАРЯЖЕННАЯ<br>
+            МАССА</strong></p></td>
+      </tr>
+      <tr height="33">
+        <td height="33" valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td height="33" colspan="-1" valign="bottom" nowrap="nowrap"><p><span class="title">
+            <input name="classification" type="text" value="'.$cert['classification'].'" size="10">
+            </span></p></td>
+        <td valign="bottom" nowrap="nowrap" height="33"><p><span class="title">
+            <input name="exp_type" type="text" value="'.$cert['exp_type'].'" size="10">
+            </span></p></td>
+        <td valign="bottom" nowrap="nowrap" colspan="2" height="33"><p><span class="title">
+            <input name="car_type" type="text" value="'.$cert['car_type'].'" size="10">
+            </span></p></td>
+        <td valign="bottom" nowrap="nowrap" height="33">&nbsp;</td>
+        <td height="33" colspan="2" valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td height="33" valign="bottom" nowrap="nowrap"><span class="title">'.$car['weight'].'</span> KG
+          </p></td>
+        <td height="33" valign="bottom" nowrap="nowrap"><span class="title rowB">
+          <input name="car_brutto" type="text" value="'.$cert['car_brutto'].'" size="6">
+          </span> KG</td>
+      </tr>
+      <tr height="15">
+        <td height="15" colspan="2" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ОБЪЕМ   ДВИГАТЕЛЯ</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong>ВИД ТОПЛИВА </strong></p></td>
+        <td width="65" height="15" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>№   ФОРМЫ</strong></p></td>
+        <td width="59" height="15" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong> №КЛАС.</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong>ДЛИНА</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong> ШИРИНА</strong></p></td>
+        <td valign="bottom" nowrap="nowrap" height="15"><p class="bold_title"><strong> ВЫСОТА</strong></p></td>
+        <td height="15" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>НАГР.<br>
+            НА 
+            ПЕР.
+            МОСТ</strong></p></td>
+        <td height="15" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>НАГР.<br>
+            НА
+            ЗАДН.
+            МОСТ</strong></p></td>
+      </tr>
+      <tr height="33">
+        <td height="33" colspan="2" align="right" valign="bottom" nowrap="nowrap"><p><span class="title">'.$car['engine'].'</span> СМ3</p></td>
+        <td valign="bottom" nowrap="nowrap" height="33"><p><span class="title">
+            <input name="fuel_type" type="text" value="'.$cert['fuel_type'].'" size="8">
+            </span></p></td>
+        <td valign="bottom" nowrap="nowrap" height="33"><span class="rowB title">
+          <input name="form_number" type="text" value="'.$cert['form_number'].'" size="8">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap" height="33"><span class="title">
+          <input name="class_number" type="text" value="'.$cert['class_number'].'" size="8">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap" height="33"><span style="border:0px;">
+          <input name="car_length" type="text" style="width:40px;" value="'.$cert['car_length'].'" size="6">
+          </span>СМ</td>
+        <td valign="bottom" nowrap="nowrap" height="33"><span style="border:0px;">
+          <input name="car_width" type="text" style="width:40px;" value="'.$cert['car_width'].'" size="6">
+          </span>СМ</td>
+        <td valign="bottom" nowrap="nowrap" height="33"><span style="border:0px;">
+          <input name="car_height" type="text" style="width:40px;" value="'.$cert['car_height'].'" size="6">
+          </span>СМ</td>
+        <td height="33" valign="bottom" nowrap="nowrap"><span style="border:0px;">
+          <input name="front_weight" type="text" style="width:40px;" value="'.$cert['front_weight'].'" size="6">
+          </span>KG</td>
+        <td height="33" align="left" valign="bottom" nowrap="NOWRAP"><input name="back_weight" type="text" style="width:40px;" value="'.$cert['back_weight'].'" size="6">
+          KG</td>
+      </tr>
+      <tr height="17">
+        <td valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ДАТА   ИСТЕЧЕНИЯ<br />
+            </strong><strong>СРОКА</strong></p></td>
+        <td colspan="-1" valign="bottom" nowrap="nowrap"><span class="title">
+          <input name="term_date" type="text" value="'.$cert['term_date'].'" size="12">
+          </span></td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+        <td valign="bottom" nowrap="nowrap">&nbsp;</td>
+      </tr>
+      <tr height="17">
+        <td height="17" colspan="5" valign="bottom" nowrap="nowrap"><p class="bold_title"><strong>ЗАМЕТКИ,   ПРИМЕЧАНИЯ</strong></p></td>
+        <td valign="top" nowrap="nowrap" height="17"></td>
+        <td valign="top" nowrap="nowrap" height="17"></td>
+        <td valign="top" nowrap="nowrap" height="17"></td>
+        <td valign="top" nowrap="nowrap" height="17"></td>
+        <td valign="top" nowrap="nowrap" height="17"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="list" border="0" width="900" bgcolor="#ffffff">
+    <tr>
+      <td class="title">'.$open_link.'</td>
+      <td class="title"><input type="submit" value="Сохранить" /></td>
+    </tr>
+  </table>
+  </div>
+</form>
+
+</body>
+</html>
+
+
+'
+
+?>

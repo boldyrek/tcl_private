@@ -1,0 +1,2987 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.95 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="lv"/>
+	</identity>
+	<localeDisplayNames>
+		<localeDisplayPattern>
+			<localePattern>{0} ({1})</localePattern>
+			<localeSeparator>, </localeSeparator>
+		</localeDisplayPattern>
+		<languages>
+			<language type="aa">afДЃru</language>
+			<language type="ab">abhДЃzu</language>
+			<language type="ace">aДЌinu</language>
+			<language type="ach">aДЌolu</language>
+			<language type="ada">adangmu</language>
+			<language type="ady">adigu</language>
+			<language type="ae">avesta</language>
+			<language type="af">afrikandu</language>
+			<language type="afa">afroaziДЃtu valodas</language>
+			<language type="afh">afrihili</language>
+			<language type="ain">ainu</language>
+			<language type="ak">akanu</language>
+			<language type="akk">akadieЕЎu</language>
+			<language type="ale">aleutu</language>
+			<language type="alg">algonkinu valodas</language>
+			<language type="alt">dienvidaltajieЕЎu</language>
+			<language type="am">amharu</language>
+			<language type="an">aragonieЕЎu</language>
+			<language type="ang">senangДјu</language>
+			<language type="anp">angika</language>
+			<language type="apa">apaДЌu valodas</language>
+			<language type="ar">arДЃbu</language>
+			<language type="arc">aramieЕЎu</language>
+			<language type="arn">araukДЃЕ†u</language>
+			<language type="arp">arapahu</language>
+			<language type="art">mДЃkslД«gДЃs valodas</language>
+			<language type="arw">aravaku</language>
+			<language type="as">asamieЕЎu</language>
+			<language type="ast">astЕ«rieЕЎu</language>
+			<language type="ath">atapasku valodas</language>
+			<language type="aus">austrДЃlieЕЎu valodas</language>
+			<language type="av">avДЃru</language>
+			<language type="awa">avadhu</language>
+			<language type="ay">aimaru</language>
+			<language type="az">azerbaidЕѕДЃЕ†u</language>
+			<language type="ba">baЕЎkД«ru</language>
+			<language type="bad">bandu</language>
+			<language type="bai">bamileku valoda</language>
+			<language type="bal">beludЕѕu</language>
+			<language type="ban">balieЕЎu</language>
+			<language type="bas">basu</language>
+			<language type="bat">baltu valodas</language>
+			<language type="be">baltkrievu</language>
+			<language type="bej">bedЕѕu</language>
+			<language type="bem">bembu</language>
+			<language type="ber">berberu</language>
+			<language type="bg">bulgДЃru</language>
+			<language type="bh">biharu</language>
+			<language type="bho">bhodЕѕpЕ«ru</language>
+			<language type="bi">biЕЎlamДЃ</language>
+			<language type="bik">bikolu</language>
+			<language type="bin">binu</language>
+			<language type="bla">siksiku</language>
+			<language type="bm">bambaru</language>
+			<language type="bn">bengДЃДјu</language>
+			<language type="bnt">bantu</language>
+			<language type="bo">tibetieЕЎu</language>
+			<language type="br">bretoЕ†u</language>
+			<language type="bra">bradЕѕieЕЎu</language>
+			<language type="bs">bosnieЕЎu</language>
+			<language type="btk">bataku</language>
+			<language type="bua">burjatu</language>
+			<language type="bug">bugu</language>
+			<language type="byn">bilinu</language>
+			<language type="ca">katalДЃЕ†u</language>
+			<language type="cad">kadu</language>
+			<language type="cai">CentrДЃlamerikas indiДЃЕ†u valodas</language>
+			<language type="car">karД«bu</language>
+			<language type="cau">kaukДЃzieЕЎu valodas</language>
+			<language type="ce">ДЌeДЌenu</language>
+			<language type="ceb">sebuДЃЕ†u</language>
+			<language type="cel">Д·eltu valoda</language>
+			<language type="ch">ДЌamorru</language>
+			<language type="chb">ДЌibДЌu</language>
+			<language type="chg">dЕѕagatajs</language>
+			<language type="chk">ДЌЕ«ku</language>
+			<language type="chm">marieЕЎu</language>
+			<language type="chn">ДЌinuku Еѕargons</language>
+			<language type="cho">ДЌoktavu</language>
+			<language type="chp">ДЌipevaianu</language>
+			<language type="chr">irokД“zu</language>
+			<language type="chy">ЕЎejenu</language>
+			<language type="cmc">ДЌamieЕЎu valodas</language>
+			<language type="co">korsikДЃЕ†u</language>
+			<language type="cop">koptu</language>
+			<language type="cpe">angliskДЃs kreoliskДЃs valodas un pidЕѕinvalodas</language>
+			<language type="cpf">franciskДЃs kreoliskДЃs valodas un pidЕѕinvalodas</language>
+			<language type="cpp">portugДЃliskДЃs kreoliskДЃs valodas un pidЕѕinvalodas</language>
+			<language type="cr">krД«</language>
+			<language type="crh">Krimas tatДЃru</language>
+			<language type="crp">kreoliskДЃs valodas un pidЕѕinvalodas</language>
+			<language type="cs">ДЌehu</language>
+			<language type="csb">kaЕЎubu</language>
+			<language type="cu">baznД«cslДЃvu</language>
+			<language type="cus">kuЕЎД«tu valodas</language>
+			<language type="cv">ДЌuvaЕЎu</language>
+			<language type="cy">velsieЕЎu</language>
+			<language type="da">dДЃЕ†u</language>
+			<language type="dak">dakotu</language>
+			<language type="dar">dargu</language>
+			<language type="day">dajaku</language>
+			<language type="de">vДЃcu</language>
+			<language type="de_AT">Austrijas vДЃcu</language>
+			<language type="de_CH">Е veices augЕЎvДЃcu</language>
+			<language type="del">delavД“ru</language>
+			<language type="den">sleivu</language>
+			<language type="dgr">dogribu</language>
+			<language type="din">dinku</language>
+			<language type="doi">dogru</language>
+			<language type="dra">dravД«du valodas</language>
+			<language type="dsb">lejassorbu</language>
+			<language type="dua">dualu</language>
+			<language type="dum">vidusholandieЕЎu</language>
+			<language type="dv">maldД«vieЕЎu</language>
+			<language type="dyu">diЕ«lu</language>
+			<language type="dz">dzongke</language>
+			<language type="ee">evu</language>
+			<language type="efi">efiku</language>
+			<language type="egy">Д“ДЈiptieЕЎu</language>
+			<language type="eka">ekadЕѕuku</language>
+			<language type="el">grieД·u</language>
+			<language type="elx">elamieЕЎu</language>
+			<language type="en">angДјu</language>
+			<language type="en_AU">AustrДЃlijas angДјu</language>
+			<language type="en_CA">KanДЃdas angДјu</language>
+			<language type="en_US">angДјu (ASV)</language>
+			<language type="enm">vidusangДјu</language>
+			<language type="eo">esperanto</language>
+			<language type="es">spДЃЕ†u</language>
+			<language type="es_419">spДЃЕ†u (LatД«Е†amerika)</language>
+			<language type="es_ES">ibД“rieЕЎu spДЃЕ†u</language>
+			<language type="et">igauЕ†u</language>
+			<language type="eu">basku</language>
+			<language type="ewo">evondu</language>
+			<language type="fa">persieЕЎu</language>
+			<language type="fan">fangu</language>
+			<language type="fat">fantu</language>
+			<language type="ff">fulu</language>
+			<language type="fi">somu</language>
+			<language type="fil">filipД«nieЕЎu</language>
+			<language type="fiu">somugru valodas</language>
+			<language type="fj">fidЕѕieЕЎu</language>
+			<language type="fo">fД“ru</language>
+			<language type="fon">fonu</language>
+			<language type="fr">franДЌu</language>
+			<language type="fr_CA">KanДЃdas franДЌu</language>
+			<language type="fr_CH">Е veices franДЌu</language>
+			<language type="frm">vidusfranДЌu</language>
+			<language type="fro">senfranДЌu</language>
+			<language type="frr">ziemeДјfrД«zu</language>
+			<language type="frs">austrumfrД«zu</language>
+			<language type="fur">friЕ«lu</language>
+			<language type="fy">rietumfrД«zu</language>
+			<language type="ga">Д«ru</language>
+			<language type="gaa">ga</language>
+			<language type="gay">gajo</language>
+			<language type="gba">gbaju</language>
+			<language type="gd">gД“lu</language>
+			<language type="gem">ДЈermДЃЕ†u valodas</language>
+			<language type="gez">gД“zu</language>
+			<language type="gil">kiribatieЕЎu</language>
+			<language type="gl">galisieЕЎu</language>
+			<language type="gmh">vidusaugЕЎvДЃcu</language>
+			<language type="gn">gvaranu</language>
+			<language type="goh">senaugЕЎvДЃcu</language>
+			<language type="gon">gondu valodas</language>
+			<language type="gor">gorontalu</language>
+			<language type="got">gotu</language>
+			<language type="grb">grebo</language>
+			<language type="grc">sengrieД·u</language>
+			<language type="gsw">Е veices vДЃcu</language>
+			<language type="gu">gudЕѕaratu</language>
+			<language type="gv">menieЕЎu</language>
+			<language type="gwi">kuДЌinu</language>
+			<language type="ha">hausu</language>
+			<language type="hai">haidu</language>
+			<language type="haw">havajieЕЎu</language>
+			<language type="he">ivrits</language>
+			<language type="hi">hindi</language>
+			<language type="hil">hiligainonu</language>
+			<language type="him">himaДЌali</language>
+			<language type="hit">hetu</language>
+			<language type="hmn">hmongu</language>
+			<language type="ho">hirimotu</language>
+			<language type="hr">horvДЃtu</language>
+			<language type="hsb">augЕЎsorbu</language>
+			<language type="ht">haitieЕЎu</language>
+			<language type="hu">ungДЃru</language>
+			<language type="hup">hupu</language>
+			<language type="hy">armД“Е†u</language>
+			<language type="hz">hereru</language>
+			<language type="ia">interlingva</language>
+			<language type="iba">ibanu</language>
+			<language type="id">indonД“zieЕЎu</language>
+			<language type="ie">interlingve</language>
+			<language type="ig">igbo</language>
+			<language type="ii">SiДЌuaЕ†as ji</language>
+			<language type="ijo">idЕѕbu</language>
+			<language type="ik">inupiaku</language>
+			<language type="ilo">iloku</language>
+			<language type="inc">indoДЃrieЕЎu valodas</language>
+			<language type="ine">indoeiropieЕЎu valodas</language>
+			<language type="inh">inguЕЎu</language>
+			<language type="io">ido</language>
+			<language type="ira">irДЃЕ†u valodas</language>
+			<language type="iro">irokД“zu valodas</language>
+			<language type="is">Д«slandieЕЎu</language>
+			<language type="it">itДЃlieЕЎu</language>
+			<language type="iu">inuД«tu</language>
+			<language type="ja">japДЃЕ†u</language>
+			<language type="jbo">loЕѕbans</language>
+			<language type="jpr">jЕ«dpersieЕЎu</language>
+			<language type="jrb">jЕ«darДЃbu</language>
+			<language type="jv">javieЕЎu</language>
+			<language type="ka">gruzД«nu</language>
+			<language type="kaa">karakalpaku</language>
+			<language type="kab">kabilu</language>
+			<language type="kac">kaДЌinu</language>
+			<language type="kam">kambu</language>
+			<language type="kar">karenu</language>
+			<language type="kaw">kДЃvi</language>
+			<language type="kbd">kabardieЕЎu</language>
+			<language type="kfo">koru</language>
+			<language type="kg">kongu</language>
+			<language type="kha">khasu</language>
+			<language type="khi">hosjanu valodas</language>
+			<language type="kho">hotanieЕЎu</language>
+			<language type="ki">kikuju</language>
+			<language type="kj">kvaЕ†amu</language>
+			<language type="kk">kazahu</language>
+			<language type="kl">grenlandieЕЎu</language>
+			<language type="km">khmeru</language>
+			<language type="kmb">kimbundu</language>
+			<language type="kn">kannadu</language>
+			<language type="ko">korejieЕЎu</language>
+			<language type="kok">konkanu</language>
+			<language type="kos">kosrДЃjieЕЎu</language>
+			<language type="kpe">kpellu</language>
+			<language type="kr">kanuru</language>
+			<language type="krc">karaДЌaju un balkДЃru</language>
+			<language type="krl">karД“Дјu</language>
+			<language type="kro">krЕ«</language>
+			<language type="kru">kuruhu</language>
+			<language type="ks">kaЕЎmirieЕЎu</language>
+			<language type="ku">kurdu</language>
+			<language type="kum">kumiku</language>
+			<language type="kut">kutenaju</language>
+			<language type="kv">komieЕЎu</language>
+			<language type="kw">kornieЕЎu</language>
+			<language type="ky">kirgД«zu</language>
+			<language type="la">latД«Е†u</language>
+			<language type="lad">ladino</language>
+			<language type="lah">landu</language>
+			<language type="lam">lambu</language>
+			<language type="lb">luksemburgieЕЎu</language>
+			<language type="lez">lezgД«nu</language>
+			<language type="lg">gandu</language>
+			<language type="li">limburgieЕЎu</language>
+			<language type="ln">lingala</language>
+			<language type="lo">laosieЕЎu</language>
+			<language type="lol">mongu</language>
+			<language type="loz">lozu</language>
+			<language type="lt">lietuvieЕЎu</language>
+			<language type="lu">lubakatanga</language>
+			<language type="lua">lubalulva</language>
+			<language type="lui">luisenu</language>
+			<language type="lun">lundu</language>
+			<language type="luo">luo</language>
+			<language type="lus">luЕЎeju</language>
+			<language type="lv">latvieЕЎu</language>
+			<language type="mad">madurieЕЎu</language>
+			<language type="mag">magahieЕЎu</language>
+			<language type="mai">maithili</language>
+			<language type="mak">makasaru</language>
+			<language type="man">mandingu</language>
+			<language type="map">austronД“zieЕЎu valoda</language>
+			<language type="mas">masaju</language>
+			<language type="mdf">mokЕЎu</language>
+			<language type="mdr">mandaru</language>
+			<language type="men">mendu</language>
+			<language type="mg">malagasu</language>
+			<language type="mga">vidusД«ru</language>
+			<language type="mh">mДЃrЕЎalieЕЎu</language>
+			<language type="mi">maoru</language>
+			<language type="mic">mikmaku</language>
+			<language type="min">minangkabavu</language>
+			<language type="mis">daЕѕДЃdas valodas</language>
+			<language type="mk">maД·edonieЕЎu</language>
+			<language type="mkh">monkhmeru valodas</language>
+			<language type="ml">malajalu</language>
+			<language type="mn">mongoДјu</language>
+			<language type="mnc">mandЕѕЕ«ru</language>
+			<language type="mni">manipЕ«ru</language>
+			<language type="mno">manobu valodas</language>
+			<language type="mo">moldДЃvu</language>
+			<language type="moh">mohauku</language>
+			<language type="mos">mosu</language>
+			<language type="mr">maratu</language>
+			<language type="ms">malajieЕЎu</language>
+			<language type="mt">maltieЕЎu</language>
+			<language type="mul">vairДЃkas valodas</language>
+			<language type="mun">mundu valoda</language>
+			<language type="mus">krД«ku</language>
+			<language type="mwl">mirandieЕЎu</language>
+			<language type="mwr">marvaru</language>
+			<language type="my">birmieЕЎu</language>
+			<language type="myn">maiju valodas</language>
+			<language type="myv">erzju</language>
+			<language type="na">nauruieЕЎu</language>
+			<language type="nah">navatlu</language>
+			<language type="nai">ZiemeДјamerikas indiДЃЕ†u valodas</language>
+			<language type="nap">neapolieЕЎu</language>
+			<language type="nb">norvД“ДЈu bukmols</language>
+			<language type="nd">ziemeДјndebelu</language>
+			<language type="nds">lejasvДЃcu</language>
+			<language type="ne">nepДЃlieЕЎu</language>
+			<language type="new">nevaru</language>
+			<language type="ng">ndongu</language>
+			<language type="nia">njasu</language>
+			<language type="nic">nigД“rieЕЎu-kordofДЃЕ†u valodas</language>
+			<language type="niu">niuДЃЕ†u</language>
+			<language type="nl">holandieЕЎu</language>
+			<language type="nl_BE">flДЃmu</language>
+			<language type="nn">jaunnorvД“ДЈu</language>
+			<language type="no">norvД“ДЈu</language>
+			<language type="nog">nogaju</language>
+			<language type="non">sennorvД“ДЈu</language>
+			<language type="nqo">n-ko</language>
+			<language type="nr">dienvidndebelu</language>
+			<language type="nso">ziemeДјsotu</language>
+			<language type="nub">nЕ«bieЕЎu valodas</language>
+			<language type="nv">navahu</language>
+			<language type="nwc">klasiskДЃ nevaru</language>
+			<language type="ny">ДЌiДЌeva</language>
+			<language type="nym">Е†amvezu</language>
+			<language type="nyn">Е†ankolu</language>
+			<language type="nyo">Е†oru</language>
+			<language type="nzi">nzemu</language>
+			<language type="oc">oksitДЃЕ†u</language>
+			<language type="oj">odЕѕibvu</language>
+			<language type="om">oromu</language>
+			<language type="or">orisieЕЎu</language>
+			<language type="os">osetД«nu</language>
+			<language type="osa">vaЕѕДЃЕѕu</language>
+			<language type="ota">turku osmaЕ†u</language>
+			<language type="oto">otomu valoda</language>
+			<language type="pa">pandЕѕabu</language>
+			<language type="paa">papuasu valoda</language>
+			<language type="pag">pangasinanu</language>
+			<language type="pal">pehlevi</language>
+			<language type="pam">pampanganu</language>
+			<language type="pap">papjamento</language>
+			<language type="pau">palavieЕЎu</language>
+			<language type="peo">senpersu</language>
+			<language type="phi">filipД«nieЕЎu valoda</language>
+			<language type="phn">feniД·ieЕЎu</language>
+			<language type="pi">pДЃli</language>
+			<language type="pl">poДјu</language>
+			<language type="pon">ponapieЕЎu</language>
+			<language type="pra">prДЃkrita valoda</language>
+			<language type="pro">senprovansieЕЎu</language>
+			<language type="ps">puЕЎtu</language>
+			<language type="pt">portugДЃДјu</language>
+			<language type="pt_BR">BrazД«lijas portugДЃДјu</language>
+			<language type="pt_PT">ibД“rieЕЎu portugДЃДјu</language>
+			<language type="qu">keДЌvu</language>
+			<language type="raj">radЕѕastДЃЕ†u</language>
+			<language type="rap">rapanuju</language>
+			<language type="rar">rarotongieЕЎu</language>
+			<language type="rm">retoromДЃЕ†u</language>
+			<language type="rn">rundu</language>
+			<language type="ro">rumДЃЕ†u</language>
+			<language type="roa">romДЃЕ†u valoda</language>
+			<language type="rom">ДЌigДЃnu</language>
+			<language type="root">sakne</language>
+			<language type="ru">krievu</language>
+			<language type="rup">aromЕ«nu</language>
+			<language type="rw">kiЕ†aruanda</language>
+			<language type="sa">sanskrits</language>
+			<language type="sad">sandavu</language>
+			<language type="sah">jakutu</language>
+			<language type="sai">Dienvidamerikas indiДЃЕ†u</language>
+			<language type="sal">saliЕЎu valodas</language>
+			<language type="sam">SamДЃrijas aramieЕЎu</language>
+			<language type="sas">sasaku</language>
+			<language type="sat">santalu</language>
+			<language type="sc">sardД«nieЕЎu</language>
+			<language type="scn">sicД«lieЕЎu</language>
+			<language type="sco">skotu</language>
+			<language type="sd">sindhu</language>
+			<language type="se">ziemeДјsДЃmu</language>
+			<language type="sel">selkupu</language>
+			<language type="sem">semД«tu valodas</language>
+			<language type="sg">sangu</language>
+			<language type="sga">senД«ru</language>
+			<language type="sgn">zД«mju valodas</language>
+			<language type="sh">serbu-horvДЃtu</language>
+			<language type="shn">ЕЎanu</language>
+			<language type="si">singДЃДјu</language>
+			<language type="sid">sidamu</language>
+			<language type="sio">siЕ« valodas</language>
+			<language type="sit">sinotibetieЕЎu valodas</language>
+			<language type="sk">slovДЃku</language>
+			<language type="sl">slovД“Е†u</language>
+			<language type="sla">slДЃvu</language>
+			<language type="sm">samoДЃЕ†u</language>
+			<language type="sma">dienvidsДЃmu</language>
+			<language type="smi">sДЃmu valoda</language>
+			<language type="smj">Luleo sДЃmu</language>
+			<language type="smn">Inari sДЃmu</language>
+			<language type="sms">skoltsДЃmu</language>
+			<language type="sn">ЕЎonu</language>
+			<language type="snk">soninku</language>
+			<language type="so">somДЃДјu</language>
+			<language type="sog">sogdieЕЎu</language>
+			<language type="son">songaju</language>
+			<language type="sq">albДЃЕ†u</language>
+			<language type="sr">serbu</language>
+			<language type="srn">sranantogo</language>
+			<language type="srr">serД“ru</language>
+			<language type="ss">svatu</language>
+			<language type="ssa">NД«las-SahДЃras valodas</language>
+			<language type="st">sesoto</language>
+			<language type="su">sundanieЕЎu</language>
+			<language type="suk">sukumu</language>
+			<language type="sus">susu</language>
+			<language type="sux">ЕЎumeru</language>
+			<language type="sv">zviedru</language>
+			<language type="sw">svahili</language>
+			<language type="syc">klasiskДЃ sД«rieЕЎu</language>
+			<language type="syr">sД«rieЕЎu</language>
+			<language type="ta">tamilu</language>
+			<language type="tai">taju valodas</language>
+			<language type="te">telugu</language>
+			<language type="tem">temnu</language>
+			<language type="ter">tereno</language>
+			<language type="tet">tetumu</language>
+			<language type="tg">tadЕѕiku</language>
+			<language type="th">taju</language>
+			<language type="ti">tigrinja</language>
+			<language type="tig">tigru</language>
+			<language type="tiv">tivu</language>
+			<language type="tk">turkmД“Е†u</language>
+			<language type="tkl">tokelavieЕЎu</language>
+			<language type="tl">tagalu</language>
+			<language type="tlh">klingoЕ†u</language>
+			<language type="tli">tlinkitu</language>
+			<language type="tmh">tuaregu</language>
+			<language type="tn">cvanu</language>
+			<language type="to">tongu</language>
+			<language type="tog">Njasas tongu valoda</language>
+			<language type="tpi">tokpisins</language>
+			<language type="tr">turku</language>
+			<language type="ts">congu</language>
+			<language type="tsi">cimЕЎiДЃЕ†u</language>
+			<language type="tt">tatДЃru</language>
+			<language type="tum">tumbuku</language>
+			<language type="tup">tupu valodas</language>
+			<language type="tut">altajieЕЎu valodas</language>
+			<language type="tvl">tuvalieЕЎu</language>
+			<language type="tw">tvД«</language>
+			<language type="ty">taitieЕЎu</language>
+			<language type="tyv">tuvieЕЎu</language>
+			<language type="udm">udmurtu</language>
+			<language type="ug">uiguru</language>
+			<language type="uga">ugaritieЕЎu</language>
+			<language type="uk">ukraiЕ†u</language>
+			<language type="umb">umbundu</language>
+			<language type="und">nezinДЃma vai nederД«ga valoda</language>
+			<language type="ur">urdu</language>
+			<language type="uz">uzbeku</language>
+			<language type="vai">vaju</language>
+			<language type="ve">vendu</language>
+			<language type="vi">vjetnamieЕЎu</language>
+			<language type="vo">volapiks</language>
+			<language type="vot">votu</language>
+			<language type="wa">valoЕ†u</language>
+			<language type="wak">vakaЕЎu valodas</language>
+			<language type="wal">valamu</language>
+			<language type="war">varaju</language>
+			<language type="was">vaЕЎo</language>
+			<language type="wen">sorbu</language>
+			<language type="wo">volofu</language>
+			<language type="xal">kalmiku</language>
+			<language type="xh">khosu</language>
+			<language type="yao">jao</language>
+			<language type="yap">japieЕЎu</language>
+			<language type="yi">jidiЕЎs</language>
+			<language type="yo">jorubu</language>
+			<language type="ypk">jopiku valodas</language>
+			<language type="za">dЕѕuanu</language>
+			<language type="zap">sapoteku</language>
+			<language type="zen">zenagu</language>
+			<language type="zh">Д·Д«nieЕЎu</language>
+			<language type="zh_Hans">Д·Д«nieЕЎu vienkДЃrЕЎotДЃ</language>
+			<language type="zh_Hant">Д·Д«nieЕЎu tradicionДЃlДЃ</language>
+			<language type="znd">zandД“</language>
+			<language type="zu">zulu</language>
+			<language type="zun">zunju</language>
+			<language type="zxx">Bez lingvistiska satura</language>
+		</languages>
+		<scripts>
+			<script type="Arab">arДЃbu</script>
+			<script type="Armi">aramieЕЎu</script>
+			<script type="Armn">armД“Е†u</script>
+			<script type="Bali">balieЕЎu</script>
+			<script type="Beng">bengДЃДјu</script>
+			<script type="Bopo">bopomofo</script>
+			<script type="Brah">brahmi</script>
+			<script type="Brai">Braila raksts</script>
+			<script type="Cher">irokД“zu</script>
+			<script type="Copt">koptu</script>
+			<script type="Cyrl">kirilica</script>
+			<script type="Cyrs">senslДЃvu</script>
+			<script type="Deva">devДЃnagДЃri</script>
+			<script type="Egyd">demotiskais raksts</script>
+			<script type="Egyh">hierДЃtiskais raksts</script>
+			<script type="Egyp">Д“ДЈiptieЕЎu hieroglifi</script>
+			<script type="Ethi">etiopieЕЎu</script>
+			<script type="Geor">gruzД«nu</script>
+			<script type="Goth">gotu</script>
+			<script type="Grek">grieД·u</script>
+			<script type="Gujr">gudЕѕaratu</script>
+			<script type="Hani">Д·Д«nieЕЎu</script>
+			<script type="Hans">Д·Д«nieЕЎu vienkДЃrЕЎotДЃ</script>
+			<script type="Hant">Д·Д«nieЕЎu tradicionДЃlДЃ</script>
+			<script type="Hebr">ivrits</script>
+			<script type="Hira">hiragana</script>
+			<script type="Hrkt">katakana vai hiragana</script>
+			<script type="Hung">senungДЃru</script>
+			<script type="Ital">vecitДЃДјu</script>
+			<script type="Java">javieЕЎu</script>
+			<script type="Jpan">japДЃЕ†u</script>
+			<script type="Kana">katakana</script>
+			<script type="Khmr">khmeru</script>
+			<script type="Knda">kannaru</script>
+			<script type="Kore">korejieЕЎu</script>
+			<script type="Laoo">lao</script>
+			<script type="Latn">latД«Е†u</script>
+			<script type="Lina">lineДЃrДЃ A</script>
+			<script type="Linb">lineДЃrДЃ B</script>
+			<script type="Lydi">lД«dieЕЎu</script>
+			<script type="Maya">maiju</script>
+			<script type="Mlym">malajalu</script>
+			<script type="Mong">mongoДјu</script>
+			<script type="Moon">MЕ«na raksts</script>
+			<script type="Mymr">birmieЕЎu</script>
+			<script type="Ogam">ogamiskais raksts</script>
+			<script type="Orya">oriju</script>
+			<script type="Osma">osmaЕ†u turku</script>
+			<script type="Phnx">feniД·ieЕЎu</script>
+			<script type="Qaai">mantotДЃ</script>
+			<script type="Roro">rongorongo</script>
+			<script type="Runr">rЕ«nu raksts</script>
+			<script type="Samr">samarieЕЎu</script>
+			<script type="Sinh">sinhalas</script>
+			<script type="Sund">zundu</script>
+			<script type="Syrc">sД«rieЕЎu</script>
+			<script type="Syrj">rietumsД«rieЕЎu</script>
+			<script type="Syrn">austrumsД«rieЕЎu</script>
+			<script type="Taml">tamilu</script>
+			<script type="Telu">telugu</script>
+			<script type="Tglg">tagalu</script>
+			<script type="Thaa">taana</script>
+			<script type="Thai">taju</script>
+			<script type="Tibt">tibetieЕЎu</script>
+			<script type="Xpeo">vecpersieЕЎu</script>
+			<script type="Xsux">ЕЎumeru-akadieЕЎu Д·Д«Дјraksts</script>
+			<script type="Yiii">ji</script>
+			<script type="Zmth">matemДЃtiskais pieraksts</script>
+			<script type="Zxxx">bez rakstД«bas</script>
+			<script type="Zzzz">nezinДЃma vai nederД«ga rakstД«ba</script>
+		</scripts>
+		<territories>
+			<territory type="001">pasaule</territory>
+			<territory type="002">ДЂfrika</territory>
+			<territory type="003">ZiemeДјamerika</territory>
+			<territory type="005">Dienvidamerika</territory>
+			<territory type="009">OkeДЃnija</territory>
+			<territory type="011">RietumДЃfrika</territory>
+			<territory type="013">CentrДЃlamerika</territory>
+			<territory type="014">AustrumДЃfrika</territory>
+			<territory type="015">ZiemeДјДЃfrika</territory>
+			<territory type="017">VidusДЃfrika</territory>
+			<territory type="018">ДЂfrikas dienvidi</territory>
+			<territory type="019">Amerika</territory>
+			<territory type="021">Amerikas ziemeДјi</territory>
+			<territory type="029">KarД«bu jЕ«ras reДЈions</territory>
+			<territory type="030">AustrumДЃzija</territory>
+			<territory type="034">DienvidДЃzija</territory>
+			<territory type="035">CentrДЃlaustrumДЃzija</territory>
+			<territory type="039">Dienvideiropa</territory>
+			<territory type="053">AustrДЃlija un JaunzД“lande</territory>
+			<territory type="054">MelanД“zija</territory>
+			<territory type="057">MikronД“zijas reДЈions</territory>
+			<territory type="061">PolinД“zija</territory>
+			<territory type="062">CentrДЃldienvidДЃzija</territory>
+			<territory type="142">ДЂzija</territory>
+			<territory type="143">CentrДЃlДЃzija</territory>
+			<territory type="145">RietumДЃzija</territory>
+			<territory type="150">Eiropa</territory>
+			<territory type="151">Austrumeiropa</territory>
+			<territory type="154">ZiemeДјeiropa</territory>
+			<territory type="155">Rietumeiropa</territory>
+			<territory type="172">NeatkarД«go Valstu SavienД«ba</territory>
+			<territory type="419">LatД«Е†amerika un KarД«bu jЕ«ras reДЈions</territory>
+			<territory type="AD">Andora</territory>
+			<territory type="AE">Apvienotie ArДЃbu EmirДЃti</territory>
+			<territory type="AF">AfganistДЃna</territory>
+			<territory type="AG">Antigva un Barbuda</territory>
+			<territory type="AI">Angilja</territory>
+			<territory type="AL">AlbДЃnija</territory>
+			<territory type="AM">ArmД“nija</territory>
+			<territory type="AN">NД«derlandes AntiДјas</territory>
+			<territory type="AO">Angola</territory>
+			<territory type="AQ">Antarktika</territory>
+			<territory type="AR">ArgentД«na</territory>
+			<territory type="AS">AmerikДЃЕ†u Samoa</territory>
+			<territory type="AT">Austrija</territory>
+			<territory type="AU">AustrДЃlija</territory>
+			<territory type="AW">Aruba</territory>
+			<territory type="AX">Olandes salas</territory>
+			<territory type="AZ">AzerbaidЕѕДЃna</territory>
+			<territory type="BA">Bosnija un Hercegovina</territory>
+			<territory type="BB">Barbadosa</territory>
+			<territory type="BD">BangladeЕЎa</territory>
+			<territory type="BE">BeДјДЈija</territory>
+			<territory type="BF">Burkinafaso</territory>
+			<territory type="BG">BulgДЃrija</territory>
+			<territory type="BH">Bahreina</territory>
+			<territory type="BI">Burundi</territory>
+			<territory type="BJ">Benina</territory>
+			<territory type="BL">SenbartelmД«</territory>
+			<territory type="BM">Bermudu salas</territory>
+			<territory type="BN">Bruneja</territory>
+			<territory type="BO">BolД«vija</territory>
+			<territory type="BR">BrazД«lija</territory>
+			<territory type="BS">Bahamas</territory>
+			<territory type="BT">ButДЃna</territory>
+			<territory type="BV">BuvД“ sala</territory>
+			<territory type="BW">BotsvДЃna</territory>
+			<territory type="BY">Baltkrievija</territory>
+			<territory type="BZ">Beliza</territory>
+			<territory type="CA">KanДЃda</territory>
+			<territory type="CC">Kokosu jeb KД«linga salas</territory>
+			<territory type="CD">Kongo DemokrДЃtiskДЃ Republika</territory>
+			<territory type="CF">CentrДЃlДЃfrikas Republika</territory>
+			<territory type="CG">Kongo</territory>
+			<territory type="CH">Е veice</territory>
+			<territory type="CI">KotdivuДЃra</territory>
+			<territory type="CK">Kuka salas</territory>
+			<territory type="CL">ДЊД«le</territory>
+			<territory type="CM">KamerЕ«na</territory>
+			<territory type="CN">Д¶Д«na</territory>
+			<territory type="CO">Kolumbija</territory>
+			<territory type="CR">Kostarika</territory>
+			<territory type="CS">Serbija un Melnkalne</territory>
+			<territory type="CU">Kuba</territory>
+			<territory type="CV">Kaboverde</territory>
+			<territory type="CX">ZiemsvД“tku sala</territory>
+			<territory type="CY">Kipra</territory>
+			<territory type="CZ">ДЊehija</territory>
+			<territory type="DE">VДЃcija</territory>
+			<territory type="DJ">DЕѕibutija</territory>
+			<territory type="DK">DДЃnija</territory>
+			<territory type="DM">Dominika</territory>
+			<territory type="DO">DominikДЃnas Republika</territory>
+			<territory type="DZ">AlЕѕД«rija</territory>
+			<territory type="EC">Ekvadora</territory>
+			<territory type="EE">Igaunija</territory>
+			<territory type="EG">Д’ДЈipte</territory>
+			<territory type="EH">RietumsahДЃra</territory>
+			<territory type="ER">Eritreja</territory>
+			<territory type="ES">SpДЃnija</territory>
+			<territory type="ET">Etiopija</territory>
+			<territory type="FI">Somija</territory>
+			<territory type="FJ">FidЕѕi</territory>
+			<territory type="FK">Folklenda salas</territory>
+			<territory type="FM">MikronД“zijas FederatД«vДЃs Valstis</territory>
+			<territory type="FO">FarД“ru salas</territory>
+			<territory type="FR">Francija</territory>
+			<territory type="GA">Gabona</territory>
+			<territory type="GB">LielbritДЃnija</territory>
+			<territory type="GD">GrenДЃda</territory>
+			<territory type="GE">Gruzija</territory>
+			<territory type="GF">FranДЌu GviДЃna</territory>
+			<territory type="GG">GД“rnsija</territory>
+			<territory type="GH">Gana</territory>
+			<territory type="GI">GibraltДЃrs</territory>
+			<territory type="GL">Grenlande</territory>
+			<territory type="GM">Gambija</territory>
+			<territory type="GN">Gvineja</territory>
+			<territory type="GP">Gvadelupa</territory>
+			<territory type="GQ">EkvatoriДЃlДЃ Gvineja</territory>
+			<territory type="GR">GrieД·ija</territory>
+			<territory type="GS">DienviddЕѕordЕѕija un DienvidsendviДЌu salas</territory>
+			<territory type="GT">Gvatemala</territory>
+			<territory type="GU">Guama</territory>
+			<territory type="GW">Gvineja-Bisava</territory>
+			<territory type="GY">GajДЃna</territory>
+			<territory type="HK">Д¶Д«nas Д«paЕЎДЃs pДЃrvaldes apgabals Honkonga</territory>
+			<territory type="HM">HД“rda un Makdonalda salas</territory>
+			<territory type="HN">Hondurasa</territory>
+			<territory type="HR">HorvДЃtija</territory>
+			<territory type="HT">Haiti</territory>
+			<territory type="HU">UngДЃrija</territory>
+			<territory type="ID">IndonД“zija</territory>
+			<territory type="IE">ДЄrija</territory>
+			<territory type="IL">IzraД“la</territory>
+			<territory type="IM">Mena</territory>
+			<territory type="IN">Indija</territory>
+			<territory type="IO">Britu Indijas okeДЃna teritorija</territory>
+			<territory type="IQ">IrДЃka</territory>
+			<territory type="IR">IrДЃna</territory>
+			<territory type="IS">ДЄslande</territory>
+			<territory type="IT">ItДЃlija</territory>
+			<territory type="JE">DЕѕД“rsija</territory>
+			<territory type="JM">Jamaika</territory>
+			<territory type="JO">JordДЃnija</territory>
+			<territory type="JP">JapДЃna</territory>
+			<territory type="KE">Kenija</territory>
+			<territory type="KG">KirgД«zija</territory>
+			<territory type="KH">KambodЕѕa</territory>
+			<territory type="KI">Kiribati</territory>
+			<territory type="KM">Komoru salas</territory>
+			<territory type="KN">Sentkitsa un Nevisa</territory>
+			<territory type="KP">ZiemeДјkoreja</territory>
+			<territory type="KR">Dienvidkoreja</territory>
+			<territory type="KW">Kuveita</territory>
+			<territory type="KY">Kaimanu salas</territory>
+			<territory type="KZ">KazahstДЃna</territory>
+			<territory type="LA">Laosa</territory>
+			<territory type="LB">LibДЃna</territory>
+			<territory type="LC">SentlЕ«sija</territory>
+			<territory type="LI">LihtenЕЎteina</territory>
+			<territory type="LK">Е rilanka</territory>
+			<territory type="LR">LibД“rija</territory>
+			<territory type="LS">Lesoto</territory>
+			<territory type="LT">Lietuva</territory>
+			<territory type="LU">Luksemburga</territory>
+			<territory type="LV">Latvija</territory>
+			<territory type="LY">LД«bija</territory>
+			<territory type="MA">Maroka</territory>
+			<territory type="MC">Monako</territory>
+			<territory type="MD">Moldova</territory>
+			<territory type="ME">Melnkalne</territory>
+			<territory type="MF">SenmartД“na</territory>
+			<territory type="MG">Madagaskara</territory>
+			<territory type="MH">MДЃrЕЎala salas</territory>
+			<territory type="MK">MaД·edonija</territory>
+			<territory type="ML">Mali</territory>
+			<territory type="MM">Mjanma</territory>
+			<territory type="MN">Mongolija</territory>
+			<territory type="MO">Д¶Д«nas Д«paЕЎДЃs pДЃrvaldes apgabals Makao</territory>
+			<territory type="MP">ZiemeДјu Marianas salas</territory>
+			<territory type="MQ">Martinika</territory>
+			<territory type="MR">MauritДЃnija</territory>
+			<territory type="MS">Montserrata</territory>
+			<territory type="MT">Malta</territory>
+			<territory type="MU">MaurД«cija</territory>
+			<territory type="MV">MaldД«vija</territory>
+			<territory type="MW">MalДЃvija</territory>
+			<territory type="MX">Meksika</territory>
+			<territory type="MY">Malaizija</territory>
+			<territory type="MZ">Mozambika</territory>
+			<territory type="NA">NamД«bija</territory>
+			<territory type="NC">Jaunkaledonija</territory>
+			<territory type="NE">NigД“ra</territory>
+			<territory type="NF">Norfolkas sala</territory>
+			<territory type="NG">NigД“rija</territory>
+			<territory type="NI">Nikaragva</territory>
+			<territory type="NL">NД«derlande</territory>
+			<territory type="NO">NorvД“ДЈija</territory>
+			<territory type="NP">NepДЃla</territory>
+			<territory type="NR">Nauru</territory>
+			<territory type="NU">Niue</territory>
+			<territory type="NZ">JaunzД“lande</territory>
+			<territory type="OM">OmДЃna</territory>
+			<territory type="PA">Panama</territory>
+			<territory type="PE">Peru</territory>
+			<territory type="PF">FranДЌu PolinД“zija</territory>
+			<territory type="PG">Papua-Jaungvineja</territory>
+			<territory type="PH">FilipД«nas</territory>
+			<territory type="PK">PakistДЃna</territory>
+			<territory type="PL">Polija</territory>
+			<territory type="PM">SenpjД“ra un Mikelona</territory>
+			<territory type="PN">PitkД“rna</territory>
+			<territory type="PR">Puertoriko</territory>
+			<territory type="PS">PalestД«nieЕЎu paЕЎpДЃrvaldes teritorija</territory>
+			<territory type="PT">PortugДЃle</territory>
+			<territory type="PW">Palau</territory>
+			<territory type="PY">Paragvaja</territory>
+			<territory type="QA">Katara</territory>
+			<territory type="QO">ASV MazДЃs AizjЕ«ras salas</territory>
+			<territory type="QU">Eiropas SavienД«ba</territory>
+			<territory type="RE">Reinjona</territory>
+			<territory type="RO">RumДЃnija</territory>
+			<territory type="RS">Serbija</territory>
+			<territory type="RU">Krievija</territory>
+			<territory type="RW">Ruanda</territory>
+			<territory type="SA">SaЕ«da ArДЃbija</territory>
+			<territory type="SB">ZДЃlamana salas</territory>
+			<territory type="SC">SeiЕЎeДјu salas</territory>
+			<territory type="SD">SudДЃna</territory>
+			<territory type="SE">Zviedrija</territory>
+			<territory type="SG">SingapЕ«ra</territory>
+			<territory type="SH">Sv. HelД“nas sala</territory>
+			<territory type="SI">SlovД“nija</territory>
+			<territory type="SJ">SvalbДЃra un Jana Majena sala</territory>
+			<territory type="SK">SlovДЃkija</territory>
+			<territory type="SL">Sjerraleone</territory>
+			<territory type="SM">SanmarД«no</territory>
+			<territory type="SN">SenegДЃla</territory>
+			<territory type="SO">SomДЃlija</territory>
+			<territory type="SR">Surinama</territory>
+			<territory type="ST">Santome un Prinsipi</territory>
+			<territory type="SV">Salvadora</territory>
+			<territory type="SY">SД«rija</territory>
+			<territory type="SZ">Svazilenda</territory>
+			<territory type="TC">TД“rksas un Kaikosas salas</territory>
+			<territory type="TD">ДЊada</territory>
+			<territory type="TF">FranДЌu dienvidu teritorijas</territory>
+			<territory type="TG">Togo</territory>
+			<territory type="TH">Taizeme</territory>
+			<territory type="TJ">TadЕѕikistДЃna</territory>
+			<territory type="TK">Tokelau</territory>
+			<territory type="TL">Austrumtimora</territory>
+			<territory type="TM">TurkmenistДЃna</territory>
+			<territory type="TN">Tunisija</territory>
+			<territory type="TO">Tonga</territory>
+			<territory type="TR">Turcija</territory>
+			<territory type="TT">TrinidДЃda un TobДЃgo</territory>
+			<territory type="TV">Tuvalu</territory>
+			<territory type="TW">TaivДЃna</territory>
+			<territory type="TZ">TanzДЃnija</territory>
+			<territory type="UA">Ukraina</territory>
+			<territory type="UG">Uganda</territory>
+			<territory type="UM">ASV mazДЃs aizjЕ«ras teritorijas</territory>
+			<territory type="US">Amerikas SavienotДЃs Valstis</territory>
+			<territory type="UY">Urugvaja</territory>
+			<territory type="UZ">UzbekistДЃna</territory>
+			<territory type="VA">VatikДЃns</territory>
+			<territory type="VC">Sentvinsenta un GrenadД«nas</territory>
+			<territory type="VE">VenecuД“la</territory>
+			<territory type="VG">Britu VirdЕѕД«nu salas</territory>
+			<territory type="VI">AmerikДЃЕ†u VirdЕѕД«nu salas</territory>
+			<territory type="VN">Vjetnama</territory>
+			<territory type="VU">Vanuatu</territory>
+			<territory type="WF">Volisa un Futuna</territory>
+			<territory type="WS">Samoa</territory>
+			<territory type="YE">Jemena</territory>
+			<territory type="YT">Majota</territory>
+			<territory type="ZA">DienvidДЃfrika</territory>
+			<territory type="ZM">Zambija</territory>
+			<territory type="ZW">Zimbabve</territory>
+			<territory type="ZZ">nezinДЃms vai nederД«gs reДЈions</territory>
+		</territories>
+		<keys>
+			<key type="calendar">kalendДЃrs</key>
+			<key type="collation">salД«dzinДЃЕЎana</key>
+			<key type="currency">valЕ«ta</key>
+		</keys>
+		<types>
+			<type type="big5han" key="collation">tradicionДЃlДЃs Д·Д«nieЕЎu valodas kДЃrtoЕЎanas secД«ba - Big5</type>
+			<type type="buddhist" key="calendar">budistu kalendДЃrs</type>
+			<type type="chinese" key="calendar">Д·Д«nieЕЎu kalendДЃrs</type>
+			<type type="direct" key="collation">tieЕЎДЃ kДЃrtoЕЎanas secД«ba</type>
+			<type type="gb2312han" key="collation">vienkДЃrЕЎotДЃs Д·Д«nieЕЎu valodas kДЃrtoЕЎanas secД«ba - GB2312</type>
+			<type type="gregorian" key="calendar">Gregora kalendДЃrs</type>
+			<type type="hebrew" key="calendar">ebreju kalendДЃrs</type>
+			<type type="indian" key="calendar">Indijas nacionДЃlais kalendДЃrs</type>
+			<type type="islamic" key="calendar">islДЃma kalendДЃrs</type>
+			<type type="islamic-civil" key="calendar">islДЃma pilsoЕ†u kalendДЃrs</type>
+			<type type="japanese" key="calendar">japДЃЕ†u kalendДЃrs</type>
+			<type type="phonebook" key="collation">tДЃlruЕ†u grДЃmatas kДЃrtoЕЎanas secД«ba</type>
+			<type type="pinyin" key="collation">Pinyin kДЃrtoЕЎanas secД«ba</type>
+			<type type="roc" key="calendar">Д¶Д«nas Republikas kalendДЃrs</type>
+			<type type="stroke" key="collation">Stroke kДЃrtoЕЎanas secД«ba</type>
+			<type type="traditional" key="collation">tradicionДЃlДЃ kДЃrtoЕЎanas secД«ba</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">britu</measurementSystemName>
+			<measurementSystemName type="metric">metriskДЃ</measurementSystemName>
+		</measurementSystemNames>
+		<codePatterns>
+			<codePattern type="language">Valoda: {0}</codePattern>
+			<codePattern type="script">RakstД«ba: {0}</codePattern>
+			<codePattern type="territory">ReДЈions: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[a ДЃ b c ДЌ d e Д“ f g ДЈ h i Д« j k Д· l Дј m n Е† o p r s ЕЎ t u Е« v z Еѕ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[y q w x]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-i y j-x z]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>вЂњ</quotationStart>
+		<quotationEnd>вЂќ</quotationEnd>
+		<alternateQuotationStart>вЂ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂ™</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<dateRangePattern>{0} в€’ {1}</dateRangePattern>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">janv.</month>
+							<month type="2">febr.</month>
+							<month type="3">marts</month>
+							<month type="4">apr.</month>
+							<month type="5">maijs</month>
+							<month type="6">jЕ«n.</month>
+							<month type="7">jЕ«l.</month>
+							<month type="8">aug.</month>
+							<month type="9">sept.</month>
+							<month type="10">okt.</month>
+							<month type="11">nov.</month>
+							<month type="12">dec.</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">janvДЃris</month>
+							<month type="2">februДЃris</month>
+							<month type="3">marts</month>
+							<month type="4">aprД«lis</month>
+							<month type="5">maijs</month>
+							<month type="6">jЕ«nijs</month>
+							<month type="7">jЕ«lijs</month>
+							<month type="8">augusts</month>
+							<month type="9">septembris</month>
+							<month type="10">oktobris</month>
+							<month type="11">novembris</month>
+							<month type="12">decembris</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">J</month>
+							<month type="2">F</month>
+							<month type="3">M</month>
+							<month type="4">A</month>
+							<month type="5">M</month>
+							<month type="6">J</month>
+							<month type="7">J</month>
+							<month type="8">A</month>
+							<month type="9">S</month>
+							<month type="10">O</month>
+							<month type="11">N</month>
+							<month type="12">D</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">Sv</day>
+							<day type="mon">Pr</day>
+							<day type="tue">Ot</day>
+							<day type="wed">Tr</day>
+							<day type="thu">Ce</day>
+							<day type="fri">Pk</day>
+							<day type="sat">Se</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">svД“tdiena</day>
+							<day type="mon">pirmdiena</day>
+							<day type="tue">otrdiena</day>
+							<day type="wed">treЕЎdiena</day>
+							<day type="thu">ceturtdiena</day>
+							<day type="fri">piektdiena</day>
+							<day type="sat">sestdiena</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">S</day>
+							<day type="mon">P</day>
+							<day type="tue">O</day>
+							<day type="wed">T</day>
+							<day type="thu">C</day>
+							<day type="fri">P</day>
+							<day type="sat">S</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">C1</quarter>
+							<quarter type="2">C2</quarter>
+							<quarter type="3">C3</quarter>
+							<quarter type="4">C4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1. ceturksnis</quarter>
+							<quarter type="2">2. ceturksnis</quarter>
+							<quarter type="3">3. ceturksnis</quarter>
+							<quarter type="4">4. ceturksnis</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
+				<eras>
+					<eraNames>
+						<era type="0">pirms mЕ«su Д“ras</era>
+						<era type="1">mЕ«su Д“rДЃ</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">p.m.Д“.</era>
+						<era type="1">m.Д“.</era>
+					</eraAbbr>
+					<eraNarrow>
+						<era type="0">p.m.Д“.</era>
+						<era type="1">m.Д“.</era>
+					</eraNarrow>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, y. 'gada' d. MMMM</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y. 'gada' d. MMMM</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>y. 'gada' d. MMM</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd.MM.yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="EEEd">EEE, d.</dateFormatItem>
+						<dateFormatItem id="Ed">EEE, d.</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="MEd">E, dd.MM.</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">E, d. MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="Md">dd.mm.</dateFormatItem>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">y. 'g'.</dateFormatItem>
+						<dateFormatItem id="yM">mm.yyyy.</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, dd.mm.yyyy.</dateFormatItem>
+						<dateFormatItem id="yMMM">yyyy. 'g'. MMM</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, yyyy. 'g'. dd. MMM</dateFormatItem>
+						<dateFormatItem id="yMMMM">y. 'g'. MMMM</dateFormatItem>
+						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
+						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyy">y. 'g'.</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">mm.вЂ“mm.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E, dd.MM - E, dd.MM</greatestDifference>
+							<greatestDifference id="d">E, dd.MM вЂ“ E, dd.MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">MMM-MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E, d. MMM - E, d. MMM</greatestDifference>
+							<greatestDifference id="d">E, d. MMM вЂ“ E, d. MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMM">
+							<greatestDifference id="M">LLLLвЂ“LLLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">d. MMM - d. MMM</greatestDifference>
+							<greatestDifference id="d">d.-d. MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">dd.mmвЂ“dd.mm</greatestDifference>
+							<greatestDifference id="d">dd.mm.вЂ“dd.mm.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d.вЂ“d.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">HHвЂ“HH</greatestDifference>
+							<greatestDifference id="h">HH-HH</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="a">HH:mmвЂ“HH:mm</greatestDifference>
+							<greatestDifference id="h">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">HH:mmвЂ“HH:mm v</greatestDifference>
+							<greatestDifference id="h">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">HHвЂ“HH v</greatestDifference>
+							<greatestDifference id="h">HH-HH v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y.вЂ“y.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">mm.yyyy.вЂ“mm.yyyy.</greatestDifference>
+							<greatestDifference id="y">mm.yyyy.вЂ“mm.yyyy.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">EEE, dd.mm.yy. вЂ“ EEE, dd.mm.yy.</greatestDifference>
+							<greatestDifference id="d">EEE, dd.mm.yy. вЂ“ EEE, dd.mm.yy.</greatestDifference>
+							<greatestDifference id="y">EEE, dd.mm.yy. вЂ“ EEE, dd.mm.yy.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">y. 'gada' MMM-MMM</greatestDifference>
+							<greatestDifference id="y">y. 'gada' MMM - y. 'gada' MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E, y. 'gada' d. MMM - E, y. 'gada' d. MMM</greatestDifference>
+							<greatestDifference id="d">E, y. 'gada' d. MMM - E, y. 'gada' d. MMM</greatestDifference>
+							<greatestDifference id="y">E, y. 'gada' d. MMM - E, y. 'gada' d. MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMM">
+							<greatestDifference id="M">mm.yyyy.вЂ“mm.yyyy.</greatestDifference>
+							<greatestDifference id="y">mm.yyyy.вЂ“mm.yyyy.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">y. 'gada' d. MMM - d. MMM</greatestDifference>
+							<greatestDifference id="d">y. 'gada' d.-d. MMM</greatestDifference>
+							<greatestDifference id="y">y. 'gada' d. MMM - y. 'gada' d. MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">dd.mm.yy.вЂ“dd.mm.yy.</greatestDifference>
+							<greatestDifference id="d">dd.mm.yyyy.вЂ“dd.mm.yyyy.</greatestDifference>
+							<greatestDifference id="y">dd.mm.yy.вЂ“dd.mm.yy.</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="era">
+						<displayName>Д“ra</displayName>
+					</field>
+					<field type="year">
+						<displayName>Gads</displayName>
+					</field>
+					<field type="month">
+						<displayName>MД“nesis</displayName>
+					</field>
+					<field type="week">
+						<displayName>NedД“Дјa</displayName>
+					</field>
+					<field type="day">
+						<displayName>diena</displayName>
+						<relative type="-3">aizaizvakar</relative>
+						<relative type="-2">aizvakar</relative>
+						<relative type="-1">vakar</relative>
+						<relative type="0">ЕЎodien</relative>
+						<relative type="1">rД«t</relative>
+						<relative type="2">parД«t</relative>
+						<relative type="3">aizparД«t</relative>
+					</field>
+					<field type="weekday">
+						<displayName>NedД“Дјas diena</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>Dayperiod</displayName>
+					</field>
+					<field type="hour">
+						<displayName>Stundas</displayName>
+					</field>
+					<field type="minute">
+						<displayName>MinЕ«tes</displayName>
+					</field>
+					<field type="second">
+						<displayName>Sekundes</displayName>
+					</field>
+					<field type="zone">
+						<displayName>Josla</displayName>
+					</field>
+				</fields>
+			</calendar>
+			<calendar type="hebrew">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">tiЕЎri</month>
+							<month type="2">heЕЎvans</month>
+							<month type="3">kisДјevs</month>
+							<month type="4">tevets</month>
+							<month type="5">ЕЎevats</month>
+							<month type="7">adars</month>
+							<month type="8">nisans</month>
+							<month type="9">ijars</month>
+							<month type="10">sivans</month>
+							<month type="11">tamuzs</month>
+							<month type="12">avs</month>
+							<month type="13">eluls</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+			<calendar type="islamic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">muharams</month>
+							<month type="2">safars</month>
+							<month type="3">1. rabД«</month>
+							<month type="4">2. rabД«</month>
+							<month type="5">1. dЕѕumДЃdДЃ</month>
+							<month type="6">2. dЕѕumДЃdДЃ</month>
+							<month type="7">radЕѕabs</month>
+							<month type="8">ЕЎabans</month>
+							<month type="9">ramadДЃns</month>
+							<month type="10">ЕЎauvals</month>
+							<month type="11">du al-kidДЃ</month>
+							<month type="12">du al-hidЕѕДЃ</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;в€’HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>NezinДЃma</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>Andora</exemplarCity>
+			</zone>
+			<zone type="Asia/Dubai">
+				<exemplarCity>Dubaija</exemplarCity>
+			</zone>
+			<zone type="Asia/Kabul">
+				<exemplarCity>Kabula</exemplarCity>
+			</zone>
+			<zone type="America/Antigua">
+				<exemplarCity>Antigva</exemplarCity>
+			</zone>
+			<zone type="America/Anguilla">
+				<exemplarCity>Angilja</exemplarCity>
+			</zone>
+			<zone type="Europe/Tirane">
+				<exemplarCity>TirДЃna</exemplarCity>
+			</zone>
+			<zone type="Asia/Yerevan">
+				<exemplarCity>ErevДЃna</exemplarCity>
+			</zone>
+			<zone type="America/Curacao">
+				<exemplarCity>NД«derlandes AntiДјas</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Rothera">
+				<exemplarCity>Rotera</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Palmer">
+				<exemplarCity>Palmera</exemplarCity>
+			</zone>
+			<zone type="Antarctica/South_Pole">
+				<exemplarCity>Dienvidpols</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Syowa">
+				<exemplarCity>Sjova</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Mawson">
+				<exemplarCity>Mavsona</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Davis">
+				<exemplarCity>Deivisa</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Vostok">
+				<exemplarCity>Vostoka</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Casey">
+				<exemplarCity>Kesija</exemplarCity>
+			</zone>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>Dumont D'Urville</exemplarCity>
+			</zone>
+			<zone type="Antarctica/McMurdo">
+				<exemplarCity>Makmerdo</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Rio_Gallegos">
+				<exemplarCity>Riogaljegosa</exemplarCity>
+			</zone>
+			<zone type="America/Mendoza">
+				<exemplarCity>Mendosa</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Juan">
+				<exemplarCity>Sanhuana</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Ushuaia">
+				<exemplarCity>UЕЎuaja</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/La_Rioja">
+				<exemplarCity>Larioha</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Luis">
+				<exemplarCity>Sanluisa</exemplarCity>
+			</zone>
+			<zone type="America/Catamarca">
+				<exemplarCity>Katamarka</exemplarCity>
+			</zone>
+			<zone type="America/Jujuy">
+				<exemplarCity>ЕЅuЕѕuja</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Tucuman">
+				<exemplarCity>Tukumana</exemplarCity>
+			</zone>
+			<zone type="America/Cordoba">
+				<exemplarCity>Kordoba</exemplarCity>
+			</zone>
+			<zone type="America/Buenos_Aires">
+				<exemplarCity>Buenosairesa</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pago_Pago">
+				<exemplarCity>Pagopago</exemplarCity>
+			</zone>
+			<zone type="Europe/Vienna">
+				<exemplarCity>VД«ne</exemplarCity>
+			</zone>
+			<zone type="Australia/Perth">
+				<exemplarCity>PД“rta</exemplarCity>
+			</zone>
+			<zone type="Australia/Eucla">
+				<exemplarCity>JЕ«kla</exemplarCity>
+			</zone>
+			<zone type="Australia/Darwin">
+				<exemplarCity>DДЃrvina</exemplarCity>
+			</zone>
+			<zone type="Australia/Adelaide">
+				<exemplarCity>Adelaida</exemplarCity>
+			</zone>
+			<zone type="Australia/Broken_Hill">
+				<exemplarCity>Brokenhila</exemplarCity>
+			</zone>
+			<zone type="Australia/Currie">
+				<exemplarCity>Kerija</exemplarCity>
+			</zone>
+			<zone type="Australia/Melbourne">
+				<exemplarCity>Melburna</exemplarCity>
+			</zone>
+			<zone type="Australia/Hobart">
+				<exemplarCity>Hobarta</exemplarCity>
+			</zone>
+			<zone type="Australia/Lindeman">
+				<exemplarCity>Lindemana</exemplarCity>
+			</zone>
+			<zone type="Australia/Sydney">
+				<exemplarCity>Sidneja</exemplarCity>
+			</zone>
+			<zone type="Australia/Brisbane">
+				<exemplarCity>Brisbena</exemplarCity>
+			</zone>
+			<zone type="Australia/Lord_Howe">
+				<exemplarCity>Lordhova</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity>Barbadosa</exemplarCity>
+			</zone>
+			<zone type="Asia/Dhaka">
+				<exemplarCity>Daka</exemplarCity>
+			</zone>
+			<zone type="Europe/Brussels">
+				<exemplarCity>Brisele</exemplarCity>
+			</zone>
+			<zone type="Africa/Ouagadougou">
+				<exemplarCity>Vagadugu</exemplarCity>
+			</zone>
+			<zone type="Europe/Sofia">
+				<exemplarCity>Sofija</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>Bahreina</exemplarCity>
+			</zone>
+			<zone type="Africa/Bujumbura">
+				<exemplarCity>BuЕѕumbura</exemplarCity>
+			</zone>
+			<zone type="Africa/Porto-Novo">
+				<exemplarCity>Portonovo</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity>Bermudu salas</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity>Bruneja</exemplarCity>
+			</zone>
+			<zone type="America/La_Paz">
+				<exemplarCity>Lapasa</exemplarCity>
+			</zone>
+			<zone type="America/Eirunepe">
+				<exemplarCity>Eirenupe</exemplarCity>
+			</zone>
+			<zone type="America/Rio_Branco">
+				<exemplarCity>Riobranko</exemplarCity>
+			</zone>
+			<zone type="America/Porto_Velho">
+				<exemplarCity>Portuvelju</exemplarCity>
+			</zone>
+			<zone type="America/Boa_Vista">
+				<exemplarCity>Boavista</exemplarCity>
+			</zone>
+			<zone type="America/Manaus">
+				<exemplarCity>Manausa</exemplarCity>
+			</zone>
+			<zone type="America/Cuiaba">
+				<exemplarCity>Kujaba</exemplarCity>
+			</zone>
+			<zone type="America/Santarem">
+				<exemplarCity>Santarena</exemplarCity>
+			</zone>
+			<zone type="America/Campo_Grande">
+				<exemplarCity>Kampugrandi</exemplarCity>
+			</zone>
+			<zone type="America/Belem">
+				<exemplarCity>Belena</exemplarCity>
+			</zone>
+			<zone type="America/Araguaina">
+				<exemplarCity>Aragvaina</exemplarCity>
+			</zone>
+			<zone type="America/Sao_Paulo">
+				<exemplarCity>Sanpaulu</exemplarCity>
+			</zone>
+			<zone type="America/Bahia">
+				<exemplarCity>BrazД«lija (Salvadora)</exemplarCity>
+			</zone>
+			<zone type="America/Fortaleza">
+				<exemplarCity>Fortalesa</exemplarCity>
+			</zone>
+			<zone type="America/Maceio">
+				<exemplarCity>Maseio</exemplarCity>
+			</zone>
+			<zone type="America/Recife">
+				<exemplarCity>Resifi</exemplarCity>
+			</zone>
+			<zone type="America/Noronha">
+				<exemplarCity>NoroЕ†a</exemplarCity>
+			</zone>
+			<zone type="America/Nassau">
+				<exemplarCity>Naso</exemplarCity>
+			</zone>
+			<zone type="Asia/Thimphu">
+				<exemplarCity>Timpu</exemplarCity>
+			</zone>
+			<zone type="Europe/Minsk">
+				<exemplarCity>Minska</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity>Beliza</exemplarCity>
+			</zone>
+			<zone type="America/Dawson">
+				<exemplarCity>Dausona</exemplarCity>
+			</zone>
+			<zone type="America/Whitehorse">
+				<exemplarCity>Vaithorsa</exemplarCity>
+			</zone>
+			<zone type="America/Inuvik">
+				<exemplarCity>Inuvika</exemplarCity>
+			</zone>
+			<zone type="America/Vancouver">
+				<exemplarCity>VankЕ«vera</exemplarCity>
+			</zone>
+			<zone type="America/Dawson_Creek">
+				<exemplarCity>DousonkrД«ka</exemplarCity>
+			</zone>
+			<zone type="America/Yellowknife">
+				<exemplarCity>Jelounaifa</exemplarCity>
+			</zone>
+			<zone type="America/Edmonton">
+				<exemplarCity>Edmontona</exemplarCity>
+			</zone>
+			<zone type="America/Swift_Current">
+				<exemplarCity>Sviftkarenta</exemplarCity>
+			</zone>
+			<zone type="America/Cambridge_Bay">
+				<exemplarCity>KembridЕѕbeja</exemplarCity>
+			</zone>
+			<zone type="America/Regina">
+				<exemplarCity>RegД«na</exemplarCity>
+			</zone>
+			<zone type="America/Winnipeg">
+				<exemplarCity>Vinipega</exemplarCity>
+			</zone>
+			<zone type="America/Resolute">
+				<exemplarCity>RezolЕ«ta</exemplarCity>
+			</zone>
+			<zone type="America/Rainy_River">
+				<exemplarCity>Reinirivera</exemplarCity>
+			</zone>
+			<zone type="America/Rankin_Inlet">
+				<exemplarCity>Rankininleta</exemplarCity>
+			</zone>
+			<zone type="America/Coral_Harbour">
+				<exemplarCity>Koralharbora</exemplarCity>
+			</zone>
+			<zone type="America/Thunder_Bay">
+				<exemplarCity>Tanderbeja</exemplarCity>
+			</zone>
+			<zone type="America/Nipigon">
+				<exemplarCity>Nipigona</exemplarCity>
+			</zone>
+			<zone type="America/Montreal">
+				<exemplarCity>MonreДЃla</exemplarCity>
+			</zone>
+			<zone type="America/Iqaluit">
+				<exemplarCity>Ikaluita</exemplarCity>
+			</zone>
+			<zone type="America/Pangnirtung">
+				<exemplarCity>Pangnirtanga</exemplarCity>
+			</zone>
+			<zone type="America/Moncton">
+				<exemplarCity>Monktona</exemplarCity>
+			</zone>
+			<zone type="America/Halifax">
+				<exemplarCity>Halifaksa</exemplarCity>
+			</zone>
+			<zone type="America/Goose_Bay">
+				<exemplarCity>GЕ«sbeja</exemplarCity>
+			</zone>
+			<zone type="America/Glace_Bay">
+				<exemplarCity>Gleisbeja</exemplarCity>
+			</zone>
+			<zone type="America/Blanc-Sablon">
+				<exemplarCity>Blanksablona</exemplarCity>
+			</zone>
+			<zone type="America/St_Johns">
+				<exemplarCity>SentdЕѕonsa</exemplarCity>
+			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity>Kokosa</exemplarCity>
+			</zone>
+			<zone type="Africa/Kinshasa">
+				<exemplarCity>KinЕЎasa</exemplarCity>
+			</zone>
+			<zone type="Africa/Lubumbashi">
+				<exemplarCity>LubumbaЕЎi</exemplarCity>
+			</zone>
+			<zone type="Africa/Bangui">
+				<exemplarCity>Bangi</exemplarCity>
+			</zone>
+			<zone type="Africa/Brazzaville">
+				<exemplarCity>Brazavila</exemplarCity>
+			</zone>
+			<zone type="Europe/Zurich">
+				<exemplarCity>CД«rihe</exemplarCity>
+			</zone>
+			<zone type="Africa/Abidjan">
+				<exemplarCity>AbidЕѕana</exemplarCity>
+			</zone>
+			<zone type="Pacific/Easter">
+				<exemplarCity>Lieldienu sala</exemplarCity>
+			</zone>
+			<zone type="America/Santiago">
+				<exemplarCity>Santjago</exemplarCity>
+			</zone>
+			<zone type="Africa/Douala">
+				<exemplarCity>Duala</exemplarCity>
+			</zone>
+			<zone type="Asia/Kashgar">
+				<exemplarCity>KaЕЎgara</exemplarCity>
+			</zone>
+			<zone type="Asia/Urumqi">
+				<exemplarCity>UrumДЌi</exemplarCity>
+			</zone>
+			<zone type="Asia/Chongqing">
+				<exemplarCity>ДЊuncina</exemplarCity>
+			</zone>
+			<zone type="Asia/Harbin">
+				<exemplarCity>Harbina</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>Kostarika</exemplarCity>
+			</zone>
+			<zone type="America/Havana">
+				<exemplarCity>Havanna</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity>Kaboverde</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity>ZiemsvД“tku</exemplarCity>
+			</zone>
+			<zone type="Asia/Nicosia">
+				<exemplarCity>Nikosija</exemplarCity>
+			</zone>
+			<zone type="Europe/Berlin">
+				<exemplarCity>BerlД«ne</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>DЕѕibutija</exemplarCity>
+			</zone>
+			<zone type="Europe/Copenhagen">
+				<exemplarCity>KopenhДЃgena</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>Dominika</exemplarCity>
+			</zone>
+			<zone type="America/Santo_Domingo">
+				<exemplarCity>Santodomingo</exemplarCity>
+			</zone>
+			<zone type="Africa/Algiers">
+				<exemplarCity>AlЕѕД«ra</exemplarCity>
+			</zone>
+			<zone type="Pacific/Galapagos">
+				<exemplarCity>Galapagu salas</exemplarCity>
+			</zone>
+			<zone type="America/Guayaquil">
+				<exemplarCity>Gvajakila</exemplarCity>
+			</zone>
+			<zone type="Europe/Tallinn">
+				<exemplarCity>Tallina</exemplarCity>
+			</zone>
+			<zone type="Africa/Cairo">
+				<exemplarCity>Kaira</exemplarCity>
+			</zone>
+			<zone type="Africa/El_Aaiun">
+				<exemplarCity>AjЕ«na</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>KanДЃriju salas</exemplarCity>
+			</zone>
+			<zone type="Africa/Ceuta">
+				<exemplarCity>SeЕ«ta</exemplarCity>
+			</zone>
+			<zone type="Europe/Madrid">
+				<exemplarCity>Madride</exemplarCity>
+			</zone>
+			<zone type="Africa/Addis_Ababa">
+				<exemplarCity>Adisabeba</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>FidЕѕi</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Stanley">
+				<exemplarCity>Stenlija</exemplarCity>
+			</zone>
+			<zone type="Pacific/Truk">
+				<exemplarCity>TrЕ«ka</exemplarCity>
+			</zone>
+			<zone type="Pacific/Ponape">
+				<exemplarCity>Ponpeja</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kosrae">
+				<exemplarCity>Kosraja</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity>FarД“ru salas</exemplarCity>
+			</zone>
+			<zone type="Europe/Paris">
+				<exemplarCity>ParД«ze</exemplarCity>
+			</zone>
+			<zone type="Africa/Libreville">
+				<exemplarCity>Librevila</exemplarCity>
+			</zone>
+			<zone type="Europe/London">
+				<exemplarCity>Londona</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity>GrenДЃda</exemplarCity>
+			</zone>
+			<zone type="America/Cayenne">
+				<exemplarCity>Kajenna</exemplarCity>
+			</zone>
+			<zone type="Africa/Accra">
+				<exemplarCity>Akra</exemplarCity>
+			</zone>
+			<zone type="Europe/Gibraltar">
+				<exemplarCity>GibraltДЃrs</exemplarCity>
+			</zone>
+			<zone type="America/Thule">
+				<exemplarCity>TЕ«le</exemplarCity>
+			</zone>
+			<zone type="America/Godthab">
+				<exemplarCity>NЕ«ka</exemplarCity>
+			</zone>
+			<zone type="America/Scoresbysund">
+				<exemplarCity>Skoresbisunda</exemplarCity>
+			</zone>
+			<zone type="America/Danmarkshavn">
+				<exemplarCity>DenmДЃrkЕЎavna</exemplarCity>
+			</zone>
+			<zone type="Africa/Banjul">
+				<exemplarCity>BandЕѕula</exemplarCity>
+			</zone>
+			<zone type="Africa/Conakry">
+				<exemplarCity>Konakri</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity>Gvadelupa</exemplarCity>
+			</zone>
+			<zone type="Europe/Athens">
+				<exemplarCity>AtД“nas</exemplarCity>
+			</zone>
+			<zone type="Atlantic/South_Georgia">
+				<exemplarCity>DienviddЕѕordЕѕija</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>Gvatemala</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guam">
+				<exemplarCity>Guama</exemplarCity>
+			</zone>
+			<zone type="Africa/Bissau">
+				<exemplarCity>Bisava</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>GajДЃna</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>Honkonga</exemplarCity>
+			</zone>
+			<zone type="America/Port-au-Prince">
+				<exemplarCity>Portoprensa</exemplarCity>
+			</zone>
+			<zone type="Europe/Budapest">
+				<exemplarCity>BudapeЕЎta</exemplarCity>
+			</zone>
+			<zone type="Asia/Jakarta">
+				<exemplarCity>DЕѕakarta</exemplarCity>
+			</zone>
+			<zone type="Asia/Pontianak">
+				<exemplarCity>Pontianaka</exemplarCity>
+			</zone>
+			<zone type="Asia/Makassar">
+				<exemplarCity>Makasara</exemplarCity>
+			</zone>
+			<zone type="Asia/Jayapura">
+				<exemplarCity>DЕѕajapЕ«ra</exemplarCity>
+			</zone>
+			<zone type="Europe/Dublin">
+				<exemplarCity>Dublina</exemplarCity>
+			</zone>
+			<zone type="Indian/Chagos">
+				<exemplarCity>ДЊagosa</exemplarCity>
+			</zone>
+			<zone type="Asia/Baghdad">
+				<exemplarCity>BagdДЃde</exemplarCity>
+			</zone>
+			<zone type="Asia/Tehran">
+				<exemplarCity>TeherДЃna</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Reykjavik">
+				<exemplarCity>ReikjavД«ka</exemplarCity>
+			</zone>
+			<zone type="Europe/Rome">
+				<exemplarCity>Roma</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>Jamaika</exemplarCity>
+			</zone>
+			<zone type="Asia/Amman">
+				<exemplarCity>AmmДЃna</exemplarCity>
+			</zone>
+			<zone type="Asia/Tokyo">
+				<exemplarCity>Tokija</exemplarCity>
+			</zone>
+			<zone type="Asia/Bishkek">
+				<exemplarCity>BiЕЎkeka</exemplarCity>
+			</zone>
+			<zone type="Asia/Phnom_Penh">
+				<exemplarCity>PnompeЕ†a</exemplarCity>
+			</zone>
+			<zone type="Pacific/Enderbury">
+				<exemplarCity>Enderburija</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kiritimati">
+				<exemplarCity>Kirisimasi</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tarawa">
+				<exemplarCity>Tarava</exemplarCity>
+			</zone>
+			<zone type="Indian/Comoro">
+				<exemplarCity>Komoru</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity>Sentkitsa</exemplarCity>
+			</zone>
+			<zone type="Asia/Pyongyang">
+				<exemplarCity>Phenjana</exemplarCity>
+			</zone>
+			<zone type="Asia/Seoul">
+				<exemplarCity>Seula</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity>Kuveita</exemplarCity>
+			</zone>
+			<zone type="America/Cayman">
+				<exemplarCity>Kaimanu Salas</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtau">
+				<exemplarCity>Aktau</exemplarCity>
+			</zone>
+			<zone type="Asia/Oral">
+				<exemplarCity>OrДЃla</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtobe">
+				<exemplarCity>Aktobe</exemplarCity>
+			</zone>
+			<zone type="Asia/Qyzylorda">
+				<exemplarCity>Kizilorda</exemplarCity>
+			</zone>
+			<zone type="Asia/Almaty">
+				<exemplarCity>Almati</exemplarCity>
+			</zone>
+			<zone type="Asia/Vientiane">
+				<exemplarCity>VjangДЌana</exemplarCity>
+			</zone>
+			<zone type="Asia/Beirut">
+				<exemplarCity>BeirЕ«ta</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity>SentlЕ«sija</exemplarCity>
+			</zone>
+			<zone type="Europe/Vaduz">
+				<exemplarCity>Vaduca</exemplarCity>
+			</zone>
+			<zone type="Asia/Colombo">
+				<exemplarCity>Kolombo</exemplarCity>
+			</zone>
+			<zone type="Africa/Monrovia">
+				<exemplarCity>Monrovija</exemplarCity>
+			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity>ViДјЕ†a</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>Luksemburga</exemplarCity>
+			</zone>
+			<zone type="Europe/Riga">
+				<exemplarCity>RД«ga</exemplarCity>
+			</zone>
+			<zone type="Africa/Tripoli">
+				<exemplarCity>Tripole</exemplarCity>
+			</zone>
+			<zone type="Africa/Casablanca">
+				<exemplarCity>Kasablanka</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>Monako</exemplarCity>
+			</zone>
+			<zone type="Europe/Chisinau">
+				<exemplarCity>KiЕЎiЕ†eva</exemplarCity>
+			</zone>
+			<zone type="Indian/Antananarivo">
+				<exemplarCity>Antananarivu</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kwajalein">
+				<exemplarCity>KvadЕѕaleina</exemplarCity>
+			</zone>
+			<zone type="Pacific/Majuro">
+				<exemplarCity>MadЕѕuro</exemplarCity>
+			</zone>
+			<zone type="Asia/Rangoon">
+				<exemplarCity>Jangona</exemplarCity>
+			</zone>
+			<zone type="Asia/Hovd">
+				<exemplarCity>Hovda</exemplarCity>
+			</zone>
+			<zone type="Asia/Ulaanbaatar">
+				<exemplarCity>Ulanbatora</exemplarCity>
+			</zone>
+			<zone type="Asia/Choibalsan">
+				<exemplarCity>ДЊoibalsana</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity>Makao</exemplarCity>
+			</zone>
+			<zone type="Pacific/Saipan">
+				<exemplarCity>Saipana</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity>Martinika</exemplarCity>
+			</zone>
+			<zone type="Africa/Nouakchott">
+				<exemplarCity>NuakЕЎota</exemplarCity>
+			</zone>
+			<zone type="America/Montserrat">
+				<exemplarCity>Montserrata</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity>MaurД«cija</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>MaldД«vija</exemplarCity>
+			</zone>
+			<zone type="Africa/Blantyre">
+				<exemplarCity>Blantaira</exemplarCity>
+			</zone>
+			<zone type="America/Tijuana">
+				<exemplarCity>TihuДЃna</exemplarCity>
+			</zone>
+			<zone type="America/Hermosillo">
+				<exemplarCity>Ermosiljo</exemplarCity>
+			</zone>
+			<zone type="America/Mazatlan">
+				<exemplarCity>MasatlДЃna</exemplarCity>
+			</zone>
+			<zone type="America/Chihuahua">
+				<exemplarCity>ДЊihuahua</exemplarCity>
+			</zone>
+			<zone type="America/Monterrey">
+				<exemplarCity>Montereja</exemplarCity>
+			</zone>
+			<zone type="America/Mexico_City">
+				<exemplarCity>Mehiko</exemplarCity>
+			</zone>
+			<zone type="America/Cancun">
+				<exemplarCity>KankЕ«na</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuala_Lumpur">
+				<exemplarCity>Kualalumpura</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuching">
+				<exemplarCity>KuДЌinga</exemplarCity>
+			</zone>
+			<zone type="Africa/Windhoek">
+				<exemplarCity>Vindhuka</exemplarCity>
+			</zone>
+			<zone type="Pacific/Noumea">
+				<exemplarCity>Numea</exemplarCity>
+			</zone>
+			<zone type="Africa/Niamey">
+				<exemplarCity>Niameja</exemplarCity>
+			</zone>
+			<zone type="Pacific/Norfolk">
+				<exemplarCity>Norfolka</exemplarCity>
+			</zone>
+			<zone type="Africa/Lagos">
+				<exemplarCity>Lagosa</exemplarCity>
+			</zone>
+			<zone type="America/Managua">
+				<exemplarCity>Managva</exemplarCity>
+			</zone>
+			<zone type="Europe/Amsterdam">
+				<exemplarCity>Amsterdama</exemplarCity>
+			</zone>
+			<zone type="Pacific/Chatham">
+				<exemplarCity>ДЊetema</exemplarCity>
+			</zone>
+			<zone type="Pacific/Auckland">
+				<exemplarCity>Oklenda</exemplarCity>
+			</zone>
+			<zone type="Asia/Muscat">
+				<exemplarCity>Muskata</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tahiti">
+				<exemplarCity>Taiti</exemplarCity>
+			</zone>
+			<zone type="Pacific/Marquesas">
+				<exemplarCity>Markvesa</exemplarCity>
+			</zone>
+			<zone type="Pacific/Gambier">
+				<exemplarCity>Gambjera</exemplarCity>
+			</zone>
+			<zone type="Pacific/Port_Moresby">
+				<exemplarCity>Portmorsbi</exemplarCity>
+			</zone>
+			<zone type="Asia/Karachi">
+				<exemplarCity>KaraДЌi</exemplarCity>
+			</zone>
+			<zone type="Europe/Warsaw">
+				<exemplarCity>VarЕЎava</exemplarCity>
+			</zone>
+			<zone type="America/Miquelon">
+				<exemplarCity>Mikelona</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity>PitkД“rna</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity>Puertoriko</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Azores">
+				<exemplarCity>Azoru salas</exemplarCity>
+			</zone>
+			<zone type="Europe/Lisbon">
+				<exemplarCity>Lisabona</exemplarCity>
+			</zone>
+			<zone type="America/Asuncion">
+				<exemplarCity>Asunsjona</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>Katara</exemplarCity>
+			</zone>
+			<zone type="Indian/Reunion">
+				<exemplarCity>Reinjona</exemplarCity>
+			</zone>
+			<zone type="Europe/Bucharest">
+				<exemplarCity>Bukareste</exemplarCity>
+			</zone>
+			<zone type="Europe/Kaliningrad">
+				<exemplarCity>KaДјiЕ†ingrada</exemplarCity>
+			</zone>
+			<zone type="Europe/Moscow">
+				<exemplarCity>Maskava</exemplarCity>
+			</zone>
+			<zone type="Europe/Volgograd">
+				<exemplarCity>Volgograda</exemplarCity>
+			</zone>
+			<zone type="Asia/Yekaterinburg">
+				<exemplarCity>Jekaterinburga</exemplarCity>
+			</zone>
+			<zone type="Asia/Omsk">
+				<exemplarCity>Omska</exemplarCity>
+			</zone>
+			<zone type="Asia/Novosibirsk">
+				<exemplarCity>Novosibirska</exemplarCity>
+			</zone>
+			<zone type="Asia/Krasnoyarsk">
+				<exemplarCity>Krasnojarska</exemplarCity>
+			</zone>
+			<zone type="Asia/Irkutsk">
+				<exemplarCity>Irkutska</exemplarCity>
+			</zone>
+			<zone type="Asia/Yakutsk">
+				<exemplarCity>Jakutska</exemplarCity>
+			</zone>
+			<zone type="Asia/Vladivostok">
+				<exemplarCity>Vladivostoka</exemplarCity>
+			</zone>
+			<zone type="Asia/Sakhalin">
+				<exemplarCity>SahalД«na</exemplarCity>
+			</zone>
+			<zone type="Asia/Magadan">
+				<exemplarCity>MagadДЃna</exemplarCity>
+			</zone>
+			<zone type="Asia/Kamchatka">
+				<exemplarCity>KamДЌatka</exemplarCity>
+			</zone>
+			<zone type="Asia/Anadyr">
+				<exemplarCity>Anadira</exemplarCity>
+			</zone>
+			<zone type="Asia/Riyadh">
+				<exemplarCity>RijДЃda</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guadalcanal">
+				<exemplarCity>GvadelkanДЃla</exemplarCity>
+			</zone>
+			<zone type="Africa/Khartoum">
+				<exemplarCity>HartЕ«ma</exemplarCity>
+			</zone>
+			<zone type="Europe/Stockholm">
+				<exemplarCity>Stokholma</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>SingapЕ«ra</exemplarCity>
+			</zone>
+			<zone type="Atlantic/St_Helena">
+				<exemplarCity>Sv. HelД“na</exemplarCity>
+			</zone>
+			<zone type="Africa/Freetown">
+				<exemplarCity>FrД«tauna</exemplarCity>
+			</zone>
+			<zone type="Africa/Dakar">
+				<exemplarCity>DakДЃra</exemplarCity>
+			</zone>
+			<zone type="Africa/Mogadishu">
+				<exemplarCity>MogadД«ЕЎo</exemplarCity>
+			</zone>
+			<zone type="Africa/Sao_Tome">
+				<exemplarCity>Santome</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>Salvadora</exemplarCity>
+			</zone>
+			<zone type="Asia/Damascus">
+				<exemplarCity>Damaska</exemplarCity>
+			</zone>
+			<zone type="America/Grand_Turk">
+				<exemplarCity>Grendturka</exemplarCity>
+			</zone>
+			<zone type="Africa/Ndjamena">
+				<exemplarCity>NdЕѕamena</exemplarCity>
+			</zone>
+			<zone type="Indian/Kerguelen">
+				<exemplarCity>Kergvelena</exemplarCity>
+			</zone>
+			<zone type="Asia/Bangkok">
+				<exemplarCity>Bangkoka</exemplarCity>
+			</zone>
+			<zone type="Asia/Dushanbe">
+				<exemplarCity>DuЕЎanbe</exemplarCity>
+			</zone>
+			<zone type="Asia/Ashgabat">
+				<exemplarCity>AЕЎgabata</exemplarCity>
+			</zone>
+			<zone type="Africa/Tunis">
+				<exemplarCity>Tunisa</exemplarCity>
+			</zone>
+			<zone type="Europe/Istanbul">
+				<exemplarCity>Istanbula</exemplarCity>
+			</zone>
+			<zone type="America/Port_of_Spain">
+				<exemplarCity>Portofspeina</exemplarCity>
+			</zone>
+			<zone type="Asia/Taipei">
+				<exemplarCity>Taipeja</exemplarCity>
+			</zone>
+			<zone type="Africa/Dar_es_Salaam">
+				<exemplarCity>DДЃresalДЃma</exemplarCity>
+			</zone>
+			<zone type="Europe/Uzhgorod">
+				<exemplarCity>UЕѕgoroda</exemplarCity>
+			</zone>
+			<zone type="Europe/Kiev">
+				<exemplarCity>Kijeva</exemplarCity>
+			</zone>
+			<zone type="Europe/Simferopol">
+				<exemplarCity>Simferopole</exemplarCity>
+			</zone>
+			<zone type="Europe/Zaporozhye">
+				<exemplarCity>ZaporoЕѕje</exemplarCity>
+			</zone>
+			<zone type="Pacific/Midway">
+				<exemplarCity>Midveja</exemplarCity>
+			</zone>
+			<zone type="Pacific/Johnston">
+				<exemplarCity>DЕѕonstauna</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wake">
+				<exemplarCity>Veika</exemplarCity>
+			</zone>
+			<zone type="America/Adak">
+				<exemplarCity>Adaka</exemplarCity>
+			</zone>
+			<zone type="America/Nome">
+				<exemplarCity>Noma</exemplarCity>
+			</zone>
+			<zone type="America/Anchorage">
+				<exemplarCity>AnkurДЃЕѕa</exemplarCity>
+			</zone>
+			<zone type="America/Yakutat">
+				<exemplarCity>Jakutata</exemplarCity>
+			</zone>
+			<zone type="America/Juneau">
+				<exemplarCity>DЕѕuno</exemplarCity>
+			</zone>
+			<zone type="America/Los_Angeles">
+				<exemplarCity>LosandЕѕelosa</exemplarCity>
+			</zone>
+			<zone type="America/Phoenix">
+				<exemplarCity>FД«niksa</exemplarCity>
+			</zone>
+			<zone type="America/Shiprock">
+				<exemplarCity>Е iproka</exemplarCity>
+			</zone>
+			<zone type="America/Denver">
+				<exemplarCity>Denvera</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/New_Salem">
+				<exemplarCity>Е…Е«salema</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/Center">
+				<exemplarCity>Centra ZiemeДјdakotДЃ</exemplarCity>
+			</zone>
+			<zone type="America/Chicago">
+				<exemplarCity>ДЊikДЃga</exemplarCity>
+			</zone>
+			<zone type="America/Menominee">
+				<exemplarCity>MenominД«</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vincennes">
+				<exemplarCity>Vinsensa</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Petersburg">
+				<exemplarCity>PД“terburga</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Tell_City">
+				<exemplarCity>Tellsitija</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Knox">
+				<exemplarCity>Noksa</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Winamac">
+				<exemplarCity>Vinimaka</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Marengo">
+				<exemplarCity>Marengo</exemplarCity>
+			</zone>
+			<zone type="America/Indianapolis">
+				<exemplarCity>Indianapolisa</exemplarCity>
+			</zone>
+			<zone type="America/Louisville">
+				<exemplarCity>Luisvilla</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vevay">
+				<exemplarCity>Viveja</exemplarCity>
+			</zone>
+			<zone type="America/Kentucky/Monticello">
+				<exemplarCity>Montiselo</exemplarCity>
+			</zone>
+			<zone type="America/Detroit">
+				<exemplarCity>Detroita</exemplarCity>
+			</zone>
+			<zone type="America/New_York">
+				<exemplarCity>Е…ujorka</exemplarCity>
+			</zone>
+			<zone type="Asia/Samarkand">
+				<exemplarCity>Samarkanda</exemplarCity>
+			</zone>
+			<zone type="Asia/Tashkent">
+				<exemplarCity>TaЕЎkenta</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity>Sentvinsenta</exemplarCity>
+			</zone>
+			<zone type="America/Caracas">
+				<exemplarCity>Karakasa</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity>Senttomasa</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>HoЕЎimina</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wallis">
+				<exemplarCity>Vallisa</exemplarCity>
+			</zone>
+			<zone type="Asia/Aden">
+				<exemplarCity>Adena</exemplarCity>
+			</zone>
+			<zone type="Indian/Mayotte">
+				<exemplarCity>Majota</exemplarCity>
+			</zone>
+			<zone type="Africa/Johannesburg">
+				<exemplarCity>Johannesburga</exemplarCity>
+			</zone>
+			<metazone type="Europe_Central">
+				<long>
+					<standard>CentrДЃleiropas laiks</standard>
+					<daylight>CentrДЃleiropas vasaras laiks</daylight>
+				</long>
+				<short>
+					<standard>CET</standard>
+					<daylight>CEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Europe_Eastern">
+				<long>
+					<standard>Austrumeiropas laiks</standard>
+					<daylight>Austrumeiropas vasaras laiks</daylight>
+				</long>
+				<short>
+					<standard>EET</standard>
+					<daylight>EEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Kuybyshev">
+				<long>
+					<standard>KuibiЕЎevas laiks</standard>
+					<daylight>KuibiЕЎevas vasaras laiks</daylight>
+				</long>
+			</metazone>
+			<metazone type="Moscow">
+				<long>
+					<generic>Maskavas laiks</generic>
+					<standard>Maskavas standarta laiks</standard>
+					<daylight>Maskavas vasaras laiks</daylight>
+				</long>
+			</metazone>
+			<metazone type="Samara">
+				<long>
+					<standard>Samaras laiks</standard>
+					<daylight>Samaras vasaras laiks</daylight>
+				</long>
+			</metazone>
+			<metazone type="Turkey">
+				<long>
+					<standard>Turcijas laiks</standard>
+					<daylight>Turcijas vasaras laiks</daylight>
+				</long>
+			</metazone>
+			<metazone type="Volgograd">
+				<long>
+					<standard>Volgogradas laiks</standard>
+					<daylight>Volgogradas vasaras laiks</daylight>
+				</long>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>В </group>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<patternDigit>#</patternDigit>
+			<plusSign>+</plusSign>
+			<minusSign>в€’</minusSign>
+			<exponential>E</exponential>
+			<perMille>вЂ°</perMille>
+			<infinity>в€ћ</infinity>
+			<nan>nav skaitlis</nan>
+		</symbols>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<scientificFormats>
+			<scientificFormatLength>
+				<scientificFormat>
+					<pattern>#E0</pattern>
+				</scientificFormat>
+			</scientificFormatLength>
+		</scientificFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+			<unitPattern count="one">{0} {1}</unitPattern>
+			<unitPattern count="other">{0} {1}</unitPattern>
+			<unitPattern count="zero">{0} {1}</unitPattern>
+		</currencyFormats>
+		<currencies>
+			<currency type="AED">
+				<displayName>Apvienoto ArДЃbu EmirДЃtu dirhД“ms</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>AfganistДЃnas afgДЃns</displayName>
+			</currency>
+			<currency type="ALL">
+				<displayName>AlbДЃnijas leks</displayName>
+			</currency>
+			<currency type="AMD">
+				<displayName>ArmД“nijas drams</displayName>
+			</currency>
+			<currency type="ANG">
+				<displayName>NД«derlandes AntiДјu guldenis</displayName>
+			</currency>
+			<currency type="AOA">
+				<displayName>Angolas jaunДЃ kvanza</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>ArgentД«nas peso</displayName>
+			</currency>
+			<currency type="ATS">
+				<displayName>Austrijas ЕЎiliЕ†ЕЎ</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>AustrДЃlijas dolДЃrs</displayName>
+			</currency>
+			<currency type="AWG">
+				<displayName>Arubas guldenis</displayName>
+			</currency>
+			<currency type="AZN">
+				<displayName>AzerbaidЕѕДЃnas manats</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>Bosnijas konvertД“jamДЃ marka</displayName>
+			</currency>
+			<currency type="BBD">
+				<displayName>Barbadosas dolДЃrs</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>BangladeЕЎas taka</displayName>
+			</currency>
+			<currency type="BEF">
+				<displayName>BeДјДЈijas franks</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>BulgДЃrijas leva</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>Burundi franks</displayName>
+			</currency>
+			<currency type="BMD">
+				<displayName>Bermudu salu dolДЃrs</displayName>
+			</currency>
+			<currency type="BND">
+				<displayName>Brunejas dolДЃrs</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>BolД«vijas boliviano</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>BrazД«lijas reДЃls</displayName>
+			</currency>
+			<currency type="BSD">
+				<displayName>Bahamu dolДЃrs</displayName>
+			</currency>
+			<currency type="BTN">
+				<displayName>ButДЃnas ngultrums</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>BotsvДЃnas pula</displayName>
+			</currency>
+			<currency type="BYR">
+				<displayName>Baltkrievijas rubelis</displayName>
+			</currency>
+			<currency type="BZD">
+				<displayName>Belizas dolДЃrs</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>KanДЃdas dolДЃrs</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>KDR franks</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>Е veices franks</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>ДЊД«les peso</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>Д¶Д«nas juana</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>Kolumbijas peso</displayName>
+			</currency>
+			<currency type="COU">
+				<displayName>Kolumbijas reДЃls</displayName>
+			</currency>
+			<currency type="CRC">
+				<displayName>Kostarikas kolons</displayName>
+			</currency>
+			<currency type="CUP">
+				<displayName>Kubas peso</displayName>
+			</currency>
+			<currency type="CVE">
+				<displayName>Kaboverdes eskudo</displayName>
+			</currency>
+			<currency type="CYP">
+				<displayName>Kipras mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>ДЊehijas krona</displayName>
+			</currency>
+			<currency type="DEM">
+				<displayName>VДЃcijas marka</displayName>
+			</currency>
+			<currency type="DJF">
+				<displayName>DЕѕibutijas franks</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>DДЃnijas krona</displayName>
+			</currency>
+			<currency type="DOP">
+				<displayName>DominikДЃnas peso</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>AlЕѕД«rijas dinДЃrs</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>Igaunijas krona</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>Д’ДЈiptes mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="ERN">
+				<displayName>Eritrejas nakfa</displayName>
+			</currency>
+			<currency type="ESP">
+				<displayName>SpДЃnijas peseta</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>Etiopijas birs</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>eiro</displayName>
+			</currency>
+			<currency type="FIM">
+				<displayName>Somijas marka</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>FidЕѕi dolДЃrs</displayName>
+			</currency>
+			<currency type="FKP">
+				<displayName>Folklenda salu mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>Francijas franks</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>LielbritДЃnijas sterliЕ†u mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>Gruzijas lari</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>Ganas sedi</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>GibraltДЃra mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>Gambijas dalasi</displayName>
+			</currency>
+			<currency type="GNF">
+				<displayName>Gvinejas franks</displayName>
+			</currency>
+			<currency type="GRD">
+				<displayName>GrieД·ijas drahma</displayName>
+			</currency>
+			<currency type="GTQ">
+				<displayName>(Gvatemalas) ketsals</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>GajДЃnas dolДЃrs</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>Honkongas dolДЃrs</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>Hondurasas lempД«ra</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>HorvДЃtijas kuna</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>Haiti gurds</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>UngДЃrijas forints</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>IndonД“zijas rЕ«pija</displayName>
+			</currency>
+			<currency type="IEP">
+				<displayName>ДЄrijas mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>IzraД“las ЕЎekelis</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>Indijas rЕ«pija</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>IrДЃkas dinДЃrs</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>IrДЃnas riДЃls</displayName>
+			</currency>
+			<currency type="ISK">
+				<displayName>ДЄslandes krona</displayName>
+			</currency>
+			<currency type="ITL">
+				<displayName>ItДЃlijas lira</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>Jamaikas dolДЃrs</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>JordДЃnas dinДЃrs</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>JapДЃnas jena</displayName>
+			</currency>
+			<currency type="KES">
+				<displayName>Kenijas ЕЎiliЕ†ЕЎ</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>KirgizstДЃnas soms</displayName>
+			</currency>
+			<currency type="KPW">
+				<displayName>ZiemeДјkorejas vona</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>Dienvidkorejas vona</displayName>
+			</currency>
+			<currency type="KWD">
+				<displayName>Kuveitas dinДЃrs</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>KazahstДЃnas tenge</displayName>
+				<displayName count="zero">KazahstДЃnas tenge</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>Laosas kips</displayName>
+			</currency>
+			<currency type="LBP">
+				<displayName>LibДЃnas mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="LKR">
+				<displayName>Е rilankas rЕ«pija</displayName>
+			</currency>
+			<currency type="LRD">
+				<displayName>LibД“rijas dolДЃrs</displayName>
+			</currency>
+			<currency type="LSL">
+				<displayName>Lesoto loti</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>Lietuvas lits</displayName>
+			</currency>
+			<currency type="LUF">
+				<displayName>Luksemburgas franks</displayName>
+			</currency>
+			<currency type="LVL">
+				<displayName>Latvijas lats</displayName>
+			</currency>
+			<currency type="LVR">
+				<displayName>Latvijas rublis</displayName>
+			</currency>
+			<currency type="LYD">
+				<displayName>LД«bijas dinДЃrs</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>Marokas dirhД“ms</displayName>
+			</currency>
+			<currency type="MDL">
+				<displayName>Moldovas leja</displayName>
+			</currency>
+			<currency type="MGA">
+				<displayName>ariari</displayName>
+			</currency>
+			<currency type="MKD">
+				<displayName>MaД·edonijas denДЃrs</displayName>
+			</currency>
+			<currency type="MLF">
+				<displayName>CFA (ДЂfrikas) franks</displayName>
+			</currency>
+			<currency type="MMK">
+				<displayName>Mjanmas kjats</displayName>
+			</currency>
+			<currency type="MNT">
+				<displayName>Mongolijas tugriks</displayName>
+			</currency>
+			<currency type="MOP">
+				<displayName>Makao pataka</displayName>
+			</currency>
+			<currency type="MRO">
+				<displayName>MauritДЃnijas ugija</displayName>
+			</currency>
+			<currency type="MTL">
+				<displayName>Maltas lira</displayName>
+			</currency>
+			<currency type="MTP">
+				<displayName>Maltas mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="MUR">
+				<displayName>MaurД«cijas rЕ«pija</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>MaldД«vijas rЕ«fija</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>MalДЃvijas kvaДЌa</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>Meksikas peso</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>Malaizijas ringits</displayName>
+			</currency>
+			<currency type="MZE">
+				<displayName>Mozambikas eskudo</displayName>
+			</currency>
+			<currency type="MZN">
+				<displayName>Mozambikas metikals</displayName>
+			</currency>
+			<currency type="NAD">
+				<displayName>NamД«bijas dolДЃrs</displayName>
+			</currency>
+			<currency type="NGN">
+				<displayName>NigД“rijas naira</displayName>
+			</currency>
+			<currency type="NIO">
+				<displayName>Kordovas oro</displayName>
+			</currency>
+			<currency type="NLG">
+				<displayName>NД«derlandes guldenis</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>NorvД“ДЈijas krona</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>NepДЃlas rЕ«pija</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>JaunzД“landes dolДЃrs</displayName>
+			</currency>
+			<currency type="OMR">
+				<displayName>OmДЃnas riДЃls</displayName>
+			</currency>
+			<currency type="PAB">
+				<displayName>Panamas balboa</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>Peru jaunais sols</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>Papua-Jaungvinejas kina</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>FilipД«nu peso</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>PakistДЃnas rЕ«pija</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>Polijas zlots</displayName>
+			</currency>
+			<currency type="PTE">
+				<displayName>PortugДЃles eskudo</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>Kataras riДЃls</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>RumДЃnijas leja</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>Serbijas dinДЃrs</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>Krievijas rublis</displayName>
+			</currency>
+			<currency type="RWF">
+				<displayName>Ruandas franks</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>SaЕ«da riДЃls</displayName>
+			</currency>
+			<currency type="SBD">
+				<displayName>ZДЃlamana salu dolДЃrs</displayName>
+			</currency>
+			<currency type="SCR">
+				<displayName>SeiЕЎelu salu rЕ«pija</displayName>
+			</currency>
+			<currency type="SDG">
+				<displayName>SudДЃnas mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>Zviedrijas krona</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>SingapЕ«ras dolДЃrs</displayName>
+			</currency>
+			<currency type="SHP">
+				<displayName>Sv.HelД“nas salas mДЃrciЕ†a</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>SlovД“nijas tolars</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>Slovakijas krona</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>Sjerraleones leone</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>SomДЃlijas ЕЎiliЕ†ЕЎ</displayName>
+			</currency>
+			<currency type="SRD">
+				<displayName>Surinamas dolДЃrs</displayName>
+			</currency>
+			<currency type="SRG">
+				<displayName>Surinamas guldenis</displayName>
+			</currency>
+			<currency type="STD">
+				<displayName>Santome un Prinsipi dobra</displayName>
+			</currency>
+			<currency type="SVC">
+				<displayName>Salvadoras kolons</displayName>
+			</currency>
+			<currency type="SZL">
+				<displayName>Svazilendas lilangeni</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>Taizemes bДЃts</displayName>
+			</currency>
+			<currency type="TJS">
+				<displayName>TadЕѕikistДЃnas somons</displayName>
+			</currency>
+			<currency type="TMM">
+				<displayName>TurkmД“nijas manats</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>Tunisijas dinДЃrs</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>Tongas paanga</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>Turcijas lira</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>jaunДЃ Turcijas lira</displayName>
+			</currency>
+			<currency type="TTD">
+				<displayName>TrinidДЃdas un TobДЃgo dolДЃrs</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>jaunais TaivДЃnas dolДЃrs</displayName>
+			</currency>
+			<currency type="TZS">
+				<displayName>TanzДЃnijas ЕЎiliЕ†ЕЎ</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>Ukrainas grivna</displayName>
+			</currency>
+			<currency type="UGX">
+				<displayName>Ugandas ЕЎiliЕ†ЕЎ</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>ASV dolДЃrs</displayName>
+			</currency>
+			<currency type="UYU">
+				<displayName>Urugvajas peso</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>UzbekistДЃnas sums</displayName>
+			</currency>
+			<currency type="VEB">
+				<displayName>VenecuД“las bolivДЃrs</displayName>
+			</currency>
+			<currency type="VEF">
+				<displayName>VenecuД“las stiprais bolivДЃrs</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>Vjetnamas dongi</displayName>
+			</currency>
+			<currency type="VUV">
+				<displayName>Vanuatu vatu</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>Samoa tala</displayName>
+			</currency>
+			<currency type="XAG">
+				<displayName>sudrabs</displayName>
+			</currency>
+			<currency type="XAU">
+				<displayName>zelts</displayName>
+			</currency>
+			<currency type="XBB">
+				<displayName>Eiropas naudas vienД«ba</displayName>
+			</currency>
+			<currency type="XCD">
+				<displayName>AustrumkarД«bu dolДЃrs</displayName>
+			</currency>
+			<currency type="XDR">
+				<displayName>SpeciДЃlДЃs aizЕ†Д“muma tiesД«bas</displayName>
+			</currency>
+			<currency type="XEU">
+				<displayName>Eiropas norД“Д·inu vienД«ba</displayName>
+			</currency>
+			<currency type="XFO">
+				<displayName>Francijas zelta franks</displayName>
+			</currency>
+			<currency type="XFU">
+				<displayName>Francijas UIC franks</displayName>
+			</currency>
+			<currency type="XPD">
+				<displayName>pallДЃdijs</displayName>
+			</currency>
+			<currency type="XPT">
+				<displayName>platД«ns</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>nezinДЃma vai nederД«ga valЕ«ta</displayName>
+			</currency>
+			<currency type="YER">
+				<displayName>Jemenas riДЃls</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>DienvidДЃfrikas rands</displayName>
+			</currency>
+			<currency type="ZMK">
+				<displayName>Zambijas kvaДЌa</displayName>
+			</currency>
+			<currency type="ZWD">
+				<displayName>Zimbabves dolДЃrs</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="day">
+			<unitPattern count="one">{0} diena</unitPattern>
+			<unitPattern count="other">{0} dienas</unitPattern>
+			<unitPattern count="zero">{0} dienas</unitPattern>
+		</unit>
+		<unit type="hour">
+			<unitPattern count="one">{0} stunda</unitPattern>
+			<unitPattern count="other">{0} stundas</unitPattern>
+			<unitPattern count="zero">{0} stundas</unitPattern>
+		</unit>
+		<unit type="minute">
+			<unitPattern count="one">{0} minЕ«te</unitPattern>
+			<unitPattern count="other">{0} minЕ«tes</unitPattern>
+			<unitPattern count="zero">{0} minЕ«tes</unitPattern>
+		</unit>
+		<unit type="month">
+			<unitPattern count="one">{0} mД“nesis</unitPattern>
+			<unitPattern count="other">{0} mД“neЕЎi</unitPattern>
+			<unitPattern count="zero">{0} mД“neЕЎi</unitPattern>
+		</unit>
+		<unit type="second">
+			<unitPattern count="one">{0} sekunde</unitPattern>
+			<unitPattern count="other">{0} sekundes</unitPattern>
+			<unitPattern count="zero">{0} sekundes</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="one">{0} nedД“Дјa</unitPattern>
+			<unitPattern count="other">{0} nedД“Дјas</unitPattern>
+			<unitPattern count="zero">{0} nedД“Дјas</unitPattern>
+		</unit>
+		<unit type="year">
+			<unitPattern count="one">{0} gads</unitPattern>
+			<unitPattern count="other">{0} gadi</unitPattern>
+			<unitPattern count="zero">{0} gadi</unitPattern>
+		</unit>
+	</units>
+	<posix>
+		<messages>
+			<yesstr>jДЃ:ja:j</yesstr>
+			<nostr>nД“:ne:n</nostr>
+		</messages>
+	</posix>
+</ldml>
+

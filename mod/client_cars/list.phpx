@@ -1,0 +1,105 @@
+<?
+
+if($_SESSION['user_type']=='1' or $_SESSION['user_type']=='4' or $_SESSION['user_type']=='7') {
+	
+	if(isset($_GET['client'])) {
+		$clients = mysql_query("SELECT id,name FROM `ccl_customers` WHERE 1 ORDER BY name ASC");
+		$num = mysql_num_rows($clients);
+		$i=1;
+		if($num>0) {
+			$clist = '<select name="buyer" onchange="javascript:getNewList();" id="buyer" style="width:300px;">
+			<option value="0"';
+			if(intval($_GET['client'])==0) $out .= ' selected="selected"';
+			$clist .= '> - - - </option>';
+			while($i<=$num) {
+				$line = mysql_fetch_array($clients);
+				$clist .= '
+				<option value="'.$line['id'].'"';
+				if(intval($_GET['client'])==$line['id']) $clist .= ' selected="selected"';
+				$clist .= '>'.stripslashes($line['name']).'</option>';
+				$i++;
+			}
+			$clist .= '</select>';
+		}
+		//$cars = mysql_query("SELECT id,model,frame,buy_date,price_jp,total FROM `ccl_cars` WHERE buyer = '".mysql_real_escape_string(intval($_GET['client']))."'");
+		$cols[1] = array('name' => 'buy_date', 		'caption' => 'дата покупки', 	'width' => '100');
+		$cols[2] = array('name' => 'model', 		'caption' => 'название', 	'width' => '200');
+		$cols[3] = array('name' => 'frame', 		'caption' => 'вин код', 	'width' => '180');
+		$cols[4] = array('name' => 'price_jp', 		'caption' => 'цена в Японии', 	'width' => '100');
+		$cols[5] = array('name' => 'total', 		'caption' => 'цена всего', 	'width' => '100');
+		
+		if($_SESSION['show_arrived_client_cars']=='') $_SESSION['show_arrived_client_cars'] = '0';
+		elseif(intval($_GET['arrived'])=='1') $_SESSION['show_arrived_client_cars'] = '0';
+		elseif(isset($_GET['arrived']) and intval($_GET['arrived'])=='0') $_SESSION['show_arrived_client_cars'] = '1';
+		if($_SESSION['show_arrived_client_cars']=='0') $arrived_filter = "AND `delivered` = '0'";
+		else $arrived_filter = "";
+		if(intval($_GET['client'])!='0' and intval($_GET['client'])!='') $cars_list = localBuildList("SELECT id,model,frame,buy_date,price_jp,total,delivered FROM `ccl_cars` WHERE (buyer = '".intval($_GET['client'])."' or dealer = '".intval($_GET['client'])."') ".$arrived_filter,$cols,'client_cars','cars','car_id','');
+		else header('Location: /');
+		
+		
+		$print .= '
+		<script>
+		
+		function getNewList() {
+			var buyer_id = document.getElementById(\'buyer\').value;
+			document.location=\'/?mod=client_cars&client=\'+buyer_id;
+		}
+		</script>';
+		$print .= '<div class="location">Автомобили клиента: '.$clist.' &nbsp;&nbsp; <input type="checkbox" name="show_arrived" id="arrived"'.($_SESSION['show_arrived_client_cars']=='1'?' checked="checked"':'').' onclick="document.location=\''.$root_path.'?mod=client_cars&client='.intval($_GET['client']).'&arrived='.$_SESSION['show_arrived_client_cars'].'\'" style="border:0px;"><label for="arrived" style="cursor:hand; cursor:pointer;">показывать прибывшие</label></div>
+		'.$cars_list;
+	}
+	else header('Location: '.$root_path);
+	
+}
+else {
+	session_destroy();
+	header('Location: '.$root_path);
+}
+
+function localBuildList($request,$cols,$list,$module,$item,$limit)
+{
+	//сортировка
+	$order_list = defineSort('sort_'.$list, '`'.$cols[1]['name'].'` DESC'); //добавляем сортировку в запрос
+	$sortNow = sortDeco('/', 'sort_'.$list); //выводим указатель того, что сейчас сортируется и направление сортировки
+	$request = $request." ORDER BY ".$order_list.$limit;
+
+	$content = mysql_query($request);
+		
+	$num = mysql_num_rows($content);
+	$i=1; 
+	$class="rowA rowB";
+	$out.='
+	<table width="970" border="0" cellspacing="0" cellpadding="0" class="list vlines">
+		<tr class="title sortButtons">';
+	while($i<=count($cols))
+	{
+		$out.='
+		<td width="'.$cols[$i]['width'].'" onclick="document.location=\''.$root_path.'?mod=client_cars&sort='.$cols[$i]['name'].'&sdir='.$sortNow['resort'][$cols[$i]['name']].'&client='.intval($_GET['client']).'\'" onMouseOver="this.className=\'sortButtonsHover\'" onMouseOut="this.className=\'\'">'.$cols[$i]['caption'].' '.$sortNow['image'][$cols[$i]['name']].'</td>';
+		 
+		$i++;
+	}
+	$out.='</tr>';
+	$i=1; 
+	while ($i<=$num)
+	{
+		$line = mysql_fetch_array($content);
+		if($line['delivered']=='1') $class='greenTR';
+	$out .= '
+	<tr class="'.$class.'" onmouseover="this.className=\'rowA hovered\'" onmouseout="this.className=\''.$class.'\'" onclick="document.location=\''.$root_path.'?mod='.$module.'&sw=form&'.$item.'='.$line['id'].'\'">';
+		$j=1;
+		while($j<=count($cols))
+		{
+			$out.='
+			<td>'.cleanContent($line[$cols[$j]['name']]).'&nbsp;</td>';
+			$j++;
+		}
+		$out .= '</tr>';
+		$i++;
+		if ($class=="rowA") $class="rowA rowB"; else $class="rowA";
+	}
+	$out .= '
+	</table>';
+	
+	return $out;
+}
+?>

@@ -1,0 +1,423 @@
+
+10-06-2011 00:08:09 --- INFO: start: 10-06-2011 00:08:09
+10-06-2011 00:08:09 --- INFO: ----------Source_Adesa (apache2handler)
+10-06-2011 00:08:10 --- ERROR: Unauthorized request
+10-06-2011 00:08:10 --- INFO: finish: 10-06-2011 00:08:10
+10-06-2011 00:08:10 --- INFO: elapsed time: ~0.41 sec., memory usage: ~1.3 Mb.
+10-06-2011 00:08:12 --- INFO: start: 10-06-2011 00:08:12
+10-06-2011 00:08:12 --- INFO: ----------Source_Adesa (apache2handler)
+10-06-2011 00:08:12 --- ERROR: Unauthorized request
+10-06-2011 00:08:12 --- INFO: finish: 10-06-2011 00:08:12
+10-06-2011 00:08:12 --- INFO: elapsed time: ~0.25 sec., memory usage: ~1.3 Mb.
+10-06-2011 03:05:01 --- INFO: start: 10-06-2011 03:05:01
+10-06-2011 03:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 03:05:05 --- ERROR: Unauthorized request
+10-06-2011 03:05:05 --- INFO: finish: 10-06-2011 03:05:05
+10-06-2011 03:05:05 --- INFO: elapsed time: ~3.6 sec., memory usage: ~1.29 Mb.
+10-06-2011 03:10:01 --- INFO: start: 10-06-2011 03:10:01
+10-06-2011 03:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 03:10:23 --- INFO: Lexus RX 300 - found: 29, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+10-06-2011 03:11:59 --- INFO: Lexus RX 330 - found: 71, pass primary filters: 8, did not pass the filter by color: 2, added: 6, new vincodes: 0
+10-06-2011 03:13:14 --- INFO: Lexus RX 400H - found: 56, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 03:13:38 --- INFO: Lexus GX 470 - found: 33, pass primary filters: 11, did not pass the filter by color: 8, added: 3, new vincodes: 0
+10-06-2011 03:14:04 --- INFO: Lexus GX 470 - found: 36, pass primary filters: 17, did not pass the filter by color: 16, added: 1, new vincodes: 0
+10-06-2011 03:14:17 --- INFO: Lexus LX 470 - found: 15, pass primary filters: 9, did not pass the filter by color: 9, added: 0, new vincodes: 1
+10-06-2011 03:14:26 --- INFO: Lexus LX 470 - found: 11, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+10-06-2011 03:14:32 --- INFO: Toyota Land Cruiser - found: 7, pass primary filters: 5, did not pass the filter by color: 5, added: 0, new vincodes: 0
+10-06-2011 03:14:46 --- INFO: Honda CR-V - found: 18, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 03:16:25 --- INFO: Honda CR-V - found: 69, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 03:16:30 --- INFO: Mitsubishi Montero 4WD Limited - found: 4, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 03:18:23 --- INFO: Toyota 4RUNNER 4WD Limited - found: 75, pass primary filters: 32, did not pass the filter by color: 24, added: 8, new vincodes: 0
+10-06-2011 03:18:35 --- INFO: Toyota RAV 4 - found: 13, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 0
+10-06-2011 03:19:01 --- INFO: Toyota Highlander 4WD - found: 31, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 03:19:01 --- INFO: finish: 10-06-2011 03:19:01
+10-06-2011 03:19:01 --- INFO: elapsed time: ~540.25 sec., memory usage: ~2.66 Mb.
+10-06-2011 03:20:01 --- INFO: start: 10-06-2011 03:20:01
+10-06-2011 03:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 03:30:01 --- INFO: start: 10-06-2011 03:30:01
+10-06-2011 03:30:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 05:03:47 --- INFO: start: 10-06-2011 05:03:47
+10-06-2011 05:03:47 --- INFO: ----------Source_Adesa (apache2handler)
+10-06-2011 05:03:47 --- ERROR: Unauthorized request
+10-06-2011 05:03:47 --- INFO: finish: 10-06-2011 05:03:47
+10-06-2011 05:03:47 --- INFO: elapsed time: ~0.46 sec., memory usage: ~1.31 Mb.
+10-06-2011 05:42:31 --- INFO: start: 10-06-2011 05:42:31
+10-06-2011 05:42:31 --- INFO: ----------Source_Adesa (apache2handler)
+10-06-2011 05:42:32 --- ERROR: Unauthorized request
+10-06-2011 05:42:32 --- INFO: finish: 10-06-2011 05:42:32
+10-06-2011 05:42:32 --- INFO: elapsed time: ~0.26 sec., memory usage: ~1.31 Mb.
+10-06-2011 05:42:46 --- INFO: start: 10-06-2011 05:42:46
+10-06-2011 05:42:46 --- INFO: ----------Source_Gsmotors (apache2handler)
+10-06-2011 05:44:07 --- INFO: Lexus RX 300 - found: 71, pass primary filters: 19, did not pass the filter by color: 10, added: 9, new vincodes: 3
+10-06-2011 05:47:13 --- INFO: Lexus RX 330 - found: 168, pass primary filters: 32, did not pass the filter by color: 12, added: 20, new vincodes: 2
+10-06-2011 05:47:39 --- INFO: Lexus RX 400H - found: 23, pass primary filters: 3, did not pass the filter by color: 2, added: 1, new vincodes: 0
+10-06-2011 05:49:02 --- INFO: Lexus GX 470 - found: 74, pass primary filters: 33, did not pass the filter by color: 25, added: 8, new vincodes: 3
+10-06-2011 05:50:41 --- INFO: Lexus GX 470 - found: 86, pass primary filters: 48, did not pass the filter by color: 38, added: 10, new vincodes: 2
+10-06-2011 05:51:04 --- INFO: Lexus LX 470 - found: 21, pass primary filters: 13, did not pass the filter by color: 13, added: 0, new vincodes: 0
+10-06-2011 05:51:27 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 9, did not pass the filter by color: 9, added: 0, new vincodes: 0
+10-06-2011 05:51:39 --- INFO: Toyota Land Cruiser - found: 14, pass primary filters: 7, did not pass the filter by color: 7, added: 0, new vincodes: 1
+10-06-2011 05:52:32 --- INFO: Honda CR-V - found: 43, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 1
+10-06-2011 05:56:42 --- INFO: Honda CR-V - found: 178, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 1
+10-06-2011 05:57:35 --- INFO: Mitsubishi Montero 4WD Limited - found: 43, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+10-06-2011 06:01:33 --- INFO: Toyota 4RUNNER 4WD Limited - found: 215, pass primary filters: 60, did not pass the filter by color: 51, added: 9, new vincodes: 11
+10-06-2011 06:02:32 --- INFO: Toyota RAV 4 - found: 41, pass primary filters: 22, did not pass the filter by color: 16, added: 6, new vincodes: 7
+10-06-2011 06:03:25 --- INFO: Toyota Highlander 4WD - found: 50, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 06:05:05 --- INFO: Subaru Forester - found: 81, pass primary filters: 11, did not pass the filter by color: 0, added: 11, new vincodes: 3
+10-06-2011 06:07:24 --- INFO: Nissan Rogue - found: 96, pass primary filters: 8, did not pass the filter by color: 0, added: 8, new vincodes: 2
+10-06-2011 06:07:24 --- INFO: finish: 10-06-2011 06:07:24
+10-06-2011 06:07:24 --- INFO: elapsed time: ~1478.41 sec., memory usage: ~4.11 Mb.
+10-06-2011 06:10:01 --- INFO: start: 10-06-2011 06:10:01
+10-06-2011 06:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 06:10:01 --- INFO: start: 10-06-2011 06:10:01
+10-06-2011 06:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 06:10:01 --- ERROR: Unauthorized request
+10-06-2011 06:10:01 --- INFO: finish: 10-06-2011 06:10:01
+10-06-2011 06:10:01 --- INFO: elapsed time: ~0.34 sec., memory usage: ~1.31 Mb.
+10-06-2011 07:05:01 --- INFO: start: 10-06-2011 07:05:01
+10-06-2011 07:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 07:05:05 --- ERROR: Unauthorized request
+10-06-2011 07:05:05 --- INFO: finish: 10-06-2011 07:05:05
+10-06-2011 07:05:05 --- INFO: elapsed time: ~3.67 sec., memory usage: ~1.3 Mb.
+10-06-2011 07:20:01 --- INFO: start: 10-06-2011 07:20:01
+10-06-2011 07:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 07:10:01 --- INFO: start: 10-06-2011 07:10:01
+10-06-2011 07:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 07:10:23 --- INFO: Lexus RX 300 - found: 30, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+10-06-2011 07:11:58 --- INFO: Lexus RX 330 - found: 72, pass primary filters: 8, did not pass the filter by color: 2, added: 6, new vincodes: 0
+10-06-2011 07:13:20 --- INFO: Lexus RX 400H - found: 56, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 07:13:47 --- INFO: Lexus GX 470 - found: 33, pass primary filters: 11, did not pass the filter by color: 8, added: 3, new vincodes: 0
+10-06-2011 07:14:16 --- INFO: Lexus GX 470 - found: 36, pass primary filters: 17, did not pass the filter by color: 16, added: 1, new vincodes: 0
+10-06-2011 07:14:29 --- INFO: Lexus LX 470 - found: 15, pass primary filters: 9, did not pass the filter by color: 9, added: 0, new vincodes: 0
+10-06-2011 07:14:39 --- INFO: Lexus LX 470 - found: 11, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+10-06-2011 07:14:45 --- INFO: Toyota Land Cruiser - found: 7, pass primary filters: 5, did not pass the filter by color: 5, added: 0, new vincodes: 0
+10-06-2011 07:15:02 --- INFO: Honda CR-V - found: 18, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 07:16:44 --- INFO: Honda CR-V - found: 69, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 07:16:49 --- INFO: Mitsubishi Montero 4WD Limited - found: 4, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 07:18:27 --- INFO: Toyota 4RUNNER 4WD Limited - found: 75, pass primary filters: 32, did not pass the filter by color: 23, added: 9, new vincodes: 0
+10-06-2011 07:18:36 --- INFO: Toyota RAV 4 - found: 13, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 0
+10-06-2011 07:19:00 --- INFO: Toyota Highlander 4WD - found: 32, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 07:20:26 --- INFO: Subaru Forester - found: 61, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 07:20:54 --- INFO: Nissan Rogue - found: 38, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 07:20:54 --- INFO: finish: 10-06-2011 07:20:54
+10-06-2011 07:20:54 --- INFO: elapsed time: ~653.57 sec., memory usage: ~2.75 Mb.
+10-06-2011 07:30:01 --- INFO: start: 10-06-2011 07:30:01
+10-06-2011 07:30:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 08:10:01 --- INFO: start: 10-06-2011 08:10:01
+10-06-2011 08:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 08:10:01 --- INFO: start: 10-06-2011 08:10:01
+10-06-2011 08:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 08:10:01 --- ERROR: Unauthorized request
+10-06-2011 08:10:01 --- INFO: finish: 10-06-2011 08:10:01
+10-06-2011 08:10:01 --- INFO: elapsed time: ~0.4 sec., memory usage: ~1.31 Mb.
+10-06-2011 09:10:01 --- INFO: start: 10-06-2011 09:10:01
+10-06-2011 09:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 09:10:01 --- INFO: start: 10-06-2011 09:10:01
+10-06-2011 09:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 09:10:01 --- ERROR: Unauthorized request
+10-06-2011 09:10:01 --- INFO: finish: 10-06-2011 09:10:01
+10-06-2011 09:10:01 --- INFO: elapsed time: ~0.35 sec., memory usage: ~1.31 Mb.
+10-06-2011 10:00:01 --- INFO: start: 10-06-2011 10:00:01
+10-06-2011 10:00:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 10:00:01 --- INFO: start: 10-06-2011 10:00:01
+10-06-2011 10:00:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 10:00:02 --- ERROR: Unauthorized request
+10-06-2011 10:00:02 --- INFO: finish: 10-06-2011 10:00:02
+10-06-2011 10:00:02 --- INFO: elapsed time: ~0.28 sec., memory usage: ~1.31 Mb.
+10-06-2011 11:05:01 --- INFO: start: 10-06-2011 11:05:01
+10-06-2011 11:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 11:05:05 --- ERROR: Unauthorized request
+10-06-2011 11:05:05 --- INFO: finish: 10-06-2011 11:05:05
+10-06-2011 11:05:05 --- INFO: elapsed time: ~3.66 sec., memory usage: ~1.3 Mb.
+10-06-2011 11:10:01 --- INFO: start: 10-06-2011 11:10:01
+10-06-2011 11:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 11:10:01 --- INFO: start: 10-06-2011 11:10:01
+10-06-2011 11:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 11:10:02 --- ERROR: Unauthorized request
+10-06-2011 11:10:02 --- INFO: finish: 10-06-2011 11:10:02
+10-06-2011 11:10:02 --- INFO: elapsed time: ~0.42 sec., memory usage: ~1.31 Mb.
+10-06-2011 11:20:01 --- INFO: start: 10-06-2011 11:20:01
+10-06-2011 11:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 11:10:01 --- INFO: start: 10-06-2011 11:10:01
+10-06-2011 11:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 11:10:25 --- INFO: Lexus RX 300 - found: 29, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 11:12:13 --- INFO: Lexus RX 330 - found: 73, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+10-06-2011 11:13:39 --- INFO: Lexus RX 400H - found: 57, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 11:14:04 --- INFO: Lexus GX 470 - found: 32, pass primary filters: 11, did not pass the filter by color: 7, added: 4, new vincodes: 0
+10-06-2011 11:14:31 --- INFO: Lexus GX 470 - found: 35, pass primary filters: 17, did not pass the filter by color: 16, added: 1, new vincodes: 0
+10-06-2011 11:14:44 --- INFO: Lexus LX 470 - found: 15, pass primary filters: 9, did not pass the filter by color: 9, added: 0, new vincodes: 0
+10-06-2011 11:14:54 --- INFO: Lexus LX 470 - found: 11, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+10-06-2011 11:15:01 --- INFO: Toyota Land Cruiser - found: 7, pass primary filters: 5, did not pass the filter by color: 5, added: 0, new vincodes: 0
+10-06-2011 11:15:16 --- INFO: Honda CR-V - found: 18, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 11:17:07 --- INFO: Honda CR-V - found: 70, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 11:17:12 --- INFO: Mitsubishi Montero 4WD Limited - found: 4, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 11:18:56 --- INFO: Toyota 4RUNNER 4WD Limited - found: 73, pass primary filters: 32, did not pass the filter by color: 21, added: 11, new vincodes: 0
+10-06-2011 11:19:10 --- INFO: Toyota RAV 4 - found: 15, pass primary filters: 6, did not pass the filter by color: 6, added: 0, new vincodes: 1
+10-06-2011 11:19:37 --- INFO: Toyota Highlander 4WD - found: 33, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 11:21:07 --- INFO: Subaru Forester - found: 62, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 11:21:35 --- INFO: Nissan Rogue - found: 37, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 11:21:35 --- INFO: finish: 10-06-2011 11:21:35
+10-06-2011 11:21:35 --- INFO: elapsed time: ~693.32 sec., memory usage: ~2.79 Mb.
+10-06-2011 11:30:01 --- INFO: start: 10-06-2011 11:30:01
+10-06-2011 11:30:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 12:20:01 --- INFO: start: 10-06-2011 12:20:01
+10-06-2011 12:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 12:20:01 --- INFO: start: 10-06-2011 12:20:01
+10-06-2011 12:20:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 12:20:02 --- ERROR: Unauthorized request
+10-06-2011 12:20:02 --- INFO: finish: 10-06-2011 12:20:02
+10-06-2011 12:20:02 --- INFO: elapsed time: ~0.42 sec., memory usage: ~1.31 Mb.
+10-06-2011 13:20:02 --- INFO: start: 10-06-2011 13:20:02
+10-06-2011 13:20:02 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 13:20:02 --- INFO: start: 10-06-2011 13:20:02
+10-06-2011 13:20:02 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 13:20:02 --- ERROR: Unauthorized request
+10-06-2011 13:20:02 --- INFO: finish: 10-06-2011 13:20:02
+10-06-2011 13:20:02 --- INFO: elapsed time: ~0.35 sec., memory usage: ~1.31 Mb.
+10-06-2011 15:05:01 --- INFO: start: 10-06-2011 15:05:01
+10-06-2011 15:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 15:05:05 --- ERROR: Unauthorized request
+10-06-2011 15:05:05 --- INFO: finish: 10-06-2011 15:05:05
+10-06-2011 15:05:05 --- INFO: elapsed time: ~3.85 sec., memory usage: ~1.3 Mb.
+10-06-2011 15:20:01 --- INFO: start: 10-06-2011 15:20:01
+10-06-2011 15:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 15:10:01 --- INFO: start: 10-06-2011 15:10:01
+10-06-2011 15:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 15:10:26 --- INFO: Lexus RX 300 - found: 32, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 15:12:01 --- INFO: Lexus RX 330 - found: 70, pass primary filters: 6, did not pass the filter by color: 2, added: 4, new vincodes: 0
+10-06-2011 15:13:20 --- INFO: Lexus RX 400H - found: 53, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 15:13:47 --- INFO: Lexus GX 470 - found: 32, pass primary filters: 11, did not pass the filter by color: 8, added: 3, new vincodes: 0
+10-06-2011 15:14:15 --- INFO: Lexus GX 470 - found: 34, pass primary filters: 15, did not pass the filter by color: 14, added: 1, new vincodes: 0
+10-06-2011 15:14:30 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 10, did not pass the filter by color: 10, added: 0, new vincodes: 0
+10-06-2011 15:14:40 --- INFO: Lexus LX 470 - found: 11, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+10-06-2011 15:14:49 --- INFO: Toyota Land Cruiser - found: 8, pass primary filters: 6, did not pass the filter by color: 6, added: 0, new vincodes: 1
+10-06-2011 15:15:04 --- INFO: Honda CR-V - found: 18, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 15:16:54 --- INFO: Honda CR-V - found: 70, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 15:16:59 --- INFO: Mitsubishi Montero 4WD Limited - found: 4, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 15:18:42 --- INFO: Toyota 4RUNNER 4WD Limited - found: 72, pass primary filters: 32, did not pass the filter by color: 21, added: 11, new vincodes: 0
+10-06-2011 15:18:53 --- INFO: Toyota RAV 4 - found: 15, pass primary filters: 6, did not pass the filter by color: 6, added: 0, new vincodes: 0
+10-06-2011 15:19:19 --- INFO: Toyota Highlander 4WD - found: 33, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 15:20:48 --- INFO: Subaru Forester - found: 62, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 15:21:15 --- INFO: Nissan Rogue - found: 36, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 15:21:15 --- INFO: finish: 10-06-2011 15:21:15
+10-06-2011 15:21:15 --- INFO: elapsed time: ~674.36 sec., memory usage: ~2.79 Mb.
+10-06-2011 15:30:02 --- INFO: start: 10-06-2011 15:30:02
+10-06-2011 15:30:02 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 16:10:01 --- INFO: start: 10-06-2011 16:10:01
+10-06-2011 16:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 16:10:01 --- INFO: start: 10-06-2011 16:10:01
+10-06-2011 16:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 16:10:01 --- ERROR: Unauthorized request
+10-06-2011 16:10:01 --- INFO: finish: 10-06-2011 16:10:01
+10-06-2011 16:10:01 --- INFO: elapsed time: ~0.42 sec., memory usage: ~1.31 Mb.
+10-06-2011 18:10:01 --- INFO: start: 10-06-2011 18:10:01
+10-06-2011 18:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 8 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(8)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(8)
+#2 [internal function]: Controller_Home->action_execute('8', 'home/execute/8', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 18:10:01 --- INFO: start: 10-06-2011 18:10:01
+10-06-2011 18:10:01 --- INFO: ----------Source_Adesa (cli)
+10-06-2011 18:10:01 --- ERROR: Unauthorized request
+10-06-2011 18:10:01 --- INFO: finish: 10-06-2011 18:10:01
+10-06-2011 18:10:01 --- INFO: elapsed time: ~0.43 sec., memory usage: ~1.31 Mb.
+10-06-2011 19:05:01 --- INFO: start: 10-06-2011 19:05:01
+10-06-2011 19:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 19:05:05 --- ERROR: Unauthorized request
+10-06-2011 19:05:05 --- INFO: finish: 10-06-2011 19:05:05
+10-06-2011 19:05:05 --- INFO: elapsed time: ~3.92 sec., memory usage: ~1.3 Mb.
+10-06-2011 19:20:01 --- INFO: start: 10-06-2011 19:20:01
+10-06-2011 19:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 19:10:01 --- INFO: start: 10-06-2011 19:10:01
+10-06-2011 19:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 19:10:26 --- INFO: Lexus RX 300 - found: 34, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 19:12:03 --- INFO: Lexus RX 330 - found: 72, pass primary filters: 6, did not pass the filter by color: 2, added: 4, new vincodes: 0
+10-06-2011 19:13:16 --- INFO: Lexus RX 400H - found: 55, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+10-06-2011 19:13:38 --- INFO: Lexus GX 470 - found: 31, pass primary filters: 10, did not pass the filter by color: 7, added: 3, new vincodes: 0
+10-06-2011 19:14:03 --- INFO: Lexus GX 470 - found: 35, pass primary filters: 16, did not pass the filter by color: 15, added: 1, new vincodes: 1
+10-06-2011 19:14:16 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 10, did not pass the filter by color: 10, added: 0, new vincodes: 0
+10-06-2011 19:14:24 --- INFO: Lexus LX 470 - found: 11, pass primary filters: 7, did not pass the filter by color: 7, added: 0, new vincodes: 0
+10-06-2011 19:14:31 --- INFO: Toyota Land Cruiser - found: 9, pass primary filters: 7, did not pass the filter by color: 7, added: 0, new vincodes: 0
+10-06-2011 19:14:45 --- INFO: Honda CR-V - found: 18, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 19:16:20 --- INFO: Honda CR-V - found: 71, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 19:16:25 --- INFO: Mitsubishi Montero 4WD Limited - found: 5, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 19:18:02 --- INFO: Toyota 4RUNNER 4WD Limited - found: 75, pass primary filters: 34, did not pass the filter by color: 23, added: 11, new vincodes: 1
+10-06-2011 19:18:14 --- INFO: Toyota RAV 4 - found: 17, pass primary filters: 7, did not pass the filter by color: 6, added: 1, new vincodes: 1
+10-06-2011 19:18:38 --- INFO: Toyota Highlander 4WD - found: 32, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 19:20:04 --- INFO: Subaru Forester - found: 62, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 19:20:30 --- INFO: Nissan Rogue - found: 36, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 19:20:30 --- INFO: finish: 10-06-2011 19:20:30
+10-06-2011 19:20:30 --- INFO: elapsed time: ~629.09 sec., memory usage: ~2.82 Mb.
+10-06-2011 19:30:01 --- INFO: start: 10-06-2011 19:30:01
+10-06-2011 19:30:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 23:05:01 --- INFO: start: 10-06-2011 23:05:01
+10-06-2011 23:05:01 --- INFO: ----------Source_Openlane (cli)
+10-06-2011 23:05:05 --- ERROR: Unauthorized request
+10-06-2011 23:05:05 --- INFO: finish: 10-06-2011 23:05:05
+10-06-2011 23:05:05 --- INFO: elapsed time: ~3.82 sec., memory usage: ~1.3 Mb.
+10-06-2011 23:20:01 --- INFO: start: 10-06-2011 23:20:01
+10-06-2011 23:20:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 6 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(6)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(6)
+#2 [internal function]: Controller_Home->action_execute('6', 'home/execute/6', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+10-06-2011 23:10:01 --- INFO: start: 10-06-2011 23:10:01
+10-06-2011 23:10:01 --- INFO: ----------Source_Ebay (cli)
+10-06-2011 23:10:31 --- INFO: Lexus RX 300 - found: 38, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+10-06-2011 23:12:18 --- INFO: Lexus RX 330 - found: 72, pass primary filters: 6, did not pass the filter by color: 3, added: 3, new vincodes: 0
+10-06-2011 23:13:48 --- INFO: Lexus RX 400H - found: 59, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+10-06-2011 23:14:13 --- INFO: Lexus GX 470 - found: 32, pass primary filters: 10, did not pass the filter by color: 7, added: 3, new vincodes: 0
+10-06-2011 23:14:40 --- INFO: Lexus GX 470 - found: 36, pass primary filters: 15, did not pass the filter by color: 15, added: 0, new vincodes: 0
+10-06-2011 23:14:53 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 10, did not pass the filter by color: 10, added: 0, new vincodes: 0
+10-06-2011 23:15:02 --- INFO: Lexus LX 470 - found: 10, pass primary filters: 7, did not pass the filter by color: 7, added: 0, new vincodes: 0
+10-06-2011 23:15:09 --- INFO: Toyota Land Cruiser - found: 8, pass primary filters: 6, did not pass the filter by color: 6, added: 0, new vincodes: 0
+10-06-2011 23:15:22 --- INFO: Honda CR-V - found: 17, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 23:17:13 --- INFO: Honda CR-V - found: 72, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 23:17:19 --- INFO: Mitsubishi Montero 4WD Limited - found: 6, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 23:19:07 --- INFO: Toyota 4RUNNER 4WD Limited - found: 75, pass primary filters: 34, did not pass the filter by color: 22, added: 12, new vincodes: 0
+10-06-2011 23:19:20 --- INFO: Toyota RAV 4 - found: 17, pass primary filters: 7, did not pass the filter by color: 6, added: 1, new vincodes: 0
+10-06-2011 23:19:48 --- INFO: Toyota Highlander 4WD - found: 34, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+10-06-2011 23:21:26 --- INFO: Subaru Forester - found: 61, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+10-06-2011 23:21:56 --- INFO: Nissan Rogue - found: 36, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+10-06-2011 23:21:56 --- INFO: finish: 10-06-2011 23:21:56
+10-06-2011 23:21:56 --- INFO: elapsed time: ~715.66 sec., memory usage: ~2.77 Mb.
+10-06-2011 23:30:01 --- INFO: start: 10-06-2011 23:30:01
+10-06-2011 23:30:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 5 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/source.php(32): Source->__construct(5)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.2/classes/controller/home.php(33): Source::instance(5)
+#2 [internal function]: Controller_Home->action_execute('5', 'home/execute/5', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}

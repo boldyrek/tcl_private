@@ -1,0 +1,1570 @@
+
+                        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                        <html xmlns="http://www.w3.org/1999/xhtml">
+                           <head>
+                              <style type="text/css">#report{margin:auto;text-align:left; width:55.88em !important;color:#666; font-size:13px;font-family:Helvetica;}
+
+div, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, hr, th, td {
+margin:0;
+padding:0;
+}
+#report a {text-decoration:none;}
+#report p a {cursor:text;color:#666}
+
+#main {padding:15px; background:none repeat scroll 0 0 #FFFFFF; margin:0 auto; min-height:100%; text-align:left; border-right:1px solid #555555; border-left:1px solid #555555;}
+
+
+#hd {background:#fff; padding-bottom:20px; border-bottom:1px solid #ddd; border-right:1px solid #555555; border-left:1px solid #555555;}
+
+#hd-inner {padding:15px;}
+
+
+
+
+#report {padding: 5px 0; line-height:1.6;}
+
+
+
+#score-summary {line-height: 1.6; width:55.8;}
+#score-summary h1 {font-size:35px; color:#035AA6; font-weight:bold; margin:0px;}
+#score-summary .boxx {padding:20px 0 20px 20px; border:1px solid #0064B3; margin-bottom:25px;}
+
+.vehicle-name {font-size:20px; color:#066A9B; display:block; font-weight:bold;}
+.vin {font-size:18px; color:#999;}
+.run-date {font-size:13px; color:#aaa;}
+
+
+
+#score-section h3 {color:#035AA6; font-weight:normal;}
+#score-section a {text-decoration:none; color:#666;}
+#score-section a:hover {color:#666;}
+#score-section a:visited {color:#666;}
+
+h2 {display:block;font-size:30px; line-height:1.5em; color:#066A9B; font-weight:bold;}
+h2 {border-bottom:1px solid #666; margin:0 0 .5em 0; margin-right:20px;}
+
+#vehicle-summary {border-bottom:1px solid #666; margin-bottom:1em; padding-bottom:1em; margin-right:20px;}
+#vehicle-summary ul {width:50%;  list-style: none; margin-left:0;}
+#vehicle-summary li span {font-weight:bold; margin-left:.5em;}
+
+#vehicle-summary ul.col2 {width:240px; float:right;}
+
+#vehicle-summary .details {width:615px; line-height:1.9;}
+
+#vehicle-summary img {float:right;}
+
+#score-tile {width:210px; float:left; margin-right:1em; margin-bottom:1em;}
+
+#score-right {float:right;}
+
+.module {width:380px; height:164px;}
+
+.module {-moz-border-radius:10px 10px 10px 10px;background:none repeat scroll 0 0 #FAFAFA;border:1px solid #666;margin-bottom:25px;}
+
+.module p:last-child {margin-bottom:0;}
+
+#vin-summary { width:auto; margin:10px 0 0 0;}
+
+
+#vin-summary tr td:first-child {
+width:50px;
+}
+
+#vin-summary tr td {
+vertical-align:middle;
+}
+
+#buyback img {
+float:left;
+margin:0 1em 1em 0;
+}
+
+#vin-summary img {margin-right:10px;}
+
+
+
+#report #vin-summary td {
+color:#444444;
+font-size:13px;
+padding: 0 0 1.5em 0;
+}
+
+#vin-summary td a {
+font-size:11px;
+}
+
+#vin-summary a {
+display:block;
+cursor:text;
+}
+
+#vin-summary td h3 {
+font-size:15px;
+line-height:1em;
+}
+
+#vin-summary td p {font-size:10px; line-height:1em; color:#999999;}
+
+
+
+
+.module .inner {
+padding:5px 10px 10px;
+}
+
+#score-section .module h3 {
+border-bottom:1px solid #666;
+font-weight:bold;
+margin-bottom:1em;
+font-size:100%
+}
+#score.module a,#buyback a {
+display:none;
+}
+
+#center_section {height:350px;margin-right:20px;}
+
+.full-report-button a {background:url('/consumers/scoreReport/images/full-history-button.gif') top left no-repeat; display:block;width:286px; height:29px; color:#fff; text-align:center; font-size:16px; margin:1.5em auto 0;}
+#score-section .full-report-button a:hover {text-decoration:none;}
+
+/*sub sections   */
+
+.section .top {
+background-color:#02293C;
+border:2px solid #D7D7D7;
+margin-bottom:3px;
+padding:2px;
+}
+
+.section .top h3 {
+color:#FFFFFF;
+font-size:143%;
+margin:0.5em 0;
+padding:0 8px;
+}
+
+
+.hide-details {
+display:none;
+}
+
+.warning {
+color:#BD0000;
+}
+
+.checks-out {
+color:#1F991F;
+}
+
+.info-reported {
+color:#27438B;
+}
+
+
+.lead-in {
+font-size:123%;
+font-weight:bold;
+}
+
+.section p {
+margin-bottom:1.2em;
+}
+
+.section p a:link {
+color:blue;
+font-weight:normal;
+text-decoration:none;
+}
+
+.section p a:hover {
+color:blue;
+font-weight:normal;
+text-decoration:underline;
+}
+
+.section th {
+border-bottom:2px solid #555555;
+font-weight:bold;
+padding:6px;
+color:#000000;
+}
+
+.check-header {
+text-align:center;
+width:25%;
+}
+
+#report table {
+margin-bottom:10px;
+width:100%;
+border-collapse:collapse;
+}
+
+#report table td{
+padding: 5px 6px;
+}
+
+.bottom td,  #full-history-list td , #section-vehicle-glossary td{border-bottom:1px solid #D7D7D7;}
+
+#report .flagged td {
+background-color:#FDFBE1;
+color:red !important;
+font-weight:bold;
+}
+
+#report .flagged td a {
+color:red;
+text-decoration:none;
+}
+
+#section-disclaimers { line-height:1.6em; color:#000;}
+
+.noPrint{display:none;}
+
+/* ACCIDENT DATA */
+.accident-module {border:1px solid #333; padding:10px; margin-top:1em; background:#fafafa;}
+.accident-module h4 { background-color:#035AA6; margin:-10px -10px 5px; padding:5px 10px; font-weight:bold; border-bottom:2px solid #555555;color:#FFF;}
+.accident-module td {border-top:1px solid #ddd;}
+h4 .accident {font-size:16px; margin-right:.5em;}
+
+p.disclaimer {line-height:1.3em; font-size:11px; color:#999; margin-top:1em;}
+
+#accident-data .top p {
+color:#FFFFFF;
+font-size:11px;
+line-height:1em;
+margin-left:15px;
+margin-top:0;
+}
+
+#accident-data .top h3 {
+margin:0.5em 0 0 0;
+}
+
+#report .badge {
+float:right;
+margin:0 0.5em 0 1em;
+width:200px;
+}
+
+.print-image-only {
+display:inline;
+margin-right:5px;
+}
+
+#report #score-tile table {
+border-collapse:separate;
+margin-bottom:0;
+padding:0;
+width:210px;
+}
+
+#report #score-tile table td{
+padding:0;
+}
+
+#iconTable {width:43%}</style>
+                           </head>
+                           
+    <body>
+				  <div id="report">
+									  <!-- Start of report stuff -->
+                                        <!--FORM DECLARATION AND VARIABLES-->
+											<form name="printableReportForm" method="post" action="https://www.autocheck.com/consumers/printableReportAction.do"><input type="hidden" name="org.apache.struts.taglib.html.TOKEN" value="d8e4afdad2ad765bc42e35ea0bee646a">
+											    <center>
+											   <img src="https://www.autocheck.com/consumers/scoreReport/images/logo.jpg" hspace="16" border="0" align="top" alt="AutoCheck.com" style="margin-top:70px;margin-bottom:30px;">
+											   </center>
+<div id="score-section">
+	<div id="score-summary"><h1>AutoCheck Vehicle History Report</h1>
+	   <div class="vehicle-name">2004 Lexus GX470</div>
+	   <div class="run-date">Report Run Date:
+             2012-07-02 11:48:03.718</div>
+	
+	   <div class="boxx">
+	      
+	      <h2>Report Summary	</h2>
+	        <div id="vehicle-summary">
+	        
+	           <img src="http://www.autocheck.com/consumers/scoreReport/images/logo.jpg" id="big-logo" width="160" class="noPrint"/>
+	        <div class="details">
+	         <ul class="col2">
+			    <li>
+				 <span>Class:</span>
+				SUV - Upper Mid Range
+				</li>
+				<li>
+				  <span>Engine:</span>
+				4.7L V8 EFI
+				</li>
+				<li>
+				  <span>Country of Assembly:</span>
+				   Japan
+				</li>
+				<li>
+				 <span>Vehicle Age:</span>
+				     8 year(s)
+				</li>
+				<li>				
+				  <span>Calculated Owners:</span>
+				     3
+				</li>
+			</ul>
+	        
+	        
+	          <ul>
+			    <li>
+				  <span>VIN:</span>
+					    JTJBT20X940056014
+				</li>
+				<li>
+				 <span>Year :</span>
+				 2004
+				</li>
+				<li>
+				  <span>Make :</span>
+				     Lexus
+				</li>
+				<li>
+				 <span>Model:</span>
+				     GX470
+				</li>
+				<li>
+				  <span>Style/Body:</span>
+				     SUV 4D
+				</li>
+			 </ul>
+			</div><!-- details -->
+			
+			</div><!-- vehicle-summary -->
+			
+			
+			   	
+			   
+			  	
+                
+               
+               
+                
+               
+			
+			<div id="center_section">	
+						<div id="score-right">	
+					  <!-- start score box -->		
+							<div id="score" class="module">
+								<div class="inner">
+									<h3>This Vehicle's AutoCheck Score</h3>
+									
+									
+				                	      <div id="score-tile">
+										     
+
+
+ <table id="Table_01" width="210px" height="97px" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="11">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_01.jpg" width="210" height="40" alt=""/></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_02.jpg" width="150" height="24" alt=""/></td>
+		<td rowspan="2">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/S8.jpg" width="20" height="57" alt=""/></td>
+		<td rowspan="2">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_04.jpg" width="3" height="57" alt=""/></td>
+		<td rowspan="2">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/S4.jpg" width="20" height="57" alt=""/></td>
+		<td rowspan="2">
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_06.jpg" width="17" height="57" alt=""/></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_07.jpg" width="54" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/R6.jpg" width="7" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/R9.jpg" width="7" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_10.jpg" width="10" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/R8.jpg" width="7" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/R0.jpg" width="7" height="33" alt=""/></td>
+		<td>
+			<img src="http://www.autocheck.com/consumers/scoreReport/scoreTile/images/scoreTile_13.jpg" width="58" height="33" alt=""/></td>
+	</tr>
+</table>
+				    
+									     </div>
+				                	      <p>The AutoCheck Score is a summary of your vehicle's history. It lets you compare similar vehicles with ease.<br>
+				                	          
+									           
+									           <a href="aboutScore.do?vin=JTJBT20X940056014" target="_blank">
+									            About the AutoCheck Score
+									           </a>
+									       </p>
+									
+									   	   
+								
+								
+								</div>
+							</div>
+				<!-- end score box -->
+				
+				<!-- start assured/buyback box -->
+				
+							<div class="module" id="buyback">
+								<div class="inner">
+								    
+			                             
+			                            <h3>This vehicle qualifies for Buyback Protection</h3>
+			                       
+			                             <img src="http://www.autocheck.com/consumers/scoreReport/images/buyback.gif" alt="buyback" />
+			                             <p>Safeguard your investment with AutoCheck Buyback Protection. It reduces the risk in buying a used vehicle.<br>	
+					                   
+				                      
+								
+								     <!-- LINK for assured feature -->
+			                          
+                               
+			                          <a href="http://www.autocheck.com/consumers/product-features/buyback/education.do" target="_blank">About Buyback Protection</a></p> 
+					          
+								
+								</div>
+							</div>
+						 </div>	
+				<div id="iconTable">	
+	          <table id="vin-summary" cellspacing="0">
+								<tr>
+								
+									<td><img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" /></td>
+								 
+								     
+									<td><a href="#accident"><h3> AccidentCheck</h3></a>  Reported accidents: <strong>0</strong></td>
+								</tr>
+								
+								<tr>
+								
+								    <td><img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" /></td>
+									<td><a href="#title-and-problem-check"><h3>Title and ProblemCheck</h3></a>
+									 Your vehicle checks out!</td>
+								  	
+									
+								</tr>
+								<tr>
+								 	
+								     <td><img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" /></td>
+									 <td>
+										<a href="#odometer-check"><h3>OdometerCheck</h3></a>
+										Your vehicle checks out!
+										
+										
+										<p>Last Reported Odometer: 
+										  
+                                              149512
+                                             
+										</p>
+									</td>
+								</tr>
+								
+								<tr>
+								
+								    <td><img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" /></td>
+									<td><a href="#vehicle-use-and-event-check"><h3>Vehicle Use and EventCheck</h3></a>
+									 No vehicle use reported
+								  	
+								</tr>
+							</table>
+						</div>	
+			</div><!-- center_section -->	
+							<div class="full-report-button noPrint">
+							 <a href="#full-history">View Full History</a>
+							</div>
+	   </div><!-- box -->
+	
+	
+	
+	</div><!-- score-smmary -->
+	
+	
+	
+</div><!-- score-section -->	
+
+
+	  
+	       
+       
+    <!--Accident Section-->
+       <div id="accident-data" class="report section">
+	<div class="top">
+	<img class="hide-details" id="ACJTJBT20X940056014I" src="http://www.autocheck.com/consumers/scoreReport/images/hide_details.jpg"  onclick="javascript:toggleDivScore('JTJBT20X940056014', 'I', 'AC')"/>
+	<h3 id="accident">AccidentCheck</h3>
+	<p>Not all accidents / issues are reported to AutoCheck</p>
+	</div>
+
+
+		
+                	
+               
+           
+	
+	  
+	   
+	  		  
+	  		  
+	  		<p>
+	  		<img class="badge" src="http://www.autocheck.com/consumers/scoreReport/images/no-accidents.jpg">
+	  		<img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" alt="checks_out" width="55" height="50" align="left" style="float: left;" />
+	  	  <span class="checks-out lead-in">  Your vehicle checks out!</span>
+	 		  
+                  There have been no accidents     
+            		 <a href="http://www.autocheck.com/terms" target="_blank">reported to AutoCheck</a>
+                      
+                  for this 2004 Lexus GX470 (JTJBT20X940056014). AutoCheck receives its accident data from government sources and independent agencies, and based on the information available to us, we have found that no accidents have been reported on this vehicle.  Not all accidents or damage events are reported to AutoCheck.   
+            </p>
+	        	 
+            
+	        <p></p>
+	       
+	      
+	   <table class="section" id="ACJTJBT20X940056014" style="display:all" cellspacing="0" cellpadding="0"> 
+	   <tr><td>  
+        
+	        </td></tr>
+					   </table>
+	<!-- 	End Section: Accidents -->
+	</div>
+	 
+       
+    <!--Title/Proplem-->
+        <div id="section-title-and-problemcheck" class="report section">
+	<div class="top">
+	<img class="hide-details" id="TCJTJBT20X940056014I" src="http://www.autocheck.com/consumers/scoreReport/images/hide_details.jpg"  onclick="javascript:toggleDivScore('JTJBT20X940056014', 'I', 'TC')"/>
+	<h3 id="title-and-problem-check">Title and ProblemCheck</h3>
+	</div>
+	
+	
+	
+	  
+	   
+	  		  
+	  		  
+	  		<p><img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" alt="checks_out" width="55" height="50" align="left" style="float: left;" />
+	  	  <span class="checks-out lead-in">  Your vehicle checks out!</span>
+	 		  
+                  AutoCheck's database for this 2004 Lexus GX470 (JTJBT20X940056014) shows no negative titles or other problems. When   
+                  
+                  <a href="http://www.autocheck.com/terms" target="_blank">reported to AutoCheck</a>, these events can indicate serious past damage or other significant problems, and disqualifies the vehicle for AutoCheck Buyback Protection. Check the
+                      <a href="#vehicle-use-and-event-check">Vehicle Use and EventCheck</a>&nbsp;for reported accidents that can affect vehicle safety and value.  			
+	       </p>
+	        	 
+            
+	        <p></p>
+	       
+          
+	        
+	        <table id="titlecheck-list" class="report listing" cellspacing="0" cellpadding="0"> 
+	        
+	        <tr><th class="check-header"> 0 Problem(s) Reported:</th><th>15 Title/Problem areas checked:</th></tr>
+	
+	        <tr><td colspan="2" class="bottom">
+	        	<table class="section" id="TCJTJBT20X940056014" style="display:all" cellspacing="0" cellpadding="0">
+	        		
+	        		        
+           
+      
+      	  <tr>
+      	    <td class="check-header" >
+      	     <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+            No abandoned title record
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	   <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+            No damaged title or major damage incident record
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No fire damaged title record
+      	  </td>
+      	</tr>  
+      	
+    
+      
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+          No grey market title record 
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+          No hail damage title record 
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+         No insurance loss title or probable total loss record
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+          No junk or scrapped title record
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No manufacturer buyback/lemon title record  
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No odometer problem title record 
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No rebuilt/rebuildable title record 
+      	  </td>
+      	</tr>  
+      	
+      
+       
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No salvage title or salvage auction record
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	   <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No water damaged title record 
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No NHTSA crash test record
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	   <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No frame/unibody damage record
+      	  </td>
+      	</tr>  
+      	
+      
+      
+      	  <tr>
+      	    <td class="check-header">
+      	      <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+      	    </td>
+      	    <td>
+           No recycling facility record
+      	  </td>
+      	</tr>  
+      	
+    </table>
+   </td>
+  </tr>  
+      
+	</table>
+	<!-- 	End Section: section-title-and-problemcheck -->
+	</div>
+	
+               
+   <!--Odometer-->
+       <div id="section-odometercheck" class="report section">
+	<div class="top">
+	<img class="hide-details" id="OCJTJBT20X940056014I" src="http://www.autocheck.com/consumers/scoreReport/images/hide_details.jpg" 
+    	     onclick="javascript:toggleDivScore('JTJBT20X940056014', 'I', 'OC')"/>
+	<h3 id="odometer-check">OdometerCheck</h3>
+	</div>	
+	
+	  		 
+	 		   <p> <img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" alt="checks_out" width="55" height="50" align="left" style="float: left;padding-bottom:1px;"/>
+        		  <span class="checks-out lead-in"> Your vehicle checks out!</span>
+                  
+                  AutoCheck examined the reported odometer readings
+                  <a href="http://www.autocheck.com/terms" target="_blank">reported to AutoCheck</a>  
+                  for this  2004 Lexus GX470 (JTJBT20X940056014) and no indication of an odometer rollback or tampering was found. AutoCheck uses business rules to determine if reported odometer readings are significantly less than previously reported values. Not all reported odometer readings are used. Title and auction events also report odometer tampering or breakage.  
+	            </p>
+          	
+            
+    <table id="odometercheck-list" class="report listing" cellspacing="0" cellpadding="0">
+		<tr><th class="check-header">0  Problem(s) Reported:</th>
+		  <th style="width: 12%">Mileage</th><th style="width: 20%">Date Reported</th><th style="width: 53%">&nbsp;</th>
+		</tr>
+		
+		<tr><td colspan="4" class="bottom">
+	
+		  
+		  		
+		  		  <table class="report listing" id="OCJTJBT20X940056014" style="display:all" cellspacing="0" cellpadding="0">
+		  		  
+		
+		 
+    
+       
+        
+       
+        <tr>
+      
+      
+     
+       
+       
+      	 <td class="check-header"><img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/></td>
+       
+     
+     
+     
+     
+         <td style="width: 12%">    
+  	       8203
+         </td>
+         <td style="width: 20%">
+           Wed Mar 30 00:00:00 EST 2005
+  	     </td>  
+  	     
+         <td style="width: 53%">
+         	  
+            
+            
+             
+            
+               &nbsp;&nbsp;
+            
+         </td>	       
+       </tr> 
+     
+       
+        
+       
+        <tr>
+      
+      
+     
+       
+       
+      	 <td class="check-header"><img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/></td>
+       
+     
+     
+     
+     
+         <td style="width: 12%">    
+  	       41342
+         </td>
+         <td style="width: 20%">
+           Fri Oct 19 00:00:00 EDT 2007
+  	     </td>  
+  	     
+         <td style="width: 53%">
+         	  
+            
+            
+             
+            
+               &nbsp;&nbsp;
+            
+         </td>	       
+       </tr> 
+     
+       
+        
+       
+        <tr>
+      
+      
+     
+       
+       
+      	 <td class="check-header"><img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/></td>
+       
+     
+     
+     
+     
+         <td style="width: 12%">    
+  	       89614
+         </td>
+         <td style="width: 20%">
+           Wed Jul 08 00:00:00 EDT 2009
+  	     </td>  
+  	     
+         <td style="width: 53%">
+         	  
+            
+            
+             
+            
+               &nbsp;&nbsp;
+            
+         </td>	       
+       </tr> 
+     
+       
+        
+       
+        <tr>
+      
+      
+     
+       
+       
+      	 <td class="check-header"><img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/></td>
+       
+     
+     
+     
+     
+         <td style="width: 12%">    
+  	       149512
+         </td>
+         <td style="width: 20%">
+           Tue Jun 19 00:00:00 EDT 2012
+  	     </td>  
+  	     
+         <td style="width: 53%">
+         	  
+            
+            
+             
+            
+               &nbsp;&nbsp;
+            
+         </td>	       
+       </tr> 
+     
+     
+     
+     </table>
+	</td></tr>	  	
+   </table>
+	<!-- 	End Section: section-odometercheck -->
+	</div>   
+       
+       
+		
+	     
+      
+   <!--info/event-->
+        <div id="section-vehicle-use-and-eventcheck" class="report section">
+	<div class="top">
+	<img class="hide-details" id="VIJTJBT20X940056014I" src="http://www.autocheck.com/consumers/scoreReport/images/hide_details.jpg" 
+    	     onclick="javascript:toggleDivScoreInfo('JTJBT20X940056014', 'I', 'VI')"/>
+	<h3 id="vehicle-use-and-event-check">Vehicle Use and EventCheck</h3>
+	</div>
+	
+	
+ <div class="vehicle-info">	
+	
+	  		 <p>  <img src="http://www.autocheck.com/consumers/scoreReport/images/checks_out.jpg" alt="image" width="55" height="50" align="left" style="float: left;"/>
+          	 <span class="checks-out lead-in">No Additional Information Reported!</span>
+                      
+                
+                  AutoCheck shows no additional vehicle uses or events 
+                  <a href="http://www.autocheck.com/terms" target="_blank">reported to AutoCheck</a> 
+                  for this 2004 Lexus GX470 (JTJBT20X940056014). This includes reported vehicle uses such as rental or lease, and events such as whether the vehicle has been reported to have had a loan/lien or duplicate title issued. Other events show if the vehicle has a reported accident and how many calculated accidents or if it has been reported stolen or repossessed. It is recommended to have pre-owned vehicles inspected by a third party prior to purchase.    
+	            </p>
+          	
+            
+  
+		<table id="vehicle-use-list" cellspacing="0" cellpadding="0">
+		<tr>
+		  <th class="check-header">  0  Event(s) Reported: </th>
+		  <th>6 Vehicle uses checked: </th>
+		</tr>
+		
+		 <tr><td colspan="2" class="bottom">
+	        	<table id="VIJTJBT20X940056014A" style="display:all" cellspacing="0" cellpadding="0">
+		
+		
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+            No fleet, rental and/or lease use record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+            No taxi use record
+      	  </td>
+      	 </tr> 
+      	
+		
+		  
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+            No police use record
+      	  </td>
+      	 </tr> 
+      	
+      
+       
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No government use record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No livery use record
+      	  </td>
+      	 </tr> 
+      	
+      
+       
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No driver education record
+      	  </td>
+      	 </tr> 
+      	
+		 </table>
+   </td>
+  </tr>  
+		</table>	
+	<table id="vehicle-event-list" class="report listing" cellspacing="0" cellpadding="0">
+		<tr>
+		  <th class="check-header">  0 Event(s) Reported: </th>
+		  <th> 9 Vehicle events checked:</th>
+		</tr>
+	
+	  <tr><td colspan="2" class="bottom">
+	        	<table class="report listing" id="VIJTJBT20X940056014B" style="display:all" cellspacing="0" cellpadding="0">
+	
+	   
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No accident record reported through accident data sources
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No corrected title record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No duplicate title record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No emission/safety inspection record
+      	  </td>
+      	 </tr> 
+      	
+      
+       
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No loan/lien record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No fire damage incident record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No repossessed record
+      	  </td>
+      	 </tr> 
+      	
+      
+       
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No theft record
+      	  </td>
+      	 </tr> 
+      	
+      
+      
+      	<tr>
+      	 <td class="check-header">
+            <img src="http://www.autocheck.com/consumers/scoreReport/images/accept.gif" alt="image" width="16" height="16"/>
+          </td>
+          <td>
+             No storm area registration/title record
+      	  </td>
+      	 </tr> 
+      	
+     
+      </table>
+     
+   </td>
+  </tr> 
+      
+	
+		</table>	
+		
+	<!-- 	End Section: section-vehicle-use-and-eventcheck -->
+	</div>
+	</div> 
+
+   <!--Full History-->
+       <div id="section-full-history" class="report section">
+	
+	
+	
+	<div class="top">
+	<h3 id="full-history">Full History</h3>
+	</div>
+	<p>
+	
+	
+	
+	Below are the historical events for this vehicle listed in chronological order. Any discrepancies will be in bold text.</p>
+	<p><strong>Report Run Date:</strong> 2012-07-02 11:48:03.718</p>
+	<p><strong>Vehicle:</strong>
+	        2004 
+              Lexus 
+              GX470 
+              (JTJBT20X940056014)
+   </p>
+	<table id="full-history-list" class="report listing" border="0" cellspacing="0" cellpadding="0">
+	
+	
+	
+	
+		<tr>
+		  <th>Event Date </th>
+		  <th>Event Location  </th>
+		  <th class="print_center">Odometer Reading </th>
+		  <th> Data Source </th>
+		  <th>Event Detail </th>
+		 
+		</tr>
+		
+		
+		 
+        
+         
+	  	  <tr>
+            <td>
+              Tue Jul 27 00:00:00 EDT 2004
+            </td>
+            <td>
+              
+              GA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Independent Source
+         	  
+              		
+              	
+            </td>
+            <td>
+              VEHICLE MANUFACTURED AND SHIPPED TO DEALER
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Wed Mar 30 00:00:00 EST 2005
+            </td>
+            <td>
+              
+              RICHMOND, VA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+              8,203 
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              TITLE<br>REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Tue Feb 07 00:00:00 EST 2006
+            </td>
+            <td>
+              
+              RICHMOND, VA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Fri Feb 09 00:00:00 EST 2007
+            </td>
+            <td>
+              
+              RICHMOND, VA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Fri Oct 19 00:00:00 EDT 2007
+            </td>
+            <td>
+              
+              VIRGINIA BEACH, VA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+              41,342 
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              TITLE
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Thu May 29 00:00:00 EDT 2008
+            </td>
+            <td>
+              
+              VIRGINIA BEACH, VA
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Wed Jul 08 00:00:00 EDT 2009
+            </td>
+            <td>
+              
+              STUART, FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+              89,614 
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              TITLE (Title #:0102739780)
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Wed Jul 08 00:00:00 EDT 2009
+            </td>
+            <td>
+              
+              STUART, FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Fri Dec 04 00:00:00 EST 2009
+            </td>
+            <td>
+              
+              STUART, FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Wed Dec 01 00:00:00 EST 2010
+            </td>
+            <td>
+              
+              VERO BEACH, FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Fri Dec 16 00:00:00 EST 2011
+            </td>
+            <td>
+              
+              SAINT PETERSBURG, FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+               
+              
+                   &nbsp;
+              
+             </div>	             
+            </td>
+            <td>
+              Motor Vehicle Dept.
+         	  
+              		
+              	
+            </td>
+            <td>
+              REGISTRATION EVENT/RENEWAL
+             
+            </td>
+          </tr>
+          
+        
+         
+	  	  <tr>
+            <td>
+              Tue Jun 19 00:00:00 EDT 2012
+            </td>
+            <td>
+              
+              FL
+              
+            </td>
+            <td>
+            	<div style="text-align:center;">
+              149,512 
+              
+             </div>	             
+            </td>
+            <td>
+              Auto Auction
+         	  
+              		
+              	
+            </td>
+            <td>
+              REPORTED AT AUTO AUCTION
+             
+            </td>
+          </tr>
+          
+        
+      </table>
+      
+		
+		<!-- 	End Section: full-history -->
+	</div>
+		
+		
+		
+		
+		
+	          
+    
+    
+      <!--Glossary-->
+      
+      <!--End Glossary-->
+
+
+      
+    
+    </div><!-- report -->					</div>
+				
+		</form>	
+	</body>
+
+                        </html>
+                        

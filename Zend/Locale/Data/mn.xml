@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.50 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="mn"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="af">Р°С„СЂРёРє</language>
+			<language type="am">Р°РјС…Р°СЂРёРє</language>
+			<language type="ar">Р°СЂР°Р±</language>
+			<language type="as">Р°СЃСЃР°Рј ТЇРЅРґСЌСЃС‚СЌРЅ</language>
+			<language type="az">Р°Р·Р°СЂР±РµР¶Р°РЅ</language>
+			<language type="be">Р±РµР»Р°СЂСѓСЃСЊ</language>
+			<language type="bg">Р±РѕР»РіР°СЂ</language>
+			<language type="bh">Р±РёС…Р°СЂРё С…СЌР»</language>
+			<language type="bn">Р±РµРЅРіР°Р»СЊ</language>
+			<language type="br">Р±СЂРµС‚РѕРЅ</language>
+			<language type="bs">Р±РѕСЃРЅРёР°</language>
+			<language type="ca">РєР°С‚Р°Р»Р°РЅ</language>
+			<language type="cs">С‡РµС…</language>
+			<language type="cy">СѓСЌР»СЃ</language>
+			<language type="da">РґР°РЅРё</language>
+			<language type="de">РіРµСЂРјР°РЅ</language>
+			<language type="el">РіСЂРµРє</language>
+			<language type="en">Р°РЅРіР»Рё</language>
+			<language type="eo">СЌСЃРїРµСЂР°РЅС‚Рѕ</language>
+			<language type="es">РёСЃРїР°РЅРё</language>
+			<language type="et">СЌСЃС‚РѕРЅРё</language>
+			<language type="eu">Р±Р°СЃРє</language>
+			<language type="fa">РїРµСЂСЃ</language>
+			<language type="fi">С„РёРЅР»СЏРЅРґ</language>
+			<language type="fil">С‚Р°РіР°Р»Рѕ</language>
+			<language type="fo">С„У©СЂРёСЌСЃ С…СЌР»</language>
+			<language type="fr">С„СЂР°РЅС†</language>
+			<language type="fy">РіРѕР»Р»Р°РЅРґС‹РЅ С„СЂРёСЃРёР°РЅ С…СЌР»</language>
+			<language type="ga">РёСЂР»Р°РЅРґ</language>
+			<language type="gd">С€РѕС‚Р»Р°РЅРґ РєРµР»С‚</language>
+			<language type="gl">РіР°Р»РёРє</language>
+			<language type="gn">РіСѓР°СЂР°РЅРё</language>
+			<language type="gu">СЌРЅСЌС‚С…СЌРіРёР№РЅ РіСѓР¶Р°СЂР°С‚Рё</language>
+			<language type="he">РєРёРїСЂ</language>
+			<language type="hi">С…РёРЅРґРё</language>
+			<language type="hr">С…РѕСЂРІР°С‚Рё</language>
+			<language type="hu">СѓРЅРіР°СЂ</language>
+			<language type="hy">Р°СЂРјРµРЅ</language>
+			<language type="ia">РёРЅС‚РµСЂР»РёРЅРіРІРѕ</language>
+			<language type="id">РёРЅРґРѕРЅРµР·Рё</language>
+			<language type="ie">РЅСЌРіРґРјСЌР» С…СЌР»</language>
+			<language type="is">РёСЃР»Р°РЅРґ</language>
+			<language type="it">РёС‚Р°Р»Рё</language>
+			<language type="ja">СЏРїРѕРЅ</language>
+			<language type="jv">СЏРІР°</language>
+			<language type="ka">РіТЇСЂР¶</language>
+			<language type="km">РєР°РјР±СѓС‡</language>
+			<language type="kn">РєР°РЅРЅР°РґР°</language>
+			<language type="ko">СЃРѕР»РѕРЅРіРѕСЃ</language>
+			<language type="ku">РєСѓСЂРґ</language>
+			<language type="ky">РєРёСЂРіРёР·</language>
+			<language type="la">Р»Р°С‚РёРЅ</language>
+			<language type="ln">Р»РёРЅРіР°Р»Р°</language>
+			<language type="lo">Р»Р°РѕС‚РёР°РЅ</language>
+			<language type="lt">Р»РёС‚РІРё</language>
+			<language type="lv">Р»Р°С‚РІРё</language>
+			<language type="mk">РјР°РєРµРґРѕРЅРё</language>
+			<language type="ml">РјР°Р»Р°Р№Р»Р°Рј</language>
+			<language type="mn">РјРѕРЅРіРѕР»</language>
+			<language type="mr">СЌРЅСЌС‚С…СЌРіРёР№РЅ РјР°СЂР°С‚Рё</language>
+			<language type="ms">РјР°Р»Р°Р№</language>
+			<language type="mt">РјР°Р»С‚Рё</language>
+			<language type="ne">Р±Р°Р»Р±Р°</language>
+			<language type="nl">РіРѕР»Р»Р°РЅРґ</language>
+			<language type="nn">РЅРѕСЂРІРµРіРё (РЅС‹РЅРѕСЂСЃРє)</language>
+			<language type="no">РЅРѕСЂРІРµРіРё</language>
+			<language type="oc">С„СЂР°РЅС†С‹РЅ РѕРєСЃРёС‚Р°РЅ</language>
+			<language type="or">РѕСЂРёСЏ</language>
+			<language type="pa">РїРµРЅР¶Р°Р±Рё</language>
+			<language type="pl">РїРѕР»СЊС€</language>
+			<language type="ps">Р°С„РіР°РЅ</language>
+			<language type="pt">РїРѕСЂС‚СѓРіР°Р»Рё</language>
+			<language type="pt_BR">РїРѕСЂС‚СѓРіР°Р»Рё (Р±СЂР°Р·РёР»)</language>
+			<language type="pt_PT">РїРѕСЂС‚СѓРіР°Р»Рё (РїРѕСЂС‚СѓРіР°Р»Рё)</language>
+			<language type="ro">СЂСѓРјС‹РЅ</language>
+			<language type="ru">РѕСЂРѕСЃ</language>
+			<language type="sa">СЃР°РЅСЃРєРёСЂРёС‚</language>
+			<language type="sd">СЃРёРЅРґС…Рё</language>
+			<language type="sh">С…РѕСЂРІР°С‚С‹РЅ СЃРµСЂР±</language>
+			<language type="si">С€СЂРё Р»Р°РЅРє</language>
+			<language type="sk">СЃР»РѕРІР°Рє</language>
+			<language type="sl">СЃР»РѕРІРµРЅРё</language>
+			<language type="so">СЃРѕРјР°Р»Рё</language>
+			<language type="sq">Р°Р»Р±Р°РЅРё</language>
+			<language type="sr">СЃРµСЂР±Рё</language>
+			<language type="st">СЃРµСЃРѕС‚Рѕ</language>
+			<language type="su">СЃСѓРЅРґР°РЅРµСЃ С…СЌР»</language>
+			<language type="sv">С€РІРµРґ</language>
+			<language type="sw">Р°С„СЂРёРєРёР№РЅ СЃРІР°С…РёР»Рё С…СЌР»</language>
+			<language type="ta">С‚Р°РјРёР»</language>
+			<language type="te">С‚СЌР»ТЇРіТЇ</language>
+			<language type="th">С‚Р°Р№</language>
+			<language type="ti">С‚РёРєСЂРёРЅР°</language>
+			<language type="tk">С‚СѓСЂРєРјРµРЅ</language>
+			<language type="tlh">РєР»РёРЅРіРѕРЅ С…СЌР»</language>
+			<language type="tr">С‚СѓСЂРє</language>
+			<language type="tw">С‚РІРё</language>
+			<language type="ug">СѓР№РіСѓСЂ</language>
+			<language type="uk">СѓРєСЂР°РёРЅ</language>
+			<language type="ur">РїР°РєРёСЃС‚Р°РЅС‹ СѓСЂРґСѓ</language>
+			<language type="uz">СѓР·Р±РµРє</language>
+			<language type="vi">РІСЊРµС‚РЅР°Рј</language>
+			<language type="xh">С…РѕСЃР°</language>
+			<language type="yi">РёРґРґРёС€</language>
+			<language type="zh">С…СЏС‚Р°Рґ</language>
+			<language type="zu">Р·СѓР»Сѓ</language>
+		</languages>
+		<territories>
+			<territory type="BR">Р‘СЂР°Р·РёР»Рё</territory>
+			<territory type="DE">Р“РµСЂРјР°РЅ</territory>
+			<territory type="FR">Р¤СЂР°РЅС†</territory>
+			<territory type="IN">Р­РЅСЌС‚С…СЌРі</territory>
+			<territory type="IT">РС‚Р°Р»Рё</territory>
+			<territory type="JP">РЇРїРѕРЅ</territory>
+			<territory type="MN">РњРѕРЅРіРѕР» СѓР»СЃ</territory>
+			<territory type="RU">РћСЂРѕСЃ</territory>
+			<territory type="TO">РўРѕРЅРіР°</territory>
+			<territory type="US">РђРјРµСЂРёРєРёР№РЅ РќСЌРіРґСЃСЌРЅ РЈР»СЃ</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[Р°-Рµ С‘ Р¶-Рѕ У© Рї-Сѓ ТЇ С„-СЏ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[У™ Т— УЉ Т»]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>вЂ</quotationStart>
+		<quotationEnd>вЂ™</quotationEnd>
+		<alternateQuotationStart>вЂњ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂќ</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">С…СѓР»</month>
+							<month type="2">ТЇС…СЌ</month>
+							<month type="3">Р±Р°СЂ</month>
+							<month type="4">С‚СѓСѓ</month>
+							<month type="5">Р»СѓСѓ</month>
+							<month type="6">РјРѕРі</month>
+							<month type="7">РјРѕСЂ</month>
+							<month type="8">С…РѕРЅ</month>
+							<month type="9">Р±РёС‡</month>
+							<month type="10">С‚Р°С…</month>
+							<month type="11">РЅРѕС…</month>
+							<month type="12">РіР°С…</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">РҐСѓР»РіР°РЅР°</month>
+							<month type="2">Т®С…СЌСЂ</month>
+							<month type="3">Р‘Р°СЂ</month>
+							<month type="4">РўСѓСѓР»Р°Р№</month>
+							<month type="5">Р›СѓСѓ</month>
+							<month type="6">РњРѕРіРѕР№</month>
+							<month type="7">РњРѕСЂСЊ</month>
+							<month type="8">РҐРѕРЅСЊ</month>
+							<month type="9">Р‘РёС‡</month>
+							<month type="10">РўР°С…РёР°</month>
+							<month type="11">РќРѕС…РѕР№</month>
+							<month type="12">Р“Р°С…Р°Р№</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">РќСЏ</day>
+							<day type="mon">Р”Р°</day>
+							<day type="tue">РњСЏ</day>
+							<day type="wed">Р›С…</day>
+							<day type="thu">РџТЇ</day>
+							<day type="fri">Р‘Р°</day>
+							<day type="sat">Р‘СЏ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">РЅСЏРј</day>
+							<day type="mon">РґР°РІР°Р°</day>
+							<day type="tue">РјСЏРіРјР°СЂ</day>
+							<day type="wed">Р»С…Р°РіРІР°</day>
+							<day type="thu">РїТЇСЂСЌРІ</day>
+							<day type="fri">Р±Р°Р°СЃР°РЅ</day>
+							<day type="sat">Р±СЏРјР±Р°</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">1/4</quarter>
+							<quarter type="2">2/4</quarter>
+							<quarter type="3">3/4</quarter>
+							<quarter type="4">4/4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">РґУ©СЂУ©РІРЅРёР№ РЅСЌРі</quarter>
+							<quarter type="2">РґУ©СЂУ©РІРЅРёР№ С…РѕС‘СЂ</quarter>
+							<quarter type="3">РґУ©СЂУ©РІРЅРёР№ РіСѓСЂР°РІ</quarter>
+							<quarter type="4">РґУ©СЂУ©РІРЅРёР№ РґУ©СЂУ©РІ</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
+				<eras>
+					<eraNames>
+						<era type="0">РјР°РЅР°Р№ СЌСЂРёРЅРёР№ У©РјРЅУ©С…</era>
+						<era type="1">РјР°РЅР°Р№ СЌСЂРёРЅРёР№</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">Рј.СЌ.У©</era>
+						<era type="1">Рј.СЌ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, y MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>y MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>В </group>
+		</symbols>
+	</numbers>
+</ldml>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.9 $"/>
+		<generation date="$Date: 2009/05/05 23:06:35 $"/>
+		<language type="en"/>
+		<script type="Shaw"/>
+	</identity>
+	<characters>
+		<exemplarCharacters>[рђ‘ђ-рђ‘ї]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[a-z]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-z]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">В·рђ‘Ўрђ‘Ё</month>
+							<month type="2">В·рђ‘“рђ‘§</month>
+							<month type="3">В·рђ‘Ґрђ‘ё</month>
+							<month type="4">В·рђ‘±рђ‘ђ</month>
+							<month type="5">В·рђ‘Ґрђ‘±</month>
+							<month type="6">В·рђ‘Ўрђ‘µ</month>
+							<month type="7">В·рђ‘Ўрђ‘«</month>
+							<month type="8">В·рђ‘Єрђ‘њ</month>
+							<month type="9">В·рђ‘•рђ‘§</month>
+							<month type="10">В·рђ‘·рђ‘’</month>
+							<month type="11">В·рђ‘Їрђ‘ґ</month>
+							<month type="12">В·рђ‘›рђ‘­</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">В·рђ‘Ўрђ‘Ёрђ‘™рђ‘рђ‘­рђ‘ўрђ‘єрђ‘°</month>
+							<month type="2">В·рђ‘“рђ‘§рђ‘љрђ‘рђ‘µрђ‘ўрђ‘єрђ‘°</month>
+							<month type="3">В·рђ‘Ґрђ‘ёрђ‘—</month>
+							<month type="4">В·рђ‘±рђ‘ђрђ‘®рђ‘­рђ‘¤</month>
+							<month type="5">В·рђ‘Ґрђ‘±</month>
+							<month type="6">В·рђ‘Ўрђ‘µрђ‘Ї</month>
+							<month type="7">В·рђ‘Ўрђ‘«рђ‘¤рђ‘І</month>
+							<month type="8">В·рђ‘Єрђ‘њрђ‘­рђ‘•рђ‘‘</month>
+							<month type="9">В·рђ‘•рђ‘§рђ‘ђрђ‘‘рђ‘§рђ‘Ґрђ‘љрђ‘ё</month>
+							<month type="10">В·рђ‘·рђ‘’рђ‘‘рђ‘ґрђ‘љрђ‘ё</month>
+							<month type="11">В·рђ‘Їрђ‘ґрђ‘ќрђ‘§рђ‘Ґрђ‘љрђ‘ё</month>
+							<month type="12">В·рђ‘›рђ‘­рђ‘•рђ‘§рђ‘Ґрђ‘љрђ‘ё</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">рђ‘Ў</month>
+							<month type="2">рђ‘“</month>
+							<month type="3">рђ‘Ґ</month>
+							<month type="4">рђ‘±</month>
+							<month type="5">рђ‘Ґ</month>
+							<month type="6">рђ‘Ў</month>
+							<month type="7">рђ‘Ў</month>
+							<month type="8">рђ‘Є</month>
+							<month type="9">рђ‘•</month>
+							<month type="10">рђ‘·</month>
+							<month type="11">рђ‘Ї</month>
+							<month type="12">рђ‘›</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">В·рђ‘•рђ‘­</day>
+							<day type="mon">В·рђ‘Ґрђ‘­</day>
+							<day type="tue">В·рђ‘‘рђ‘µ</day>
+							<day type="wed">В·рђ‘ўрђ‘§</day>
+							<day type="thu">В·рђ‘”рђ‘»</day>
+							<day type="fri">В·рђ‘“рђ‘®</day>
+							<day type="sat">В·рђ‘•рђ‘Ё</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">В·рђ‘•рђ‘­рђ‘™рђ‘›рђ‘±</day>
+							<day type="mon">В·рђ‘Ґрђ‘­рђ‘™рђ‘›рђ‘±</day>
+							<day type="tue">В·рђ‘‘рђ‘µрђ‘џрђ‘›рђ‘±</day>
+							<day type="wed">В·рђ‘ўрђ‘§рђ‘™рђ‘џрђ‘›рђ‘±</day>
+							<day type="thu">В·рђ‘”рђ‘»рђ‘џрђ‘›рђ‘±</day>
+							<day type="fri">В·рђ‘“рђ‘®рђ‘Ірђ‘›рђ‘±</day>
+							<day type="sat">В·рђ‘•рђ‘Ёрђ‘›рђ‘»рђ‘›рђ‘±</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">рђ‘•</day>
+							<day type="mon">рђ‘Ґ</day>
+							<day type="tue">рђ‘‘</day>
+							<day type="wed">рђ‘ў</day>
+							<day type="thu">рђ‘”</day>
+							<day type="fri">рђ‘“</day>
+							<day type="sat">рђ‘•</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">рђ‘’1</quarter>
+							<quarter type="2">рђ‘’2</quarter>
+							<quarter type="3">рђ‘’3</quarter>
+							<quarter type="4">рђ‘’4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1рђ‘•рђ‘‘ рђ‘’рђ‘ўрђ‘ёрђ‘›рђ‘ё</quarter>
+							<quarter type="2">2рђ‘Їрђ‘› рђ‘’рђ‘ўрђ‘ёрђ‘›рђ‘ё</quarter>
+							<quarter type="3">3рђ‘»рђ‘› рђ‘’рђ‘ўрђ‘ёрђ‘›рђ‘ё</quarter>
+							<quarter type="4">4рђ‘№рђ‘” рђ‘’рђ‘ўрђ‘ёрђ‘›рђ‘ё</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>рђ‘Ёрђ‘Ґ</am>
+				<pm>рђ‘ђрђ‘Ґ</pm>
+				<eras>
+					<eraNames>
+						<era type="0">рђ‘љрђ‘°рђ‘“рђ‘Єрђ‘® В·рђ‘’рђ‘®рђ‘Ірђ‘•рђ‘‘</era>
+						<era type="1">рђ‘Ёрђ‘™рђ‘ґ рђ‘›рђ‘Єрђ‘Ґрђ‘¦рђ‘™рђ‘°</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">рђ‘љВ·рђ‘’</era>
+						<era type="1">рђ‘Ёрђ‘›</era>
+					</eraAbbr>
+					<eraNarrow>
+						<era type="0">рђ‘љ</era>
+						<era type="1">рђ‘Ё</era>
+					</eraNarrow>
+				</eras>
+				<fields>
+					<field type="era">
+						<displayName>рђ‘Ѕрђ‘­</displayName>
+					</field>
+					<field type="year">
+						<displayName>рђ‘рђ‘Ѕ</displayName>
+					</field>
+					<field type="month">
+						<displayName>рђ‘Ґрђ‘­рђ‘™рђ‘”</displayName>
+					</field>
+					<field type="week">
+						<displayName>рђ‘ўрђ‘°рђ‘’</displayName>
+					</field>
+					<field type="day">
+						<displayName>рђ‘›рђ‘±</displayName>
+						<relative type="-3">рђ‘”рђ‘®рђ‘° рђ‘›рђ‘±рђ‘џ рђ‘­рђ‘њрђ‘ґ</relative>
+						<relative type="-2">рђ‘ћ рђ‘›рђ‘± рђ‘љрђ‘°рђ‘“рђ‘№ рђ‘рђ‘§рђ‘•рђ‘‘рђ‘ёрђ‘›рђ‘±</relative>
+						<relative type="-1">рђ‘рђ‘§рђ‘•рђ‘‘рђ‘ёрђ‘›рђ‘±</relative>
+						<relative type="0">рђ‘‘рђ‘­рђ‘›рђ‘±</relative>
+						<relative type="2">рђ‘ћ рђ‘›рђ‘± рђ‘Ёрђ‘“рђ‘‘рђ‘ё рђ‘‘рђ‘­рђ‘Ґрђ‘ёрђ‘ґ</relative>
+						<relative type="3">рђ‘”рђ‘®рђ‘° рђ‘›рђ‘±рђ‘џ рђ‘“рђ‘®рђ‘­рђ‘Ґ рђ‘™рђ‘¬</relative>
+					</field>
+					<field type="weekday">
+						<displayName>рђ‘›рђ‘± рђ‘ќ рђ‘ћ рђ‘ўрђ‘°рђ‘’</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>рђ‘Ёрђ‘Ґ/рђ‘ђрђ‘Ґ</displayName>
+					</field>
+					<field type="hour">
+						<displayName>рђ‘¬рђ‘®</displayName>
+					</field>
+					<field type="minute">
+						<displayName>рђ‘Ґрђ‘¦рђ‘™рђ‘¦рђ‘‘</displayName>
+					</field>
+					<field type="second">
+						<displayName>рђ‘•рђ‘§рђ‘’рђ‘­рђ‘™рђ‘›</displayName>
+					</field>
+					<field type="zone">
+						<displayName>рђ‘џрђ‘ґрђ‘Ї</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<gmtFormat>В·рђ‘њрђ‘Ґрђ‘‘{0}</gmtFormat>
+			<gmtZeroFormat>В·рђ‘њрђ‘Ґрђ‘‘</gmtZeroFormat>
+			<regionFormat>{0} рђ‘‘рђ‘Ірђ‘Ґ</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<posix>
+		<messages>
+			<yesstr>рђ‘рђ‘§рђ‘•:рђ‘</yesstr>
+			<nostr>рђ‘Їрђ‘ґ:рђ‘Ї</nostr>
+		</messages>
+	</posix>
+</ldml>

@@ -1,0 +1,17 @@
+<?
+
+$certificate = mysql_query("SELECT * FROM `ccl_certificates` WHERE `car` = '".intval($_GET['car'])."'");
+
+$car = @mysql_fetch_array(mysql_query("SELECT * FROM `ccl_cars` WHERE `id` = '".intval($_GET['car'])."'"));
+
+$supplier = mysql_fetch_array(mysql_query("SELECT ccl_suppliers.name, 
+ccl_suppliers.address 
+FROM `ccl_cars` 
+LEFT JOIN `ccl_suppliers` 
+ON(ccl_suppliers.id = ccl_cars.supplier) 
+WHERE ccl_cars.id = '".intval($_GET['car'])."'"));
+
+require($_SERVER['DOCUMENT_ROOT']."/mod/certificates/certificate.php");
+
+
+?>

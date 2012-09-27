@@ -1,0 +1,32 @@
+/* IE7 and Below Stylesheet for ADESA.com */
+/* Last updated by Mason Shewman, 4/13/2011 */
+
+
+/* Support for the "iehover-fix.js" */
+
+ul.nav iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: -1;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+}
+
+html ul.nav li { z-index: 201; }
+
+/* this is for IE 5.0
+select.hide { visibility: hidden; }
+
+/* End Support for the "iehover-fix.js" */
+
+
+
+/* Begin HasLayout Bug Fix */
+
+/* http://www.webmasterworld.com/css/3505480.htm */
+/* http://haslayout.net/css/Disappearing-Content-Bug */
+
+div.resultsContainer {zoom: 1.0;}
+
+/* End HasLayout Bug Fix */

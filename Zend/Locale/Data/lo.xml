@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.72 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="lo"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">ає­аєІаєџаєІ</language>
+			<language type="ab">а»Ѓає­аєљає„аєІа»ЂаєЉаєЌ</language>
+			<language type="af">ає­ає±аєџаєЈаєґаєЃаєІ</language>
+			<language type="am">ає­аєіає«аєІаєЈаєґаєЃ</language>
+			<language type="ar">ає­аєІаєЈає±аєљ</language>
+			<language type="as">ає­ає±аєЄаєЄаєі</language>
+			<language type="ay">а»„ає­аєЎаєІаєҐаєІ</language>
+			<language type="az">ає­аєІа»ЃаєЉаєЃаєљаєІаєЌаєЉаєІає™</language>
+			<language type="ba">аєљаєІаєЄаєЄаєµ</language>
+			<language type="be">а»ЂаєљаєҐаєІаєҐаєёає”аєЉаєµ</language>
+			<language type="bg">аєљаєёає™аєЃаєІаєЈаєµ</language>
+			<language type="bh">аєљаєµає®аєІаєЈаєµ</language>
+			<language type="bi">аєљаєґаєЄаєҐаєІаєЎаєІ</language>
+			<language type="bn">а»Ђаєљає±ає‡аєЃаєІає™</language>
+			<language type="bo">ає—аєґа»Ђаєљає”</language>
+			<language type="br">аєља»ЂаєЈаєµає•ає»ає‡</language>
+			<language type="bs">аєљає­аєЄає™аєµ</language>
+			<language type="ca">аєЃаєІає•аєІаєҐає±ає‡</language>
+			<language type="co">ає„а»ЌаєЉаєґаєЃа»‰аєІ</language>
+			<language type="cs">а»ЂаєЉає±аєЃ</language>
+			<language type="cy">а»Ѓає§ає§</language>
+			<language type="da">а»Ђає”ає±ає™аєЎаєІаєЃ</language>
+			<language type="de">а»ЂаєЌаєЌаєҐає°аєЎає±ає™</language>
+			<language type="dz">аєћає№ає–аєІає™аєµ</language>
+			<language type="el">аєЃа»ЂаєЈає±аєЃ</language>
+			<language type="en">ає­ає±ає‡аєЃаєґає”</language>
+			<language type="eo">а»Ђає­аєЄа»Ђає›аєЈає±ає‡а»‚ає•</language>
+			<language type="es">а»Ѓає­аєЄає›аєІа»‚аєЌає™</language>
+			<language type="et">а»Ђає­аєЄа»‚ає•ає™аєµ</language>
+			<language type="eu">аєљає±аєЄа»ЂаєЃаєµ</language>
+			<language type="fa">а»Ђає›аєµа»ЂаєЉаєЌ</language>
+			<language type="fi">а»Ѓаєџає‡аєҐає±ає‡</language>
+			<language type="fil">ає•аєІаєЃаєІаєҐа»Љає­аєЃ</language>
+			<language type="fj">аєџаєґає€аєґ</language>
+			<language type="fo">аєџаєІа»‚аєЈ</language>
+			<language type="fr">аєќаєЈає±а»€ає‡</language>
+			<language type="fy">аєџаєЈаєµаєЉаєЅає™</language>
+			<language type="ga">а»„ає­а»ЃаєҐає™</language>
+			<language type="gd">аєЄає°аєЃає±ає­ає” а»ЃаєЃаєҐаєґаєЃ</language>
+			<language type="gl">аєЃаєІаєҐаєґає”</language>
+			<language type="gn">аєЃає»ає§аєЈаєІає™аєµ</language>
+			<language type="gu">аєЃає№аєЉаєІаєЈаєІає•аєµ</language>
+			<language type="ha">а»‚ає­аєЉаєІ</language>
+			<language type="he">аєЌаєґає§</language>
+			<language type="hi">ає®аєґає™ає”ає№</language>
+			<language type="hr">а»‚аєЃаєЈає­аєІаєЉаєµ</language>
+			<language type="hu">ає®ає±ає‡аєЃаєІаєЈаєµ</language>
+			<language type="hy">ає­аєІаєЃа»ЂаєЎає™аєµ</language>
+			<language type="ia">ає­аєґає™а»Ђає•аєµаєҐаєґає‡аєЃаєІ</language>
+			<language type="id">ає­аєґає™а»‚ає”а»Ђає™а»ЂаєЉаєЌ</language>
+			<language type="ie">ає­аєґає™а»Ђає•аєµаєҐаєґає‡</language>
+			<language type="ik">а»„ає­ає™ає№ає›аєЅаєЃ</language>
+			<language type="is">ає­аєґаєЄаєҐає±ає‡</language>
+			<language type="it">ає­аєµає•аєІаєҐаєµ</language>
+			<language type="iu">а»„ає­ає™аєёаєЃає•аєґає•ає±аєЃ</language>
+			<language type="ja">аєЌаєµа»€ає›аєёа»€ає™</language>
+			<language type="jv">аєЉає§аєІ</language>
+			<language type="ka">аєЉає­аєЃаєЉаєµ</language>
+			<language type="kk">ає„аєІаєЉає±аєЃ</language>
+			<language type="kl">аєЃаєјаєµає™а»ЃаєҐає™ає”аєґає”</language>
+			<language type="km">аєЃаєіає›ає№а»Ђає€аєЌ</language>
+			<language type="kn">аєЃає±ає™ає™аєІає”аєІ</language>
+			<language type="ko">а»ЂаєЃає»аєІає«аєјаєµ</language>
+			<language type="ks">ає„ає±ає”аєЉає°аєЎаєµаєҐаєµ</language>
+			<language type="ku">а»Ђає„аєµає”аєґаєЄ</language>
+			<language type="ky">а»ЂаєЃаєЌаєЃаєґаєЄ</language>
+			<language type="la">аєҐаєІа»Ѓає•ає±ає‡</language>
+			<language type="ln">аєҐаєґає‡аєЃаєІаєҐаєІ</language>
+			<language type="lo">аєҐаєІає§</language>
+			<language type="lt">аєҐаєµає—ає»ає§ає™аєµ</language>
+			<language type="lv">аєҐає±ає”а»Ђає§аєЌ</language>
+			<language type="mg">аєЎаєІаєҐаєІаєЃаєІаєЉаєґ</language>
+			<language type="mi">а»ЂаєЎає»аєІаєҐаєµ</language>
+			<language type="mk">аєЎаєІа»ЂаєЉа»‚ає”ає™аєµ</language>
+			<language type="ml">аєЎаєІаєҐаєІаєўаєІаєҐаєі</language>
+			<language type="mn">аєЎає»ає‡а»‚аєЃає™</language>
+			<language type="mo">а»‚аєЎає„аєІа»Ђає§аєЌ</language>
+			<language type="mr">аєЎаєІаєЈаєІає—аєµ</language>
+			<language type="ms">аєЎаєІа»ЂаєҐ</language>
+			<language type="mt">аєЎаєІає™ає•аєІ</language>
+			<language type="my">аєћає°аєЎа»€аєІ</language>
+			<language type="na">ає™а»ЌаєҐає№</language>
+			<language type="ne">а»Ђає™ає›аєІає™</language>
+			<language type="nl">а»‚ає®ає™аєҐає±ає‡</language>
+			<language type="nn">ає™ає­аєЃа»Ѓає§ (ає™аєµає™ає­аєЃ)</language>
+			<language type="no">ає™ає­аєЃа»Ѓає§</language>
+			<language type="oc">ає­ає»аєЃаєЉаєµає•аєІає™</language>
+			<language type="om">а»‚ає­а»‚аєҐа»‚аєЎ(ає­аєІаєџаєІає™)</language>
+			<language type="or">а»‚ає­аєЈаєµаєўаєІ</language>
+			<language type="pa">ає›ає±ає™ає€аєІаєљ</language>
+			<language type="pl">а»‚ає›а»‚аєҐаєЌ</language>
+			<language type="ps">ає›аєІаєЄа»‚ає•</language>
+			<language type="pt">ає›ає­аєЃає•аєёаєЌаєЃаєІає™</language>
+			<language type="pt_BR">ає›ає­аєЃає•аєёаєЌаєЃаєІає™ (аєљаєЈаєІаєЉаєµає™)</language>
+			<language type="pt_PT">ає›ає­аєЃає•аєёаєЌаєЃаєІає™ (ає›ає­аєЃає•аєёаєЌаєЃаєІає™)</language>
+			<language type="qu">ає„аєґає§аєЉає»ає§</language>
+			<language type="rm">а»ЂаєҐа»‚ає•-а»‚аєҐа»ЃаєЎає™</language>
+			<language type="rn">ає„аєґаєҐає±ає™аєЄаєµ</language>
+			<language type="ro">а»‚аєЈаєЎаєІає™аєµ</language>
+			<language type="ru">аєҐає±ає”а»ЂаєЉаєЌ</language>
+			<language type="rw">ає„аєґає™аєЌаєІає§ає±ає™ає”аєІ</language>
+			<language type="sa">аєЄає±ає™аєЄає°аєЃаєґає”</language>
+			<language type="sd">аєЄаєґає™ає—аєґ</language>
+			<language type="sg">аєЄає±ає™а»‚ає„</language>
+			<language type="sh">а»ЃаєЉає±аєЃа»‚аєљ-а»‚аєЃаєЈа»Ѓає­ає±ає”</language>
+			<language type="si">аєЄаєґає‡ає«аєІає™</language>
+			<language type="sk">аєЄає°а»‚аєҐає§ає±аєЃаєЃаєµ</language>
+			<language type="sl">аєЄає°а»‚аєҐає§аєІає™аєµ</language>
+			<language type="sm">аєЉаєІаєЎає»ає§</language>
+			<language type="sn">а»‚аєЉає™аєІ</language>
+			<language type="so">а»‚аєЉаєЎаєІаєҐаєµ</language>
+			<language type="sq">ає­аєІає™аєљаєІає™аєµ</language>
+			<language type="sr">а»ЃаєЉаєЃаєљаєµ</language>
+			<language type="ss">аєЉаєґаєЄає§аєІає•аєґ</language>
+			<language type="st">а»ЂаєЉа»‚аєЉа»‚ає—</language>
+			<language type="su">аєЉає±ає™ає”аєІає™</language>
+			<language type="sv">аєЉає№а»Ѓає­ає±ає”</language>
+			<language type="sw">аєЉає§аєІає®аєµаєҐаєµ</language>
+			<language type="ta">ає—ає°аєЎаєґає™</language>
+			<language type="te">а»Ђає•аєҐає№аєЃає№</language>
+			<language type="tg">ає—аєІає€аєґає”</language>
+			<language type="th">а»„ає—</language>
+			<language type="ti">ає•аєµаєЃаєЈаєґає™аєўаєІ</language>
+			<language type="tk">ає•ає§аєЅаєЃа»ЂаєЎає™</language>
+			<language type="tl">ає•аєІаєЃаєІаєҐає±ає­аєЃ</language>
+			<language type="tlh">аєЃаєҐаєґає‡аєЃає­ає‡</language>
+			<language type="tn">а»ЂаєЉає•ає°аєЄає°ає§аєІає™аєІ</language>
+			<language type="to">ає—ає­ає‡аєЃа»‰аєІ</language>
+			<language type="tr">ає•ає§аєЃаєЃаєµ</language>
+			<language type="ts">аєЉає­ає‡аєЃаєІ</language>
+			<language type="tt">ає•аєІає”</language>
+			<language type="tw">ає•ає§аєµ</language>
+			<language type="ug">ає­аєёаєЌа»Ђає„аєµ</language>
+			<language type="uk">ає­ає№а»ЃаєЃаєЈає™</language>
+			<language type="ur">ає­ає№аєЈає°ає”ає№</language>
+			<language type="uz">ає­аєёає”аєЉає°а»Ђаєљає±аєЃаєЃаєґає”аєЄає°ає–аєІає™</language>
+			<language type="vi">ає«ає§аєЅає”ає™аєІаєЎ</language>
+			<language type="vo">а»‚ає§аєҐаєІаєћаєёаєЃ</language>
+			<language type="wo">ає§ає№аєљ</language>
+			<language type="xh">а»‚аєЉаєЉаєІ</language>
+			<language type="yi">аєўаєґає”ає”аєґаєЄ</language>
+			<language type="yo">а»‚аєўаєҐає№аєљаєІ</language>
+			<language type="za">ає€ає§ає‡</language>
+			<language type="zh">ає€аєµає™</language>
+			<language type="zu">аєЉає№аєҐає№</language>
+		</languages>
+		<territories>
+			<territory type="AD">ає­ає±ає™ає”а»ЌаєҐаєІ</territory>
+			<territory type="AE">аєЄає°ає«ає°аєҐає±ає”ає­аєІає«аєҐає±аєља»Ђає­аєЎаєґа»ЂаєҐає”</territory>
+			<territory type="AF">ає­ає±аєџаєЃаєІає™аєґає”аєЄає°ає–аєІає™</territory>
+			<territory type="AI">ає­ає±ає™аєЃаєґаєҐаєІ</territory>
+			<territory type="AL">а»Ѓає­аєҐа»Ђаєља»Ђає™аєЌ</territory>
+			<territory type="AM">ає­аєІаєЎаєґа»Ђає™аєЌ</territory>
+			<territory type="AN">а»Ђає™а»Ђає—аєµа»ЃаєҐає™а»Ѓає­ає™а»Ђає—аєґає™</territory>
+			<territory type="AO">ає­ає±ає™а»‚аєЃаєҐаєІ</territory>
+			<territory type="AR">ає­аєІа»Ђає€ає™ає•аєґає™аєІа»€</territory>
+			<territory type="AT">ає­ає»ає­ає”аєЄає°а»Ђає•аєјаєЌ</territory>
+			<territory type="AU">ає­ає»ає­ає”аєЄає°ає•аєІаєҐаєµ</territory>
+			<territory type="AW">ає­аєІаєҐає№аєљаєІ</territory>
+			<territory type="AZ">ає­аєІа»ЂаєЉаєµа»„аєљає€ає±ає™</territory>
+			<territory type="BA">аєљає±ає­ає”аєЄа»Ђає™аєЌ а»ЃаєҐає° а»Ђає®аєµає”а»‚аєЃає§аєґа»Ђає™аєЌ</territory>
+			<territory type="BB">аєљаєІаєљаєІає„ає±ає­ає”</territory>
+			<territory type="BD">аєљає±ає‡аєЃає°аєҐаєІа»Ђає—ає”</territory>
+			<territory type="BE">а»Ђаєљає§аєўаєЅаєЎ</territory>
+			<territory type="BF">а»ЂаєљаєµаєЃаєґає™аєІаєџаєІа»‚аєЉ</territory>
+			<territory type="BG">аєљає±ає‡аєЃаєІа»ЂаєҐаєЌ</territory>
+			<territory type="BH">аєљаєІа»ЂаєҐає™</territory>
+			<territory type="BI">аєљає№аєҐає±ає™ає•аєґ</territory>
+			<territory type="BJ">а»Ђаєљає™аєґає™</territory>
+			<territory type="BM">а»ЂаєљаєµаєЎаєґає§ає”аєІ</territory>
+			<territory type="BN">аєљає№ає®а»„ає™</territory>
+			<territory type="BO">а»‚аєљаєҐаєґа»Ђає§аєЌ</territory>
+			<territory type="BR">аєљаєјаєІаєЉаєґає§</territory>
+			<territory type="BS">аєљаєІає®аєІаєЎаєІаєЄ</territory>
+			<territory type="BT">аєћає№ає–аєІає™</territory>
+			<territory type="BW">аєљає­ає±ає”аєЄає°ає§аєІає™аєІ</territory>
+			<territory type="BY">а»Ђаєљає™аєҐаєІає®ає±аєЄ</territory>
+			<territory type="BZ">а»ЂаєљаєҐаєґаєЉ</territory>
+			<territory type="CA">аєЃаєІає™аєІає”аєІ</territory>
+			<territory type="CF">аєЄаєІає—аєІаєҐає°ає™ає°аєҐає±ає”ає­ає±аєљаєџаєјаєґаєЃаєЃаєІаєЃаєІає‡</territory>
+			<territory type="CG">ає„ає­ає‡а»‚аєЃ</territory>
+			<territory type="CH">аєЄає°ає§аєґає”а»ЂаєЉаєµа»ЃаєҐає™</territory>
+			<territory type="CI">аєќає±а»€ає‡ає—ає°а»ЂаєҐа»„ає­ає§а»ЌаєҐаєґ</territory>
+			<territory type="CL">аєЉаєґаєЄаєґ</territory>
+			<territory type="CM">ає„аєІа»ЂаєЎаєҐає№ає™</territory>
+			<territory type="CN">ає€аєµає™</territory>
+			<territory type="CO">а»‚ає„аєҐаєіа»ЂаєљаєЌ</territory>
+			<territory type="CR">ає„ає­аєЄає•аєІаєҐаєґаєЃаєІ</territory>
+			<territory type="CS">а»ЂаєЉаєµа»ЂаєљаєЌ</territory>
+			<territory type="CU">ає„аєґає§аєљаєІ</territory>
+			<territory type="CV">а»Ђає„аєљає§ає­ає”</territory>
+			<territory type="CY">а»„аєЉає›ає±аєјає”</territory>
+			<territory type="CZ">аєЄаєІає—аєІаєҐає°ає™ає°аєҐає±ає”а»ЂаєЉає±аєЃ</territory>
+			<territory type="DE">а»ЂаєўаєЌаєҐає°аєЎає±ає™</territory>
+			<territory type="DJ">ає„аєґа»‚аєљає•аєґ</territory>
+			<territory type="DK">а»Ђає”ає™аєЎаєІаєЃ</territory>
+			<territory type="DM">а»‚ає”а»ЂаєЎає™аєґаєЃаєІ</territory>
+			<territory type="DO">аєЄаєІає—аєІаєҐає°ає™ає°аєҐає±ає”а»‚ає”аєЎаєґає™аєґаєЃає±ає™</territory>
+			<territory type="DZ">а»Ѓає­аєҐає€аєґа»ЂаєҐаєЌ</territory>
+			<territory type="EC">а»Ђає­аєЃає§аєІає”а»Ќ</territory>
+			<territory type="EE">а»Ђає­аєЄа»‚ає•а»Ђає™аєЌ</territory>
+			<territory type="EG">ає­аєµаєўаєґаєљ</territory>
+			<territory type="EH">аєЉаєІає®аєІаєҐаєІає•ає°а»Ђає§ає±ає™ає•ає»аєЃ</territory>
+			<territory type="ER">ає­аєґає™аєЉаєµ</territory>
+			<territory type="ES">аєЄає°а»Ђає›ає™</territory>
+			<territory type="ET">а»Ђає­ає—аєґа»‚ає­а»Ђає›аєЌ</territory>
+			<territory type="FI">аєџаєґає™а»ЃаєҐає™</territory>
+			<territory type="FJ">аєџаєґає€аєґ</territory>
+			<territory type="FM">а»„аєЎа»‚ає„ає™аєґа»ЂаєЉаєЌ</territory>
+			<territory type="FR">аєќаєҐає±а»€ає‡</territory>
+			<territory type="GA">аєЃаєІаєљає­ає™</territory>
+			<territory type="GB">аєЄає°ає«ає°аєҐаєІає”аєЉає°ає­аєІає™аєІає€ає±аєЃ</territory>
+			<territory type="GE">ає€а»Ќа»Ђає€аєЌ</territory>
+			<territory type="GF">а»Ђаєџає±ає™аєЄаєЃаєґає§ає™аєІ</territory>
+			<territory type="GH">аєЃаєІає™а»€аєІ</territory>
+			<territory type="GM">а»ЃаєЃаєЎа»ЂаєљаєЌ</territory>
+			<territory type="GN">аєЃаєґає§ає™аєµ</territory>
+			<territory type="GP">аєЃає»ає§а»Ђає”аєµаєҐає№аєљ</territory>
+			<territory type="GQ">а»Ђає­ає„ає»ає§а»‚ає—а»ЂаєҐаєЌаєҐає°аєЃаєґає™аєµ</territory>
+			<territory type="GR">аєЃаєґаєјаєЃ</territory>
+			<territory type="GT">аєЃає»ає§а»Ђає•аєЎаєІаєҐаєІ</territory>
+			<territory type="GW">аєЃаєґає§ає™аєµ-аєљаєґаєЄа»‚аєЉ</territory>
+			<territory type="GY">аєЃає№аєўаєІає™аєІ</territory>
+			<territory type="HK">ає®а»€ає­ає‡аєЃає»ає‡</territory>
+			<territory type="HN">ає­ає§ає™ає„ає№аєЈає±аєЄ</territory>
+			<territory type="HR">а»‚ає„а»Ђає­а»ЂаєЉаєЌ</territory>
+			<territory type="HT">а»„ає­ає—аєµ</territory>
+			<territory type="HU">ає®ає»ає‡аєЃаєІаєЈаєµ</territory>
+			<territory type="ID">ає­аєґає™а»‚ає”а»Ђає™а»ЂаєЉаєЌ</territory>
+			<territory type="IE">а»„ає­а»ЃаєҐає™</territory>
+			<territory type="IL">ає­аєґаєЄаєҐає°а»Ђає­ає§</territory>
+			<territory type="IN">ає­аєґає™а»Ђає”аєЌ</territory>
+			<territory type="IQ">ає­аєµаєҐає±аєЃ</territory>
+			<territory type="IR">ає­аєµаєҐа»€аєІає™</territory>
+			<territory type="IS">а»„ає­аєЄа»ЃаєҐає™</territory>
+			<territory type="IT">ає­аєґає•аєІаєҐаєµ</territory>
+			<territory type="JM">ає€аєІа»„аєЎаєЃаєІ</territory>
+			<territory type="JO">ає€а»Ќа»Ѓає”ає™</territory>
+			<territory type="JP">аєЌаєµа»€ає›аєёа»€ає™</territory>
+			<territory type="KE">а»Ђає„ає™аєўа»€аєІ</territory>
+			<territory type="KG">а»Ђає”аєµаєЃаєґає”аєЄає°ає–аєІає™</territory>
+			<territory type="KH">аєЃаєіає›ає№а»Ђає€аєЌ</territory>
+			<territory type="KI">ає„аєµаєҐаєґаєљаєІає”</territory>
+			<territory type="KM">а»‚ає„а»‚аєЎаєЈає­ає”</territory>
+			<territory type="KP">а»ЂаєЃає»аєІає«аєҐаєµа»Ђа»њає·ає­</territory>
+			<territory type="KR">а»ЂаєЃає»аєІає«аєҐаєµа»ѓає•а»‰</territory>
+			<territory type="KW">ає„ає№а»Ђає§ає”</territory>
+			<territory type="KZ">ає„аєІаєЉає±ає”аєЄає°ає–аєІає™</territory>
+			<territory type="LA">аєҐаєІає§</territory>
+			<territory type="LB">а»ЂаєҐаєљаєІає™ає­ає™</territory>
+			<territory type="LI">а»„аєҐа»Ђає—ає™аєЄає°а»„ає•</territory>
+			<territory type="LK">аєЄаєµаєҐає±ає‡аєЃаєІ</territory>
+			<territory type="LR">аєҐаєґа»Ђаєљаєµа»ЂаєҐаєЌ</territory>
+			<territory type="LS">а»ЂаєҐа»‚аєЉа»‚ає—</territory>
+			<territory type="LT">аєҐаєґа»Ђає—аєµа»Ђає™аєЌ</territory>
+			<territory type="LU">аєҐаєёаєЃа»ЃаєЉаєЎа»ЂаєљаєµаєЃ</territory>
+			<territory type="LV">аєҐаєјаєІає”а»Ђає§аєЌ</territory>
+			<territory type="LY">аєҐаєґа»ЂаєљаєЌ</territory>
+			<territory type="MA">а»‚аєЎаєҐає±ає­аєЃа»‚ає„</territory>
+			<territory type="MC">а»‚аєЎає™аєІа»‚аєЃ</territory>
+			<territory type="MD">а»‚аєЎає™а»‚ає„ає§аєІ</territory>
+			<territory type="MG">аєЎаєІає„аєІаєЃає±аєЄаєЃаєІ</territory>
+			<territory type="MK">а»ЃаєЎаєЉаєґа»‚ає„а»Ђає™аєЌ</territory>
+			<territory type="ML">аєЎаєІаєҐаєґ</territory>
+			<territory type="MM">аєЄає°ає«ає°аєћаєІаєљаєћає°аєЎа»‰аєІ</territory>
+			<territory type="MN">аєЎає»ає‡а»‚аєЃаєҐаєµ</territory>
+			<territory type="MO">аєЎаєІа»ЂаєЃає»а»‰аєІ</territory>
+			<territory type="MQ">аєЎаєІає•аєґає™аєґаєЃ</territory>
+			<territory type="MR">аєЎа»ЌаєҐаєґаєЃає—аєІа»Ђає™аєЌ</territory>
+			<territory type="MS">аєЎає­ає™а»ЂаєЉаєµаєҐаєІає”</territory>
+			<territory type="MT">аєЎає±ає™ає•аєІ</territory>
+			<territory type="MU">аєЎа»ЌаєЈаєґає•аєЅає”</territory>
+			<territory type="MX">а»ЃаєЎає±аєЃаєЉаєґа»‚аєЃ</territory>
+			<territory type="MY">аєЎаєІа»ЂаєҐа»ЂаєЉаєЌ</territory>
+			<territory type="MZ">а»‚аєЎа»ЃаєЉаєЎаєљаєґаєЃ</territory>
+			<territory type="NA">ає™аєІаєЎаєґа»ЂаєљаєЌ</territory>
+			<territory type="NC">ає™аєґає§ає„аєІаєҐаєґа»‚ає„а»Ђає™аєЌ</territory>
+			<territory type="NE">а»„ає™а»Ђає€аєµ</territory>
+			<territory type="NG">а»„ає™ає€аєµа»ЂаєҐаєЌ</territory>
+			<territory type="NI">ає™аєґає„аєІаєҐаєІаєЃає»ає§</territory>
+			<territory type="NL">а»Ђає™а»Ђає—аєµа»ЃаєҐає™</territory>
+			<territory type="NO">ає™а»Ќа»Ђає§</territory>
+			<territory type="NP">а»Ђає™ає›аєІає™</territory>
+			<territory type="NU">ає™аєµаєўає№</territory>
+			<territory type="NZ">ає™аєґає§аєЉаєµа»ЃаєҐає™</territory>
+			<territory type="OM">а»‚ає­аєЎаєІає™</territory>
+			<territory type="PA">ає›аєІає™аєІаєЎаєІ</territory>
+			<territory type="PE">а»Ђає›аєҐає№</territory>
+			<territory type="PF">а»Ђаєџає±ає™аєЈа»‚аєћаєҐаєґає™аєµа»ЂаєЉаєЌ</territory>
+			<territory type="PG">ає›аєІає›ає»ає§ає™аєґає§аєЃаєµає™аєµ</territory>
+			<territory type="PH">аєџаєґаєҐаєґає›аєґає™</territory>
+			<territory type="PK">ає›аєІаєЃаєґаєЄає–аєІає™</territory>
+			<territory type="PL">а»‚ає›а»ЃаєҐає™</territory>
+			<territory type="PR">а»Ђає›аєµа»‚ає•аєҐаєґа»‚аєЃ</territory>
+			<territory type="PT">а»‚ає›ає•аєёаєЃаєЃає±ає™</territory>
+			<territory type="PY">ає›аєІаєҐаєІаєЃає§аєЌ</territory>
+			<territory type="QA">аєЃаєІає•аєІ</territory>
+			<territory type="RO">аєҐає№а»ЂаєЎа»Ђає™аєЌ</territory>
+			<territory type="RU">аєҐає±ає”а»ЂаєЉаєЌ</territory>
+			<territory type="RW">аєҐаєІає§ає±ає™ає”аєІ</territory>
+			<territory type="SA">аєЉаєІає­аєёає”аєґає­аєІаєҐає°а»ЂаєљаєЌ</territory>
+			<territory type="SC">а»ЂаєЉа»ЃаєЉає§</territory>
+			<territory type="SD">аєЉає№ає”аєІає™</territory>
+			<territory type="SE">аєЄає°ає§аєґа»Ђає”ає±ає™</territory>
+			<territory type="SG">аєЄаєґає‡аєЃає°а»‚ає›</territory>
+			<territory type="SI">аєЄає°а»‚аєҐа»Ђає§а»Ђає™аєЌ</territory>
+			<territory type="SK">аєЄає°а»‚аєҐає§аєІа»ЂаєЃаєЌ</territory>
+			<territory type="SL">а»ЂаєЉаєЌаєҐаєІаєЄаєґає­ає­ає™</territory>
+			<territory type="SN">аєЉаєґає™аєµаєЃає±ає™</territory>
+			<territory type="SO">а»‚аєЉаєЎаєІа»ЂаєҐаєЌ</territory>
+			<territory type="SR">аєЉає№аєҐаєґає™аєІаєЎаєґ</territory>
+			<territory type="SV">а»Ђає­аєЉаєІає§аєІає”а»Ќ</territory>
+			<territory type="SY">аєЉаєґа»ЂаєҐаєЌ</territory>
+			<territory type="SZ">аєЄає°ає§аєІаєЉаєґа»ЃаєҐає™</territory>
+			<territory type="TD">аєЉаєІає”</territory>
+			<territory type="TF">ає­аєІає™аєІа»Ђає‚ає”ає—аєІає‡а»ѓає•а»‰ає‚ає­ає‡аєќаєҐає±а»€ає‡а»ЂаєЄає”</territory>
+			<territory type="TG">а»‚ає•а»‚аєЃ</territory>
+			<territory type="TH">ає›ає°а»Ђає—ає”а»„ає—</territory>
+			<territory type="TJ">ає—аєІає€аєґаєЃаєґаєЄає°ає–аєІає™</territory>
+			<territory type="TK">а»‚ає—аєЃаєґа»‚аєҐ</territory>
+			<territory type="TL">ає•аєґаєЎа»Ќає•аєІа»Ђає§ає±ає™ає­ає­аєЃ</territory>
+			<territory type="TM">а»Ђає•аєЈаєµаєЃа»ЂаєЎає™аєґаєЄає°ає–аєІає™</territory>
+			<territory type="TN">ає•ає№ає™аєґа»ЂаєЉаєЌ</territory>
+			<territory type="TO">ає•ає­ає‡аєЃаєІ</territory>
+			<territory type="TR">ає•аєёає™аєЃаєµ</territory>
+			<territory type="TT">ає—аєґає™аєґа»Ѓає”ає”</territory>
+			<territory type="TW">а»„ає•а»‰ає«ає§ає±ає™</territory>
+			<territory type="TZ">ає—аєІає™аєЉаєІа»Ђає™аєЌ</territory>
+			<territory type="UA">аєўає№а»Ђає„аєјає™</territory>
+			<territory type="UG">ає­ає№аєЃаєІає™ає”аєІ</territory>
+			<territory type="US">аєЄає°ає«ає°аєҐає±ає”ає­аєІа»ЂаєЎаєҐаєґаєЃаєІ</territory>
+			<territory type="UY">аєҐає№аєЃає§аєЌає­аєёаєЈ</territory>
+			<territory type="UZ">ає­аєёає”а»ЂаєљаєЃаєґаєЄає°ає–аєІає™</territory>
+			<territory type="VA">ає§аєІає•аєґаєЃає±ає™</territory>
+			<territory type="VE">а»Ђає§а»Ђає™аєЉає№а»Ђає­аєҐаєІ</territory>
+			<territory type="VG">аєљаєЈаєґає—аєґає”а»Ђає§аєµає€аєґає™а»„ає­а»ЃаєҐає™</territory>
+			<territory type="VI">аєўає№а»Ђає­аєЄа»Ђає§аєµає€аєґає™а»„ає­а»ЃаєҐає™</territory>
+			<territory type="VN">ає«ає§аєЅає”ає™аєІаєЎ</territory>
+			<territory type="VU">ає§аєІає™ає»ає§ає•ає№</territory>
+			<territory type="YE">а»Ђаєўа»ЂаєЎає™</territory>
+			<territory type="YT">аєЎаєІаєўає­ає”</territory>
+			<territory type="ZA">ає­аєІаєџає°аєҐаєґаєЃаєІа»ѓає•а»‰</territory>
+			<territory type="ZM">а»ЃаєЉаєЎа»ЂаєљаєЌ</territory>
+			<territory type="ZW">аєЉаєґаєЎаєљає±аєља»Ђає§</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[а»€-а»Ќ а»† аєЃ ає‚ ає„ ає‡ ає€ аєЉ аєЌ ає”-ає— ає™-аєџ аєЎ-аєЈ аєҐ ає§ аєЄ ає« а»њ а»ќ ає­-ає№ ає»-аєЅ а»Ђ-а»„]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200B а»ђ-а»™]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>'</quotationStart>
+		<quotationEnd>'</quotationEnd>
+		<alternateQuotationStart>&quot;</alternateQuotationStart>
+		<alternateQuotationEnd>&quot;</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="buddhist">
+				<eras>
+					<eraAbbr>
+						<era type="0">аєћ.аєЄ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEEає—аєµа»€ d MMMM G y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<default choice="medium"/>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="long">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">аєЎ.аєЃ.</month>
+							<month type="2">аєЃ.аєћ.</month>
+							<month type="3">аєЎаєµ.ає™.</month>
+							<month type="4">аєЎ.аєЄ..</month>
+							<month type="5">аєћ.аєћ.</month>
+							<month type="6">аєЎаєґ.ає–.</month>
+							<month type="7">аєЃ.аєҐ.</month>
+							<month type="8">аєЄ.ає«.</month>
+							<month type="9">аєЃ.аєЌ.</month>
+							<month type="10">ає•.аєҐ.</month>
+							<month type="11">аєћ.ає€.</month>
+							<month type="12">ає—.ає§.</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">аєЎає±ає‡аєЃає­ає™</month>
+							<month type="2">аєЃаєёаєЎаєћаєІ</month>
+							<month type="3">аєЎаєµає™аєІ</month>
+							<month type="4">а»ЂаєЎаєЄаєІ</month>
+							<month type="5">аєћає¶ає”аєЄає°аєћаєІ</month>
+							<month type="6">аєЎаєґає–аєёає™аєІ</month>
+							<month type="7">аєЃа»ЌаєҐає°аєЃає»ає”</month>
+							<month type="8">аєЄаєґає‡ає«аєІ</month>
+							<month type="9">аєЃає±ає™аєЌаєІ</month>
+							<month type="10">ає•аєёаєҐаєІ</month>
+							<month type="11">аєћає°ає€аєґаєЃ</month>
+							<month type="12">ає—ає±ає™ає§аєІ</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">ає­аєІ.</day>
+							<day type="mon">ає€.</day>
+							<day type="tue">ає­.</day>
+							<day type="wed">аєћ.</day>
+							<day type="thu">аєћає«.</day>
+							<day type="fri">аєЄаєЃ.</day>
+							<day type="sat">аєЄ.</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">ає§ає±ає™ає­аєІає—аєґає”</day>
+							<day type="mon">ає§ає±ає™ає€ає±ає™</day>
+							<day type="tue">ає§ає±ає™ає­ає±ає‡ає„аєІає™</day>
+							<day type="wed">ає§ає±ає™аєћаєёає”</day>
+							<day type="thu">ає§ає±ає™аєћає°ає«ає±ає”</day>
+							<day type="fri">ає§ає±ає™аєЄаєёаєЃ</day>
+							<day type="sat">ає§ає±ає™а»ЂаєЄає»аєІ</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>аєЃа»€ає­ає™ає—а»€аєЅає‡</am>
+				<pm>ає«аєҐає±ає‡ає—а»€аєЅає‡</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">ає›аєµаєЃа»€ає­ає™ає„аєґає”аєЄає°аєЃаєІає™ає—аєµа»€</era>
+						<era type="1">ає„.аєЄ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEEає—аєµ d MMMM G y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>Hа»‚аєЎає‡ mає™аєІає—аєµ ss ає§аєґає™аєІає—аєµzzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>H а»‚аєЎає‡ mає™аєІає—аєµss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>H:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>H:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="long">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##0.00;В¤-#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="LAK">
+				<displayName>аєЃаєµаєљ</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>
+

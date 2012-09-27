@@ -1,0 +1,125 @@
+﻿body{text-align:center; background:url(../image/BLHdrBack.png) repeat-x;}
+
+/*** HEADER ***/
+#APPage{width: 100%;}
+#APHdr{width: 100%; height:171px; background:url(../image/BLHdrBack.png) repeat-x;font-family:Verdana,Arial,Helvetica,sans-serif;}
+#APHdrCtr{width:960px;margin:0 auto; text-align:left;}
+#APHdrLeft{float:left; margin:30px 0px 36px 5px; height:80px;width:220px;background:url(../image/BLHeaderAP.png) no-repeat;}
+#APHdrLeft a, #APHdrLeft img{width:100%;height:100%;}
+#APHdrRight{float:right;padding-top:16px;font-size:11px;}
+#APHelp{float:right;}
+#APHelp a{text-decoration:none; color:White; padding-right:12px;background:url(../image/BLHdrArrow.png) no-repeat center right;}
+#APLogout{float:right; margin-right:20px;}
+#APLogout a{text-decoration:none; color:White; padding-right:12px;background:url(../image/BLHdrArrow.png) no-repeat center right;}
+#APUser{color:#ffc519; float:right; margin-right:30px;}
+#APWelcome{float:right; color:White; margin-right:5px;}
+#APPlus{float:right; margin-right:15px;background:url(../image/BLHdrPlus.png) no-repeat; height:26px; width: 79px; margin-top: -2px; }
+#APAucLogo{clear:right; float:right; height:80px; margin-top:10px; vertical-align:bottom; position:relative;}
+#APAucLogo img{bottom:0px; right:0px; position:absolute;}
+#APQSearch{float:right;height:16px; text-align:right;margin-top:5px;}
+#APQSearch form{margin:0;padding:0;}
+#APQSearch label{font-size:12px;color:#c86813; display:none;}
+#quicksearch{background-color:white;font-size:12px;border:solid 1px #20428a; padding:3px; width:115px; margin-left:5px; margin-right:8px; height:16px;}
+#quicksubmit{width:70px;height:23px; margin-top:1px;}
+#HdrDesc{height:35px; clear:both; display:none; width:960px;margin:0 auto; text-align:left;}
+#HdrPlus{float:left; width:30px;margin-top:10px; display:none;}
+#HdrDescTitle{font-size:24px; color:#DFAE1B; padding: 10px 0px 0px 0px; font-weight: 600;float:left; }
+#HdrDescCont{font-size:12px; color:dimgray; float:left; padding: 7px 0px 0px 15px; font-family:Verdana, Arial;} 
+#APPlusDia{display:none;}
+#APContent{width:960px;margin:0 auto; text-align:left; margin-top:10px;}
+
+/*** MENU CORE ***/
+#APMenu{position:absolute; top:136px;width:960px;margin:0 auto; text-align:left;clear:both;font-family:Arial;z-index:99;}
+.sf-menu, .sf-menu * {margin:0;padding:0;list-style:none;}
+.sf-menu {line-height:1.0;}
+.sf-menu ul {position:absolute;top:-999em;width:12em; /* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%;}
+.sf-menu li:hover {visibility:inherit; /* fixes IE7 'sticky bug' */}
+.sf-menu li {float:left;position:relative;}
+.sf-menu a {display:block;position:relative;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {left:0;top:2.5em; /* match top ul list item height */z-index:99;}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:	-999em;}
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul {left:10em; /* match ul width */top:0;}
+ul.sf-menu li li:hover li ul,ul.sf-menu li li.sfHover li ul {top:-999em;}
+ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {left:10em; /* match ul width */top:0;}
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {top:35px;}
+/*** MENU CUSTOM ***/
+.sf-menu {float:left;margin-bottom:	1em;}
+.sf-menu a {padding:12px;text-decoration:none;color:White;}
+.sf-menu li ul{border-left:solid 1px #c4c4c4; border-right:solid 1px #c4c4c4; border-bottom:solid 1px #c4c4c4;}
+.sf-menu li li a, .sf-menu li li a:visited{color:#20428a; padding-top:8px; padding-bottom: 8px; padding-left:22px;}
+.sf-menu li li {background-color:#e1e1e1;color:#20428a;}
+.sf-menu li:hover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {background:white;color:#20428a;outline:0;}
+.sf-menu li.sfHover, .sf-menu li.sfHover a {background:#e1e1e1;color:#20428a;}
+.sf-menu li li:hover, .sf-menu li li.sfHover, .sf-menu li a:focus, .sf-menu li a:hover, .sf-menu li a:visited:hover, .sf-menu li a:active {background:white;color:#0061d1;outline:0;}
+
+
+
+/*** AUCTION PICKER ***/
+#ddAuctionLists {width:200px;}
+.dlrSel{z-index:1;margin:0 auto; text-align:left;width:960px;background-color:#e2e2e2;height:470px;font-family:arial; border:solid 1px #c4c4c4;font-size:12px;}
+.dlrSel .dlrCont{padding: 20px 20px 0px 20px;}
+.dlrSel #title{font-size:26px;color:#20428a;font-family:Verdana, Arial; font-weight:600;  float:left; margin-top:-2px;}
+.dlrSel	#dir{width:250px; color:dimgray;  position:absolute; left:425px; top:45px; z-index:2; font-size:14px; text-align:center;}
+.dlrSel #map{height:390px; width:660px; float:left;}
+.dlrSel #rtPanel{float:right;width:240px;}
+.dlrSel #ltPanel{float:left;width:665px;}
+.dlrSel #selGroup{float:right;}
+.dlrSel #ddList{padding:2px;border:solid 1px gray; width:240px; color:gray;}
+.dlrSel #btnOK{float:right; margin-top:15px;}
+.button{font-size:12px; color:white; background-color:#20428a; padding:4px 0px; width:73px; text-align:center;border:solid 1px #2c8eff; cursor:pointer;}
+.buttonDiff{font-size:12px; color:#444; background-color:#C4C4C4; margin: 5px 0px 0px; padding:4px 0px; width:73px; text-align:center;border:solid 1px #9DA0A5; cursor:pointer;}
+.dlrSel #buttons{margin-top:8px; float:right;}
+.dlrSel #btnSave{display:none;float:right;margin-right:10px;}
+.dlrSel #btnCancel{display:none;float:right;}
+.dlrSel #btnNew{float:right;}
+.dlrSel #btnRename{float:right;margin-right:6px;}
+.dlrSel #btnDelete{float:right;margin-right:6px;}
+.dlrSel #txtList{padding:2px;border:solid 1px gray; width:217px; display:none;}
+.dlrSel #auctions{clear:both; padding-top:0px; }
+.dlrSel #selAuctions{background-color:#f2f2f2;width:237px;border:solid 1px #c4c4c4;height:325px;margin-top:10px; overflow-y:auto;float:right;}
+.dlrSel #selAuctions .auction{padding:4px 4px 4px 8px;}
+.dlrSel #selAuctions .auction:hover{background-color:#edf4fc;}
+.dlrSel #mover {position:absolute; line-height:1.4em;  left:80px; top:345px; width:205px; height:90px; background-color:#EEEEEE; border: solid 1px silver; padding:10px; font-size:12px;}
+.dlrSel #btnCont {position:absolute; line-height:1.4em;  right:260px; top:345px; width:85px; height:60px; font-size:12px;}
+.dlrSel .aname {color:dimgray; font-family:verdana;font-size:10px;padding-left:10px;}
+.dlrSel .aCity {font-weight:bold;}
+
+
+/*** AUCTION INFO ***/
+#aucAuctionLists {display:none;}
+.aucSel{z-index:1;margin:0 auto;width:960px;background-color:#e2e2e2;font-family:arial; border:solid 1px #c4c4c4;font-size:12px;}
+.aucSel .aucCont{}
+.aucSel #title{font-size:26px;color:#20428a;text-align:left;font-family:Verdana, Arial; font-weight:600; margin-top:-2px;}
+.aucSel	#dir{width:250px; color:dimgray; z-index:2; font-size:14px; float:right;}
+.aucSel #map{height:390px; width:660px; margin:0px auto;}
+.aucSel #topPanel{width:660px;margin:0px auto;}
+.aucSel #bottomPanel{display:none;width:890px;margin:20px auto 20px;border:1px solid #DBDAD8;background-color:#FCFCFC}
+.aucSel #instructionsPanel{width:890px;height:250px;margin:20px auto 20px;border:1px solid #DBDAD8;background-color:#FCFCFC;text-align:center;}
+.aucSel #instructionsPanel #instructionsTitle{font-size:40px;padding:70px 0px 20px;}
+.aucSel #instructionsPanel #instructionsText{font-size:16px;}
+.aucSel #aucMapEvents { float: left; }
+.aucSel #aucMiniMap{height:210px;width:420px;margin:20px 0px 20px 15px;border:1px solid #DBDAD8;}
+.aucSel #aucDetails{width:420px;float:right;margin:20px 15px 0px 0px;color:#525252;}
+.aucSel #aucDetailsInfo{font-size:14px;line-height:20px;height:100px;}
+.aucSel #aucDetails a, .aucSel #aucDetails a:active, .aucSel #aucDetails a:visited {color:#525252;font-weight:600;}
+.aucSel #aucDetailsInfo .auctionName{font-size:20px;font-weight:900;color:#001652;}
+.aucSel #aucDetailsContacts{text-align:left;margin:10px 0px;}
+.aucSel #aucDetailsContacts .contName{font-size:14px;font-weight:900;color:#001652;}
+.aucSel #aucDetailsContacts .contPosition{font-size:12px;font-weight:600;color:#001652;}
+.aucSel #aucDetailsContacts .aucContact{text-align:left;margin:10px 0px;}
+.aucSel #aucEventsCont{width:400px;margin:0px 0px 20px 15px;padding:20px 0px 20px 20px;background-color:#e2e2e2;border:solid 1px #c4c4c4;}
+.aucSel #aucEventsCont h1{text-align:center;color:#001652;margin-top:0px;}
+.aucSel #aucEvents{line-height:18px;}
+a.linkEvent {color:#001652;}
+.aucSel #aucEvents .aucEvent{margin:10px 0px;text-align:left;}
+.aucSel #aucEvents .aucEventName{font-size:14px;font-weight:900;color:#001652;}
+.aucSel #aucEvents .aucEventSaleType{font-size:12px;font-weight:600;color:#001652;}
+.aucSel #aucEvents .aucEventPromoText{text-align:left;margin:10px 0px;width:200px;font-weight:600;font-style:italic;}
+.aucSel #aucEvents .aucEventDate{text-align:left;margin:10px 0px;width:200px;}
+.aucSel #selAuctions{display:none;}
+.aucSel #mover {position:absolute;right:15px;top:255px;width:205px;height:90px;background-color:#EEEEEE;border: solid 1px silver;padding:10px;font-size:12px;line-height:1.4em;}
+.aucSel .aname {color:dimgray; font-family:verdana;font-size:10px;padding-left:10px;}
+.aucSel .aCity {font-weight:bold;}
+.aucSel .clear {clear:both;}

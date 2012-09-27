@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.3 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="oc"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="ar">arabi</language>
+			<language type="art">lenga artificiala</language>
+			<language type="az">azerbaijani</language>
+			<language type="ber">berbГЁr</language>
+			<language type="br">breton</language>
+			<language type="ca">catalan</language>
+			<language type="cel">lenga celtica</language>
+			<language type="da">danГ©s</language>
+			<language type="de">aleman</language>
+			<language type="el">grec</language>
+			<language type="en">anglГ©s</language>
+			<language type="es">espanhГІl</language>
+			<language type="eu">bГ scol</language>
+			<language type="fr">francГ©s</language>
+			<language type="frm">francГ©s mejan</language>
+			<language type="grc">grec ancian</language>
+			<language type="he">ebreu</language>
+			<language type="hy">armГЁni</language>
+			<language type="it">italian</language>
+			<language type="la">latin</language>
+			<language type="nl_BE">flamenc</language>
+			<language type="oc">occitan</language>
+			<language type="phn">fenician</language>
+			<language type="pro">occitan ancian</language>
+			<language type="pt">portuguГ©s</language>
+			<language type="roa">lenga romanГ§a</language>
+			<language type="zh">chinГ©s</language>
+		</languages>
+		<scripts>
+			<script type="Arab">arabi</script>
+			<script type="Armn">armГЁni</script>
+			<script type="Cyrl">cirilic</script>
+			<script type="Grek">grec</script>
+			<script type="Hani">chinГ©s</script>
+			<script type="Hebr">ebreu</script>
+			<script type="Jpan">japonГ©s</script>
+			<script type="Latn">latin</script>
+			<script type="Phnx">fenician</script>
+			<script type="Syre">siriac estranguelo</script>
+			<script type="Syrj">siriac occidental</script>
+			<script type="Syrn">siriac oriental</script>
+		</scripts>
+		<territories>
+			<territory type="002">Africa</territory>
+			<territory type="013">America centrala</territory>
+			<territory type="019">Americas</territory>
+			<territory type="053">AustrГ lia e NГІva Zelanda</territory>
+			<territory type="142">Asia</territory>
+			<territory type="143">Asia centrala</territory>
+			<territory type="150">EurГІpa</territory>
+			<territory type="AD">AndГІrra</territory>
+			<territory type="AF">Afganistan</territory>
+			<territory type="AG">Antigua e Barbuda</territory>
+			<territory type="AI">Anguilla</territory>
+			<territory type="AL">Albania</territory>
+			<territory type="AM">ArmГЁnia</territory>
+			<territory type="AO">AngГІla</territory>
+			<territory type="AQ">Antartica</territory>
+			<territory type="AR">Argentina</territory>
+			<territory type="AS">SamГІa americana</territory>
+			<territory type="AT">ГЂustria</territory>
+			<territory type="AU">AustrГ lia</territory>
+			<territory type="AZ">Azerbaijan</territory>
+			<territory type="BA">BГІsnia e Ercegovina</territory>
+			<territory type="BB">Barbados</territory>
+			<territory type="BD">Bangladesh</territory>
+			<territory type="BE">Belgica</territory>
+			<territory type="BF">Burkina Faso</territory>
+			<territory type="BG">BolgГ ria</territory>
+			<territory type="BH">Bahrain</territory>
+			<territory type="BI">Burundi</territory>
+			<territory type="BJ">Benin</territory>
+			<territory type="BM">Bermuda</territory>
+			<territory type="BN">Brunei</territory>
+			<territory type="BO">BolГ­via</territory>
+			<territory type="BR">Brasil</territory>
+			<territory type="BS">Bahamas</territory>
+			<territory type="BT">Botan</territory>
+			<territory type="BV">Isla Bouvet</territory>
+			<territory type="BW">Botswana</territory>
+			<territory type="BY">Bielorussia</territory>
+			<territory type="BZ">Belize</territory>
+			<territory type="CA">CanadГ </territory>
+			<territory type="CD">CГІngo - Kinshasa</territory>
+			<territory type="CF">Republica Centraficana</territory>
+			<territory type="CG">CГІngo - Brazzaville</territory>
+			<territory type="CH">SoГЇssa</territory>
+			<territory type="CI">CГІsta d'EvГІri</territory>
+			<territory type="CL">Chile</territory>
+			<territory type="CM">Cameron</territory>
+			<territory type="CN">China</territory>
+			<territory type="CO">ColГіmbia</territory>
+			<territory type="CR">CГІsta Rica</territory>
+			<territory type="CU">Cuba</territory>
+			<territory type="CV">Cap Verd</territory>
+			<territory type="CY">Chipre</territory>
+			<territory type="CZ">Republica chГЁca</territory>
+			<territory type="DE">Alemanha</territory>
+			<territory type="DJ">Jiboti</territory>
+			<territory type="DK">Danemarc</territory>
+			<territory type="DO">Republica dominicana</territory>
+			<territory type="DZ">Argeria</territory>
+			<territory type="EC">EqГјator</territory>
+			<territory type="EE">EstГІnia</territory>
+			<territory type="EG">Egipte</territory>
+			<territory type="ER">EritrГЁa</territory>
+			<territory type="ES">Espanha</territory>
+			<territory type="ET">Etiopia</territory>
+			<territory type="FI">FinlГ ndia</territory>
+			<territory type="FJ">Fiji</territory>
+			<territory type="FR">FranГ§a</territory>
+			<territory type="GA">Gabon</territory>
+			<territory type="GB">Reiaume Unit</territory>
+			<territory type="GF">Guiana francesa</territory>
+			<territory type="GQ">GuinГЁa EqГјatoriala</territory>
+			<territory type="HR">CroГ cia</territory>
+			<territory type="IL">IsraГЁl</territory>
+			<territory type="IN">ГЌndia</territory>
+			<territory type="IT">ItГ lia</territory>
+			<territory type="JP">Japon</territory>
+			<territory type="KH">CambГІja</territory>
+			<territory type="KM">ComГІros</territory>
+			<territory type="KP">CorГЁa del NГІrd</territory>
+			<territory type="KR">CorГЁa del Sud</territory>
+			<territory type="KY">Islas Caiman</territory>
+			<territory type="KZ">Cazacstan</territory>
+			<territory type="LY">Libia</territory>
+			<territory type="MA">MarrГІc</territory>
+			<territory type="MC">MГіnegue</territory>
+			<territory type="MM">Birmania</territory>
+			<territory type="MR">MauritГ nia</territory>
+			<territory type="MZ">MoГ§ambic</territory>
+			<territory type="PE">PerГі</territory>
+			<territory type="PT">Portugal</territory>
+			<territory type="PW">Belau</territory>
+			<territory type="QU">Union EuropГЁa</territory>
+			<territory type="RU">Russia</territory>
+			<territory type="SA">Arabia Saudita</territory>
+			<territory type="SV">Lo Salvador</territory>
+			<territory type="SY">SГєria</territory>
+			<territory type="TD">Chad</territory>
+			<territory type="TL">TimГІr Г€st</territory>
+			<territory type="UA">UcrГ ina</territory>
+			<territory type="US">Estats Units</territory>
+			<territory type="VE">VeneГ§uГЁla</territory>
+			<territory type="VN">Vietnam</territory>
+			<territory type="ZZ">Desconegut o Region invalida</territory>
+		</territories>
+		<keys>
+			<key type="calendar">calendier</key>
+			<key type="collation">ГІrde alfabetic</key>
+			<key type="currency">moneda</key>
+		</keys>
+		<codePatterns>
+			<codePattern type="language">Lenga: {0}</codePattern>
+			<codePattern type="script">Escritura: {0}</codePattern>
+			<codePattern type="territory">Region: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[a ГЎ Г  b-e Г© ГЁ f-i Г­ ГЇ j-o Гі ГІ p-u Гє Гј v-z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[ГЎ Г  Г§ Г© ГЁ Г­ ГЇ Гі ГІ Гє Гј]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-z]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">geniГЁr</month>
+							<month type="2">febriГЁr</month>
+							<month type="3">marГ§</month>
+							<month type="4">abril</month>
+							<month type="5">mai</month>
+							<month type="6">junh</month>
+							<month type="7">julhet</month>
+							<month type="8">agost</month>
+							<month type="9">setembre</month>
+							<month type="10">octГІbre</month>
+							<month type="11">novembre</month>
+							<month type="12">dezembre</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="wide">
+							<day type="sun">Dimenge</day>
+							<day type="mon">diluns</day>
+							<day type="tue">dimarГ§</day>
+							<day type="wed">dimГЁcres</day>
+							<day type="thu">dijГІus</day>
+							<day type="fri">divГЁndres</day>
+							<day type="sat">dissabte</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<fields>
+					<field type="era">
+						<displayName>era</displayName>
+					</field>
+					<field type="year">
+						<displayName>annada</displayName>
+					</field>
+					<field type="month">
+						<displayName>mes</displayName>
+					</field>
+					<field type="week">
+						<displayName>setmana</displayName>
+					</field>
+					<field type="day">
+						<displayName>jorn</displayName>
+						<relative type="-1">iГЁr</relative>
+						<relative type="0">uГЁi</relative>
+						<relative type="1">deman</relative>
+					</field>
+					<field type="weekday">
+						<displayName>jorn de la setmana</displayName>
+					</field>
+					<field type="hour">
+						<displayName>ora</displayName>
+					</field>
+					<field type="minute">
+						<displayName>minuta</displayName>
+					</field>
+					<field type="second">
+						<displayName>segonda</displayName>
+					</field>
+					<field type="zone">
+						<displayName>zГІna</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<regionFormat>Ora de: {0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<currencies>
+			<currency type="EUR">
+				<displayName>euro</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="day">
+			<unitPattern count="other">{0} jorns</unitPattern>
+		</unit>
+		<unit type="hour">
+			<unitPattern count="other">{0} oras</unitPattern>
+		</unit>
+		<unit type="minute">
+			<unitPattern count="other">{0} minutas</unitPattern>
+		</unit>
+		<unit type="month">
+			<unitPattern count="other">{0} mes</unitPattern>
+		</unit>
+		<unit type="second">
+			<unitPattern count="other">{0} segondas</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="other">{0} setmanas</unitPattern>
+		</unit>
+		<unit type="year">
+			<unitPattern count="other">{0} annadas</unitPattern>
+		</unit>
+	</units>
+</ldml>

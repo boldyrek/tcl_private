@@ -1,0 +1,2782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: makmal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-13 15:55+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gizzat <gizzat@makmalauto.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: KYRGYZSTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../account_admin/lib/class.AdministratorsAbstract.php:378
+msgid "Привет"
+msgstr "Привет"
+
+#: ../account_admin/lib/class.AdministratorsAbstract.php:378
+msgid "выйти"
+msgstr "выйти"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:105
+#, fuzzy
+msgid "Список аккаунтов"
+msgstr "Список шаблонов"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:109
+msgid "название"
+msgstr "название"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:131
+#, fuzzy
+msgid "Данные для аккаунта"
+msgstr "цена для клиента"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:131
+#, fuzzy
+msgid "Создание нового аккаунта"
+msgstr "Добавить еще одного клиента"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:142
+msgid "Название"
+msgstr "Название"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:148
+#, fuzzy
+msgid "E-Mail владельца"
+msgstr "по владельцу"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:154
+msgid "Идентицикационное слово"
+msgstr "Идентицикационное слово"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:160
+msgid "Логин"
+msgstr "Логин"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:172
+#, fuzzy
+msgid "Пароль"
+msgstr "пароль"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:178
+#, fuzzy
+msgid "Подтверждение"
+msgstr "подтвердил"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:190
+#, fuzzy
+msgid "Активен"
+msgstr "активный"
+
+#: ../account_admin/lib/class.AdministratorsAccount.php:200
+#, fuzzy
+msgid "Удалить аккаунт"
+msgstr "Добавить клиента"
+
+#: ../account_admin/lib/class.AdministratorsAdmin.php:66
+msgid "Администраторы аккаунтов"
+msgstr "Администраторы аккаунтов"
+
+#: ../account_admin/lib/class.AdministratorsAdmin.php:66
+#, fuzzy
+msgid "Добавить администратора"
+msgstr "Добавить комментарий"
+
+#: ../account_admin/lib/class.AdministratorsAdmin.php:69
+msgid "логин"
+msgstr "логин"
+
+#: ../account_admin/lib/class.AdministratorsAdmin.php:70
+msgid "имя"
+msgstr "имя"
+
+#: ../lib/class.Proto.php:550
+msgid "Cars.com"
+msgstr "Cars.com"
+
+#: ../lib/class.Proto.php:551
+msgid "Grabber"
+msgstr "Grabber"
+
+#: ../lib/class.Proto.php:556
+msgid "продажа автомобилей"
+msgstr "продажа автомобилей"
+
+#: ../lib/class.Proto.php:561
+msgid "аукционы"
+msgstr "аукционы"
+
+#: ../lib/class.Proto.php:562
+msgid "отчеты"
+msgstr "отчеты"
+
+#: ../lib/class.Proto.php:563
+msgid "бухгалтерия"
+msgstr "бухгалтерия"
+
+#: ../lib/class.Proto.php:564
+msgid "контейнеры"
+msgstr "контейнеры"
+
+#: ../lib/class.Proto.php:565
+msgid "пользователи"
+msgstr "пользователи"
+
+#: ../lib/class.Proto.php:567
+msgid "файлы"
+msgstr "файлы"
+
+#: ../lib/class.Proto.php:568
+#, fuzzy
+msgid "настройки профиля"
+msgstr "марки автомобиля"
+
+#: ../lib/class.Proto.php:585
+msgid "На первую страницу"
+msgstr "На первую страницу"
+
+#: ../lib/class.Proto.php:590
+msgid "У вас нет доступа для просмотра этой страницы!"
+msgstr "У вас нет доступа для просмотра этой страницы!"
+
+#: ../lib/class.Proto.php:598
+msgid "Для данного типа пользователя меню не существует!"
+msgstr "Для данного типа пользователя меню не существует!"
+
+#: ../lib/class.Proto.php:627
+msgid "Не найден файл содержащий меню пользователей"
+msgstr "Не найден файл содержащий меню пользователей"
+
+#: ../lib/class.Proto.php:636
+msgid "Не найден файл с правами пользователей!"
+msgstr "Не найден файл с правами пользователей!"
+
+#: ../lib/class.Proto.php:793
+msgid "на следующую страницу"
+msgstr "на следующую страницу"
+
+#: ../lib/class.Proto.php:796
+msgid "на последнюю страницу"
+msgstr "на последнюю страницу"
+
+#: ../lib/class.Proto.php:892
+msgid "Система уведомлений Makmal-Auto"
+msgstr "Система уведомлений Makmal-Auto"
+
+#: ../lib/menu.php:6
+#, fuzzy
+msgid "ГЛАВНАЯ"
+msgstr "КЛИЕНТЫ"
+
+#: ../lib/menu.php:7
+#: ../lib/menu.php:26
+#: ../lib/menu.php:34
+#: ../lib/menu.php:51
+#: ../lib/menu.php:73
+msgid "КЛИЕНТЫ"
+msgstr "КЛИЕНТЫ"
+
+#: ../lib/menu.php:8
+#: ../lib/menu.php:27
+#: ../lib/menu.php:35
+#: ../lib/menu.php:42
+#: ../lib/menu.php:52
+#: ../lib/menu.php:65
+#: ../lib/menu.php:69
+msgid "АВТОМОБИЛИ"
+msgstr "АВТОМОБИЛИ"
+
+#: ../lib/menu.php:9
+#: ../lib/menu.php:53
+msgid "ТОВАРЫ"
+msgstr "ТОВАРЫ"
+
+#: ../lib/menu.php:10
+#: ../lib/menu.php:54
+msgid "МАШИНЫ К ПОКУПКЕ"
+msgstr "МАШИНЫ К ПОКУПКЕ"
+
+#: ../lib/menu.php:11
+#: ../lib/menu.php:29
+#: ../lib/menu.php:37
+#: ../lib/menu.php:55
+msgid "ИНВОЙСЫ"
+msgstr "ИНВОЙСЫ"
+
+#: ../lib/menu.php:12
+#: ../lib/menu.php:30
+#: ../lib/menu.php:38
+#: ../lib/menu.php:56
+msgid "КОНТРАКТЫ"
+msgstr "КОНТРАКТЫ"
+
+#: ../lib/menu.php:13
+#: ../lib/menu.php:28
+#: ../lib/menu.php:36
+#: ../lib/menu.php:57
+#: ../lib/menu.php:74
+msgid "КОНТЕЙНЕРЫ"
+msgstr "КОНТЕЙНЕРЫ"
+
+#: ../lib/menu.php:14
+msgid "БУХГАЛТЕРИЯ"
+msgstr "БУХГАЛТЕРИЯ"
+
+#: ../lib/menu.php:17
+msgid "ТРАНСПОРТНИКИ"
+msgstr "ТРАНСПОРТНИКИ"
+
+#: ../lib/menu.php:18
+msgid "ЭКСПЕДИТОРЫ"
+msgstr "ЭКСПЕДИТОРЫ"
+
+#: ../lib/menu.php:43
+#: ../lib/menu.php:58
+msgid "ПЛАТЕЖИ"
+msgstr "ПЛАТЕЖИ"
+
+#: ../lib/menu.php:44
+msgid "БАЛАНС"
+msgstr "БАЛАНС"
+
+#: ../lib/menu.php:45
+msgid "ЛИЧНЫЕ ДАННЫЕ"
+msgstr "ЛИЧНЫЕ ДАННЫЕ"
+
+#: ../lib/menu.php:59
+msgid "ОТЧЕТЫ ПО АВТОМОБИЛЯМ"
+msgstr "ОТЧЕТЫ ПО АВТОМОБИЛЯМ"
+
+#: ../lib/menu.php:60
+msgid "ОТЧЕТЫ ПО КОНТЕЙНЕРАМ"
+msgstr "ОТЧЕТЫ ПО КОНТЕЙНЕРАМ"
+
+#: ../mod/accounting/class.Accountingcars.php:36
+msgid " - = не выбран = - "
+msgstr " - = не выбран = - "
+
+#: ../mod/accounting/class.Accountingform.php:43
+msgid "Ошибка! Платеж с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Платеж с такими параметрами в базе не обнаружен"
+
+#: ../mod/accounting/class.Accountingform.php:52
+msgid "Изменения сохранены"
+msgstr "Изменения сохранены"
+
+#: ../mod/accounting/class.AccountingList.php:73
+msgid "Дата"
+msgstr "Дата"
+
+#: ../mod/accounting/class.AccountingList.php:74
+#: ../mod/accounting/templates/accounting.form.php:79
+msgid "Автомобиль"
+msgstr "Автомобиль"
+
+#: ../mod/accounting/class.AccountingList.php:75
+msgid "VIN"
+msgstr "VIN"
+
+#: ../mod/accounting/class.AccountingList.php:76
+#: ../mod/accounting/templates/accounting.form.php:74
+msgid "Сумма"
+msgstr "Сумма"
+
+#: ../mod/accounting/class.AccountingList.php:77
+msgid "Добавил(а)"
+msgstr "Добавил(а)"
+
+#: ../mod/accounting/class.AccountingList.php:79
+msgid "Комментарий"
+msgstr "Комментарий"
+
+#: ../mod/accounting/class.AccountingList.php:80
+msgid "Подтвердил(а)"
+msgstr "Подтвердил(а)"
+
+#: ../mod/accounting/class.AccountingList.php:81
+msgid "Оплачено"
+msgstr "Оплачено"
+
+#: ../mod/accounting/class.AccountingList.php:119
+msgid "Платежи | Расходы"
+msgstr "Платежи | Расходы"
+
+#: ../mod/accounting/class.AccountingList.php:119
+msgid "добавить"
+msgstr "добавить"
+
+#: ../mod/accounting/class.AccountingList.php:124
+#: ../mod/acc_reports/class.acc_reportsList.php:121
+msgid "автомобиль"
+msgstr "автомобиль"
+
+#: ../mod/accounting/class.AccountingList.php:126
+#: ../mod/acc_reports/class.acc_reportsList.php:231
+msgid "найти"
+msgstr "найти"
+
+#: ../mod/accounting/templates/accounting.form.php:34
+msgid "последнее изменение"
+msgstr "последнее изменение"
+
+#: ../mod/accounting/templates/accounting.form.php:34
+msgid "создал"
+msgstr "создал"
+
+#: ../mod/accounting/templates/accounting.form.php:34
+msgid "подтвердил"
+msgstr "подтвердил"
+
+#: ../mod/accounting/templates/accounting.form.php:35
+msgid "нет данных о последних изменениях"
+msgstr "нет данных о последних изменениях"
+
+#: ../mod/accounting/templates/accounting.form.php:38
+msgid "активный"
+msgstr "активный"
+
+#: ../mod/accounting/templates/accounting.form.php:39
+msgid "не подтвержденный"
+msgstr "не подтвержденный"
+
+#: ../mod/accounting/templates/accounting.form.php:42
+msgid "активировать"
+msgstr "активировать"
+
+#: ../mod/accounting/templates/accounting.form.php:44
+msgid "изменения сохранены"
+msgstr "изменения сохранены"
+
+#: ../mod/accounting/templates/accounting.form.php:70
+msgid "Расход"
+msgstr "Расход"
+
+#: ../mod/accounting/templates/accounting.form.php:70
+msgid "Приход"
+msgstr "Приход"
+
+#: ../mod/accounting/templates/accounting.form.php:81
+msgid "дата"
+msgstr "дата"
+
+#: ../mod/accounting/templates/accounting.form.php:86
+#, fuzzy
+msgid "Назначение платежа"
+msgstr "Назначение расхода"
+
+#: ../mod/accounting/templates/accounting.form.php:89
+msgid "Оплачено?"
+msgstr "Оплачено?"
+
+#: ../mod/accounting/templates/accounting.form.php:93
+msgid "комментарий"
+msgstr "комментарий"
+
+#: ../mod/accounting/templates/accounting.form.php:105
+msgid "Вы действительно хотите удалить этот платеж?"
+msgstr "Вы действительно хотите удалить этот платеж?"
+
+#: ../mod/accounting/templates/accounting.form.php:105
+msgid "удалить"
+msgstr "удалить"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:22
+msgid "Расходы на автомобиль"
+msgstr "Расходы на автомобиль"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:25
+msgid "цена в Америке на аукционе"
+msgstr "цена в Америке на аукционе"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:29
+msgid "Аукционный сбор"
+msgstr "Аукционный сбор"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:34
+msgid "Комиссия дилера"
+msgstr "Комиссия дилера"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:38
+msgid "ПП инспекция"
+msgstr "ПП инспекция"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:43
+msgid "Доставка до порта"
+msgstr "Доставка до порта"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:47
+msgid "Доставка до места назначения"
+msgstr "Доставка до места назначения"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:51
+msgid "Разгрузка"
+msgstr "Разгрузка"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:55
+msgid "Страховка"
+msgstr "Страховка"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:60
+msgid "Прочее"
+msgstr "Прочее"
+
+#: ../mod/acc_reports/class.acc_reportsinfo.php:66
+#: ../mod/acc_reports/class.acc_reportsList.php:202
+msgid "ВСЕГО"
+msgstr "ВСЕГО"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:73
+msgid "загрузка"
+msgstr "загрузка"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:92
+msgid "Вы действительно хотите продолжить?"
+msgstr "Вы действительно хотите продолжить?"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:120
+msgid "дата покупки"
+msgstr "дата покупки"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:123
+msgid "покупатель"
+msgstr "покупатель"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:125
+msgid "цена для клиента"
+msgstr "цена для клиента"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:127
+msgid "расходы"
+msgstr "расходы"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:128
+msgid "прибыль"
+msgstr "прибыль"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:203
+msgid "автомобилей <b>не оплаченных полностью"
+msgstr "автомобилей <b>не оплаченных полностью"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:212
+msgid "автомобилей <b>посчитанных"
+msgstr "автомобилей <b>посчитанных"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:227
+msgid "Поиск по VIN коду:"
+msgstr "Поиск по VIN коду:"
+
+#: ../mod/acc_reports/class.acc_reportsList.php:229
+msgid "по владельцу:"
+msgstr "по владельцу:"
+
+#: ../mod/acc_reports/templates/payment.form.php:49
+msgid "Платеж"
+msgstr "Платеж"
+
+#: ../mod/acc_reports/templates/payment.form.php:54
+msgid "не выбран"
+msgstr "не выбран"
+
+#: ../mod/acc_reports/templates/payment.form.php:67
+msgid "статус платежа"
+msgstr "статус платежа"
+
+#: ../mod/acc_reports/templates/payment.form.php:87
+#: ../mod/auctions/class.auctionsform.php:79
+msgid "Сохранить"
+msgstr "Сохранить"
+
+#: ../mod/auctions/class.auctionsform.php:54
+msgid "Аукцион"
+msgstr "Аукцион"
+
+#: ../mod/auctions/class.auctionsform.php:57
+#, fuzzy
+msgid "Название аукциона"
+msgstr "Название шаблона"
+
+#: ../mod/auctions/class.auctionsform.php:61
+#: ../mod/auctions/class.auctionslist.php:47
+msgid "адрес"
+msgstr "адрес"
+
+#: ../mod/auctions/class.auctionsform.php:65
+#: ../mod/auctions/class.auctionslist.php:48
+#, fuzzy
+msgid "телефоны"
+msgstr "телефон"
+
+#: ../mod/auctions/class.auctionsform.php:69
+#, fuzzy
+msgid "комментарии"
+msgstr "комментарий"
+
+#: ../mod/auctions/class.auctionsform.php:76
+#, fuzzy
+msgid "Вы действительно хотите удалить этот аукцион?"
+msgstr "Вы действительно хотите удалить этот файл?"
+
+#: ../mod/auctions/class.auctionslist.php:42
+#, fuzzy
+msgid "Аукционы"
+msgstr "аукционы"
+
+#: ../mod/auctions/class.auctionslist.php:42
+msgid "Добавить"
+msgstr "Добавить"
+
+#: ../mod/auctions/class.auctionslist.php:49
+msgid "примечание"
+msgstr "примечание"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:19
+msgid "Резервных копий нет"
+msgstr "Резервных копий нет"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:25
+msgid "автосохранение"
+msgstr "автосохранение"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:25
+msgid "скачать"
+msgstr "скачать"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:34
+#: ../mod/backup/templates/class.BackupTemplates.php:38
+#: ../mod/backup/templates/class.BackupTemplates.php:87
+#: ../mod/backup/templates/class.BackupTemplates.php:91
+#: ../mod/backup/templates/class.BackupTemplates.php:111
+#: ../mod/backup/templates/class.BackupTemplates.php:115
+msgid "Резервное копирование"
+msgstr "Резервное копирование"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:34
+#: ../mod/backup/templates/class.BackupTemplates.php:81
+#: ../mod/backup/templates/class.BackupTemplates.php:87
+#: ../mod/backup/templates/class.BackupTemplates.php:111
+msgid "Создать"
+msgstr "Создать"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:34
+#: ../mod/backup/templates/class.BackupTemplates.php:87
+#: ../mod/backup/templates/class.BackupTemplates.php:107
+#: ../mod/backup/templates/class.BackupTemplates.php:111
+msgid "Загрузить (и Восстановить)"
+msgstr "Загрузить (и Восстановить)"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:48
+#: ../mod/backup/templates/class.BackupTemplates.php:53
+#: ../mod/backup/templates/class.BackupTemplates.php:61
+msgid "Сохранено строк данных"
+msgstr "Сохранено строк данных"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:49
+#: ../mod/backup/templates/class.BackupTemplates.php:54
+#: ../mod/backup/templates/class.BackupTemplates.php:62
+msgid "Суммарный объем данных"
+msgstr "Суммарный объем данных"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:52
+#: ../mod/backup/templates/class.BackupTemplates.php:60
+msgid "Автосохранение"
+msgstr "Автосохранение"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:55
+msgid "Востановленно из резервной копии"
+msgstr "Востановленно из резервной копии"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:56
+#: ../mod/backup/templates/class.BackupTemplates.php:64
+msgid "Строк данных"
+msgstr "Строк данных"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:57
+#: ../mod/backup/templates/class.BackupTemplates.php:65
+msgid "Объем данных"
+msgstr "Объем данных"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:63
+msgid "Востановленно из загруженной резервной копии"
+msgstr "Востановленно из загруженной резервной копии"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:69
+msgid "Восстановить данные из резервной копии за"
+msgstr "Восстановить данные из резервной копии за"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:69
+msgid "все данные после это даты будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+msgstr "все данные после это даты будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+
+#: ../mod/backup/templates/class.BackupTemplates.php:73
+msgid "Восстановить"
+msgstr "Восстановить"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:77
+msgid "Создать новую резервную копию?"
+msgstr "Создать новую резервную копию?"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:102
+msgid "Восстановить данные из файла резервной копии?"
+msgstr "Восстановить данные из файла резервной копии?"
+
+#: ../mod/backup/templates/class.BackupTemplates.php:102
+msgid "все данные внесенные после создания загружаемой копии будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+msgstr "все данные внесенные после создания загружаемой копии будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+
+#: ../mod/cars/class.Carscomment.php:104
+msgid "Заполните текст комментария"
+msgstr "Заполните текст комментария"
+
+#: ../mod/cars/class.Carscomment.php:128
+msgid "Комментарий сохранен"
+msgstr "Комментарий сохранен"
+
+#: ../mod/cars/class.Carscomment.php:130
+msgid "Комментарий сохранить не удалось"
+msgstr "Комментарий сохранить не удалось"
+
+#: ../mod/cars/class.Carsform.php:55
+msgid "Ошибка! Автомобиль с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Автомобиль с такими параметрами в базе не обнаружен"
+
+#: ../mod/cars/class.Carsform.php:162
+msgid "Автомобиль с таким вин кодом"
+msgstr "Автомобиль с таким вин кодом"
+
+#: ../mod/cars/class.Carsform.php:163
+msgid "уже есть в базе"
+msgstr "уже есть в базе"
+
+#: ../mod/cars/class.Carsform.php:163
+#: ../mod/cars/class.Carsform.php:987
+#: ../mod/cars/class.CarsList.php:178
+#: ../mod/cars/class.CarsList.php:288
+msgid "владелец"
+msgstr "владелец"
+
+#: ../mod/cars/class.Carsform.php:224
+msgid "Действительно удалить?"
+msgstr "Действительно удалить?"
+
+#: ../mod/cars/class.Carsform.php:244
+msgid "Фотографии экспедитора"
+msgstr "Фотографии экспедитора"
+
+#: ../mod/cars/class.Carsform.php:246
+msgid "Вы действительно хотите удалить это фото?"
+msgstr "Вы действительно хотите удалить это фото?"
+
+#: ../mod/cars/class.Carsform.php:265
+msgid "Вы действительно хотите удалить Отчет о состоянии автомобиля или CR?"
+msgstr "Вы действительно хотите удалить Отчет о состоянии автомобиля или CR?"
+
+#: ../mod/cars/class.Carsform.php:272
+#: ../mod/cars/class.Carsform.php:273
+msgid "пусто поле"
+msgstr "пусто поле"
+
+#: ../mod/cars/class.Carsform.php:274
+#: ../mod/cars/class.Carsform.php:276
+#: ../mod/cars/class.Carsform.php:278
+#: ../mod/cars/class.Carsform.php:281
+msgid "не выбрано"
+msgstr "не выбрано"
+
+#: ../mod/cars/class.Carsform.php:291
+msgid " нет портов! "
+msgstr " нет портов! "
+
+#: ../mod/cars/class.Carsform.php:300
+msgid "инвойс"
+msgstr "инвойс"
+
+#: ../mod/cars/class.Carsform.php:302
+msgid "нет инвойса"
+msgstr "нет инвойса"
+
+#: ../mod/cars/class.Carsform.php:337
+#, fuzzy
+msgid "месяц"
+msgstr "места"
+
+#: ../mod/cars/class.Carsform.php:338
+#: ../mod/cars/class.Carsform.php:339
+#: ../mod/cars/class.Carsform.php:340
+#, fuzzy
+msgid "месяца"
+msgstr "места"
+
+#: ../mod/cars/class.Carsform.php:341
+#: ../mod/cars/class.Carsform.php:342
+#: ../mod/cars/class.Carsform.php:343
+#: ../mod/cars/class.Carsform.php:344
+#: ../mod/cars/class.Carsform.php:345
+#: ../mod/cars/class.Carsform.php:346
+#: ../mod/cars/class.Carsform.php:347
+#: ../mod/cars/class.Carsform.php:348
+#, fuzzy
+msgid "месяцев"
+msgstr "места"
+
+#: ../mod/cars/class.Carsform.php:351
+#: ../mod/cars/class.Carsform.php:356
+#: ../mod/cars/class.Carsform.php:357
+#: ../mod/cars/class.Carsform.php:358
+#: ../mod/cars/class.Carsform.php:359
+#: ../mod/cars/class.Carsform.php:360
+#: ../mod/cars/class.Carsform.php:365
+msgid "дней"
+msgstr "дней"
+
+#: ../mod/cars/class.Carsform.php:352
+#, fuzzy
+msgid "день"
+msgstr "Модель"
+
+#: ../mod/cars/class.Carsform.php:353
+#: ../mod/cars/class.Carsform.php:354
+#: ../mod/cars/class.Carsform.php:355
+#, fuzzy
+msgid "дня"
+msgstr "имя"
+
+#: ../mod/cars/class.Carsform.php:369
+msgid "с покупки прошло"
+msgstr "с покупки прошло"
+
+#: ../mod/cars/class.Carsform.php:369
+msgid "и"
+msgstr "и"
+
+#: ../mod/cars/class.Carsform.php:396
+msgid "прошло"
+msgstr "прошло"
+
+#: ../mod/cars/class.Carsform.php:406
+msgid "готова к отправке"
+msgstr "готова к отправке"
+
+#: ../mod/cars/class.Carsform.php:407
+msgid "дата готовности"
+msgstr "дата готовности"
+
+#: ../mod/cars/class.Carsform.php:447
+msgid "Вы действительно хотите удалить После Продажную инспекцию?"
+msgstr "Вы действительно хотите удалить После Продажную инспекцию?"
+
+#: ../mod/cars/class.Carsform.php:461
+msgid "Вы действительно хотите удалить этот файл?"
+msgstr "Вы действительно хотите удалить этот файл?"
+
+#: ../mod/cars/class.Carsform.php:475
+msgid "Вы действительно хотите удалить Сопроводительный документ?"
+msgstr "Вы действительно хотите удалить Сопроводительный документ?"
+
+#: ../mod/cars/class.Carsform.php:484
+msgid "Пользователь создан.<br>Приглашение клиенту успешно отправлено."
+msgstr "Пользователь создан.<br>Приглашение клиенту успешно отправлено."
+
+#: ../mod/cars/class.Carsform.php:487
+msgid "Пользователь создан.<br>Приглашение клиенту отправить НЕ удалось!"
+msgstr "Пользователь создан.<br>Приглашение клиенту отправить НЕ удалось!"
+
+#: ../mod/cars/class.Carsform.php:490
+msgid "Пользователь не создан! <br>Приглашение клиенту НЕ было отправлено! <br>Возможно у него не указаны email или имя."
+msgstr "Пользователь не создан! <br>Приглашение клиенту НЕ было отправлено! <br>Возможно у него не указаны email или имя."
+
+#: ../mod/cars/class.Carsform.php:493
+msgid "У этого клиента уже есть логин. Приглашение не требуется."
+msgstr "У этого клиента уже есть логин. Приглашение не требуется."
+
+#: ../mod/cars/class.Carsform.php:526
+msgid "Запись по автомобилю (расход-приход)"
+msgstr "Запись по автомобилю (расход-приход)"
+
+#: ../mod/cars/class.Carsform.php:547
+msgid "Назначение расхода"
+msgstr "Назначение расхода"
+
+#: ../mod/cars/class.Carsform.php:574
+msgid "Балланс по автомобилю"
+msgstr "Балланс по автомобилю"
+
+#: ../mod/cars/class.Carsform.php:574
+msgid "Добавить услугу"
+msgstr "Добавить услугу"
+
+#: ../mod/cars/class.Carsform.php:574
+msgid "<b>добавить</b>"
+msgstr "<b>добавить</b>"
+
+#: ../mod/cars/class.Carsform.php:578
+msgid "Создал"
+msgstr "Создал"
+
+#: ../mod/cars/class.Carsform.php:578
+msgid "Подтв."
+msgstr "Подтв."
+
+#: ../mod/cars/class.Carsform.php:594
+msgid "P"
+msgstr "P"
+
+#: ../mod/cars/class.Carsform.php:594
+msgid "П"
+msgstr "П"
+
+#: ../mod/cars/class.Carsform.php:596
+#: ../mod/cars/class.Carsform.php:859
+#: ../mod/cars/class.Carsform.php:876
+msgid "да"
+msgstr "да"
+
+#: ../mod/cars/class.Carsform.php:596
+msgid "нет"
+msgstr "нет"
+
+#: ../mod/cars/class.Carsform.php:633
+msgid "Нет данных для данного автомобиля"
+msgstr "Нет данных для данного автомобиля"
+
+#: ../mod/cars/class.Carsform.php:636
+msgid "всего расходов"
+msgstr "всего расходов"
+
+#: ../mod/cars/class.Carsform.php:637
+msgid "балланс"
+msgstr "балланс"
+
+#: ../mod/cars/class.Carsform.php:710
+msgid "доставлена с"
+msgstr "доставлена с"
+
+#: ../mod/cars/class.Carsform.php:710
+#: ../mod/cars/class.CarsList.php:406
+msgid "в пути"
+msgstr "в пути"
+
+#: ../mod/cars/class.Carsform.php:854
+#: ../mod/cars/class.Carsform.php:871
+msgid "Подтв...."
+msgstr "Подтв...."
+
+#: ../mod/cars/class.Carsform.php:862
+#: ../mod/cars/class.Carsform.php:879
+msgid "Ошибка!"
+msgstr "Ошибка!"
+
+#: ../mod/cars/class.Carsform.php:863
+#: ../mod/cars/class.Carsform.php:880
+msgid "неизвестно"
+msgstr "неизвестно"
+
+#: ../mod/cars/class.Carsform.php:902
+msgid "всего за автомобиль"
+msgstr "всего за автомобиль"
+
+#: ../mod/cars/class.Carsform.php:912
+msgid "баланс"
+msgstr "баланс"
+
+#: ../mod/cars/class.Carsform.php:926
+msgid "чистая прибыль"
+msgstr "чистая прибыль"
+
+#: ../mod/cars/class.Carsform.php:936
+msgid "цена в Америке на аукционе"
+msgstr "цена в Америке на аукционе"
+
+#: ../mod/cars/class.Carsform.php:988
+msgid "Добавить клиента"
+msgstr "Добавить клиента"
+
+#: ../mod/cars/class.Carsform.php:1002
+msgid "получатель"
+msgstr "получатель"
+
+#: ../mod/cars/class.Carsform.php:1004
+msgid "Добавить получателя"
+msgstr "Добавить получателя"
+
+#: ../mod/cars/class.Carsform.php:1020
+msgid "Марка автомобиля"
+msgstr "Марка автомобиля"
+
+#: ../mod/cars/class.Carsform.php:1020
+msgid "Модель"
+msgstr "Модель"
+
+#: ../mod/cars/class.Carsform.php:1022
+msgid "Добавить марку"
+msgstr "Добавить марку"
+
+#: ../mod/cars/class.Carsform.php:1024
+msgid "Добавить модель"
+msgstr "Добавить модель"
+
+#: ../mod/cars/class.Carsform.php:1028
+#: ../mod/cars/class.CarsList.php:287
+msgid "вин код"
+msgstr "вин код"
+
+#: ../mod/cars/class.Carsform.php:1031
+#, fuzzy
+msgid "Автомобиль продан (для клиента)"
+msgstr "автомобили клиента"
+
+#: ../mod/cars/class.Carsform.php:1034
+msgid "дата выпуска"
+msgstr "дата выпуска"
+
+#: ../mod/cars/class.Carsform.php:1040
+msgid "объем двигателя"
+msgstr "объем двигателя"
+
+#: ../mod/cars/class.Carsform.php:1042
+msgid "цена в инвойсе"
+msgstr "цена в инвойсе"
+
+#: ../mod/cars/class.Carsform.php:1047
+msgid "вес"
+msgstr "вес"
+
+#: ../mod/cars/class.Carsform.php:1051
+#: ../mod/cars/class.CarsList.php:290
+msgid "контейнер"
+msgstr "контейнер"
+
+#: ../mod/cars/class.Carsform.php:1055
+msgid "пробег"
+msgstr "пробег"
+
+#: ../mod/cars/class.Carsform.php:1057
+#: ../mod/cars/class.CarsList.php:291
+msgid "транспортник"
+msgstr "транспортник"
+
+#: ../mod/cars/class.Carsform.php:1063
+#: ../mod/cars/class.CarsList.php:292
+msgid "порт"
+msgstr "порт"
+
+#: ../mod/cars/class.Carsform.php:1068
+msgid "дата реальной доставки"
+msgstr "дата реальной доставки"
+
+#: ../mod/cars/class.Carsform.php:1074
+msgid "статус транспортировки"
+msgstr "статус транспортировки"
+
+#: ../mod/cars/class.Carsform.php:1082
+msgid "доставлена"
+msgstr "доставлена"
+
+#: ../mod/cars/class.Carsform.php:1086
+msgid "Местонахождение автомобиля"
+msgstr "Местонахождение автомобиля"
+
+#: ../mod/cars/class.Carsform.php:1088
+msgid "Тайтл"
+msgstr "Тайтл"
+
+#: ../mod/cars/class.Carsform.php:1098
+msgid "место<br>назначения"
+msgstr "место<br>назначения"
+
+#: ../mod/cars/class.Carsform.php:1109
+msgid "пригласить клиента"
+msgstr "пригласить клиента"
+
+#: ../mod/cars/class.Carsform.php:1115
+msgid "Вы действительно хотите удалить этот автомобиль?"
+msgstr "Вы действительно хотите удалить этот автомобиль?"
+
+#: ../mod/cars/class.Carsform.php:1117
+msgid "Продать"
+msgstr "Продать"
+
+#: ../mod/cars/class.Carsform.php:1163
+msgid "выставить на продажу"
+msgstr "выставить на продажу"
+
+#: ../mod/cars/class.Carsform.php:1164
+msgid "Редактировать шаблоны"
+msgstr "Редактировать шаблоны"
+
+#: ../mod/cars/class.Carsform.php:1173
+msgid "шаблон"
+msgstr "шаблон"
+
+#: ../mod/cars/class.Carsform.php:1187
+msgid "цена"
+msgstr "цена"
+
+#: ../mod/cars/class.Carsform.php:1191
+msgid "продан"
+msgstr "продан"
+
+#: ../mod/cars/class.Carsform.php:1194
+msgid "выставить до"
+msgstr "выставить до"
+
+#: ../mod/cars/class.Carsform.php:1271
+#: ../mod/cars/class.Carsform.php:1316
+msgid "Фотографии"
+msgstr "Фотографии"
+
+#: ../mod/cars/class.Carsform.php:1273
+msgid "все фотографии"
+msgstr "все фотографии"
+
+#: ../mod/cars/class.Carsform.php:1281
+msgid "Отчет о состоянии автомобиля или CR"
+msgstr "Отчет о состоянии автомобиля или CR"
+
+#: ../mod/cars/class.Carsform.php:1282
+#: ../mod/cars/class.Carsform.php:1306
+msgid "показывать на сайте"
+msgstr "показывать на сайте"
+
+#: ../mod/cars/class.Carsform.php:1294
+#: ../mod/cars/class.Carsform.php:1301
+msgid "показывать клиенту"
+msgstr "показывать клиенту"
+
+#: ../mod/cars/class.Carsform.php:1300
+#: ../mod/cars/class.Carsform.php:1382
+msgid "Сопроводительные документы"
+msgstr "Сопроводительные документы"
+
+#: ../mod/cars/class.Carsform.php:1314
+#: ../mod/cars/class.Carsform.php:1325
+#: ../mod/cars/class.Carsform.php:1349
+#: ../mod/cars/class.Carsform.php:1357
+#: ../mod/cars/class.Carsform.php:1364
+#: ../mod/cars/class.Carsform.php:1370
+#: ../mod/cars/class.Carsform.php:1378
+#: ../mod/cars/class.Carsform.php:1386
+msgid "Загрузить"
+msgstr "Загрузить"
+
+#: ../mod/cars/class.Carsform.php:1353
+#, fuzzy
+msgid "Отчет (CR)"
+msgstr "отчеты"
+
+#: ../mod/cars/class.Carsform.php:1404
+msgid "Добавить еще одного клиента"
+msgstr "Добавить еще одного клиента"
+
+#: ../mod/cars/class.Carsform.php:1405
+#: ../mod/cars/class.Carsform.php:1415
+msgid "Закрыть окно"
+msgstr "Закрыть окно"
+
+#: ../mod/cars/class.Carsform.php:1415
+msgid "Продажа автомобиля"
+msgstr "Продажа автомобиля"
+
+#: ../mod/cars/class.Carsform.php:1416
+msgid "Продавец"
+msgstr "Продавец"
+
+#: ../mod/cars/class.Carsform.php:1417
+msgid "Покупатель"
+msgstr "Покупатель"
+
+#: ../mod/cars/class.Carsform.php:1418
+msgid "Цена"
+msgstr "Цена"
+
+#: ../mod/cars/class.Carsform.php:1419
+msgid "Отправить"
+msgstr "Отправить"
+
+#: ../mod/cars/class.Carsform.php:1419
+msgid "Вы действительно хотите сменить владельца автомобиля?"
+msgstr "Вы действительно хотите сменить владельца автомобиля?"
+
+#: ../mod/cars/class.Carsform.php:1436
+msgid "Покупатель и продавец одно лицо!"
+msgstr "Покупатель и продавец одно лицо!"
+
+#: ../mod/cars/class.Carsform.php:1441
+msgid "Не заполнено поле ЦЕНА!"
+msgstr "Не заполнено поле ЦЕНА!"
+
+#: ../mod/cars/class.Carsform.php:1494
+msgid "заказ"
+msgstr "заказ"
+
+#: ../mod/cars/class.Carsform.php:1495
+msgid "на продажу"
+msgstr "на продажу"
+
+#: ../mod/cars/class.Carsform.php:1496
+msgid "отказ"
+msgstr "отказ"
+
+#: ../mod/cars/class.Carsform.php:1508
+msgid "раздел"
+msgstr "раздел"
+
+#: ../mod/cars/class.CarsList.php:149
+msgid "Автомобили"
+msgstr "Автомобили"
+
+#: ../mod/cars/class.CarsList.php:149
+msgid "Список мест"
+msgstr "Список мест"
+
+#: ../mod/cars/class.CarsList.php:149
+msgid "Список портов"
+msgstr "Список портов"
+
+#: ../mod/cars/class.CarsList.php:152
+msgid "по названию"
+msgstr "по названию"
+
+#: ../mod/cars/class.CarsList.php:154
+msgid "по Вин коду"
+msgstr "по Вин коду"
+
+#: ../mod/cars/class.CarsList.php:156
+msgid "с"
+msgstr "с"
+
+#: ../mod/cars/class.CarsList.php:160
+msgid "по"
+msgstr "по"
+
+#: ../mod/cars/class.CarsList.php:167
+msgid "Список марок"
+msgstr "Список марок"
+
+#: ../mod/cars/class.CarsList.php:167
+msgid "Список моделей"
+msgstr "Список моделей"
+
+#: ../mod/cars/class.CarsList.php:170
+msgid "место нахождения авто"
+msgstr "место нахождения авто"
+
+#: ../mod/cars/class.CarsList.php:172
+msgid "место назначения"
+msgstr "место назначения"
+
+#: ../mod/cars/class.CarsList.php:176
+msgid "в порту"
+msgstr "в порту"
+
+#: ../mod/cars/class.CarsList.php:289
+msgid "модель"
+msgstr "модель"
+
+#: ../mod/cars/class.CarsList.php:293
+msgid "местонахождение авто"
+msgstr "местонахождение авто"
+
+#: ../mod/cars/class.CarsList.php:294
+msgid "местонахождение тайтла"
+msgstr "местонахождение тайтла"
+
+#: ../mod/cars/class.CarsList.php:307
+msgid "- = не выбран = -"
+msgstr "- = не выбран = -"
+
+#: ../mod/cars/class.CarsList.php:360
+msgid "по вашему запросу ничего не найдено"
+msgstr "по вашему запросу ничего не найдено"
+
+#: ../mod/cars/class.CarsList.php:405
+msgid "новые"
+msgstr "новые"
+
+#: ../mod/cars/class.CarsList.php:407
+#, fuzzy
+msgid "не проданые"
+msgstr "на продажу"
+
+#: ../mod/cars/class.CarsList.php:408
+msgid "архив"
+msgstr "архив"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:15
+#: ../mod/cars/templates/class.CommentTemplates__.php:15
+msgid "Комментарии"
+msgstr "Комментарии"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:29
+#: ../mod/cars/templates/class.CommentTemplates__.php:29
+#: ../mod/cars/templates/class.CommentTemplates__.php:163
+msgid "скрытый"
+msgstr "скрытый"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:35
+#: ../mod/cars/templates/class.CommentTemplates__.php:35
+msgid "Автор"
+msgstr "Автор"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:50
+#: ../mod/cars/templates/class.CommentTemplates__.php:50
+msgid "Редактировать"
+msgstr "Редактировать"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:51
+#: ../mod/cars/templates/class.CommentTemplates__.php:51
+msgid "Вы действительно хотите удалить этот комментарий?"
+msgstr "Вы действительно хотите удалить этот комментарий?"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:51
+#: ../mod/cars/templates/class.CommentTemplates__.php:51
+msgid "Удалить"
+msgstr "Удалить"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:103
+#: ../mod/cars/templates/class.CommentTemplates__.php:103
+msgid "Добавить комментарий"
+msgstr "Добавить комментарий"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:107
+#: ../mod/cars/templates/class.CommentTemplates__.php:107
+msgid "Редактировать комментарий"
+msgstr "Редактировать комментарий"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:126
+#: ../mod/cars/templates/class.CommentTemplates__.php:126
+msgid "комментарий удален"
+msgstr "комментарий удален"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:161
+#: ../mod/cars/templates/class.CommentTemplates__.php:161
+msgid "Тип"
+msgstr "Тип"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:162
+#: ../mod/cars/templates/class.CommentTemplates__.php:162
+msgid "для всех"
+msgstr "для всех"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:168
+#: ../mod/cars/templates/class.CommentTemplates__.php:169
+msgid "Текст комментария"
+msgstr "Текст комментария"
+
+#: ../mod/cars/templates/class.CommentTemplates.php:173
+#: ../mod/cars/templates/class.CommentTemplates__.php:174
+msgid "Cохранить"
+msgstr "Cохранить"
+
+#: ../mod/carstobuy/class.Cars2buy.php:79
+msgid "Cегодня"
+msgstr "Cегодня"
+
+#: ../mod/carstobuy/class.Cars2buy.php:129
+#, fuzzy
+msgid "Следующие к покупке"
+msgstr "дата покупки"
+
+#: ../mod/carstobuy/class.Cars2buy.php:163
+#, fuzzy
+msgid "Просроченные"
+msgstr "доставленные"
+
+#: ../mod/carstobuy/class.Cars2buy.php:197
+#, fuzzy
+msgid "Планируемые"
+msgstr "Платежи"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:72
+msgid "- не выбран -"
+msgstr "- не выбран -"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:97
+#, fuzzy
+msgid "Автомобиль к покупке"
+msgstr "автомобили погруженные"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:108
+#, fuzzy
+msgid "Время аукциона"
+msgstr "аукцион"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:114
+#, fuzzy
+msgid "Номер линии"
+msgstr "Номер букинга"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:116
+#, fuzzy
+msgid "Макс. цена покупки<br> на аукционе"
+msgstr "цена в Америке на аукционе"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:120
+#, fuzzy
+msgid "Номер лота"
+msgstr "Номер контейнера"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:122
+#, fuzzy
+msgid "Год(а)"
+msgstr "Создал"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:127
+#, fuzzy
+msgid "VIN код"
+msgstr "по VIN коду"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:132
+msgid "Клиент"
+msgstr "Клиент"
+
+#: ../mod/carstobuy/class.carsToBuyform.php:135
+#, fuzzy
+msgid "куплена"
+msgstr "Оплачено"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:22
+#: ../mod/carstobuy/class.carsToBuylist.php:72
+#, fuzzy
+msgid "Машины к покупке"
+msgstr "дата покупки"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:73
+#, fuzzy
+msgid "показывать купленные"
+msgstr "показывать клиенту"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:81
+#, fuzzy
+msgid "номер линии"
+msgstr "Номер букинга"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:82
+#, fuzzy
+msgid "номер лота"
+msgstr "номер кузова"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:84
+#, fuzzy
+msgid "время"
+msgstr "вес"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:86
+#, fuzzy
+msgid "макс. цена"
+msgstr "цена"
+
+#: ../mod/carstobuy/class.carsToBuylist.php:87
+#, fuzzy
+msgid "год(а)"
+msgstr "Создал"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:93
+msgid "по договору"
+msgstr "по договору"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:94
+#: ../mod/clients/class.Clientsdetail.php:170
+msgid "оплачено"
+msgstr "оплачено"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:95
+msgid "остаток"
+msgstr "остаток"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:97
+msgid "остаток по переводу"
+msgstr "остаток по переводу"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:155
+msgid "автомобилей"
+msgstr "автомобилей"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:173
+msgid "Поиск по VIN коду"
+msgstr "Поиск по VIN коду"
+
+#: ../mod/cars_reports/class.cars_reportsList.php:175
+msgid "по владельцу"
+msgstr "по владельцу"
+
+#: ../mod/cars_reports/templates/payment.form.php:19
+msgid "пользователь"
+msgstr "пользователь"
+
+#: ../mod/cars_reports/templates/payment.form.php:54
+msgid "Плательщик"
+msgstr "Плательщик"
+
+#: ../mod/clients/class.Clientsdetail.php:30
+msgid "Проблемы с добавлением платежа!"
+msgstr "Проблемы с добавлением платежа!"
+
+#: ../mod/clients/class.Clientsdetail.php:95
+msgid "сумма"
+msgstr "сумма"
+
+#: ../mod/clients/class.Clientsdetail.php:131
+msgid "зеленым цветом выделены платежи от имени этого дилера."
+msgstr "зеленым цветом выделены платежи от имени этого дилера."
+
+#: ../mod/clients/class.Clientsdetail.php:170
+msgid "всего"
+msgstr "всего"
+
+#: ../mod/clients/class.Clientsdetail.php:228
+msgid "версия для печати"
+msgstr "версия для печати"
+
+#: ../mod/clients/class.Clientsdetail.php:229
+msgid "Детализация баланса по клиенту"
+msgstr "Детализация баланса по клиенту"
+
+#: ../mod/clients/class.Clientsdetail.php:234
+msgid "ЗАКАЗАНО"
+msgstr "ЗАКАЗАНО"
+
+#: ../mod/clients/class.Clientsdetail.php:235
+msgid "на   сумму"
+msgstr "на   сумму"
+
+#: ../mod/clients/class.Clientsdetail.php:237
+msgid "ОПЛАЧЕНО"
+msgstr "ОПЛАЧЕНО"
+
+#: ../mod/clients/class.Clientsdetail.php:250
+msgid "прибывшие"
+msgstr "прибывшие"
+
+#: ../mod/clients/class.Clientsdetail.php:253
+msgid "Добавить платеж этому клиенту"
+msgstr "Добавить платеж этому клиенту"
+
+#: ../mod/clients/class.Clientsdetail.php:255
+msgid "Платежи"
+msgstr "Платежи"
+
+#: ../mod/clients/class.Clientsdetail.php:257
+msgid "все / последний месяц"
+msgstr "все / последний месяц"
+
+#: ../mod/clients/class.Clientsform.php:35
+msgid "Ошибка! Клиент с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Клиент с такими параметрами в базе не обнаружен"
+
+#: ../mod/clients/class.Clientsform.php:51
+#, fuzzy
+msgid "добавить получателя"
+msgstr "Добавить получателя"
+
+#: ../mod/clients/class.Clientsform.php:58
+#: ../mod/clients/templates/form.customer.php:10
+msgid "аванс"
+msgstr "аванс"
+
+#: ../mod/clients/class.Clientsform.php:66
+#: ../mod/clients/templates/form.customer.php:17
+msgid "Вы действительно хотите удалить прикрепленный файл?"
+msgstr "Вы действительно хотите удалить прикрепленный файл?"
+
+#: ../mod/clients/class.Clientsform.php:82
+msgid ""
+"Пользователь создан.<br>\n"
+"\t\t\t\tПриглашение клиенту успешно отправлено."
+msgstr ""
+"Пользователь создан.<br>\n"
+"\t\t\t\tПриглашение клиенту успешно отправлено."
+
+#: ../mod/clients/class.Clientsform.php:112
+#: ../mod/clients/templates/form.customer.php:31
+msgid "автомобили клиента"
+msgstr "автомобили клиента"
+
+#: ../mod/clients/class.Clientsform.php:116
+#: ../mod/clients/class.ClientsList.php:49
+#: ../mod/clients/templates/form.customer.php:35
+msgid "ФИО"
+msgstr "ФИО"
+
+#: ../mod/clients/class.Clientsform.php:119
+#: ../mod/clients/templates/form.customer.php:38
+msgid "доставлено на сумму"
+msgstr "доставлено на сумму"
+
+#: ../mod/clients/class.Clientsform.php:129
+#: ../mod/clients/templates/form.customer.php:48
+msgid "предоплата<br>за машины в пути"
+msgstr "предоплата<br>за машины в пути"
+
+#: ../mod/clients/class.Clientsform.php:139
+#: ../mod/clients/templates/form.customer.php:58
+msgid "платежи"
+msgstr "платежи"
+
+#: ../mod/clients/class.Clientsform.php:148
+#: ../mod/clients/templates/form.customer.php:67
+msgid "к оплате"
+msgstr "к оплате"
+
+#: ../mod/clients/class.Clientsform.php:155
+#: ../mod/clients/templates/form.customer.php:74
+msgid "контакты"
+msgstr "контакты"
+
+#: ../mod/clients/class.Clientsform.php:157
+#: ../mod/clients/templates/form.customer.php:76
+msgid "машины в пути"
+msgstr "машины в пути"
+
+#: ../mod/clients/class.Clientsform.php:164
+#: ../mod/clients/templates/form.customer.php:83
+msgid "паспорт"
+msgstr "паспорт"
+
+#: ../mod/clients/class.Clientsform.php:166
+#: ../mod/clients/templates/form.customer.php:85
+msgid "всего машин заказано"
+msgstr "всего машин заказано"
+
+#: ../mod/clients/class.Clientsform.php:179
+#: ../mod/clients/templates/form.customer.php:98
+msgid "дилер"
+msgstr "дилер"
+
+#: ../mod/clients/class.Clientsform.php:185
+msgid "разрешить рассылку"
+msgstr "разрешить рассылку"
+
+#: ../mod/clients/class.Clientsform.php:186
+#: ../mod/clients/templates/form.customer.php:105
+msgid "дилер этого клиента"
+msgstr "дилер этого клиента"
+
+#: ../mod/clients/class.Clientsform.php:193
+msgid "уже существует!"
+msgstr "уже существует!"
+
+#: ../mod/clients/class.Clientsform.php:199
+#: ../mod/clients/templates/form.customer.php:118
+msgid "пароль"
+msgstr "пароль"
+
+#: ../mod/clients/class.Clientsform.php:202
+msgid "пароль можно только сменить!"
+msgstr "пароль можно только сменить!"
+
+#: ../mod/clients/class.Clientsform.php:205
+#: ../mod/clients/templates/form.customer.php:123
+msgid "контракт"
+msgstr "контракт"
+
+#: ../mod/clients/class.Clientsform.php:222
+#: ../mod/clients/templates/form.customer.php:130
+msgid "Вы действительно хотите удалить этого клиента?"
+msgstr "Вы действительно хотите удалить этого клиента?"
+
+#: ../mod/clients/class.Clientsform.php:232
+#: ../mod/clients/templates/form.customer.php:139
+msgid "копия паспорта"
+msgstr "копия паспорта"
+
+#: ../mod/clients/class.Clientsform.php:271
+#: ../mod/clients/templates/form.customer.php:178
+msgid "нет договоров"
+msgstr "нет договоров"
+
+#: ../mod/clients/class.ClientsList.php:73
+msgid "Клиенты"
+msgstr "Клиенты"
+
+#: ../mod/clients/class.ClientsList.php:74
+msgid "Получатели"
+msgstr "Получатели"
+
+#: ../mod/clients/templates/form.customer.php:112
+msgid "уже существует"
+msgstr "уже существует"
+
+#: ../mod/clients/templates/form.customer.php:121
+msgid "пароль можно только сменить"
+msgstr "пароль можно только сменить"
+
+#: ../mod/clients/templates/form.customer.php:178
+msgid "создать"
+msgstr "создать"
+
+#: ../mod/containers/class.Containerscprint.php:60
+msgid "Не выбран ни один параметр!"
+msgstr "Не выбран ни один параметр!"
+
+#: ../mod/containers/class.Containerscprint.php:75
+msgid "распечатать выбранные контейнеры"
+msgstr "распечатать выбранные контейнеры"
+
+#: ../mod/containers/class.Containerscprint.php:78
+msgid "Можно выставить одну или несколько дат.<br>Даты выставляются <u>всем выбранным контейнерам</u>."
+msgstr "Можно выставить одну или несколько дат.<br>Даты выставляются <u>всем выбранным контейнерам</u>."
+
+#: ../mod/containers/class.Containerscprint.php:81
+#: ../mod/containers/class.Containerscprint.php:247
+#: ../mod/containers/class.ContainersList.php:190
+msgid "Отправка"
+msgstr "Отправка"
+
+#: ../mod/containers/class.Containerscprint.php:87
+#: ../mod/containers/class.Containerscprint.php:252
+msgid "Китай"
+msgstr "Китай"
+
+#: ../mod/containers/class.Containerscprint.php:93
+#: ../mod/containers/class.Containerscprint.php:257
+#: ../mod/containers/class.ContainersList.php:192
+msgid "Ж/Д"
+msgstr "Ж/Д"
+
+#: ../mod/containers/class.Containerscprint.php:99
+#: ../mod/containers/class.Containerscprint.php:262
+msgid "Достук"
+msgstr "Достук"
+
+#: ../mod/containers/class.Containerscprint.php:105
+#: ../mod/containers/class.Containerscprint.php:267
+msgid "Бишкек"
+msgstr "Бишкек"
+
+#: ../mod/containers/class.Containerscprint.php:111
+#: ../mod/containers/class.Containerscprint.php:272
+msgid "Доставлен"
+msgstr "Доставлен"
+
+#: ../mod/containers/class.Containerscprint.php:116
+msgid "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+msgstr "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+
+#: ../mod/containers/class.Containerscprint.php:154
+msgid "Изменения сохранены!"
+msgstr "Изменения сохранены!"
+
+#: ../mod/containers/class.Containerscprint.php:156
+msgid "Для контейнеров:"
+msgstr "Для контейнеров:"
+
+#: ../mod/containers/class.Containerscprint.php:157
+msgid "установлены следующие значения"
+msgstr "установлены следующие значения"
+
+#: ../mod/containers/class.Containerscprint.php:183
+msgid "не выбран ни один контейнер!"
+msgstr "не выбран ни один контейнер!"
+
+#: ../mod/containers/class.Containerscprint.php:188
+msgid "экспедитор"
+msgstr "экспедитор"
+
+#: ../mod/containers/class.Containersform.php:65
+msgid "Ошибка! Контейнер с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Контейнер с такими параметрами в базе не обнаружен"
+
+#: ../mod/containers/class.ContainersList.php:166
+msgid "Контейнеры"
+msgstr "Контейнеры"
+
+#: ../mod/containers/class.ContainersList.php:167
+msgid "Список портов перегруза"
+msgstr "Список портов перегруза"
+
+#: ../mod/containers/class.ContainersList.php:167
+msgid "Добавить порт перегруза"
+msgstr "Добавить порт перегруза"
+
+#: ../mod/containers/class.ContainersList.php:169
+msgid "искать по номеру:"
+msgstr "искать по номеру:"
+
+#: ../mod/containers/class.ContainersList.php:171
+msgid "экспедитору:"
+msgstr "экспедитору:"
+
+#: ../mod/containers/class.ContainersList.php:178
+msgid "распечатать"
+msgstr "распечатать"
+
+#: ../mod/containers/class.ContainersList.php:178
+msgid "редактировать"
+msgstr "редактировать"
+
+#: ../mod/containers/class.ContainersList.php:182
+msgid "показывать прибывшие"
+msgstr "показывать прибывшие"
+
+#: ../mod/containers/class.ContainersList.php:188
+msgid "Номер контейнера"
+msgstr "Номер контейнера"
+
+#: ../mod/containers/class.ContainersList.php:189
+msgid "Букинг №"
+msgstr "Букинг №"
+
+#: ../mod/containers/class.ContainersList.php:191
+msgid "Порт"
+msgstr "Порт"
+
+#: ../mod/containers/class.ContainersList.php:193
+msgid "Назначение"
+msgstr "Назначение"
+
+#: ../mod/containers/class.ContainersList.php:194
+msgid "Ожидается"
+msgstr "Ожидается"
+
+#: ../mod/containers/class.ContainersList.php:195
+msgid "Машин"
+msgstr "Машин"
+
+#: ../mod/containers/class.ContainersList.php:196
+msgid "Экспедитор"
+msgstr "Экспедитор"
+
+#: ../mod/containers/templates/container.form.php:52
+#: ../mod/containers/templates/container.form_.php:53
+msgid "Инфо"
+msgstr "Инфо"
+
+#: ../mod/containers/templates/container.form.php:82
+#: ../mod/containers/templates/container.form_.php:83
+msgid "Загрузить документ"
+msgstr "Загрузить документ"
+
+#: ../mod/containers/templates/container.form.php:84
+#: ../mod/containers/templates/container.form_.php:85
+msgid "название файла"
+msgstr "название файла"
+
+#: ../mod/containers/templates/container.form.php:106
+#: ../mod/containers/templates/container.form_.php:107
+msgid " - не выбран - "
+msgstr " - не выбран - "
+
+#: ../mod/containers/templates/container.form.php:125
+#: ../mod/containers/templates/container.form_.php:126
+msgid "нет портов"
+msgstr "нет портов"
+
+#: ../mod/containers/templates/container.form.php:129
+#: ../mod/containers/templates/container.form_.php:130
+msgid "не выбран порт отправки!"
+msgstr "не выбран порт отправки!"
+
+#: ../mod/containers/templates/container.form.php:154
+#: ../mod/containers/templates/container.form_.php:155
+msgid "не выбран порт"
+msgstr "не выбран порт"
+
+#: ../mod/containers/templates/container.form.php:162
+#: ../mod/containers/templates/container.form_.php:163
+msgid "Контейнер"
+msgstr "Контейнер"
+
+#: ../mod/containers/templates/container.form.php:165
+#: ../mod/containers/templates/container.form_.php:166
+msgid "номер"
+msgstr "номер"
+
+#: ../mod/containers/templates/container.form.php:169
+#: ../mod/containers/templates/container.form_.php:170
+msgid "автомобили погруженные"
+msgstr "автомобили погруженные"
+
+#: ../mod/containers/templates/container.form.php:172
+#: ../mod/containers/templates/container.form_.php:173
+msgid "Дата погрузки в контейнер"
+msgstr "Дата погрузки в контейнер"
+
+#: ../mod/containers/templates/container.form.php:180
+#: ../mod/containers/templates/container.form_.php:181
+msgid "Отправкa из США"
+msgstr "Отправкa из США"
+
+#: ../mod/containers/templates/container.form.php:187
+#: ../mod/containers/templates/container.form_.php:188
+msgid "Приход в порт перегруза"
+msgstr "Приход в порт перегруза"
+
+#: ../mod/containers/templates/container.form.php:194
+#: ../mod/containers/templates/container.form_.php:195
+msgid "Погрузка на Ж/Д платформу"
+msgstr "Погрузка на Ж/Д платформу"
+
+#: ../mod/containers/templates/container.form.php:201
+#: ../mod/containers/templates/container.form_.php:202
+msgid "Станция <br>назначения - Бишкек"
+msgstr "Станция <br>назначения - Бишкек"
+
+#: ../mod/containers/templates/container.form.php:211
+#: ../mod/containers/templates/container.form_.php:212
+msgid "доставлен"
+msgstr "доставлен"
+
+#: ../mod/containers/templates/container.form.php:219
+#: ../mod/containers/templates/container.form_.php:220
+msgid "цена  доставки"
+msgstr "цена  доставки"
+
+#: ../mod/containers/templates/container.form.php:222
+#: ../mod/containers/templates/container.form_.php:223
+msgid "Номер букинга"
+msgstr "Номер букинга"
+
+#: ../mod/containers/templates/container.form.php:226
+#: ../mod/containers/templates/container.form_.php:227
+msgid "порт перегруза<br>на Ж/Д"
+msgstr "порт перегруза<br>на Ж/Д"
+
+#: ../mod/containers/templates/container.form.php:229
+#: ../mod/containers/templates/container.form_.php:230
+msgid "Морская Линия"
+msgstr "Морская Линия"
+
+#: ../mod/containers/templates/container.form.php:233
+#: ../mod/containers/templates/container.form_.php:234
+msgid "ожидаемая дата<br>прибытия"
+msgstr "ожидаемая дата<br>прибытия"
+
+#: ../mod/containers/templates/container.form.php:236
+#: ../mod/containers/templates/container.form_.php:237
+msgid "станция<br>назначения"
+msgstr "станция<br>назначения"
+
+#: ../mod/containers/templates/container.form.php:240
+#: ../mod/containers/templates/container.form_.php:241
+msgid "Номер ж/д платформы"
+msgstr "Номер ж/д платформы"
+
+#: ../mod/containers/templates/container.form.php:243
+#: ../mod/containers/templates/container.form_.php:244
+msgid "Стоимость контейнера<br>в Бишкеке"
+msgstr "Стоимость контейнера<br>в Бишкеке"
+
+#: ../mod/containers/templates/container.form.php:250
+#, fuzzy
+msgid "Стоимость разгрузки<br>контейнера"
+msgstr "Дата погрузки в контейнер"
+
+#: ../mod/containers/templates/container.form.php:280
+#: ../mod/containers/templates/container.form_.php:274
+msgid "Товар в контейнере"
+msgstr "Товар в контейнере"
+
+#: ../mod/containers/templates/container.form.php:300
+#: ../mod/containers/templates/container.form_.php:294
+msgid "Вы действительно хотите удалить этот контейнер?"
+msgstr "Вы действительно хотите удалить этот контейнер?"
+
+#: ../mod/containers/templates/container.form.php:322
+#: ../mod/containers/templates/container.form.php:340
+#: ../mod/containers/templates/container.form_.php:316
+#: ../mod/containers/templates/container.form_.php:334
+msgid "- не выбрана -"
+msgstr "- не выбрана -"
+
+#: ../mod/con_reports/class.con_reportsList.php:58
+msgid ""
+"по договору<br>\n"
+"\t\t\t\t\t\t\t\t\t\t(общая сумма для клиента)"
+msgstr ""
+"по договору<br>\n"
+"\t\t\t\t\t\t\t\t\t\t(общая сумма для клиента)"
+
+#: ../mod/con_reports/class.con_reportsList.php:60
+msgid "Фактически оплачено клиентом"
+msgstr "Фактически оплачено клиентом"
+
+#: ../mod/con_reports/class.con_reportsList.php:143
+msgid "Поиск по номеру контейнера"
+msgstr "Поиск по номеру контейнера"
+
+#: ../mod/con_reports/class.con_reportsList.php:145
+msgid "по VIN коду"
+msgstr "по VIN коду"
+
+#: ../mod/expeditors/class.Expeditorsform.php:28
+msgid "Ошибка! Экспедитор с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Экспедитор с такими параметрами в базе не обнаружен"
+
+#: ../mod/expeditors/class.ExpeditorsList.php:33
+msgid "Экспедиторы"
+msgstr "Экспедиторы"
+
+#: ../mod/expeditors/class.ExpeditorsList.php:35
+msgid "Не найдено ни одной записи."
+msgstr "Не найдено ни одной записи."
+
+#: ../mod/expeditors/class.ExpeditorsList.php:42
+msgid "Имя / название экспедитора"
+msgstr "Имя / название экспедитора"
+
+#: ../mod/expeditors/templates/expeditor.form.php:42
+msgid "имя / название"
+msgstr "имя / название"
+
+#: ../mod/expeditors/templates/expeditor.form.php:51
+msgid "телефон"
+msgstr "телефон"
+
+#: ../mod/expeditors/templates/expeditor.form.php:55
+msgid "работает в портах"
+msgstr "работает в портах"
+
+#: ../mod/expeditors/templates/expeditor.form.php:61
+msgid "изменить порты"
+msgstr "изменить порты"
+
+#: ../mod/expeditors/templates/expeditor.form.php:70
+msgid "Вы действительно хотите удалить этого экспедитора?"
+msgstr "Вы действительно хотите удалить этого экспедитора?"
+
+#: ../mod/expeditors/templates/expeditor.form.php:79
+msgid "Порты этого поставщика"
+msgstr "Порты этого поставщика"
+
+#: ../mod/expeditors/templates/expeditor.form.php:96
+msgid "КОНТЕЙНЕР"
+msgstr "КОНТЕЙНЕР"
+
+#: ../mod/expeditors/templates/expeditor.form.php:117
+msgid "Услуги экспедитора"
+msgstr "Услуги экспедитора"
+
+#: ../mod/expeditors/templates/expeditor.form.php:118
+msgid "Добавление услуги"
+msgstr "Добавление услуги"
+
+#: ../mod/expeditors/templates/expeditor.form.php:133
+#: ../mod/expeditors/templates/expeditor.form.php:161
+#: ../mod/expeditors/templates/expeditor.form.php:180
+#: ../mod/expeditors/templates/expeditor.form.php:189
+msgid "описание"
+msgstr "описание"
+
+#: ../mod/expeditors/templates/expeditor.form.php:144
+msgid "Платежи экспедитору"
+msgstr "Платежи экспедитору"
+
+#: ../mod/expeditors/templates/expeditor.form.php:146
+msgid "Добавление платежа"
+msgstr "Добавление платежа"
+
+#: ../mod/expeditors/templates/expeditor.form.php:214
+msgid "Вы действительно хотите удалить эту запись?"
+msgstr "Вы действительно хотите удалить эту запись?"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:14
+msgid "файлов на обмен нет"
+msgstr "файлов на обмен нет"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:19
+msgid "удалить файл"
+msgstr "удалить файл"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:35
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:39
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:54
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:59
+msgid "Обмен файлами"
+msgstr "Обмен файлами"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:35
+msgid "загрузить"
+msgstr "загрузить"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:54
+msgid "список"
+msgstr "список"
+
+#: ../mod/fileshare/templates/class.FileshareTemplates.php:69
+msgid "загружаемый файл"
+msgstr "загружаемый файл"
+
+#: ../mod/grabber/class/core.php:43
+#: ../mod/grabber/class/core.php:167
+msgid "Подождите, идет процесс импорта данных..."
+msgstr "Подождите, идет процесс импорта данных..."
+
+#: ../mod/grabber/class/core.php:55
+#: ../mod/grabber/class/core.php:198
+msgid "№"
+msgstr "№"
+
+#: ../mod/grabber/class/core.php:57
+#, fuzzy
+msgid "Условия поиска"
+msgstr "Услуги поставщика"
+
+#: ../mod/grabber/class/core.php:58
+#, fuzzy
+msgid "Активность"
+msgstr "активировать"
+
+#: ../mod/grabber/class/core.php:200
+#, fuzzy
+msgid "Источник"
+msgstr "остаток"
+
+#: ../mod/grabber/class/core.php:201
+#, fuzzy
+msgid "Добавлена в базу"
+msgstr "Добавление платежа"
+
+#: ../mod/grabber/class/core.php:203
+#, fuzzy
+msgid "VIN добавлен"
+msgstr "доставлен"
+
+#: ../mod/grabber/class/core.php:204
+#, fuzzy
+msgid "Пробег"
+msgstr "пробег"
+
+#: ../mod/grabber/class/core.php:206
+#, fuzzy
+msgid "Дата аукциона"
+msgstr "аукцион"
+
+#: ../mod/grabber/class/core.php:207
+#, fuzzy
+msgid "Цвет кузова"
+msgstr "номер кузова"
+
+#: ../mod/grabber/class/core.php:208
+#, fuzzy
+msgid "Цвет салона"
+msgstr "Текст шаблона"
+
+#: ../mod/grabber/class/core.php:209
+#, fuzzy
+msgid "Дата выпуска"
+msgstr "дата выпуска"
+
+#: ../mod/grabber/class/core.php:210
+#: ../mod/grabber/class/core.php:255
+#, fuzzy
+msgid "Ссылка"
+msgstr "Сумма"
+
+#: ../mod/grabber/class/core.php:269
+#, fuzzy
+msgid "Ничего не найдено"
+msgstr "ничего не найдено"
+
+#: ../mod/invoices/class.Invoicescarsforclient.php:44
+msgid "Выберите машину"
+msgstr "Выберите машину"
+
+#: ../mod/invoices/class.InvoicesList.php:39
+msgid "Дата добавления"
+msgstr "Дата добавления"
+
+#: ../mod/invoices/class.InvoicesList.php:40
+msgid "Номер"
+msgstr "Номер"
+
+#: ../mod/invoices/class.InvoicesList.php:44
+msgid "Вин код"
+msgstr "Вин код"
+
+#: ../mod/invoices/class.InvoicesList.php:48
+msgid "Инвойсы"
+msgstr "Инвойсы"
+
+#: ../mod/invoices/class.InvoicesList.php:48
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:34
+msgid "Список услуг"
+msgstr "Список услуг"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:21
+msgid "Название услуги"
+msgstr "Название услуги"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:22
+msgid "Описание услуги"
+msgstr "Описание услуги"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:23
+msgid "Количество"
+msgstr "Количество"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:34
+msgid "Список инвойсов"
+msgstr "Список инвойсов"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:49
+#, fuzzy
+msgid "Добавление/редактирование инвойса"
+msgstr "Добаление/редактирование инвойса"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:89
+msgid "Ошибка соединения с сервером!"
+msgstr "Ошибка соединения с сервером!"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:194
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:225
+msgid "Выбирите услугу"
+msgstr "Выбирите услугу"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:278
+#, fuzzy
+msgid "Получить список авто без инвойса"
+msgstr "Список автомобилей"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:284
+#, fuzzy
+msgid "Печатная версия"
+msgstr "место нахождения"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:284
+#, fuzzy
+msgid "Отправить на почту клиенту"
+msgstr "Добавить платеж этому клиенту"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:295
+#, fuzzy
+msgid "Номер инвойса"
+msgstr "нет инвойса"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:329
+#, fuzzy
+msgid "Удалить услугу"
+msgstr "Добавить услугу"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:336
+#, fuzzy
+msgid "Под итого"
+msgstr "Подтв."
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:340
+#, fuzzy
+msgid "Оплачены"
+msgstr "Оплачено"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:344
+#, fuzzy
+msgid "Итого"
+msgstr "всего"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:352
+#, fuzzy
+msgid "Удалить инвойс?"
+msgstr "нет инвойса"
+
+#: ../mod/invoices/templates/class.InvoicesTemplates.php:352
+#, fuzzy
+msgid "Удалить инвойс"
+msgstr "нет инвойса"
+
+#: ../mod/marka/class.markasave.php:13
+msgid "Заполните название  марки автомобиля"
+msgstr "Заполните название  марки автомобиля"
+
+#: ../mod/marka/class.markasave.php:30
+msgid "Марка  автомобиля сохранена"
+msgstr "Марка  автомобиля сохранена"
+
+#: ../mod/marka/class.markasave.php:32
+msgid "Марку автомобиля сохранить не удалось"
+msgstr "Марку автомобиля сохранить не удалось"
+
+#: ../mod/marka/templates/class.markaTemplates.php:16
+msgid "Название марки автомобиля"
+msgstr "Название марки автомобиля"
+
+#: ../mod/marka/templates/class.markaTemplates.php:24
+#: ../mod/model/templates/class.modelTemplates.php:27
+msgid "Список автомобилей"
+msgstr "Список автомобилей"
+
+#: ../mod/marka/templates/class.markaTemplates.php:25
+#: ../mod/model/templates/class.modelTemplates.php:28
+msgid "Список товаров"
+msgstr "Список товаров"
+
+#: ../mod/marka/templates/class.markaTemplates.php:45
+#: ../mod/model/templates/class.modelTemplates.php:48
+msgid "Добавление/редактирование"
+msgstr "Добавление/редактирование"
+
+#: ../mod/marka/templates/class.markaTemplates.php:45
+msgid "марки автомобиля"
+msgstr "марки автомобиля"
+
+#: ../mod/model/class.modelsave.php:13
+msgid "Заполните марку автомобиля"
+msgstr "Заполните марку автомобиля"
+
+#: ../mod/model/class.modelsave.php:14
+msgid "Заполните название модели"
+msgstr "Заполните название модели"
+
+#: ../mod/model/class.modelsave.php:33
+msgid "Модель сохранена"
+msgstr "Модель сохранена"
+
+#: ../mod/model/class.modelsave.php:35
+msgid "Модель сохранить не удалось"
+msgstr "Модель сохранить не удалось"
+
+#: ../mod/model/templates/class.modelTemplates.php:17
+msgid "Марка"
+msgstr "Марка"
+
+#: ../mod/model/templates/class.modelTemplates.php:18
+msgid "Название модели"
+msgstr "Название модели"
+
+#: ../mod/model/templates/class.modelTemplates.php:48
+msgid "модели"
+msgstr "модели"
+
+#: ../mod/places/class.placessave.php:13
+#: ../mod/ports/class.portssave.php:13
+msgid "Заполните название места"
+msgstr "Заполните название места"
+
+#: ../mod/places/class.placessave.php:30
+#: ../mod/ports/class.portssave.php:30
+msgid "Место сохранено"
+msgstr "Место сохранено"
+
+#: ../mod/places/class.placessave.php:32
+#: ../mod/ports/class.portssave.php:32
+msgid "Место сохранить не удалось"
+msgstr "Место сохранить не удалось"
+
+#: ../mod/places/templates/class.placesTemplates.php:16
+#: ../mod/ports/templates/class.portsTemplates.php:16
+msgid "Название места"
+msgstr "Название места"
+
+#: ../mod/places/templates/class.placesTemplates.php:45
+msgid "места"
+msgstr "места"
+
+#: ../mod/ports/templates/class.portsTemplates.php:45
+msgid "ПОРТА"
+msgstr "ПОРТА"
+
+#: ../mod/post/class.postsave.php:13
+msgid "Заполните название службы"
+msgstr "Заполните название службы"
+
+#: ../mod/post/class.postsave.php:30
+msgid "Служба сохранена"
+msgstr "Служба сохранена"
+
+#: ../mod/post/class.postsave.php:32
+msgid "Службу сохранить не удалось"
+msgstr "Службу сохранить не удалось"
+
+#: ../mod/post/templates/class.postTemplates.php:16
+msgid "Название службы"
+msgstr "Название службы"
+
+#: ../mod/post/templates/class.postTemplates.php:25
+msgid "Список почтовых служб"
+msgstr "Список почтовых служб"
+
+#: ../mod/post/templates/class.postTemplates.php:42
+msgid "службы"
+msgstr "службы"
+
+#: ../mod/printbalance/class.PrintBalance.php:186
+#: ../mod/printbalance/class.PrintBalance.php:202
+msgid "Детализация баланса:"
+msgstr "Детализация баланса:"
+
+#: ../mod/printbalance/class.PrintBalance.php:186
+msgid "распечатка от:"
+msgstr "распечатка от:"
+
+#: ../mod/printbalance/class.PrintBalance.php:207
+msgid "штук"
+msgstr "штук"
+
+#: ../mod/printbalance/class.PrintBalance.php:210
+msgid "ЗАКАЗАНО:"
+msgstr "ЗАКАЗАНО:"
+
+#: ../mod/printbalance/class.PrintBalance.php:216
+msgid "ОПЛАЧЕНО:"
+msgstr "ОПЛАЧЕНО:"
+
+#: ../mod/printbalance/class.PrintBalance.php:221
+msgid "БАЛАНС:"
+msgstr "БАЛАНС:"
+
+#: ../mod/printbalance/class.PrintBalance.php:228
+msgid "Подробнее..."
+msgstr "Подробнее..."
+
+#: ../mod/printbalance/class.PrintBalance.php:231
+msgid "(НЕ доставленные)"
+msgstr "(НЕ доставленные)"
+
+#: ../mod/printbalance/class.PrintBalance.php:231
+#: ../mod/printbalance/class.PrintBalance.php:235
+msgid "(все)"
+msgstr "(все)"
+
+#: ../mod/printbalance/class.PrintBalance.php:235
+msgid "(за последние 30 дней)"
+msgstr "(за последние 30 дней)"
+
+#: ../mod/profile/templates/class.profileTemplates.php:34
+msgid "Настройки вашей системы"
+msgstr "Настройки вашей системы"
+
+#: ../mod/profile/templates/class.profileTemplates.php:58
+#, fuzzy
+msgid "Настройки компании"
+msgstr "марки автомобиля"
+
+#: ../mod/profile/templates/class.profileTemplates.php:68
+#, fuzzy
+msgid "Название компании"
+msgstr "Название модели"
+
+#: ../mod/profile/templates/class.profileTemplates.php:73
+msgid "Банковские реквизиты"
+msgstr "Банковские реквизиты"
+
+#: ../mod/profile/templates/class.profileTemplates.php:78
+#, fuzzy
+msgid "Подпись компании"
+msgstr "Добавить комментарий"
+
+#: ../mod/profile/templates/class.profileTemplates.php:96
+msgid "Настройки списков"
+msgstr "Настройки списков"
+
+#: ../mod/profile/templates/class.profileTemplates.php:112
+#, fuzzy
+msgid "Назначения платежей"
+msgstr "всего платежей"
+
+#: ../mod/profile/templates/class.profileTemplates.php:114
+msgid "Внимание. При создании списка назначений имейти ввиду, что назначение с номером (id) = 4 используется для подсчёта стоимости перевоза автомобиля в стране."
+msgstr "Внимание. При создании списка назначений имейти ввиду, что назначение с номером (id) = 4 используется для подсчёта стоимости перевоза автомобиля в стране."
+
+#: ../mod/profile/templates/class.profileTemplates.php:117
+#, fuzzy
+msgid "Местонахождения автомобиля"
+msgstr "Местонахождение автомобиля"
+
+#: ../mod/profile/templates/class.profileTemplates.php:122
+#, fuzzy
+msgid "Местонахождения сопроводительных документов"
+msgstr "Вы действительно хотите удалить Сопроводительный документ?"
+
+#: ../mod/profile/templates/class.profileTemplates.php:140
+#, fuzzy
+msgid "Настройки шаблонов писем"
+msgstr "Список шаблонов"
+
+#: ../mod/profile/templates/class.profileTemplates.php:156
+msgid "Заголовок письма"
+msgstr "Заголовок письма"
+
+#: ../mod/profile/templates/class.profileTemplates.php:161
+msgid "Нижняя часть письма"
+msgstr "Нижняя часть письма"
+
+#: ../mod/profile/templates/class.profileTemplates.php:166
+msgid "Дополнительный шаблон (неизвестно для чего)"
+msgstr "Дополнительный шаблон (неизвестно для чего)"
+
+#: ../mod/recievers/class.Recieversform.php:35
+msgid "Ошибка! Получатель с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Получатель с такими параметрами в базе не обнаружен"
+
+#: ../mod/recievers/class.Recieversform.php:54
+msgid "список получателей"
+msgstr "список получателей"
+
+#: ../mod/recievers/class.Recieversform.php:66
+msgid "Паспорт"
+msgstr "Паспорт"
+
+#: ../mod/recievers/class.Recieversform.php:73
+msgid "Вы действительно хотите удалить этого получателя ?"
+msgstr "Вы действительно хотите удалить этого получателя ?"
+
+#: ../mod/reload/templates/class.reloadTemplates.php:16
+msgid "Название порта перегруза"
+msgstr "Название порта перегруза"
+
+#: ../mod/reload/templates/class.reloadTemplates.php:24
+msgid "Список контейнеров"
+msgstr "Список контейнеров"
+
+#: ../mod/reload/templates/class.reloadTemplates.php:42
+msgid "ПОРТА ПЕРЕГРУЗА"
+msgstr "ПОРТА ПЕРЕГРУЗА"
+
+#: ../mod/reports/class.ReportsMain.php:92
+msgid "За период"
+msgstr "За период"
+
+#: ../mod/reports/class.ReportsMain.php:92
+msgid "ничего не найдено"
+msgstr "ничего не найдено"
+
+#: ../mod/reports/class.ReportsMain.php:99
+msgid "Свернуть список"
+msgstr "Свернуть список"
+
+#: ../mod/reports/class.ReportsMain.php:103
+#: ../mod/reports/class.ReportsMain.php:135
+msgid "Развернуть список"
+msgstr "Развернуть список"
+
+#: ../mod/reports/class.ReportsMain.php:112
+msgid "Всего автомобилей"
+msgstr "Всего автомобилей"
+
+#: ../mod/reports/template.php:11
+msgid "Поставщик"
+msgstr "Поставщик"
+
+#: ../mod/reports/template.php:24
+msgid "все"
+msgstr "все"
+
+#: ../mod/reports/template.php:26
+msgid "доставленные"
+msgstr "доставленные"
+
+#: ../mod/reports/template.php:31
+msgid "СОЗДАТЬ ОТЧЕТ"
+msgstr "СОЗДАТЬ ОТЧЕТ"
+
+#: ../mod/sale/class.php:43
+msgid "Автомобили на продажу"
+msgstr "Автомобили на продажу"
+
+#: ../mod/sale/class.php:49
+msgid "год выпуска"
+msgstr "год выпуска"
+
+#: ../mod/sale/class.php:50
+msgid "аукц. лист"
+msgstr "аукц. лист"
+
+#: ../mod/sale/class.php:93
+msgid "нет ни одного автомобиля"
+msgstr "нет ни одного автомобиля"
+
+#: ../mod/services/class.servicessave.php:13
+msgid "Заполните название услуги"
+msgstr "Заполните название услуги"
+
+#: ../mod/services/class.servicessave.php:37
+msgid "Услуга сохранена"
+msgstr "Услуга сохранена"
+
+#: ../mod/services/class.servicessave.php:39
+msgid "Услугу сохранить не удалось"
+msgstr "Услугу сохранить не удалось"
+
+#: ../mod/services/templates/class.servicesTemplates.php:19
+msgid "Цена услуги по умолчанию"
+msgstr "Цена услуги по умолчанию"
+
+#: ../mod/services/templates/class.servicesTemplates.php:20
+msgid "Количество услуги по умолчанию"
+msgstr "Количество услуги по умолчанию"
+
+#: ../mod/services/templates/class.servicesTemplates.php:43
+msgid "Добаление/редактирование услуги"
+msgstr "Добаление/редактирование услуги"
+
+#: ../mod/tpl/class.tplsave.php:13
+msgid "Заполните название шаблона"
+msgstr "Заполните название шаблона"
+
+#: ../mod/tpl/class.tplsave.php:30
+msgid "Шаблон сохранен"
+msgstr "Шаблон сохранен"
+
+#: ../mod/tpl/class.tplsave.php:32
+msgid "Шаблон сохранить не удалось"
+msgstr "Шаблон сохранить не удалось"
+
+#: ../mod/tpl/templates/class.tplTemplates.php:17
+msgid "Название шаблона"
+msgstr "Название шаблона"
+
+#: ../mod/tpl/templates/class.tplTemplates.php:18
+msgid "Текст шаблона"
+msgstr "Текст шаблона"
+
+#: ../mod/tpl/templates/class.tplTemplates.php:28
+msgid "Список машин"
+msgstr "Список машин"
+
+#: ../mod/tpl/templates/class.tplTemplates.php:30
+msgid "Список шаблонов"
+msgstr "Список шаблонов"
+
+#: ../mod/tpl/templates/class.tplTemplates.php:47
+msgid "шаблона"
+msgstr "шаблона"
+
+#: ../mod/transporters/class.Transportersform.php:40
+msgid "Ошибка! Транспортник с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Транспортник с такими параметрами в базе не обнаружен"
+
+#: ../mod/transporters/class.TransportersList.php:37
+msgid "Транспортники"
+msgstr "Транспортники"
+
+#: ../mod/transporters/class.TransportersList.php:46
+msgid "Имя / название транспортника"
+msgstr "Имя / название транспортника"
+
+#: ../mod/transporters/templates/transporter.form.php:18
+#, fuzzy
+msgid "Транспортник"
+msgstr "Транспортники"
+
+#: ../mod/transporters/templates/transporter.form.php:49
+msgid "Вы действительно хотите удалить этого поставщика?"
+msgstr "Вы действительно хотите удалить этого поставщика?"
+
+#: ../mod/transporters/templates/transporter.form.php:90
+msgid "Услуги поставщика"
+msgstr "Услуги поставщика"
+
+#: ../mod/transporters/templates/transporter.form.php:117
+msgid "Платежи поставщику"
+msgstr "Платежи поставщику"
+
+#: ../mod/users/class.Usersform.php:30
+msgid "Ошибка! Пользователь с такими параметрами в базе не обнаружен"
+msgstr "Ошибка! Пользователь с такими параметрами в базе не обнаружен"
+
+#: ../mod/users/class.UsersList.php:37
+msgid "Пользователи"
+msgstr "Пользователи"
+
+#: ../mod/users/class.UsersList.php:38
+msgid "искать по имени"
+msgstr "искать по имени"
+
+#: ../mod/users/class.UsersList.php:40
+msgid "по логину:"
+msgstr "по логину:"
+
+#: ../mod/users/class.UsersList.php:78
+#: ../mod/users/templates/user.form.php:83
+msgid "тип"
+msgstr "тип"
+
+#: ../mod/users/class.UsersList.php:79
+msgid "ФИО клиента"
+msgstr "ФИО клиента"
+
+#: ../mod/users/templates/user.form.php:78
+msgid "Пользователь"
+msgstr "Пользователь"
+
+#: ../mod/users/templates/user.form.php:98
+msgid "пароль можно только поменять"
+msgstr "пароль можно только поменять"
+
+#: ../mod/users/templates/user.form.php:112
+msgid "Вы действительно хотите удалить этого пользователя?"
+msgstr "Вы действительно хотите удалить этого пользователя?"
+
+#: ../public/lib/class.Publicbalance.php:92
+msgid "* зеленым цветом выделены платежи от вашего имени."
+msgstr "* зеленым цветом выделены платежи от вашего имени."
+
+#: ../public/lib/class.Publicbalance.php:176
+msgid "Детализация баланса для:"
+msgstr "Детализация баланса для:"
+
+#: ../public/lib/class.Publicbalance.php:182
+msgid "на   сумму:"
+msgstr "на   сумму:"
+
+#: ../public/lib/class.Publicbalance.php:185
+msgid "МОЙ БАЛАНС:"
+msgstr "МОЙ БАЛАНС:"
+
+#: ../public/lib/class.Publicbalance.php:197
+msgid "на отдельной странице"
+msgstr "на отдельной странице"
+
+#: ../public/lib/class.Publiccars.php:120
+msgid "Ваши автомобили"
+msgstr "Ваши автомобили"
+
+#: ../public/lib/class.Publiccars.php:121
+#, fuzzy
+msgid "Отображать проданные автомобили"
+msgstr "Местонахождение автомобиля"
+
+#: ../public/lib/class.Publiccars.php:122
+#, fuzzy
+msgid "Обозначение цветов"
+msgstr "Назначение расхода"
+
+#: ../public/lib/class.Publiccars.php:134
+#, fuzzy
+msgid "клиент"
+msgstr "Клиент"
+
+#: ../public/lib/class.Publiccars.php:136
+msgid "всего<br>за автомобиль"
+msgstr "всего<br>за автомобиль"
+
+#: ../public/lib/class.Publiccars.php:138
+msgid "место нахождения"
+msgstr "место нахождения"
+
+#: ../public/lib/class.Publiccars.php:170
+msgid "У вас пока не добавлено ни одного автомобиля!"
+msgstr "У вас пока не добавлено ни одного автомобиля!"
+
+#: ../public/lib/class.Publiccars.php:230
+msgid "Сопроводительные документы:"
+msgstr "Сопроводительные документы:"
+
+#: ../public/lib/class.Publiccars.php:249
+msgid "не известно"
+msgstr "не известно"
+
+#: ../public/lib/class.Publiccars.php:269
+msgid "экспортный сертификат"
+msgstr "экспортный сертификат"
+
+#: ../public/lib/class.Publiccars.php:360
+msgid "аукцион"
+msgstr "аукцион"
+
+#: ../public/lib/class.Publiccars.php:402
+msgid "статус"
+msgstr "статус"
+
+#: ../public/lib/class.Publiccars.php:409
+msgid "Отчет о состоянии автомобиля или CR:"
+msgstr "Отчет о состоянии автомобиля или CR:"
+
+#: ../public/lib/class.Publiccars.php:414
+msgid "После-продажная инспекция:"
+msgstr "После-продажная инспекция:"
+
+#: ../public/lib/class.Publiccars.php:418
+msgid "AutoCheck / Carfax:"
+msgstr "AutoCheck / Carfax:"
+
+#: ../public/lib/class.Publiccars.php:422
+msgid "Место нахождение машины"
+msgstr "Место нахождение машины"
+
+#: ../public/lib/class.Publiccars.php:424
+msgid "Место назначения"
+msgstr "Место назначения"
+
+#: ../public/lib/class.Publiccars.php:425
+msgid "не указано"
+msgstr "не указано"
+
+#: ../public/lib/class.Publiccars.php:429
+#, fuzzy
+msgid "Продан"
+msgstr "продан"
+
+#: ../public/lib/class.Publiccars.php:456
+msgid "сохранить"
+msgstr "сохранить"
+
+#: ../public/lib/class.Publiccars.php:468
+msgid "Идет в контейнере"
+msgstr "Идет в контейнере"
+
+#: ../public/lib/class.Publiccars.php:477
+msgid "отправкa"
+msgstr "отправкa"
+
+#: ../public/lib/class.Publiccars.php:485
+msgid "Станция назначения"
+msgstr "Станция назначения"
+
+#: ../public/lib/class.Publicpayments.php:72
+msgid "Ваши платежи"
+msgstr "Ваши платежи"
+
+#: ../public/lib/class.Publicpayments.php:102
+msgid "У вас пока нет платежей"
+msgstr "У вас пока нет платежей"
+
+#: ../public/lib/class.Publicprintbalance.php:44
+msgid "п/о"
+msgstr "п/о"
+
+#: ../public/lib/class.Publicprintbalance.php:201
+msgid "В ПУТИ:"
+msgstr "В ПУТИ:"
+
+#: ../public/lib/class.Publicprintbalance.php:202
+msgid "(предоплата)"
+msgstr "(предоплата)"
+
+#: ../public/lib/class.Publicprintbalance.php:207
+msgid "ДОСТАВЛЕНО:"
+msgstr "ДОСТАВЛЕНО:"
+
+#: ../public/lib/class.Publicprintbalance.php:217
+msgid "К ОПЛАТЕ:"
+msgstr "К ОПЛАТЕ:"
+
+#: ../public/lib/class.Publicprivate.php:44
+msgid "Личные данные"
+msgstr "Личные данные"
+
+#: ../public/lib/class.Publicprivate.php:49
+msgid "контактные данные"
+msgstr "контактные данные"
+
+#: ../reports/class.ReportsMain.php:119
+msgid "номер кузова"
+msgstr "номер кузова"
+
+#~ msgid "продажа товаров"
+#~ msgstr "продажа товаров"
+#~ msgid "авто"
+#~ msgstr "авто"
+#~ msgid "резервное копирование"
+#~ msgstr "резервное копирование"
+#~ msgid "Платежи по автомобилю"
+#~ msgstr "Платежи по автомобилю"
+#~ msgid "добав. <b>приход</b>"
+#~ msgstr "добав. <b>приход</b>"
+#~ msgid "Нет платежей для данного автомобиля"
+#~ msgstr "Нет платежей для данного автомобиля"
+#~ msgid "Расходы по автомобилю"
+#~ msgstr "Расходы по автомобилю"
+#~ msgid "добав. <b>расход</b>"
+#~ msgstr "добав. <b>расход</b>"
+#~ msgid "Нет расходов для данного автомобиля"
+#~ msgstr "Нет расходов для данного автомобиля"
+#~ msgid "добавить платеж"
+#~ msgstr "добавить платеж"
+#~ msgid "[временно не доступно]"
+#~ msgstr "[временно не доступно]"
+

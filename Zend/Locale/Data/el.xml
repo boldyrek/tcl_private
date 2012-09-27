@@ -1,0 +1,4125 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.114 $"/>
+		<generation date="$Date: 2009/05/05 23:06:35 $"/>
+		<language type="el"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">О‘П†О¬ПЃ</language>
+			<language type="ab">О‘ОјПЂП‡О±О¶О№ОєО¬</language>
+			<language type="ace">О‘П‡О№ОЅОЇО¶</language>
+			<language type="ach">О‘ОєОїО»ОЇ</language>
+			<language type="ada">О‘ОЅП„О¬ОЅОіОєОјОµ</language>
+			<language type="ady">О‘ОЅП„О№ОіОєО­О±</language>
+			<language type="ae">О‘ОІОµПѓП„О¬ОЅ</language>
+			<language type="af">О‘П†ПЃО№ОєО¬О±ОЅП‚</language>
+			<language type="afa">О‘П†ПЃОїО±ПѓО№О±П„О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="afh">О‘П†ПЃО№П‡ОЇО»О№</language>
+			<language type="ain">О‘ПЉОЅОїПЌ</language>
+			<language type="ak">О‘ОєО¬ОЅ</language>
+			<language type="akk">О‘ОєО¬ОЅП„О№О±ОЅ</language>
+			<language type="ale">О‘О»ОїПЌП„</language>
+			<language type="alg">О“О»ПЋПѓПѓО± О‘О»ОіОєОїОЅОєО№О¬ОЅ</language>
+			<language type="alt">ОќПЊП„О№О± О‘О»О±П„О±ПЉОєО¬</language>
+			<language type="am">О‘ОјО±ПЃО№ОєО¬</language>
+			<language type="an">О‘ПЃО±ОіОєОїОЅО№ОєО¬</language>
+			<language type="ang">О О±О»О±О№О¬ О‘ОіОіО»О№ОєО¬</language>
+			<language type="anp">О‘ОЅОіОєО№ОєО¬</language>
+			<language type="apa">О“О»ПЋПѓПѓО± О‘ПЂО¬П„ПѓО№</language>
+			<language type="ar">О‘ПЃО±ОІО№ОєО¬</language>
+			<language type="arc">О‘ПЃО±ОјО±ПЉОєО¬</language>
+			<language type="arn">О‘ПЃОїП…ОєО¬ОЅО№О±ОЅ</language>
+			<language type="arp">О‘ПЃО¬ПЂО±П‡Ої</language>
+			<language type="art">О¤ОµП‡ОЅО·П„О® ОіО»ПЋПѓПѓО±</language>
+			<language type="arw">О‘ПЃО±ОіОїП…О¬Оє</language>
+			<language type="as">О‘ПѓО±ОјОµО¶О№ОєО¬</language>
+			<language type="ast">О‘ПѓП„ОїП…ПЃО№О±ОЅО¬</language>
+			<language type="ath">О“О»ПЋПѓПѓО± О‘ОёО±ПЂО¬ПѓОєО±ОЅ</language>
+			<language type="aus">О‘П…ПѓП„ПЃО±О»О№О±ОЅО® ОіО»ПЋПѓПѓО±</language>
+			<language type="av">О†ОІО±ПЃО№Оє</language>
+			<language type="awa">О‘ОіОїП…О±ОЅП„ОЇ</language>
+			<language type="ay">О‘ПЉОјО¬ПЃО±</language>
+			<language type="az">О‘О¶ОµПЃОјПЂО±ПЉП„О¶О±ОЅО№ОєО¬</language>
+			<language type="ba">ОњПЂО±ПѓОєОЇПЃ</language>
+			<language type="bad">ОњПЂО¬ОЅП„О±</language>
+			<language type="bai">О“О»ПЋПѓПѓО± ОњПЂО±ОјО№О»О­Оє</language>
+			<language type="bal">ОњПЂО±О»ОїПЌП„ПѓО№</language>
+			<language type="ban">ОњПЂО±О»О№ОЅОЇО¶</language>
+			<language type="bas">ОњПЂО¬ПѓО±</language>
+			<language type="bat">О’О±О»П„О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="be">О›ОµП…ОєОїПЃП‰ПѓО№ОєО¬</language>
+			<language type="bej">ОњПЂО­О¶О±</language>
+			<language type="bem">ОњПЂО­ОјПЂО±</language>
+			<language type="ber">ОњПЂО­ПЃОјПЂОµПЃ</language>
+			<language type="bg">О’ОїП…О»ОіО±ПЃО№ОєО¬</language>
+			<language type="bh">ОњПЂО№П‡О¬ПЃО№</language>
+			<language type="bho">ОњПЂОїО¶ПЂОїПЌПЃО№</language>
+			<language type="bi">ОњПЂО№ПѓО»О¬ОјО±</language>
+			<language type="bik">ОњПЂО№ОєПЊО»</language>
+			<language type="bin">ОњПЂОЇОЅО№</language>
+			<language type="bla">ОЈО№ОєПѓОЇОєО±</language>
+			<language type="bm">ОњПЂО±ОјПЂО¬ПЃО±</language>
+			<language type="bn">ОњПЂОµОЅОіОєО¬О»О№</language>
+			<language type="bnt">ОњПЂО±ОЅП„ОїПЌ</language>
+			<language type="bo">ОО№ОІОµП„О№О±ОЅО¬</language>
+			<language type="br">О’ПЃОµП„ОїОЅО№ОєО¬</language>
+			<language type="bra">ОњПЂПЃО±П„О¶</language>
+			<language type="bs">О’ОїПѓОЅО№О±ОєО¬</language>
+			<language type="btk">ОњПЂО±П„О¬Оє</language>
+			<language type="bua">ОњПЂОїП…ПЃО№О¬П„</language>
+			<language type="bug">ОњПЂОїП…ОіОєОЇО¶</language>
+			<language type="byn">ОњПЂО»О№ОЅ</language>
+			<language type="ca">ОљО±П„О±О»О±ОЅО№ОєО¬</language>
+			<language type="cad">ОљО¬ОЅП„Ої</language>
+			<language type="cai">О™ОЅОґО№О±ОЅО№ОєО® ОіО»ПЋПѓПѓО± ОљОµОЅП„ПЃО№ОєО®П‚ О‘ОјОµПЃО№ОєО®П‚</language>
+			<language type="car">ОљО±ПЃОЇОјПЂ</language>
+			<language type="cau">ОљО±П…ОєО¬ПѓО№О± ОіО»ПЋПѓПѓО±</language>
+			<language type="cch">О‘П„ПѓО¬Ој</language>
+			<language type="ce">О¤ПѓО­П„ПѓОЅО№О±ОЅ</language>
+			<language type="ceb">ОљОµОјПЂОїП…О¬ОЅОї</language>
+			<language type="cel">ОљОµО»П„О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="ch">ОљО±ОјПЊПЃПЃОї</language>
+			<language type="chb">О¤ПѓОЇОјПЂП„ПѓО±</language>
+			<language type="chg">О¤ПѓО±ОіОєО±П„О¬О№</language>
+			<language type="chk">О¤ПѓОїП…ОєОЇО¶О№</language>
+			<language type="chm">ОњО¬ПЃО№</language>
+			<language type="chn">О™ОґО№П‰ОјО±П„О№ОєО¬ ОЈО№ОЅОїПЌОє</language>
+			<language type="cho">О¤ПѓОїОєП„О¬ОїП…</language>
+			<language type="chp">О¤ПѓОЇПЂО№ОїП…О±ОЅ</language>
+			<language type="chr">О¤ПѓОµПЃПЊОєО№</language>
+			<language type="chy">ОЈОµОіО№О­ОЅ</language>
+			<language type="cmc">О§О±ОјО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="co">ОљОїПЃПѓО№ОєО±ОЅО№ОєО¬</language>
+			<language type="cop">ОљОїПЂП„О№ОєО¬</language>
+			<language type="cpe">ОљПЃОµПЊО» О® О ОЇОЅП„ОіОєО№ОЅ ОІО¬ПѓОµО№ О‘ОіОіО»О№ОєПЋОЅ</language>
+			<language type="cpf">ОљПЃОµПЊО» О® О ОЇОЅП„ОіОєО№ОЅ ОІО¬ПѓОµО№ О“О±О»О»О№ОєПЋОЅ</language>
+			<language type="cpp">ОљПЃОµПЊО» ОєО±О№ О ОЇОЅП„ОіОєО№ОЅ ОІО¬ПѓОµО№ О ОїПЃП„ОїОіО±О»О№ОєПЋОЅ</language>
+			<language type="cr">ОљПЃО№</language>
+			<language type="crh">О¤ОїП…ПЃОєО№ОєО¬ ОљПЃО№ОјО±ОЇО±П‚</language>
+			<language type="crp">ОљПЃОµПЊО» О® О ОЇОЅП„ОіОєО№ОЅ</language>
+			<language type="cs">О¤ПѓОµП‡О№ОєО¬</language>
+			<language type="csb">ОљО±ПѓОїПЌОјПЂО№О±ОЅ</language>
+			<language type="cu">О•ОєОєО»О·ПѓО№О±ПѓП„О№ОєО¬ ОЈО»О±ОІО№ОєО¬</language>
+			<language type="cus">О“О»ПЋПѓПѓО± ОљОїП…ПѓО№П„ОЇОє</language>
+			<language type="cv">О§ОїП…ОІО¬П‚</language>
+			<language type="cy">ОџП…О±О»О№ОєО¬</language>
+			<language type="da">О”О±ОЅО№ОєО¬</language>
+			<language type="dak">ОќП„О±ОєПЊП„О±</language>
+			<language type="dar">ОќП„О¬ПЃОіОєОїП…О±</language>
+			<language type="day">ОќП„О±ОіО№О¬Оє</language>
+			<language type="de">О“ОµПЃОјО±ОЅО№ОєО¬</language>
+			<language type="de_AT">О“ОµПЃОјО±ОЅО№ОєО¬ О‘П…ПѓП„ПЃОЇО±П‚</language>
+			<language type="de_CH">О“ОµПЃОјО±ОЅО№ОєО¬ О•О»ОІОµП„ОЇО±П‚</language>
+			<language type="del">ОќП„О­О»О±ОіОїП…ОµПЃ</language>
+			<language type="den">ОЈО»О±ОІО№ОєО¬</language>
+			<language type="dgr">ОќП„ПЊОіОєПЃО№ОјПЂ</language>
+			<language type="din">ОќП„ОЇОЅОєО±</language>
+			<language type="doi">ОќП„ПЊОіОєПЃО№</language>
+			<language type="dra">О“О»ПЋПѓПѓО± ОќП„ПЃО±ОІОЇОґО№О±ОЅ</language>
+			<language type="dsb">О“О»ПЋПѓПѓО± ОљО¬П„П‰ О›ОїП…ПѓО±П„ОЇО±П‚</language>
+			<language type="dua">ОќП„ОїП…О¬О»О±</language>
+			<language type="dum">ОњО­ПѓО± ОџО»О»О±ОЅОґО№ОєО¬</language>
+			<language type="dv">ОќП„О№ОІО­П‡О№</language>
+			<language type="dyu">ОќП„ОїОіО№ОїПЌО»О±</language>
+			<language type="dz">ОќП„О¶ПЊОЅОіОєП‡О±</language>
+			<language type="ee">О“О№</language>
+			<language type="efi">О•П†ОЇОє</language>
+			<language type="egy">О‘ПЃП‡О±ОЇО± О‘О№ОіП…ПЂП„О№О±ОєО¬</language>
+			<language type="eka">О•ОєО±П„О¶ОїПЌОє</language>
+			<language type="el">О•О»О»О·ОЅО№ОєО¬</language>
+			<language type="elx">О•О»О±ОјО¬О№П„</language>
+			<language type="en">О‘ОіОіО»О№ОєО¬</language>
+			<language type="en_AU">О‘ОіОіО»О№ОєО¬ О‘П…ПѓП„ПЃО±О»ОЇО±П‚</language>
+			<language type="en_CA">О‘ОіОіО»О№ОєО¬ ОљО±ОЅО±ОґО¬</language>
+			<language type="en_GB">О‘ОіОіО»О№ОєО¬ О—ОЅП‰ОјО­ОЅОїП… О’О±ПѓО№О»ОµОЇОїП…</language>
+			<language type="en_US">О‘ОіОіО»О№ОєО¬ О—.О .О‘.</language>
+			<language type="enm">ОњО­ПѓО± О‘ОіОіО»О№ОєО¬</language>
+			<language type="eo">О•ПѓПЂОµПЃО¬ОЅП„Ої</language>
+			<language type="es">О™ПѓПЂО±ОЅО№ОєО¬</language>
+			<language type="es_419">О™ПѓПЂО±ОЅО№ОєО¬ О›О±П„О№ОЅО№ОєО®П‚ О‘ОјОµПЃО№ОєО®П‚</language>
+			<language type="es_ES">О™ПѓПЂО±ОЅО№ОєО¬ О™ОІО·ПЃО№ОєО®П‚</language>
+			<language type="et">О•ПѓОёОїОЅО№ОєО¬</language>
+			<language type="eu">О’О±ПѓОєО№ОєО¬</language>
+			<language type="ewo">О•ОіОїП…ПЊОЅП„Ої</language>
+			<language type="fa">О ОµПЃПѓО№ОєО¬</language>
+			<language type="fan">О¦О±ОЅОіОє</language>
+			<language type="fat">О¦О¬ОЅП„О№</language>
+			<language type="ff">О¦ОїП…О»О¬П‡</language>
+			<language type="fi">О¦О№ОЅО»О±ОЅОґО№ОєО¬</language>
+			<language type="fil">О¦О№О»О№ПЂПЂО№ОЅОµО¶О№ОєО¬</language>
+			<language type="fiu">О¦О№ОЅОЅОї-ОџПЌОіОєПЃО№О±ОЅ</language>
+			<language type="fj">О¦ОЇП„О¶О№</language>
+			<language type="fo">О¦О±ПЃПЊОµ</language>
+			<language type="fon">О¦ОїОЅ</language>
+			<language type="fr">О“О±О»О»О№ОєО¬</language>
+			<language type="fr_CA">О“О±О»О»О№ОєО¬ ОљО±ОЅО±ОґО¬</language>
+			<language type="fr_CH">О“О±О»О»О№ОєО¬ О•О»ОІОµП„ОЇО±П‚</language>
+			<language type="frm">ОњО­ПѓО± О“О±О»О»О№ОєО¬</language>
+			<language type="fro">О О±О»О±О№О¬ О“О±О»О»О№ОєО¬</language>
+			<language type="frr">О’ПЊПЃОµО№О± О¦ПЃО№О¶О№О±ОЅО¬</language>
+			<language type="frs">О‘ОЅО±П„ОїО»О№ОєО¬ О¦ПЃО№О¶О№О±ОЅО¬</language>
+			<language type="fur">О¦ПЃО№ОїПЌО»О№О±ОЅ</language>
+			<language type="fy">О”П…П„О№ОєО¬ О¦ПЃО№О¶О№О±ОЅО¬</language>
+			<language type="ga">О™ПЃО»О±ОЅОґО№ОєО¬</language>
+			<language type="gaa">О“ОєО±</language>
+			<language type="gay">О“ОєО¬ОіО№Ої</language>
+			<language type="gba">О“ОєОјПЂО¬ОіО№О±</language>
+			<language type="gd">ОЈОєП‰П„О№ОєО¬ ОљОµО»П„О№ОєО¬</language>
+			<language type="gem">О“ОµПЃОјО±ОЅО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="gez">О“ОєО№О¶</language>
+			<language type="gil">О“ОєО№О»ОјПЂОµПЃП„ОЇО¶</language>
+			<language type="gl">О“О±О»О№ОєО№О±ОЅО¬</language>
+			<language type="gmh">ОњО­ПѓО± О†ОЅП‰ О“ОµПЃОјО±ОЅО№ОєО¬</language>
+			<language type="gn">О“ОєОїП…О±ПЃО±ОЅОЇ</language>
+			<language type="goh">О О±О»О±О№О¬ О†ОЅП‰ О“ОµПЃОјО±ОЅО№ОєО¬</language>
+			<language type="gon">О“ОєПЊОЅП„О№</language>
+			<language type="gor">О“ОєОїПЃОїОЅП„О¬О»Ої</language>
+			<language type="got">О“ОїП„ОёО№ОєО¬</language>
+			<language type="grb">О“ОєПЃОЇОјПЂОї</language>
+			<language type="grc">О‘ПЃП‡О±ОЇО± О•О»О»О·ОЅО№ОєО¬</language>
+			<language type="gsw">О•О»ОІОµП„О№ОєО¬ О“ОµПЃОјО±ОЅО№ОєО¬</language>
+			<language type="gu">О“ОєОїП…ОіО№О±ПЃО¬П„О№</language>
+			<language type="gv">ОњО±ОЅОѕ</language>
+			<language type="gwi">О“ОєОїП…ОЇП„ПѓО№ОЅ</language>
+			<language type="ha">О§О¬ОїП…ПѓО±</language>
+			<language type="hai">О§О¬О№ОЅП„О±</language>
+			<language type="haw">О§О±ОІО±ОЅОµО¶О№ОєО¬</language>
+			<language type="he">О•ОІПЃО±ПЉОєО¬</language>
+			<language type="hi">О§ОЇОЅП„О№</language>
+			<language type="hil">О§О№О»О№ОіОєО±ОіО№ПЊОЅ</language>
+			<language type="him">О§О№ОјО±П„ПѓО¬О»О№</language>
+			<language type="hit">О§О№П„ОЇП„Оµ</language>
+			<language type="hmn">О§ОјОїОЅОіОє</language>
+			<language type="ho">О§ОЇПЃО№ ОњПЊП„ОїП…</language>
+			<language type="hr">ОљПЃОїО±П„О№ОєО¬</language>
+			<language type="hsb">О“О»ПЋПѓПѓО± О†ОЅП‰ О›ОїП…ПѓО±П„ОЇО±П‚</language>
+			<language type="ht">О‘ПЉП„О№О±ОЅО¬</language>
+			<language type="hu">ОџП…ОіОіПЃО№ОєО¬</language>
+			<language type="hup">О§ОїПЌПЂО±</language>
+			<language type="hy">О‘ПЃОјОµОЅО№ОєО¬</language>
+			<language type="hz">О§ОµПЃО­ПЃОї</language>
+			<language type="ia">О™ОЅП„ОµПЃО»ОЇОЅОіОєОїП…О±</language>
+			<language type="iba">О™ОјПЂО¬ОЅ</language>
+			<language type="id">О™ОЅОґОїОЅО·ПѓО№О±ОєО¬</language>
+			<language type="ie">О™ОЅП„ОµПЃО»ОЇОЅОіОєОїП…Оµ</language>
+			<language type="ig">ОЉОіОєОјПЂОї</language>
+			<language type="ii">ОЈО№ОєОїП…О¬ОЅ О“О№</language>
+			<language type="ijo">О™О¶ПЊ</language>
+			<language type="ik">О™ОЅОїП…ПЂО№О¬Оє</language>
+			<language type="ilo">О™О»ПЊОєОї</language>
+			<language type="inc">О™ОЅОґО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="ine">О™ОЅОґОїОµП…ПЃП‰ПЂО±ПЉОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="inh">О™ОЅОіОєОїПЌП‚</language>
+			<language type="io">ОЉОЅП„Ої</language>
+			<language type="ira">О™ПЃО±ОЅО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="iro">О“О»ПЋПѓПѓО± О™ПЃОїОєПЊО№О±ОЅ</language>
+			<language type="is">О™ПѓО»О±ОЅОґО№ОєО¬</language>
+			<language type="it">О™П„О±О»О№ОєО¬</language>
+			<language type="iu">О™ОЅОїП…ОєП„О№П„ОїПЌП„</language>
+			<language type="ja">О™О±ПЂП‰ОЅО№ОєО¬</language>
+			<language type="jbo">О›ПЊО¶ОјПЂО±ОЅ</language>
+			<language type="jpr">О™ОїП…ОґО±ПЉОєО¬-О ОµПЃПѓО№ОєО¬</language>
+			<language type="jrb">О™ОїП…ОґО±ПЉОєО¬-О‘ПЃО±ОІО№ОєО¬</language>
+			<language type="jv">О™О±ОІО±ОЅОµО¶О№ОєО¬</language>
+			<language type="ka">О“ОµП‰ПЃОіО№О±ОЅО¬</language>
+			<language type="kaa">ОљО¬ПЃО±-ОљО±О»ПЂО¬Оє</language>
+			<language type="kab">ОљО±ОјПЂОЇО»Оµ</language>
+			<language type="kac">ОљО±П„ПѓОЇОЅ</language>
+			<language type="kaj">О¤О¶ОїП…</language>
+			<language type="kam">ОљО¬ОјПЂО±</language>
+			<language type="kar">ОљО±ПЃО­ОЅ</language>
+			<language type="kaw">ОљО¬ОїП…О№</language>
+			<language type="kbd">ОљО±ОјПЂО±ПЃОЅП„О№О±ОЅО¬</language>
+			<language type="kcg">О¤ОїП…О¬ПЂ</language>
+			<language type="kfo">ОљПЊПЃОї</language>
+			<language type="kg">ОљОїОЅОіОєПЊ</language>
+			<language type="kha">ОљО¬ПѓО№</language>
+			<language type="khi">О“О»ПЋПѓПѓО± ОљОїПЉПѓО¬ОЅ</language>
+			<language type="kho">ОљОїП„О±ОЅО№ОєО¬</language>
+			<language type="ki">ОљО№ОєОїПЌОіО№ОїП…</language>
+			<language type="kj">ОљОїП…О±ОЅО№ОіО№О¬ОјО±</language>
+			<language type="kk">ОљО±О¶О±ОєО№ОєО¬</language>
+			<language type="kl">ОљО±О»О±О±О»О№ПѓОїПЌП„</language>
+			<language type="km">ОљО±ОјПЂОїП„О¶О№О±ОЅО¬</language>
+			<language type="kmb">ОљО№ОјПЂОїПЌОЅП„ОїП…</language>
+			<language type="kn">ОљО±ОЅО¬ОЅП„О±</language>
+			<language type="ko">ОљОїПЃОµО±П„О№ОєО¬</language>
+			<language type="kok">ОљОїОЅОєО¬ОЅО№</language>
+			<language type="kos">ОљОїПѓПЃО±ОµОЅО№ОєО¬</language>
+			<language type="kpe">ОљПЂО­О»Оµ</language>
+			<language type="kr">ОљО±ОЅОїПЌПЃО№</language>
+			<language type="krc">ОљО±ПЃО±П„ПѓО¬О№-ОњПЂО±О»ОєО¬ПЃ</language>
+			<language type="krl">ОљО±ПЃОµО»О№О±ОєО¬</language>
+			<language type="kro">ОљПЃОїП…</language>
+			<language type="kru">ОљОїП…ПЃОїПЌП‡</language>
+			<language type="ks">ОљО±ПѓОјОЇПЃО№</language>
+			<language type="ku">ОљОїП…ПЃОґО№ОєО¬</language>
+			<language type="kum">ОљОїП…ОјОіО№ОїПЌОє</language>
+			<language type="kut">ОљОїП…П„ОµОЅО¬О№</language>
+			<language type="kv">ОљПЊОјО№</language>
+			<language type="kw">ОљПЊПЃОЅО№П‚</language>
+			<language type="ky">ОљП…ПЃОіО№О¶О№ОєО¬</language>
+			<language type="la">О›О±П„О№ОЅО№ОєО¬</language>
+			<language type="lad">О›О±ОґОЇОЅОї</language>
+			<language type="lah">О›О¬П‡ОґО±</language>
+			<language type="lam">О›О¬ОјПЂО±</language>
+			<language type="lb">О›ОїП…ОѕОµОјОІОїП…ПЃОіО№ОєО¬</language>
+			<language type="lez">О›О±О¶ОіОєО№О¬ОЅ</language>
+			<language type="lg">О“ОєО¬ОЅП„О±</language>
+			<language type="li">О›О№ОјОІОїП…ПЃОіО№О±ОЅО¬</language>
+			<language type="ln">О›О№ОЅОіОєО¬О»О±</language>
+			<language type="lo">О›О±ОїОёО№О±ОЅО¬</language>
+			<language type="lol">ОњПЊОЅОіОєОї</language>
+			<language type="loz">О›ПЊО¶О№</language>
+			<language type="lt">О›О№ОёОїП…О±ОЅО№ОєО¬</language>
+			<language type="lu">О›ОїПЌОјПЂО±-ОљО±П„О¬ОЅОіОєО±</language>
+			<language type="lua">О›ОїПЌОјПЂО±-О›ОїП…О»ОїПЌО±</language>
+			<language type="lui">О›ОїП…О№ПѓО­ОЅОї</language>
+			<language type="lun">О›ОїПЌОЅП„О±</language>
+			<language type="luo">О›ОїПЌОї</language>
+			<language type="lus">О›ОїП…ПѓО¬О№</language>
+			<language type="lv">О›ОµП„ОїОЅО№ОєО¬</language>
+			<language type="mad">ОњО±ОЅП„ОїП…ПЃОЇО¶</language>
+			<language type="mag">ОњО±ОіОєО¬П‡О№</language>
+			<language type="mai">ОњО±ПЉП„П‡ОЇО»О№</language>
+			<language type="mak">ОњО±ОєО±О¶О¬ПЃ</language>
+			<language type="man">ОњО±ОЅП„ОЇОЅОіОєОї</language>
+			<language type="map">ОџПѓП„ПЃОїОЅО­О¶О№О±ОЅ</language>
+			<language type="mas">ОњО±ПѓО¬О№</language>
+			<language type="mdf">ОњПЊОєПѓО±</language>
+			<language type="mdr">ОњО±ОЅОґО¬ПЃ</language>
+			<language type="men">ОњО­ОЅП„Оµ</language>
+			<language type="mg">ОњО±О»О±ОіО¬ПѓО№</language>
+			<language type="mga">ОњО­ПѓО± О™ПЃО»О±ОЅОґО№ОєО¬</language>
+			<language type="mh">ОњО¬ПЃПѓО±О»</language>
+			<language type="mi">ОњО¬ОїПЃО№</language>
+			<language type="mic">ОњО№ОєОјО¬Оє</language>
+			<language type="min">ОњО№ОЅО±ОЅОіОєО±ОјПЂО¬ОїП…</language>
+			<language type="mis">О”О№О¬П†ОїПЃОµП‚ ОіО»ПЋПѓПѓОµП‚</language>
+			<language type="mk">ОЈО»О±ОІОїОјО±ОєОµОґОїОЅО№ОєО¬</language>
+			<language type="mkh">О“О»ПЋПѓПѓО± ОњОїОЅ-О§ОјОµПЃ</language>
+			<language type="ml">ОњО±О»О±ОіО№О±О»О¬Ој</language>
+			<language type="mn">ОњОїОіОіОїО»О№ОєО¬</language>
+			<language type="mnc">ОњО±ОЅП„ПѓОїПЌ</language>
+			<language type="mni">ОњО±ОЅО№ПЂОїПЌПЃО№</language>
+			<language type="mno">О“О»ПЋПѓПѓО± ОњО±ОЅПЊОјПЂОї</language>
+			<language type="mo">ОњОїО»ОґО±ОІО№ОєО¬</language>
+			<language type="moh">ОњОїП‡ПЊОє</language>
+			<language type="mos">ОњПЊПѓО№</language>
+			<language type="mr">ОњО±ПЃО¬ОёО№</language>
+			<language type="ms">ОњО±О»О¬О№</language>
+			<language type="mt">ОњО±О»П„ОµО¶О№ОєО¬</language>
+			<language type="mul">О ОїО»О»О±ПЂО»О­П‚ ОіО»ПЋПѓПѓОµП‚</language>
+			<language type="mun">О“О»ПЋПѓПѓО± ОњОїПЌОЅП„О±</language>
+			<language type="mus">ОљПЃО№Оє</language>
+			<language type="mwl">ОњО№ПЃО±ОЅП„ОµО¶О№ОєО¬</language>
+			<language type="mwr">ОњО±ПЃОіОїП…О¬ПЃО№</language>
+			<language type="my">О’О№ПЃОјО±ОЅО№ОєО¬</language>
+			<language type="myn">О“О»ПЋПѓПѓО± ОњО¬ОіО№О±ОЅ</language>
+			<language type="myv">О€ПЃО¶П…О±</language>
+			<language type="na">ОќО±ОїПЌПЃОїП…</language>
+			<language type="nah">ОќО±П‡ОїП…О¬П„О»</language>
+			<language type="nai">О™ОЅОґО№О±ОЅО№ОєО® ОіО»ПЋПѓПѓО± О’ПЊПЃОµО№О±П‚ О‘ОјОµПЃО№ОєО®П‚</language>
+			<language type="nap">ОќО±ПЂОїО»О№П„О±ОЅО№ОєО¬</language>
+			<language type="nb">ОќОїПЃОІО·ОіО№ОєО¬ ОњПЂОїОєОјО¬О»</language>
+			<language type="nd">ОќП„ОµОјПЂО­О»Оµ О’ОїПЃПЃО¬</language>
+			<language type="nds">ОљО¬П„П‰ О“ОµПЃОјО±ОЅО№ОєО¬</language>
+			<language type="ne">ОќОµПЂО¬О»О№</language>
+			<language type="new">ОќОµОіОїП…О¬ПЃО№</language>
+			<language type="ng">ОќП„ПЊОЅОіОєО±</language>
+			<language type="nia">ОќОЇО±П‚</language>
+			<language type="nic">О“О»ПЋПѓПѓО± ОќОЇОіО·ПЃО±-ОљОїПЃОґОїП†О¬ОЅО№О±ОЅ</language>
+			<language type="niu">ОќО№ОїПЌОµО±ОЅ</language>
+			<language type="nl">ОџО»О»О±ОЅОґО№ОєО¬</language>
+			<language type="nl_BE">О¦О»О±ОјО±ОЅОґО№ОєО¬</language>
+			<language type="nn">ОќОїПЃОІО·ОіО№ОєО¬ ОќО№ОЅПЊПЃПѓОє</language>
+			<language type="no">ОќОїПЃОІО·ОіО№ОєО¬</language>
+			<language type="nog">ОќОїОіОєО¬О№</language>
+			<language type="non">О О±О»О±О№О¬ ОќОїПЃОІО·ОіО№ОєО¬</language>
+			<language type="nqo">Оќ'ОљОї</language>
+			<language type="nr">ОќП„ОµОјПЂО­О»Оµ ОќПЊП„ОїП…</language>
+			<language type="nso">О’ПЊПЃОµО№О± ОЈПЊОёОї</language>
+			<language type="nub">О“О»ПЋПѓПѓО± ОќОїПЌОјПЂО№О±ОЅ</language>
+			<language type="nv">ОќО¬ОІО±П‡Ої</language>
+			<language type="nwc">ОљО»О±ПѓО№ОєО¬ ОќОµОїП…О¬ПЃО№</language>
+			<language type="ny">ОќО№О¬ОЅП„О¶О±</language>
+			<language type="nym">ОќО№О±ОјОіОїП…О­О¶О№</language>
+			<language type="nyn">ОќО№О±ОЅОєПЊО»Оµ</language>
+			<language type="nyo">ОќО№ПЊПЃОї</language>
+			<language type="nzi">ОќО¶ОЇОјО±</language>
+			<language type="oc">ОџОєПѓО№П„О±ОЅО№ОєО¬</language>
+			<language type="oj">ОџО¶О№ОІОЇОіОїП…О±</language>
+			<language type="om">ОџПЃПЊОјОї</language>
+			<language type="or">ОџПЃОЇОіО№О±</language>
+			<language type="os">ОџПѓОµП„О№ОєО¬</language>
+			<language type="osa">ОџПѓО¬О¶</language>
+			<language type="ota">ОџОёП‰ОјО±ОЅО№ОєО¬ О¤ОїП…ПЃОєО№ОєО¬</language>
+			<language type="oto">ОџОёП‰ОјО±ОЅО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="pa">О О±ОЅП„О¶О±ПЂО№ОєО¬</language>
+			<language type="paa">О О±ПЂОїПЌО±</language>
+			<language type="pag">О О±ОЅОіОєО±ПѓО№ОЅО¬ОЅ</language>
+			<language type="pal">О О±П‡О»О¬ОІО№</language>
+			<language type="pam">О О±ОјПЂО¬ОЅОіОєО±</language>
+			<language type="pap">О О±ПЂО№О±ОјО­ОЅП„Ої</language>
+			<language type="pau">О О±О»О¬ОїП…О±ОЅ</language>
+			<language type="peo">О‘ПЃП‡О±ОЇО± О ОµПЃПѓО№ОєО¬</language>
+			<language type="phi">О¦О№О»О№ПЂПЂО№ОЅОµО¶О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="phn">О¦ОїО№ОЅО№ОєО№ОєО¬</language>
+			<language type="pi">О О¬О»О№</language>
+			<language type="pl">О ОїО»П‰ОЅО№ОєО¬</language>
+			<language type="pon">О ОїП‡ПЂО­О№О±ОЅ</language>
+			<language type="pra">О“О»ПЋПѓПѓО± О ПЃО¬ОєПЃО№П„</language>
+			<language type="pro">О О±О»О±О№О¬ О ПЃОїОІОµОЅПѓО№О¬О»</language>
+			<language type="ps">О О¬ПѓП„Ої</language>
+			<language type="pt">О ОїПЃП„ОїОіО±О»О№ОєО¬</language>
+			<language type="pt_BR">О ОїПЃП„ОїОіО±О»О№ОєО¬ О’ПЃО±О¶О№О»ОЇО±П‚</language>
+			<language type="pt_PT">О ОїПЃП„ОїОіО±О»О№ОєО¬ О™ОІО·ПЃО№ОєО®П‚</language>
+			<language type="qu">ОљОµП„ПѓОїПЌО±</language>
+			<language type="raj">ОЎО±О¶О±ПѓОёО¬ОЅО№</language>
+			<language type="rap">ОЎО±ПЂО±ОЅОїПЌО№</language>
+			<language type="rar">ОЎО±ПЃОїП„ОїОЅОіОєО¬ОЅ</language>
+			<language type="rm">ОЎОµП„Ої-ОЎОїОјО±ОЅО№ОєО¬</language>
+			<language type="rn">ОЎОїПЌОЅП„О№</language>
+			<language type="ro">ОЎОїП…ОјО±ОЅО№ОєО¬</language>
+			<language type="roa">ОЎОїОјО±ОЅО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="rom">ОЎОїОјО±ОЅОЇ</language>
+			<language type="root">ОЎОїП…П„</language>
+			<language type="ru">ОЎП‰ПѓО№ОєО¬</language>
+			<language type="rup">О‘ПЃОїОјО±ОЅО№ОєО¬</language>
+			<language type="rw">ОљО№ОЅО№О±ПЃОІО¬ОЅП„О±</language>
+			<language type="sa">ОЈО±ОЅПѓОєПЃО№П„О№ОєО¬</language>
+			<language type="sad">ОЈО±ОЅП„О¬ОіОїП…Оµ</language>
+			<language type="sah">О“О№О±ОєОїПЌП„</language>
+			<language type="sai">О™ОЅОґО№О±ОЅО№ОєО® ОіО»ПЋПѓПѓО± ОќПЊП„О№О±П‚ О‘ОјОµПЃО№ОєО®П‚</language>
+			<language type="sal">О“О»ПЋПѓПѓО± ОЈО±О»О№ПѓО¬ОЅ</language>
+			<language type="sam">ОЈО±ОјО±ПЃОЇП„О№ОєО± О‘ПЃО±ОјО±ПЉОєО¬</language>
+			<language type="sas">ОЈО±ПѓО¬Оє</language>
+			<language type="sat">ОЈО±ОЅП„О¬О»О№</language>
+			<language type="sc">ОЈО±ПЃОґО№ОЅО№ОєО¬</language>
+			<language type="scn">ОЈО№ОєОµО»О№О±ОЅО¬</language>
+			<language type="sco">ОЈОєП‰П„О№ОєО¬</language>
+			<language type="sd">ОЈОЇОЅП„О№</language>
+			<language type="se">О’ПЊПЃОµО№О± ОЈО¬ОјО№</language>
+			<language type="sel">ОЈОµО»ОєОїПЌПЂ</language>
+			<language type="sem">ОЈО·ОјО·П„О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="sg">ОЈО¬ОЅОіОєОї</language>
+			<language type="sga">О О±О»О±О№О¬ О™ПЃО»О±ОЅОґО№ОєО¬</language>
+			<language type="sgn">ОќОїО·ОјО±П„О№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="sh">ОЈОµПЃОІОїОєПЃОїО±П„О№ОєО¬</language>
+			<language type="shn">ОЈО±ОЅ</language>
+			<language type="si">ОЈО№ОЅП‡О±О»ОµО¶О№ОєО¬</language>
+			<language type="sid">ОЈО№ОЅП„О¬ОјОї</language>
+			<language type="sio">О“О»ПЋПѓПѓО± ОЈО№ОїП…О¬ОЅ</language>
+			<language type="sit">ОЈО№ОЅОїОёО№ОІОµП„О№О±ОЅО® ОіО»ПЋПѓПѓО±</language>
+			<language type="sk">ОЈО»ОїОІО±ОєО№ОєО¬</language>
+			<language type="sl">ОЈО»ОїОІОµОЅО№ОєО¬</language>
+			<language type="sla">ОЈО»О±ОІО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="sm">ОЈО±ОјПЊО±ОЅ</language>
+			<language type="sma">ОќПЊП„О№О± ОЈО¬ОјО№</language>
+			<language type="smi">О“О»ПЋПѓПѓО± ОЈО¬ОјО№</language>
+			<language type="smj">О›ОїПЌО»Оµ ОЈО¬ОјО№</language>
+			<language type="smn">О™ОЅО¬ПЃО№ ОЈО¬ОјО№</language>
+			<language type="sms">ОЈОєОїО»П„ ОЈО¬ОјО№</language>
+			<language type="sn">ОЈП‡ПЊОЅО±</language>
+			<language type="snk">ОЈОїОЅОЇОЅОєОµ</language>
+			<language type="so">ОЈОїОјО¬О»О№</language>
+			<language type="sog">ОЈОїОіОєОЅП„О№О­ОЅ</language>
+			<language type="son">ОЈОїОЅОіОєП‡О¬О№</language>
+			<language type="sq">О‘О»ОІО±ОЅО№ОєО¬</language>
+			<language type="sr">ОЈОµПЃОІО№ОєО¬</language>
+			<language type="srn">ОЈПЃО±ОЅО¬ПЃ О¤ПЊОЅОіОєОї</language>
+			<language type="srr">ОЈОµПЃО­ПЃ</language>
+			<language type="ss">ОЈОїП…О¬П„О№</language>
+			<language type="ssa">ОќО№О»Ої-ОЈО±П‡О±ПЃО№О±ОЅО® ОіО»ПЋПѓПѓО±</language>
+			<language type="st">ОќПЊП„О№О± ОЈПЊОёОї</language>
+			<language type="su">ОЈОїП…ОґО±ОЅО№ОєО¬</language>
+			<language type="suk">ОЈОїП…ОєОїПЌОјО±</language>
+			<language type="sus">ОЈОїПЌПѓОїП…</language>
+			<language type="sux">ОЈОїП…ОјОµПЃО№ОєО¬</language>
+			<language type="sv">ОЈОїП…О·ОґО№ОєО¬</language>
+			<language type="sw">ОЈОїП…О±П‡ОЇО»О№</language>
+			<language type="syc">ОљО»О±ПѓО№ОєО¬ ОЈП…ПЃО№О±ОєО¬</language>
+			<language type="syr">ОЈП…ПЃО№О±ОєО¬</language>
+			<language type="ta">О¤О±ОјОЇО»</language>
+			<language type="tai">О¤О±ПЉО»О±ОЅОґО№ОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="te">О¤ОµО»ОїПЌОіОєОїП…</language>
+			<language type="tem">О¤ОЇОјОЅОµ</language>
+			<language type="ter">О¤ОµПЃО­ОЅОї</language>
+			<language type="tet">О¤О­П„ОїП…Ој</language>
+			<language type="tg">О¤О±П„О¶ОЇОє</language>
+			<language type="th">О¤О±ПЉО»О±ОЅОґО№ОєО¬</language>
+			<language type="ti">О¤О№ОіОєПЃОЇОЅП…О±</language>
+			<language type="tig">О¤ОЇОіОєПЃОµ</language>
+			<language type="tiv">О¤О№ОІ</language>
+			<language type="tk">О¤ОїП…ПЃОєОјОµОЅО№ОєО¬</language>
+			<language type="tkl">О¤ОїОєОµО»О¬ОїП…</language>
+			<language type="tl">О¤О±ОіОєО±О»ПЊОіОє</language>
+			<language type="tlh">ОљО»ОЇОЅОіОєОїОЅ</language>
+			<language type="tli">О¤О»ОЇОЅОіОєО№П„</language>
+			<language type="tmh">О¤О±ОјО±ПѓО­Оє</language>
+			<language type="tn">О¤ПѓО№ОіОїП…О¬ОЅО±</language>
+			<language type="to">О¤ПЊОЅОіОєО±</language>
+			<language type="tog">ОќО№О¬ПѓО± О¤ПЊОЅОіОєО±</language>
+			<language type="tpi">О¤ОїОє О О№ПѓОЇОЅ</language>
+			<language type="tr">О¤ОїП…ПЃОєО№ОєО¬</language>
+			<language type="ts">О¤ПѓПЊОЅОіОєО±</language>
+			<language type="tsi">О¤ПѓОЇОјПѓО№О±ОЅ</language>
+			<language type="tt">О¤О±П„О¬ПЃ</language>
+			<language type="tum">О¤ОїП…ОјПЂОїПЌОєО±</language>
+			<language type="tup">О“О»ПЋПѓПѓО± О¤ОїПЌПЂО№</language>
+			<language type="tut">О‘О»П„О±ПЉОєО® ОіО»ПЋПѓПѓО±</language>
+			<language type="tvl">О¤ОїП…ОІО±О»ОїПЌ</language>
+			<language type="tw">О¤ОїПЌО№</language>
+			<language type="ty">О¤О±ПЉП„О№О±ОЅО¬</language>
+			<language type="tyv">О¤ОїП…ОІОЇОЅО№О±ОЅ</language>
+			<language type="udm">ОџП…ОЅП„ОјОїПЌПЃП„</language>
+			<language type="ug">ОџП…О№ОіОїП…ПЃО№ОєО¬</language>
+			<language type="uga">ОџП…ОіОєО±ПЃОЇП„О№Оє</language>
+			<language type="uk">ОџП…ОєПЃО±ОЅО№ОєО¬</language>
+			<language type="umb">ОџП…ОјПЂОїПЌОЅП„ОїП…</language>
+			<language type="und">О†ОіОЅП‰ПѓП„О· О® О±ОєО±П„О¬О»О»О·О»О· ОіО»ПЋПѓПѓО±</language>
+			<language type="ur">ОџП…ПЃОЅП„ОїПЌ</language>
+			<language type="uz">ОџП…О¶ОјПЂОµОєО№ОєО¬</language>
+			<language type="vai">О’О¬О№</language>
+			<language type="ve">О’О­ОЅОґО±</language>
+			<language type="vi">О’О№ОµП„ОЅО±ОјОµО¶О№ОєО¬</language>
+			<language type="vo">О’ПЊО»О±ПЂО№Оє</language>
+			<language type="vot">О’ПЊП„О№Оє</language>
+			<language type="wa">О“ОїП…О±О»ОїПЌОЅ</language>
+			<language type="wak">О“О»ПЋПѓПѓО± О“ОїП…О±ОєО±ПѓО¬ОЅ</language>
+			<language type="wal">О“ОїП…О¬О»О±ОјОї</language>
+			<language type="war">О“ОїП…О¬ПЃОµО№</language>
+			<language type="was">О“ОїП…О±ПѓПЊ</language>
+			<language type="wen">О”О№О¬О»ОµОєП„ОїП‚ О†ОЅП‰ О›ОїП…ПѓО±П„ОЇО±П‚</language>
+			<language type="wo">О“ОїП…ПЊО»ОїП†</language>
+			<language type="xal">ОљО±О»ОјОЇОє</language>
+			<language type="xh">О–ПЊПѓО±</language>
+			<language type="yao">О“О№О¬Ої</language>
+			<language type="yap">О“О№О±ПЂОЇО¶</language>
+			<language type="yi">О“ОЇОЅП„О№П‚</language>
+			<language type="yo">О“О№ОїПЃОїПЌОјПЂО±</language>
+			<language type="ypk">О“О»ПЋПѓПѓО± О“О№ОїПЌПЂО№Оє</language>
+			<language type="za">О–ОїП…О¬ОЅОіОє</language>
+			<language type="zap">О–О¬ПЂОїП„ОµОє</language>
+			<language type="zbl">ОЈПЌОјОІОїО»О± Bliss</language>
+			<language type="zen">О–ОµОЅО¬ОіОєО±</language>
+			<language type="zh">ОљО№ОЅОµО¶О№ОєО¬</language>
+			<language type="zh_Hans">О‘ПЂО»ОїПЂОїО№О·ОјО­ОЅО± ОљО№ОЅОµО¶О№ОєО¬</language>
+			<language type="zh_Hant">О О±ПЃО±ОґОїПѓО№О±ОєО¬ ОљО№ОЅОµО¶О№ОєО¬</language>
+			<language type="znd">О–О¬ОЅП„Оµ</language>
+			<language type="zu">О–ОїП…О»ОїПЌ</language>
+			<language type="zun">О–ОїПЌОЅО№</language>
+			<language type="zxx">О§П‰ПЃОЇП‚ ОіО»П‰ПѓПѓОїО»ОїОіО№ОєПЊ ПЂОµПЃО№ОµП‡ПЊОјОµОЅОї</language>
+			<language type="zza">О–О¬О¶О±</language>
+		</languages>
+		<scripts>
+			<script type="Arab">О‘ПЃО±ОІО№ОєПЊ</script>
+			<script type="Armi">О‘П…П„ОїОєПЃО±П„ОїПЃО№ОєПЊ О‘ПЃО±ОјО±ПЉОєПЊ</script>
+			<script type="Armn">О‘ПЃОјОµОЅО№ОєПЊ</script>
+			<script type="Avst">О‘ОІОµПѓП„О¬ОЅ</script>
+			<script type="Bali">ОњПЂО±О»О№ОЅОЇО¶</script>
+			<script type="Batk">ОњПЂО±П„О¬Оє</script>
+			<script type="Beng">ОњПЂОµОЅОіОєО¬О»О№</script>
+			<script type="Blis">ОЈПЌОјОІОїО»О± Bliss</script>
+			<script type="Bopo">ОњПЂОїПЂОїОјПЊП†Ої</script>
+			<script type="Brah">ОњПЂПЃО±П‡ОјОЇ</script>
+			<script type="Brai">ОњПЂПЃО¬О№Оі</script>
+			<script type="Bugi">ОњПЂОїПЌОіОєО№П‚</script>
+			<script type="Buhd">ОњПЂОїП…П‡ОЇОЅП„</script>
+			<script type="Cakm">О¤ПѓО¬ОєОјО±</script>
+			<script type="Cans">О•ОЅОїПЂОїО№О·ОјО­ОЅОїО№ ОљО±ОЅО±ОґОµО¶О№ОєОїОЇ ОЈП…О»О»О±ОІО№ПѓОјОїОЇ О™ОёО±ОіОµОЅПЋОЅ</script>
+			<script type="Cari">ОљО±ПЃО№О¬ОЅ</script>
+			<script type="Cham">О¤ПѓО±Ој</script>
+			<script type="Cher">О¤ПѓОµПЃПЊОєО№</script>
+			<script type="Cirt">ОЈОµПЃОё</script>
+			<script type="Copt">ОљОїПЂП„О№ОєПЊ</script>
+			<script type="Cprt">ОљП…ПЂПЃО№О±ОєПЊ</script>
+			<script type="Cyrl">ОљП…ПЃО№О»О»О№ОєПЊ</script>
+			<script type="Cyrs">О О±О»О±О№ПЊ О•ОєОєО»О·ПѓО№О±ПѓП„О№ОєПЊ ОЈО»О±ОІО№ОєПЊ ОљП…ПЃО№О»О»О№ОєПЊ</script>
+			<script type="Deva">ОќП„ОµОІО±ОЅО±ОіОєО¬ПЃО№</script>
+			<script type="Dsrt">ОќП„ОµПѓОµПЃО­</script>
+			<script type="Egyd">О›О±ПЉОєПЊ О‘О№ОіП…ПЂП„О№О±ОєПЊ</script>
+			<script type="Egyh">О™ОµПЃО±П„О№ОєПЊ О‘О№ОіП…ПЂП„О№О±ОєПЊ</script>
+			<script type="Egyp">О‘О№ОіП…ПЂП„О№О±ОєО¬ О™ОµПЃОїОіО»П…П†О№ОєО¬</script>
+			<script type="Ethi">О‘О№ОёО№ОїПЂО№ОєПЊ</script>
+			<script type="Geok">О“ОµП‰ПЃОіО№О±ОЅПЊ ОљП‡ОїП…П„ПѓОїПЌПЃО№</script>
+			<script type="Geor">О“ОµП‰ПЃОіО№О±ОЅПЊ</script>
+			<script type="Glag">О“ОєО»О±ОіОєОїО»О№П„О№ОєПЊ</script>
+			<script type="Goth">О“ОїП„ОёО№ОєПЊ</script>
+			<script type="Grek">О•О»О»О·ОЅО№ОєПЊ</script>
+			<script type="Gujr">О“ОєОїП…ОіО№О±ПЃО¬П„О№</script>
+			<script type="Guru">О“ОєОїП…ПЃОјОїП…ОєП‡ОЇ</script>
+			<script type="Hang">О§О±ОЅОіОєОїПЌО»</script>
+			<script type="Hani">О§О±ОЅ</script>
+			<script type="Hano">О§О±ОЅОїПЌОЅОїП…</script>
+			<script type="Hans">О‘ПЂО»ОїПЂОїО№О·ОјО­ОЅОї ОљО№ОЅОµО¶О№ОєПЊ</script>
+			<script type="Hant">О О±ПЃО±ОґОїПѓО№О±ОєПЊ ОљО№ОЅОµО¶О№ОєПЊ</script>
+			<script type="Hebr">О•ОІПЃО±ПЉОєПЊ</script>
+			<script type="Hira">О§О№ПЃО±ОіОєО¬ОЅО±</script>
+			<script type="Hmng">О О±П‡О¬П‡ О§ОјОїОЅОіОє</script>
+			<script type="Hrkt">ОљО±П„О±ОєО¬ОЅО± О® О§О№ПЃО±ОіОєО¬ОЅО±</script>
+			<script type="Hung">О О±О»О±О№ПЊ ОџП…ОіОіПЃО№ОєПЊ</script>
+			<script type="Inds">ОЉОЅОґОїП…П‚</script>
+			<script type="Ital">О О±О»О±О№ПЊ О™П„О±О»О№ОєПЊ</script>
+			<script type="Java">О™О±ОІО±ОЅОµО¶О№ОєПЊ</script>
+			<script type="Jpan">О™О±ПЂП‰ОЅО№ОєПЊ</script>
+			<script type="Kali">ОљО±ОіО№О¬П‡ О›О№</script>
+			<script type="Kana">ОљО±П„О±ОєО¬ОЅО±</script>
+			<script type="Khar">ОљО±ПЃПЊПѓОёО№</script>
+			<script type="Khmr">ОљП‡ОјОµПЃ</script>
+			<script type="Knda">ОљО±ОЅО¬ОЅП„О±</script>
+			<script type="Kore">ОљОїПЃОµО±П„О№ОєПЊ</script>
+			<script type="Kthi">ОљО±ПЉОёОЇ</script>
+			<script type="Lana">О›О¬ОЅОЅО±</script>
+			<script type="Laoo">О›О¬ОїП‚</script>
+			<script type="Latf">О¦ПЃО¬ОєП„ОїП…ПЃ О›О±П„О№ОЅО№ОєПЊ</script>
+			<script type="Latg">О“О±ОµО»О№ОєПЊ О›О±П„О№ОЅО№ОєПЊ</script>
+			<script type="Latn">О›О±П„О№ОЅО№ОєПЊ</script>
+			<script type="Lepc">О›О­ПЂП„ПѓО±</script>
+			<script type="Limb">О›О№ОјПЂОїПЌ</script>
+			<script type="Lina">О“ПЃО±ОјОјО№ОєПЊ О‘</script>
+			<script type="Linb">О“ПЃО±ОјОјО№ОєПЊ О’</script>
+			<script type="Lyci">О›П…ОєО№О±ОЅО№ОєПЊ</script>
+			<script type="Lydi">О›П…ОґО№О±ОЅО№ОєПЊ</script>
+			<script type="Mand">ОњО±ОЅОґО±ПЉОєПЊ</script>
+			<script type="Mani">ОњО±ОЅО№П‡О±ПЉОєПЊ</script>
+			<script type="Maya">О™ОµПЃОїОіО»П…П†О№ОєО¬ ОњО¬ОіО№О±</script>
+			<script type="Mero">ОњОµПЃОїПЉП„О№ОєПЊ</script>
+			<script type="Mlym">ОњО±О»О±ПЉОєПЊ</script>
+			<script type="Mong">ОњОїОіОіОїО»О№ОєПЊ</script>
+			<script type="Moon">ОњОїП…ОЅ</script>
+			<script type="Mtei">ОњОµПЉП„О­О№ ОњО¬ОіОµОє</script>
+			<script type="Mymr">ОњО№О±ОЅОјО¬ПЃ</script>
+			<script type="Nkoo">Оќ'ОљОї</script>
+			<script type="Ogam">ОЊОіОєП‡О±Ој</script>
+			<script type="Olck">ОџО» О¤ПѓОЇОєО№</script>
+			<script type="Orkh">ОЊПЃОєП‡ОїОЅ</script>
+			<script type="Orya">ОџПЃОЇОіО№О±</script>
+			<script type="Osma">ОџПѓОјО¬ОЅОіО№О±</script>
+			<script type="Perm">О О±О»О±О№ПЊ О ОµПЃОјО№ОєПЊ</script>
+			<script type="Phag">О О±ОіОєП‚-ПЂО±</script>
+			<script type="Phli">О•ПЂО№ОіПЃО±П†О№ОєПЊ О О±П‡О»О¬ОІО№</script>
+			<script type="Phlp">ОЁО¬О»П„ОµПЃ О О±П‡О»О¬ОІО№</script>
+			<script type="Phlv">ОњПЂОїП…Оє О О±П‡О»О±ОІОЇ</script>
+			<script type="Phnx">О¦ОїО№ОЅО№ОєО№ОєПЊ</script>
+			<script type="Plrd">О¦П‰ОЅО·П„О№ОєПЊ О ПЊО»О±ПЃОЅП„</script>
+			<script type="Prti">О•ПЂО№ОіПЃО±П†О№ОєПЊ О О±ПЃОёО№О¬ОЅ</script>
+			<script type="Qaai">ОљО»О·ПЃОїОЅОїОјО·ОјО­ОЅОї</script>
+			<script type="Rjng">ОЎОµП„О¶О¬ОЅОіОє</script>
+			<script type="Roro">ОЎОїОЅОіОєОїПЃПЊОЅОіОєОї</script>
+			<script type="Runr">ОЎОїП…ОЅОЇОє</script>
+			<script type="Samr">ОЈО±ОјО±ПЃО№П„О№ОєПЊ</script>
+			<script type="Sara">ОЈО±ПЃО¬ОёО№</script>
+			<script type="Saur">ОЈО±ОїП…ПЃО¬ПѓП„ПЃО±</script>
+			<script type="Sgnw">ОќОїО·ОјО±П„О№ОєО® ОіПЃО±П†О®</script>
+			<script type="Shaw">ОЈО±ОІО№О±ОЅПЊ</script>
+			<script type="Sinh">ОЈО№ОЅП‡О¬О»О±</script>
+			<script type="Sund">ОЈОїП…ОґО±ОЅОµО¶О№ОєПЊ</script>
+			<script type="Sylo">ОЈП…О»ПЊП„О№ ОќО¬ОіОєПЃО№</script>
+			<script type="Syrc">ОЈП…ПЃО№О±ОєПЊ</script>
+			<script type="Syre">О•ПѓП„ПЃО±ОЅП„О¶О­О»Ої ОЈП…ПЃО№О±ОєПЊ</script>
+			<script type="Syrj">О”П…П„О№ОєПЊ ОЈП…ПЃО№О±ОєПЊ</script>
+			<script type="Syrn">О‘ОЅО±П„ОїО»О№ОєПЊ ОЈП…ПЃО№О±ОєПЊ</script>
+			<script type="Tagb">О¤О±ОіОєОјО¬ОЅОіОїП…О±</script>
+			<script type="Tale">О¤О¬О№ О›Оµ</script>
+			<script type="Talu">ОќО­Ої О¤О¬О№ О›ОїПЌОµ</script>
+			<script type="Taml">О¤О±ОјОЇО»</script>
+			<script type="Tavt">О¤О¬О№ О’О№О­П„</script>
+			<script type="Telu">О¤ОµО»ОїПЌОіОєОїП…</script>
+			<script type="Teng">О¤ОµОіОЅОіОїП…О¬ПЃ</script>
+			<script type="Tfng">О¤О№П†О№ОЅО¬ОіОє</script>
+			<script type="Tglg">О¤О±ОіОєО±О»ПЊОіОє</script>
+			<script type="Thaa">ОО±О±ОЅО¬</script>
+			<script type="Thai">О¤О±ПЉО»О±ОЅОґО№ОєПЊ</script>
+			<script type="Tibt">ОО№ОІОµП„О№О±ОЅПЊ</script>
+			<script type="Ugar">ОџП…ОіОєО±ПЃО№П„О№ОєПЊ</script>
+			<script type="Vaii">О’О¬О№</script>
+			<script type="Visp">ОџПЃО±П„О® ОїОјО№О»ОЇО±</script>
+			<script type="Xpeo">О О±О»О±О№ПЊ О ОµПЃПѓО№ОєПЊ</script>
+			<script type="Xsux">ОЈОїПЌОјОµПЃОї-О‘ОєО¬ОЅП„О№О±ОЅ ОљОїП…ОЅОµПЉП†ПЊПЃОј</script>
+			<script type="Yiii">О“О№</script>
+			<script type="Zmth">ОњО±ОёО·ОјО±П„О№ОєО® ПЂО±ПЃО¬ПѓП„О±ПѓО·</script>
+			<script type="Zsym">ОЈПЌОјОІОїО»О±</script>
+			<script type="Zxxx">О†ОіПЃО±П†Ої</script>
+			<script type="Zyyy">ОљОїО№ОЅПЊ</script>
+			<script type="Zzzz">О†ОіОЅП‰ПѓП„О· О® О±ОєО±П„О¬О»О»О·О»О· ОіПЃО±П†О®</script>
+		</scripts>
+		<territories>
+			<territory type="001">ОљПЊПѓОјОїП‚</territory>
+			<territory type="002">О‘П†ПЃО№ОєО®</territory>
+			<territory type="003">О’ПЊПЃОµО№О± О‘ОјОµПЃО№ОєО®</territory>
+			<territory type="005">ОќПЊП„О№О± О‘ОјОµПЃО№ОєО®</territory>
+			<territory type="009">О©ОєОµО±ОЅОЇО±</territory>
+			<territory type="011">О”П…П„О№ОєО® О‘П†ПЃО№ОєО®</territory>
+			<territory type="013">ОљОµОЅП„ПЃО№ОєО® О‘ОјОµПЃО№ОєО®</territory>
+			<territory type="014">О‘ОЅО±П„ОїО»О№ОєО® О‘П†ПЃО№ОєО®</territory>
+			<territory type="015">О’ПЊПЃОµО№О± О‘П†ПЃО№ОєО®</territory>
+			<territory type="017">ОњО­ПѓО· О‘П†ПЃО№ОєО®</territory>
+			<territory type="018">ОќПЊП„О№ОїП‚ О‘П†ПЃО№ОєО®</territory>
+			<territory type="019">О‘ОјОµПЃО№ОєО®</territory>
+			<territory type="021">О’ПЊПЃОµО№ОїП‚ О‘ОјОµПЃО№ОєО®</territory>
+			<territory type="029">ОљО±ПЃО±ПЉОІО№ОєО®</territory>
+			<territory type="030">О‘ОЅО±П„ОїО»О№ОєО® О‘ПѓОЇО±</territory>
+			<territory type="034">ОќПЊП„О№О± О‘ПѓОЇО±</territory>
+			<territory type="035">ОќОїП„О№ОїО±ОЅО±П„ОїО»О№ОєО® О‘ПѓОЇО±</territory>
+			<territory type="039">ОќПЊП„О№О± О•П…ПЃПЋПЂО·</territory>
+			<territory type="053">О‘П…ПѓП„ПЃО±О»ОЇО± ОєО±О№ ОќО­О± О–О·О»О±ОЅОґОЇО±</territory>
+			<territory type="054">ОњОµО»О±ОЅО·ПѓОЇО±</territory>
+			<territory type="057">О ОµПЃО№ОїП‡О® ОњО№ОєПЃОїОЅО·ПѓОЇО±П‚</territory>
+			<territory type="061">О ОїО»П…ОЅО·ПѓОЇО±</territory>
+			<territory type="062">ОќПЊП„О№О± ОљОµОЅП„ПЃО№ОєО® О‘ПѓОЇО±</territory>
+			<territory type="142">О‘ПѓОЇО±</territory>
+			<territory type="143">ОљОµОЅП„ПЃО№ОєО® О‘ПѓОЇО±</territory>
+			<territory type="145">О”П…П„О№ОєО® О‘ПѓОЇО±</territory>
+			<territory type="150">О•П…ПЃПЋПЂО·</territory>
+			<territory type="151">О‘ОЅО±П„ОїО»О№ОєО® О•П…ПЃПЋПЂО·</territory>
+			<territory type="154">О’ПЊПЃОµО№О± О•П…ПЃПЋПЂО·</territory>
+			<territory type="155">О”П…П„О№ОєО® О•П…ПЃПЋПЂО·</territory>
+			<territory type="172">ОљОїО№ОЅОїПЂОїО»О№П„ОµОЇО± О‘ОЅОµОѕО±ПЃП„О®П„П‰ОЅ О ОїО»О№П„ОµО№ПЋОЅ</territory>
+			<territory type="419">О›О±П„О№ОЅО№ОєО® О‘ОјОµПЃО№ОєО® ОєО±О№ ОљО±ПЃО±ПЉОІО№ОєО®</territory>
+			<territory type="830">ОќО·ПѓО№О¬ О¤ПѓО¬ОЅОµО»</territory>
+			<territory type="AD">О‘ОЅОґПЊПЃО±</territory>
+			<territory type="AE">О—ОЅП‰ОјО­ОЅО± О‘ПЃО±ОІО№ОєО¬ О•ОјО№ПЃО¬П„О±</territory>
+			<territory type="AF">О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ</territory>
+			<territory type="AG">О‘ОЅП„ОЇОіОєОїП…О± ОєО±О№ ОњПЂО±ПЃОјПЂОїПЌОЅП„О±</territory>
+			<territory type="AI">О‘ОЅОіОєОїП…ОЇО»О±</territory>
+			<territory type="AL">О‘О»ОІО±ОЅОЇО±</territory>
+			<territory type="AM">О‘ПЃОјОµОЅОЇО±</territory>
+			<territory type="AN">ОџО»О»О±ОЅОґО№ОєО­П‚ О‘ОЅП„ОЇО»О»ОµП‚</territory>
+			<territory type="AO">О‘ОЅОіОєПЊО»О±</territory>
+			<territory type="AQ">О‘ОЅП„О±ПЃОєП„О№ОєО®</territory>
+			<territory type="AR">О‘ПЃОіОµОЅП„О№ОЅО®</territory>
+			<territory type="AS">О‘ОјОµПЃО№ОєО±ОЅО№ОєО® ОЈО±ОјПЊО±</territory>
+			<territory type="AT">О‘П…ПѓП„ПЃОЇО±</territory>
+			<territory type="AU">О‘П…ПѓП„ПЃО±О»ОЇО±</territory>
+			<territory type="AW">О‘ПЃОїПЌОјПЂО±</territory>
+			<territory type="AX">ОќО®ПѓОїО№ О†О»О±ОЅП„</territory>
+			<territory type="AZ">О‘О¶ОµПЃОјПЂО±ПЉП„О¶О¬ОЅ</territory>
+			<territory type="BA">О’ОїПѓОЅОЇО± - О•ПЃО¶ОµОіОїОІОЇОЅО·</territory>
+			<territory type="BB">ОњПЂО±ПЃОјПЂО¬ОЅП„ОїП‚</territory>
+			<territory type="BD">ОњПЂО±ОЅОіОєО»О±ОЅП„О­П‚</territory>
+			<territory type="BE">О’О­О»ОіО№Ої</territory>
+			<territory type="BF">ОњПЂОїП…ПЃОєОЇОЅО± О¦О¬ПѓОї</territory>
+			<territory type="BG">О’ОїП…О»ОіО±ПЃОЇО±</territory>
+			<territory type="BH">ОњПЂО±П‡ПЃО­О№ОЅ</territory>
+			<territory type="BI">ОњПЂОїП…ПЃОїПЌОЅП„О№</territory>
+			<territory type="BJ">ОњПЂОµОЅОЇОЅ</territory>
+			<territory type="BL">О†ОіО№ОїП‚ О’О±ПЃОёОїО»ОїОјО±ОЇОїП‚</territory>
+			<territory type="BM">О’ОµПЃОјОїПЌОґОµП‚</territory>
+			<territory type="BN">ОњПЂПЃОїП…ОЅО­О№</territory>
+			<territory type="BO">О’ОїО»О№ОІОЇО±</territory>
+			<territory type="BR">О’ПЃО±О¶О№О»ОЇО±</territory>
+			<territory type="BS">ОњПЂО±П‡О¬ОјОµП‚</territory>
+			<territory type="BT">ОњПЂОїП…П„О¬ОЅ</territory>
+			<territory type="BV">ОќО®ПѓОїП‚ ОњПЂОїП…ОІО­</territory>
+			<territory type="BW">ОњПЂОїП„ПѓОїП…О¬ОЅО±</territory>
+			<territory type="BY">О›ОµП…ОєОїПЃП‰ПѓОЇО±</territory>
+			<territory type="BZ">ОњПЂОµО»ОЇПѓОµ</territory>
+			<territory type="CA">ОљО±ОЅО±ОґО¬П‚</territory>
+			<territory type="CC">ОќО®ПѓОїО№ ОљПЊОєОїП‚</territory>
+			<territory type="CD">ОљОїОЅОіОєПЊ - ОљО№ОЅПѓО¬ПѓО±</territory>
+			<territory type="CF">ОљОµОЅП„ПЃОїО±П†ПЃО№ОєО±ОЅО№ОєО® О”О·ОјОїОєПЃО±П„ОЇО±</territory>
+			<territory type="CG">ОљОїОЅОіОєПЊ - ОњПЂПЃО±О¶О±ОІОЇО»</territory>
+			<territory type="CH">О•О»ОІОµП„ОЇО±</territory>
+			<territory type="CI">О‘ОєП„О® О•О»ОµП†О±ОЅП„ОїПѓП„ОїПЌ</territory>
+			<territory type="CK">ОќО®ПѓОїО№ ОљОїП…Оє</territory>
+			<territory type="CL">О§О№О»О®</territory>
+			<territory type="CM">ОљО±ОјОµПЃОїПЌОЅ</territory>
+			<territory type="CN">ОљОЇОЅО±</territory>
+			<territory type="CO">ОљОїО»ОїОјОІОЇО±</territory>
+			<territory type="CR">ОљПЊПѓП„О± ОЎОЇОєО±</territory>
+			<territory type="CS">ОЈОµПЃОІОЇО± ОєО±О№ ОњО±П…ПЃОїОІОїПЌОЅО№Ої</territory>
+			<territory type="CU">ОљОїПЌОІО±</territory>
+			<territory type="CV">О ПЃО¬ПѓО№ОЅОї О‘ОєПЃП‰П„О®ПЃО№Ої</territory>
+			<territory type="CX">ОќО®ПѓОїП‚ О§ПЃО№ПѓП„ОїП…ОіО­ОЅОЅП‰ОЅ</territory>
+			<territory type="CY">ОљПЌПЂПЃОїП‚</territory>
+			<territory type="CZ">О¤ПѓОµП‡ОЇО±</territory>
+			<territory type="DE">О“ОµПЃОјО±ОЅОЇО±</territory>
+			<territory type="DJ">О¤О¶О№ОјПЂОїП…П„ОЇ</territory>
+			<territory type="DK">О”О±ОЅОЇО±</territory>
+			<territory type="DM">ОќП„ОїОјОЇОЅО№ОєО±</territory>
+			<territory type="DO">О”ОїОјО№ОЅО№ОєО±ОЅО® О”О·ОјОїОєПЃО±П„ОЇО±</territory>
+			<territory type="DZ">О‘О»ОіОµПЃОЇО±</territory>
+			<territory type="EC">О™ПѓО·ОјОµПЃО№ОЅПЊП‚</territory>
+			<territory type="EE">О•ПѓОёОїОЅОЇО±</territory>
+			<territory type="EG">О‘ОЇОіП…ПЂП„ОїП‚</territory>
+			<territory type="EH">О”П…П„О№ОєО® ОЈО±П‡О¬ПЃО±</territory>
+			<territory type="ER">О•ПЃП…ОёПЃО±ОЇО±</territory>
+			<territory type="ES">О™ПѓПЂО±ОЅОЇО±</territory>
+			<territory type="ET">О‘О№ОёО№ОїПЂОЇО±</territory>
+			<territory type="FI">О¦О№ОЅО»О±ОЅОґОЇО±</territory>
+			<territory type="FJ">О¦ОЇП„О¶О№</territory>
+			<territory type="FK">ОќО®ПѓОїО№ О¦ПЋОєО»О±ОЅП„</territory>
+			<territory type="FM">ОњО№ОєПЃОїОЅО·ПѓОЇО±</territory>
+			<territory type="FO">ОќО®ПѓОїО№ О¦ОµПЃПЊОµ</territory>
+			<territory type="FR">О“О±О»О»ОЇО±</territory>
+			<territory type="GA">О“ОєО±ОјПЂПЊОЅ</territory>
+			<territory type="GB">О—ОЅП‰ОјО­ОЅОї О’О±ПѓОЇО»ОµО№Ої</territory>
+			<territory type="GD">О“ПЃОµОЅО¬ОґО±</territory>
+			<territory type="GE">О“ОµП‰ПЃОіОЇО±</territory>
+			<territory type="GF">О“О±О»О»О№ОєО® О“ОїП…О№О¬ОЅО±</territory>
+			<territory type="GG">О“ОєОµПЃОЅПѓО­О№</territory>
+			<territory type="GH">О“ОєО¬ОЅО±</territory>
+			<territory type="GI">О“О№ОІПЃО±О»П„О¬ПЃ</territory>
+			<territory type="GL">О“ПЃОїО№О»О±ОЅОґОЇО±</territory>
+			<territory type="GM">О“ОєО¬ОјПЂО№О±</territory>
+			<territory type="GN">О“ОїП…О№ОЅО­О±</territory>
+			<territory type="GP">О“ОїП…О±ОґОµО»ОїПЌПЂО·</territory>
+			<territory type="GQ">О™ПѓО·ОјОµПЃО№ОЅО® О“ОїП…О№ОЅО­О±</territory>
+			<territory type="GR">О•О»О»О¬ОґО±</territory>
+			<territory type="GS">ОќПЊП„О№О± О“ОµП‰ПЃОіОЇО± ОєО±О№ ОќПЊП„О№ОµП‚ ОќО®ПѓОїО№ ОЈО¬ОЅП„ОїП…О№П„П‚</territory>
+			<territory type="GT">О“ОїП…О±П„ОµОјО¬О»О±</territory>
+			<territory type="GU">О“ОєОїП…О¬Ој</territory>
+			<territory type="GW">О“ОїП…О№ОЅО­О±-ОњПЂО№ПѓО¬ОїП…</territory>
+			<territory type="GY">О“ОїП…О№О¬ОЅО±</territory>
+			<territory type="HK">О§ОїОЅОіОє ОљОїОЅОіОє О•О”О  ОљОЇОЅО±П‚</territory>
+			<territory type="HM">ОќО®ПѓОїО№ О§ОµПЃОЅП„ ОєО±О№ ОњО±ОєОЅП„ПЊОЅО±О»ОЅП„</territory>
+			<territory type="HN">ОџОЅОґОїПЌПЃО±</territory>
+			<territory type="HR">ОљПЃОїО±П„ОЇО±</territory>
+			<territory type="HT">О‘ПЉП„О®</territory>
+			<territory type="HU">ОџП…ОіОіО±ПЃОЇО±</territory>
+			<territory type="ID">О™ОЅОґОїОЅО·ПѓОЇО±</territory>
+			<territory type="IE">О™ПЃО»О±ОЅОґОЇО±</territory>
+			<territory type="IL">О™ПѓПЃО±О®О»</territory>
+			<territory type="IM">ОќО®ПѓОїП‚ ОњО±ОЅ</territory>
+			<territory type="IN">О™ОЅОґОЇО±</territory>
+			<territory type="IO">О’ПЃОµП„О±ОЅО№ОєО¬ О•ОґО¬П†О· О™ОЅОґО№ОєОїПЌ О©ОєОµО±ОЅОїПЌ</territory>
+			<territory type="IQ">О™ПЃО¬Оє</territory>
+			<territory type="IR">О™ПЃО¬ОЅ</territory>
+			<territory type="IS">О™ПѓО»О±ОЅОґОЇО±</territory>
+			<territory type="IT">О™П„О±О»ОЇО±</territory>
+			<territory type="JE">ОҐОµПЃПѓО­О·</territory>
+			<territory type="JM">О¤О¶О±ОјО¬О№ОєО±</territory>
+			<territory type="JO">О™ОїПЃОґО±ОЅОЇО±</territory>
+			<territory type="JP">О™О±ПЂП‰ОЅОЇО±</territory>
+			<territory type="KE">ОљО­ОЅП…О±</territory>
+			<territory type="KG">ОљО№ПЃОіО№О¶ОЇО±</territory>
+			<territory type="KH">ОљО±ОјПЂПЊП„О¶О·</territory>
+			<territory type="KI">ОљО№ПЃО№ОјПЂО¬П„О№</territory>
+			<territory type="KM">ОљОїОјПЊПЃОїП‚</territory>
+			<territory type="KN">ОЈО±О№ОЅП„ ОљО№П„П‚ ОєО±О№ ОќО­ОІО№П‚</territory>
+			<territory type="KP">О’ПЊПЃОµО№О± ОљОїПЃО­О±</territory>
+			<territory type="KR">ОќПЊП„О№О± ОљОїПЃО­О±</territory>
+			<territory type="KW">ОљОїП…ОІО­О№П„</territory>
+			<territory type="KY">ОќО®ПѓОїО№ ОљО­О№ОјО±ОЅ</territory>
+			<territory type="KZ">ОљО±О¶О±ОєПѓП„О¬ОЅ</territory>
+			<territory type="LA">О›О¬ОїП‚</territory>
+			<territory type="LB">О›ОЇОІО±ОЅОїП‚</territory>
+			<territory type="LC">О‘ОіОЇО± О›ОїП…ОєОЇО±</territory>
+			<territory type="LI">О›О№П‡П„ОµОЅПѓП„О¬О№ОЅ</territory>
+			<territory type="LK">ОЈПЃО№ О›О¬ОЅОєО±</territory>
+			<territory type="LR">О›О№ОІОµПЃОЇО±</territory>
+			<territory type="LS">О›ОµПѓПЊП„Ої</territory>
+			<territory type="LT">О›О№ОёОїП…О±ОЅОЇО±</territory>
+			<territory type="LU">О›ОїП…ОѕОµОјОІОїПЌПЃОіОї</territory>
+			<territory type="LV">О›ОµП„ОїОЅОЇО±</territory>
+			<territory type="LY">О›О№ОІПЌО·</territory>
+			<territory type="MA">ОњО±ПЃПЊОєОї</territory>
+			<territory type="MC">ОњОїОЅО±ОєПЊ</territory>
+			<territory type="MD">ОњОїО»ОґО±ОІОЇО±</territory>
+			<territory type="ME">ОњО±П…ПЃОїОІОїПЌОЅО№Ої</territory>
+			<territory type="MF">О†ОіО№ОїП‚ ОњО±ПЃП„ОЇОЅОїП‚</territory>
+			<territory type="MG">ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·</territory>
+			<territory type="MH">ОќО®ПѓОїО№ ОњО¬ПЃПѓО±О»</territory>
+			<territory type="MK">О О“О” ОњО±ОєОµОґОїОЅОЇО±П‚</territory>
+			<territory type="ML">ОњО¬О»О№</territory>
+			<territory type="MM">ОњО№О±ОЅОјО¬ПЃ</territory>
+			<territory type="MN">ОњОїОіОіОїО»ОЇО±</territory>
+			<territory type="MO">ОњО±ОєО¬Ої О•О”О  ОљОЇОЅО±П‚</territory>
+			<territory type="MP">О’ПЊПЃОµО№ОµП‚ ОњО±ПЃО№О¬ОЅОµП‚ ОќО®ПѓОїО№</territory>
+			<territory type="MQ">ОњО±ПЃП„О№ОЅОЇОєО±</territory>
+			<territory type="MR">ОњО±П…ПЃО№П„О±ОЅОЇО±</territory>
+			<territory type="MS">ОњОїОЅПѓОµПЃО¬П„</territory>
+			<territory type="MT">ОњО¬О»П„О±</territory>
+			<territory type="MU">ОњО±П…ПЃОЇОєО№ОїП‚</territory>
+			<territory type="MV">ОњО±О»ОґОЇОІОµП‚</territory>
+			<territory type="MW">ОњО±О»О¬ОїП…О№</territory>
+			<territory type="MX">ОњОµОѕО№ОєПЊ</territory>
+			<territory type="MY">ОњО±О»О±О№ПѓОЇО±</territory>
+			<territory type="MZ">ОњОїО¶О±ОјОІОЇОєО·</territory>
+			<territory type="NA">ОќО±ОјОЇОјПЂО№О±</territory>
+			<territory type="NC">ОќО­О± ОљО±О»О·ОґОїОЅОЇО±</territory>
+			<territory type="NE">ОќОЇОіО·ПЃО±П‚</territory>
+			<territory type="NF">ОќО®ПѓОїП‚ ОќПЊПЃП†ОїО»Оє</territory>
+			<territory type="NG">ОќО№ОіО·ПЃОЇО±</territory>
+			<territory type="NI">ОќО№ОєО±ПЃО¬ОіОїП…О±</territory>
+			<territory type="NL">ОџО»О»О±ОЅОґОЇО±</territory>
+			<territory type="NO">ОќОїПЃОІО·ОіОЇО±</territory>
+			<territory type="NP">ОќОµПЂО¬О»</territory>
+			<territory type="NR">ОќО±ОїПЌПЃОїП…</territory>
+			<territory type="NU">ОќО№ОїПЌОµ</territory>
+			<territory type="NZ">ОќО­О± О–О·О»О±ОЅОґОЇО±</territory>
+			<territory type="OM">ОџОјО¬ОЅ</territory>
+			<territory type="PA">О О±ОЅО±ОјО¬П‚</territory>
+			<territory type="PE">О ОµПЃОїПЌ</territory>
+			<territory type="PF">О“О±О»О»О№ОєО® О ОїО»П…ОЅО·ПѓОЇО±</territory>
+			<territory type="PG">О О±ПЂОїПЌО± ОќО­О± О“ОїП…О№ОЅО­О±</territory>
+			<territory type="PH">О¦О№О»О№ПЂПЂОЇОЅОµП‚</territory>
+			<territory type="PK">О О±ОєО№ПѓП„О¬ОЅ</territory>
+			<territory type="PL">О ОїО»П‰ОЅОЇО±</territory>
+			<territory type="PM">ОЈО±О№ОЅП„ О О№О­ПЃ ОєО±О№ ОњО№ОєОµО»ПЊОЅ</territory>
+			<territory type="PN">О ОЇП„ОєОµПЃОЅ</territory>
+			<territory type="PR">О ОїП…О­ПЃП„Ої ОЎОЇОєОї</territory>
+			<territory type="PS">О О±О»О±О№ПѓП„О№ОЅО№О±ОєО¬ О•ОґО¬П†О·</territory>
+			<territory type="PT">О ОїПЃП„ОїОіО±О»ОЇО±</territory>
+			<territory type="PW">О О±О»О¬ОїП…</territory>
+			<territory type="PY">О О±ПЃО±ОіОїП…О¬О·</territory>
+			<territory type="QA">ОљО±П„О¬ПЃ</territory>
+			<territory type="QO">О ОµПЃО№П†ОµПЃОµО№О±ОєО® О©ОєОµО±ОЅОЇО±</territory>
+			<territory type="QU">О•П…ПЃП‰ПЂО±ПЉОєО® О€ОЅП‰ПѓО·</territory>
+			<territory type="RE">ОЎОµП‹ОЅО№ПЊОЅ</territory>
+			<territory type="RO">ОЎОїП…ОјО±ОЅОЇО±</territory>
+			<territory type="RS">ОЈОµПЃОІОЇО±</territory>
+			<territory type="RU">ОЎП‰ПѓОЇО±</territory>
+			<territory type="RW">ОЎОїП…О¬ОЅП„О±</territory>
+			<territory type="SA">ОЈО±ОїП…ОґО№ОєО® О‘ПЃО±ОІОЇО±</territory>
+			<territory type="SB">ОќО®ПѓОїО№ ОЈОїО»ОїОјПЋОЅП„ОїП‚</territory>
+			<territory type="SC">ОЈОµП‹П‡О­О»О»ОµП‚</territory>
+			<territory type="SD">ОЈОїП…ОґО¬ОЅ</territory>
+			<territory type="SE">ОЈОїП…О·ОґОЇО±</territory>
+			<territory type="SG">ОЈО№ОіОєО±ПЂОїПЌПЃО·</territory>
+			<territory type="SH">О‘ОіОЇО± О•О»О­ОЅО·</territory>
+			<territory type="SI">ОЈО»ОїОІОµОЅОЇО±</territory>
+			<territory type="SJ">ОЈОІО±О»ОјПЂО¬ПЃОЅП„ ОєО±О№ О“О№О±ОЅ ОњО±ОіО№О­ОЅ</territory>
+			<territory type="SK">ОЈО»ОїОІО±ОєОЇО±</territory>
+			<territory type="SL">ОЈО№О­ПЃО± О›ОµПЊОЅОµ</territory>
+			<territory type="SM">О†ОіО№ОїП‚ ОњО±ПЃОЇОЅОїП‚</territory>
+			<territory type="SN">ОЈОµОЅОµОіО¬О»О·</territory>
+			<territory type="SO">ОЈОїОјО±О»ОЇО±</territory>
+			<territory type="SR">ОЈОїП…ПЃО№ОЅО¬Ој</territory>
+			<territory type="ST">ОЈО¬Ої О¤ОїОјО­ ОєО±О№ О ПЃОЇОЅПѓО№ПЂОµ</territory>
+			<territory type="SV">О•О» ОЈО±О»ОІО±ОґПЊПЃ</territory>
+			<territory type="SY">ОЈП…ПЃОЇО±</territory>
+			<territory type="SZ">О–ОїП…О±О¶О·О»О¬ОЅОґО·</territory>
+			<territory type="TC">ОќО®ПѓОїО№ О¤ОµПЃОєП‚ ОєО±О№ ОљО¬О№ОєОїП‚</territory>
+			<territory type="TD">О¤ПѓО±ОЅП„</territory>
+			<territory type="TF">О“О±О»О»О№ОєО¬ ОќПЊП„О№О± О•ОґО¬П†О·</territory>
+			<territory type="TG">О¤ПЊОіОєОї</territory>
+			<territory type="TH">О¤О±ПЉО»О¬ОЅОґО·</territory>
+			<territory type="TJ">О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</territory>
+			<territory type="TK">О¤ОїОєОµО»О¬ОїП…</territory>
+			<territory type="TL">О‘ОЅО±П„ОїО»О№ОєПЊ О¤О№ОјПЊПЃ</territory>
+			<territory type="TM">О¤ОїП…ПЃОєОјОµОЅО№ПѓП„О¬ОЅ</territory>
+			<territory type="TN">О¤П…ОЅО·ПѓОЇО±</territory>
+			<territory type="TO">О¤ПЊОЅОіОєО±</territory>
+			<territory type="TR">О¤ОїП…ПЃОєОЇО±</territory>
+			<territory type="TT">О¤ПЃО№ОЅО№ОЅП„О¬ОЅП„ ОєО±О№ О¤ОїОјПЂО¬ОіОєОї</territory>
+			<territory type="TV">О¤ОїП…ОІО±О»ОїПЌ</territory>
+			<territory type="TW">О¤О±ПЉОІО¬ОЅ</territory>
+			<territory type="TZ">О¤О±ОЅО¶О±ОЅОЇО±</territory>
+			<territory type="UA">ОџП…ОєПЃО±ОЅОЇО±</territory>
+			<territory type="UG">ОџП…ОіОєО¬ОЅП„О±</territory>
+			<territory type="UM">О‘ПЂОїОјО±ОєПЃП…ПѓОјО­ОЅОµП‚ ОќО·ПѓОЇОґОµП‚ О—.О .О‘.</territory>
+			<territory type="US">О—ОЅП‰ОјО­ОЅОµП‚ О ОїО»О№П„ОµОЇОµП‚ П„О·П‚ О‘ОјОµПЃО№ОєО®П‚</territory>
+			<territory type="UY">ОџП…ПЃОїП…ОіОїП…О¬О·</territory>
+			<territory type="UZ">ОџП…О¶ОјПЂОµОєО№ПѓП„О¬ОЅ</territory>
+			<territory type="VA">О’О±П„О№ОєО±ОЅПЊ</territory>
+			<territory type="VC">О†ОіО№ОїП‚ О’О№ОєО­ОЅП„О№ОїП‚ ОєО±О№ О“ПЃОµОЅО±ОґОЇОЅОµП‚</territory>
+			<territory type="VE">О’ОµОЅОµО¶ОїП…О­О»О±</territory>
+			<territory type="VG">О’ПЃОµП„О±ОЅО№ОєО­П‚ О О±ПЃОёО­ОЅОїО№ ОќО®ПѓОїО№</territory>
+			<territory type="VI">О‘ОјОµПЃО№ОєО±ОЅО№ОєО­П‚ О О±ПЃОёО­ОЅОїО№ ОќО®ПѓОїО№</territory>
+			<territory type="VN">О’О№ОµП„ОЅО¬Ој</territory>
+			<territory type="VU">О’О±ОЅОїП…О¬П„ОїП…</territory>
+			<territory type="WF">ОќО®ПѓОїО№ ОџП…О±О»О»ОЇП‚ ОєО±О№ О¦ОїП…П„ОїП…ОЅО¬</territory>
+			<territory type="WS">ОЈО±ОјПЊО±</territory>
+			<territory type="YE">ОҐОµОјО­ОЅО·</territory>
+			<territory type="YT">ОњО±ОіО№ПЊП„</territory>
+			<territory type="ZA">ОќПЊП„О№О± О‘П†ПЃО№ОєО®</territory>
+			<territory type="ZM">О–О¬ОјПЂО№О±</territory>
+			<territory type="ZW">О–О№ОјПЂО¬ОјПЂОїП…Оµ</territory>
+			<territory type="ZZ">О†ОіОЅП‰ПѓП„О· О® ОјО· О­ОіОєП…ПЃО· ПЂОµПЃО№ОїП‡О®</territory>
+		</territories>
+		<variants>
+			<variant type="1901">О О±ПЃО±ОґОїПѓО№О±ОєО® ОіОµПЃОјО±ОЅО№ОєО® ОїПЃОёОїОіПЃО±П†ОЇО±</variant>
+			<variant type="1994">О¤П…ПЂОїПЂОїО№О·ОјО­ОЅО· ОїПЃОёОїОіПЃО±П†ОЇО± ОЎОµПѓО№О¬ОЅ</variant>
+			<variant type="1996">О“ОµПЃОјО±ОЅО№ОєО® ОїПЃОёОїОіПЃО±П†ОЇО± П„ОїП… 1996</variant>
+			<variant type="1606NICT">ОќОµПЊП„ОµПЃО± ОњО­ПѓО± О“О±О»О»О№ОєО¬ П„ОїП… 1606</variant>
+			<variant type="1694ACAD">О ПЃПЋО№ОјО± ОЈПЌОіП‡ПЃОїОЅО± О“О±О»О»О№ОєО¬</variant>
+			<variant type="AREVELA">О‘ОЅО±П„ОїО»О№ОєО¬ О‘ПЃОјОµОЅО№ОєО¬</variant>
+			<variant type="AREVMDA">О”П…П„О№ОєО¬ О‘ПЃОјОµОЅО№ОєО¬</variant>
+			<variant type="BAKU1926">О•ОЅОїПЂОїО№О·ОјО­ОЅО· П„ОїП…ПЃОєО№ОєО® О»О±П„О№ОЅО№ОєО® О±О»П†О¬ОІО·П„ОїП‚</variant>
+			<variant type="BISKE">О”О№О¬О»ОµОєП„ОїП‚ ОЈО±ОЅ О¤О¶О№ПЊПЃП„О¶О№Ої/О’ОЇО»О±</variant>
+			<variant type="BOONT">ОњПЂОїПЌОЅП„О»О№ОЅОіОє</variant>
+			<variant type="FONIPA">О”О№ОµОёОЅО®П‚ П†П‰ОЅО·П„О№ОєО® О±О»П†О¬ОІО·П„ОїП‚</variant>
+			<variant type="FONUPA">ОџП…ПЃО±О»О№ОєО® П†П‰ОЅО·П„О№ОєО® О±О»П†О¬ОІО·П„ОїП‚</variant>
+			<variant type="LIPAW">О”О№О¬О»ОµОєП„ОїП‚ О›О№ПЂОїОІО¬О¶ П„О·П‚ ОЎОµПѓО№О¬ОЅ</variant>
+			<variant type="MONOTON">ОњОїОЅОїП„ОїОЅО№ОєПЊ</variant>
+			<variant type="NEDIS">О”О№О¬О»ОµОєП„ОїП‚ ОќО±П„О№ПѓПЊОЅОµ</variant>
+			<variant type="NJIVA">О”О№О¬О»ОµОєП„ОїП‚ О“ОєОЅО№ОІО¬/ОќП„О¶О№ОІО¬</variant>
+			<variant type="OSOJS">О”О№О¬О»ОµОєП„ОїП‚ ОџПѓОµО±ОєПЊ/ОџПѓОїП„О¶О¬ОЅ</variant>
+			<variant type="POLYTON">О ОїО»П…П„ОїОЅО№ОєПЊ</variant>
+			<variant type="POSIX">ОҐПЂОїО»ОїОіО№ПѓП„О®П‚</variant>
+			<variant type="REVISED">О‘ОЅО±ОёОµП‰ПЃО·ОјО­ОЅО· ОїПЃОёОїОіПЃО±П†ОЇО±</variant>
+			<variant type="ROZAJ">ОЎОµПѓО№О¬ОЅ</variant>
+			<variant type="SAAHO">ОЈО¬П‡Ої</variant>
+			<variant type="SCOTLAND">ОЈОєОїП„ПѓОµО¶О№ОєО¬ П„П…ПЂОїПЂОїО№О·ОјО­ОЅО± О‘ОіОіО»О№ОєО¬</variant>
+			<variant type="SCOUSE">ОЈОєОїП…О¶</variant>
+			<variant type="SOLBA">О”О№О¬О»ОµОєП„ОїП‚ ОЈП„ОїО»ОІО№П„О¶О¬/ОЈОїО»ОјПЂО№ОєО¬</variant>
+			<variant type="TARASK">О¤О±ПЃО±ПѓОєО№ОµОІО№ОєО® ОїПЃОёОїОіПЃО±П†ОЇО±</variant>
+			<variant type="VALENCIA">О’О±О»ОµОЅОёО№О±ОЅО¬</variant>
+		</variants>
+		<keys>
+			<key type="calendar">О·ОјОµПЃОїО»ПЊОіО№Ої</key>
+			<key type="collation">П„О±ОєП„ОїПЂОїОЇО·ПѓО·</key>
+			<key type="currency">ОЅПЊОјО№ПѓОјО±</key>
+		</keys>
+		<types>
+			<type type="big5han" key="collation">ОЈОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚ О О±ПЃО±ОґОїПѓО№О±ОєПЋОЅ ОљО№ОЅОµО¶О№ОєПЋОЅ - Big5</type>
+			<type type="buddhist" key="calendar">О’ОїП…ОґО№ПѓП„О№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="chinese" key="calendar">ОљО№ОЅОµО¶О№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="direct" key="collation">О†ОјОµПѓО· ПѓОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚</type>
+			<type type="gb2312han" key="collation">ОЈОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚ О‘ПЂО»ОїП…ПѓП„ОµП…ОјО­ОЅП‰ОЅ ОљО№ОЅОµО¶О№ОєПЋОЅ - GB2312</type>
+			<type type="gregorian" key="calendar">О“ПЃО·ОіОїПЃО№О±ОЅПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="hebrew" key="calendar">О•ОІПЃО±ПЉОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="indian" key="calendar">О™ОЅОґО№ОєПЊ ОµОёОЅО№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="islamic" key="calendar">О™ПѓО»О±ОјО№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="islamic-civil" key="calendar">О™ПѓО»О±ОјО№ОєПЊ О±ПѓП„О№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="japanese" key="calendar">О™О±ПЂП‰ОЅО№ОєПЊ О·ОјОµПЃОїО»ПЊОіО№Ої</type>
+			<type type="phonebook" key="collation">ОЈОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚ П„О·О»ОµП†П‰ОЅО№ОєОїПЌ ОєО±П„О±О»ПЊОіОїП…</type>
+			<type type="pinyin" key="collation">ОЈОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚ О О№ОЅОіОЇОЅ</type>
+			<type type="roc" key="calendar">О—ОјОµПЃОїО»ПЊОіО№Ої П„О·П‚ О”О·ОјОїОєПЃО±П„ОЇО±П‚ П„О·П‚ ОљОЇОЅО±П‚</type>
+			<type type="stroke" key="collation">ОЈОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚ ОєО№ОЅО®ПѓОµП‰ОЅ</type>
+			<type type="traditional" key="collation">О О±ПЃО±ОґОїПѓО№О±ОєО® ПѓОµО№ПЃО¬ П„О±ОѕО№ОЅПЊОјО·ПѓО·П‚</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">О‘ОіОіО»ОїПѓО±ОѕП‰ОЅО№ОєПЊ</measurementSystemName>
+			<measurementSystemName type="metric">ОњОµП„ПЃО№ОєПЊ</measurementSystemName>
+		</measurementSystemNames>
+		<codePatterns>
+			<codePattern type="language">О“О»ПЋПѓПѓО±: {0}</codePattern>
+			<codePattern type="script">ОЈПЌПѓП„О·ОјО± ОіПЃО±П†О®П‚: {0}</codePattern>
+			<codePattern type="territory">О ОµПЃО№ОїП‡О®: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<layout>
+		<inText type="languages">lowercase-words</inText>
+	</layout>
+	<characters>
+		<exemplarCharacters>[О± О¬ ОІ-Оµ О­ О¶ О· О® Оё О№ ОЇ ПЉ Ођ Оє-Ої ПЊ ПЂ ПЃ Пѓ П‚ П„ П… ПЌ П‹ О° П†-П‰ ПЋ]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>В«</quotationStart>
+		<quotationEnd>В»</quotationEnd>
+		<alternateQuotationStart>вЂ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂ™</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="buddhist">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">E, d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, d/M/y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d MMM, y</dateFormatItem>
+						<dateFormatItem id="yMMMM">LLLL, y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="chinese">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="coptic">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="ethiopic">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">О™О±ОЅ</month>
+							<month type="2">О¦ОµОІ</month>
+							<month type="3">ОњО±ПЃ</month>
+							<month type="4">О‘ПЂПЃ</month>
+							<month type="5">ОњО±ПЉ</month>
+							<month type="6">О™ОїП…ОЅ</month>
+							<month type="7">О™ОїП…О»</month>
+							<month type="8">О‘П…Оі</month>
+							<month type="9">ОЈОµПЂ</month>
+							<month type="10">ОџОєП„</month>
+							<month type="11">ОќОїОµ</month>
+							<month type="12">О”ОµОє</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">О™О±ОЅОїП…О±ПЃОЇОїП…</month>
+							<month type="2">О¦ОµОІПЃОїП…О±ПЃОЇОїП…</month>
+							<month type="3">ОњО±ПЃП„ОЇОїП…</month>
+							<month type="4">О‘ПЂПЃО№О»ОЇОїП…</month>
+							<month type="5">ОњО±ОђОїП…</month>
+							<month type="6">О™ОїП…ОЅОЇОїП…</month>
+							<month type="7">О™ОїП…О»ОЇОїП…</month>
+							<month type="8">О‘П…ОіОїПЌПѓП„ОїП…</month>
+							<month type="9">ОЈОµПЂП„ОµОјОІПЃОЇОїП…</month>
+							<month type="10">ОџОєП„П‰ОІПЃОЇОїП…</month>
+							<month type="11">ОќОїОµОјОІПЃОЇОїП…</month>
+							<month type="12">О”ОµОєОµОјОІПЃОЇОїП…</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">О™</month>
+							<month type="2">О¦</month>
+							<month type="3">Оњ</month>
+							<month type="4">О‘</month>
+							<month type="5">Оњ</month>
+							<month type="6">О™</month>
+							<month type="7">О™</month>
+							<month type="8">О‘</month>
+							<month type="9">ОЈ</month>
+							<month type="10">Оџ</month>
+							<month type="11">Оќ</month>
+							<month type="12">О”</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">О™О±ОЅОїП…О¬ПЃО№ОїП‚</month>
+							<month type="2">О¦ОµОІПЃОїП…О¬ПЃО№ОїП‚</month>
+							<month type="3">ОњО¬ПЃП„О№ОїП‚</month>
+							<month type="4">О‘ПЂПЃОЇО»О№ОїП‚</month>
+							<month type="5">ОњО¬О№ОїП‚</month>
+							<month type="6">О™ОїПЌОЅО№ОїП‚</month>
+							<month type="7">О™ОїПЌО»О№ОїП‚</month>
+							<month type="8">О‘ПЌОіОїП…ПѓП„ОїП‚</month>
+							<month type="9">ОЈОµПЂП„О­ОјОІПЃО№ОїП‚</month>
+							<month type="10">ОџОєП„ПЋОІПЃО№ОїП‚</month>
+							<month type="11">ОќОїО­ОјОІПЃО№ОїП‚</month>
+							<month type="12">О”ОµОєО­ОјОІПЃО№ОїП‚</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">ОљП…ПЃ</day>
+							<day type="mon">О”ОµП…</day>
+							<day type="tue">О¤ПЃО№</day>
+							<day type="wed">О¤ОµП„</day>
+							<day type="thu">О ОµОј</day>
+							<day type="fri">О О±ПЃ</day>
+							<day type="sat">ОЈО±ОІ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">ОљП…ПЃО№О±ОєО®</day>
+							<day type="mon">О”ОµП…П„О­ПЃО±</day>
+							<day type="tue">О¤ПЃОЇП„О·</day>
+							<day type="wed">О¤ОµП„О¬ПЃП„О·</day>
+							<day type="thu">О О­ОјПЂП„О·</day>
+							<day type="fri">О О±ПЃО±ПѓОєОµП…О®</day>
+							<day type="sat">ОЈО¬ОІОІО±П„Ої</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">Ољ</day>
+							<day type="mon">О”</day>
+							<day type="tue">О¤</day>
+							<day type="wed">О¤</day>
+							<day type="thu">О </day>
+							<day type="fri">О </day>
+							<day type="sat">ОЈ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">О¤1</quarter>
+							<quarter type="2">О¤2</quarter>
+							<quarter type="3">О¤3</quarter>
+							<quarter type="4">О¤4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1Ої П„ПЃОЇОјО·ОЅОї</quarter>
+							<quarter type="2">2Ої П„ПЃОЇОјО·ОЅОї</quarter>
+							<quarter type="3">3Ої П„ПЃОЇОјО·ОЅОї</quarter>
+							<quarter type="4">4Ої П„ПЃОЇОјО·ОЅОї</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">О¤1</quarter>
+							<quarter type="2">О¤2</quarter>
+							<quarter type="3">О¤3</quarter>
+							<quarter type="4">О¤4</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+				<eras>
+					<eraNames>
+						<era type="0">ПЂ.О§.</era>
+						<era type="1">Ој.О§.</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">ПЂ.О§.</era>
+						<era type="1">Ој.О§.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, dd MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>dd MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd/MM/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>h:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>h:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>h:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>h:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="EEEd">EEE d</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">E, d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMdd">dd MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">y</dateFormatItem>
+						<dateFormatItem id="yM">M/yyyy</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, d/M/yyyy</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMM">LLLL y</dateFormatItem>
+						<dateFormatItem id="yQ">y Q</dateFormatItem>
+						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM yy</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ yy</dateFormatItem>
+						<dateFormatItem id="yyyy">y</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">M-M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E, dd/MM - E, dd/MM</greatestDifference>
+							<greatestDifference id="d">E, dd/MM - E, dd/MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">LLL-LLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E, dd MMM - E, dd MMM</greatestDifference>
+							<greatestDifference id="d">E, dd - E, dd MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMM">
+							<greatestDifference id="M">LLLL-LLLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">dd MMM - dd MMM</greatestDifference>
+							<greatestDifference id="d">dd-dd MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">dd/MM - dd/MM</greatestDifference>
+							<greatestDifference id="d">dd/MM - dd/MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">h a - h a</greatestDifference>
+							<greatestDifference id="h">h-h a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="a">h:mm a - h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm-h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm-h:mm a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">h:mm a - h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm-h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm-h:mm a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">h a - h a v</greatestDifference>
+							<greatestDifference id="h">h-h a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y-y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">MM/yyyy - MM/yyyy</greatestDifference>
+							<greatestDifference id="y">MM/yyyy - MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">E, dd/MM/yyyy - E, dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="d">E, dd/MM/yyyy - E, dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="y">E, dd/MM/yyyy - E, dd/MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">LLL-LLL y</greatestDifference>
+							<greatestDifference id="y">LLL y - LLL y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E, dd MMM - E, dd MMM y</greatestDifference>
+							<greatestDifference id="d">E, dd - E, dd MMM y</greatestDifference>
+							<greatestDifference id="y">E, dd MMM y - E, dd MMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMM">
+							<greatestDifference id="M">MM-MM/yyyy</greatestDifference>
+							<greatestDifference id="y">MM/yyyy-MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">dd MMM - dd MMM y</greatestDifference>
+							<greatestDifference id="d">dd-dd MMM y</greatestDifference>
+							<greatestDifference id="y">dd MMM y - dd MMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="d">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="y">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="era">
+						<displayName>О ОµПЃОЇОїОґОїП‚</displayName>
+					</field>
+					<field type="year">
+						<displayName>О€П„ОїП‚</displayName>
+					</field>
+					<field type="month">
+						<displayName>ОњО®ОЅО±П‚</displayName>
+					</field>
+					<field type="week">
+						<displayName>О•ОІОґОїОјО¬ОґО±</displayName>
+					</field>
+					<field type="day">
+						<displayName>О—ОјО­ПЃО±</displayName>
+						<relative type="-3">О ПЃО№ОЅ О±ПЂПЊ П„ПЃОµО№П‚ О·ОјО­ПЃОµП‚</relative>
+						<relative type="-2">О ПЃОїП‡П„О­П‚</relative>
+						<relative type="-1">О§П„ОµП‚</relative>
+						<relative type="0">ОЈО®ОјОµПЃО±</relative>
+						<relative type="1">О‘ПЌПЃО№Ої</relative>
+						<relative type="2">ОњОµОёО±ПЌПЃО№Ої</relative>
+						<relative type="3">ОЈОµ П„ПЃОµО№П‚ О·ОјО­ПЃОµП‚ О±ПЂПЊ П„ПЋПЃО±</relative>
+					</field>
+					<field type="weekday">
+						<displayName>О—ОјО­ПЃО± ОµОІОґОїОјО¬ОґО±П‚</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>ПЂ.Ој./Ој.Ој.</displayName>
+					</field>
+					<field type="hour">
+						<displayName>ОЏПЃО±</displayName>
+					</field>
+					<field type="minute">
+						<displayName>О›ОµПЂП„ПЊ</displayName>
+					</field>
+					<field type="second">
+						<displayName>О”ОµП…П„ОµПЃПЊО»ОµПЂП„Ої</displayName>
+					</field>
+					<field type="zone">
+						<displayName>О–ПЋОЅО·</displayName>
+					</field>
+				</fields>
+			</calendar>
+			<calendar type="hebrew">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">ПЂ.Ој.</era>
+					</eraAbbr>
+				</eras>
+			</calendar>
+			<calendar type="indian">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="islamic">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="japanese">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="yyyyM">MM/yy GGGGG</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM yy GGGGG</dateFormatItem>
+						<dateFormatItem id="yyyyQ">yy GGGGG Q</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="persian">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+			</calendar>
+			<calendar type="roc">
+				<am>ПЂ.Ој.</am>
+				<pm>Ој.Ој.</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">О ПЃО№ОЅ R.O.C.</era>
+						<era type="1">R.O.C.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">EEE, d/M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM, y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE, d MMM, y G</dateFormatItem>
+						<dateFormatItem id="yyyyQ">y G Q</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HHmm;-HHmm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>О†ОіОЅП‰ПѓП„О·</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>О‘ОЅОґПЊПЃО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Dubai">
+				<exemplarCity>ОќП„ОїП…ОјПЂО¬О№</exemplarCity>
+			</zone>
+			<zone type="Asia/Kabul">
+				<exemplarCity>ОљО±ОјПЂОїПЌО»</exemplarCity>
+			</zone>
+			<zone type="America/Antigua">
+				<exemplarCity>О‘ОЅП„ОЇОіОєОїП…О±</exemplarCity>
+			</zone>
+			<zone type="America/Anguilla">
+				<exemplarCity>О‘ОЅОіОєОїП…ОЇО»О»О±</exemplarCity>
+			</zone>
+			<zone type="Europe/Tirane">
+				<exemplarCity>О¤ОЇПЃО±ОЅО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Yerevan">
+				<exemplarCity>О“ОµПЃОµОІО¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Curacao">
+				<exemplarCity>ОљОїП…ПЃО±ОєО¬Ої</exemplarCity>
+			</zone>
+			<zone type="Africa/Luanda">
+				<exemplarCity>О‘ОіОєПЊО»О±</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Rothera">
+				<exemplarCity>ОЎОїОёО­ПЃО±</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Palmer">
+				<exemplarCity>О О¬О»ОјОµПЃ</exemplarCity>
+			</zone>
+			<zone type="Antarctica/South_Pole">
+				<exemplarCity>ОќПЊП„О№ОїП‚ О ПЊО»ОїП‚</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Syowa">
+				<exemplarCity>ОЈПЌОїОІО±</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Mawson">
+				<exemplarCity>ОњПЊОїП…ПѓОїОЅ</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Davis">
+				<exemplarCity>ОќП„О­О№ОІО№П‚</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Vostok">
+				<exemplarCity>О’ПЊПѓП„ОїОє</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Casey">
+				<exemplarCity>ОљО¬ПѓОµПЉ</exemplarCity>
+			</zone>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>ОќП„П…ОјПЊОЅП„ ОќП„ОµПЃОІОЇО»</exemplarCity>
+			</zone>
+			<zone type="Antarctica/McMurdo">
+				<exemplarCity>ОњО±ОєОјО­ПЃОЅП„Ої</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Rio_Gallegos">
+				<exemplarCity>ОЎОЇОї О“ОєО±ОіО№О­ОіОєОїП‚</exemplarCity>
+			</zone>
+			<zone type="America/Mendoza">
+				<exemplarCity>ОњОµОЅП„ПЊО¶О±</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Juan">
+				<exemplarCity>ОЈО±ОЅ О§ОїП…О¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Ushuaia">
+				<exemplarCity>ОџП…ПѓОїП…О¬О№О±</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/La_Rioja">
+				<exemplarCity>О›О± ОЎО№ПЊП‡О±</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Luis">
+				<exemplarCity>ОЈО±ОЅ О›ОїПЌО№П‚</exemplarCity>
+			</zone>
+			<zone type="America/Catamarca">
+				<exemplarCity>ОљО±П„О±ОјО¬ПЃОєО±</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Salta">
+				<exemplarCity>ОЈО¬О»П„О±</exemplarCity>
+			</zone>
+			<zone type="America/Jujuy">
+				<exemplarCity>О§ОїП…П‡ОїПЌО№</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Tucuman">
+				<exemplarCity>О¤ОїП…ОєОїП…ОјО¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Cordoba">
+				<exemplarCity>ОљПЊПЃОґОїОІО±</exemplarCity>
+			</zone>
+			<zone type="America/Buenos_Aires">
+				<exemplarCity>ОњПЂОїП…О­ОЅОїП‚ О†О№ПЃОµП‚</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pago_Pago">
+				<exemplarCity>О О¬ОіОєОї О О¬ОіОєОї</exemplarCity>
+			</zone>
+			<zone type="Europe/Vienna">
+				<exemplarCity>О’О№О­ОЅОЅО·</exemplarCity>
+			</zone>
+			<zone type="Australia/Perth">
+				<exemplarCity>О ОµПЃОё</exemplarCity>
+			</zone>
+			<zone type="Australia/Eucla">
+				<exemplarCity>О•ОїПЌОєО»О±</exemplarCity>
+			</zone>
+			<zone type="Australia/Darwin">
+				<exemplarCity>ОќП„О¬ПЃОіОїП…О№ОЅ</exemplarCity>
+			</zone>
+			<zone type="Australia/Adelaide">
+				<exemplarCity>О‘ОґОµО»О±ОђОґО±</exemplarCity>
+			</zone>
+			<zone type="Australia/Broken_Hill">
+				<exemplarCity>ОњПЂПЃПЊОєОµОЅ О§О№О»</exemplarCity>
+			</zone>
+			<zone type="Australia/Currie">
+				<exemplarCity>ОљО№ОїП…ПЃОЇ</exemplarCity>
+			</zone>
+			<zone type="Australia/Melbourne">
+				<exemplarCity>ОњОµО»ОІОїПЌПЃОЅО·</exemplarCity>
+			</zone>
+			<zone type="Australia/Hobart">
+				<exemplarCity>О§ПЊОјПЂО±ПЃП„</exemplarCity>
+			</zone>
+			<zone type="Australia/Lindeman">
+				<exemplarCity>О›ОЇОЅП„ОµОјО±ОЅ</exemplarCity>
+			</zone>
+			<zone type="Australia/Sydney">
+				<exemplarCity>ОЈОЇОґОЅОµПЉ</exemplarCity>
+			</zone>
+			<zone type="Australia/Brisbane">
+				<exemplarCity>ОњПЂПЃОЇПѓОјПЂОµПЉОЅ</exemplarCity>
+			</zone>
+			<zone type="Australia/Lord_Howe">
+				<exemplarCity>О›ОїПЃОЅП„ О§О¬ОїП…О№</exemplarCity>
+			</zone>
+			<zone type="America/Aruba">
+				<exemplarCity>О‘ПЃОїПЌОјПЂО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Baku">
+				<exemplarCity>ОњПЂО±ОєОїПЌ</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity>ОњПЂО±ПЃОјПЂО­О№ОЅП„ОїП‚</exemplarCity>
+			</zone>
+			<zone type="Asia/Dhaka">
+				<exemplarCity>ОќП„О¬ОєО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Brussels">
+				<exemplarCity>О’ПЃП…ОѕО­О»О»ОµП‚</exemplarCity>
+			</zone>
+			<zone type="Africa/Ouagadougou">
+				<exemplarCity>ОњПЂОїП…ПЃОєОЇОЅО± О¦О¬ПѓОї</exemplarCity>
+			</zone>
+			<zone type="Europe/Sofia">
+				<exemplarCity>ОЈПЊП†О№О±</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>ОњПЂО±П‡ПЃО­О№ОЅ</exemplarCity>
+			</zone>
+			<zone type="Africa/Bujumbura">
+				<exemplarCity>ОњПЂОїП…ПЃОїПЌОЅП„О№</exemplarCity>
+			</zone>
+			<zone type="Africa/Porto-Novo">
+				<exemplarCity>ОњПЂОµОЅОЇОЅ</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity>О’ОµПЃОјОїПЌОґО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity>ОњПЂПЃОїПЌОЅОµПЉ</exemplarCity>
+			</zone>
+			<zone type="America/La_Paz">
+				<exemplarCity>О›О± О О±О¶</exemplarCity>
+			</zone>
+			<zone type="America/Eirunepe">
+				<exemplarCity>О•ПЉПЃОїП…ОЅО­ПЂОµ</exemplarCity>
+			</zone>
+			<zone type="America/Rio_Branco">
+				<exemplarCity>ОЎОЇОї ОњПЂПЃО¬ОЅОєОї</exemplarCity>
+			</zone>
+			<zone type="America/Porto_Velho">
+				<exemplarCity>О ПЊПЃП„Ої О’О­О»Ої</exemplarCity>
+			</zone>
+			<zone type="America/Boa_Vista">
+				<exemplarCity>ОњПЂПЊО± О’ОЇПѓП„О±</exemplarCity>
+			</zone>
+			<zone type="America/Manaus">
+				<exemplarCity>ОњО±ОЅО¬ОїП‚</exemplarCity>
+			</zone>
+			<zone type="America/Cuiaba">
+				<exemplarCity>ОљОїП…ПЉО¬ОјПЂО±</exemplarCity>
+			</zone>
+			<zone type="America/Santarem">
+				<exemplarCity>ОЈО±ОЅП„О±ПЃО­Ој</exemplarCity>
+			</zone>
+			<zone type="America/Campo_Grande">
+				<exemplarCity>ОљО¬ОјПЂОї О“ОєПЃО¬ОЅП„Оµ</exemplarCity>
+			</zone>
+			<zone type="America/Belem">
+				<exemplarCity>ОњПЂО­О»ОµОј</exemplarCity>
+			</zone>
+			<zone type="America/Araguaina">
+				<exemplarCity>О‘ПЃО±ОіОєОїП…О¬О№ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Sao_Paulo">
+				<exemplarCity>ОЈО¬Ої О О¬ОїО»Ої</exemplarCity>
+			</zone>
+			<zone type="America/Bahia">
+				<exemplarCity>ОњПЂО¬П‡О№О±</exemplarCity>
+			</zone>
+			<zone type="America/Fortaleza">
+				<exemplarCity>О¦ОїПЃП„О±О»О­О¶О±</exemplarCity>
+			</zone>
+			<zone type="America/Maceio">
+				<exemplarCity>ОњО±ПѓО­О№Ої</exemplarCity>
+			</zone>
+			<zone type="America/Recife">
+				<exemplarCity>ОЎОµПѓОЇП†Оµ</exemplarCity>
+			</zone>
+			<zone type="America/Noronha">
+				<exemplarCity>ОќОїПЃПЊОЅП‡О±</exemplarCity>
+			</zone>
+			<zone type="America/Nassau">
+				<exemplarCity>ОќО±ПѓО¬ОїП…</exemplarCity>
+			</zone>
+			<zone type="Asia/Thimphu">
+				<exemplarCity>О¤ПЃОЇОјП†ОїП…</exemplarCity>
+			</zone>
+			<zone type="Africa/Gaborone">
+				<exemplarCity>О“ОєО±ОјПЂОїПЃПЊОЅОµ</exemplarCity>
+			</zone>
+			<zone type="Europe/Minsk">
+				<exemplarCity>ОњО№ОЅПѓОє</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity>ОњПЂОµО»ОЇО¶</exemplarCity>
+			</zone>
+			<zone type="America/Dawson">
+				<exemplarCity>ОќП„ПЊПѓОїОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Whitehorse">
+				<exemplarCity>О“ОїП…О¬О№П„П‡ОїПЃП‚</exemplarCity>
+			</zone>
+			<zone type="America/Inuvik">
+				<exemplarCity>О™ОЅОїПЌОІО№Оє</exemplarCity>
+			</zone>
+			<zone type="America/Vancouver">
+				<exemplarCity>О’О±ОЅОєОїПЌОІОµПЃ</exemplarCity>
+			</zone>
+			<zone type="America/Dawson_Creek">
+				<exemplarCity>ОќП„ПЊПѓОїОЅ ОљПЃО№Оє</exemplarCity>
+			</zone>
+			<zone type="America/Yellowknife">
+				<exemplarCity>О“О­О»ОїОїП…ОЅО±ПЉП†</exemplarCity>
+			</zone>
+			<zone type="America/Edmonton">
+				<exemplarCity>О€ОЅП„ОјОїОЅП„ОїОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Swift_Current">
+				<exemplarCity>ОЈОїП…ОЇП†П„ ОљО¬ПЃПЃОµОЅП„</exemplarCity>
+			</zone>
+			<zone type="America/Cambridge_Bay">
+				<exemplarCity>ОљО­ОјПЂПЃО№П„О¶ ОњПЂО­О№</exemplarCity>
+			</zone>
+			<zone type="America/Regina">
+				<exemplarCity>ОЎОµП„О¶ОЇОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Winnipeg">
+				<exemplarCity>О“ОїПЌОЅО№ПЂОµОіОє</exemplarCity>
+			</zone>
+			<zone type="America/Resolute">
+				<exemplarCity>ОЎО­ПѓОїО»ОїП…П„</exemplarCity>
+			</zone>
+			<zone type="America/Rainy_River">
+				<exemplarCity>ОЎО­О№ОЅО№ ОЎОЇОІОµПЃ</exemplarCity>
+			</zone>
+			<zone type="America/Rankin_Inlet">
+				<exemplarCity>ОЎО­О№ОЅОєО№ОЅ ОЉОЅО»ОµП„</exemplarCity>
+			</zone>
+			<zone type="America/Coral_Harbour">
+				<exemplarCity>ОљПЊПЃО±О» О§О¬ПЃОјПЂОїП…ПЃ</exemplarCity>
+			</zone>
+			<zone type="America/Thunder_Bay">
+				<exemplarCity>ОО¬ОЅП„ОµПЃ ОњПЂО­О№</exemplarCity>
+			</zone>
+			<zone type="America/Nipigon">
+				<exemplarCity>ОќО№ПЂО№ОіОєПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Toronto">
+				<exemplarCity>О¤ОїПЃПЊОЅП„Ої</exemplarCity>
+			</zone>
+			<zone type="America/Montreal">
+				<exemplarCity>ОњПЊОЅП„ПЃОµО±О»</exemplarCity>
+			</zone>
+			<zone type="America/Iqaluit">
+				<exemplarCity>О™ОєО±О»ОїПЌП„</exemplarCity>
+			</zone>
+			<zone type="America/Pangnirtung">
+				<exemplarCity>О О±ОЅОіОєОЅОЇПЃП„ОїП…ОЅОіОє</exemplarCity>
+			</zone>
+			<zone type="America/Moncton">
+				<exemplarCity>ОњОїОЅОєП„ПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Halifax">
+				<exemplarCity>О§О¬О»О№П†О±Оѕ</exemplarCity>
+			</zone>
+			<zone type="America/Goose_Bay">
+				<exemplarCity>О“ОєОїП…П‚ ОњПЂО­О№</exemplarCity>
+			</zone>
+			<zone type="America/Glace_Bay">
+				<exemplarCity>О“ОєО»О­О№П‚ ОњПЂО­О№</exemplarCity>
+			</zone>
+			<zone type="America/Blanc-Sablon">
+				<exemplarCity>ОњПЂО»О±ОЅ ОЈО±ОјПЂО»ПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="America/St_Johns">
+				<exemplarCity>ОЈОµОЅП„ О¤О¶ОїОЅП‚</exemplarCity>
+			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity>ОљПЊОєОїП‚</exemplarCity>
+			</zone>
+			<zone type="Africa/Kinshasa">
+				<exemplarCity>ОљО№ОЅПѓО¬ПѓО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Lubumbashi">
+				<exemplarCity>О›ОїП…ОјПЂОїП…ОјПЂО¬ПѓО№</exemplarCity>
+			</zone>
+			<zone type="Africa/Bangui">
+				<exemplarCity>ОљОµОЅП„ПЃОїО±П†ПЃО№ОєО±ОЅО№ОєО® О”О·ОјОїОєПЃО±П„ОЇО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Brazzaville">
+				<exemplarCity>ОњПЂПЃО¬О¶О±ОІО№О»</exemplarCity>
+			</zone>
+			<zone type="Europe/Zurich">
+				<exemplarCity>О–П…ПЃОЇП‡О·</exemplarCity>
+			</zone>
+			<zone type="Africa/Abidjan">
+				<exemplarCity>О‘ОєП„О® О•О»ОµП†О±ОЅП„ОїПѓП„ОїПЌ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Rarotonga">
+				<exemplarCity>ОЎО±ПЃОїП„ПЊОЅОіОєО±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Easter">
+				<exemplarCity>ОќО®ПѓОїП‚ О О¬ПѓП‡О±</exemplarCity>
+			</zone>
+			<zone type="America/Santiago">
+				<exemplarCity>ОЈО±ОЅП„О№О¬ОіОєОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Douala">
+				<exemplarCity>ОљО±ОјОµПЃОїПЌОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Kashgar">
+				<exemplarCity>ОљО¬ПѓОіОєО±ПЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Urumqi">
+				<exemplarCity>ОџП…ПЃОїП…ОјОєОЇ</exemplarCity>
+			</zone>
+			<zone type="Asia/Chongqing">
+				<exemplarCity>О¤ПѓОїОЅОіОєОЇОЅОіОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Shanghai">
+				<exemplarCity>ОЈО±ОЅОіОєО¬О·</exemplarCity>
+			</zone>
+			<zone type="Asia/Harbin">
+				<exemplarCity>О§О±ПЃОјПЂОЇОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Bogota">
+				<exemplarCity>ОњПЂОїОіОєОїП„О¬</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>ОљПЊПѓП„О± ОЎОЇОєО±</exemplarCity>
+			</zone>
+			<zone type="America/Havana">
+				<exemplarCity>О‘ОІО¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity>ОќО®ПѓОїО№ О§ПЃО№ПѓП„ОїП…ОіО­ОЅОЅП‰ОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Nicosia">
+				<exemplarCity>О›ОµП…ОєП‰ПѓОЇО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Berlin">
+				<exemplarCity>О’ОµПЃОїО»ОЇОЅОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>О¤О¶О№ОјПЂОїП…П„ОЇ</exemplarCity>
+			</zone>
+			<zone type="Europe/Copenhagen">
+				<exemplarCity>ОљОїПЂОµОіП‡О¬ОіО·</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>О”ОїОјО№ОЅОЇОєО±</exemplarCity>
+			</zone>
+			<zone type="America/Santo_Domingo">
+				<exemplarCity>ОЈО¬ОЅП„Ої ОќП„ОїОјОЇОЅОіОєОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Algiers">
+				<exemplarCity>О‘О»ОіО­ПЃО№</exemplarCity>
+			</zone>
+			<zone type="Pacific/Galapagos">
+				<exemplarCity>О“ОєО±О»О±ПЂО¬ОіОєОїП‚</exemplarCity>
+			</zone>
+			<zone type="America/Guayaquil">
+				<exemplarCity>О“ОєОїП…О±ОіО№О±ОєПЌО»</exemplarCity>
+			</zone>
+			<zone type="Europe/Tallinn">
+				<exemplarCity>О¤О±О»ОЇОЅ</exemplarCity>
+			</zone>
+			<zone type="Africa/Cairo">
+				<exemplarCity>О‘ОЇОіП…ПЂП„ОїП‚</exemplarCity>
+			</zone>
+			<zone type="Africa/El_Aaiun">
+				<exemplarCity>О”П…П„О№ОєО® ОЈО±П‡О¬ПЃО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Asmera">
+				<exemplarCity>О‘ПѓОјО­ПЃО±</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>ОљО±ОЅО¬ПЃО№О±</exemplarCity>
+			</zone>
+			<zone type="Africa/Ceuta">
+				<exemplarCity>ОљО­ОїП…П„О±</exemplarCity>
+			</zone>
+			<zone type="Europe/Madrid">
+				<exemplarCity>ОњО±ОґПЃОЇП„О·</exemplarCity>
+			</zone>
+			<zone type="Africa/Addis_Ababa">
+				<exemplarCity>О‘О№ОёО№ОїПЂОЇО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Helsinki">
+				<exemplarCity>О•О»ПѓОЇОЅОєО№</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>О¦ОЇП„О¶О№</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Stanley">
+				<exemplarCity>ОЈП„О¬ОЅО»ОµП‹</exemplarCity>
+			</zone>
+			<zone type="Pacific/Truk">
+				<exemplarCity>О¤ПЃОїП…Оє</exemplarCity>
+			</zone>
+			<zone type="Pacific/Ponape">
+				<exemplarCity>О ОїОЅО¬ПЂОµ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kosrae">
+				<exemplarCity>ОљОїПѓПЃО¬О·</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity>О¦ОµПЃПЊОµП‚</exemplarCity>
+			</zone>
+			<zone type="Europe/Paris">
+				<exemplarCity>О О±ПЃОЇПѓО№</exemplarCity>
+			</zone>
+			<zone type="Africa/Libreville">
+				<exemplarCity>О“ОєО±ОјПЂПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="Europe/London">
+				<exemplarCity>О›ОїОЅОґОЇОЅОї</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity>О“ПЃОµОЅО¬ОґО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Tbilisi">
+				<exemplarCity>О¤ОјПЂО№О»ОЇПѓО№</exemplarCity>
+			</zone>
+			<zone type="America/Cayenne">
+				<exemplarCity>ОљО±ОіО№О­ОЅОµ</exemplarCity>
+			</zone>
+			<zone type="Africa/Accra">
+				<exemplarCity>О†ОєОєПЃО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Gibraltar">
+				<exemplarCity>О“О№ОІПЃО±О»П„О¬ПЃ</exemplarCity>
+			</zone>
+			<zone type="America/Thule">
+				<exemplarCity>О¤ОїПЌО»Оµ</exemplarCity>
+			</zone>
+			<zone type="America/Godthab">
+				<exemplarCity>О“ОєПЊОЅОёО±ОјПЂ</exemplarCity>
+			</zone>
+			<zone type="America/Scoresbysund">
+				<exemplarCity>ОЈОєОїПЃОµПѓОјПЂОЇПѓОїП…ОЅП„</exemplarCity>
+			</zone>
+			<zone type="America/Danmarkshavn">
+				<exemplarCity>ОќП„О±ОЅОјО±ПЃОєПѓО¬ОІОЅ</exemplarCity>
+			</zone>
+			<zone type="Africa/Banjul">
+				<exemplarCity>О“ОєО¬ОјПЂО№О±</exemplarCity>
+			</zone>
+			<zone type="Africa/Conakry">
+				<exemplarCity>О“ОїП…О№ОЅО­О±</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity>О“ОїП…О±ОґОµО»ОїПЌПЂО·</exemplarCity>
+			</zone>
+			<zone type="Africa/Malabo">
+				<exemplarCity>О™ПѓО·ОјОµПЃО№ОЅО® О“ОїП…О№ОЅО­О±</exemplarCity>
+			</zone>
+			<zone type="Europe/Athens">
+				<exemplarCity>О‘ОёО®ОЅО±</exemplarCity>
+			</zone>
+			<zone type="Atlantic/South_Georgia">
+				<exemplarCity>ОќПЊП„О№О± О“ОµП‰ПЃОіОЇО±</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>О“ОїП…О±П„ОµОјО¬О»О±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guam">
+				<exemplarCity>О“ОєОїП…О¬Ој</exemplarCity>
+			</zone>
+			<zone type="Africa/Bissau">
+				<exemplarCity>О“ОїП…О№ОЅО­О± ОњПЂО№ПѓПѓО¬ОїП…</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>О“ОїП…О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>О§ОїОЅОіОє ОљОїОЅОіОє</exemplarCity>
+			</zone>
+			<zone type="America/Port-au-Prince">
+				<exemplarCity>О ОїПЃП„-Оџ-О ПЃОµОЅП‚</exemplarCity>
+			</zone>
+			<zone type="Europe/Budapest">
+				<exemplarCity>О’ОїП…ОґО±ПЂО­ПѓП„О·</exemplarCity>
+			</zone>
+			<zone type="Asia/Jakarta">
+				<exemplarCity>О¤О¶О±ОєО¬ПЃП„О±</exemplarCity>
+			</zone>
+			<zone type="Asia/Pontianak">
+				<exemplarCity>О ПЊОЅП„О№О±ОЅО±Оє</exemplarCity>
+			</zone>
+			<zone type="Asia/Makassar">
+				<exemplarCity>ОњО±ОєО±ПѓО¬ПЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Jayapura">
+				<exemplarCity>О§О±ОіО№О±ПЂОїПЌПЃО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Dublin">
+				<exemplarCity>О”ОїП…ОІО»ОЇОЅОї</exemplarCity>
+			</zone>
+			<zone type="Asia/Jerusalem">
+				<exemplarCity>О™ОµПЃОїП…ПѓО±О»О®Ој</exemplarCity>
+			</zone>
+			<zone type="Indian/Chagos">
+				<exemplarCity>О¤ПѓО¬ОіОєОїП‚</exemplarCity>
+			</zone>
+			<zone type="Asia/Baghdad">
+				<exemplarCity>О’О±ОіОґО¬П„О·</exemplarCity>
+			</zone>
+			<zone type="Asia/Tehran">
+				<exemplarCity>О¤ОµП‡ОµПЃО¬ОЅО·</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Reykjavik">
+				<exemplarCity>ОЎО­П…ОєО№О±ОІО№Оє</exemplarCity>
+			</zone>
+			<zone type="Europe/Rome">
+				<exemplarCity>ОЎПЋОјО·</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>О¤О¶О±ОјО¬О№ОєО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Amman">
+				<exemplarCity>О‘ОјО¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Tokyo">
+				<exemplarCity>О¤ПЊОєП…Ої</exemplarCity>
+			</zone>
+			<zone type="Africa/Nairobi">
+				<exemplarCity>ОљО­ОЅП…О±</exemplarCity>
+			</zone>
+			<zone type="Asia/Bishkek">
+				<exemplarCity>ОњПЂО№ПѓП‡О­Оє</exemplarCity>
+			</zone>
+			<zone type="Asia/Phnom_Penh">
+				<exemplarCity>О О№ПЊОј О ОµОЅП‡</exemplarCity>
+			</zone>
+			<zone type="Pacific/Enderbury">
+				<exemplarCity>О•ОЅП„ОµПЃОјПЂО­ПЃП…</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kiritimati">
+				<exemplarCity>ОљО№ПЃО№П„О№ОјО¬П„О№</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tarawa">
+				<exemplarCity>О¤О±ПЃО¬ОїП…О±</exemplarCity>
+			</zone>
+			<zone type="Indian/Comoro">
+				<exemplarCity>ОљОїОјПЊПЃОї</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity>ОЈО±О№ОЅ ОљО№П„П„П‚</exemplarCity>
+			</zone>
+			<zone type="Asia/Pyongyang">
+				<exemplarCity>О П…ПЊОЅОіОє О“О№О¬ОЅОіОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Seoul">
+				<exemplarCity>ОЈОµОїПЌО»</exemplarCity>
+			</zone>
+			<zone type="America/Cayman">
+				<exemplarCity>ОљО­П…ОјО±ОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtau">
+				<exemplarCity>О‘ОєП„О¬ОїП…</exemplarCity>
+			</zone>
+			<zone type="Asia/Oral">
+				<exemplarCity>ОЊПЃО±О»</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtobe">
+				<exemplarCity>О‘ОєП„ПЊОјПЂОµ</exemplarCity>
+			</zone>
+			<zone type="Asia/Qyzylorda">
+				<exemplarCity>ОљП„О¶О№О»-ОџПЃОЅП„О¬</exemplarCity>
+			</zone>
+			<zone type="Asia/Almaty">
+				<exemplarCity>О‘О»ОјО¬П„П…</exemplarCity>
+			</zone>
+			<zone type="Asia/Vientiane">
+				<exemplarCity>О’О№ОµОЅП„О№О¬ОЅОµ</exemplarCity>
+			</zone>
+			<zone type="Asia/Beirut">
+				<exemplarCity>О’О·ПЃП…П„ПЊП‚</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity>О‘Оі. О›ОїП…ОєОЇО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Vaduz">
+				<exemplarCity>О’О±ОЅП„ОїПЌО¶</exemplarCity>
+			</zone>
+			<zone type="Asia/Colombo">
+				<exemplarCity>ОљОїО»ПЊОјПЂОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Monrovia">
+				<exemplarCity>О›О№ОІОµПЃОЇО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Maseru">
+				<exemplarCity>О›ОµПѓПЊОёОї</exemplarCity>
+			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity>О’ОЇО»ОЅО№ОїП…П‚</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>О›ОїП…ОѕОµОјОІОїПЌПЃОіОї</exemplarCity>
+			</zone>
+			<zone type="Europe/Riga">
+				<exemplarCity>ОЎОЇОіО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Tripoli">
+				<exemplarCity>О›О№ОІПЌО·</exemplarCity>
+			</zone>
+			<zone type="Africa/Casablanca">
+				<exemplarCity>ОљО±О¶О±ОјПЂО»О¬ОЅОєО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>ОњОїОЅО±ОєПЊ</exemplarCity>
+			</zone>
+			<zone type="Europe/Chisinau">
+				<exemplarCity>О¤ПѓО№ПѓО№ОЅО¬ОїП…</exemplarCity>
+			</zone>
+			<zone type="Indian/Antananarivo">
+				<exemplarCity>О‘ОЅП„О±ОЅО±ОЅО±ПЃОЇОІОї</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kwajalein">
+				<exemplarCity>ОљОїП…О±П‡О±О»О­О№ОЅ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Majuro">
+				<exemplarCity>ОњО±П‡ОїПЌПЃОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Bamako">
+				<exemplarCity>ОњПЂО±ОјО¬ОєОї</exemplarCity>
+			</zone>
+			<zone type="Asia/Rangoon">
+				<exemplarCity>ОЎО±ОЅОіОєОїПЌОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Hovd">
+				<exemplarCity>О§ОїОІОЅП„</exemplarCity>
+			</zone>
+			<zone type="Asia/Ulaanbaatar">
+				<exemplarCity>ОџП…О»О¬ОЅ ОњПЂО±П„ПЊПЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Choibalsan">
+				<exemplarCity>О§ПЊО№ОјПЂО±О»ПѓО±ОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity>ОњО±ОєО¬Ої</exemplarCity>
+			</zone>
+			<zone type="Pacific/Saipan">
+				<exemplarCity>ОЈО¬О№ПЂО±ОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity>ОњО±ПЃП„О№ОЅОЇОєО±</exemplarCity>
+			</zone>
+			<zone type="Africa/Nouakchott">
+				<exemplarCity>ОњО±П…ПЃО№П„О±ОЅОЇО±</exemplarCity>
+			</zone>
+			<zone type="America/Montserrat">
+				<exemplarCity>ОњОїОЅПѓОµПЃО¬П„</exemplarCity>
+			</zone>
+			<zone type="Europe/Malta">
+				<exemplarCity>ОњО¬О»П„О±</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity>ОњО±П…ПЃОЇОєО№ОїП‚</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>ОњО±О»ОґОЇОІОµП‚</exemplarCity>
+			</zone>
+			<zone type="Africa/Blantyre">
+				<exemplarCity>ОњО±О»О¬ОїП…О№</exemplarCity>
+			</zone>
+			<zone type="America/Tijuana">
+				<exemplarCity>О¤О№П‡ОїП…О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Hermosillo">
+				<exemplarCity>О•ПЃОјОїПѓОЇОіО№Ої</exemplarCity>
+			</zone>
+			<zone type="America/Mazatlan">
+				<exemplarCity>ОњО±О¶О±П„О»О¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Chihuahua">
+				<exemplarCity>О¤ПѓО№ОїП…О¬ОїП…О±</exemplarCity>
+			</zone>
+			<zone type="America/Monterrey">
+				<exemplarCity>ОњОїОЅП„ОµПЃО­О№</exemplarCity>
+			</zone>
+			<zone type="America/Mexico_City">
+				<exemplarCity>О ПЊО»О· П„ОїП… ОњОµОѕО№ОєОїПЌ</exemplarCity>
+			</zone>
+			<zone type="America/Merida">
+				<exemplarCity>ОњО­ПЃО№ОЅП„О±</exemplarCity>
+			</zone>
+			<zone type="America/Cancun">
+				<exemplarCity>ОљО±ОЅОєОїПЌОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuala_Lumpur">
+				<exemplarCity>ОљОїП…О¬О»О± О›ОїП…ОјПЂОїПЌПЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuching">
+				<exemplarCity>ОљОїП…П„ПѓОЇОЅОіОє</exemplarCity>
+			</zone>
+			<zone type="Africa/Maputo">
+				<exemplarCity>ОњО±ПЂОїПЌП„Ої</exemplarCity>
+			</zone>
+			<zone type="Africa/Windhoek">
+				<exemplarCity>О“ОїП…О№ОЅП„П‡ПЊОµОє</exemplarCity>
+			</zone>
+			<zone type="Pacific/Noumea">
+				<exemplarCity>ОќОїП…ОјО­О±</exemplarCity>
+			</zone>
+			<zone type="Africa/Niamey">
+				<exemplarCity>ОќО№О±ОјО­П…</exemplarCity>
+			</zone>
+			<zone type="Pacific/Norfolk">
+				<exemplarCity>ОќПЊПЃП†ОїО»Оє</exemplarCity>
+			</zone>
+			<zone type="Africa/Lagos">
+				<exemplarCity>О›О¬ОіОїП‚</exemplarCity>
+			</zone>
+			<zone type="America/Managua">
+				<exemplarCity>ОњО±ОЅО¬ОіОєОїП…О±</exemplarCity>
+			</zone>
+			<zone type="Europe/Amsterdam">
+				<exemplarCity>О†ОјПѓП„ОµПЃОЅП„О±Ој</exemplarCity>
+			</zone>
+			<zone type="Europe/Oslo">
+				<exemplarCity>ОЊПѓО»Ої</exemplarCity>
+			</zone>
+			<zone type="Asia/Katmandu">
+				<exemplarCity>ОљО±П„ОјО±ОЅП„ОїПЌ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Nauru">
+				<exemplarCity>ОќО±ОїПЌПЃОїП…</exemplarCity>
+			</zone>
+			<zone type="Pacific/Niue">
+				<exemplarCity>ОќО№ОїПЌОµ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Chatham">
+				<exemplarCity>О¤ПѓО¬П„О±Ој</exemplarCity>
+			</zone>
+			<zone type="Pacific/Auckland">
+				<exemplarCity>ОЊОєО»О±ОЅП„</exemplarCity>
+			</zone>
+			<zone type="Asia/Muscat">
+				<exemplarCity>ОњОїП…ПѓОєО¬П„</exemplarCity>
+			</zone>
+			<zone type="America/Panama">
+				<exemplarCity>О О±ОЅО±ОјО¬П‚</exemplarCity>
+			</zone>
+			<zone type="America/Lima">
+				<exemplarCity>О›ОЇОјО±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tahiti">
+				<exemplarCity>О‘ПЉП„О®</exemplarCity>
+			</zone>
+			<zone type="Pacific/Marquesas">
+				<exemplarCity>ОњО±ПЃОєО­ПѓО±П‚</exemplarCity>
+			</zone>
+			<zone type="Pacific/Gambier">
+				<exemplarCity>О“ОєО¬ОјПЂО№ОµПЃ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Port_Moresby">
+				<exemplarCity>О ОїПЃП„ ОњПЊПЃОµПѓОјПЂП…</exemplarCity>
+			</zone>
+			<zone type="Asia/Manila">
+				<exemplarCity>ОњО±ОЅОЇО»О±</exemplarCity>
+			</zone>
+			<zone type="Asia/Karachi">
+				<exemplarCity>ОљО±ПЃО¬П„ПѓО№</exemplarCity>
+			</zone>
+			<zone type="Europe/Warsaw">
+				<exemplarCity>О’О±ПЃПѓОїОІОЇО±</exemplarCity>
+			</zone>
+			<zone type="America/Miquelon">
+				<exemplarCity>ОњО№ОєОµО»ПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity>О О№П„ОєО­О№ПЃОЅ</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity>О ОїП…О­ПЃП„Ої ОЎОЇОєОї</exemplarCity>
+			</zone>
+			<zone type="Asia/Gaza">
+				<exemplarCity>О“О¬О¶О±</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Azores">
+				<exemplarCity>О‘О¶ПЊПЃОµП‚</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Madeira">
+				<exemplarCity>ОњО±ОґО­ПЃО±</exemplarCity>
+			</zone>
+			<zone type="Europe/Lisbon">
+				<exemplarCity>О›О№ПѓПѓО±ОІПЋОЅО±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Palau">
+				<exemplarCity>О О±О»О¬ОїП…</exemplarCity>
+			</zone>
+			<zone type="America/Asuncion">
+				<exemplarCity>О‘ПѓОїП…ОЅПѓО№ПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>ОљО±П„О¬ПЃ</exemplarCity>
+			</zone>
+			<zone type="Indian/Reunion">
+				<exemplarCity>ОЎОµП‹ОЅО№ПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="Europe/Bucharest">
+				<exemplarCity>О’ОїП…ОєОїП…ПЃО­ПѓП„О№</exemplarCity>
+			</zone>
+			<zone type="Europe/Kaliningrad">
+				<exemplarCity>ОљО±О»О»ОЇПЂОїО»О·</exemplarCity>
+			</zone>
+			<zone type="Europe/Moscow">
+				<exemplarCity>ОњПЊПѓП‡О±</exemplarCity>
+			</zone>
+			<zone type="Europe/Volgograd">
+				<exemplarCity>О’ПЊО»ОіОєОїОєПЃО±ОЅП„</exemplarCity>
+			</zone>
+			<zone type="Europe/Samara">
+				<exemplarCity>ОЈО±ОјО¬ПЃО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Yekaterinburg">
+				<exemplarCity>О‘О№ОєО±П„ОµПЃО№ОЅОїПЌПЂОїО»О·</exemplarCity>
+			</zone>
+			<zone type="Asia/Omsk">
+				<exemplarCity>ОџОјПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Novosibirsk">
+				<exemplarCity>ОќОїОІОїПѓО№ОјПЂОЇПЃПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Krasnoyarsk">
+				<exemplarCity>ОљПЃО±ПѓОЅОїОіО№О¬ПЃПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Irkutsk">
+				<exemplarCity>О™ПЃОєОїПЌП„ПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Yakutsk">
+				<exemplarCity>О“О№О¬ОєОїП…П„ПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Vladivostok">
+				<exemplarCity>О’О»О±ОґО№ОІОїПѓП„ПЊОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Sakhalin">
+				<exemplarCity>ОЈО±ОєО±О»ОЇОЅПѓОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Magadan">
+				<exemplarCity>ОњО±ОіОєО±ОЅП„О¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="Asia/Kamchatka">
+				<exemplarCity>ОљО±ОјП„ПѓО¬П„ОєО±</exemplarCity>
+			</zone>
+			<zone type="Asia/Anadyr">
+				<exemplarCity>О‘ОЅО±ОЅП„ОЇПЃ</exemplarCity>
+			</zone>
+			<zone type="Africa/Kigali">
+				<exemplarCity>ОљО№ОіОєО¬О»О№</exemplarCity>
+			</zone>
+			<zone type="Asia/Riyadh">
+				<exemplarCity>ОЎО№О¬ОЅП„</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guadalcanal">
+				<exemplarCity>О“ОєОїП…О±ОЅП„О±О»ОєО±ОЅО¬О»</exemplarCity>
+			</zone>
+			<zone type="Indian/Mahe">
+				<exemplarCity>ОњО¬П‡Оµ</exemplarCity>
+			</zone>
+			<zone type="Africa/Khartoum">
+				<exemplarCity>ОЈОїП…ОґО¬ОЅ</exemplarCity>
+			</zone>
+			<zone type="Europe/Stockholm">
+				<exemplarCity>ОЈП„ОїОєП‡ПЊО»ОјО·</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>ОЈО№ОіОєО±ПЂОїПЌПЃО·</exemplarCity>
+			</zone>
+			<zone type="Atlantic/St_Helena">
+				<exemplarCity>О‘Оі. О•О»О­ОЅО·</exemplarCity>
+			</zone>
+			<zone type="Africa/Freetown">
+				<exemplarCity>ОЈО№О­ПЃО± О›ОµПЊОЅОµ</exemplarCity>
+			</zone>
+			<zone type="Africa/Dakar">
+				<exemplarCity>ОќП„О±ОєО¬ПЃ</exemplarCity>
+			</zone>
+			<zone type="Africa/Mogadishu">
+				<exemplarCity>ОњОїОіОєО±ОЅП„ОЇПѓОїП…</exemplarCity>
+			</zone>
+			<zone type="America/Paramaribo">
+				<exemplarCity>О О±ПЃО±ОјО±ПЃОЇОЅОјПЂОї</exemplarCity>
+			</zone>
+			<zone type="Africa/Sao_Tome">
+				<exemplarCity>ОЈО¬Ої О¤ПЊОјОµ</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>ОЈО±О»ОІО±ОґПЊПЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Damascus">
+				<exemplarCity>О”О±ОјО±ПѓОєПЊП‚</exemplarCity>
+			</zone>
+			<zone type="Africa/Mbabane">
+				<exemplarCity>О–ОїП…О±О¶О№О»О¬ОЅОґО·</exemplarCity>
+			</zone>
+			<zone type="America/Grand_Turk">
+				<exemplarCity>О“ПЃО±ОЅП„ О¤ОїП…ПЃОє</exemplarCity>
+			</zone>
+			<zone type="Africa/Ndjamena">
+				<exemplarCity>ОќП„О¶О±ОјО­ОЅО±</exemplarCity>
+			</zone>
+			<zone type="Indian/Kerguelen">
+				<exemplarCity>ОљО­ПЃОіОєОїП…ОµО»ОµОЅ</exemplarCity>
+			</zone>
+			<zone type="Africa/Lome">
+				<exemplarCity>О›ПЊОјОµ</exemplarCity>
+			</zone>
+			<zone type="Asia/Bangkok">
+				<exemplarCity>ОњПЂО±ОЅОіОєПЊОє</exemplarCity>
+			</zone>
+			<zone type="Asia/Dushanbe">
+				<exemplarCity>ОќП„ОїП…ПѓП‡О¬ОЅОјПЂО·</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fakaofo">
+				<exemplarCity>О¦О±ОєО±ПЊП†Ої</exemplarCity>
+			</zone>
+			<zone type="Asia/Dili">
+				<exemplarCity>ОќП„ОЇО»О№</exemplarCity>
+			</zone>
+			<zone type="Asia/Ashgabat">
+				<exemplarCity>О‘ПѓОіОєО¬ОјПЂО±П„</exemplarCity>
+			</zone>
+			<zone type="Africa/Tunis">
+				<exemplarCity>О¤П…ОЅО·ПѓОЇО±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tongatapu">
+				<exemplarCity>О¤ОїОЅОіОєО±П„О¬ПЂОїП…</exemplarCity>
+			</zone>
+			<zone type="Europe/Istanbul">
+				<exemplarCity>ОљП‰ОЅПѓП„О±ОЅП„О№ОЅОїПЌПЂОїО»О·</exemplarCity>
+			</zone>
+			<zone type="America/Port_of_Spain">
+				<exemplarCity>О ОїПЃП„-ОџП†-ОЈПЂО­О№ОЅ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Funafuti">
+				<exemplarCity>О¦ОїП…ОЅО±П†ОїПЌП„О№</exemplarCity>
+			</zone>
+			<zone type="Asia/Taipei">
+				<exemplarCity>О¤О±ПЉПЂО­О№</exemplarCity>
+			</zone>
+			<zone type="Africa/Dar_es_Salaam">
+				<exemplarCity>ОќП„О±ПЃ О•П‚ ОЈО±О»О¬Ој</exemplarCity>
+			</zone>
+			<zone type="Europe/Uzhgorod">
+				<exemplarCity>ОџП…О¶ОєПЊПЃОїОЅП„</exemplarCity>
+			</zone>
+			<zone type="Europe/Kiev">
+				<exemplarCity>ОљОЇОµОІОї</exemplarCity>
+			</zone>
+			<zone type="Europe/Simferopol">
+				<exemplarCity>ОЈП…ОјП†ОµПЃОїПЌПЂОїО»О·</exemplarCity>
+			</zone>
+			<zone type="Europe/Zaporozhye">
+				<exemplarCity>О–О±ПЂОїПЃПЊО¶О№Оµ</exemplarCity>
+			</zone>
+			<zone type="Africa/Kampala">
+				<exemplarCity>ОљО±ОјПЂО¬О»О±</exemplarCity>
+			</zone>
+			<zone type="Pacific/Midway">
+				<exemplarCity>ОњОЇОЅП„ОіОїП…ОµПЉ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Johnston">
+				<exemplarCity>О¤О¶ПЊОЅПѓП„ОїОЅ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wake">
+				<exemplarCity>О“ОїП…О­О№Оє</exemplarCity>
+			</zone>
+			<zone type="America/Adak">
+				<exemplarCity>О†ОЅП„О±Оє</exemplarCity>
+			</zone>
+			<zone type="America/Nome">
+				<exemplarCity>ОќПЊОјОµ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Honolulu">
+				<exemplarCity>О§ОїОЅОїО»ОїП…О»ОїПЌ</exemplarCity>
+			</zone>
+			<zone type="America/Anchorage">
+				<exemplarCity>О†ОЅОєОїПЃО±П„О¶</exemplarCity>
+			</zone>
+			<zone type="America/Yakutat">
+				<exemplarCity>О“О№О±ОєОїПЌП„О±П„</exemplarCity>
+			</zone>
+			<zone type="America/Juneau">
+				<exemplarCity>О¤О¶ОїПЌОЅОї</exemplarCity>
+			</zone>
+			<zone type="America/Los_Angeles">
+				<exemplarCity>О›ОїП‚ О†ОЅП„О¶ОµО»ОµП‚</exemplarCity>
+			</zone>
+			<zone type="America/Boise">
+				<exemplarCity>ОњПЂПЊО№О¶</exemplarCity>
+			</zone>
+			<zone type="America/Phoenix">
+				<exemplarCity>О¦ОїОЇОЅО№Оѕ</exemplarCity>
+			</zone>
+			<zone type="America/Shiprock">
+				<exemplarCity>ОЈОЇПЂПЃОїОє</exemplarCity>
+			</zone>
+			<zone type="America/Denver">
+				<exemplarCity>ОќП„О­ОЅОІОµПЃ</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/New_Salem">
+				<exemplarCity>ОќО№ОїП… ОЈО¬О»ОµОј, О’ПЊПЃОµО№О± ОќП„О±ОєПЊП„О±</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/Center">
+				<exemplarCity>ОљО­ОЅП„ПЃОї, О’ПЊПЃОµО№О± ОќП„О±ОєПЊП„О±</exemplarCity>
+			</zone>
+			<zone type="America/Chicago">
+				<exemplarCity>ОЈО№ОєО¬ОіОї</exemplarCity>
+			</zone>
+			<zone type="America/Menominee">
+				<exemplarCity>ОњОµОЅОїОјОЇОЅОµ</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vincennes">
+				<exemplarCity>О’ОЇОЅОєОµОЅОµП‚, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Petersburg">
+				<exemplarCity>О ОЇП„ОµПЃПѓОјПЂОµПЃОіОє, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Tell_City">
+				<exemplarCity>О¤ОµО» ОЈОЇП„П…, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Knox">
+				<exemplarCity>ОќОїОѕ, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Winamac">
+				<exemplarCity>О“ОїП…ОЇОЅО±ОјО±Оє, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Marengo">
+				<exemplarCity>ОњО±ПЃО­ОЅОіОєОї, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Indianapolis">
+				<exemplarCity>О™ОЅОґО№О±ОЅО¬ПЂОїО»О·</exemplarCity>
+			</zone>
+			<zone type="America/Louisville">
+				<exemplarCity>О›ОїПЌО№ПѓОІО№О»</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vevay">
+				<exemplarCity>О’ОµОІО¬О№, О™ОЅП„О№О¬ОЅО±</exemplarCity>
+			</zone>
+			<zone type="America/Kentucky/Monticello">
+				<exemplarCity>ОњОїОЅП„О№П„ПѓО­О»Ої, ОљОµОЅП„О¬ОєО№</exemplarCity>
+			</zone>
+			<zone type="America/Detroit">
+				<exemplarCity>ОќП„О·П„ПЃПЊО№П„</exemplarCity>
+			</zone>
+			<zone type="America/New_York">
+				<exemplarCity>ОќО­О± ОҐПЊПЃОєО·</exemplarCity>
+			</zone>
+			<zone type="America/Montevideo">
+				<exemplarCity>ОњОїОЅП„ОµОІОЇОґОµОї</exemplarCity>
+			</zone>
+			<zone type="Asia/Samarkand">
+				<exemplarCity>ОЈО±ОјО±ПЃОєО¬ОЅОґО·</exemplarCity>
+			</zone>
+			<zone type="Asia/Tashkent">
+				<exemplarCity>О¤О±ПѓОєО­ОЅОґО·</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity>О‘Оі. О’О№ОєО­ОЅП„О№ОїП‚</exemplarCity>
+			</zone>
+			<zone type="America/Caracas">
+				<exemplarCity>ОљО±ПЃО¬ОєО±П‚</exemplarCity>
+			</zone>
+			<zone type="America/Tortola">
+				<exemplarCity>О¤ОїПЃП„ПЊО»О±</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity>ОЈО±О№ОЅП„ О¤ПЊОјО±П‚</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>ОЈО±ПЉОіОєПЊОЅ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Efate">
+				<exemplarCity>О•П†О¬П„Оµ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wallis">
+				<exemplarCity>О“ОїП…ПЊО»О№П‚</exemplarCity>
+			</zone>
+			<zone type="Pacific/Apia">
+				<exemplarCity>О†ПЂО№О±</exemplarCity>
+			</zone>
+			<zone type="Asia/Aden">
+				<exemplarCity>О€О№ОЅП„ОµОЅ</exemplarCity>
+			</zone>
+			<zone type="Indian/Mayotte">
+				<exemplarCity>ОњО±ОіО№ПЊП„Оµ</exemplarCity>
+			</zone>
+			<zone type="Africa/Johannesburg">
+				<exemplarCity>О“О№ОїП‡О¬ОЅОµПѓОјПЂОїП…ПЃОіОє</exemplarCity>
+			</zone>
+			<zone type="Africa/Lusaka">
+				<exemplarCity>О–О¬ОјПЂО№О±</exemplarCity>
+			</zone>
+			<zone type="Africa/Harare">
+				<exemplarCity>О–О№ОјПЂО¬ОјПЂОїП…Оµ</exemplarCity>
+			</zone>
+			<metazone type="Acre">
+				<short>
+					<standard>ACT (О‘ОєПЃ)</standard>
+					<daylight>ACST (О‘ОєПЃ)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Africa_Central">
+				<long>
+					<standard>ПЋПЃО± ОљОµОЅП„ПЃО№ОєО®П‚ О‘П†ПЃО№ОєО®П‚</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Eastern">
+				<long>
+					<standard>ПЋПЃО± О‘ОЅО±П„ОїО»О№ОєО®П‚ О‘П†ПЃО№ОєО®П‚</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Southern">
+				<long>
+					<generic>ПЋПЃО± ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚</generic>
+					<standard>П„П…ПЂО№ОєО® ПЋПЃО± ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Western">
+				<long>
+					<standard>ПЋПЃО± О”П…П„О№ОєО®П‚ О‘П†ПЃО№ОєО®П‚</standard>
+					<daylight>ОєО±О»ОїОєО±О№ПЃО№ОЅО® ПЋПЃО± О”П…П„О№ОєО®П‚ О‘П†ПЃО№ОєО®П‚</daylight>
+				</long>
+			</metazone>
+			<metazone type="Aqtau">
+				<short>
+					<standard>AQTT (О‘ОєП„О¬ОїП…)</standard>
+					<daylight>AQTST (О‘ОєП„О¬ОїП…)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Aqtobe">
+				<short>
+					<standard>AQTT (О‘ОєП„ОїОІОµ)</standard>
+					<daylight>AQTST (О‘ОєП„ОїОІОµ)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Bering">
+				<short>
+					<standard>BST (ОњПЂОµПЃОЇОЅОіОє)</standard>
+					<daylight>BDT (ОњПЂОµПЃОЇОЅОіОє)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Cuba">
+				<short>
+					<standard>CST (ОљОїПЌОІО±)</standard>
+					<daylight>CDT (ОљОїПЌОІО±)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Samarkand">
+				<short>
+					<standard>SAMT (ОЈО¬ОјО±ПЃОєО±ОЅП„)</standard>
+					<daylight>SAMST (ОЈО¬ОјО±ПЃОєО±ОЅП„)</daylight>
+				</short>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>.</group>
+			<list>,</list>
+			<percentSign>%</percentSign>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<patternDigit>#</patternDigit>
+			<plusSign>+</plusSign>
+			<minusSign>-</minusSign>
+			<exponential>e</exponential>
+			<perMille>вЂ°</perMille>
+			<infinity>в€ћ</infinity>
+			<nan>NaN</nan>
+		</symbols>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+			<unitPattern count="other">{0} {1}</unitPattern>
+		</currencyFormats>
+		<currencies>
+			<currency type="ADP">
+				<displayName>О ОµПѓО­П„О± О‘ОЅОґПЊПЃО±П‚</displayName>
+				<displayName count="one">ПЂОµПѓО­П„О± О‘ОЅОґПЊПЃО±П‚</displayName>
+				<displayName count="other">ПЂОµПѓО­П„ОµП‚ О‘ОЅОґПЊПЃО±П‚</displayName>
+			</currency>
+			<currency type="AED">
+				<displayName>ОќП„О№ПЃО¬Ој О—ОЅП‰ОјО­ОЅП‰ОЅ О‘ПЃО±ОІО№ОєПЋОЅ О•ОјО№ПЃО¬П„П‰ОЅ</displayName>
+				<displayName count="one">ОЅП„О№ПЃО¬Ој О—ОЅП‰ОјО­ОЅП‰ОЅ О‘ПЃО±ОІО№ОєПЋОЅ О•ОјО№ПЃО¬П„П‰ОЅ</displayName>
+				<displayName count="other">ОЅП„О№ПЃО¬Ој О—ОЅП‰ОјО­ОЅП‰ОЅ О‘ПЃО±ОІО№ОєПЋОЅ О•ОјО№ПЃО¬П„П‰ОЅ</displayName>
+			</currency>
+			<currency type="AFA">
+				<displayName>О‘П†ОіО±ОЅОЇ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ (1927-2002)</displayName>
+				<displayName count="one">О±П†ОіО¬ОЅО№ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ (AFA)</displayName>
+				<displayName count="other">О±П†ОіО¬ОЅО№ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ (AFA)</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>О‘П†ОіО±ОЅОЇ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">О±П†ОіО¬ОЅО№ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">О‘П†ОіО¬ОЅО№ О‘П†ОіО±ОЅО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="ALL">
+				<displayName>О›ОµОє О‘О»ОІО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">О»ОµОє О‘О»ОІО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">О»ОµОє О‘О»ОІО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="AMD">
+				<displayName>ОќП„ПЃО±Ој О‘ПЃОјОµОЅОЇО±П‚</displayName>
+				<displayName count="one">ОЅП„ПЃО±Ој О‘ПЃОјОµОЅОЇО±П‚</displayName>
+				<displayName count="other">ОЅП„ПЃО±Ој О‘ПЃОјОµОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="ANG">
+				<displayName>О“ОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґО№ОєПЋОЅ О‘ОЅП„О№О»О»ПЋОЅ</displayName>
+				<displayName count="one">ОіОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґО№ОєПЋОЅ О‘ОЅП„О№О»О»ПЋОЅ</displayName>
+				<displayName count="other">ОіОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґО№ОєПЋОЅ О‘ОЅП„О№О»О»ПЋОЅ</displayName>
+			</currency>
+			<currency type="AOA">
+				<displayName>ОљОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚</displayName>
+				<displayName count="one">ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚</displayName>
+				<displayName count="other">ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚</displayName>
+			</currency>
+			<currency type="AOK">
+				<displayName>ОљОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (1977-1990)</displayName>
+				<displayName count="one">ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (AOK)</displayName>
+				<displayName count="other">ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (AOK)</displayName>
+			</currency>
+			<currency type="AON">
+				<displayName>ОќО­О± ОљОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (1990-2000)</displayName>
+				<displayName count="one">ОЅО­Ої ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (AON)</displayName>
+				<displayName count="other">ОЅО­О± ОєОїП…О¬ОЅО¶О± О‘ОЅОіОєПЊО»О±П‚ (AON)</displayName>
+			</currency>
+			<currency type="AOR">
+				<displayName>ОљОїП…О¬ОЅО¶О± Reajustado О‘ОЅОіОєПЊО»О±П‚ (1995-1999)</displayName>
+				<displayName count="one">ОєОїП…О¬ОЅО¶О± Reajustado О‘ОЅОіОєПЊО»О±П‚ (AOR)</displayName>
+				<displayName count="other">ОєОїП…О¬ОЅО¶О± Reajustado О‘ОЅОіОєПЊО»О±П‚ (AOR)</displayName>
+			</currency>
+			<currency type="ARA">
+				<displayName>О©ПѓП„ПЃО¬О» О‘ПЃОіОµП„О№ОЅО®П‚</displayName>
+				<displayName count="one">О±ОїП…ПѓП„ПЃО¬О» О‘ПЃОіОµОЅП„О№ОЅО®П‚</displayName>
+				<displayName count="other">О±ОїП…ПѓП„ПЃО¬О» О‘ПЃОіОµОЅП„О№ОЅО®П‚</displayName>
+			</currency>
+			<currency type="ARP">
+				<displayName>О О­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚ (1983-1985)</displayName>
+				<displayName count="one">ПЂО­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚ (ARP)</displayName>
+				<displayName count="other">ПЂО­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚ (ARP)</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>О О­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї О‘ПЃОіОµОЅП„О№ОЅО®П‚</displayName>
+			</currency>
+			<currency type="ATS">
+				<displayName>ОЈОµО»ОЇОЅО№ О‘П…ПѓП„ПЃОЇО±П‚</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ О‘П…ПѓП„ПЃОЇО±П‚</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№О± О‘П…ПѓП„ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О‘П…ПѓП„ПЃО±О»ОЇО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О‘П…ПѓП„ПЃО±О»ОЇО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О‘П…ПѓП„ПЃО±О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="AWG">
+				<displayName>О“ОєОЇО»ОЅП„О± О‘ПЃОїПЌОјПЂО±</displayName>
+				<displayName count="one">ОіОєОЇО»ОЅП„О± О‘ПЃОїПЌОјПЂО±</displayName>
+				<displayName count="other">ОіОєОЇО»ОЅП„О± О‘ПЃОїПЌОјПЂО±</displayName>
+			</currency>
+			<currency type="AZM">
+				<displayName>ОњО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О¬ОЅ (1993-2006)</displayName>
+				<displayName count="one">ОјО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О¬ОЅ (1993-2006)</displayName>
+				<displayName count="other">ОјО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О¬ОЅ (1993-2006)</displayName>
+			</currency>
+			<currency type="AZN">
+				<displayName>ОњО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О¬ОЅ</displayName>
+				<displayName count="one">ОјО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О±ОЅ</displayName>
+				<displayName count="other">ОјО±ОЅО¬П„ О‘О¶ОµПЃОјПЂО±ПЉП„О¶О±ОЅ</displayName>
+			</currency>
+			<currency type="BAD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>ОњОµП„О±П„ПЃО­П€О№ОјОї ОњО¬ПЃОєОї О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+				<displayName count="one">ОјО¬ПЃОєОї О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+				<displayName count="other">ОјО¬ПЃОєО± О’ОїПѓОЅОЇО±П‚-О•ПЃО¶ОµОіОїОІОЇОЅО·П‚</displayName>
+			</currency>
+			<currency type="BBD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОњПЂО±ПЃОјПЂО¬ОЅП„ОїП‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОњПЂО±ПЃОјПЂО¬ОЅП„ОїП‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОњПЂО±ПЃОјПЂО¬ОЅП„ОїП‚</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>О¤О¬ОєО± ОњПЂО±ОіОєО»О±ОЅП„О­П‚</displayName>
+				<displayName count="one">П„О¬ОєО± ОњПЂО±ОіОєО»О±ОЅП„О­П‚</displayName>
+				<displayName count="other">П„О¬ОєО± ОњПЂО±ОіОєО»О±ОЅП„О­П‚</displayName>
+			</currency>
+			<currency type="BEC">
+				<displayName>О¦ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП… (ОјОµП„О±П„ПЃО­П€О№ОјОї)</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП… (ОјОµП„О±П„ПЃО­П€О№ОјОї)</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О’ОµО»ОіОЇОїП… (ОјОµП„О±П„ПЃО­П€О№ОјО±)</displayName>
+			</currency>
+			<currency type="BEF">
+				<displayName>О¦ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП…</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП…</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О’ОµО»ОіОЇОїП…</displayName>
+			</currency>
+			<currency type="BEL">
+				<displayName>О¦ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП… (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О’ОµО»ОіОЇОїП… (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О’ОµО»ОіОЇОїП… (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+			</currency>
+			<currency type="BGL">
+				<displayName>ОњОµП„О±О»О»О№ОєПЊ О›ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="one">ОјОµП„О±О»О»О№ОєПЊ О»ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="other">ОјОµП„О±О»О»О№ОєО¬ О»ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>ОќО­Ої О›ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="one">ОЅО­Ої О»ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="other">ОЅО­О± О»ОµОІ О’ОїП…О»ОіО±ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="BHD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОњПЂО±П‡ПЃО­О№ОЅ</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОњПЂО±П‡ПЃО­О№ОЅ</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОњПЂО±П‡ПЃО­О№ОЅ</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>О¦ПЃО¬ОіОєОї ОњПЂОїП…ПЃОїПЌОЅП„О№</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОњПЂОїП…ПЃОїПЌОЅП„О№</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОњПЂОїП…ПЃОїПЌОЅП„О№</displayName>
+			</currency>
+			<currency type="BMD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О’ОµПЃОјОїПЌОґП‰ОЅ</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О’ОµПЃОјОїПЌОґП‰ОЅ</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О’ОµПЃОјОїПЌОґП‰ОЅ</displayName>
+			</currency>
+			<currency type="BND">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОњПЂПЃОїП…ОЅО­О№</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОњПЂПЃОїП…ОЅО­О№</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОњПЂПЃОїП…ОЅО­О№</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>ОњПЂОїО»О№ОІО№О¬ОЅОї О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="one">ОјПЂОїО»О№ОІО№О¬ОЅОї О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="other">ОјПЂОїО»О№ОІО№О¬ОЅОї О’ОїО»О№ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="BOP">
+				<displayName>О О­ПѓОї О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї О’ОїО»О№ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="BOV">
+				<displayName>ОњОІОґОїО» О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="one">ОјОІОЅП„ОїО» О’ОїО»О№ОІОЇО±П‚</displayName>
+				<displayName count="other">ОјОІОЅП„ОїО» О’ОїО»О№ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="BRB">
+				<displayName>ОќО­Ої ОљПЃОїП…О¶О№О­ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚ (1967-1986)</displayName>
+				<displayName count="one">ОЅО­Ої ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚ (BRB)</displayName>
+				<displayName count="other">ОЅО­О± ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚ (BRB)</displayName>
+			</currency>
+			<currency type="BRC">
+				<displayName>ОљПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="one">ОєПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="other">ОєПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="BRE">
+				<displayName>ОљПЃОїП…О¶О№О­ПЃОї О’ПЃО±О¶О№О»В»ОЇО±П‚ (1990-1993)</displayName>
+				<displayName count="one">ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚ (BRE)</displayName>
+				<displayName count="other">ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚ (BRE)</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>ОЎОµО¬О» О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="one">ПЃОµО¬О» О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="other">ПЃОµО¬О» О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="BRN">
+				<displayName>ОќО­Ої ОљПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="one">ОЅО­Ої ОєПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="other">ОЅО­О± ОєПЃОїП…О¶О¬ОЅП„Ої О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="BRR">
+				<displayName>ОљПЃОїП…О¶О№О­ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="one">ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+				<displayName count="other">ОєПЃОїП…О¶О­О№ПЃОї О’ПЃО±О¶О№О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="BSD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОњПЂО±П‡О¬ОјОµП‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОњПЂО±П‡О¬ОјОµП‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОњПЂО±П‡О¬ОјОµП‚</displayName>
+			</currency>
+			<currency type="BTN">
+				<displayName>ОќОіОєОїПЌО»П„ПЃОїП…Ој ОњПЂОїП…П„О¬ОЅ</displayName>
+				<displayName count="one">ОЅОіОєОїПЌО»П„ПЃОїП…Ој ОњПЂОїП…П„О¬ОЅ</displayName>
+				<displayName count="other">ОЅОіОєОїПЌО»П„ПЃОїП…Ој ОњПЂОїП…П„О¬ОЅ</displayName>
+			</currency>
+			<currency type="BUK">
+				<displayName>ОљО№О±П„ О’О№ПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОєО№О¬П„ О’О№ПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОєО№О¬П„ О’О№ПЃОјО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>О ОїПЌО»О± ОњПЂОїП„ПѓОїП…О¬ОЅО±П‚</displayName>
+				<displayName count="one">ПЂОїПЌО»О± ОњПЂОїП„ПѓОїП…О¬ОЅО±П‚</displayName>
+				<displayName count="other">ПЂОїПЌО»О± ОњПЂОїП„ПѓОїП…О¬ОЅО±П‚</displayName>
+			</currency>
+			<currency type="BYB">
+				<displayName>ОќО­Ої ОЎОїПЌОІО»О№ О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚ (1994-1999)</displayName>
+				<displayName count="one">ОЅО­Ої ПЃОїПЌОІО»О№ О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚ (1994-1999)</displayName>
+				<displayName count="other">ОЅО­О± ПЃОїПЌОІО»О№О± О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚ (1994-1999)</displayName>
+			</currency>
+			<currency type="BYR">
+				<displayName>ОЎОїПЌОІО»О№ О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚</displayName>
+				<displayName count="one">ПЃОїПЌОІО»О№ О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚</displayName>
+				<displayName count="other">ПЃОїПЌОІО»О№О± О›ОµП…ОєОїПЃП‰ПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="BZD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОњПЂОµО»ОЇО¶</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОњПЂОµО»ОЇО¶</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОњПЂОµО»ОЇО¶</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОљО±ОЅО±ОґО¬</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОљО±ОЅО±ОґО¬</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОљО±ОЅО±ОґО¬</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>О¦ПЃО¬ОіОєОї ОљОїОЅОіОєПЊ</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОљОїОЅОіОєПЊ</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОљОїОЅОіОєПЊ</displayName>
+			</currency>
+			<currency type="CHE">
+				<displayName>О•П…ПЃПЋ WIR</displayName>
+				<displayName count="one">ОµП…ПЃПЋ WIR</displayName>
+				<displayName count="other">ОµП…ПЃПЋ WIR</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>О¦ПЃО¬ОіОєОї О•О»ОІОµП„ОЇО±П‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О•О»ОІОµП„ОЇО±П‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О•О»ОІОµП„ОЇО±П‚</displayName>
+			</currency>
+			<currency type="CHW">
+				<displayName>О¦ПЃО¬ОіОєОї WIR</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї WIR</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± WIR</displayName>
+			</currency>
+			<currency type="CLF">
+				<displayName>Unidades de Fomento О§О№О»О®П‚</displayName>
+				<displayName count="one">ОїП…ОЅО№ОґО¬ОґОµП‚ ОЅП„Оµ П†ОїОјО­ОЅП„Ої О§О№О»О®П‚</displayName>
+				<displayName count="other">ОїП…ОЅО№ОґО¬ОґОµП‚ ОЅП„Оµ П†ОїОјО­ОЅП„Ої О§О№О»О®П‚</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>О О­ПѓОї О§О№О»О®П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї О§О№О»О®П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї О§О№О»О®П‚</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>О“О№ОїП…О¬ОЅ ОЎОµОЅОјОЇОјПЂО№ ОљОЇОЅО±П‚</displayName>
+				<displayName count="one">ОіО№ОїП…О¬ОЅ ОљОЇОЅО±П‚</displayName>
+				<displayName count="other">ОіО№ОїП…О¬ОЅ ОљОЇОЅО±П‚</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>О О­ПѓОї ОљОїО»ОїОјОІОЇО±П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї ОљОїО»ОїОјОІОЇО±П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї ОљОїО»ОїОјОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="COU">
+				<displayName>unidad de valor real</displayName>
+				<displayName count="one">unidad de valor real</displayName>
+				<displayName count="other">unidad de valor reals</displayName>
+			</currency>
+			<currency type="CRC">
+				<displayName>ОљОїО»ПЊОЅ ОљПЊПѓП„О± ОЎОЇОєО±</displayName>
+				<displayName count="one">ОєОїО»ПЊОЅ ОљПЊПѓП„О± ОЎОЇОєО±</displayName>
+				<displayName count="other">ОєОїО»ПЊОЅ ОљПЊПѓП„О± ОЎОЇОєО±</displayName>
+			</currency>
+			<currency type="CSD">
+				<displayName>О О±О»О±О№ПЊ О”О·ОЅО¬ПЃО№Ої ОЈОµПЃОІОЇО±П‚</displayName>
+				<displayName count="one">ПЂО±О»О№ПЊ ОґО№ОЅО¬ПЃО· ОЈОµПЃОІОЇО±П‚</displayName>
+				<displayName count="other">ПЂО±О»О№О¬ ОґО№ОЅО¬ПЃО№О± ОЈОµПЃОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="CSK">
+				<displayName>ОЈОєО»О·ПЃО® ОљОїПЃПЊОЅО± О¤ПѓОµП‡ОїПѓО»ОїОІО±ОєОЇО±П‚</displayName>
+				<displayName count="one">ПѓОєО»О·ПЃО® ОєОїПЃПЊОЅО± О¤ПѓОµП‡ОїПѓО»ОїОІО±ОєОЇО±П‚</displayName>
+				<displayName count="other">ПѓОєО»О·ПЃО­П‚ ОєОїПЃПЊОЅОµП‚ О¤ПѓОµП‡ОїПѓО»ОїОІО±ОєОЇО±П‚</displayName>
+			</currency>
+			<currency type="CUP">
+				<displayName>О О­ПѓОї ОљОїПЌОІО±П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї ОљОїПЌОІО±П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї ОљОїПЌОІО±П‚</displayName>
+			</currency>
+			<currency type="CVE">
+				<displayName>О•ПѓОєОїПЌОґОї О ПЃО¬ПѓО№ОЅОїП… О‘ОєПЃП‰П„О·ПЃОЇОїП…</displayName>
+				<displayName count="one">ОµПѓОєОїПЌОґОї О ПЃО¬ПѓО№ОЅОїП… О‘ОєПЃП‰П„О·ПЃОЇОїП…</displayName>
+				<displayName count="other">ОµПѓОєОїПЌОґОї О ПЃО¬ПѓО№ОЅОїП… О‘ОєПЃП‰П„О·ПЃОЇОїП…</displayName>
+			</currency>
+			<currency type="CYP">
+				<displayName>О›ОЇПЃО± ОљПЌПЂПЃОїП…</displayName>
+				<displayName count="one">О»ОЇПЃО± ОљПЌПЂПЃОїП…</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ОљПЌПЂПЃОїП…</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>ОљОїПЃПЊОЅО± О¤ПѓО­П‡О№ОєО·П‚ О”О·ОјОїОєПЃО±П„ОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± О¤ПѓО­П‡О№ОєО·П‚ О”О·ОјОїОєПЃО±П„ОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ О¤ПѓО­П‡О№ОєО·П‚ О”О·ОјОїОєПЃО±П„ОЇО±П‚</displayName>
+			</currency>
+			<currency type="DDM">
+				<displayName>ОџПѓП„ОјО¬ПЃОє О‘ОЅО±П„ОїО»О№ОєО®П‚ О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ПЊПѓП„ОјО±ПЃОє О‘ОЅО±П„ОїО»О№ОєО®П‚ О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ПЊПѓП„ОјО±ПЃОє О‘ОЅО±П„ОїО»О№ОєО®П‚ О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="DEM">
+				<displayName>ОњО¬ПЃОєОї О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОјО¬ПЃОєОї О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОјО¬ПЃОєО± О“ОµПЃОјО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="DJF">
+				<displayName>О¦ПЃО¬ОіОєОї О¤О¶О№ОјПЂОїП…П„ОЇ</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О¤О¶О№ОјПЂОїП…П„ОЇ</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О¤О¶О№ОјПЂОїП…П„ОЇ</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>ОљОїПЃПЊОЅО± О”О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± О”О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ О”О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="DOP">
+				<displayName>О О­ПѓОї О”ОїОјОЇОЅО№ОєОїП…</displayName>
+				<displayName count="one">ПЂО­ПѓОї О”ОїОјОЇОЅО№ОєОїП…</displayName>
+				<displayName count="other">ПЂО­ПѓОї О”ОїОјО№ОЅО№ОєО±ОЅО®П‚ О”О·ОјОїОєПЃО±П„ОЇО±П‚</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О‘О»ОіОµПЃОЇО±П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О‘О»ОіОµПЃОЇО±П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О‘О»ОіОµПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="ECS">
+				<displayName>ОЈОїПЌОєПЃОµ О•ОєОїП…О±ОґПЊПЃ</displayName>
+				<displayName count="one">ПѓОїПЌОєПЃОµ О•ОєОїП…О±ОґПЊПЃ</displayName>
+				<displayName count="other">ПѓОїПЌОєПЃОµ О•ОєОїП…О±ОґПЊПЃ</displayName>
+			</currency>
+			<currency type="ECV">
+				<displayName>Unidad de Valor Constante (UVC) О™ПѓО·ОјОµПЃО№ОЅОїПЌ</displayName>
+				<displayName count="one">Unidad de Valor Constante (UVC) О™ПѓО·ОјОµПЃО№ОЅОїПЌ</displayName>
+				<displayName count="other">Unidads de Valor Constante (UVC) О™ПѓО·ОјОµПЃО№ОЅОїПЌ</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>ОљОїПЃПЊОЅО± О•ПѓОёОїОЅОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± О•ПѓОёОїОЅОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ О•ПѓОёОїОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>О›ОЇПЃО± О‘О№ОіПЌПЂП„ОїП…</displayName>
+				<displayName count="one">О»ОЇПЃО± О‘О№ОіПЌПЂП„ОїП…</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О‘О№ОіПЌПЂП„ОїП…</displayName>
+			</currency>
+			<currency type="ERN">
+				<displayName>ОќО¬ОєП†О± О•ПЃП…ОёПЃО±ОЇО±П‚</displayName>
+				<displayName count="one">ОЅО¬ОєП†О± О•ПЃП…ОёПЃО±ОЇО±П‚</displayName>
+				<displayName count="other">ОЅО¬ОєП†О± О•ПЃП…ОёПЃО±ОЇО±П‚</displayName>
+			</currency>
+			<currency type="ESA">
+				<displayName>ПЂОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚ (О»ОїОіО±ПЃО№О±ПѓОјПЊП‚ О‘)</displayName>
+				<displayName count="one">ПЂОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚ (О»ОїОіО±ПЃО№О±ПѓОјПЊП‚ О‘)</displayName>
+				<displayName count="other">ПЂОµПѓО­П„ОµП‚ О™ПѓПЂО±ОЅОЇО±П‚ (О»ОїОіО±ПЃО№О±ПѓОјПЊП‚ О‘)</displayName>
+			</currency>
+			<currency type="ESB">
+				<displayName>ПЂОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚ (ОјОµП„О±П„ПЃО­П€О№ОјОїП‚ О»ОїОіО±ПЃО№О±ПѓОјПЊП‚)</displayName>
+				<displayName count="one">ПЂОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚ (ОјОµП„О±П„ПЃО­П€О№ОјОїП‚ О»ОїОіО±ПЃО№О±ПѓОјПЊП‚)</displayName>
+				<displayName count="other">ПЂОµПѓО­П„ОµП‚ О™ПѓПЂО±ОЅОЇО±П‚ (ОјОµП„О±П„ПЃО­П€О№ОјОµП‚)</displayName>
+			</currency>
+			<currency type="ESP">
+				<displayName>О ОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ПЂОµПѓО­П„О± О™ПѓПЂО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ПЂОµПѓО­П„ОµП‚ О™ПѓПЂО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>ОњПЂО№ПЃ О‘О№ОёО№ОїПЂОЇО±П‚</displayName>
+				<displayName count="one">ОјПЂО№ПЃ О‘О№ОёО№ОїПЂОЇО±П‚</displayName>
+				<displayName count="other">ОјПЂО№ПЃ О‘О№ОёО№ОїПЂОЇО±П‚</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>О•П…ПЃПЋ</displayName>
+				<displayName count="one">ОµП…ПЃПЋ</displayName>
+				<displayName count="other">ОµП…ПЃПЋ</displayName>
+			</currency>
+			<currency type="FIM">
+				<displayName>ОњО¬ПЃОєОї О¦О№ОЅО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">ОјО¬ПЃОєОї О¦О№ОЅО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ОјО¬ПЃОєО± О¦О№ОЅО»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О¦ОЇП„О¶О№</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О¦ОЇП„О¶О№</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О¦ОЇП„О¶О№</displayName>
+			</currency>
+			<currency type="FKP">
+				<displayName>О›ОЇПЃО± ОќО·ПѓО№ПЋОЅ О¦ПЋО»ОєО»О±ОЅП„</displayName>
+				<displayName count="one">О»ОЇПЃО± ОќО·ПѓО№ПЋОЅ О¦ПЋО»ОєО»О±ОЅП„</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ОќО·ПѓО№ПЋОЅ О¦ПЋО»ОєО»О±ОЅП„</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>О¦ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О“О±О»О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>О›ОЇПЃО± ОЈП„ОµПЃО»ОЇОЅО± О’ПЃОµП„О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">О»ОЇПЃО± ПѓП„ОµПЃО»ОЇОЅО± О’ПЃОµП„О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ПѓП„ОµПЃО»ОЇОЅОµП‚ О’ПЃОµП„О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="GEK">
+				<displayName>ОљОїПЌПЂОїОЅ О›О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЌПЂОїОЅ О»О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЌПЂОїОЅ О»О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>О›О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+				<displayName count="one">О»О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+				<displayName count="other">О»О¬ПЃО№ О“ОµП‰ПЃОіОЇО±П‚</displayName>
+			</currency>
+			<currency type="GHC">
+				<displayName>ОЈО­ОЅП„О№ О“ОєО¬ОЅО±П‚ (1979-2007)</displayName>
+				<displayName count="one">ПѓО­ОЅП„О№ О“ОєО¬ОЅО±П‚ (GHC)</displayName>
+				<displayName count="other">ПѓО­ОЅП„О№ О“ОєО¬ОЅО±П‚ (GHC)</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>ОЈО­ОЅП„О№ О“ОєО¬ОЅО±П‚</displayName>
+				<displayName count="one">ПѓО­ОЅП„О№ О“ОєО¬ОЅО±П‚</displayName>
+				<displayName count="other">ПѓО­ОЅП„О№ О“ОєО±ОЅО¬</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>О›ОЇПЃО± О“О№ОІПЃО±О»П„О¬ПЃ</displayName>
+				<displayName count="one">О»ОЇПЃО± О“О№ОІПЃО±О»П„О¬ПЃ</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О“О№ОІПЃО±О»П„О¬ПЃ</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>ОќП„О±О»О¬ПѓО№ О“ОєО¬ОјПЂО№О±П‚</displayName>
+				<displayName count="one">ОЅП„О±О»О¬ПѓО№ О“ОєО¬ОјПЂО№О±П‚</displayName>
+				<displayName count="other">ОЅП„О±О»О¬ПѓО№ О“ОєО¬ОјПЂО№О±П‚</displayName>
+			</currency>
+			<currency type="GNF">
+				<displayName>О¦ПЃО¬ОіОєОї О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О“ОїП…О№ОЅО­О±П‚</displayName>
+			</currency>
+			<currency type="GNS">
+				<displayName>ОЈП…О»ОЇ О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="one">ПѓП…О»ОЇ О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="other">ПѓП…О»ОЇ О“ОїП…О№ОЅО­О±П‚</displayName>
+			</currency>
+			<currency type="GQE">
+				<displayName>О•ОєОіОїП…О­О»Оµ О™ПѓО·ОјОµПЃО№ОЅО®П‚ О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="one">ОµОєОїП…О­О»Оµ О™ПѓО·ОјОµПЃО№ОЅО®П‚ О“ОїП…О№ОЅО­О±П‚</displayName>
+				<displayName count="other">ОµОєОїП…О­О»Оµ О™ПѓО·ОјОµПЃО№ОЅО®П‚ О“ОїП…О№ОЅО­О±П‚</displayName>
+			</currency>
+			<currency type="GRD">
+				<pattern>#,##0.00 В¤;-#,##0.00 В¤</pattern>
+				<displayName>О”ПЃО±П‡ОјО® О•О»О»О¬ОґО±П‚</displayName>
+				<displayName count="one">ОґПЃО±П‡ОјО® О•О»О»О¬ОґО±П‚</displayName>
+				<displayName count="other">ОґПЃО±П‡ОјО­П‚ О•О»О»О¬ОґО±П‚</displayName>
+				<symbol>О”ПЃП‡</symbol>
+				<decimal>,</decimal>
+				<group>.</group>
+			</currency>
+			<currency type="GTQ">
+				<displayName>ОљОїП…ОµП„ПѓО¬О» О“ОїП…О±П„ОµОјО¬О»О±П‚</displayName>
+				<displayName count="one">ОєОїП…ОµП„ПѓО¬О» О“ОїП…О±П„ОµОјО¬О»О±П‚</displayName>
+				<displayName count="other">ОєОїП…ОµП„ПѓО¬О» О“ОїП…О±П„ОµОјО¬О»О±П‚</displayName>
+			</currency>
+			<currency type="GWE">
+				<displayName>О“ОєО№ОЅО­О± О•ПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+				<displayName count="one">ОіОєО№ОЅО­О± ОµПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+				<displayName count="other">ОіОєО№ОЅО­О± ОµПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="GWP">
+				<displayName>О О­ПѓОї О“ОїП…О№ОЅО­О±П‚-ОњПЂО№ПѓО¬ОїП…</displayName>
+				<displayName count="one">ПЂО­ПѓОї О“ОїП…О№ОЅО­О±-ОњПЂО№ПѓО¬ОїП…</displayName>
+				<displayName count="other">ПЂО­ПѓОї О“ОїП…О№ОЅО­О±-ОњПЂО№ПѓО¬ОїП…</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О“ОїП…О№О¬ОЅО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О“ОїП…О№О¬ОЅО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О“ОїП…О№О¬ОЅО±П‚</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О§ОїОЅОіОє ОљОїОЅОіОє</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О§ОїОЅОіОє ОљОїОЅОіОє</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О§ОїОЅОіОє ОљОїОЅОіОє</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>О›ОµОјПЂОЇПЃО± ОџОЅОґОїПЌПЃО±П‚</displayName>
+				<displayName count="one">О»ОµОјПЂОЇПЃО± ОџОЅОґОїПЌПЃО±П‚</displayName>
+				<displayName count="other">О»ОµОјПЂОЇПЃО± ОџОЅОґОїПЌПЃО±П‚</displayName>
+			</currency>
+			<currency type="HRD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОљПЃОїО±П„ОЇО±П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОљПЃОїО±П„ОЇО±П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОљПЃОїО±П„ОЇО±П‚</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>ОљОїПЌОЅО± ОљПЃОїО±П„ОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЌОЅО± ОљПЃОїО±П„ОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЌОЅО± ОљПЃОїО±П„ОЇО±П‚</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>О“ОєОїП…ПЃОЅП„ О‘ПЉП„О®П‚</displayName>
+				<displayName count="one">ОіОєОїП…ПЃОЅП„ О‘ПЉП„О®П‚</displayName>
+				<displayName count="other">ОіОєОїП…ПЃОЅП„ О‘ПЉП„О®П‚</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>О¦О№ОїПЃОЇОЅО№ ОџП…ОіОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="one">П†О№ОїПЃОЇОЅО№ ОџП…ОіОіО±ПЃОЇО±П‚</displayName>
+				<displayName count="other">П†О№ОїПЃОЇОЅО№О± ОџП…ОіОіО±ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>ОЎОїПЌПЂО№О± О™ОЅОґОїОЅО·ПѓОЇО±П‚</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ О™ОЅОґОїОЅО·ПѓОЇО±П‚</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± О™ОЅОґОїОЅО·ПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="IEP">
+				<displayName>О›ОЇПЃО± О™ПЃО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">О»ОЇПЃО± О™ПЃО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О™ПЃО»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="ILP">
+				<displayName>О›ОЇПЃО± О™ПѓПЃО±О®О»</displayName>
+				<displayName count="one">О»ОЇПЃО± О™ПѓПЃО±О®О»</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О™ПѓПЃО±О®О»</displayName>
+			</currency>
+			<currency type="ILR">
+				<displayName>ПЂО±О»О№ПЊ ПѓОµОєО­О» О™ПѓПЃО±О®О»</displayName>
+				<displayName count="one">ПЂО±О»О№ПЊ ПѓОµОєО­О» О™ПѓПЃО±О®О»</displayName>
+				<displayName count="other">ПЂО±О»О№О¬ ПѓОµОєО­О» О™ПѓПЃО±О®О»</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>ОќО­Ої ОЈО­ОєОµО» О™ПѓПЃО±О®О»</displayName>
+				<displayName count="one">ОЅО­Ої ПѓО­ОєОµО» О™ПѓПЃО±О®О»</displayName>
+				<displayName count="other">ОЅО­О± ПѓО­ОєОµО» О™ПѓПЃО±О®О»</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>ОЎОїПЌПЂО№О± О™ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ О™ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± О™ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О™ПЃО¬Оє</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О™ПЃО¬Оє</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О™ПЃО¬Оє</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>ОЎО№О¬О» О™ПЃО¬ОЅ</displayName>
+				<displayName count="one">ПЃО№О¬О» О™ПЃО¬ОЅ</displayName>
+				<displayName count="other">ПЃО№О¬О» О™ПЃО¬ОЅ</displayName>
+			</currency>
+			<currency type="ISJ">
+				<displayName>О О±О»О№О¬ ОєОїПЃПЊОЅО± О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">О О±О»О№О¬ ОєОїПЃПЊОЅО± О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ПЂО±О»О№О­П‚ ОєОїПЃПЊОЅОµП‚ О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="ISK">
+				<displayName>ОљОїПЃПЊОЅО± О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ О™ПѓО»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="ITL">
+				<displayName>О›О№ПЃО­П„О± О™П„О±О»ОЇО±П‚</displayName>
+				<displayName count="one">О»О№ПЃО­П„О± О™П„О±О»ОЇО±П‚</displayName>
+				<displayName count="other">О»О№ПЃО­П„ОµП‚ О™П„О±О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О¤О¶О±ОјО¬О№ОєО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О¤О¶О±ОјО¬О№ОєО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О¤О¶О±ОјО¬О№ОєО±П‚</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О™ОїПЃОґО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О™ОїПЃОґО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О™ОїПЃОґО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>О“О№ОµОЅ О™О±ПЂП‰ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОіО№ОµОЅ О™О±ПЂП‰ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОіО№ОµОЅ О™О±ПЂП‰ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="KES">
+				<displayName>ОЈОµО»ОЇОЅО№ ОљО­ОЅП…О±П‚</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ ОљО­ОЅП…О±П‚</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№О± ОљО­ОЅП…О±П‚</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>ОЈОїОј ОљО№ПЃОіО№О¶ОЇО±П‚</displayName>
+				<displayName count="one">ПѓОїОј ОљО№ПЃОіО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ПѓОїОј ОљО№ПЃОіО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="KHR">
+				<displayName>ОЎОЇОµО» ОљО±ОјПЂПЊП„О¶О·П‚</displayName>
+				<displayName count="one">ПЃОЇОµО» ОљО±ОјПЂПЊП„О¶О·П‚</displayName>
+				<displayName count="other">ПЃОЇОµО» ОљО±ОјПЂПЊП„О¶О·П‚</displayName>
+			</currency>
+			<currency type="KMF">
+				<displayName>О¦ПЃО¬ОіОєОї ОљОїОјПЊПЃОїП‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОљОїОјПЊПЃОїП‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОљОїОјПЊПЃОї</displayName>
+			</currency>
+			<currency type="KPW">
+				<displayName>О“ОїОЅ О’ПЊПЃОµО№О±П‚ ОљОїПЃО­О±П‚</displayName>
+				<displayName count="one">ОіОїП…ПЊОЅ О’ПЊПЃОµО№О±П‚ ОљОїПЃО­О±П‚</displayName>
+				<displayName count="other">ОіОїП…ПЊОЅ О’ПЊПЃОµО№О±П‚ ОљОїПЃО­О±П‚</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>О“ОїОЅ ОќПЊП„О№О±П‚ ОљОїПЃО­О±П‚</displayName>
+				<displayName count="one">ОіОїП…ПЊОЅ ОќПЊП„О№О±П‚ ОљОїПЃО­О±П‚</displayName>
+				<displayName count="other">ОіОїП…ПЊОЅ ОќПЊП„О№О±П‚ ОљОїПЃО­О±П‚</displayName>
+			</currency>
+			<currency type="KWD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОљОїП…ОІО­О№П„</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОљОїП…ОІО­О№П„</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОљОїП…ОІО­О№П„</displayName>
+			</currency>
+			<currency type="KYD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОќО®ПѓП‰ОЅ ОљО¬О№ОјО±ОЅ</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОќО®ПѓП‰ОЅ ОљО¬О№ОјО±ОЅ</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОќО®ПѓП‰ОЅ ОљО¬О№ОјО±ОЅ</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>О¤О­ОЅОіОєОµ ОљО±О¶О±ОєПѓП„О¬ОЅ</displayName>
+				<displayName count="one">П„О­ОЅОіОєОµ ОљО±О¶О±ОєПѓП„О¬ОЅ</displayName>
+				<displayName count="other">П„О­ОЅОіОєОµ ОљО±О¶О±ОєПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>ОљО№ПЂ О›О¬ОїП‚</displayName>
+				<displayName count="one">ОєО№ПЂ О›О¬ОїП‚</displayName>
+				<displayName count="other">ОєО№ПЂ О›О¬ОїП‚</displayName>
+			</currency>
+			<currency type="LBP">
+				<displayName>О›ОЇПЃО± О›О№ОІО¬ОЅОїП…</displayName>
+				<displayName count="one">О»ОЇПЃО± О›О№ОІО¬ОЅОїП…</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О›О№ОІО¬ОЅОїП…</displayName>
+			</currency>
+			<currency type="LKR">
+				<displayName>ОЎОїПЌПЂО№О± ОЈПЃО№ О›О¬ОЅОєО±</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ ОЈПЃО№ О›О¬ОЅОєО±</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± ОЈПЃО№ О›О¬ОЅОєО±</displayName>
+			</currency>
+			<currency type="LRD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О›О№ОІОµПЃОЇО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О›О№ОІОµПЃОЇО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О›О№ОІОµПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="LSL">
+				<displayName>О›ПЊП„О№ О›ОµПѓПЊП„Ої</displayName>
+				<displayName count="one">О»ПЊП„О№ О›ОµПѓПЊОёОї</displayName>
+				<displayName count="other">О»ПЊП„О№ О›ОµПѓПЊОёОї</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>О›ОЇП„О± О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">О»ОЇП„О± О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">О»ОЇП„О± О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="LTT">
+				<displayName>О¤О±О»ПЊОЅО±П‚ О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">П„О±О»ПЊОЅО±П‚ О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">П„О±О»ПЊОЅО±П‚ О›О№ОёОїП…О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="LUC">
+				<displayName>ОњОµП„О±П„ПЃО­П€О№ОјОї О¦ПЃО¬ОіОєОї О›ОїП…ОѕОµОјОІОїПЌПЃОіОїП…</displayName>
+				<displayName count="one">LUC</displayName>
+				<displayName count="other">LUC</displayName>
+			</currency>
+			<currency type="LUF">
+				<displayName>О¦ПЃО¬ОіОєОї О›ОїП…ОѕОµОјОІОїПЌПЃОіОїП…</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї О›ОїП…ОѕОµОјОІОїПЌПЃОіОїП…</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± О›ОїП…ОѕОµОјОІОїПЌПЃОіОїП…</displayName>
+			</currency>
+			<currency type="LUL">
+				<displayName>ОџО№ОєОїОЅОїОјО№ОєПЊ О¦ПЃО¬ОіОєОї О›ОїП…ОѕОµОјОІОїПЌПЃОіОїП…</displayName>
+				<displayName count="one">LUL</displayName>
+				<displayName count="other">LUL</displayName>
+			</currency>
+			<currency type="LVL">
+				<displayName>О›О±П„П‚ О›ОµП„ОїОЅОЇО±П‚</displayName>
+				<displayName count="one">О»О±П„П‚ О›ОµП„ОїОЅОЇО±П‚</displayName>
+				<displayName count="other">О»О±П„П‚ О›ОµП„ОїОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="LVR">
+				<displayName>ОЎОїПЌОІО»О№ О›ОµП„ОїОЅОЇО±П‚</displayName>
+				<displayName count="one">ПЃОїПЌОІО»О№ О›ОµП„ОїОЅОЇО±П‚</displayName>
+				<displayName count="other">ПЃОїПЌОІО»О№О± О›ОµП„ОїОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="LYD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О›О№ОІПЌО·П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О›О№ОІПЌО·П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О›О№ОІПЌО·П‚</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>ОќП„О№ПЃО¬Ој ОњО±ПЃПЊОєОїП…</displayName>
+				<displayName count="one">ОЅП„О№ПЃО¬Ој ОњО±ПЃПЊОєОїП…</displayName>
+				<displayName count="other">ОЅП„О№ПЃО¬Ој ОњО±ПЃПЊОєОїП…</displayName>
+			</currency>
+			<currency type="MAF">
+				<displayName>О¦ПЃО¬ОіОєОї ОњО±ПЃПЊОєОїП…</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОњО±ПЃПЊОєОїП…</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОњО±ПЃПЊОєОїП…</displayName>
+			</currency>
+			<currency type="MDL">
+				<displayName>О›О­О№ ОњОїО»ОґО±ОІОЇО±П‚</displayName>
+				<displayName count="one">О»О­О№ ОњОїО»ОґО±ОІОЇО±П‚</displayName>
+				<displayName count="other">О»О­О№ ОњОїО»ОґО±ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="MGA">
+				<displayName>О‘ПЃО№О±ОЅОЇ ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+				<displayName count="one">О±ПЃО№О¬ПЃО№ ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+				<displayName count="other">О±ПЃО№О¬ПЃО№ ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+			</currency>
+			<currency type="MGF">
+				<displayName>О¦ПЃО¬ОіОєОї ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОњО±ОґО±ОіО±ПѓОєО¬ПЃО·П‚</displayName>
+			</currency>
+			<currency type="MKD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О .О“.О”.Оњ.</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О .О“.О”.Оњ.</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О .О“.О”.Оњ.</displayName>
+			</currency>
+			<currency type="MLF">
+				<displayName>О¦ПЃО¬ОіОєОї ОњО±О»ОЇ</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОњО±О»ОЇ</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОњО±О»ОЇ</displayName>
+			</currency>
+			<currency type="MMK">
+				<displayName>ОљП…О¬П„ ОњО№О±ОЅОјО¬ПЃ</displayName>
+				<displayName count="one">ОєП…О¬П„ ОњО№О±ОЅОјО¬ПЃ</displayName>
+				<displayName count="other">ОєП…О¬П„ ОњО№О±ОЅОјО¬ПЃ</displayName>
+			</currency>
+			<currency type="MNT">
+				<displayName>О¤ОїП…ОіОєПЃОЇОє ОњОїОіОіОїО»ОЇО±П‚</displayName>
+				<displayName count="one">П„ОїП…ОіОєПЃОЇОє ОњОїОіОіОїО»ОЇО±П‚</displayName>
+				<displayName count="other">П„ОїП…ОіОєПЃОЇОє ОњОїОіОіОїО»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="MOP">
+				<displayName>О О±П„О¬ОєО± ОњО±ОєО¬Ої</displayName>
+				<displayName count="one">ПЂО±П„О¬ОєО± ОњО±ОєО¬Ої</displayName>
+				<displayName count="other">ПЂО±П„О¬ОєО± ОњО±ОєО¬Ої</displayName>
+			</currency>
+			<currency type="MRO">
+				<displayName>ОџП…ОіОєОїП…ОЇОіОєО± ОњО±П…ПЃО№П„О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОїП…ОіОєОїП…ОЇОіОєО± ОњО±П…ПЃО№П„О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОїП…ОіОєОїП…ОЇОіОєО± ОњО±П…ПЃО№П„О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="MTL">
+				<displayName>О›О№ПЃО­П„О± ОњО¬О»П„О±П‚</displayName>
+				<displayName count="one">О»О№ПЃО­П„О± ОњО¬О»П„О±П‚</displayName>
+				<displayName count="other">О»О№ПЃО­П„ОµП‚ ОњО¬О»П„О±П‚</displayName>
+			</currency>
+			<currency type="MTP">
+				<displayName>О›ОЇПЃО± ОњО¬О»П„О±П‚</displayName>
+				<displayName count="one">О»ОЇПЃО± ОњО¬О»П„О±П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ОњО¬О»П„О±П‚</displayName>
+			</currency>
+			<currency type="MUR">
+				<displayName>ОЎОїПЌПЂО№О± ОњО±П…ПЃО№ОєОЇОїП…</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ ОњО±П…ПЃО№ОєОЇОїП…</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± ОњО±П…ПЃО№ОєОЇОїП…</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>ОЎОїП…П†ОЇОіО№О± ОќО®ПѓП‰ОЅ ОњО±О»ОґОЇОІП‰ОЅ</displayName>
+				<displayName count="one">ПЃОїП…П†ОЇОіО№О± ОќО®ПѓП‰ОЅ ОњО±О»ОґОЇОІП‰ОЅ</displayName>
+				<displayName count="other">ПЃОїП…П†ОЇОіО№О± ОќО®ПѓП‰ОЅ ОњО±О»ОґОЇОІП‰ОЅ</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>ОљОїП…О¬П„ПѓО± ОњО±О»О¬ОїП…О№</displayName>
+				<displayName count="one">ОєОїП…О¬П„ПѓО± ОњО±О»О¬ОїП…О№</displayName>
+				<displayName count="other">ОєОїП…О¬П„ПѓО± ОњО±О»О¬ОїП…О№</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>О О­ПѓОї ОњОµОѕО№ОєОїПЌ</displayName>
+				<displayName count="one">ПЂО­ПѓОї ОњОµОѕО№ОєОїПЌ</displayName>
+				<displayName count="other">ПЂО­ПѓОї ОњОµОѕО№ОєОїПЌ</displayName>
+			</currency>
+			<currency type="MXP">
+				<displayName>О‘ПѓО·ОјО­ОЅО№Ої О О­ПѓОї ОњОµОѕО№ОєОїПЌ (1861-1992)</displayName>
+				<displayName count="one">О±ПѓО·ОјО­ОЅО№Ої ПЂО­ПѓОї ОњОµОѕО№ОєОїПЌ (MXP)</displayName>
+				<displayName count="other">О±ПѓО·ОјО­ОЅО№О± ПЂО­ПѓОї ОњОµОѕО№ОєОїПЌ (MXP)</displayName>
+			</currency>
+			<currency type="MXV">
+				<displayName>Unidad de Inversion (UDI) ОњОµОѕО№ОєОїПЌ</displayName>
+				<displayName count="one">Unidad de Inversion (UDI) ОњОµОѕО№ОєОїПЌ</displayName>
+				<displayName count="other">Unidads de Inversion (UDI) ОњОµОѕО№ОєОїПЌ</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>ОЎО№ОЅОіОєОЇП„ ОњО±О»О±О№ПѓОЇО±П‚</displayName>
+				<displayName count="one">ПЃО№ОЅОіОєОЇП„ ОњО±О»О±О№ПѓОЇО±П‚</displayName>
+				<displayName count="other">ПЃО№ОЅОіОєОЇП„ ОњО±О»О±О№ПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="MZE">
+				<displayName>О•ПѓОєОїПЌОґОї ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="one">ОµПѓОєОїПЌОґОї ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="other">ОµПѓОєОїПЌОґОї ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+			</currency>
+			<currency type="MZM">
+				<displayName>О О±О»О±О№ПЊ ОњОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="one">ПЂО±О»О№ПЊ ОјОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="other">ПЂО±О»О№О¬ ОјОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+			</currency>
+			<currency type="MZN">
+				<displayName>ОњОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="one">ОјОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+				<displayName count="other">ОјОµП„О№ОєО¬О» ОњОїО¶О±ОјОІОЇОєО·П‚</displayName>
+			</currency>
+			<currency type="NAD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОќО±ОјОЇОјПЂО№О±</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОќО±ОјОЇОјПЂО№О±</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОќО±ОјОЇОјПЂО№О±</displayName>
+			</currency>
+			<currency type="NGN">
+				<displayName>ОќО¬О№ПЃО± ОќО№ОіО·ПЃОЇО±П‚</displayName>
+				<displayName count="one">ОЅО¬О№ПЃО± ОќО№ОіО·ПЃОЇО±П‚</displayName>
+				<displayName count="other">ОЅО¬О№ПЃО± ОќО№ОіО·ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="NIC">
+				<displayName>ОљПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+				<displayName count="one">ОєПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+				<displayName count="other">ОєПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+			</currency>
+			<currency type="NIO">
+				<displayName>О§ПЃП…ПѓО® ОљПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+				<displayName count="one">П‡ПЃП…ПѓО® ОєПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+				<displayName count="other">П‡ПЃП…ПѓО­П‚ ОєПЊПЃОґОїОІО± ОќО№ОєО±ПЃО¬ОіОїП…О±П‚</displayName>
+			</currency>
+			<currency type="NLG">
+				<displayName>О“ОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">ОіОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ОіОєОЇО»ОЅП„О± ОџО»О»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>ОљОїПЃПЊОЅО± ОќОїПЃОІО·ОіОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± ОќОїПЃОІО·ОіОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ ОќОїПЃОІО·ОіОЇО±П‚</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>ОЎОїПЌПЂО№О± ОќОµПЂО¬О»</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ ОќОµПЂО¬О»</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± ОќОµПЂО¬О»</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОќО­О±П‚ О–О·О»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОќО­О±П‚ О–О·О»О±ОЅОґОЇО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОќО­О±П‚ О–О·О»О±ОЅОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="OMR">
+				<displayName>ОЎО№О¬О» ОџОјО¬ОЅ</displayName>
+				<displayName count="one">ПЃО№О¬О» ОџОјО¬ОЅ</displayName>
+				<displayName count="other">ПЃО№О¬О» ОџОјО¬ОЅ</displayName>
+			</currency>
+			<currency type="PAB">
+				<displayName>ОњПЂО±О»ОјПЂПЊО± О О±ОЅО±ОјО¬</displayName>
+				<displayName count="one">ОјПЂО±О»ОјПЂПЊО± О О±ОЅО±ОјО¬</displayName>
+				<displayName count="other">ОјПЂО±О»ОјПЂПЊО± О О±ОЅО±ОјО¬</displayName>
+			</currency>
+			<currency type="PEI">
+				<displayName>ОЉОЅП„О№ О ОµПЃОїПЌ</displayName>
+				<displayName count="one">ОЇОЅП„О№ О ОµПЃОїПЌ</displayName>
+				<displayName count="other">ОЇОЅП„О№ О ОµПЃОїПЌ</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>ОќО­Ої ОЈОїО» О ОµПЃОїПЌ</displayName>
+				<displayName count="one">ОЅО­Ої ПѓОїО» О ОµПЃОїПЌ</displayName>
+				<displayName count="other">ОЅО­О± ОЈОїО» О ОµПЃОїПЌ</displayName>
+			</currency>
+			<currency type="PES">
+				<displayName>ОЈОїО» О ОµПЃОїПЌ</displayName>
+				<displayName count="one">ПѓОїО» О ОµПЃОїПЌ</displayName>
+				<displayName count="other">ПѓОїО» О ОµПЃОїПЌ</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>ОљОЇОЅО± О О±ПЂОїПЌО± ОќО­О± О“ОїП…О№ОЅО­О±</displayName>
+				<displayName count="one">ОєОЇОЅО± О О±ПЂОїПЌО± ОќО­О± О“ОїП…О№ОЅО­О±</displayName>
+				<displayName count="other">ОєОЇОЅО± О О±ПЂОїПЌО± ОќО­О± О“ОїП…О№ОЅО­О±</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>О О­ПѓОї О¦О№О»О№ПЂПЂОЇОЅП‰ОЅ</displayName>
+				<displayName count="one">ПЂО­ПѓОї О¦О№О»О№ПЂПЂОЇОЅП‰ОЅ</displayName>
+				<displayName count="other">ПЂО­ПѓОї О¦О№О»О№ПЂПЂОЇОЅП‰ОЅ</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>ОЎОїПЌПЂО№О± О О±ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ О О±ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± О О±ОєО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>О–О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚</displayName>
+				<displayName count="one">О¶О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚</displayName>
+				<displayName count="other">О¶О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="PLZ">
+				<displayName>О–О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚ (1950-1995)</displayName>
+				<displayName count="one">О¶О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚ (PLZ)</displayName>
+				<displayName count="other">О¶О»ПЊП„П… О ОїО»П‰ОЅОЇО±П‚ (PLZ)</displayName>
+			</currency>
+			<currency type="PTE">
+				<displayName>О•ПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+				<displayName count="one">ОµПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+				<displayName count="other">ОµПѓОєОїПЌОґОї О ОїПЃП„ОїОіО±О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="PYG">
+				<displayName>О“ОєОїП…О±ПЃО±ОЅОЇ О О±ПЃО±ОіОїП…О¬О·П‚</displayName>
+				<displayName count="one">ОіОєОїП…О±ПЃО±ОЅОЇ О О±ПЃО±ОіОїП…О¬О·П‚</displayName>
+				<displayName count="other">ОіОєОїП…О±ПЃО±ОЅОЇ О О±ПЃО±ОіОїП…О¬О·П‚</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>ОЎО№О¬О» ОљО±П„О¬ПЃ</displayName>
+				<displayName count="one">ПЃО№О¬О» ОљО±П„О¬ПЃ</displayName>
+				<displayName count="other">ПЃО№О¬О» ОљО±П„О¬ПЃ</displayName>
+			</currency>
+			<currency type="RHD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОЎОїОґОµПѓОЇО±П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОЎОїОґОµПѓОЇО±П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОЎОїОґОµПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="ROL">
+				<displayName>О›О­О№ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ПЂО±О»О№ПЊ О»О­О№ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ПЂО±О»О№О¬ О»О­О№ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>О›ОµОІ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">О»ОµОІ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">О»ОµОІ ОЎОїП…ОјО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОЈОµПЃОІОЇО±П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОЈОµПЃОІОЇО±П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОЈОµПЃОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>ОЎОїПЌОІО»О№ ОЎП‰ПѓОЇО±П‚</displayName>
+				<displayName count="one">ПЃОїПЌОІО»О№ ОЎП‰ПѓОЇО±П‚</displayName>
+				<displayName count="other">ПЃОїПЌОІО»О№О± ОЎП‰ПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="RUR">
+				<displayName>ОЎОїПЌОІО»О№ ОЎП‰ПѓОЇО±П‚ (1991-1998)</displayName>
+				<displayName count="one">ПЃОїПЌОІО»О№ ОЎП‰ПѓОЇО±П‚ (RUR)</displayName>
+				<displayName count="other">ПЃОїПЌОІО»О№О± ОЎП‰ПѓОЇО±П‚ (1991-1998)</displayName>
+			</currency>
+			<currency type="RWF">
+				<displayName>О¦ПЃО¬ОіОєОї ОЎОїП…О¬ОЅП„О±П‚</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї ОЎОїП…О¬ОЅП„О±П‚</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± ОЎОїП…О¬ОЅП„О±П‚</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>ОЎО№О¬О» ОЈО±ОїП…ОґО№ОєО®П‚ О‘ПЃО±ОІОЇО±П‚</displayName>
+				<displayName count="one">ПЃО№О¬О» ОЈО±ОїП…ОґО№ОєО®П‚ О‘ПЃО±ОІОЇО±П‚</displayName>
+				<displayName count="other">ПЃО№О¬О» ОЈО±ОїП…ОґО№ОєО®П‚ О‘ПЃО±ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="SBD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОќО®ПѓП‰ОЅ ОЈОїО»ОїОјПЋОЅП„ОїП‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОќО®ПѓП‰ОЅ ОЈОїО»ОїОјПЋОЅП„ОїП‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОќО®ПѓП‰ОЅ ОЈОїО»ОїОјПЋОЅП„ОїП‚</displayName>
+			</currency>
+			<currency type="SCR">
+				<displayName>ОЎОїПЌПЂО№О± ОЈОµП‹П‡О­О»ОµП‚</displayName>
+				<displayName count="one">ПЃОїПЌПЂО№ ОЈОµП‹П‡О­О»ОµП‚</displayName>
+				<displayName count="other">ПЃОїПЌПЂО№О± ОЈОµП‹П‡О­О»ОµП‚</displayName>
+			</currency>
+			<currency type="SDD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОЈОїП…ОґО¬ОЅ</displayName>
+			</currency>
+			<currency type="SDG">
+				<displayName>О›ОЇПЃО± ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="one">О»ОЇПЃО± ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ОЈОїП…ОґО¬ОЅ</displayName>
+			</currency>
+			<currency type="SDP">
+				<displayName>О О±О»О±О№О¬ О›ОЇПЃО± ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="one">ПЂО±О»О№О¬ О»ОЇПЃО± ОЈОїП…ОґО¬ОЅ</displayName>
+				<displayName count="other">ПЂО±О»О±О№О­П‚ О»ОЇПЃОµП‚ ОЈОїП…ОґО¬ОЅ</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>ОљОїПЃПЊОЅО± ОЈОїП…О·ОґОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± ОЈОїП…О·ОґОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ ОЈОїП…О·ОґОЇО±П‚</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОЈО№ОіОєО±ПЂОїПЌПЃО·П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОЈО№ОіОєО±ПЂОїПЌПЃО·П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОЈО№ОіОєО±ПЂОїПЌПЃО·П‚</displayName>
+			</currency>
+			<currency type="SHP">
+				<displayName>О›ОЇПЃО± О‘ОіОЇО±П‚ О•О»О­ОЅО·П‚</displayName>
+				<displayName count="one">О»ОЇПЃО± О‘ОіОЇО±П‚ О•О»О­ОЅО·П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О‘ОіОЇО±П‚ О•О»О­ОЅО·П‚</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>О¤ПЊО»О±ПЃ ОЈО»ОїОІОµОЅОЇО±П‚</displayName>
+				<displayName count="one">П„ПЊО»О±ПЃ ОЈО»ОїОІОµОЅОЇО±П‚</displayName>
+				<displayName count="other">П„ПЊО»О±ПЃ ОЈО»ОїОІ</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>ОљОїПЃПЊОЅО± ОЈО»ОїОІОµОЅОЇО±П‚</displayName>
+				<displayName count="one">ОєОїПЃПЊОЅО± ОЈО»ОїОІОµОЅОЇО±П‚</displayName>
+				<displayName count="other">ОєОїПЃПЊОЅОµП‚ ОЈО»ОїОІОµОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>О›ОµПЊОЅОµ ОЈО№О­ПЃО± О›ОµПЊОЅОµ</displayName>
+				<displayName count="one">О»ОµПЊОЅОµ ОЈО№О­ПЃО± О›ОµПЊОЅОµ</displayName>
+				<displayName count="other">О»ОµПЊОЅОµ ОЈО№О­ПЃО± О›ОµПЊОЅОµ</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>ОЈОµО»ОЇОЅО№ ОЈОїОјО±О»ОЇО±П‚</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ ОЈОїОјО±О»ОЇО±П‚</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№О± ОЈОїОјО±О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="SRD">
+				<displayName>О”ОїО»О¬ПЃО№Ої ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+			</currency>
+			<currency type="SRG">
+				<displayName>О“ОєОЇО»ОЅП„О± ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+				<displayName count="one">ОіОєОЇО»ОЅП„О± ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+				<displayName count="other">ОіОєОЇО»ОЅП„О± ОЈОїП…ПЃО№ОЅО¬Ој</displayName>
+			</currency>
+			<currency type="STD">
+				<displayName>ОќП„ПЊОјПЂПЃО± ОЈО¬Ої О¤ОїОјО­ ОєО±О№ О ПЃОЇОЅПѓО№ПЂОµ</displayName>
+				<displayName count="one">ОЅП„ПЊОјПЂПЃО± ОЈО¬Ої О¤ПЊОјОµ ОєО±О№ О ПЃОЇОЅПѓО№ПЂОµ</displayName>
+				<displayName count="other">ОЅП„ПЊОјПЂПЃО± ОЈО¬Ої О¤ПЊОјОµ ОєО±О№ О ПЃОЇОЅПѓО№ПЂОµ</displayName>
+			</currency>
+			<currency type="SUR">
+				<displayName>ОЈОїОІО№ОµП„О№ОєПЊ ОЎОїПЌОІО»О№</displayName>
+				<displayName count="one">ПѓОїОІО№ОµП„О№ОєПЊ ПЃОїПЌОІО»О№</displayName>
+				<displayName count="other">ПѓОїОІО№ОµП„О№ОєО¬ ПЃОїПЌОІО»О№О±</displayName>
+			</currency>
+			<currency type="SVC">
+				<displayName>ОљОїО»ПЊОЅ О•О» ОЈО±О»ОІО±ОґПЊПЃ</displayName>
+				<displayName count="one">ОєОїО»ПЊОЅ О•О» ОЈО±О»ОІО±ОґПЊПЃ</displayName>
+				<displayName count="other">ОєОїО»ПЊОЅ О•О» ОЈО±О»ОІО±ОґПЊПЃ</displayName>
+			</currency>
+			<currency type="SYP">
+				<displayName>О›ОЇПЃО± ОЈП…ПЃОЇО±П‚</displayName>
+				<displayName count="one">О»ОЇПЃО± ОЈП…ПЃОЇО±П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ ОЈП…ПЃОЇО±П‚</displayName>
+			</currency>
+			<currency type="SZL">
+				<displayName>О›О№О»О±ОЅОіОєО­ОЅО№ ОЈОїП…О±О¶О№О»О¬ОЅОґО·</displayName>
+				<displayName count="one">О»О№О»О±ОЅОіОєО­ОЅО№ ОЈОїП…О±О¶О№О»О¬ОЅОґО·</displayName>
+				<displayName count="other">О»О№О»О±ОЅОіОєО­ОЅО№ ОЈОїП…О±О¶О№О»О¬ОЅОґО·</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>ОњПЂО±П„ О¤О±ПЉО»О¬ОЅОґО·П‚</displayName>
+				<displayName count="one">ОјПЂО±П„ О¤О±ПЉО»О¬ОЅОґО·П‚</displayName>
+				<displayName count="other">ОјПЂО±П„ О¤О±ПЉО»О¬ОЅОґО·П‚</displayName>
+			</currency>
+			<currency type="TJR">
+				<displayName>ОЎОїПЌОІО»О№ О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">ПЃОїПЌОІО»О№ О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ПЃОїПЌОІО»О№О± О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="TJS">
+				<displayName>ОЈОїОјПЊОЅ О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">ПѓОїОјПЊОЅ О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ПѓОїОјПЊОЅ О¤О±П„О¶О№ОєО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="TMM">
+				<displayName>ОњО±ОЅО¬П„ О¤ОїП…ПЃОєОјОµОЅО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">ОјО±ОЅО¬П„ О¤ОїП…ПЃОєОјОµОЅО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ОјО±ОЅО¬П„ О¤ОїП…ПЃОєОјОµОЅО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>О”О·ОЅО¬ПЃО№Ої О¤П…ОЅО·ПѓОЇО±П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої О¤П…ОЅО·ПѓОЇО±П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± О¤П…ОЅО·ПѓОЇО±П‚</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>О О±О¬ОЅОіОєО± О¤ПЊОЅОіОєО±П‚</displayName>
+				<displayName count="one">ПЂО¬ОЅОіОєО± О¤ПЊОіОєО±</displayName>
+				<displayName count="other">ПЂО¬ОЅОіОєО± О¤ПЊОіОєО±</displayName>
+			</currency>
+			<currency type="TPE">
+				<displayName>О•ПѓОєОїПЌОґОї О¤О№ОјПЊПЃ</displayName>
+				<displayName count="one">ОµПѓОєОїПЌОґОї О¤О№ОјПЊПЃ</displayName>
+				<displayName count="other">ОµПѓОєОїПЌОґОї О¤О№ОјПЊПЃ</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>О›ОЇПЃО± О¤ОїП…ПЃОєОЇО±П‚</displayName>
+				<displayName count="one">ПЂО±О»О№О¬ О»ОЇПЃО± О¤ОїП…ПЃОєОЇО±П‚</displayName>
+				<displayName count="other">ПЂО±О»О№О­П‚ О»ОЇПЃОµП‚ О¤ОїП…ПЃОєОЇО±П‚</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>ОќО­О± О¤ОїП…ПЃОєО№ОєО® О›ОЇПЃО±</displayName>
+				<displayName count="one">О»ОЇПЃО± О¤ОїП…ПЃОєОЇО±П‚</displayName>
+				<displayName count="other">О»ОЇПЃОµП‚ О¤ОїП…ПЃОєОЇО±П‚</displayName>
+			</currency>
+			<currency type="TTD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О¤ПЃО№ОЅО№ОЅП„О¬ОЅП„ ОєО±О№ О¤ОїОјПЂО¬ОіОєОї</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О¤ПЃО№ОЅО№ОґО¬Оґ ОєО±О№ О¤ОїОјПЂО¬ОіОєОї</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О¤ПЃО№ОЅО№ОґО¬Оґ ОєО±О№ О¤ОїОјПЂО¬ОіОєОї</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>ОќО­Ої О”ОїО»О¬ПЃО№Ої О¤О±ПЉОІО¬ОЅ</displayName>
+				<displayName count="one">ОЅО­Ої ОґОїО»О¬ПЃО№Ої О¤О±ПЉОІО¬ОЅ</displayName>
+				<displayName count="other">ОЅО­О± ОґОїО»О¬ПЃО№О± О¤О±ПЉОІО¬ОЅ</displayName>
+			</currency>
+			<currency type="TZS">
+				<displayName>ОЈОµО»ОЇОЅО№ О¤О±ОЅО¶О±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ О¤О±ОЅО¶О±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№ О¤О±ОЅО¶О±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>О§ПЃОЇП†ОЅО± ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">П‡ПЃОЇП†ОЅО± ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">П‡ПЃОЇП†ОЅО± ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="UAK">
+				<displayName>ОљО±ПЃОјПЂОїОІО±ОЅО­П„П‚ ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+				<displayName count="one">ОєО±ПЃОјПЂОїОІО±ОЅО­П„П‚ ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+				<displayName count="other">ОєО±ПЃОјПЂОїОІО±ОЅО­П„П‚ ОџП…ОєПЃО±ОЅОЇО±П‚</displayName>
+			</currency>
+			<currency type="UGS">
+				<displayName>ОЈОµО»ОЇОЅО№ ОџП…ОіОєО¬ОЅП„О±П‚ (1966-1987)</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ ОџП…ОіОєО¬ОЅП„О±П‚ (UGS)</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№О± ОџП…ОіОєО¬ОЅП„О±П‚ (UGS)</displayName>
+			</currency>
+			<currency type="UGX">
+				<displayName>ОЈОµО»ОЇОЅО№ ОџП…ОіОєО¬ОЅП„О±П‚</displayName>
+				<displayName count="one">ПѓОµО»ОЇОЅО№ ОџП…ОіОєО¬ОЅП„О±П‚</displayName>
+				<displayName count="other">ПѓОµО»ОЇОЅО№О± ОџП…ОіОєО¬ОЅП„О±П‚</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О—О О‘</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О—.О .О‘.</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О—.О .О‘.</displayName>
+			</currency>
+			<currency type="USN">
+				<displayName>О”ОїО»О¬ПЃО№Ої О—О О‘ (ОµПЂПЊОјОµОЅО· О·ОјО­ПЃО±)</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О—.О .О‘. (ОµПЂПЊОјОµОЅО· О·ОјО­ПЃО±)</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О—.О .О‘. (ОµПЂПЊОјОµОЅО· О·ОјО­ПЃО±)</displayName>
+			</currency>
+			<currency type="USS">
+				<displayName>О”ОїО»О¬ПЃО№Ої О—О О‘ (ОЇОґО№О± О·ОјО­ПЃО±)</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О—.О .О‘. (ОЇОґО№О± О·ОјО­ПЃО±)</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О—.О .О‘. (ОЇОґО№О± О·ОјО­ПЃО±)</displayName>
+			</currency>
+			<currency type="UYI">
+				<displayName>Peso en Unidades Indexadas ОџП…ПЃОїП…ОіОїП…О¬О·П‚</displayName>
+				<displayName count="one">peso en unidades indexadas ОџП…ПЃОїП…ОіОєОїП…О¬О·П‚</displayName>
+				<displayName count="other">pesos en unidades indexadas ОџП…ПЃОїП…ОіОєОїП…О¬О·П‚</displayName>
+			</currency>
+			<currency type="UYP">
+				<displayName>О О­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚ (1975-1993)</displayName>
+				<displayName count="one">ПЂО­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚ (UYP)</displayName>
+				<displayName count="other">ПЂО­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚ (UYP)</displayName>
+			</currency>
+			<currency type="UYU">
+				<displayName>О О­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚</displayName>
+				<displayName count="one">ПЂО­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚</displayName>
+				<displayName count="other">ПЂО­ПѓОї ОџП…ПЃОїП…ОіОїП…О¬О·П‚</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>ОЈОїОј ОџП…О¶ОјПЂОµОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="one">ПѓОїОј ОџП…О¶ОјПЂОµОєО№ПѓП„О¬ОЅ</displayName>
+				<displayName count="other">ПѓОїОј ОџП…О¶ОјПЂОµОєО№ПѓП„О¬ОЅ</displayName>
+			</currency>
+			<currency type="VEB">
+				<displayName>ОњПЂОїО»О№ОІО¬ПЃ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+				<displayName count="one">ОјПЂОїО»О№ОІО¬ПЃ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+				<displayName count="other">ОјПЂОїО»О№ОІО¬ПЃ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+			</currency>
+			<currency type="VEF">
+				<displayName>О’ОїО»О№ОІО¬ПЃ О¦ОїП…О­ПЃП„Оµ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+				<displayName count="one">ОІОїО»О№ОІО¬ПЃ П†ОїП…О­ПЃП„Оµ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+				<displayName count="other">ОІОїО»О№ОІО¬ПЃ П†ОїП…О­ПЃП„Оµ О’ОµОЅОµО¶ОїП…О­О»О±П‚</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>ОќП„ОїОЅОіОє О’О№ОµП„ОЅО¬Ој</displayName>
+				<displayName count="one">ОЅП„ОїОЅОіОє О’О№ОµП„ОЅО¬Ој</displayName>
+				<displayName count="other">ОЅП„ОїОЅОіОє О’О№ОµП„ОЅО¬Ој</displayName>
+			</currency>
+			<currency type="VUV">
+				<displayName>О’О±П„ОїПЌ О’О±ОЅОїП…О¬П„ОїП…</displayName>
+				<displayName count="one">ОІО±П„ОїПЌ О’О±ОЅОїП…О¬П„ОїП…</displayName>
+				<displayName count="other">ОІО±П„ОїПЌ О’О±ОЅОїП…О¬П„ОїП…</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>О¤О±О»О¬ О”П…П„О№ОєО®П‚ ОЈО±ОјПЊО±П‚</displayName>
+				<displayName count="one">О¤О¬О»О± ОЈО±ОјПЊО±П‚</displayName>
+				<displayName count="other">П„О¬О»О± ОЈО±ОјПЊО±П‚</displayName>
+			</currency>
+			<currency type="XAF">
+				<displayName>О¦ПЃО¬ОіОєОї BEAC CFA</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї BEAC CFA</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± BEAC CFA</displayName>
+			</currency>
+			<currency type="XAU">
+				<displayName>О§ПЃП…ПѓПЊП‚</displayName>
+				<displayName count="one">XAU</displayName>
+				<displayName count="other">XAU</displayName>
+			</currency>
+			<currency type="XBA">
+				<displayName>О•П…ПЃП‰ПЂО±ПЉОєО® ОЈПЌОЅОёОµП„О· ОњОїОЅО¬ОґО±</displayName>
+				<displayName count="one">ОµП…ПЃП‰ПЂО±ПЉОєО® ПѓПЌОЅОёОµП„О· ОјОїОЅО¬ОґО±</displayName>
+				<displayName count="other">ОµП…ПЃП‰ПЂО±ПЉОєО­П‚ ПѓПЌОЅОёОµП„ОµП‚ ОјОїОЅО¬ОґОµП‚</displayName>
+			</currency>
+			<currency type="XBB">
+				<displayName>О•П…ПЃП‰ПЂО±ПЉОєО® ОќОїОјО№ПѓОјО±П„О№ОєО® ОњОїОЅО¬ОґО±</displayName>
+				<displayName count="one">ОµП…ПЃП‰ПЂО±ПЉОєО® ОЅОїОјО№ПѓОјО±П„О№ОєО® ОјОїОЅО¬ОґО±</displayName>
+				<displayName count="other">ОµП…ПЃП‰ПЂО±ПЉОєО­П‚ ОЅОїОјО№ПѓОјО±П„О№ОєО­П‚ ОјОїОЅО¬ОґОµП‚</displayName>
+			</currency>
+			<currency type="XBC">
+				<displayName>О•П…ПЃП‰ПЂО±ПЉОєО® ОјОїОЅО¬ОґО± О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBC)</displayName>
+				<displayName count="one">ОµП…ПЃП‰ПЂО±ПЉОєО® ОјОїОЅО¬ОґО± О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBC)</displayName>
+				<displayName count="other">ОµП…ПЃП‰ПЂО±ПЉОєО­П‚ ОјОїОЅО¬ОґОµП‚ О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBC)</displayName>
+			</currency>
+			<currency type="XBD">
+				<displayName>О•П…ПЃП‰ПЂО±ПЉОєО® ОјОїОЅО¬ОґО± О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBD)</displayName>
+				<displayName count="one">ОµП…ПЃП‰ПЂО±ПЉОєО® ОјОїОЅО¬ОґО± О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBD)</displayName>
+				<displayName count="other">ОµП…ПЃП‰ПЂО±ПЉОєО­П‚ ОјОїОЅО¬ОґОµП‚ О»ОїОіО±ПЃО№О±ПѓОјОїПЌ (XBD)</displayName>
+			</currency>
+			<currency type="XCD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О‘ОЅО±П„ОїО»О№ОєО®П‚ ОљО±ПЃО±ПЉОІО№ОєО®П‚</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О‘ОЅО±П„ОїО»О№ОєО®П‚ ОљО±ПЃО±ПЉОІО№ОєО®П‚</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О‘ОЅО±П„ОїО»О№ОєО®П‚ ОљО±ПЃО±ПЉОІО№ОєО®П‚</displayName>
+			</currency>
+			<currency type="XDR">
+				<displayName>О•О№ОґО№ОєО¬ О”О№ОєО±О№ПЋОјО±П„О± О‘ОЅО¬О»О·П€О·П‚</displayName>
+				<displayName count="one">ОµО№ОґО№ОєПЊ ОґО№ОєО±ОЇП‰ОјО± О±ОЅО¬О»О·П€О·П‚</displayName>
+				<displayName count="other">ОµО№ОґО№ОєО¬ ОґО№ОєО±О№ПЋОјО±П„О± О±ОЅО¬О»О·П€О·П‚</displayName>
+			</currency>
+			<currency type="XEU">
+				<displayName>О•П…ПЃП‰ПЂО±ПЉОєО® ОЈП…ОЅО±О»О»О±ОіОјО±П„О№ОєО® ОњОїОЅО¬ОґО±</displayName>
+				<displayName count="one">ОµП…ПЃП‰ПЂО±ПЉОєО® ПѓП…ОЅО±О»О»О±ОіОјО±П„О№ОєО® ОјОїОЅО¬ОґО±</displayName>
+				<displayName count="other">ОµП…ПЃП‰ПЂО±ПЉОєО­П‚ ПѓП…ОЅО±О»О»О±ОіОјО±П„О№ОєО­П‚ ОјОїОЅО¬ОґОµП‚</displayName>
+			</currency>
+			<currency type="XFO">
+				<displayName>О§ПЃП…ПѓПЊ О¦ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="one">П‡ПЃП…ПѓПЊ П†ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="other">П‡ПЃП…ПѓО¬ П†ПЃО¬ОіОєО± О“О±О»О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="XFU">
+				<displayName>UIC-О¦ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="one">UIC-П†ПЃО¬ОіОєОї О“О±О»О»ОЇО±П‚</displayName>
+				<displayName count="other">UIC-П†ПЃО¬ОіОєО± О“О±О»О»ОЇО±П‚</displayName>
+			</currency>
+			<currency type="XOF">
+				<displayName>О¦ПЃО¬ОіОєОї BCEAO CFA</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї BCEAO CFA</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± BCEAO CFA</displayName>
+			</currency>
+			<currency type="XPF">
+				<displayName>О¦ПЃО¬ОіОєОї CFP</displayName>
+				<displayName count="one">П†ПЃО¬ОіОєОї CFP</displayName>
+				<displayName count="other">П†ПЃО¬ОіОєО± CFP</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>О†ОіОЅП‰ПѓП„Ої О® ОјО· О­ОіОєП…ПЃОї ОЅПЊОјО№ПѓОјО±</displayName>
+				<displayName count="one">О¬ОіОЅП‰ПѓП„Ої/ОјО· О­ОіОєП…ПЃОї ОЅПЊОјО№ПѓОјО±</displayName>
+				<displayName count="other">О†ОіОЅП‰ПѓП„Ої О® ОјО· О­ОіОєП…ПЃОї ОЅПЊОјО№ПѓОјО±</displayName>
+			</currency>
+			<currency type="YDD">
+				<displayName>О”О·ОЅО¬ПЃО№Ої ОҐОµОјО­ОЅО·П‚</displayName>
+				<displayName count="one">ОґО·ОЅО¬ПЃО№Ої ОҐОµОјО­ОЅО·П‚</displayName>
+				<displayName count="other">ОґО·ОЅО¬ПЃО№О± ОҐОµОјО­ОЅО·П‚</displayName>
+			</currency>
+			<currency type="YER">
+				<displayName>ОЎО№О¬О» ОҐОµОјО­ОЅО·П‚</displayName>
+				<displayName count="one">ПЃО№О¬О» ОҐОµОјО­ОЅО·П‚</displayName>
+				<displayName count="other">ПЃО№О¬О» ОҐОµОјО­ОЅО·П‚</displayName>
+			</currency>
+			<currency type="YUD">
+				<displayName>ОњОµП„О±О»О»О№ОєПЊ О”О·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="one">ОјОµП„О±О»О»О№ОєПЊ ОґО·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="other">ОјОµП„О±О»О»О№ОєО¬ ОґО·ОЅО¬ПЃО№О± О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="YUM">
+				<displayName>ОќО­Ої О”О·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="one">ОЅО­Ої ОґО·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="other">ОЅО­Ої ОґО·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="YUN">
+				<displayName>ОњОµП„О±П„ПЃО­П€О№ОјОї О”О·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="one">ОјОµП„О±П„ПЃО­П€О№ОјОї ОґО№ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+				<displayName count="other">ОјОµП„О±П„ПЃО­П€О№ОјОї ОґО·ОЅО¬ПЃО№Ої О“О№ОїП…ОіОєОїПѓО»О±ОІОЇО±П‚</displayName>
+			</currency>
+			<currency type="ZAL">
+				<displayName>ОЎО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚ (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+				<displayName count="one">ПЃО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚ (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+				<displayName count="other">ПЃО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚ (ОїО№ОєОїОЅОїОјО№ОєПЊ)</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>ОЎО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚</displayName>
+				<displayName count="one">ПЃО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚</displayName>
+				<displayName count="other">ПЃО±ОЅП„ ОќПЊП„О№О±П‚ О‘П†ПЃО№ОєО®П‚</displayName>
+			</currency>
+			<currency type="ZMK">
+				<displayName>ОљОїП…О¬ОЅО¶О± О–О±ОђПЃ</displayName>
+				<displayName count="one">ОєОїП…О¬П„ПѓО± О–О¬ОјПЂО№О±П‚</displayName>
+				<displayName count="other">ОєОїП…О¬П„ПѓО± О–О¬ОјПЂО№О±П‚</displayName>
+			</currency>
+			<currency type="ZRN">
+				<displayName>ОќО­Ої О–О±ОђПЃ О–О±ОђПЃ</displayName>
+				<displayName count="one">ОЅО­Ої О¶О±ОђПЃ О–О±ОђПЃ</displayName>
+				<displayName count="other">ОЅО­О± О¶О±ОђПЃ О–О±ОђПЃ</displayName>
+			</currency>
+			<currency type="ZRZ">
+				<displayName>О–О±ОђПЃ О–О±ОђПЃ</displayName>
+				<displayName count="one">О¶О±ОђПЃ О–О±ОђПЃ</displayName>
+				<displayName count="other">О¶О±ОђПЃ О–О±ОђПЃ</displayName>
+			</currency>
+			<currency type="ZWD">
+				<displayName>О”ОїО»О¬ПЃО№Ої О–О№ОјПЂО¬ОјПЂОїП…Оµ</displayName>
+				<displayName count="one">ОґОїО»О¬ПЃО№Ої О–О№ОјПЂО¬ОјПЂОїП…Оµ</displayName>
+				<displayName count="other">ОґОїО»О¬ПЃО№О± О–О№ОјПЂО¬ОјПЂОїП…Оµ</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="day">
+			<unitPattern count="one">{0} О·ОјО­ПЃО±</unitPattern>
+			<unitPattern count="other">{0} О·ОјО­ПЃОµП‚</unitPattern>
+		</unit>
+		<unit type="hour">
+			<unitPattern count="one">{0} ПЋПЃО±</unitPattern>
+			<unitPattern count="other">{0} ПЋПЃОµП‚</unitPattern>
+		</unit>
+		<unit type="minute">
+			<unitPattern count="one">{0} О»ОµПЂП„ПЊ</unitPattern>
+			<unitPattern count="other">{0} О»ОµПЂП„О¬</unitPattern>
+		</unit>
+		<unit type="month">
+			<unitPattern count="one">{0} ОјО®ОЅО±П‚</unitPattern>
+			<unitPattern count="other">{0} ОјО®ОЅОµП‚</unitPattern>
+		</unit>
+		<unit type="second">
+			<unitPattern count="one">{0} ОґОµП…П„ОµПЃПЊО»ОµПЂП„Ої</unitPattern>
+			<unitPattern count="other">{0} ОґОµП…П„ОµПЃПЊО»ОµПЂП„О±</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="one">{0} ОµОІОґОїОјО¬ОґО±</unitPattern>
+			<unitPattern count="other">{0} ОµОІОґОїОјО¬ОґОµП‚</unitPattern>
+		</unit>
+		<unit type="year">
+			<unitPattern count="one">{0} О­П„ОїП‚</unitPattern>
+			<unitPattern count="other">{0} О­П„О·</unitPattern>
+		</unit>
+	</units>
+	<posix>
+		<messages>
+			<yesstr>ОЅО±О№:ОЅ</yesstr>
+			<nostr>ПЊП‡О№:ПЊ</nostr>
+		</messages>
+	</posix>
+</ldml>
+

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.83 $"/>
+		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<language type="vi"/>
+	</identity>
+	<localeDisplayNames>
+		<localeDisplayPattern>
+			<localePattern>{0} ({1})</localePattern>
+			<localeSeparator>, </localeSeparator>
+		</localeDisplayPattern>
+		<languages>
+			<language type="af">Tiбєїng Nam Phi</language>
+			<language type="am">Tiбєїng Amharic</language>
+			<language type="ar">Tiбєїng A-rбє­p</language>
+			<language type="as">Tiбєїng Assam</language>
+			<language type="ay">Tiбєїng Aymara</language>
+			<language type="az">Tiбєїng Ai-dГ©c-bai-gian</language>
+			<language type="be">Tiбєїng BГЄ-la-rГєt</language>
+			<language type="bg">Tiбєїng Bun-ga-ri</language>
+			<language type="bh">Tiбєїng Bihari</language>
+			<language type="bn">Tiбєїng Bengali (бє¤n Дђб»™)</language>
+			<language type="bo">Tiбєїng TГўy TбєЎng</language>
+			<language type="br">Tiбєїng Breton</language>
+			<language type="bs">Tiбєїng Nam TЖ°</language>
+			<language type="ca">Tiбєїng Ca-ta-lДѓng</language>
+			<language type="cs">Tiбєїng SГ©c</language>
+			<language type="cy">Tiбєїng XentЖЎ</language>
+			<language type="da">Tiбєїng Дђan MбєЎch</language>
+			<language type="de">Tiбєїng Дђб»©c</language>
+			<language type="el">Tiбєїng Hy LбєЎp</language>
+			<language type="en">Tiбєїng Anh</language>
+			<language type="en_GB">Tiбєїng Anh (Anh)</language>
+			<language type="en_US">Tiбєїng Anh (Mб»№)</language>
+			<language type="eo">Tiбєїng Quб»‘c Tбєї Ngб»Ї</language>
+			<language type="es">Tiбєїng TГўy Ban Nha</language>
+			<language type="et">Tiбєїng E-xtГґ-ni-a</language>
+			<language type="eu">Tiбєїng Basque</language>
+			<language type="fa">Tiбєїng Ba TЖ°</language>
+			<language type="fi">Tiбєїng Phбє§n Lan</language>
+			<language type="fil">Tiбєїng Philipin</language>
+			<language type="fo">Tiбєїng Faore</language>
+			<language type="fr">Tiбєїng PhГЎp</language>
+			<language type="fy">Tiбєїng Frisian</language>
+			<language type="ga">Tiбєїng Ai-len</language>
+			<language type="gd">Tiбєїng XentЖЎ (Xcб»‘t len)</language>
+			<language type="gl">Tiбєїng Galician</language>
+			<language type="gn">Tiбєїng Guarani</language>
+			<language type="gu">Tiбєїng Gujarati</language>
+			<language type="he">Tiбєїng HГЄ-brЖЎ</language>
+			<language type="hi">Tiбєїng Hin-Д‘i</language>
+			<language type="hr">Tiбєїng CrГґ-a-ti-a</language>
+			<language type="hu">Tiбєїng Hung-ga-ri</language>
+			<language type="hy">Tiбєїng ГЃc-mГЄ-ni</language>
+			<language type="ia">Tiбєїng Khoa Hб»Ќc Quб»‘c Tбєї</language>
+			<language type="id">Tiбєїng In-Д‘Гґ-nГЄ-xia</language>
+			<language type="ie">Tiбєїng Khoa hб»Ќc quб»‘c tбєї</language>
+			<language type="is">Tiбєїng Ai-xЖЎ-len</language>
+			<language type="it">Tiбєїng Гќ</language>
+			<language type="ja">Tiбєїng Nhбє­t</language>
+			<language type="jv">Tiбєїng Gia-va</language>
+			<language type="ka">Tiбєїng Georgian</language>
+			<language type="km">Tiбєїng Campuchia</language>
+			<language type="kn">Tiбєїng Kan-na-Д‘a</language>
+			<language type="ko">Tiбєїng HГ n Quб»‘c</language>
+			<language type="ks">Tiбєїng Kashmiri</language>
+			<language type="ku">Tiбєїng Kurd (Iran)</language>
+			<language type="ky">Tiбєїng Kyrgyz</language>
+			<language type="la">Tiбєїng La-tinh</language>
+			<language type="ln">Tiбєїng Lingala</language>
+			<language type="lo">Tiбєїng LГ o</language>
+			<language type="lt">Tiбєїng LГ­t-va</language>
+			<language type="lv">Tiбєїng LГЎt-vi-a</language>
+			<language type="mk">Tiбєїng Ma-xГЄ-Д‘Гґ-ni-a</language>
+			<language type="ml">Tiбєїng Malayalam</language>
+			<language type="mn">Tiбєїng MГґng Cб»•</language>
+			<language type="mr">Tiбєїng Marathi</language>
+			<language type="ms">Tiбєїng Ma-lay-xi-a</language>
+			<language type="mt">Tiбєїng MantЖЎ</language>
+			<language type="ne">Tiбєїng NГЄ-pan</language>
+			<language type="nl">Tiбєїng HГ  Lan</language>
+			<language type="nn">Tiбєїng Na Uy (Nynorsk)</language>
+			<language type="no">Tiбєїng Na Uy</language>
+			<language type="oc">Tiбєїng Occitan</language>
+			<language type="or">Tiбєїng Г”-ri-a</language>
+			<language type="pa">Tiбєїng Punjabi</language>
+			<language type="pl">Tiбєїng Ba Lan</language>
+			<language type="ps">Tiбєїng Pa-tГґ</language>
+			<language type="pt">Tiбєїng Bб»“ ДђГ o Nha</language>
+			<language type="pt_BR">Tiбєїng Bб»“ ДђГ o Nha (Braxin)</language>
+			<language type="pt_PT">Tiбєїng Bб»“ ДђГ o Nha (I-bГЄ-ri)</language>
+			<language type="rm">Tiбєїng Rhaeto-Romance</language>
+			<language type="ro">Tiбєїng Ru-ma-ni</language>
+			<language type="ru">Tiбєїng Nga</language>
+			<language type="sa">Tiбєїng PhбєЎn</language>
+			<language type="sd">Tiбєїng Sin-hi</language>
+			<language type="sh">Tiбєїng XГ©c bi - Croatia</language>
+			<language type="si">Tiбєїng Sinhala</language>
+			<language type="sk">Tiбєїng XlГґ-vГЎc</language>
+			<language type="sl">Tiбєїng XlГґ-ven</language>
+			<language type="so">Tiбєїng XГґ-ma-li</language>
+			<language type="sq">Tiбєїng An-ba-ni</language>
+			<language type="sr">Tiбєїng SГ©c-bi</language>
+			<language type="st">Tiбєїng Sesotho</language>
+			<language type="su">Tiбєїng Xu Д‘Дѓng</language>
+			<language type="sv">Tiбєїng Thб»Ґy Дђiб»ѓn</language>
+			<language type="sw">Tiбєїng Bantu (ДђГґng Phi)</language>
+			<language type="ta">Tiбєїng Tamil</language>
+			<language type="te">Tiбєїng Telugu</language>
+			<language type="th">Tiбєїng ThГЎi</language>
+			<language type="ti">Tiбєїng Tigrigya</language>
+			<language type="tk">Tiбєїng TuГґc-men</language>
+			<language type="tl">Tiбєїng Tagalog</language>
+			<language type="tlh">Tiбєїng Klingon</language>
+			<language type="tr">Tiбєїng Thб»• NhД© Kб»і</language>
+			<language type="tw">Tiбєїng Twi</language>
+			<language type="ug">Tiбєїng Uighur</language>
+			<language type="uk">Tiбєїng U-crai-na</language>
+			<language type="und">und</language>
+			<language type="ur">Tiбєїng UД‘u</language>
+			<language type="uz">Tiбєїng U-dЖЎ-bбєїch</language>
+			<language type="vi">Tiбєїng Viб»‡t</language>
+			<language type="wo">Tiбєїng Wolof</language>
+			<language type="xh">Tiбєїng Bantu</language>
+			<language type="yi">Tiбєїng Y-Д‘it</language>
+			<language type="zh">Tiбєїng Trung Quб»‘c</language>
+			<language type="zh_Hans">Tiбєїng Trung Quб»‘c (GiбєЈn thб»ѓ)</language>
+			<language type="zh_Hant">Tiбєїng Trung Quб»‘c (Phб»“n thб»ѓ)</language>
+			<language type="zu">Tiбєїng Zulu</language>
+		</languages>
+		<scripts>
+			<script type="Zxxx">Zxxx</script>
+			<script type="Zzzz">Zzzz</script>
+		</scripts>
+		<territories>
+			<territory type="001">Thбєї giб»›i</territory>
+			<territory type="002">ChГўu Phi</territory>
+			<territory type="003">BбєЇc Mб»№</territory>
+			<territory type="005">Nam Mб»№</territory>
+			<territory type="009">ChГўu ДђбєЎi DЖ°ЖЎng</territory>
+			<territory type="011">TГўy Phi</territory>
+			<territory type="013">Trung Mб»№</territory>
+			<territory type="014">ДђГґng PhГ­</territory>
+			<territory type="015">BбєЇc Phi</territory>
+			<territory type="017">Trung Phi</territory>
+			<territory type="018">Miб»Ѓn Nam ChГўu Phi</territory>
+			<territory type="019">ChГўu Mб»№</territory>
+			<territory type="021">Miб»Ѓn BбєЇc ChГўu Mб»№</territory>
+			<territory type="029">Ca-ri-bГЄ</territory>
+			<territory type="030">ДђГґng ГЃ</territory>
+			<territory type="034">Nam ГЃ</territory>
+			<territory type="035">ДђГґng Nam ГЃ</territory>
+			<territory type="039">Nam Г‚u</territory>
+			<territory type="053">Гљc vГ  New Zealand</territory>
+			<territory type="054">Melanesia</territory>
+			<territory type="057">VГ№ng Micronesian</territory>
+			<territory type="061">Polynesia</territory>
+			<territory type="062">Trung Nam ГЃ</territory>
+			<territory type="142">ChГўu ГЃ</territory>
+			<territory type="143">Trung ГЃ</territory>
+			<territory type="145">TГўy ГЃ</territory>
+			<territory type="150">Г‚u ChГўu</territory>
+			<territory type="151">ДђГґng Г‚u</territory>
+			<territory type="154">Miб»Ѓn BбєЇc ChГўu Г‚u</territory>
+			<territory type="155">TГўy Г‚u</territory>
+			<territory type="419">ChГўu Mб»№ La-tinh vГ  Ca-ri-be</territory>
+			<territory type="AD">Andorra</territory>
+			<territory type="AE">CГЎc Tiб»ѓu VЖ°ЖЎng quб»‘c A-rбє­p Thб»‘ng nhбєҐt</territory>
+			<territory type="AF">ГЃp-ga-ni-xtan</territory>
+			<territory type="AG">An-ti-gu-a vГ  Ba-bu-Д‘a</territory>
+			<territory type="AL">An-ba-ni</territory>
+			<territory type="AM">ГЃc-mГЄ-ni-a</territory>
+			<territory type="AN">TГўy бє¤n HГ  Lan</territory>
+			<territory type="AO">Д‚ng-gГґ-la</territory>
+			<territory type="AQ">Nam Cб»±c</territory>
+			<territory type="AR">ГЃc-hen-ti-na</territory>
+			<territory type="AS">ДђбєЈo Somoa thuб»™c Mб»№</territory>
+			<territory type="AT">ГЃo</territory>
+			<territory type="AU">Гљc</territory>
+			<territory type="AX">Quбє§n Д‘бєЈo Aland</territory>
+			<territory type="AZ">Ai-dГ©c-bai-gian</territory>
+			<territory type="BA">BГґ-xni-a HГ©c-xГЄ-gГґ-vi-na</territory>
+			<territory type="BB">BГЎc-ba-Д‘б»‘t</territory>
+			<territory type="BD">BДѓng-la-Д‘Г©t</territory>
+			<territory type="BE">Bб»‰</territory>
+			<territory type="BF">Buб»‘c-ki-na Pha-xГґ</territory>
+			<territory type="BG">Bun-ga-ri</territory>
+			<territory type="BH">Ba-ren</territory>
+			<territory type="BI">Bu-run-Д‘i</territory>
+			<territory type="BJ">BГЄ-nanh</territory>
+			<territory type="BL">BL</territory>
+			<territory type="BN">Bru-nГўy</territory>
+			<territory type="BO">BГґ-li-vi-a</territory>
+			<territory type="BR">Bra-xin</territory>
+			<territory type="BS">Ba-ha-ma</territory>
+			<territory type="BT">Bu-tan (Bhutan)</territory>
+			<territory type="BV">ДђбєЈo Bouvet (Na Uy)</territory>
+			<territory type="BW">Bб»‘t-xoa-na</territory>
+			<territory type="BY">BГЄ-la-rГєt</territory>
+			<territory type="BZ">BГЄ-li-xГЄ</territory>
+			<territory type="CA">Ca-na-Д‘a</territory>
+			<territory type="CC">Quбє§n Д‘бєЈo Cocos</territory>
+			<territory type="CD">Cб»™ng hoГ  dГўn chб»§ CГґngГґ</territory>
+			<territory type="CF">Cб»™ng hГІa Trung Phi</territory>
+			<territory type="CG">CГґng-gГґ</territory>
+			<territory type="CH">Thб»Ґy SД©</territory>
+			<territory type="CI">Bб»ќ Biб»ѓn NgГ </territory>
+			<territory type="CK">Quбє§n ДђбєЈo Cook</territory>
+			<territory type="CL">Chi-lГЄ</territory>
+			<territory type="CM">Ca-mЖЎ-run</territory>
+			<territory type="CN">Trung Quб»‘c</territory>
+			<territory type="CO">CГґ-lГґm-bi-a</territory>
+			<territory type="CR">Cб»‘t-xta Ri-ca</territory>
+			<territory type="CS">SГ©c-bia</territory>
+			<territory type="CU">Cu Ba</territory>
+			<territory type="CV">CГЎp-ve</territory>
+			<territory type="CX">ДђбєЈo GiГЎng Sinh</territory>
+			<territory type="CY">SГ­p</territory>
+			<territory type="CZ">Cб»™ng hГІa SГ©c</territory>
+			<territory type="DE">Дђб»©c</territory>
+			<territory type="DJ">Gi-bu-ti</territory>
+			<territory type="DK">Дђan MбєЎch</territory>
+			<territory type="DO">Cб»™ng hoГ  ДђГґ-mi-ni-ca</territory>
+			<territory type="DZ">An-giГЄ-ri</territory>
+			<territory type="EC">ГЉ-cu-a-Д‘o</territory>
+			<territory type="EE">E-xtГґ-ni-a</territory>
+			<territory type="EG">Ai Cбє­p</territory>
+			<territory type="EH">TГўy Sahara</territory>
+			<territory type="ER">ГЉ-ri-tЖЎ-rГЄ-a</territory>
+			<territory type="ES">TГўy Ban Nha</territory>
+			<territory type="ET">ГЉ-ti-Гґ-pi-a</territory>
+			<territory type="FI">Phбє§n Lan</territory>
+			<territory type="FJ">Phi-gi</territory>
+			<territory type="FK">Quбє§n ДђбєЈo Falkland</territory>
+			<territory type="FM">Mi-crГґ-nГЄ-xi-a</territory>
+			<territory type="FO">Quбє§n ДђбєЈo Faroe</territory>
+			<territory type="FR">PhГЎp</territory>
+			<territory type="GA">Ga-bГґng</territory>
+			<territory type="GB">VЖ°ЖЎng quб»‘c Anh</territory>
+			<territory type="GD">GrГЄ-na-Д‘a</territory>
+			<territory type="GE">Gru-di-a</territory>
+			<territory type="GF">Quiana thuб»™c PhГЎp</territory>
+			<territory type="GG">Guernsey</territory>
+			<territory type="GH">Gha-na</territory>
+			<territory type="GL">BДѓng ДђбєЈo</territory>
+			<territory type="GM">GДѓm-bi-a</territory>
+			<territory type="GN">Ghi-nГЄ</territory>
+			<territory type="GQ">Ghi-nГЄ XГ­ch-Д‘бєЎo</territory>
+			<territory type="GR">Hy LбєЎp</territory>
+			<territory type="GS">Quбє§n Д‘бєЈo Nam Georgia vГ  Nam Sandwich</territory>
+			<territory type="GT">Goa-tГЄ-ma-la</territory>
+			<territory type="GU">ДђбєЈo Gu-am</territory>
+			<territory type="GW">Ghi-nГЄ BГ­t-xao</territory>
+			<territory type="GY">Guy-a-na</territory>
+			<territory type="HK">Дђбє·c khu hГ nh chГ­nh Hб»“ng KГґng thuб»™c CHND Trung Hoa</territory>
+			<territory type="HM">ДђбєЈo Heard vГ  Quбє§n Д‘бєЈo McDonald</territory>
+			<territory type="HN">HГґn-Д‘u-rГЎt</territory>
+			<territory type="HR">CrГґ-a-ti-a</territory>
+			<territory type="HT">Ha-i-ti</territory>
+			<territory type="HU">Hung-ga-ri</territory>
+			<territory type="ID">Nam DЖ°ЖЎng</territory>
+			<territory type="IE">Ai-len</territory>
+			<territory type="IL">I-xra-en</territory>
+			<territory type="IM">ДђбєЈo Man</territory>
+			<territory type="IN">бє¤n Дђб»™</territory>
+			<territory type="IO">Thuб»™c Д‘б»‹a Anh tбєЎi бє¤n Дђб»™ DЖ°ЖЎng</territory>
+			<territory type="IQ">I-rбєЇc</territory>
+			<territory type="IR">I-ran</territory>
+			<territory type="IS">Ai-xЖЎ-len</territory>
+			<territory type="IT">Гќ</territory>
+			<territory type="JE">Jersey</territory>
+			<territory type="JM">Ha-mai-ca</territory>
+			<territory type="JO">GiГіc-Д‘a-ni</territory>
+			<territory type="JP">Nhбє­t BбєЈn</territory>
+			<territory type="KE">KГЄ-ni-a</territory>
+			<territory type="KG">CЖ°-rЖЎ-gЖ°-xtan</territory>
+			<territory type="KH">Campuchia</territory>
+			<territory type="KI">Ki-ri-ba-ti</territory>
+			<territory type="KM">CГґ-mГґ</territory>
+			<territory type="KN">Xan-kГ­t vГ  NГЄ-vi</territory>
+			<territory type="KP">BбєЇc Triб»Ѓu TiГЄn</territory>
+			<territory type="KR">HГ n Quб»‘c</territory>
+			<territory type="KW">CГґ-oГ©t</territory>
+			<territory type="KY">Quбє§n ДђбєЈo Cayman</territory>
+			<territory type="KZ">Ka-dбєЇc-xtan</territory>
+			<territory type="LA">LГ o</territory>
+			<territory type="LB">Li-bДѓng</territory>
+			<territory type="LC">Xan Lu-xi</territory>
+			<territory type="LI">Lich-ten-xtГЄn</territory>
+			<territory type="LK">Xri Lan-ca</territory>
+			<territory type="LR">Li-bГЄ-ri-a</territory>
+			<territory type="LS">LГЄ-xГґ-thГґ</territory>
+			<territory type="LT">Li-tu-a-ni-a</territory>
+			<territory type="LU">LГєc-xДѓm-bua</territory>
+			<territory type="LV">LГЎt-vi-a</territory>
+			<territory type="LY">Li-bi</territory>
+			<territory type="MA">Ma-rб»‘c</territory>
+			<territory type="MC">MГґ-na-cГґ</territory>
+			<territory type="MD">MГґn-Д‘Гґ-va</territory>
+			<territory type="ME">Montenegro</territory>
+			<territory type="MF">MF</territory>
+			<territory type="MG">Ma-Д‘a-gГЎt-xca</territory>
+			<territory type="MH">Quбє§n Д‘бєЈo MГЎc-san</territory>
+			<territory type="MK">Ma-xГЄ-Д‘Гґ-ni-a</territory>
+			<territory type="ML">Ma-li</territory>
+			<territory type="MM">Mi-an-ma</territory>
+			<territory type="MN">MГґng Cб»•</territory>
+			<territory type="MO">Дђбє·c khu hГ nh chГ­nh Macao thuб»™c CHND Trung Hoa</territory>
+			<territory type="MP">Quбє§n ДђбєЈo BбєЇc Mariana</territory>
+			<territory type="MQ">MQ</territory>
+			<territory type="MR">MГґ-ri-ta-ni</territory>
+			<territory type="MT">Man-ta</territory>
+			<territory type="MU">MГґ-ri-xЖЎ</territory>
+			<territory type="MV">Man-Д‘i-vЖЎ</territory>
+			<territory type="MW">Ma-la-uy</territory>
+			<territory type="MX">MГЄ-hi-cГґ</territory>
+			<territory type="MY">Ma-lay-xi-a</territory>
+			<territory type="MZ">MГґ-dДѓm-bГ­ch</territory>
+			<territory type="NA">Nam-mi-bi-a</territory>
+			<territory type="NC">New Caledonia</territory>
+			<territory type="NE">Ni-giГЄ</territory>
+			<territory type="NF">ДђбєЈo Norfolk</territory>
+			<territory type="NG">Ni-giГЄ-ri-a</territory>
+			<territory type="NI">Ni-ca-ra-goa</territory>
+			<territory type="NL">HГ  Lan</territory>
+			<territory type="NO">Na Uy</territory>
+			<territory type="NP">NГЄ-pan</territory>
+			<territory type="NZ">Niu Di-lГўn</territory>
+			<territory type="OM">Г”-man</territory>
+			<territory type="PA">Pa-na-ma</territory>
+			<territory type="PE">PГЄ-ru</territory>
+			<territory type="PF">Polynesia thuб»™c PhГЎp</territory>
+			<territory type="PG">Pa-pu-a Niu Ghi-nГЄ</territory>
+			<territory type="PH">Phi-lip-pin</territory>
+			<territory type="PK">Pa-ki-xtan</territory>
+			<territory type="PL">Ba Lan</territory>
+			<territory type="PM">Saint Pierre vГ  Miquelon</territory>
+			<territory type="PS">LГЈnh thб»• Palestine</territory>
+			<territory type="PT">Bб»“ ДђГ o Nha</territory>
+			<territory type="PY">Pa-ra-goay</territory>
+			<territory type="QA">Ca-ta</territory>
+			<territory type="QO">VГ№ng xa xГґi thuб»™c ChГўu ДђбєЎi DЖ°ЖЎng</territory>
+			<territory type="QU">LiГЄn Minh ChГўu Г‚u</territory>
+			<territory type="RE">RE</territory>
+			<territory type="RO">Ru-ma-ni</territory>
+			<territory type="RS">XГ©c-bi</territory>
+			<territory type="RU">Nga</territory>
+			<territory type="RW">Ru-an-Д‘a</territory>
+			<territory type="SA">A-rбє­p XГЄ-Гєt</territory>
+			<territory type="SB">Quбє§n Д‘бєЈo XГґ-lГґ-mГґng</territory>
+			<territory type="SC">XГўy-sen</territory>
+			<territory type="SD">Xu-Д‘Дѓng</territory>
+			<territory type="SE">Thб»Ґy Дђiб»ѓn</territory>
+			<territory type="SG">Xin-ga-po</territory>
+			<territory type="SH">Saint Helena</territory>
+			<territory type="SI">XlГґ-ven-ni-a</territory>
+			<territory type="SJ">Svalbard vГ  Jan Mayen</territory>
+			<territory type="SK">XlГґ-va-ki-a</territory>
+			<territory type="SL">Xi-ГЄ-ra LГЄ-Гґn</territory>
+			<territory type="SM">Xan Ma-ri-nГґ</territory>
+			<territory type="SN">XГЄ-nГЄ-gan</territory>
+			<territory type="SO">XГґ-ma-li</territory>
+			<territory type="SR">Xu-ri-nam</territory>
+			<territory type="ST">Xao TГґ-mГЄ vГ  Prin-xi-pГЄ</territory>
+			<territory type="SV">En-san-va-Д‘o</territory>
+			<territory type="SY">Xi-ri</territory>
+			<territory type="SZ">Xoa-di-len</territory>
+			<territory type="TC">Quбє§n ДђбєЈo Turk vГ  Caicos</territory>
+			<territory type="TD">SГЎt</territory>
+			<territory type="TF">Thuб»™c Дђб»‹a Nam cб»§a PhГЎp</territory>
+			<territory type="TG">TГґ-gГґ</territory>
+			<territory type="TH">ThГЎi Lan</territory>
+			<territory type="TJ">TГЎt-gi-ki-xtan</territory>
+			<territory type="TK">Tokelau</territory>
+			<territory type="TL">ДђГґng Ti-mo</territory>
+			<territory type="TM">Tuб»‘c-mГЄ-ni-xtan</territory>
+			<territory type="TN">Tuy-ni-di</territory>
+			<territory type="TO">TГґng-ga</territory>
+			<territory type="TR">Thб»• NhД© Kб»і</territory>
+			<territory type="TT">Tri-ni-Д‘ГЎt vГ  TГґ-ba-gГґ</territory>
+			<territory type="TV">Tu-va-lu</territory>
+			<territory type="TW">ДђГ i Loan</territory>
+			<territory type="TZ">Tan-da-ni-a</territory>
+			<territory type="UA">U-crai-na</territory>
+			<territory type="UG">U-gan-Д‘a</territory>
+			<territory type="UM">CГЎc Д‘бєЈo nhб»Џ xa trung tГўm thuб»™c Mб»№</territory>
+			<territory type="US">Hoa Kб»і</territory>
+			<territory type="UY">U-ru-goay</territory>
+			<territory type="UZ">U-dЖЎ-bГЄ-ki-xtan</territory>
+			<territory type="VA">Va-ti-cДѓng</territory>
+			<territory type="VC">Xan Vin-xen vГ  GrГЄ-na-din</territory>
+			<territory type="VE">VГЄ-nГЄ-zu-ГЄ-la</territory>
+			<territory type="VG">ДђбєЈo Virgin, thuб»™c Anh</territory>
+			<territory type="VI">Quбє§n Д‘бєЈo Virgin, Mб»№</territory>
+			<territory type="VN">Viб»‡t Nam</territory>
+			<territory type="VU">Va-nu-a-tu</territory>
+			<territory type="WF">Wallis vГ  Futuna</territory>
+			<territory type="WS">Xa-moa</territory>
+			<territory type="YE">Y-ГЄ-men</territory>
+			<territory type="YT">YT</territory>
+			<territory type="ZA">Nam Phi</territory>
+			<territory type="ZM">DДѓm-bi-a</territory>
+			<territory type="ZW">Dim-ba-bu-ГЄ</territory>
+			<territory type="ZZ">VГ№ng ChЖ°a biбєїt hoбє·c khГґng Hб»Јp lб»‡</territory>
+		</territories>
+		<types>
+			<type type="gregorian" key="calendar">gregorian</type>
+		</types>
+		<codePatterns>
+			<codePattern type="language">NgГґn ngб»Ї: {0}</codePattern>
+			<codePattern type="script">Chб»Ї viбєїt: {0}</codePattern>
+			<codePattern type="territory">VГ№ng: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[a Г  бєЈ ГЈ ГЎ бєЎ Дѓ бє± бєі бєµ бєЇ бє· Гў бє§ бє© бє« бєҐ бє­ b-d Д‘ e ГЁ бє» бєЅ Г© бє№ ГЄ б»Ѓ б»ѓ б»… бєї б»‡ f-i Г¬ б»‰ Д© Г­ б»‹ j-o ГІ б»Џ Гµ Гі б»Ќ Гґ б»“ б»• б»— б»‘ б»™ ЖЎ б»ќ б»џ б»Ў б»› б»Ј p-u Г№ б»§ Е© Гє б»Ґ Ж° б»« б»­ б»Ї б»© б»± v-y б»і б»· б»№ ГЅ б»µ z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[f j w z]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-d Д‘ e-z]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>вЂњ</quotationStart>
+		<quotationEnd>вЂќ</quotationEnd>
+		<alternateQuotationStart>вЂ</alternateQuotationStart>
+		<alternateQuotationEnd>вЂ™</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">thg 1</month>
+							<month type="2">thg 2</month>
+							<month type="3">thg 3</month>
+							<month type="4">thg 4</month>
+							<month type="5">thg 5</month>
+							<month type="6">thg 6</month>
+							<month type="7">thg 7</month>
+							<month type="8">thg 8</month>
+							<month type="9">thg 9</month>
+							<month type="10">thg 10</month>
+							<month type="11">thg 11</month>
+							<month type="12">thg 12</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">thГЎng mб»™t</month>
+							<month type="2">thГЎng hai</month>
+							<month type="3">thГЎng ba</month>
+							<month type="4">thГЎng tЖ°</month>
+							<month type="5">thГЎng nДѓm</month>
+							<month type="6">thГЎng sГЎu</month>
+							<month type="7">thГЎng bбєЈy</month>
+							<month type="8">thГЎng tГЎm</month>
+							<month type="9">thГЎng chГ­n</month>
+							<month type="10">thГЎng mЖ°б»ќi</month>
+							<month type="11">thГЎng mЖ°б»ќi mб»™t</month>
+							<month type="12">thГЎng mЖ°б»ќi hai</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">CN</day>
+							<day type="mon">Th 2</day>
+							<day type="tue">Th 3</day>
+							<day type="wed">Th 4</day>
+							<day type="thu">Th 5</day>
+							<day type="fri">Th 6</day>
+							<day type="sat">Th 7</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">Chб»§ nhбє­t</day>
+							<day type="mon">Thб»© hai</day>
+							<day type="tue">Thб»© ba</day>
+							<day type="wed">Thб»© tЖ°</day>
+							<day type="thu">Thб»© nДѓm</day>
+							<day type="fri">Thб»© sГЎu</day>
+							<day type="sat">Thб»© bбєЈy</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<am>SA</am>
+				<pm>CH</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">tr. CN</era>
+						<era type="1">sau CN</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, 'ngГ y' dd MMMM 'nДѓm' y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>'NgГ y' dd 'thГЎng' M 'nДѓm' y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd-MM-yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd/MM/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{0} {1}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="long">
+						<dateTimeFormat>
+							<pattern>{0} {1}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{0} {1}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{0} {1}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="MEd">E, d-M</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">E d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd-MM</dateFormatItem>
+						<dateFormatItem id="Md">d-M</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, d-M-yyyy</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMM">MMMM y</dateFormatItem>
+						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ y</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyy">y</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM-yyyy</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">'ThГЎng' M - 'ThГЎng' M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">EEEE, dd/MM - EEEE, dd/MM</greatestDifference>
+							<greatestDifference id="d">EEEE, dd/MM - EEEE, dd/MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">MMM-MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">EEEE, 'ngГ y' dd 'thГЎng' M - EEEE, 'ngГ y' dd 'thГЎng' M</greatestDifference>
+							<greatestDifference id="d">EEEE, 'ngГ y' dd - EEEE, 'ngГ y' dd 'thГЎng' M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">'NgГ y' dd 'thГЎng' M - 'NgГ y' dd 'thГЎng' M</greatestDifference>
+							<greatestDifference id="d">'NgГ y' dd 'thГЎng' M - 'NgГ y' dd 'thГЎng' M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">dd/MM - dd/MM</greatestDifference>
+							<greatestDifference id="d">dd/MM - dd/MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">'NgГ y' d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">HH'h' - HH'h'</greatestDifference>
+							<greatestDifference id="h">HH'h' - HH'h'</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="h">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="h">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">HH'h'-HH'h' v</greatestDifference>
+							<greatestDifference id="h">HH'h'-HH'h' v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y-y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">MM/yyyy - MM/yyyy</greatestDifference>
+							<greatestDifference id="y">MM/yyyy - MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">EEEE, dd/MM/yyyy - EEEE, dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="d">EEEE, dd/MM/yyyy - EEEE, dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="y">EEEE, dd/MM/yyyy - EEEE, dd/MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">'ThГЎng' M - 'ThГЎng' M 'nДѓm' y</greatestDifference>
+							<greatestDifference id="y">'ThГЎng' M 'nДѓm' y - 'ThГЎng' M 'nДѓm' y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">EEEE, 'ngГ y' dd MMM - EEEE, 'ngГ y' dd MMM 'nДѓm' y</greatestDifference>
+							<greatestDifference id="d">EEEE, 'ngГ y' dd MMM - EEEE, 'ngГ y' dd MMM 'nДѓm' y</greatestDifference>
+							<greatestDifference id="y">EEEE, 'ngГ y' dd MMM 'nДѓm' y - EEEE, 'ngГ y' dd MMM 'nДѓm' y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">'NgГ y' dd 'thГЎng' M - 'NgГ y' dd 'thГЎng' M 'nДѓm' y</greatestDifference>
+							<greatestDifference id="d">'NgГ y' dd 'thГЎng' M - 'NgГ y' dd 'thГЎng' M 'nДѓm' y</greatestDifference>
+							<greatestDifference id="y">'NgГ y' dd 'thГЎng' M 'nДѓm' y - 'NgГ y' dd 'thГЎng' M 'nДѓm' y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="d">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+							<greatestDifference id="y">dd/MM/yyyy - dd/MM/yyyy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>KhГґng rГµ</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>Andorra Time</exemplarCity>
+			</zone>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>Dumont D'Urville</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity>Barbados Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>Bahrain Time</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity>Belize Time</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>Costa Rica Time</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity>Cape Verde Time</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>Djibouti Time</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>Dominica Time</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>Quбє§n ДђбєЈo Canary</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>Fiji Time</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity>Grenada Time</exemplarCity>
+			</zone>
+			<zone type="Atlantic/South_Georgia">
+				<exemplarCity>South Georgia and the South Sandwich Islands Time</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>Guatemala Time</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>Guyana Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>Hong Kong SAR China Time</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>Jamaica Time</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity>Saint Kitts and Nevis Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity>Kuwait Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Vientiane">
+				<exemplarCity>Laos Time</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity>Saint Lucia Time</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>Luxembourg Time</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>Monaco Time</exemplarCity>
+			</zone>
+			<zone type="Europe/Malta">
+				<exemplarCity>Malta Time</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity>Mauritius Time</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>Maldives Time</exemplarCity>
+			</zone>
+			<zone type="Pacific/Nauru">
+				<exemplarCity>Nauru Time</exemplarCity>
+			</zone>
+			<zone type="America/Panama">
+				<exemplarCity>Panama Time</exemplarCity>
+			</zone>
+			<zone type="Pacific/Palau">
+				<exemplarCity>Palau Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>Qatar Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>Singapore Time</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>El Salvador Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Taipei">
+				<exemplarCity>Taiwan Time</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity>Saint Vincent and the Grenadines Time</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity>U.S. Virgin Islands Time</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>Giб»ќ Viб»‡t Nam</exemplarCity>
+			</zone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>.</group>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<patternDigit>#</patternDigit>
+			<plusSign>+</plusSign>
+			<minusSign>-</minusSign>
+			<exponential>E</exponential>
+			<perMille>вЂ°</perMille>
+			<infinity>в€ћ</infinity>
+			<nan>NaN</nan>
+		</symbols>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<scientificFormats>
+			<scientificFormatLength>
+				<scientificFormat>
+					<pattern>#E0</pattern>
+				</scientificFormat>
+			</scientificFormatLength>
+		</scientificFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+			<unitPattern count="other">{0} {1}</unitPattern>
+		</currencyFormats>
+		<currencies>
+			<currency type="AED">
+				<displayName>Дђiram UAE</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>LГ©p Bungari</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>BRL</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>Franc Thб»Ґy sД©</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>CNY</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>Crun ExtГґnia</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>Euro</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>ДђГґ-la Fi-ji</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>Franc PhГЎp</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>BбєЈng Anh</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>Lari Georgia</displayName>
+			</currency>
+			<currency type="GHC">
+				<displayName>Cedi Ghana (1979-2007)</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>Cedi Ghana</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>Pao Gibraltar</displayName>
+			</currency>
+			<currency type="GNF">
+				<displayName>Franc Guinea</displayName>
+			</currency>
+			<currency type="GNS">
+				<displayName>Syli Guinea</displayName>
+			</currency>
+			<currency type="GRD">
+				<displayName>Drachma Hy LбєЎp</displayName>
+			</currency>
+			<currency type="GTQ">
+				<displayName>Quetzal Guatemala</displayName>
+			</currency>
+			<currency type="GWP">
+				<displayName>Peso Guinea-Bissau</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>ДђГґ-la Guyana</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>ДђГґ-la Hб»“ng KГґng</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>Honduras Lempira</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>Gourde Haiti</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>PhГґrin Hungari</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>Rupia InД‘ГґnГЄxia</displayName>
+			</currency>
+			<currency type="IEP">
+				<displayName>Pao Ai-len</displayName>
+			</currency>
+			<currency type="ILP">
+				<displayName>Pao Ixraen</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>SГЄken Ixraen</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>Rupi бє¤n Дђб»™</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>Dinar I-rбєЇc</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>Rial I-ran</displayName>
+			</currency>
+			<currency type="ITL">
+				<displayName>Lia Гќ</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>ДђГґ la Jamaica</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>Dinar Jordan</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>YГЄn Nhбє­t</displayName>
+			</currency>
+			<currency type="KES">
+				<displayName>Si-ling KГЄ-ny-a</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>Won HГ n Quб»‘c</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>Kazakhstan Tenge</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>Litat Lituani</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>Дђiaham Marб»‘c</displayName>
+			</currency>
+			<currency type="MTL">
+				<displayName>Lia xб»© Man-tЖЎ</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>Peso MГЄhicГґ</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>Rinhgit Malaixia</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>Curon Na Uy</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>ДђГґ-la New Zealand</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>Nuevo Sol PГЄru</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>Peso PhilГ­ppin</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>Rupi Pakistan</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>Zloty Ba Lan</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>LГўy Rumani</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>Дђina XГ©c-bi</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>RГєp Nga</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>Rian бєў rбє­p XГЄГєt</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>Cua-ron Thuб»µ Дђiб»ѓn</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>ДђГґ-la Singapore</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>TГґla XlГґvГЄnia</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>Cuaron XlГґvГЎc</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>BбєЎt ThГЎi Lan</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>Lia Thб»• NhД© Kб»і</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>Lia Thб»• NhД© Kб»і Mб»›i</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>ДђГґ-la ДђГ i Loan</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>RГєp U-crai-na</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>ДђГґ-la Mб»№</displayName>
+			</currency>
+			<currency type="VEB">
+				<displayName>BГґliva VГЄnГЄduГЄla</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>Д‘б»“ng</displayName>
+			</currency>
+			<currency type="XAU">
+				<displayName>VГ ng</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>Tiб»Ѓn tб»‡ chЖ°a biбєїt hoбє·c khГґng hб»Јp lб»‡</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>Ran Nam Phi</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<units>
+		<unit type="day">
+			<unitPattern count="other">{0} ngГ y</unitPattern>
+		</unit>
+		<unit type="hour">
+			<unitPattern count="other">{0} giб»ќ</unitPattern>
+		</unit>
+		<unit type="minute">
+			<unitPattern count="other">{0} phГєt</unitPattern>
+		</unit>
+		<unit type="month">
+			<unitPattern count="other">{0} thГЎng</unitPattern>
+		</unit>
+		<unit type="second">
+			<unitPattern count="other">{0} giГўy</unitPattern>
+		</unit>
+		<unit type="week">
+			<unitPattern count="other">{0} tuбє§n</unitPattern>
+		</unit>
+		<unit type="year">
+			<unitPattern count="other">{0} nДѓm</unitPattern>
+		</unit>
+	</units>
+	<posix>
+		<messages>
+			<yesstr>yes:y</yesstr>
+			<nostr>no:n</nostr>
+		</messages>
+	</posix>
+</ldml>
+

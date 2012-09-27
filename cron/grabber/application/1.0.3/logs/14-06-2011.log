@@ -1,0 +1,140 @@
+
+14-06-2011 22:26:52 --- INFO: start: 14-06-2011 22:26:52
+14-06-2011 22:26:52 --- ERROR: ErrorException [ 1 ]: Class 'Jelly_Meta' not found ~ MODPATH/jelly/classes/jelly/core.php [ 197 ]
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+14-06-2011 22:28:21 --- INFO: start: 14-06-2011 22:28:21
+14-06-2011 22:28:21 --- ERROR: ErrorException [ 1 ]: Class 'Jelly_Meta' not found ~ MODPATH/jelly/classes/jelly/core.php [ 197 ]
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+14-06-2011 22:39:45 --- INFO: start: 14-06-2011 22:39:45
+14-06-2011 22:39:45 --- INFO: ----------Source_Adesa (cli)
+14-06-2011 22:39:47 --- INFO: Authorized request
+14-06-2011 22:39:50 --- ERROR: ErrorException [ 2 ]: file_get_contents(/home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/cache/2_JTJHF10U120280246.html): failed to open stream: No such file or directory ~ APPPATH/classes/source/adesa.php [ 227 ]
+#0 [internal function]: Kohana_Core::error_handler(2, 'file_get_conten...', '/home/clients/b...', 227, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(227): file_get_contents('/home/clients/b...')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(85): Source_Adesa->_picture_exists('http://www.auct...')
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(48): Source_Adesa->execute()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(35): Source->run()
+#5 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-06-2011 22:40:45 --- INFO: start: 14-06-2011 22:40:45
+14-06-2011 22:40:45 --- INFO: ----------Source_Adesa (cli)
+14-06-2011 22:40:47 --- INFO: Authorized request
+14-06-2011 22:40:47 --- ERROR: ErrorException [ 2 ]: file_get_contents(/home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/cache/2_JTJHF10U930293537.html): failed to open stream: No such file or directory ~ APPPATH/classes/source/adesa.php [ 227 ]
+#0 [internal function]: Kohana_Core::error_handler(2, 'file_get_conten...', '/home/clients/b...', 227, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(227): file_get_contents('/home/clients/b...')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(85): Source_Adesa->_picture_exists('http://www.auct...')
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(48): Source_Adesa->execute()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(35): Source->run()
+#5 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-06-2011 22:41:08 --- INFO: start: 14-06-2011 22:41:08
+14-06-2011 22:41:08 --- INFO: ----------Source_Adesa (apache2handler)
+14-06-2011 22:41:09 --- INFO: Authorized request
+14-06-2011 22:41:09 --- ERROR: ErrorException [ 2 ]: file_get_contents(/home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/cache/2_JTJHF10U930293537.html): failed to open stream: No such file or directory ~ APPPATH/classes/source/adesa.php [ 227 ]
+#0 [internal function]: Kohana_Core::error_handler(2, 'file_get_conten...', '/home/clients/b...', 227, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(227): file_get_contents('/home/clients/b...')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(85): Source_Adesa->_picture_exists('http://www.auct...')
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(48): Source_Adesa->execute()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(35): Source->run()
+#5 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-06-2011 22:44:10 --- INFO: start: 14-06-2011 22:44:10
+14-06-2011 22:44:10 --- INFO: ----------Source_Adesa (apache2handler)
+14-06-2011 22:44:11 --- INFO: Authorized request
+14-06-2011 22:44:11 --- ERROR: ErrorException [ 2 ]: file_get_contents(/home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/cache/2_JTJHF10U930293537.html): failed to open stream: No such file or directory ~ APPPATH/classes/source/adesa.php [ 227 ]
+#0 [internal function]: Kohana_Core::error_handler(2, 'file_get_conten...', '/home/clients/b...', 227, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(227): file_get_contents('/home/clients/b...')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(85): Source_Adesa->_picture_exists('http://www.auct...')
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(48): Source_Adesa->execute()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(35): Source->run()
+#5 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-06-2011 22:47:41 --- INFO: start: 14-06-2011 22:47:41
+14-06-2011 22:47:41 --- INFO: ----------Source_Adesa (cli)
+14-06-2011 22:47:42 --- INFO: Authorized request
+14-06-2011 22:47:45 --- INFO: Lexus RX 300 - found: 7, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 1
+14-06-2011 22:47:56 --- INFO: Lexus RX 330 - found: 16, pass primary filters: 13, did not pass the filter by color: 6, added: 7, new vincodes: 7
+14-06-2011 22:47:56 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 22:48:00 --- INFO: Lexus GX 470 - found: 7, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 2
+14-06-2011 22:48:07 --- INFO: Lexus GX 470 - found: 9, pass primary filters: 6, did not pass the filter by color: 5, added: 1, new vincodes: 4
+14-06-2011 22:48:10 --- INFO: Lexus LX 470 - found: 4, pass primary filters: 3, did not pass the filter by color: 2, added: 1, new vincodes: 1
+14-06-2011 22:48:13 --- INFO: Lexus LX 470 - found: 6, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 3
+14-06-2011 22:48:14 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 22:48:14 --- INFO: Honda CR-V - found: 23, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 22:48:14 --- INFO: Honda CR-V - found: 6, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 22:48:17 --- INFO: Mitsubishi Montero 4WD Limited - found: 19, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 1
+14-06-2011 22:48:33 --- INFO: Toyota 4RUNNER 4WD Limited - found: 36, pass primary filters: 8, did not pass the filter by color: 7, added: 1, new vincodes: 4
+14-06-2011 22:48:36 --- INFO: Toyota RAV 4 - found: 8, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 3
+14-06-2011 22:48:37 --- INFO: Toyota Highlander 4WD - found: 25, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 1
+14-06-2011 22:48:44 --- INFO: Subaru Forester - found: 3, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 1
+14-06-2011 22:48:46 --- INFO: Nissan Rogue - found: 11, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 0
+14-06-2011 22:48:52 --- ERROR: ErrorException [ 2 ]: file_get_contents(/home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/cache/2_26038246.html): failed to open stream: No such file or directory ~ APPPATH/classes/source/adesa.php [ 227 ]
+#0 [internal function]: Kohana_Core::error_handler(2, 'file_get_conten...', '/home/clients/b...', 227, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(227): file_get_contents('/home/clients/b...')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source/adesa.php(85): Source_Adesa->_picture_exists('http://www.deal...')
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(48): Source_Adesa->execute()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(35): Source->run()
+#5 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-06-2011 23:07:17 --- INFO: start: 14-06-2011 23:07:17
+14-06-2011 23:07:17 --- INFO: ----------Source_Adesa (cli)
+14-06-2011 23:07:19 --- INFO: Authorized request
+14-06-2011 23:07:21 --- INFO: Lexus RX 300 - found: 7, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+14-06-2011 23:07:30 --- INFO: Lexus RX 330 - found: 16, pass primary filters: 13, did not pass the filter by color: 6, added: 7, new vincodes: 0
+14-06-2011 23:07:30 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:07:34 --- INFO: Lexus GX 470 - found: 7, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+14-06-2011 23:07:40 --- INFO: Lexus GX 470 - found: 9, pass primary filters: 6, did not pass the filter by color: 5, added: 1, new vincodes: 0
+14-06-2011 23:07:42 --- INFO: Lexus LX 470 - found: 4, pass primary filters: 3, did not pass the filter by color: 2, added: 1, new vincodes: 0
+14-06-2011 23:07:45 --- INFO: Lexus LX 470 - found: 6, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 0
+14-06-2011 23:07:45 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:07:45 --- INFO: Honda CR-V - found: 23, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:07:45 --- INFO: Honda CR-V - found: 6, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:07:48 --- INFO: Mitsubishi Montero 4WD Limited - found: 19, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+14-06-2011 23:08:01 --- INFO: Toyota 4RUNNER 4WD Limited - found: 36, pass primary filters: 8, did not pass the filter by color: 7, added: 1, new vincodes: 0
+14-06-2011 23:08:04 --- INFO: Toyota RAV 4 - found: 8, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 0
+14-06-2011 23:08:05 --- INFO: Toyota Highlander 4WD - found: 25, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+14-06-2011 23:08:08 --- INFO: Subaru Forester - found: 3, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 0
+14-06-2011 23:08:10 --- INFO: Nissan Rogue - found: 11, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 0
+14-06-2011 23:08:23 --- INFO: Toyota Highlander - found: 25, pass primary filters: 15, did not pass the filter by color: 14, added: 1, new vincodes: 6
+14-06-2011 23:08:23 --- INFO: Acura MDX - found: 24, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:08:23 --- INFO: finish: 14-06-2011 23:08:23
+14-06-2011 23:08:23 --- INFO: elapsed time: ~66.04 sec., memory usage: ~2.54 Mb.
+14-06-2011 23:10:01 --- INFO: start: 14-06-2011 23:10:01
+14-06-2011 23:10:01 --- INFO: ----------Source_Ebay (cli)
+14-06-2011 23:10:29 --- INFO: Lexus RX 300 - found: 34, pass primary filters: 5, did not pass the filter by color: 1, added: 4, new vincodes: 1
+14-06-2011 23:12:13 --- INFO: Lexus RX 330 - found: 77, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+14-06-2011 23:13:31 --- INFO: Lexus RX 400H - found: 60, pass primary filters: 4, did not pass the filter by color: 3, added: 1, new vincodes: 0
+14-06-2011 23:13:54 --- INFO: Lexus GX 470 - found: 31, pass primary filters: 9, did not pass the filter by color: 7, added: 2, new vincodes: 0
+14-06-2011 23:14:22 --- INFO: Lexus GX 470 - found: 38, pass primary filters: 19, did not pass the filter by color: 18, added: 1, new vincodes: 0
+14-06-2011 23:14:32 --- INFO: Lexus LX 470 - found: 13, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+14-06-2011 23:14:38 --- INFO: Lexus LX 470 - found: 7, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+14-06-2011 23:14:46 --- INFO: Toyota Land Cruiser - found: 10, pass primary filters: 8, did not pass the filter by color: 8, added: 0, new vincodes: 0
+14-06-2011 23:15:01 --- INFO: Honda CR-V - found: 20, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+14-06-2011 23:16:36 --- INFO: Honda CR-V - found: 68, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:16:42 --- INFO: Mitsubishi Montero 4WD Limited - found: 6, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:18:18 --- INFO: Toyota 4RUNNER 4WD Limited - found: 69, pass primary filters: 36, did not pass the filter by color: 24, added: 12, new vincodes: 0
+14-06-2011 23:18:30 --- INFO: Toyota RAV 4 - found: 16, pass primary filters: 8, did not pass the filter by color: 7, added: 1, new vincodes: 0
+14-06-2011 23:18:54 --- INFO: Toyota Highlander 4WD - found: 34, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:20:18 --- INFO: Subaru Forester - found: 60, pass primary filters: 6, did not pass the filter by color: 0, added: 6, new vincodes: 0
+14-06-2011 23:20:46 --- INFO: Nissan Rogue - found: 38, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 0
+14-06-2011 23:21:08 --- INFO: Toyota Highlander - found: 34, pass primary filters: 6, did not pass the filter by color: 6, added: 0, new vincodes: 0
+14-06-2011 23:21:23 --- INFO: Acura MDX - found: 19, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+14-06-2011 23:21:23 --- INFO: finish: 14-06-2011 23:21:23
+14-06-2011 23:21:23 --- INFO: elapsed time: ~681.15 sec., memory usage: ~2.92 Mb.

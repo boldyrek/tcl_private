@@ -1,0 +1,532 @@
+
+05-12-2011 02:05:01 --- INFO: start: 05-12-2011 02:05:01
+05-12-2011 02:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 02:10:01 --- INFO: start: 05-12-2011 02:10:01
+05-12-2011 02:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 05:10:01 --- INFO: start: 05-12-2011 05:10:01
+05-12-2011 05:10:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 05:10:03 --- INFO: Authorized request
+05-12-2011 05:10:04 --- INFO: Lexus RX 300 - found: 3, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:10:06 --- INFO: Lexus RX 330 - found: 7, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 05:10:07 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 05:10:09 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 05:10:11 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 05:10:12 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 05:10:12 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:10:13 --- INFO: Toyota Land Cruiser - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 05:10:14 --- INFO: Honda CR-V - found: 5, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 05:10:14 --- INFO: Honda CR-V - found: 8, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:10:16 --- INFO: Mitsubishi Montero 4WD Limited - found: 14, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 05:10:21 --- INFO: Toyota 4RUNNER 4WD Limited - found: 17, pass primary filters: 6, did not pass the filter by color: 2, added: 4, new vincodes: 0
+05-12-2011 05:10:23 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 05:10:23 --- INFO: Toyota Highlander 4WD - found: 14, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:10:29 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 05:10:34 --- INFO: Toyota Highlander - found: 14, pass primary filters: 6, did not pass the filter by color: 4, added: 2, new vincodes: 0
+05-12-2011 05:10:35 --- INFO: Acura MDX - found: 16, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:10:38 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 05:10:39 --- INFO: Toyota 4RUNNER - found: 18, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 05:10:39 --- INFO: finish: 05-12-2011 05:10:39
+05-12-2011 05:10:39 --- INFO: elapsed time: ~37.21 sec., memory usage: ~2.24 Mb.
+05-12-2011 05:10:01 --- INFO: start: 05-12-2011 05:10:01
+05-12-2011 05:10:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 05:10:42 --- INFO: Lexus RX 300 - found: 41, pass primary filters: 14, did not pass the filter by color: 5, added: 9, new vincodes: 0
+05-12-2011 05:15:12 --- INFO: Lexus RX 330 - found: 164, pass primary filters: 48, did not pass the filter by color: 10, added: 38, new vincodes: 0
+05-12-2011 05:15:54 --- INFO: Lexus RX 400H - found: 20, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 05:17:37 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 35, did not pass the filter by color: 26, added: 9, new vincodes: 0
+05-12-2011 05:18:50 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 29, did not pass the filter by color: 25, added: 4, new vincodes: 1
+05-12-2011 05:19:14 --- INFO: Lexus LX 470 - found: 14, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 05:19:40 --- INFO: Lexus LX 470 - found: 17, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 05:19:54 --- INFO: Toyota Land Cruiser - found: 9, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 05:21:42 --- INFO: Honda CR-V - found: 47, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 05:25:42 --- INFO: Honda CR-V - found: 139, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+05-12-2011 05:26:57 --- INFO: Mitsubishi Montero 4WD Limited - found: 51, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 05:30:06 --- INFO: Toyota 4RUNNER 4WD Limited - found: 127, pass primary filters: 45, did not pass the filter by color: 29, added: 16, new vincodes: 0
+05-12-2011 05:31:13 --- INFO: Toyota RAV 4 - found: 53, pass primary filters: 16, did not pass the filter by color: 9, added: 7, new vincodes: 0
+05-12-2011 05:33:02 --- INFO: Toyota Highlander 4WD - found: 67, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 05:36:51 --- INFO: Subaru Forester - found: 130, pass primary filters: 22, did not pass the filter by color: 0, added: 22, new vincodes: 0
+05-12-2011 05:37:35 --- INFO: Toyota Highlander - found: 67, pass primary filters: 32, did not pass the filter by color: 26, added: 6, new vincodes: 0
+05-12-2011 05:38:45 --- INFO: Acura MDX - found: 48, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 05:42:08 --- INFO: Lexus RX 350 - found: 133, pass primary filters: 6, did not pass the filter by color: 3, added: 3, new vincodes: 0
+05-12-2011 05:45:14 --- INFO: Toyota 4RUNNER - found: 194, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+05-12-2011 05:45:14 --- INFO: finish: 05-12-2011 05:45:14
+05-12-2011 05:45:14 --- INFO: elapsed time: ~2112.66 sec., memory usage: ~4.24 Mb.
+05-12-2011 06:05:01 --- INFO: start: 05-12-2011 06:05:01
+05-12-2011 06:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 06:10:01 --- INFO: start: 05-12-2011 06:10:01
+05-12-2011 06:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 07:10:01 --- INFO: start: 05-12-2011 07:10:01
+05-12-2011 07:10:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 07:10:03 --- INFO: Authorized request
+05-12-2011 07:10:03 --- INFO: Lexus RX 300 - found: 3, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:10:06 --- INFO: Lexus RX 330 - found: 7, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 07:10:06 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 07:10:08 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 07:10:10 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 07:10:12 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 07:10:12 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:10:13 --- INFO: Toyota Land Cruiser - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 07:10:14 --- INFO: Honda CR-V - found: 5, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 07:10:14 --- INFO: Honda CR-V - found: 8, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:10:16 --- INFO: Mitsubishi Montero 4WD Limited - found: 14, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 07:10:21 --- INFO: Toyota 4RUNNER 4WD Limited - found: 17, pass primary filters: 6, did not pass the filter by color: 2, added: 4, new vincodes: 0
+05-12-2011 07:10:23 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 07:10:23 --- INFO: Toyota Highlander 4WD - found: 14, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:10:30 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 07:10:36 --- INFO: Toyota Highlander - found: 14, pass primary filters: 6, did not pass the filter by color: 4, added: 2, new vincodes: 0
+05-12-2011 07:10:36 --- INFO: Acura MDX - found: 16, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:10:38 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 07:10:39 --- INFO: Toyota 4RUNNER - found: 18, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 07:10:39 --- INFO: finish: 05-12-2011 07:10:39
+05-12-2011 07:10:39 --- INFO: elapsed time: ~37.92 sec., memory usage: ~2.24 Mb.
+05-12-2011 07:10:01 --- INFO: start: 05-12-2011 07:10:01
+05-12-2011 07:10:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 07:10:27 --- INFO: Lexus RX 300 - found: 41, pass primary filters: 14, did not pass the filter by color: 5, added: 9, new vincodes: 0
+05-12-2011 07:12:02 --- INFO: Lexus RX 330 - found: 164, pass primary filters: 48, did not pass the filter by color: 10, added: 38, new vincodes: 0
+05-12-2011 07:12:15 --- INFO: Lexus RX 400H - found: 20, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 07:12:47 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 35, did not pass the filter by color: 26, added: 9, new vincodes: 0
+05-12-2011 07:13:19 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 29, did not pass the filter by color: 25, added: 4, new vincodes: 0
+05-12-2011 07:13:36 --- INFO: Lexus LX 470 - found: 14, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 07:13:49 --- INFO: Lexus LX 470 - found: 17, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 07:13:57 --- INFO: Toyota Land Cruiser - found: 9, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 07:14:25 --- INFO: Honda CR-V - found: 47, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 07:16:00 --- INFO: Honda CR-V - found: 139, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+05-12-2011 07:16:45 --- INFO: Mitsubishi Montero 4WD Limited - found: 51, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 07:18:24 --- INFO: Toyota 4RUNNER 4WD Limited - found: 127, pass primary filters: 45, did not pass the filter by color: 29, added: 16, new vincodes: 0
+05-12-2011 07:19:05 --- INFO: Toyota RAV 4 - found: 53, pass primary filters: 16, did not pass the filter by color: 9, added: 7, new vincodes: 0
+05-12-2011 07:20:03 --- INFO: Toyota Highlander 4WD - found: 67, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 07:21:27 --- INFO: Subaru Forester - found: 130, pass primary filters: 22, did not pass the filter by color: 0, added: 22, new vincodes: 0
+05-12-2011 07:22:07 --- INFO: Toyota Highlander - found: 67, pass primary filters: 32, did not pass the filter by color: 26, added: 6, new vincodes: 0
+05-12-2011 07:22:37 --- INFO: Acura MDX - found: 48, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 07:24:17 --- INFO: Lexus RX 350 - found: 133, pass primary filters: 6, did not pass the filter by color: 3, added: 3, new vincodes: 0
+05-12-2011 07:26:12 --- INFO: Toyota 4RUNNER - found: 194, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+05-12-2011 07:26:12 --- INFO: finish: 05-12-2011 07:26:12
+05-12-2011 07:26:12 --- INFO: elapsed time: ~970.64 sec., memory usage: ~4.19 Mb.
+05-12-2011 08:10:02 --- INFO: start: 05-12-2011 08:10:02
+05-12-2011 08:10:02 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 08:10:02 --- INFO: Authorized request
+05-12-2011 08:10:04 --- INFO: Lexus RX 300 - found: 4, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 08:10:06 --- INFO: Lexus RX 330 - found: 7, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 08:10:06 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 08:10:08 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 08:10:10 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 08:10:11 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 08:10:11 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:10:11 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:10:12 --- INFO: Honda CR-V - found: 6, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 08:10:13 --- INFO: Honda CR-V - found: 8, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:10:14 --- INFO: Mitsubishi Montero 4WD Limited - found: 14, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 08:10:24 --- INFO: Toyota 4RUNNER 4WD Limited - found: 18, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 2
+05-12-2011 08:10:25 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 08:10:26 --- INFO: Toyota Highlander 4WD - found: 14, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:10:32 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 08:10:38 --- INFO: Toyota Highlander - found: 14, pass primary filters: 6, did not pass the filter by color: 4, added: 2, new vincodes: 0
+05-12-2011 08:10:39 --- INFO: Acura MDX - found: 16, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:10:41 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 08:10:42 --- INFO: Toyota 4RUNNER - found: 19, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 08:10:42 --- INFO: finish: 05-12-2011 08:10:42
+05-12-2011 08:10:42 --- INFO: elapsed time: ~40.53 sec., memory usage: ~2.28 Mb.
+05-12-2011 08:10:02 --- INFO: start: 05-12-2011 08:10:02
+05-12-2011 08:10:02 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 08:10:28 --- INFO: Lexus RX 300 - found: 41, pass primary filters: 14, did not pass the filter by color: 5, added: 9, new vincodes: 0
+05-12-2011 08:12:26 --- INFO: Lexus RX 330 - found: 164, pass primary filters: 48, did not pass the filter by color: 10, added: 38, new vincodes: 0
+05-12-2011 08:12:41 --- INFO: Lexus RX 400H - found: 20, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 08:13:29 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 35, did not pass the filter by color: 26, added: 9, new vincodes: 0
+05-12-2011 08:14:07 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 29, did not pass the filter by color: 25, added: 4, new vincodes: 0
+05-12-2011 08:14:21 --- INFO: Lexus LX 470 - found: 14, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 08:14:36 --- INFO: Lexus LX 470 - found: 17, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 08:14:46 --- INFO: Toyota Land Cruiser - found: 9, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 08:15:22 --- INFO: Honda CR-V - found: 47, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 08:17:06 --- INFO: Honda CR-V - found: 139, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+05-12-2011 08:17:44 --- INFO: Mitsubishi Montero 4WD Limited - found: 51, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 08:19:14 --- INFO: Toyota 4RUNNER 4WD Limited - found: 127, pass primary filters: 45, did not pass the filter by color: 29, added: 16, new vincodes: 0
+05-12-2011 08:19:48 --- INFO: Toyota RAV 4 - found: 53, pass primary filters: 16, did not pass the filter by color: 9, added: 7, new vincodes: 0
+05-12-2011 08:20:50 --- INFO: Toyota Highlander 4WD - found: 67, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 08:22:42 --- INFO: Subaru Forester - found: 130, pass primary filters: 22, did not pass the filter by color: 0, added: 22, new vincodes: 0
+05-12-2011 08:23:31 --- INFO: Toyota Highlander - found: 67, pass primary filters: 32, did not pass the filter by color: 26, added: 6, new vincodes: 0
+05-12-2011 08:24:14 --- INFO: Acura MDX - found: 48, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 08:26:10 --- INFO: Lexus RX 350 - found: 133, pass primary filters: 6, did not pass the filter by color: 3, added: 3, new vincodes: 0
+05-12-2011 08:28:45 --- INFO: Toyota 4RUNNER - found: 194, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+05-12-2011 08:28:45 --- INFO: finish: 05-12-2011 08:28:45
+05-12-2011 08:28:45 --- INFO: elapsed time: ~1122.98 sec., memory usage: ~4.19 Mb.
+05-12-2011 09:00:02 --- INFO: start: 05-12-2011 09:00:02
+05-12-2011 09:00:02 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 09:00:02 --- INFO: Authorized request
+05-12-2011 09:00:04 --- INFO: Lexus RX 300 - found: 4, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 09:00:06 --- INFO: Lexus RX 330 - found: 8, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 09:00:07 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 09:00:09 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 09:00:11 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 09:00:12 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 09:00:12 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:00:13 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:00:13 --- INFO: Honda CR-V - found: 7, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 09:00:14 --- INFO: Honda CR-V - found: 9, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:00:16 --- INFO: Mitsubishi Montero 4WD Limited - found: 14, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 09:00:22 --- INFO: Toyota 4RUNNER 4WD Limited - found: 18, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 09:00:25 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 09:00:26 --- INFO: Toyota Highlander 4WD - found: 15, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:00:34 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 09:00:39 --- INFO: Toyota Highlander - found: 15, pass primary filters: 6, did not pass the filter by color: 4, added: 2, new vincodes: 0
+05-12-2011 09:00:40 --- INFO: Acura MDX - found: 16, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:00:43 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 09:00:44 --- INFO: Toyota 4RUNNER - found: 19, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 09:00:44 --- INFO: finish: 05-12-2011 09:00:44
+05-12-2011 09:00:44 --- INFO: elapsed time: ~42.33 sec., memory usage: ~2.25 Mb.
+05-12-2011 09:00:02 --- INFO: start: 05-12-2011 09:00:02
+05-12-2011 09:00:02 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 09:01:02 --- INFO: Lexus RX 300 - found: 41, pass primary filters: 14, did not pass the filter by color: 5, added: 9, new vincodes: 0
+05-12-2011 09:02:42 --- INFO: Lexus RX 330 - found: 164, pass primary filters: 48, did not pass the filter by color: 10, added: 38, new vincodes: 0
+05-12-2011 09:02:58 --- INFO: Lexus RX 400H - found: 20, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 09:03:44 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 35, did not pass the filter by color: 26, added: 9, new vincodes: 0
+05-12-2011 09:04:21 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 29, did not pass the filter by color: 25, added: 4, new vincodes: 0
+05-12-2011 09:04:31 --- INFO: Lexus LX 470 - found: 14, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 09:04:44 --- INFO: Lexus LX 470 - found: 17, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 09:04:52 --- INFO: Toyota Land Cruiser - found: 9, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 09:05:23 --- INFO: Honda CR-V - found: 47, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 09:06:48 --- INFO: Honda CR-V - found: 139, pass primary filters: 3, did not pass the filter by color: 0, added: 3, new vincodes: 0
+05-12-2011 09:07:23 --- INFO: Mitsubishi Montero 4WD Limited - found: 51, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 09:09:34 --- INFO: Toyota 4RUNNER 4WD Limited - found: 127, pass primary filters: 45, did not pass the filter by color: 29, added: 16, new vincodes: 0
+05-12-2011 09:10:18 --- INFO: Toyota RAV 4 - found: 53, pass primary filters: 16, did not pass the filter by color: 9, added: 7, new vincodes: 0
+05-12-2011 09:11:04 --- INFO: Toyota Highlander 4WD - found: 67, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 09:12:49 --- INFO: Subaru Forester - found: 130, pass primary filters: 22, did not pass the filter by color: 0, added: 22, new vincodes: 0
+05-12-2011 09:13:41 --- INFO: Toyota Highlander - found: 67, pass primary filters: 32, did not pass the filter by color: 26, added: 6, new vincodes: 0
+05-12-2011 09:14:17 --- INFO: Acura MDX - found: 48, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 09:15:59 --- INFO: Lexus RX 350 - found: 133, pass primary filters: 6, did not pass the filter by color: 3, added: 3, new vincodes: 0
+05-12-2011 09:18:05 --- INFO: Toyota 4RUNNER - found: 194, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+05-12-2011 09:18:05 --- INFO: finish: 05-12-2011 09:18:05
+05-12-2011 09:18:05 --- INFO: elapsed time: ~1083.33 sec., memory usage: ~4.19 Mb.
+05-12-2011 10:05:01 --- INFO: start: 05-12-2011 10:05:01
+05-12-2011 10:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 10:10:01 --- INFO: start: 05-12-2011 10:10:01
+05-12-2011 10:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 10:10:01 --- INFO: start: 05-12-2011 10:10:01
+05-12-2011 10:10:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 10:10:03 --- INFO: Authorized request
+05-12-2011 10:10:05 --- INFO: Lexus RX 300 - found: 4, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 10:10:09 --- INFO: Lexus RX 330 - found: 9, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+05-12-2011 10:10:09 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 10:10:14 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 10:10:16 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 10:10:17 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 10:10:17 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 10:10:17 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 10:10:18 --- INFO: Honda CR-V - found: 7, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 10:10:19 --- INFO: Honda CR-V - found: 9, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 10:10:21 --- INFO: Mitsubishi Montero 4WD Limited - found: 14, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 10:10:28 --- INFO: Toyota 4RUNNER 4WD Limited - found: 20, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 10:10:30 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 10:10:31 --- INFO: Toyota Highlander 4WD - found: 15, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 10:10:37 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 10:10:45 --- INFO: Toyota Highlander - found: 15, pass primary filters: 6, did not pass the filter by color: 4, added: 2, new vincodes: 0
+05-12-2011 10:10:45 --- INFO: Acura MDX - found: 16, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 10:10:48 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 10:10:49 --- INFO: Toyota 4RUNNER - found: 21, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 10:10:49 --- INFO: finish: 05-12-2011 10:10:49
+05-12-2011 10:10:49 --- INFO: elapsed time: ~47.76 sec., memory usage: ~2.26 Mb.
+05-12-2011 10:10:01 --- INFO: start: 05-12-2011 10:10:01
+05-12-2011 10:10:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 10:10:56 --- INFO: Lexus RX 300 - found: 48, pass primary filters: 17, did not pass the filter by color: 7, added: 10, new vincodes: 2
+05-12-2011 10:15:32 --- INFO: Lexus RX 330 - found: 168, pass primary filters: 49, did not pass the filter by color: 11, added: 38, new vincodes: 0
+05-12-2011 10:16:03 --- INFO: Lexus RX 400H - found: 21, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 10:17:28 --- INFO: Lexus GX 470 - found: 61, pass primary filters: 38, did not pass the filter by color: 28, added: 10, new vincodes: 2
+05-12-2011 10:18:53 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 33, did not pass the filter by color: 27, added: 6, new vincodes: 2
+05-12-2011 10:19:16 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 10:19:45 --- INFO: Lexus LX 470 - found: 19, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 10:20:04 --- INFO: Toyota Land Cruiser - found: 10, pass primary filters: 6, did not pass the filter by color: 5, added: 1, new vincodes: 0
+05-12-2011 10:21:22 --- INFO: Honda CR-V - found: 55, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 10:25:11 --- INFO: Honda CR-V - found: 150, pass primary filters: 6, did not pass the filter by color: 0, added: 6, new vincodes: 2
+05-12-2011 10:26:37 --- INFO: Mitsubishi Montero 4WD Limited - found: 55, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 10:30:01 --- INFO: Toyota 4RUNNER 4WD Limited - found: 141, pass primary filters: 49, did not pass the filter by color: 33, added: 16, new vincodes: 2
+05-12-2011 10:31:24 --- INFO: Toyota RAV 4 - found: 61, pass primary filters: 19, did not pass the filter by color: 12, added: 7, new vincodes: 2
+05-12-2011 10:34:11 --- INFO: Toyota Highlander 4WD - found: 81, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 10:38:39 --- INFO: Subaru Forester - found: 136, pass primary filters: 23, did not pass the filter by color: 0, added: 23, new vincodes: 0
+05-12-2011 10:39:38 --- INFO: Toyota Highlander - found: 81, pass primary filters: 36, did not pass the filter by color: 29, added: 7, new vincodes: 4
+05-12-2011 10:41:16 --- INFO: Acura MDX - found: 55, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 10:45:24 --- INFO: Lexus RX 350 - found: 146, pass primary filters: 7, did not pass the filter by color: 3, added: 4, new vincodes: 1
+05-12-2011 10:48:56 --- INFO: Toyota 4RUNNER - found: 215, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 10:48:56 --- INFO: finish: 05-12-2011 10:48:56
+05-12-2011 10:48:56 --- INFO: elapsed time: ~2334.37 sec., memory usage: ~4.5 Mb.
+05-12-2011 11:20:01 --- INFO: start: 05-12-2011 11:20:01
+05-12-2011 11:20:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 11:20:03 --- INFO: Authorized request
+05-12-2011 11:20:04 --- INFO: Lexus RX 300 - found: 7, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 11:20:08 --- INFO: Lexus RX 330 - found: 9, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+05-12-2011 11:20:08 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 11:20:12 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 11:20:14 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 11:20:15 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 11:20:15 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 11:20:16 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 11:20:18 --- INFO: Honda CR-V - found: 8, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 11:20:18 --- INFO: Honda CR-V - found: 9, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 11:20:20 --- INFO: Mitsubishi Montero 4WD Limited - found: 16, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 11:20:29 --- INFO: Toyota 4RUNNER 4WD Limited - found: 22, pass primary filters: 9, did not pass the filter by color: 5, added: 4, new vincodes: 1
+05-12-2011 11:20:31 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 11:20:31 --- INFO: Toyota Highlander 4WD - found: 15, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 11:20:38 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 11:20:46 --- INFO: Toyota Highlander - found: 15, pass primary filters: 7, did not pass the filter by color: 4, added: 3, new vincodes: 1
+05-12-2011 11:20:47 --- INFO: Acura MDX - found: 18, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 11:20:50 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 11:20:51 --- INFO: Toyota 4RUNNER - found: 23, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 11:20:51 --- INFO: finish: 05-12-2011 11:20:51
+05-12-2011 11:20:51 --- INFO: elapsed time: ~49.97 sec., memory usage: ~2.3 Mb.
+05-12-2011 11:20:01 --- INFO: start: 05-12-2011 11:20:01
+05-12-2011 11:20:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 11:20:38 --- INFO: Lexus RX 300 - found: 48, pass primary filters: 17, did not pass the filter by color: 7, added: 10, new vincodes: 0
+05-12-2011 11:22:36 --- INFO: Lexus RX 330 - found: 168, pass primary filters: 49, did not pass the filter by color: 11, added: 38, new vincodes: 0
+05-12-2011 11:22:59 --- INFO: Lexus RX 400H - found: 21, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 11:24:05 --- INFO: Lexus GX 470 - found: 61, pass primary filters: 38, did not pass the filter by color: 28, added: 10, new vincodes: 0
+05-12-2011 11:24:53 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 33, did not pass the filter by color: 27, added: 6, new vincodes: 0
+05-12-2011 11:25:09 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 11:25:31 --- INFO: Lexus LX 470 - found: 19, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 11:25:43 --- INFO: Toyota Land Cruiser - found: 10, pass primary filters: 6, did not pass the filter by color: 5, added: 1, new vincodes: 0
+05-12-2011 11:26:31 --- INFO: Honda CR-V - found: 55, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 11:28:29 --- INFO: Honda CR-V - found: 150, pass primary filters: 6, did not pass the filter by color: 0, added: 6, new vincodes: 0
+05-12-2011 11:29:11 --- INFO: Mitsubishi Montero 4WD Limited - found: 55, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 11:30:59 --- INFO: Toyota 4RUNNER 4WD Limited - found: 141, pass primary filters: 49, did not pass the filter by color: 33, added: 16, new vincodes: 0
+05-12-2011 11:31:42 --- INFO: Toyota RAV 4 - found: 61, pass primary filters: 19, did not pass the filter by color: 12, added: 7, new vincodes: 0
+05-12-2011 11:32:43 --- INFO: Toyota Highlander 4WD - found: 81, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 11:34:33 --- INFO: Subaru Forester - found: 136, pass primary filters: 23, did not pass the filter by color: 0, added: 23, new vincodes: 0
+05-12-2011 11:35:29 --- INFO: Toyota Highlander - found: 81, pass primary filters: 36, did not pass the filter by color: 29, added: 7, new vincodes: 0
+05-12-2011 11:36:08 --- INFO: Acura MDX - found: 55, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 11:37:54 --- INFO: Lexus RX 350 - found: 146, pass primary filters: 7, did not pass the filter by color: 3, added: 4, new vincodes: 0
+05-12-2011 11:40:18 --- INFO: Toyota 4RUNNER - found: 215, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 11:40:18 --- INFO: finish: 05-12-2011 11:40:18
+05-12-2011 11:40:18 --- INFO: elapsed time: ~1217.06 sec., memory usage: ~4.41 Mb.
+05-12-2011 12:20:01 --- INFO: start: 05-12-2011 12:20:01
+05-12-2011 12:20:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 12:20:02 --- INFO: Authorized request
+05-12-2011 12:20:05 --- INFO: Lexus RX 300 - found: 7, pass primary filters: 2, did not pass the filter by color: 1, added: 1, new vincodes: 1
+05-12-2011 12:20:09 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+05-12-2011 12:20:10 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 12:20:12 --- INFO: Lexus GX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 12:20:14 --- INFO: Lexus GX 470 - found: 2, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 12:20:15 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 12:20:16 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 12:20:16 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 12:20:17 --- INFO: Honda CR-V - found: 8, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 12:20:17 --- INFO: Honda CR-V - found: 9, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 12:20:19 --- INFO: Mitsubishi Montero 4WD Limited - found: 16, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 12:20:38 --- INFO: Toyota 4RUNNER 4WD Limited - found: 24, pass primary filters: 12, did not pass the filter by color: 6, added: 6, new vincodes: 2
+05-12-2011 12:20:40 --- INFO: Toyota RAV 4 - found: 3, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 12:20:40 --- INFO: Toyota Highlander 4WD - found: 15, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 12:20:49 --- INFO: Subaru Forester - found: 9, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 12:20:55 --- INFO: Toyota Highlander - found: 15, pass primary filters: 7, did not pass the filter by color: 4, added: 3, new vincodes: 0
+05-12-2011 12:20:56 --- INFO: Acura MDX - found: 18, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 12:20:59 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 3, did not pass the filter by color: 1, added: 2, new vincodes: 0
+05-12-2011 12:21:00 --- INFO: Toyota 4RUNNER - found: 25, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 12:21:00 --- INFO: finish: 05-12-2011 12:21:00
+05-12-2011 12:21:00 --- INFO: elapsed time: ~58.99 sec., memory usage: ~2.34 Mb.
+05-12-2011 12:20:01 --- INFO: start: 05-12-2011 12:20:01
+05-12-2011 12:20:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 12:20:35 --- INFO: Lexus RX 300 - found: 48, pass primary filters: 17, did not pass the filter by color: 7, added: 10, new vincodes: 0
+05-12-2011 12:23:00 --- INFO: Lexus RX 330 - found: 168, pass primary filters: 49, did not pass the filter by color: 11, added: 38, new vincodes: 0
+05-12-2011 12:23:16 --- INFO: Lexus RX 400H - found: 21, pass primary filters: 8, did not pass the filter by color: 4, added: 4, new vincodes: 0
+05-12-2011 12:24:10 --- INFO: Lexus GX 470 - found: 61, pass primary filters: 38, did not pass the filter by color: 28, added: 10, new vincodes: 0
+05-12-2011 12:24:48 --- INFO: Lexus GX 470 - found: 55, pass primary filters: 33, did not pass the filter by color: 27, added: 6, new vincodes: 0
+05-12-2011 12:25:01 --- INFO: Lexus LX 470 - found: 16, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 12:25:14 --- INFO: Lexus LX 470 - found: 19, pass primary filters: 11, did not pass the filter by color: 11, added: 0, new vincodes: 0
+05-12-2011 12:25:22 --- INFO: Toyota Land Cruiser - found: 10, pass primary filters: 6, did not pass the filter by color: 5, added: 1, new vincodes: 0
+05-12-2011 12:26:01 --- INFO: Honda CR-V - found: 55, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 12:27:36 --- INFO: Honda CR-V - found: 150, pass primary filters: 6, did not pass the filter by color: 0, added: 6, new vincodes: 0
+05-12-2011 12:28:14 --- INFO: Mitsubishi Montero 4WD Limited - found: 55, pass primary filters: 16, did not pass the filter by color: 16, added: 0, new vincodes: 0
+05-12-2011 12:29:53 --- INFO: Toyota 4RUNNER 4WD Limited - found: 141, pass primary filters: 49, did not pass the filter by color: 33, added: 16, new vincodes: 0
+05-12-2011 12:30:28 --- INFO: Toyota RAV 4 - found: 61, pass primary filters: 19, did not pass the filter by color: 12, added: 7, new vincodes: 0
+05-12-2011 12:31:16 --- INFO: Toyota Highlander 4WD - found: 81, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 12:32:49 --- INFO: Subaru Forester - found: 136, pass primary filters: 23, did not pass the filter by color: 0, added: 23, new vincodes: 0
+05-12-2011 12:33:37 --- INFO: Toyota Highlander - found: 81, pass primary filters: 36, did not pass the filter by color: 29, added: 7, new vincodes: 0
+05-12-2011 12:34:16 --- INFO: Acura MDX - found: 55, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 12:35:44 --- INFO: Lexus RX 350 - found: 146, pass primary filters: 7, did not pass the filter by color: 3, added: 4, new vincodes: 0
+05-12-2011 12:37:58 --- INFO: Toyota 4RUNNER - found: 215, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 0
+05-12-2011 12:37:58 --- INFO: finish: 05-12-2011 12:37:58
+05-12-2011 12:37:58 --- INFO: elapsed time: ~1077.05 sec., memory usage: ~4.41 Mb.
+05-12-2011 14:05:01 --- INFO: start: 05-12-2011 14:05:01
+05-12-2011 14:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 14:10:02 --- INFO: start: 05-12-2011 14:10:02
+05-12-2011 14:10:02 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 15:10:01 --- INFO: start: 05-12-2011 15:10:01
+05-12-2011 15:10:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 15:10:03 --- INFO: Authorized request
+05-12-2011 15:10:08 --- INFO: Lexus RX 300 - found: 8, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+05-12-2011 15:10:17 --- INFO: Lexus RX 330 - found: 12, pass primary filters: 6, did not pass the filter by color: 2, added: 4, new vincodes: 2
+05-12-2011 15:10:17 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 15:10:22 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 2
+05-12-2011 15:10:28 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 4, did not pass the filter by color: 3, added: 1, new vincodes: 0
+05-12-2011 15:10:29 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 15:10:30 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 15:10:30 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 15:10:33 --- INFO: Honda CR-V - found: 8, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 1
+05-12-2011 15:10:34 --- INFO: Honda CR-V - found: 9, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 1
+05-12-2011 15:10:36 --- INFO: Mitsubishi Montero 4WD Limited - found: 16, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 15:10:49 --- INFO: Toyota 4RUNNER 4WD Limited - found: 26, pass primary filters: 12, did not pass the filter by color: 6, added: 6, new vincodes: 1
+05-12-2011 15:10:51 --- INFO: Toyota RAV 4 - found: 4, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 15:10:52 --- INFO: Toyota Highlander 4WD - found: 19, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 15:11:02 --- INFO: Subaru Forester - found: 11, pass primary filters: 8, did not pass the filter by color: 0, added: 8, new vincodes: 0
+05-12-2011 15:11:10 --- INFO: Toyota Highlander - found: 19, pass primary filters: 8, did not pass the filter by color: 5, added: 3, new vincodes: 0
+05-12-2011 15:11:10 --- INFO: Acura MDX - found: 21, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 15:11:15 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 1
+05-12-2011 15:11:17 --- INFO: Toyota 4RUNNER - found: 27, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 15:11:17 --- INFO: finish: 05-12-2011 15:11:17
+05-12-2011 15:11:17 --- INFO: elapsed time: ~75.55 sec., memory usage: ~2.49 Mb.
+05-12-2011 15:10:01 --- INFO: start: 05-12-2011 15:10:01
+05-12-2011 15:10:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 15:12:11 --- INFO: Lexus RX 300 - found: 62, pass primary filters: 25, did not pass the filter by color: 9, added: 16, new vincodes: 7
+05-12-2011 15:17:42 --- INFO: Lexus RX 330 - found: 206, pass primary filters: 53, did not pass the filter by color: 15, added: 38, new vincodes: 1
+05-12-2011 15:18:40 --- INFO: Lexus RX 400H - found: 28, pass primary filters: 10, did not pass the filter by color: 6, added: 4, new vincodes: 0
+05-12-2011 15:20:47 --- INFO: Lexus GX 470 - found: 76, pass primary filters: 46, did not pass the filter by color: 33, added: 13, new vincodes: 5
+05-12-2011 15:22:33 --- INFO: Lexus GX 470 - found: 66, pass primary filters: 41, did not pass the filter by color: 33, added: 8, new vincodes: 5
+05-12-2011 15:23:03 --- INFO: Lexus LX 470 - found: 23, pass primary filters: 12, did not pass the filter by color: 12, added: 0, new vincodes: 1
+05-12-2011 15:23:44 --- INFO: Lexus LX 470 - found: 24, pass primary filters: 14, did not pass the filter by color: 14, added: 0, new vincodes: 3
+05-12-2011 15:24:10 --- INFO: Toyota Land Cruiser - found: 13, pass primary filters: 8, did not pass the filter by color: 7, added: 1, new vincodes: 1
+05-12-2011 15:25:42 --- INFO: Honda CR-V - found: 68, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 15:30:37 --- INFO: Honda CR-V - found: 185, pass primary filters: 8, did not pass the filter by color: 0, added: 8, new vincodes: 2
+05-12-2011 15:32:27 --- INFO: Mitsubishi Montero 4WD Limited - found: 69, pass primary filters: 18, did not pass the filter by color: 18, added: 0, new vincodes: 0
+05-12-2011 15:37:04 --- INFO: Toyota 4RUNNER 4WD Limited - found: 180, pass primary filters: 62, did not pass the filter by color: 42, added: 20, new vincodes: 9
+05-12-2011 15:39:08 --- INFO: Toyota RAV 4 - found: 78, pass primary filters: 25, did not pass the filter by color: 16, added: 9, new vincodes: 5
+05-12-2011 15:41:41 --- INFO: Toyota Highlander 4WD - found: 109, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 15:46:04 --- INFO: Subaru Forester - found: 149, pass primary filters: 23, did not pass the filter by color: 0, added: 23, new vincodes: 0
+05-12-2011 15:47:22 --- INFO: Toyota Highlander - found: 109, pass primary filters: 47, did not pass the filter by color: 40, added: 7, new vincodes: 8
+05-12-2011 15:48:59 --- INFO: Acura MDX - found: 68, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 15:53:10 --- INFO: Lexus RX 350 - found: 167, pass primary filters: 7, did not pass the filter by color: 3, added: 4, new vincodes: 0
+05-12-2011 15:57:41 --- INFO: Toyota 4RUNNER - found: 268, pass primary filters: 4, did not pass the filter by color: 3, added: 1, new vincodes: 0
+05-12-2011 15:57:41 --- INFO: finish: 05-12-2011 15:57:41
+05-12-2011 15:57:41 --- INFO: elapsed time: ~2860.13 sec., memory usage: ~5.09 Mb.
+05-12-2011 17:10:01 --- INFO: start: 05-12-2011 17:10:01
+05-12-2011 17:10:01 --- INFO: ----------Source_Adesa (cli)
+05-12-2011 17:10:03 --- INFO: Authorized request
+05-12-2011 17:10:08 --- INFO: Lexus RX 300 - found: 11, pass primary filters: 4, did not pass the filter by color: 2, added: 2, new vincodes: 0
+05-12-2011 17:10:19 --- INFO: Lexus RX 330 - found: 13, pass primary filters: 7, did not pass the filter by color: 2, added: 5, new vincodes: 0
+05-12-2011 17:10:19 --- INFO: Lexus RX 400H - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 17:10:25 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 4, did not pass the filter by color: 4, added: 0, new vincodes: 0
+05-12-2011 17:10:30 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by color: 4, added: 1, new vincodes: 1
+05-12-2011 17:10:31 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 17:10:33 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 17:10:33 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 17:10:35 --- INFO: Honda CR-V - found: 9, pass primary filters: 2, did not pass the filter by color: 0, added: 2, new vincodes: 0
+05-12-2011 17:10:36 --- INFO: Honda CR-V - found: 9, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 17:10:38 --- INFO: Mitsubishi Montero 4WD Limited - found: 21, pass primary filters: 2, did not pass the filter by color: 2, added: 0, new vincodes: 0
+05-12-2011 17:10:58 --- INFO: Toyota 4RUNNER 4WD Limited - found: 29, pass primary filters: 12, did not pass the filter by color: 6, added: 6, new vincodes: 0
+05-12-2011 17:11:01 --- INFO: Toyota RAV 4 - found: 6, pass primary filters: 3, did not pass the filter by color: 3, added: 0, new vincodes: 0
+05-12-2011 17:11:01 --- INFO: Toyota Highlander 4WD - found: 21, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 17:11:10 --- INFO: Subaru Forester - found: 10, pass primary filters: 7, did not pass the filter by color: 0, added: 7, new vincodes: 0
+05-12-2011 17:11:31 --- INFO: Toyota Highlander - found: 21, pass primary filters: 8, did not pass the filter by color: 5, added: 3, new vincodes: 0
+05-12-2011 17:11:32 --- INFO: Acura MDX - found: 23, pass primary filters: 0, did not pass the filter by color: 0, added: 0, new vincodes: 0
+05-12-2011 17:11:35 --- INFO: Lexus RX 350 - found: 12, pass primary filters: 4, did not pass the filter by color: 1, added: 3, new vincodes: 0
+05-12-2011 17:11:36 --- INFO: Toyota 4RUNNER - found: 30, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 17:11:36 --- INFO: finish: 05-12-2011 17:11:36
+05-12-2011 17:11:36 --- INFO: elapsed time: ~94.55 sec., memory usage: ~2.46 Mb.
+05-12-2011 17:10:01 --- INFO: start: 05-12-2011 17:10:01
+05-12-2011 17:10:01 --- INFO: ----------Source_Gsmotors (cli)
+05-12-2011 17:10:49 --- INFO: Lexus RX 300 - found: 62, pass primary filters: 25, did not pass the filter by color: 9, added: 16, new vincodes: 0
+05-12-2011 17:13:18 --- INFO: Lexus RX 330 - found: 206, pass primary filters: 53, did not pass the filter by color: 14, added: 39, new vincodes: 0
+05-12-2011 17:13:53 --- INFO: Lexus RX 400H - found: 28, pass primary filters: 10, did not pass the filter by color: 6, added: 4, new vincodes: 0
+05-12-2011 17:14:49 --- INFO: Lexus GX 470 - found: 76, pass primary filters: 46, did not pass the filter by color: 33, added: 13, new vincodes: 0
+05-12-2011 17:15:30 --- INFO: Lexus GX 470 - found: 66, pass primary filters: 41, did not pass the filter by color: 33, added: 8, new vincodes: 0
+05-12-2011 17:15:47 --- INFO: Lexus LX 470 - found: 23, pass primary filters: 12, did not pass the filter by color: 12, added: 0, new vincodes: 0
+05-12-2011 17:16:04 --- INFO: Lexus LX 470 - found: 24, pass primary filters: 14, did not pass the filter by color: 14, added: 0, new vincodes: 0
+05-12-2011 17:16:13 --- INFO: Toyota Land Cruiser - found: 13, pass primary filters: 8, did not pass the filter by color: 7, added: 1, new vincodes: 0
+05-12-2011 17:17:06 --- INFO: Honda CR-V - found: 68, pass primary filters: 4, did not pass the filter by color: 0, added: 4, new vincodes: 0
+05-12-2011 17:19:26 --- INFO: Honda CR-V - found: 185, pass primary filters: 8, did not pass the filter by color: 0, added: 8, new vincodes: 0
+05-12-2011 17:20:20 --- INFO: Mitsubishi Montero 4WD Limited - found: 69, pass primary filters: 18, did not pass the filter by color: 18, added: 0, new vincodes: 0
+05-12-2011 17:22:42 --- INFO: Toyota 4RUNNER 4WD Limited - found: 180, pass primary filters: 62, did not pass the filter by color: 42, added: 20, new vincodes: 0
+05-12-2011 17:23:56 --- INFO: Toyota RAV 4 - found: 78, pass primary filters: 25, did not pass the filter by color: 16, added: 9, new vincodes: 0
+05-12-2011 17:25:13 --- INFO: Toyota Highlander 4WD - found: 109, pass primary filters: 1, did not pass the filter by color: 1, added: 0, new vincodes: 0
+05-12-2011 17:27:05 --- INFO: Subaru Forester - found: 149, pass primary filters: 23, did not pass the filter by color: 0, added: 23, new vincodes: 0
+05-12-2011 17:28:17 --- INFO: Toyota Highlander - found: 109, pass primary filters: 47, did not pass the filter by color: 40, added: 7, new vincodes: 0
+05-12-2011 17:29:13 --- INFO: Acura MDX - found: 68, pass primary filters: 1, did not pass the filter by color: 0, added: 1, new vincodes: 0
+05-12-2011 17:31:19 --- INFO: Lexus RX 350 - found: 167, pass primary filters: 7, did not pass the filter by color: 3, added: 4, new vincodes: 0
+05-12-2011 17:34:40 --- INFO: Toyota 4RUNNER - found: 268, pass primary filters: 4, did not pass the filter by color: 3, added: 1, new vincodes: 0
+05-12-2011 17:34:40 --- INFO: finish: 05-12-2011 17:34:40
+05-12-2011 17:34:40 --- INFO: elapsed time: ~1478.36 sec., memory usage: ~4.92 Mb.
+05-12-2011 18:05:01 --- INFO: start: 05-12-2011 18:05:01
+05-12-2011 18:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 18:10:01 --- INFO: start: 05-12-2011 18:10:01
+05-12-2011 18:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 22:05:01 --- INFO: start: 05-12-2011 22:05:01
+05-12-2011 22:05:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 4 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(4)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(4)
+#2 [internal function]: Controller_Home->action_execute('4', 'home/execute/4', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}
+05-12-2011 22:10:01 --- INFO: start: 05-12-2011 22:10:01
+05-12-2011 22:10:01 --- ERROR: Kohana_Exception [ 0 ]: Source with id 3 not found ~ APPPATH/classes/source.php [ 13 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/source.php(32): Source->__construct(3)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.0.3/classes/controller/home.php(33): Source::instance(3)
+#2 [internal function]: Controller_Home->action_execute('3', 'home/execute/3', Object(Route))
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#6 {main}

@@ -1,0 +1,1504 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.76 $"/>
+		<generation date="$Date: 2009/05/05 23:06:36 $"/>
+		<language type="ga"/>
+	</identity>
+	<fallback>en_IE</fallback>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">aa</language>
+			<language type="ab">AbcГЎisis</language>
+			<language type="ae">AivГ©istis</language>
+			<language type="af">AfracГЎinis</language>
+			<language type="am">Amarais</language>
+			<language type="ar">Araibis</language>
+			<language type="as">Asaimis</language>
+			<language type="az">AsarbaiseГЎinis</language>
+			<language type="ba">BaiscГ­ris</language>
+			<language type="be">BealarГєisis</language>
+			<language type="bg">BulgГЎiris</language>
+			<language type="bh">Bihairis</language>
+			<language type="bn">BeangГЎilis</language>
+			<language type="bo">TibГ©adais</language>
+			<language type="br">BriotГЎinis</language>
+			<language type="bs">Boisnis</language>
+			<language type="ca">CatalГіinis</language>
+			<language type="ce">Sisinis</language>
+			<language type="co">Corsaicis</language>
+			<language type="cr">CraГ­ais</language>
+			<language type="cs">Seicis</language>
+			<language type="cu">Slavais na hEaglaise</language>
+			<language type="cv">Suvaisis</language>
+			<language type="cy">Breatnais</language>
+			<language type="da">Danmhairgis</language>
+			<language type="de">GearmГЎinis</language>
+			<language type="el">GrГ©igis</language>
+			<language type="en">BГ©arla</language>
+			<language type="eo">Esperanto</language>
+			<language type="es">SpГЎinnis</language>
+			<language type="et">EastГіinis</language>
+			<language type="eu">Bascais</language>
+			<language type="fa">Peirsis</language>
+			<language type="fi">Fionlainnis</language>
+			<language type="fil">fil</language>
+			<language type="fj">Fidsis</language>
+			<language type="fo">FarГіis</language>
+			<language type="fr">Fraincis</language>
+			<language type="fy">Freaslainnis Iartharach</language>
+			<language type="ga">Gaeilge</language>
+			<language type="gd">Gaeilge na hAlban</language>
+			<language type="gl">GailГ­sis</language>
+			<language type="gn">GuarГЎinis</language>
+			<language type="gu">GГєisearГЎitis</language>
+			<language type="gv">Mannainis</language>
+			<language type="haw">HavГЎГ­ais</language>
+			<language type="he">Eabhrais</language>
+			<language type="hi">HiondГєis</language>
+			<language type="hr">CrГіitis</language>
+			<language type="hu">UngГЎiris</language>
+			<language type="hy">AirmГ©inis</language>
+			<language type="ia">Interlingua</language>
+			<language type="id">IndinГ©isis</language>
+			<language type="ie">Interlingue</language>
+			<language type="ik">Inupiaq</language>
+			<language type="io">Ido</language>
+			<language type="is">ГЌoslainnis</language>
+			<language type="it">IodГЎilis</language>
+			<language type="iu">IonГєitis</language>
+			<language type="ja">SeapГЎinis</language>
+			<language type="jv">IГЎvais</language>
+			<language type="ka">Seoirsis</language>
+			<language type="kk">Casachais</language>
+			<language type="km">CambГіidis</language>
+			<language type="kn">Cannadais</language>
+			<language type="ko">CГіirГ©is</language>
+			<language type="ks">CaismГ­ris</language>
+			<language type="ku">Coirdis</language>
+			<language type="kw">Cornais</language>
+			<language type="ky">Cirgeasais</language>
+			<language type="la">Laidin</language>
+			<language type="lb">Leitseabuirgis</language>
+			<language type="ln">ln</language>
+			<language type="lo">Laosais</language>
+			<language type="lt">LiotuГЎinis</language>
+			<language type="lv">Laitvis</language>
+			<language type="mg">MalagГЎsais</language>
+			<language type="mi">Maorais</language>
+			<language type="mk">MacadГіinis</language>
+			<language type="ml">MailГ©alaimis</language>
+			<language type="mn">MongГіilis</language>
+			<language type="mo">MoldГЎivis</language>
+			<language type="mr">Maraitis</language>
+			<language type="ms">Malaeis</language>
+			<language type="mt">Maltais</language>
+			<language type="my">Burmais</language>
+			<language type="na">NГЎrГєis</language>
+			<language type="nb">Ioruais BokmГҐl</language>
+			<language type="ne">Neipealais</language>
+			<language type="nl">Ollainnis</language>
+			<language type="nn">Ioruais Nynorsk</language>
+			<language type="no">Ioruais</language>
+			<language type="nv">NavachГіis</language>
+			<language type="oc">OcatГЎinis</language>
+			<language type="or">Oraisis</language>
+			<language type="os">Г“isГ©itis</language>
+			<language type="pa">PuinseГЎibis</language>
+			<language type="pl">Polainnis</language>
+			<language type="ps">Paistis</language>
+			<language type="pt">PortaingГ©ilis</language>
+			<language type="pt_BR">PortaingГ©ilis BhrasaГ­leach</language>
+			<language type="pt_PT">PortaingГ©ilis IbГ©ireach</language>
+			<language type="qu">Ceatsuais</language>
+			<language type="ro">RГіmГЎinis</language>
+			<language type="ru">RГєisis</language>
+			<language type="sa">Sanscrait</language>
+			<language type="sc">SairdГ­nis</language>
+			<language type="sd">Sindis</language>
+			<language type="se">SГЎimis Thuaidh</language>
+			<language type="sh">Seirbea-ChrГіitis</language>
+			<language type="si">SiolГіinis</language>
+			<language type="sk">SlГіvaicis</language>
+			<language type="sl">SlГіivГ©inis</language>
+			<language type="sm">SamГіis</language>
+			<language type="so">SomГЎilis</language>
+			<language type="sq">AlbГЎinis</language>
+			<language type="sr">Seirbis</language>
+			<language type="st">SГіtais Dheisceartach</language>
+			<language type="su">Sundais</language>
+			<language type="sv">Sualainnis</language>
+			<language type="sw">SvahaГ­lis</language>
+			<language type="ta">Tamailis</language>
+			<language type="te">TeileagГєis</language>
+			<language type="th">TГ©alainnis</language>
+			<language type="ti">Tigrinis</language>
+			<language type="tk">TuircmГ©inis</language>
+			<language type="tl">TagГЎlaigis</language>
+			<language type="tlh">Klingon</language>
+			<language type="tr">Tuircis</language>
+			<language type="tt">Tatarais</language>
+			<language type="tw">TvГ­s</language>
+			<language type="ty">TaihГ­tis</language>
+			<language type="ug">ug</language>
+			<language type="uk">ГљcrГЎinis</language>
+			<language type="und">Teanga Anaithnid nГі NeamhbhailГ­</language>
+			<language type="ur">Urdais</language>
+			<language type="uz">ГљisbГ©icis</language>
+			<language type="vi">VГ­tneamais</language>
+			<language type="wa">VallГєnais</language>
+			<language type="xh">CГіsais</language>
+			<language type="yi">GiГєdais</language>
+			<language type="zh">SГ­nis</language>
+			<language type="zh_Hans">SГ­nis Shimplithe</language>
+			<language type="zh_Hant">SГ­nis ThraidisiГєnta</language>
+			<language type="zu">SГєlГєis</language>
+		</languages>
+		<scripts>
+			<script type="Arab">Arabach</script>
+			<script type="Armn">AirmГ©anach</script>
+			<script type="Beng">BeangГЎlach</script>
+			<script type="Brai">Braille</script>
+			<script type="Cyrl">Coireallach</script>
+			<script type="Deva">DГ©iveanГЎgrach</script>
+			<script type="Ethi">AetГіpach</script>
+			<script type="Goth">Gotach</script>
+			<script type="Grek">GrГ©agach</script>
+			<script type="Gujr">GГєisearГЎtach</script>
+			<script type="Guru">GurmГєcach</script>
+			<script type="Hang">Hangalach</script>
+			<script type="Hani">Han</script>
+			<script type="Hans">Han SГ­mplithe</script>
+			<script type="Hant">Han TraidisiГєnta</script>
+			<script type="Hebr">Eabhrach</script>
+			<script type="Hira">HГ­reagГЎnach</script>
+			<script type="Hrkt">CatacГЎnach nГі HГ­reagГЎnach</script>
+			<script type="Jpan">SeapГЎnach</script>
+			<script type="Kana">CatacГЎnach</script>
+			<script type="Knda">Cannadach</script>
+			<script type="Kore">CГіirГ©ach</script>
+			<script type="Latg">ClГі Gaelach</script>
+			<script type="Latn">Laidineach</script>
+			<script type="Mlym">MailГ©alamach</script>
+			<script type="Mong">MongГіlach</script>
+			<script type="Ogam">Ogham</script>
+			<script type="Orya">OirГ­seach</script>
+			<script type="Runr">RГєnach</script>
+			<script type="Taml">Tamalach</script>
+			<script type="Telu">TeileagГєch</script>
+			<script type="Thai">TГ©allanach</script>
+			<script type="Tibt">TibГ©adach</script>
+			<script type="Zxxx">Gan ScrГ­obh</script>
+			<script type="Zzzz">Script Anaithnid nГі NeamhbhailГ­</script>
+		</scripts>
+		<territories>
+			<territory type="001">An Domhan</territory>
+			<territory type="002">An Afraic</territory>
+			<territory type="009">An AigГ©ine</territory>
+			<territory type="013">MeiriceГЎ LГЎir</territory>
+			<territory type="017">An Afraic LГЎir</territory>
+			<territory type="019">Na MeiriceГЎnna</territory>
+			<territory type="053">An AstrГЎil agus an Nua-ShГ©alainn</territory>
+			<territory type="054">An MheilinГ©is</territory>
+			<territory type="057">An RГ©igiГєn MicrinГ©iseach</territory>
+			<territory type="061">An PholainГ©is</territory>
+			<territory type="142">An ГЃise</territory>
+			<territory type="143">An ГЃise LГЎir</territory>
+			<territory type="150">An Eoraip</territory>
+			<territory type="172">Comhlathas na StГЎt NeamhspleГЎcha</territory>
+			<territory type="419">MeiriceГЎ Laidineach agus an Mhuir Chairib</territory>
+			<territory type="AD">AndГіra</territory>
+			<territory type="AE">Aontas na nГ‰imГ­rГ­ochtaГ­ Arabacha</territory>
+			<territory type="AF">An AfganastГЎin</territory>
+			<territory type="AG">AintГ­ge agus BarbГєda</territory>
+			<territory type="AI">Anguilla</territory>
+			<territory type="AL">An AlbГЎin</territory>
+			<territory type="AM">An AirmГ©in</territory>
+			<territory type="AN">AntillГ­ na hГЌsiltГ­re</territory>
+			<territory type="AO">AngГіla</territory>
+			<territory type="AQ">An Antartaice</territory>
+			<territory type="AR">An AirgintГ­n</territory>
+			<territory type="AS">SamГі MeiriceГЎnach</territory>
+			<territory type="AT">An Ostair</territory>
+			<territory type="AU">An AstrГЎil</territory>
+			<territory type="AW">ArГєba</territory>
+			<territory type="AX">OileГЎin Alaind</territory>
+			<territory type="AZ">An AsarbaiseГЎin</territory>
+			<territory type="BA">An Bhoisnia agus HeirseagГіvГ©in</territory>
+			<territory type="BB">BarbadГіs</territory>
+			<territory type="BD">An BhanglaidГ©is</territory>
+			<territory type="BE">An Bheilg</territory>
+			<territory type="BF">BuircГ­ne FasГі</territory>
+			<territory type="BG">An BhulgГЎir</territory>
+			<territory type="BH">BairГ©in</territory>
+			<territory type="BI">An BhurГєin</territory>
+			<territory type="BJ">Beinin</territory>
+			<territory type="BM">BeirmiГєda</territory>
+			<territory type="BN">BrГєinГ©</territory>
+			<territory type="BO">An Bholaiv</territory>
+			<territory type="BR">An BhrasaГ­l</territory>
+			<territory type="BS">Na BahГЎmaГ­</territory>
+			<territory type="BT">An BhГєtГЎin</territory>
+			<territory type="BV">OileГЎn Bouvet</territory>
+			<territory type="BW">An BhotsuГЎin</territory>
+			<territory type="BY">An BhealarГєis</territory>
+			<territory type="BZ">An BheilГ­s</territory>
+			<territory type="CA">Ceanada</territory>
+			<territory type="CC">OileГЎin na gCГіcГіnna</territory>
+			<territory type="CD">Poblacht Dhaonlathach an ChongГі</territory>
+			<territory type="CF">Poblacht na hAfraice LГЎir</territory>
+			<territory type="CG">An CongГі</territory>
+			<territory type="CH">An EilvГ©is</territory>
+			<territory type="CI">An CГіsta Eabhair</territory>
+			<territory type="CK">OileГЎin Cook</territory>
+			<territory type="CL">An tSile</territory>
+			<territory type="CM">CamarГєn</territory>
+			<territory type="CN">An tSГ­n</territory>
+			<territory type="CO">An CholГіim</territory>
+			<territory type="CR">CГіsta RГ­ce</territory>
+			<territory type="CS">An tSeirbia agus MontainГ©agrГі</territory>
+			<territory type="CU">CГєba</territory>
+			<territory type="CV">An Rinn Ghlas</territory>
+			<territory type="CX">OileГЎn na Nollag</territory>
+			<territory type="CY">An Chipir</territory>
+			<territory type="CZ">Poblacht na Seice</territory>
+			<territory type="DE">An GhearmГЎin</territory>
+			<territory type="DJ">Djibouti</territory>
+			<territory type="DK">An Danmhairg</territory>
+			<territory type="DM">Doiminice</territory>
+			<territory type="DO">An Phoblacht Dhoiminiceach</territory>
+			<territory type="DZ">An AilgГ©ir</territory>
+			<territory type="EC">EacuadГіr</territory>
+			<territory type="EE">An EastГіin</territory>
+			<territory type="EG">An Г‰igipt</territory>
+			<territory type="EH">An SahГЎra Thiar</territory>
+			<territory type="ER">An EiritrГ©</territory>
+			<territory type="ES">An SpГЎinn</territory>
+			<territory type="ET">An AetГіip</territory>
+			<territory type="FI">An Fhionlainn</territory>
+			<territory type="FJ">FidsГ­</territory>
+			<territory type="FK">OileГЎin FhГЎclainne</territory>
+			<territory type="FM">An MhicrinГ©is</territory>
+			<territory type="FO">OileГЎin FharГі</territory>
+			<territory type="FR">An Fhrainc</territory>
+			<territory type="GA">An GhabГєin</territory>
+			<territory type="GB">An RГ­ocht Aontaithe</territory>
+			<territory type="GD">Grenada</territory>
+			<territory type="GE">An tSeoirsia</territory>
+			<territory type="GF">An GhuГЎin Fhrancach</territory>
+			<territory type="GG">GeansaГ­</territory>
+			<territory type="GH">GГЎna</territory>
+			<territory type="GI">GiobrГЎltar</territory>
+			<territory type="GL">An Ghraonlainn</territory>
+			<territory type="GM">An Ghaimbia</territory>
+			<territory type="GN">An Ghuine</territory>
+			<territory type="GP">GuadalГєip</territory>
+			<territory type="GQ">An Ghuine MheГЎnchriosach</territory>
+			<territory type="GR">An GhrГ©ig</territory>
+			<territory type="GS">An tSeoirsia Theas agus OileГЎin Sandwich Theas</territory>
+			<territory type="GT">Guatamala</territory>
+			<territory type="GU">Guam</territory>
+			<territory type="GW">An Ghuine-Bhissau</territory>
+			<territory type="GY">An GhuГЎin</territory>
+			<territory type="HK">R.R.S. na SГ­ne Hong Cong</territory>
+			<territory type="HM">OileГЎn Heard agus OileГЎin McDonald</territory>
+			<territory type="HN">HondГєras</territory>
+			<territory type="HR">An ChrГіit</territory>
+			<territory type="HT">HГЎitГ­</territory>
+			<territory type="HU">An UngГЎir</territory>
+			<territory type="ID">An IndinГ©is</territory>
+			<territory type="IE">Г‰ire</territory>
+			<territory type="IL">Iosrael</territory>
+			<territory type="IM">OileГЎn Mhanann</territory>
+			<territory type="IN">An India</territory>
+			<territory type="IO">CrГ­ocha Briotanacha an AigГ©in Indiagh</territory>
+			<territory type="IQ">An IarГЎic</territory>
+			<territory type="IR">An IarГЎin</territory>
+			<territory type="IS">An ГЌoslainn</territory>
+			<territory type="IT">An IodГЎil</territory>
+			<territory type="JE">GeirsГ­</territory>
+			<territory type="JM">IamГЎice</territory>
+			<territory type="JO">An IordГЎin</territory>
+			<territory type="JP">An tSeapГЎin</territory>
+			<territory type="KE">An ChГ©inia</territory>
+			<territory type="KG">An ChirgeastГЎin</territory>
+			<territory type="KH">An ChambГіid</territory>
+			<territory type="KI">Ciribeas</territory>
+			<territory type="KM">OileГЎin ChomГіra</territory>
+			<territory type="KN">Saint Kitts agus Nevis</territory>
+			<territory type="KP">An ChГіirГ© Thuaidh</territory>
+			<territory type="KR">An ChГіirГ© Theas</territory>
+			<territory type="KW">CuГЎit</territory>
+			<territory type="KY">OileГЎin na gCadhman</territory>
+			<territory type="KZ">An ChasacstГЎin</territory>
+			<territory type="LA">Laos</territory>
+			<territory type="LB">An LiobГЎin</territory>
+			<territory type="LC">San LГєisia</territory>
+			<territory type="LI">LichtinstГ©in</territory>
+			<territory type="LK">SrГ­ Lanca</territory>
+			<territory type="LR">An LibГ©ir</territory>
+			<territory type="LS">LeosГіta</territory>
+			<territory type="LT">An LiotuГЎin</territory>
+			<territory type="LU">Lucsamburg</territory>
+			<territory type="LV">An Laitvia</territory>
+			<territory type="LY">An Libia</territory>
+			<territory type="MA">MaracГі</territory>
+			<territory type="MC">MonacГі</territory>
+			<territory type="MD">An MholdГіiv</territory>
+			<territory type="ME">MontainГ©agrГі</territory>
+			<territory type="MG">Madagascar</territory>
+			<territory type="MH">OileГЎin Marshall</territory>
+			<territory type="MK">An MhacadГіin</territory>
+			<territory type="ML">MailГ­</territory>
+			<territory type="MM">Maenmar</territory>
+			<territory type="MN">An MhongГіil</territory>
+			<territory type="MO">R.R.S. na SГ­ne MacГЎГі</territory>
+			<territory type="MP">OileГЎin Mariana Thuaidh</territory>
+			<territory type="MQ">MartainГ­c</territory>
+			<territory type="MR">An MharatГЎin</territory>
+			<territory type="MS">Montsarat</territory>
+			<territory type="MT">MГЎlta</territory>
+			<territory type="MU">OileГЎn MhuirГ­s</territory>
+			<territory type="MV">Na MaildivГ­</territory>
+			<territory type="MW">An MhalГЎiv</territory>
+			<territory type="MX">Meicsiceo</territory>
+			<territory type="MY">An Mhalaeisia</territory>
+			<territory type="MZ">MГіsaimbГ­c</territory>
+			<territory type="NA">An Namaib</territory>
+			<territory type="NC">An Nua-ChaladГіin</territory>
+			<territory type="NE">An NГ­gir</territory>
+			<territory type="NF">OileГЎn Norfolk</territory>
+			<territory type="NG">An NigГ©ir</territory>
+			<territory type="NI">Nicearagua</territory>
+			<territory type="NL">An ГЌsiltГ­r</territory>
+			<territory type="NO">An Iorua</territory>
+			<territory type="NP">Neipeal</territory>
+			<territory type="NR">NГЎrГє</territory>
+			<territory type="NU">NГ­vГ©</territory>
+			<territory type="NZ">An Nua-ShГ©alainn</territory>
+			<territory type="OM">Г“man</territory>
+			<territory type="PA">Panama</territory>
+			<territory type="PE">PeiriГє</territory>
+			<territory type="PF">An PholainГ©is Fhrancach</territory>
+			<territory type="PG">Nua-Ghuine Phapua</territory>
+			<territory type="PH">Na hOileГЎin FhilipГ­neacha</territory>
+			<territory type="PK">An PhacastГЎin</territory>
+			<territory type="PL">An Pholainn</territory>
+			<territory type="PM">Saint Pierre agus Miquelon</territory>
+			<territory type="PN">Pitcairn</territory>
+			<territory type="PR">PortГі RГ­ce</territory>
+			<territory type="PS">Na CrГ­ocha PailistГ­neacha</territory>
+			<territory type="PT">An PhortaingГ©il</territory>
+			<territory type="PW">Palau</territory>
+			<territory type="PY">Paragua</territory>
+			<territory type="QA">Catar</territory>
+			<territory type="QO">An AigГ©ine Imeallach</territory>
+			<territory type="QU">An tAontas Eorpach</territory>
+			<territory type="RE">RГ©union</territory>
+			<territory type="RO">An RГіmГЎin</territory>
+			<territory type="RS">An tSeirbia</territory>
+			<territory type="RU">CГіnaidhm na RГєise</territory>
+			<territory type="RW">Ruanda</territory>
+			<territory type="SA">An Araib ShГЎdach</territory>
+			<territory type="SB">OileГЎin Sholaimh</territory>
+			<territory type="SC">Na SГ©isГ©il</territory>
+			<territory type="SD">An tSГєdГЎin</territory>
+			<territory type="SE">An tSualainn</territory>
+			<territory type="SG">SingeapГіr</territory>
+			<territory type="SH">San HГ©ilin</territory>
+			<territory type="SI">An tSlГіvГ©in</territory>
+			<territory type="SJ">Svalbard agus Jan Mayen</territory>
+			<territory type="SK">An tSlГіvaic</territory>
+			<territory type="SL">Siarra Leon</territory>
+			<territory type="SM">San MairГ­ne</territory>
+			<territory type="SN">An tSeineagГЎil</territory>
+			<territory type="SO">An tSomГЎil</territory>
+			<territory type="SR">Suranam</territory>
+			<territory type="ST">Sao Tome agus Principe</territory>
+			<territory type="SV">An tSalvadГіir</territory>
+			<territory type="SY">An tSiria</territory>
+			<territory type="SZ">An tSuasalainn</territory>
+			<territory type="TC">OileГЎin Turks agus Caicos</territory>
+			<territory type="TD">Sead</territory>
+			<territory type="TF">CrГ­ocha Deisceartacha na Fraince</territory>
+			<territory type="TG">TГіga</territory>
+			<territory type="TH">An TГ©alainn</territory>
+			<territory type="TJ">An TГЎidsГ­ceastГЎin</territory>
+			<territory type="TK">TГіcalГЎ</territory>
+			<territory type="TL">TГ­omГіr Thoir</territory>
+			<territory type="TM">An TuircmГ©anastГЎin</territory>
+			<territory type="TN">An TГєinГ©is</territory>
+			<territory type="TO">Tonga</territory>
+			<territory type="TR">An Tuirc</territory>
+			<territory type="TT">OileГЎin na TrГ­onГіide agus TobГЎga</territory>
+			<territory type="TV">TГєvГЎlГє</territory>
+			<territory type="TW">An TГ©avГЎin</territory>
+			<territory type="TZ">An TansГЎin</territory>
+			<territory type="UA">An ГљcrГЎin</territory>
+			<territory type="UG">Гљganda</territory>
+			<territory type="UM">Mion-OileГЎin Imeallacha S.A.M.</territory>
+			<territory type="US">StГЎit Aontaithe MheiriceГЎ</territory>
+			<territory type="UY">Urugua</territory>
+			<territory type="UZ">ГљisbГ©iceastГЎin</territory>
+			<territory type="VA">An VatacГЎin</territory>
+			<territory type="VC">Saint Vincent agus na Grenadines</territory>
+			<territory type="VE">VeinisГ©ala</territory>
+			<territory type="VG">OileГЎin Bhriotanacha na Maighdean</territory>
+			<territory type="VI">OileГЎin na Maighdean S.A.M.</territory>
+			<territory type="VN">VГ­t Neam</territory>
+			<territory type="VU">VanuatГє</territory>
+			<territory type="WF">OileГЎin VailГ­s agus FutГєna</territory>
+			<territory type="WS">SamГі</territory>
+			<territory type="YE">Г‰imin</territory>
+			<territory type="YT">Mayotte</territory>
+			<territory type="ZA">An Afraic Theas</territory>
+			<territory type="ZM">An tSaimbia</territory>
+			<territory type="ZW">An tSiombГЎib</territory>
+			<territory type="ZZ">RГ©igiГєn Anaithnid nГі NeamhbhailГ­</territory>
+		</territories>
+		<keys>
+			<key type="calendar">FГ©ilire</key>
+			<key type="collation">ComhordГє</key>
+			<key type="currency">Airgeadra</key>
+		</keys>
+		<types>
+			<type type="big5han" key="collation">Ord sГіrtГЎla SГ­neach traidisiГєnta - Big5</type>
+			<type type="buddhist" key="calendar">FГ©ilire BГєdaГ­och</type>
+			<type type="chinese" key="calendar">FГ©ilire SГ­neach</type>
+			<type type="direct" key="collation">Ord sГіrtГЎla dГ­reach</type>
+			<type type="gb2312han" key="collation">Ord sГіrtГЎla SГ­neach simplithe - GB 2312</type>
+			<type type="gregorian" key="calendar">FГ©ilire GreagГіrach</type>
+			<type type="hebrew" key="calendar">FГ©ilire Eabhrach</type>
+			<type type="islamic" key="calendar">FГ©ilire Ioslamach</type>
+			<type type="islamic-civil" key="calendar">FГ©ilire Ioslamach Sibhialta</type>
+			<type type="japanese" key="calendar">FГ©ilire SeapГЎnach</type>
+			<type type="phonebook" key="collation">Ord sГіrtГЎla an eolaire teileafГіin</type>
+			<type type="pinyin" key="collation">Ord sГіrtГЎla pinyin</type>
+			<type type="stroke" key="collation">Ord sГіrtГЎla strГ­ce</type>
+			<type type="traditional" key="collation">Ord sГіrtГЎla traidisiГєnta</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">MeiriceГЎnach</measurementSystemName>
+			<measurementSystemName type="metric">MГ©adrach</measurementSystemName>
+		</measurementSystemNames>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[a ГЎ b-e Г© f-i Г­ j-o Гі p-u Гє v-z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[бёѓ Д‹ бё‹ бёџ ДЎ б№Ѓ б№— б№Ў б№«]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="buddhist">
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+			</calendar>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">Ean</month>
+							<month type="2">Feabh</month>
+							<month type="3">MГЎrta</month>
+							<month type="4">Aib</month>
+							<month type="5">Beal</month>
+							<month type="6">Meith</month>
+							<month type="7">IГєil</month>
+							<month type="8">LГєn</month>
+							<month type="9">MFГіmh</month>
+							<month type="10">DFГіmh</month>
+							<month type="11">Samh</month>
+							<month type="12">Noll</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">EanГЎir</month>
+							<month type="2">Feabhra</month>
+							<month type="3">MГЎrta</month>
+							<month type="4">AibreГЎn</month>
+							<month type="5">Bealtaine</month>
+							<month type="6">Meitheamh</month>
+							<month type="7">IГєil</month>
+							<month type="8">LГєnasa</month>
+							<month type="9">MeГЎn FГіmhair</month>
+							<month type="10">Deireadh FГіmhair</month>
+							<month type="11">Samhain</month>
+							<month type="12">Nollaig</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">E</month>
+							<month type="2">F</month>
+							<month type="3">M</month>
+							<month type="4">A</month>
+							<month type="5">B</month>
+							<month type="6">M</month>
+							<month type="7">I</month>
+							<month type="8">L</month>
+							<month type="9">M</month>
+							<month type="10">D</month>
+							<month type="11">S</month>
+							<month type="12">N</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">Domh</day>
+							<day type="mon">Luan</day>
+							<day type="tue">MГЎirt</day>
+							<day type="wed">CГ©ad</day>
+							<day type="thu">DГ©ar</day>
+							<day type="fri">Aoine</day>
+							<day type="sat">Sath</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">DГ© Domhnaigh</day>
+							<day type="mon">DГ© Luain</day>
+							<day type="tue">DГ© MГЎirt</day>
+							<day type="wed">DГ© CГ©adaoin</day>
+							<day type="thu">DГ©ardaoin</day>
+							<day type="fri">DГ© hAoine</day>
+							<day type="sat">DГ© Sathairn</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">D</day>
+							<day type="mon">L</day>
+							<day type="tue">M</day>
+							<day type="wed">C</day>
+							<day type="thu">D</day>
+							<day type="fri">A</day>
+							<day type="sat">S</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">R1</quarter>
+							<quarter type="2">R2</quarter>
+							<quarter type="3">R3</quarter>
+							<quarter type="4">R4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1Гє rГЎithe</quarter>
+							<quarter type="2">2Гє rГЎithe</quarter>
+							<quarter type="3">3Гє rГЎithe</quarter>
+							<quarter type="4">4Гє rГЎithe</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>a.m.</am>
+				<pm>p.m.</pm>
+				<eras>
+					<eraNames>
+						<era type="0">Roimh ChrГ­ost</era>
+						<era type="1">Anno Domini</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">RC</era>
+						<era type="1">AD</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd/MM/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM yy</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="era">
+						<displayName>RГ©</displayName>
+					</field>
+					<field type="year">
+						<displayName>Bliain</displayName>
+					</field>
+					<field type="month">
+						<displayName>MГ­</displayName>
+					</field>
+					<field type="week">
+						<displayName>Seachtain</displayName>
+					</field>
+					<field type="day">
+						<displayName>LГЎ</displayName>
+						<relative type="-2">ArГє innГ©</relative>
+						<relative type="-1">InnГ©</relative>
+						<relative type="0">Inniu</relative>
+						<relative type="1">AmГЎrach</relative>
+						<relative type="2">ArГє amГЎrach</relative>
+					</field>
+					<field type="weekday">
+						<displayName>LГЎ na seachtaine</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>a.m./p.m.</displayName>
+					</field>
+					<field type="hour">
+						<displayName>Uair</displayName>
+					</field>
+					<field type="minute">
+						<displayName>NГіimГ©ad</displayName>
+					</field>
+					<field type="second">
+						<displayName>Soicind</displayName>
+					</field>
+					<field type="zone">
+						<displayName>Crios</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>MAG{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>Anaithnid</exemplarCity>
+			</zone>
+			<zone type="Europe/London">
+				<long>
+					<daylight>Am Samhraidh na Breataine</daylight>
+				</long>
+				<short>
+					<daylight>ASB</daylight>
+				</short>
+				<exemplarCity>Londain</exemplarCity>
+			</zone>
+			<zone type="Europe/Dublin">
+				<long>
+					<daylight>Am Samhraidh na hГ‰ireann</daylight>
+				</long>
+				<short>
+					<daylight>ASГ‰</daylight>
+				</short>
+				<exemplarCity>Baile ГЃtha Cliath</exemplarCity>
+			</zone>
+			<metazone type="GMT">
+				<long>
+					<standard>MeГЎn-Am Greenwich</standard>
+				</long>
+				<short>
+					<standard>MAG</standard>
+				</short>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>.</decimal>
+			<group>,</group>
+		</symbols>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="ADP">
+				<displayName>Peseta AndГіra</displayName>
+			</currency>
+			<currency type="AED">
+				<displayName>Dirham Aontas na nГ‰imГ­rГ­ochtaГ­ Arabacha</displayName>
+			</currency>
+			<currency type="AFA">
+				<displayName>AfgainГ­ (1927-2002)</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>AfgainГ­</displayName>
+			</currency>
+			<currency type="ALL">
+				<displayName>Lek AlbГЎnach</displayName>
+			</currency>
+			<currency type="AMD">
+				<displayName>Dram AirmГ©anach</displayName>
+			</currency>
+			<currency type="ANG">
+				<displayName>Guilder na nAntillГ­ ГЌsiltГ­reach</displayName>
+				<symbol>AГЌ f.</symbol>
+			</currency>
+			<currency type="AOA">
+				<displayName>Kwanza AngГіlach</displayName>
+			</currency>
+			<currency type="AOK">
+				<displayName>Kwanza AngГіlach (1977-1990)</displayName>
+			</currency>
+			<currency type="AON">
+				<displayName>Kwanza Nua AngГіlach (1990-2000)</displayName>
+			</currency>
+			<currency type="AOR">
+				<displayName>Kwanza Reajustado AngГіlach (1995-1999)</displayName>
+			</currency>
+			<currency type="ARA">
+				<displayName>Austral AirgintГ­neach</displayName>
+			</currency>
+			<currency type="ARP">
+				<displayName>Peso na AirgintГ­ne (1983-1985)</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>Peso na AirgintГ­ne</displayName>
+			</currency>
+			<currency type="ATS">
+				<displayName>Scilling Ostarach</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>Dollar AstrГЎlach</displayName>
+			</currency>
+			<currency type="AWG">
+				<displayName>Guilder Aruba</displayName>
+			</currency>
+			<currency type="AZM">
+				<displayName>Manat AsarbaiseГЎnach</displayName>
+			</currency>
+			<currency type="BAD">
+				<displayName>DГ­near Bhoisnia-HeirseagaivГ©in</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>Marc Inathraithe Bhoisnia-HeirseagaivГ©in</displayName>
+			</currency>
+			<currency type="BBD">
+				<displayName>Dollar BharbadГіis</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>Taka BhanglaidГ©iseach</displayName>
+			</currency>
+			<currency type="BEC">
+				<displayName>Franc Beilgeach (inathraithe)</displayName>
+			</currency>
+			<currency type="BEF">
+				<displayName>Franc Beilgeach</displayName>
+			</currency>
+			<currency type="BEL">
+				<displayName>Franc Beilgeach (airgeadГєil)</displayName>
+			</currency>
+			<currency type="BGL">
+				<displayName>Lev BulgГЎrach Crua</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>Lev Nua BulgГЎrach</displayName>
+			</currency>
+			<currency type="BHD">
+				<displayName>DГ­near na BairГ©ine</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>Franc na BurГєine</displayName>
+			</currency>
+			<currency type="BMD">
+				<displayName>Dollar BheirmiГєda</displayName>
+			</currency>
+			<currency type="BND">
+				<displayName>Dollar BhrГєinГ©</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>Boliviano</displayName>
+			</currency>
+			<currency type="BOP">
+				<displayName>Peso na Bolaive</displayName>
+			</currency>
+			<currency type="BOV">
+				<displayName>Mvdol Bolavach</displayName>
+			</currency>
+			<currency type="BRB">
+				<displayName>Cruzeiro Novo BrasaГ­leach (1967-1986)</displayName>
+			</currency>
+			<currency type="BRC">
+				<displayName>Cruzado BrasaГ­leach</displayName>
+			</currency>
+			<currency type="BRE">
+				<displayName>Cruzeiro BrasaГ­leach (1990-1993)</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>Real BrasaГ­leach</displayName>
+			</currency>
+			<currency type="BRN">
+				<displayName>Cruzado Novo BrasaГ­leach</displayName>
+			</currency>
+			<currency type="BRR">
+				<displayName>Cruzeiro BrasaГ­leach</displayName>
+			</currency>
+			<currency type="BSD">
+				<displayName>Dollar na mBahГЎmaГ­</displayName>
+			</currency>
+			<currency type="BTN">
+				<displayName>Ngultrum BГєtГЎnach</displayName>
+			</currency>
+			<currency type="BUK">
+				<displayName>Kyat Burmach</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>Pula BotsuГЎnach</displayName>
+			</currency>
+			<currency type="BYB">
+				<displayName>RГєbal Nua BГ©alarГєiseach (1994-1999)</displayName>
+			</currency>
+			<currency type="BYR">
+				<displayName>RГєbal BГ©alarГєiseach</displayName>
+			</currency>
+			<currency type="BZD">
+				<displayName>Dollar na BeilГ­se</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>Dollar Ceanada</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>Franc Congolais an ChongГі</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>Franc na hEilvГ©ise</displayName>
+			</currency>
+			<currency type="CLF">
+				<displayName>Unidades de Fomento na Sile</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>Peso na Sile</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>Yuan Renminbi SГ­neach</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>Peso na ColГіime</displayName>
+			</currency>
+			<currency type="CRC">
+				<displayName>Colon ChГіsta RГ­ce</displayName>
+			</currency>
+			<currency type="CSK">
+				<displayName>Koruna Crua na SeicslГіvaice</displayName>
+			</currency>
+			<currency type="CUP">
+				<displayName>Peso CГєba</displayName>
+			</currency>
+			<currency type="CVE">
+				<displayName>Escudo na Rinne Verde</displayName>
+			</currency>
+			<currency type="CYP">
+				<displayName>Punt na Cipire</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>Koruna Phoblacht na Seice</displayName>
+			</currency>
+			<currency type="DDM">
+				<displayName>Ostmark na hOirGhearmГЎine</displayName>
+			</currency>
+			<currency type="DEM">
+				<displayName>Deutsche Mark</displayName>
+			</currency>
+			<currency type="DJF">
+				<displayName>Franc Djibouti</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>Krone Danmhargach</displayName>
+			</currency>
+			<currency type="DOP">
+				<displayName>Peso Doimineacach</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>DГ­near na hAilgГ©ire</displayName>
+			</currency>
+			<currency type="ECS">
+				<displayName>Sucre EacuadГіir</displayName>
+			</currency>
+			<currency type="ECV">
+				<displayName>Unidad de Valor Constante (UVC) EacuadГіir</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>Kroon na hEastГіine</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>Punt na hГ‰igipte</displayName>
+			</currency>
+			<currency type="ESP">
+				<displayName>Peseta SpГЎinneach</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>Birr na hAetГіipe</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>Euro</displayName>
+			</currency>
+			<currency type="FIM">
+				<displayName>Markka Fionnlannach</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>Dollar FhidsГ­</displayName>
+			</currency>
+			<currency type="FKP">
+				<displayName>Punt OileГЎin FhГЎclainne</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>Franc Francach</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>Punt Steirling</displayName>
+				<symbol>GBВЈ</symbol>
+			</currency>
+			<currency type="GEK">
+				<displayName>Kupon Larit na GrГєise</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>Lari na GrГєise</displayName>
+			</currency>
+			<currency type="GHC">
+				<displayName>Cedi GhГЎna</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>Punt GhiobrГЎltair</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>Dalasi Gaimbia</displayName>
+			</currency>
+			<currency type="GNF">
+				<displayName>Franc Guine</displayName>
+			</currency>
+			<currency type="GNS">
+				<displayName>Syli Guine</displayName>
+			</currency>
+			<currency type="GQE">
+				<displayName>Ekwele Guineana na Guine MeГЎnchriosaГ­</displayName>
+			</currency>
+			<currency type="GRD">
+				<displayName>Drachma GrГ©agach</displayName>
+			</currency>
+			<currency type="GTQ">
+				<displayName>Quetzal Guatamala</displayName>
+			</currency>
+			<currency type="GWE">
+				<displayName>Escudo na Guine PortaingГ©alaГ­</displayName>
+			</currency>
+			<currency type="GWP">
+				<displayName>Peso Guine-Bhissau</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>Dollar na GuГЎine</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>Dollar Hong Cong</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>Lempira HondГєrais</displayName>
+			</currency>
+			<currency type="HRD">
+				<displayName>DГ­near na CrГіite</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>Kuna CrГіtach</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>Gourde HГЎitГ­</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>Forint UngГЎrach</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>Rupiah IndinГ©iseach</displayName>
+			</currency>
+			<currency type="IEP">
+				<displayName>Punt Г‰ireannach</displayName>
+				<symbol>ВЈ</symbol>
+			</currency>
+			<currency type="ILP">
+				<displayName>Punt Iosraelach</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>Sheqel Nua Iosraelach</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>RГєipГ­ India</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>DГ­near IrГЎcach</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>Rial IarГЎnach</displayName>
+			</currency>
+			<currency type="ISK">
+				<displayName>Krona ГЌoslannach</displayName>
+			</currency>
+			<currency type="ITL">
+				<displayName>Lira IodГЎlach</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>Dollar IamГЎcach</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>DГ­near IordГЎnach</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>Yen SeapГЎnach</displayName>
+			</currency>
+			<currency type="KES">
+				<displayName>Scilling CГ©iniach</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>Som na CirgeastГЎine</displayName>
+			</currency>
+			<currency type="KHR">
+				<displayName>Riel na CambГіide</displayName>
+			</currency>
+			<currency type="KMF">
+				<displayName>Franc ChomГіra</displayName>
+			</currency>
+			<currency type="KPW">
+				<displayName>Won na CГіirГ© Thuaidh</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>Won na CГіirГ© Theas</displayName>
+			</currency>
+			<currency type="KWD">
+				<displayName>DГ­near CuГЎtach</displayName>
+			</currency>
+			<currency type="KYD">
+				<displayName>Dollar OileГЎin Cayman</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>Tenge CasacstГЎnach</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>Kip Laosach</displayName>
+			</currency>
+			<currency type="LBP">
+				<displayName>Punt na LiobГЎine</displayName>
+			</currency>
+			<currency type="LKR">
+				<displayName>RГєipГ­ SrГ­ Lanca</displayName>
+			</currency>
+			<currency type="LRD">
+				<displayName>Dollar na LibГ©ire</displayName>
+			</currency>
+			<currency type="LSL">
+				<displayName>Loti LeosГіta</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>Lita LiotuГЎnach</displayName>
+			</currency>
+			<currency type="LTT">
+				<displayName>Talonas LiotuГЎnach</displayName>
+			</currency>
+			<currency type="LUF">
+				<displayName>Franc Lucsamburg</displayName>
+			</currency>
+			<currency type="LVL">
+				<displayName>Lats Laitviach</displayName>
+			</currency>
+			<currency type="LVR">
+				<displayName>RГєbal Laitviach</displayName>
+			</currency>
+			<currency type="LYD">
+				<displayName>DГ­near Libia</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>Dirham MharacГі</displayName>
+			</currency>
+			<currency type="MAF">
+				<displayName>Franc MharacГі</displayName>
+			</currency>
+			<currency type="MDL">
+				<displayName>Leu MoldГіvach</displayName>
+			</currency>
+			<currency type="MGA">
+				<displayName>Ariary Madagascar</displayName>
+			</currency>
+			<currency type="MGF">
+				<displayName>Franc Madagascar</displayName>
+			</currency>
+			<currency type="MKD">
+				<displayName>Denar na MacadГіine</displayName>
+			</currency>
+			<currency type="MLF">
+				<displayName>Franc MhailГ­</displayName>
+			</currency>
+			<currency type="MMK">
+				<displayName>Kyat Mhaenmar</displayName>
+			</currency>
+			<currency type="MNT">
+				<displayName>Tugrik MongГіlach</displayName>
+			</currency>
+			<currency type="MOP">
+				<displayName>Pataca Macao</displayName>
+			</currency>
+			<currency type="MRO">
+				<displayName>Ouguiya na MaratГЎine</displayName>
+			</currency>
+			<currency type="MTL">
+				<displayName>Lira Maltach</displayName>
+			</currency>
+			<currency type="MTP">
+				<displayName>Punt Maltach</displayName>
+			</currency>
+			<currency type="MUR">
+				<displayName>RГєipГ­ OileГЎn MhuirГ­s</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>Maldive Islands Rufiyaa</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>Kwacha na MalГЎive</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>Peso Meicsiceo</displayName>
+			</currency>
+			<currency type="MXP">
+				<displayName>Peso Airgid Meicsiceo (1861-1992)</displayName>
+			</currency>
+			<currency type="MXV">
+				<displayName>Unidad de Inversion (UDI) Meicsiceo</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>Ringgit Malaeisia</displayName>
+			</currency>
+			<currency type="MZE">
+				<displayName>Escudo MГіsaimbГ­ce</displayName>
+			</currency>
+			<currency type="MZM">
+				<displayName>Metical MГіsaimbГ­ce</displayName>
+			</currency>
+			<currency type="NAD">
+				<displayName>Dollar na Namaibe</displayName>
+			</currency>
+			<currency type="NGN">
+				<displayName>Naira NГ­gГ©arach</displayName>
+			</currency>
+			<currency type="NIC">
+				<displayName>Cordoba Nicearagua</displayName>
+			</currency>
+			<currency type="NIO">
+				<displayName>Cordoba Oro Nicearagua</displayName>
+			</currency>
+			<currency type="NLG">
+				<displayName>Guilder ГЌsiltГ­reach</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>Krone Ioruach</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>RГєipГ­ NeipeГЎil</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>Dollar na Nua-ShГ©alainne</displayName>
+			</currency>
+			<currency type="OMR">
+				<displayName>Rial Omain</displayName>
+			</currency>
+			<currency type="PAB">
+				<displayName>Balboa Panamach</displayName>
+			</currency>
+			<currency type="PEI">
+				<displayName>Inti PheiriГє</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>Sol Nuevo PheiriГє</displayName>
+			</currency>
+			<currency type="PES">
+				<displayName>Sol PheiriГє</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>Kina Nua-Ghuine Phapua</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>Peso FilipГ­neach</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>RГєipГ­ na PacastГЎine</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>Zloty Polannach</displayName>
+			</currency>
+			<currency type="PLZ">
+				<displayName>Zloty Polannach (1950-1995)</displayName>
+			</currency>
+			<currency type="PTE">
+				<displayName>Escudo PortaingГ©lach</displayName>
+			</currency>
+			<currency type="PYG">
+				<displayName>Guarani Pharagua</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>Rial Catarach</displayName>
+			</currency>
+			<currency type="ROL">
+				<displayName>Leu RГіmГЎnach</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>RГєbal RГєiseach</displayName>
+			</currency>
+			<currency type="RUR">
+				<displayName>RГєbal RГєiseach (1991-1998)</displayName>
+			</currency>
+			<currency type="RWF">
+				<displayName>Franc Ruanda</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>Riyal SГЎdach</displayName>
+			</currency>
+			<currency type="SBD">
+				<displayName>Dollar OileГЎin Solomon</displayName>
+			</currency>
+			<currency type="SCR">
+				<displayName>RГєipГ­ na SГ©isГ©il</displayName>
+			</currency>
+			<currency type="SDD">
+				<displayName>DГ­near na SГєdГЎine</displayName>
+			</currency>
+			<currency type="SDP">
+				<displayName>Punt na SГєdГЎine</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>Krona Sualannach</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>Dollar SingeapГіir</displayName>
+			</currency>
+			<currency type="SHP">
+				<displayName>Punt San HГ©ilin</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>Tolar SlГіvГ©nach</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>Koruna na SlГіvaice</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>Leone Shiarra Leon</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>Scilling na SГіmГЎile</displayName>
+			</currency>
+			<currency type="SRG">
+				<displayName>Guilder Shuranaim</displayName>
+			</currency>
+			<currency type="STD">
+				<displayName>Dobra Sao Tome agus Principe</displayName>
+			</currency>
+			<currency type="SUR">
+				<displayName>RГєbal SГіvГ©adach</displayName>
+			</currency>
+			<currency type="SVC">
+				<displayName>Colon na SalvadГіire</displayName>
+			</currency>
+			<currency type="SYP">
+				<displayName>Punt Siria</displayName>
+			</currency>
+			<currency type="SZL">
+				<displayName>Lilangeni na Suasalainne</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>Baht na TГ©alainne</displayName>
+			</currency>
+			<currency type="TJR">
+				<displayName>RГєbal na TГЎidsГ­ceastГЎine</displayName>
+			</currency>
+			<currency type="TJS">
+				<displayName>Somoni na TГЎidsГ­ceastГЎine</displayName>
+			</currency>
+			<currency type="TMM">
+				<displayName>Manat na An TuircmГ©anastГЎine</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>DГ­near na TГєinГ©ise</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>PaК»anga Tonga</displayName>
+			</currency>
+			<currency type="TPE">
+				<displayName>Escudo TГ­omГіir</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>Lira Turcach</displayName>
+			</currency>
+			<currency type="TTD">
+				<displayName>Dollar OileГЎin na TrГ­onГіide agus TobГЎga</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>Dollar Nua na TГ©avГЎine</displayName>
+			</currency>
+			<currency type="TZS">
+				<displayName>Scilling na TansГЎine</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>Hryvnia ГљcrГЎnach</displayName>
+			</currency>
+			<currency type="UAK">
+				<displayName>Karbovanetz ГљcrГЎnach</displayName>
+			</currency>
+			<currency type="UGS">
+				<displayName>Scilling Uganda (1966-1987)</displayName>
+			</currency>
+			<currency type="UGX">
+				<displayName>Scilling Uganda</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>Dollar S.A.M.</displayName>
+			</currency>
+			<currency type="USN">
+				<displayName>Dollar S.A.M. (an chГ©ad lГЎ eile)</displayName>
+			</currency>
+			<currency type="USS">
+				<displayName>Dollar S.A.M. (an la cГ©anna)</displayName>
+			</currency>
+			<currency type="UYP">
+				<displayName>Peso Uragua (1975-1993)</displayName>
+			</currency>
+			<currency type="UYU">
+				<displayName>Peso Uruguayo Uragua</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>Sum na hГљisbГ©iceastГЎine</displayName>
+			</currency>
+			<currency type="VEB">
+				<displayName>Bolivar VeinisГ©ala</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>Dong VГ­tneamach</displayName>
+			</currency>
+			<currency type="VUV">
+				<displayName>Vatu VanuatГє</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>Tala SamГі Thiar</displayName>
+			</currency>
+			<currency type="XAF">
+				<displayName>CFA Franc BEAC</displayName>
+			</currency>
+			<currency type="XAU">
+				<displayName>Г“r</displayName>
+			</currency>
+			<currency type="XBA">
+				<displayName>Aonad Ilchodach Eorpach</displayName>
+			</currency>
+			<currency type="XBB">
+				<displayName>Aonad AirgeadaГ­ochta Eorpach</displayName>
+			</currency>
+			<currency type="XBC">
+				<displayName>Aonad Cuntais Eorpach (XBC)</displayName>
+			</currency>
+			<currency type="XBD">
+				<displayName>Aonad Cuntais Eorpach (XBD)</displayName>
+			</currency>
+			<currency type="XCD">
+				<displayName>Dollar Oirthear na Cairibe</displayName>
+			</currency>
+			<currency type="XDR">
+				<displayName>Cearta Speisialta Tarraingthe</displayName>
+			</currency>
+			<currency type="XEU">
+				<displayName>Aonad Airgeadra Eorpach</displayName>
+			</currency>
+			<currency type="XFO">
+				<displayName>Franc Г“r Francach</displayName>
+			</currency>
+			<currency type="XFU">
+				<displayName>UIC-Franc Francach</displayName>
+			</currency>
+			<currency type="XOF">
+				<displayName>CFA Franc BCEAO</displayName>
+			</currency>
+			<currency type="XPF">
+				<displayName>CFP Franc</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>Airgeadra Anaithnid nГі NeamhbhailГ­</displayName>
+			</currency>
+			<currency type="YDD">
+				<displayName>DГ­near Г‰imin</displayName>
+			</currency>
+			<currency type="YER">
+				<displayName>Rial Г‰imin</displayName>
+			</currency>
+			<currency type="YUD">
+				<displayName>DГ­near Crua IГєgslavach</displayName>
+			</currency>
+			<currency type="YUM">
+				<displayName>Noviy Dinar IГєgslavach</displayName>
+			</currency>
+			<currency type="YUN">
+				<displayName>DГ­near Inathraithe IГєgslavach</displayName>
+			</currency>
+			<currency type="ZAL">
+				<displayName>Rand na hAfraice Theas (airgeadГєil)</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>Rand na hAfraice Theas</displayName>
+			</currency>
+			<currency type="ZMK">
+				<displayName>Kwacha Saimbiach</displayName>
+			</currency>
+			<currency type="ZRN">
+				<displayName>Zaire Nua SГЎГ­reach</displayName>
+			</currency>
+			<currency type="ZRZ">
+				<displayName>Zaire SГЎГ­reach</displayName>
+			</currency>
+			<currency type="ZWD">
+				<displayName>Dollar SiombГЎbach</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>tГЎ:t</yesstr>
+			<nostr>nГ­l:n</nostr>
+		</messages>
+	</posix>
+</ldml>
+

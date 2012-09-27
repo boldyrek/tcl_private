@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+php_value magic_quotes_gpc 0
+php_value session.gc_maxlifetime 10800
+php_value display_errors off
+
+# DirectoryIndex index.html

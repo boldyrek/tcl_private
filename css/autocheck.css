@@ -1,0 +1,262 @@
+#report{margin:auto;text-align:left; width:55.88em !important;color:#666; font-size:13px;font-family:Helvetica;}
+
+div, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, hr, th, td {
+margin:0;
+padding:0;
+}
+#report a {text-decoration:none;}
+#report p a {cursor:text;color:#666}
+
+#main {padding:15px; background:none repeat scroll 0 0 #FFFFFF; margin:0 auto; min-height:100%; text-align:left; border-right:1px solid #555555; border-left:1px solid #555555;}
+
+
+#hd {background:#fff; padding-bottom:20px; border-bottom:1px solid #ddd; border-right:1px solid #555555; border-left:1px solid #555555;}
+
+#hd-inner {padding:15px;}
+
+
+
+
+#report {padding: 5px 0; line-height:1.6;}
+
+
+
+#score-summary {line-height: 1.6; width:55.8;}
+#score-summary h1 {font-size:35px; color:#035AA6; font-weight:bold; margin:0px;}
+#score-summary .boxx {padding:20px 0 20px 20px; border:1px solid #0064B3; margin-bottom:25px;}
+
+.vehicle-name {font-size:20px; color:#066A9B; display:block; font-weight:bold;}
+.vin {font-size:18px; color:#999;}
+.run-date {font-size:13px; color:#aaa;}
+
+
+
+#score-section h3 {color:#035AA6; font-weight:normal;}
+#score-section a {text-decoration:none; color:#666;}
+#score-section a:hover {color:#666;}
+#score-section a:visited {color:#666;}
+
+h2 {display:block;font-size:30px; line-height:1.5em; color:#066A9B; font-weight:bold;}
+h2 {border-bottom:1px solid #666; margin:0 0 .5em 0; margin-right:20px;}
+
+#vehicle-summary {border-bottom:1px solid #666; margin-bottom:1em; padding-bottom:1em; margin-right:20px;}
+#vehicle-summary ul {width:50%;  list-style: none; margin-left:0;}
+#vehicle-summary li span {font-weight:bold; margin-left:.5em;}
+
+#vehicle-summary ul.col2 {width:240px; float:right;}
+
+#vehicle-summary .details {width:615px; line-height:1.9;}
+
+#vehicle-summary img {float:right;}
+
+#score-tile {width:210px; float:left; margin-right:1em; margin-bottom:1em;}
+
+#score-right {float:right;}
+
+.module {width:380px; height:164px;}
+
+.module {-moz-border-radius:10px 10px 10px 10px;background:none repeat scroll 0 0 #FAFAFA;border:1px solid #666;margin-bottom:25px;}
+
+.module p:last-child {margin-bottom:0;}
+
+#vin-summary { width:auto; margin:10px 0 0 0;}
+
+
+#vin-summary tr td:first-child {
+width:50px;
+}
+
+#vin-summary tr td {
+vertical-align:middle;
+}
+
+#buyback img {
+float:left;
+margin:0 1em 1em 0;
+}
+
+#vin-summary img {margin-right:10px;}
+
+
+
+#report #vin-summary td {
+color:#444444;
+font-size:13px;
+padding: 0 0 1.5em 0;
+}
+
+#vin-summary td a {
+font-size:11px;
+}
+
+#vin-summary a {
+display:block;
+cursor:text;
+}
+
+#vin-summary td h3 {
+font-size:15px;
+line-height:1em;
+}
+
+#vin-summary td p {font-size:10px; line-height:1em; color:#999999;}
+
+
+
+
+.module .inner {
+padding:5px 10px 10px;
+}
+
+#score-section .module h3 {
+border-bottom:1px solid #666;
+font-weight:bold;
+margin-bottom:1em;
+font-size:100%
+}
+#score.module a,#buyback a {
+display:none;
+}
+
+#center_section {height:350px;margin-right:20px;}
+
+.full-report-button a {background:url('/consumers/scoreReport/images/full-history-button.gif') top left no-repeat; display:block;width:286px; height:29px; color:#fff; text-align:center; font-size:16px; margin:1.5em auto 0;}
+#score-section .full-report-button a:hover {text-decoration:none;}
+
+/*sub sections   */
+
+.section .top {
+background-color:#02293C;
+border:2px solid #D7D7D7;
+margin-bottom:3px;
+padding:2px;
+}
+
+.section .top h3 {
+color:#FFFFFF;
+font-size:143%;
+margin:0.5em 0;
+padding:0 8px;
+}
+
+
+.hide-details {
+display:none;
+}
+
+.warning {
+color:#BD0000;
+}
+
+.checks-out {
+color:#1F991F;
+}
+
+.info-reported {
+color:#27438B;
+}
+
+
+.lead-in {
+font-size:123%;
+font-weight:bold;
+}
+
+.section p {
+margin-bottom:1.2em;
+}
+
+.section p a:link {
+color:blue;
+font-weight:normal;
+text-decoration:none;
+}
+
+.section p a:hover {
+color:blue;
+font-weight:normal;
+text-decoration:underline;
+}
+
+.section th {
+border-bottom:2px solid #555555;
+font-weight:bold;
+padding:6px;
+color:#000000;
+}
+
+.check-header {
+text-align:center;
+width:25%;
+}
+
+#report table {
+margin-bottom:10px;
+width:100%;
+border-collapse:collapse;
+}
+
+#report table td{
+padding: 5px 6px;
+}
+
+.bottom td,  #full-history-list td , #section-vehicle-glossary td{border-bottom:1px solid #D7D7D7;}
+
+#report .flagged td {
+background-color:#FDFBE1;
+color:red !important;
+font-weight:bold;
+}
+
+#report .flagged td a {
+color:red;
+text-decoration:none;
+}
+
+#section-disclaimers { line-height:1.6em; color:#000;}
+
+.noPrint{display:none;}
+
+/* ACCIDENT DATA */
+.accident-module {border:1px solid #333; padding:10px; margin-top:1em; background:#fafafa;}
+.accident-module h4 { background-color:#035AA6; margin:-10px -10px 5px; padding:5px 10px; font-weight:bold; border-bottom:2px solid #555555;color:#FFF;}
+.accident-module td {border-top:1px solid #ddd;}
+h4 .accident {font-size:16px; margin-right:.5em;}
+
+p.disclaimer {line-height:1.3em; font-size:11px; color:#999; margin-top:1em;}
+
+#accident-data .top p {
+color:#FFFFFF;
+font-size:11px;
+line-height:1em;
+margin-left:15px;
+margin-top:0;
+}
+
+#accident-data .top h3 {
+margin:0.5em 0 0 0;
+}
+
+#report .badge {
+float:right;
+margin:0 0.5em 0 1em;
+width:200px;
+}
+
+.print-image-only {
+display:inline;
+margin-right:5px;
+}
+
+#report #score-tile table {
+border-collapse:separate;
+margin-bottom:0;
+padding:0;
+width:210px;
+}
+
+#report #score-tile table td{
+padding:0;
+}
+
+#iconTable {width:43%}

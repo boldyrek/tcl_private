@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.7 $"/>
+		<generation date="$Date: 2009/05/05 23:06:40 $"/>
+		<language type="si"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="si">а·ѓа·’а¶‚а·„а¶Ѕ</language>
+		</languages>
+		<scripts>
+			<script type="Sinh">а·ѓа·’а¶‚а·„а¶Ѕ</script>
+		</scripts>
+		<territories>
+			<territory type="LK">а·Ѓа·ЉвЂЌа¶»а·“ а¶Ѕа¶‚а¶ља·Џа·Ђ</territory>
+		</territories>
+		<keys>
+			<key type="calendar">а¶Їа·’а¶±а¶Їа·ѓа·”а¶±</key>
+			<key type="currency">а¶ёа·”а¶Їа¶Ѕа·Љ</key>
+		</keys>
+		<types>
+			<type type="buddhist" key="calendar">а¶¶а·”а¶Їа·ЉвЂЌа¶° а¶Їа·’а¶±а¶Їа·ѓа·”а¶±</type>
+			<type type="gregorian" key="calendar">а¶Їа·’а¶±а¶Їа·ѓа·”а¶±</type>
+		</types>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[а¶…-а¶Ќ а¶‘-а¶– а¶‚ а¶ѓ а¶љ-а¶Ј а¶Ґ а¶¤ а¶§-а¶± а¶і-а¶» а¶Ѕ а·Ђ-а·† а·Џ-\u0DD4 \u0DD6 а· а·І а·џ а·™-а·ћ \u0DCA]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200B-\u200D а¶Ћ-а¶ђ а¶¦ а·і]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a-z]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">а¶ўа¶±</month>
+							<month type="2">а¶ґа·™а¶¶</month>
+							<month type="3">а¶ёа·Џа¶»а·Ља¶­</month>
+							<month type="4">а¶…а¶ґа·ЉвЂЌа¶»а·ља¶Ѕ</month>
+							<month type="5">а¶ёа·ђа¶є</month>
+							<month type="6">а¶ўа·–а¶±</month>
+							<month type="7">а¶ўа·–а¶Ѕ</month>
+							<month type="8">а¶…а¶ња·ќ</month>
+							<month type="9">а·ѓа·ђа¶ґ</month>
+							<month type="10">а¶”а¶љ</month>
+							<month type="11">а¶±а·ња·Ђа·ђ</month>
+							<month type="12">а¶Їа·™а·ѓа·ђ</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">а¶ўа¶±а·Ђа·Џа¶»</month>
+							<month type="2">а¶ґа·™а¶¶а¶»а·Ђа·Џа¶»</month>
+							<month type="3">а¶ёа·Џа¶»а·Ља¶­</month>
+							<month type="4">а¶…а¶ґа·ЉвЂЌа¶»а·ља¶Ѕа·Љ</month>
+							<month type="5">а¶ёа·ђа¶єа·’</month>
+							<month type="6">а¶ўа·–а¶±</month>
+							<month type="7">а¶ўа·–а¶Ѕа·’</month>
+							<month type="8">а¶…а¶ња·ќа·ѓа·Ља¶­а·”</month>
+							<month type="9">а·ѓа·ђа¶ґа·Ља¶­а·ђа¶ёа·Ља¶¶а¶»а·Љ</month>
+							<month type="10">а¶”а¶ља·Ља¶­а·ќа¶¶а¶»а·Љ</month>
+							<month type="11">а¶±а·ња·Ђа·ђа¶ёа·Ља¶¶а¶»а·Љ</month>
+							<month type="12">а¶Їа·™а·ѓа·ђа¶ёа·Ља¶¶а¶»а·Љ</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">а¶ў</month>
+							<month type="2">а¶ґа·™</month>
+							<month type="3">а¶ёа·Џ</month>
+							<month type="4">а¶…</month>
+							<month type="5">а¶ёа·ђ</month>
+							<month type="6">а¶ўа·–</month>
+							<month type="7">а¶ўа·–</month>
+							<month type="8">а¶…</month>
+							<month type="9">а·ѓа·ђ</month>
+							<month type="10">а¶”</month>
+							<month type="11">а¶±а·њ</month>
+							<month type="12">а¶Їа·™</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">а¶‰а¶»а·’</day>
+							<day type="mon">а·ѓа¶іа·”</day>
+							<day type="tue">а¶…а¶џ</day>
+							<day type="wed">а¶¶а¶Їа·Џ</day>
+							<day type="thu">а¶¶а·ЉвЂЌа¶»а·„</day>
+							<day type="fri">а·ѓа·’а¶ља·”</day>
+							<day type="sat">а·ѓа·™а¶±</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">а¶‰а¶»а·’а¶Їа·Џ</day>
+							<day type="mon">а·ѓа¶іа·”а¶Їа·Џ</day>
+							<day type="tue">а¶…а¶џа·„а¶»а·”а·Ђа·Џа¶Їа·Џ</day>
+							<day type="wed">а¶¶а¶Їа·Џа¶Їа·Џ</day>
+							<day type="thu">а¶¶а·ЉвЂЌа¶»а·„а·ѓа·Ља¶ґа¶­а·’а¶±а·Ља¶Їа·Џ</day>
+							<day type="fri">а·ѓа·’а¶ља·”а¶»а·Џа¶Їа·Џ</day>
+							<day type="sat">а·ѓа·™а¶±а·ѓа·”а¶»а·Џа¶Їа·Џ</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">а¶‰</day>
+							<day type="mon">а·ѓ</day>
+							<day type="tue">а¶…</day>
+							<day type="wed">а¶¶</day>
+							<day type="thu">а¶¶а·ЉвЂЌа¶»</day>
+							<day type="fri">а·ѓа·’</day>
+							<day type="sat">а·ѓа·™</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">а¶ља·Џа¶»а·Љ:1</quarter>
+							<quarter type="2">а¶ља·Џа¶»а·Љ:2</quarter>
+							<quarter type="3">а¶ља·Џа¶»а·Љ:3</quarter>
+							<quarter type="4">а¶ља·Џа¶»а·Љ:4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">1 а·Ђа¶± а¶ља·Џа¶»а·Ља¶­а·”а·Ђ</quarter>
+							<quarter type="2">2 а·Ђа¶± а¶ља·Џа¶»а·Ља¶­а·”а·Ђ</quarter>
+							<quarter type="3">3 а·Ђа¶± а¶ља·Џа¶»а·Ља¶­а·”а·Ђ</quarter>
+							<quarter type="4">4 а·Ђа¶± а¶ља·Џа¶»а·Ља¶­а·”а·Ђ</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>а¶ґа·™.а·Ђ.</am>
+				<pm>а¶ґ.а·Ђ.</pm>
+				<eras>
+					<eraNames>
+						<era type="0">а¶ља·ЉвЂЌа¶»а·’а·ѓа·Ља¶­а·” а¶ґа·–а¶»а·ЉвЂЌа·Ђ</era>
+						<era type="1">а¶ља·ЉвЂЌа¶»а·’а·ѓа·Ља¶­а·” а·Ђа¶»а·ЉвЂЌа·‚</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">а¶ља·ЉвЂЌа¶»а·’.а¶ґа·–.</era>
+						<era type="1">а¶ља·ЉвЂЌа¶»а·’.а·Ђ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>y MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yyyy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>h:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>h:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>h:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>h:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<fields>
+					<field type="day">
+						<relative type="-1">а¶Ља¶єа·™</relative>
+						<relative type="0">а¶…а¶Ї</relative>
+						<relative type="1">а·„а·™а¶§</relative>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<metazone type="Lanka">
+				<long>
+					<standard>а·Ѓа·ЉвЂЌа¶»а·“ а¶Ѕа¶‚а¶ља·Џ а·Ђа·ља¶Ѕа·Џа·Ђ</standard>
+				</long>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##,##0.00;(В¤#,##,##0.00)</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="LKR">
+				<displayName>а¶Ѕа¶‚а¶ља·Џ а¶»а·”а¶ґа·’а¶єа¶Ѕа·Љ</displayName>
+				<symbol>SL Re</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>а¶”а·Ђа·Љ:а¶”</yesstr>
+			<nostr>а¶±а·ђа¶­:а¶±а·ђ</nostr>
+		</messages>
+	</posix>
+</ldml>
+

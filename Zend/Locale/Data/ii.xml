@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.11 $"/>
+		<generation date="$Date: 2009/05/05 23:06:37 $"/>
+		<language type="ii"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="de">к„“к‡©к‰™</language>
+			<language type="en">к‘±к‡©к‰™</language>
+			<language type="es">к‘­кЂ к‘ёк‰™</language>
+			<language type="fr">кѓ”к‡©к‰™</language>
+			<language type="ii">к†€кЊ к‰™</language>
+			<language type="it">к‘ґк„Љк†єк‰™</language>
+			<language type="ja">кЏќкЂЄк‰™</language>
+			<language type="pt">кЃЌк„Ёк‘ёк‰™</language>
+			<language type="pt_BR">кЂ к‘џкЃЌк„Ёк‘ёк‰™</language>
+			<language type="ru">кЉ‰к‡©к‰™</language>
+			<language type="und">к…‰кЂ‹кЊ к…‡к‚·</language>
+			<language type="zh">кЌЏк‡©к‰™</language>
+			<language type="zh_Hans">к€ќкђЇкЌЏк‡©к‰™</language>
+			<language type="zh_Hant">кЂЋк‹ЏкЌЏк‡©к‰™</language>
+		</languages>
+		<scripts>
+			<script type="Arab">кЂЉк‡ЃкЂЁкЃ±к‚·</script>
+			<script type="Cyrl">кЂЉк†ЁкЊ¦к‡ЃкѓљкЃ±к‚·</script>
+			<script type="Hans">к€ќкђЇк‰Њк€ІкЃ±к‚·</script>
+			<script type="Hant">кЂЋк‹Џк‰Њк€ІкЃ±к‚·</script>
+			<script type="Latn">к‡Ѓк„ЂкЃ±к‚·</script>
+			<script type="Yiii">к†€кЊ кЃ±к‚·</script>
+			<script type="Zxxx">кЃ±кЂ‹к‰†кЊ </script>
+			<script type="Zzzz">к…‰кЂ‹кђљкЊ кЃ±к‚·</script>
+		</scripts>
+		<territories>
+			<territory type="BR">кЂ к‘­</territory>
+			<territory type="CN">кЌЏк‡©</territory>
+			<territory type="DE">к„“к‡©</territory>
+			<territory type="FR">кѓ”к‡©</territory>
+			<territory type="GB">к‘±к‡©</territory>
+			<territory type="IN">к‘ґк„—</territory>
+			<territory type="IT">к‘ґк„Љк†є</territory>
+			<territory type="JP">кЏќкЂЄ</territory>
+			<territory type="RU">кЉ‰к‡†кЊ¦</territory>
+			<territory type="US">к‚°к‡©</territory>
+			<territory type="ZZ">кѓ…к„·к…‰кЂ‹кђљкЊ </territory>
+		</territories>
+		<types>
+			<type type="gregorian" key="calendar">к„‰к‰»кѓ…к‘Ќ</type>
+			<type type="islamic" key="calendar">к‘ікЊ¦к‡‚к‘Ќк‰–</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">к‚°к‡©</measurementSystemName>
+			<measurementSystemName type="metric">к‚°кЊ¬кЊ </measurementSystemName>
+		</measurementSystemNames>
+		<codePatterns>
+			<codePattern type="language">к…‡к‰™: {0}</codePattern>
+			<codePattern type="script">к‡‡кЃ±: {0}</codePattern>
+			<codePattern type="territory">кѓ…к„·: {0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[кЂЂ-к’Њ]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">к‹Ќк†Є</month>
+							<month type="2">к‘Ќк†Є</month>
+							<month type="3">кЊ•к†Є</month>
+							<month type="4">к‡–к†Є</month>
+							<month type="5">к‰¬к†Є</month>
+							<month type="6">кѓк†Є</month>
+							<month type="7">кЏѓк†Є</month>
+							<month type="8">к‰†к†Є</month>
+							<month type="9">к€¬к†Є</month>
+							<month type="10">кЉ°к†Є</month>
+							<month type="11">кЉ°кЉЄк†Є</month>
+							<month type="12">кЉ°к‘‹к†Є</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">к†Џк‘Ќ</day>
+							<day type="mon">к†Џк‹Ќ</day>
+							<day type="tue">к†Џк‘Ќ</day>
+							<day type="wed">к†ЏкЊ•</day>
+							<day type="thu">к†Џк‡–</day>
+							<day type="fri">к†Џк‰¬</day>
+							<day type="sat">к†Џкѓ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">к‘­к†Џк‘Ќ</day>
+							<day type="mon">к†ЏкЉ‚к‹Ќ</day>
+							<day type="tue">к†ЏкЉ‚к‘Ќ</day>
+							<day type="wed">к†ЏкЉ‚кЊ•</day>
+							<day type="thu">к†ЏкЉ‚к‡–</day>
+							<day type="fri">к†ЏкЉ‚к‰¬</day>
+							<day type="sat">к†ЏкЉ‚кѓ</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">к†Џ</day>
+							<day type="mon">к‹Ќ</day>
+							<day type="tue">к‘Ќ</day>
+							<day type="wed">кЊ•</day>
+							<day type="thu">к‡–</day>
+							<day type="fri">к‰¬</day>
+							<day type="sat">кѓ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">кѓ…к‘Њ</quarter>
+							<quarter type="2">кѓ…кЋё</quarter>
+							<quarter type="3">кѓ…кЌµ</quarter>
+							<quarter type="4">кѓ…к‹†</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">кѓ…к‘Њ</quarter>
+							<quarter type="2">кѓ…кЋё</quarter>
+							<quarter type="3">кѓ…кЌµ</quarter>
+							<quarter type="4">кѓ…к‹†</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>кЋёк„‘</am>
+				<pm>кЃЇк‹’</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">кѓ…к‹Љк‚ї</era>
+						<era type="1">кѓ…к‹ЉкЉ‚</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<fields>
+					<field type="era">
+						<displayName>кѓ…к‹Љ</displayName>
+					</field>
+					<field type="year">
+						<displayName>к€Ћ</displayName>
+					</field>
+					<field type="month">
+						<displayName>к†Є</displayName>
+					</field>
+					<field type="week">
+						<displayName>к‘­к†Џ</displayName>
+					</field>
+					<field type="day">
+						<displayName>к‘Ќ</displayName>
+						<relative type="-2">кЋґк‚їк‹Ќк‘Ќ</relative>
+						<relative type="-1">кЂ‹к…”к‰€</relative>
+						<relative type="0">кЂѓк‘Ќ</relative>
+						<relative type="1">кѓ†кЏ‚к‘Ќ</relative>
+						<relative type="2">кЊ•кЂїк‘Ќ</relative>
+					</field>
+					<field type="weekday">
+						<displayName>к†Џк‘Ќ</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>кЋёк„‘/кЃЇк‹’</displayName>
+					</field>
+					<field type="hour">
+						<displayName>к„®к€‰</displayName>
+					</field>
+					<field type="minute">
+						<displayName>кѓЏ</displayName>
+					</field>
+					<field type="second">
+						<displayName>к‡™</displayName>
+					</field>
+					<field type="zone">
+						<displayName>кѓ…к„·к„®к€‰</displayName>
+					</field>
+				</fields>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<zone type="Etc/Unknown">
+				<exemplarCity>к…‰кЂ‹кђљкЊ </exemplarCity>
+			</zone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>.</decimal>
+			<group>,</group>
+		</symbols>
+		<currencies>
+			<currency type="XXX">
+				<displayName>к…‰кЂ‹кђљкЊ кЊ‹к†ЂкЋ†кѓЂкЂ‹к€ЃкЂђкЊ </displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>к‰¬</yesstr>
+			<nostr>кЂ‹к‰¬</nostr>
+		</messages>
+	</posix>
+</ldml>

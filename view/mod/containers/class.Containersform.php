@@ -1,0 +1,114 @@
+<?
+
+class ContainersForm extends Proto {
+	
+	var $content;
+	var $id;
+	var $slots;
+	var $expeditors;
+	var $ports;
+	var $orphants;
+	var $loaded;
+	var $myport;
+	
+	public function drawContent() {
+		$this->page .= $this->templates['header'];
+		if($this->checkAuth()) {
+			$this->page .= $this->makeTopMenu();
+			$this->getContent();
+		}
+		$this->page .= $this->templates['footer'];
+		
+		$this->errorsPublisher();
+		$this->publish();
+	}
+	
+	function getContent() {
+		// готовим данные для формы контейнера
+		require ($_SERVER['DOCUMENT_ROOT'].$this->root_path.'view/mod/containers/templates/container.form.php');
+		
+		if(isset($_GET['cont_id'])) {
+			$this->id = intval($_GET['cont_id']);
+			$this->content = mysql_fetch_array($this->mysqlQuery("
+			SELECT ccl_".ACCOUNT_SUFFIX."containers.*, ccl_".ACCOUNT_SUFFIX."expeditors.name as exp_name FROM `ccl_".ACCOUNT_SUFFIX."containers`
+			LEFT JOIN `ccl_".ACCOUNT_SUFFIX."expeditors`
+			ON (ccl_".ACCOUNT_SUFFIX."expeditors.id = ccl_".ACCOUNT_SUFFIX."containers.expeditor)
+			WHERE ccl_".ACCOUNT_SUFFIX."containers.id = '".$this->id."'
+			"));
+			
+			if($this->content['id']=='') { 
+				$this->errorHandler('<div class="warn" style="width:900px;">Ошибка! Контейнер с такими параметрами в базе не обнаружен</div>', 1);
+			}
+			$this->getMoreInfo();
+			$form_link = '?mod=containers&sw=save&id='.intval($_GET['cont_id']);
+		}
+		elseif(isset($_GET['add'])) {
+			$this->getMoreInfo();
+			$form_link = '?mod=containers&sw=add';
+		}
+		
+		$this->getContFiles();
+		
+		$this->page .= containerForm($form_link,
+								$this->content,
+								$this->orphants,
+								$this->loaded,
+								$this->id,
+								$this->expeditors,
+								$this->ports,
+								$this->myport,
+								$this->files);
+	}
+	
+	function getMoreInfo() {
+		$this->slots = $this->mysqlQuery(
+		"SELECT id,model,frame,container,port 
+		FROM `ccl_".ACCOUNT_SUFFIX."cars` WHERE 1 
+		ORDER BY `container` DESC");
+
+		if($this->content['port']!=0) $this->getPopulation();
+	}
+	
+	function getPopulation() {
+		
+		$orphants[1] = array();
+		
+		$i=1;
+		$q=1;
+		$goods=1;
+		$num = mysql_num_rows($this->slots);
+		$loaded = array();
+		while($q<=$num)
+		{
+			$check = mysql_fetch_array($this->slots);
+			if($check['container']=='0') 
+			{
+				//список свободных автомобилей
+				$this->orphants[$i]['port'] = $check['port'];
+				$this->orphants[$i]['id'] = $check['id'];
+				$this->orphants[$i]['frame'] = $check['frame'];
+				$this->orphants[$i]['model'] = $check['model'];
+				$i++;	
+			}
+	
+			$r=1;
+			while($r<=4)
+			{
+				if($this->content['slot'.$r]==$check['id'])
+				{
+					$this->loaded[$r.'id'] = $check['id']; //список автомобилей в этом контейнере		
+					$this->loaded[$r.'model'] = $check['model'];
+					$this->loaded[$r.'frame'] = $check['frame'];
+					$goods++;
+				}
+				$r++;
+			}
+			$q++;
+		}
+	}
+	
+	function getContFiles() {
+		$this->files = $this->mysqlQuery("SELECT * FROM `ccl_".ACCOUNT_SUFFIX."container_files` WHERE `container` = '".$this->id."'");
+	}
+}
+?>

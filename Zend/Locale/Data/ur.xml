@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.64 $"/>
+		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<language type="ur"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="af">Ш§ЩЉЩЃШ±ЩЉЪ©Ш§Щ†ШІ</language>
+			<language type="am">Ш§Щ…ЫЃШ§Ш±ЫЊ</language>
+			<language type="ar">Ш№Ш±ШЁЫЊ</language>
+			<language type="as">ШўШіШ§Щ…ЫЊ</language>
+			<language type="az">ШўШІШ±ШЁШ§Ш¦ЫЊШ¬Ш§Щ†ЫЊ</language>
+			<language type="be">ШЁЩЉЩ„Ш§Ш±Щ€ШіЫЊ</language>
+			<language type="bg">ШЁЩ„ШєШ§Ш±ЫЊ</language>
+			<language type="bh">ШЁЩђЫЃШ§Ш±ЫЊ</language>
+			<language type="bn">ШЁЩ†ЪЇШ§Щ„ЫЊ</language>
+			<language type="br">ШЁШ±ЩђЫЊЩ№Щ†</language>
+			<language type="bs">ШЁЩ€ШіЩ†ЫЊ</language>
+			<language type="ca">Ъ©Ш§Щ№Ш§Щ„Ш§Щ†ЩЉЩ†</language>
+			<language type="cs">Ъ†ЩЉЪ©</language>
+			<language type="cy">Щ€ЩЉЩ„Шґ</language>
+			<language type="da">Ъ€ЩЉЩ†Шґ</language>
+			<language type="de">Ш¬Ш±Щ…Щ†</language>
+			<language type="el">ЩЉЩ€Щ†Ш§Щ†ЫЊ</language>
+			<language type="en">Ш§Щ†ЪЇШ±ЩЉШІЫЊ</language>
+			<language type="en_GB">ШЁШ±Ш·Ш§Щ†Щ€ЫЊ Ш§Щ†ЪЇШ±ЫЊШІЫЊ</language>
+			<language type="en_US">Ш§Щ…Ш±ЫЊЪ©ЫЃ Ъ©ЫЊ Ш§Щ†ЪЇШ±ЫЊШІЫЊ</language>
+			<language type="eo">Ш§ЩЉШіЩѕШ±Ш§Щ†Щ№Щ€</language>
+			<language type="es">ЫЃШіЩѕШ§Щ†Щ€ЫЊ</language>
+			<language type="et">Ш§ШіЩ№Щ€Щ†ЩЉЩ†</language>
+			<language type="eu">ШЁШ§ШіЪ©ЫЊ</language>
+			<language type="fa">ЩЃШ§Ш±ШіЫЊ</language>
+			<language type="fi">ЩЃЩ†Щ‘Щ†ЩђШґ</language>
+			<language type="fil">Щ№ЩЉЪЇШ§Щ„Ш§ЪЇЫЊ</language>
+			<language type="fo">ЩЃЫЊШ±Щ€Ш¦ЫЊШІ</language>
+			<language type="fr">ЩЃШ±Ш§Щ†ШіЩЉШіЫЊ</language>
+			<language type="fy">ЩЃШ±ЩЉЪЩЉЩ†</language>
+			<language type="ga">ШўШ¦ЩЉШ±ЩђШґ</language>
+			<language type="gd">ШіЪ©Ш§Щ№ ЪЇЩЉЩ„ЩђЪ©</language>
+			<language type="gl">ЪЇШ§Щ„ЩЉШґЩЉШ§Ш¦ЫЊ</language>
+			<language type="gn">ЪЇЩЏШ§Ш±Ш§Щ†ЫЊ</language>
+			<language type="gu">ЪЇШ¬Ш±Ш§ШЄЫЊ</language>
+			<language type="he">Ш№ШЁШ±Ш§Щ†ЫЊ</language>
+			<language type="hi">ЫЃЩ†ШЇЫЊ</language>
+			<language type="hr">Ъ©Ш±Ш§ШЄЫЊ</language>
+			<language type="hu">ЫЃЩ†ЪЇЫЊШ±ЫЊЩ†</language>
+			<language type="hy">Ш§Ш±Щ…ЫЊЩ†ЫЊ</language>
+			<language type="ia">Ш§Щ†Щ№Ш±Щ„Щ†ЪЇЩ€ЫЊ</language>
+			<language type="id">Ш§Щ†Ъ€Щ€Щ†ЩЉШ«ЩЉШ§Ш¦ЫЊ</language>
+			<language type="is">ШЁШ±ЩЃШіШЄШ§Щ†ЫЊ</language>
+			<language type="it">Ш§Ш·Ш§Щ„Щ€ЫЊ</language>
+			<language type="ja">Ш¬Ш§ЩѕШ§Щ†ЫЊ</language>
+			<language type="jv">Ш¬Ш§Щ€ЫЊ</language>
+			<language type="ka">Ш¬Ш§Ш±Ш¬ЫЊ</language>
+			<language type="km">Ъ©Щ…ШЁЩ€Ъ€ЫЊЩЋЩ†</language>
+			<language type="kn">Ъ©Щ†Щ‘Ш§Ъ€Ш§</language>
+			<language type="ko">Ъ©Щ€Ш±ЩЉЩ†</language>
+			<language type="ku">ЩѓШ±ШЇШґ</language>
+			<language type="ky">Ъ©Ш±ШєЫЊШІЫЊ</language>
+			<language type="la">Щ„Ш§Ш·ЩЉЩ†ЫЊ</language>
+			<language type="ln">Щ„ЩђЩ†ЪЇЩЋЩ„Ш§</language>
+			<language type="lo">Щ„Ш§Ш¤ШґЩђЫЊЩЋЩ†</language>
+			<language type="lt">Щ„ШЄЪѕЩЏЩ€Ш§ЫЊЩ†ЫЊЩ†</language>
+			<language type="lv">Щ„ЩЉЩ№Щ€ЩЉЩ†</language>
+			<language type="mk">Щ…Щ‚ШЇЩ€Щ†ЩЉШ§Ш¦ЫЊ</language>
+			<language type="ml">Щ…Ш§Щ„Ш§ЩЉШ§Щ„Щ…</language>
+			<language type="mn">Щ…Щ†ЪЇШ¤Щ„ЫЊ</language>
+			<language type="mr">Щ…Ш±Ш§Щ№Щ‡ЫЊ</language>
+			<language type="ms">Щ…Ш§Щ„Ш§Ш¦ЫЊ</language>
+			<language type="mt">Щ…Ш§Щ„Щ№ЫЊ</language>
+			<language type="ne">Щ†ЩЉЩѕШ§Щ„ЫЊ</language>
+			<language type="nl">Ъ€Ъ†</language>
+			<language type="nn">Щ†Щ€Ш±Щ€ЫЊШ¬ЫЊЩ†ЫЊ (Щ†ЫЊЩ†Щ€Ш±ШіЪ©)</language>
+			<language type="no">Щ†Ш§Ш±Щ€ЩЉШ¬ЩЉЩ†</language>
+			<language type="oc">ШўЪ©ЩЉЩ№Ш§Щ†ЫЊ</language>
+			<language type="or">Ш§Щ€Ш±ЩђЫЊШ§</language>
+			<language type="pa">ЩѕЩ†Ш¬Ш§ШЁЫЊ</language>
+			<language type="pl">ЩѕЩ€Щ„ШіШЄШ§Щ†ЫЊ</language>
+			<language type="ps">ЩѕШґШЄЩ€</language>
+			<language type="pt">ЩѕЩЏШ±ШЄЪЇШ§Щ„ЫЊ</language>
+			<language type="pt_BR">ЩѕШ±ШЄЪЇШ§Щ„ЫЊ (пє‘пє®пєЌпєЇп»іп»ћ)</language>
+			<language type="pt_PT">ЩѕШ±ШЄЪЇШ§Щ„ЫЊ (ЩѕШ±ШЄЪЇШ§Щ„)</language>
+			<language type="ro">Ш±Щ€Щ…Щ†ЫЊ</language>
+			<language type="ru">Ш±Щ€ШіЫЊ</language>
+			<language type="sa">ШіЩЋЩ†ШіЪ©Ш±ЩђШЄ</language>
+			<language type="sd">ШіЩ†ШЇЪѕЫЊ</language>
+			<language type="sh">ШіШ±ШЁЩ€-Ъ©Ш±Щ€Ш¦ЫЊШґЫЊЩ†</language>
+			<language type="si">ШіЩ†ЫЃШ§Щ„ЫЊ</language>
+			<language type="sk">ШіЩ„Ш§Щ€Ш§Ъ©ЫЊ</language>
+			<language type="sl">ШіЩ„Щ€ЩЉЩ†ЫЊ</language>
+			<language type="so">ШіЩ€Щ…Ш§Щ„ЫЊ</language>
+			<language type="sq">Ш§Щ„ШЁШ§Щ†ЫЊ</language>
+			<language type="sr">ШµШ±ШЁЫЊ</language>
+			<language type="st">ШіЫЊШіЩ€ШЄЪѕЩ€</language>
+			<language type="su">ШіЩЏЩ€Ъ€Ш§Щ†ЫЊ</language>
+			<language type="sv">ШіЩ€ЩЉЪ€Шґ</language>
+			<language type="sw">ШіЩ€Ш§ЫЃЫЊЩ„ЫЊ</language>
+			<language type="ta">ШЄШ§Щ…ЩђЩ„</language>
+			<language type="te">ШЄЩЉЩ„Щ€ЪЇЩ€</language>
+			<language type="th">ШЄЩ‡Ш§Ш¦ЫЊ</language>
+			<language type="ti">ШЄЪЇШ±ЫЊЩ†ЫЊ</language>
+			<language type="tk">ШЄШ±Ъ©Щ…Ш§Щ†ЫЊ</language>
+			<language type="tl">Щ№ЫЊЪЇШ§ Щ„Щ€ЪЇ</language>
+			<language type="tlh">Ъ©Щ„Щ†ЪЇШ§Щ†</language>
+			<language type="tr">ШЄШ±Ъ©ЫЊ</language>
+			<language type="tw">ШЄЩ€ЫЊ</language>
+			<language type="ug">Ш§ЩЏШ¦ЩђЫЊЪЇЩЏЩ€Ш±</language>
+			<language type="uk">ЩЉЩЏЩ€Ъ©Ш±ЩЉЩ†ЫЊ</language>
+			<language type="ur">Ш§Ш±ШЇЩ€</language>
+			<language type="uz">Ш§ШІШЁЪ©</language>
+			<language type="vi">Щ€ЩЉШЄЩ†Ш§Щ…ЫЊ</language>
+			<language type="xh">Ш®Щ€ШіЫЃ</language>
+			<language type="yi">ЩЉШ§ШЇШґ</language>
+			<language type="zh_Hans">Ъ†ЫЊЩ†ЫЊ (ШўШіШ§Щ† Ъ©Ш±ШЇЫЃ)</language>
+			<language type="zh_Hant">Ъ†ЫЊЩ†ЫЊ (Ш±Щ€Ш§ЫЊШЄЫЊ)</language>
+			<language type="zu">ШІЩЏЩ€Щ„ЩЏЩ€</language>
+		</languages>
+		<scripts>
+			<script type="Arab">Ш§Щ„Ш№Ш±ШЁЩЉШ©</script>
+			<script type="Zxxx">Zxxx</script>
+			<script type="Zzzz">Zzzz</script>
+		</scripts>
+		<territories>
+			<territory type="AE">Щ…ШЄШ­ШЇЫЃ Ш№Ш±ШЁ Ш§Щ…Ш§Ш±Ш§ШЄ</territory>
+			<territory type="AF">Ш§ЩЃШєШ§Щ†ШіШЄШ§Щ†</territory>
+			<territory type="AG">Ш§Щ†Щ№ЫЊЪЇЩ€Ш§ Ш§Щ€Ш± ШЁШ§Ш±ШЁЩ€ШЇШ§</territory>
+			<territory type="AL">Ш§Щ„ШЁШ§Щ†ЫЊШ§</territory>
+			<territory type="AM">ШўШ± Щ…ЫЊЩ†ЫЊШ§</territory>
+			<territory type="AN">Щ†ЫЊШЇШ±Щ„ЫЊЩ†Ъ€ШІ Ш§Щ†Щ№ЫЊЩ„ЫЊШІ</territory>
+			<territory type="AO">Ш§Щ†ЪЇЩ€Щ„Ш§</territory>
+			<territory type="AQ">Ш§Щ†Щ№Ш§Ш± Щ№Ъ©Ш§</territory>
+			<territory type="AR">Ш§Ш±Ш¬Щ†Щ№ЫЊЩ†Ш§</territory>
+			<territory type="AS">Ш§Щ…Ш±ЫЊЪ©ЫЊ ШіШ§Щ…Щ€Ш§</territory>
+			<territory type="AT">ШўШіЩ№Ш±ЫЊШ§</territory>
+			<territory type="AU">ШўШіЩ№Ш±ЫЊЩ„ЫЊШ§</territory>
+			<territory type="AZ">ШўШ°Ш± ШЁШ§Ш¦Ш¬Ш§Щ†</territory>
+			<territory type="BA">ШЁЩ€ШіЩ†ЫЊШ§ ЫЃШ±ШІЪЇЩ€ЫЊЩ†Ш§</territory>
+			<territory type="BD">ШЁЩ†ЪЇЩ„Ш§ ШЇЫЊШґ</territory>
+			<territory type="BE">ШЁЫЊЩ„Ш¬Ш¦ЫЊЩ…</territory>
+			<territory type="BF">ШЁШ±Ъ©ЫЊЩ†Ш§ ЩЃШ§ШіЩ€</territory>
+			<territory type="BG">ШЁЩ„ШєШ§Ш±ЫЊЫЃ</territory>
+			<territory type="BI">ШЁШ±Щ†Ъ€ЫЊ</territory>
+			<territory type="BJ">ШЁЫЊЩ†Щ†</territory>
+			<territory type="BO">ШЁЩ€Щ„ЫЊЩ€ЫЊШ§</territory>
+			<territory type="BR">ШЁШ±Ш§ШІЫЊЩ„</territory>
+			<territory type="BS">ШЁШ§ЪѕШ§ Щ…Ш§Ші</territory>
+			<territory type="BT">ШЁЪѕЩ€Щ№Ш§Щ†</territory>
+			<territory type="BV">Ш¬ШІЫЊШ±ЫЃ ШЁЩ€Щ€Щ№</territory>
+			<territory type="BW">ШЁЩ€Щ№ШіЩ€Ш§Щ†Ш§</territory>
+			<territory type="BY">ШЁЫЊЩ„Ш§ Ш±Ші</territory>
+			<territory type="CA">Ъ©ЫЊЩ†ЫЊЪ€Ш§</territory>
+			<territory type="CC">Ш¬ШІШ§Ш¦Ш± Ъ©Щ€Ъ©Щ€ШІ</territory>
+			<territory type="CD">Ъ©Ш§Щ†ЪЇЩ€ШЊ Ш¬Щ…ЫЃЩ€Ш±ЫЊ Ш±ЫЊШ§ШіШЄ</territory>
+			<territory type="CF">Ш¬Щ…ЫЃЩ€Ш±ЫЊЫЃ Щ€ШіШ·ЫЊ Ш§ЩЃШ±ЫЊЩ‚ЫЃ</territory>
+			<territory type="CG">Ъ©Ш§Щ†ЪЇЩ€</territory>
+			<territory type="CH">ШіЩ€Ш¦ШІШ± Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="CK">Ш¬ШІШ§Ш¦Ш± Ъ©ЩЏЪ©</territory>
+			<territory type="CL">Ъ†Щ„ЫЊ</territory>
+			<territory type="CM">Ъ©ЫЊЩ…Ш±Щ€Щ†</territory>
+			<territory type="CN">Ъ†ЫЊЩ†</territory>
+			<territory type="CO">Ъ©Щ€Щ„Щ…ШЁЫЊШ§</territory>
+			<territory type="CS">ШіШ±ШЁЫЊШ§ Ш§Щ€Ш± Щ…Ш§Щ†Щ№ЫЊЩ†ЫЊЪЇШ±Щ€</territory>
+			<territory type="CU">Ъ©ЫЊЩ€ШЁШ§</territory>
+			<territory type="CX">Ш¬ШІЫЊШ±ЫЃ Ъ©Ш±ШіЩ…Ші</territory>
+			<territory type="CY">Щ‚ШЁШ±Шµ</territory>
+			<territory type="CZ">Ш¬Щ…ЫЃЩ€Ш±ЫЊЫЃ Ъ†ЫЊЪ©</territory>
+			<territory type="DE">Ш¬Ш±Щ…Щ†ЫЊ</territory>
+			<territory type="DK">Ъ€Щ†Щ…Ш§Ш±Ъ©</territory>
+			<territory type="DO">Ъ€Щ€Щ…ЫЊЩ†ЫЊЪ©Щ† Ш±ЫЊЩѕШЁЩ„Ъ©</territory>
+			<territory type="DZ">Ш§Щ„Ш¬ЫЊШ±ЫЊШ§</territory>
+			<territory type="EC">Ш§ЫЊЪ©Щ€Ш§Ъ€Щ€Ш±</territory>
+			<territory type="EE">Ш§ЫЊШіЩ№Щ€Щ†ЫЊШ§</territory>
+			<territory type="EG">Щ…ШµШ±</territory>
+			<territory type="EH">Щ…ШєШ±ШЁЫЊ ШµШ­Ш§Ш±Ш§</territory>
+			<territory type="ER">Ш§Ш±ЫЊЩ№ЫЊШ±ЫЊШ§</territory>
+			<territory type="ES">ШіЩѕЫЊЩ†</territory>
+			<territory type="ET">Ш§ЫЊШЄЪѕЩ€ЩѕЫЊШ§</territory>
+			<territory type="FI">ЩЃЩ† Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="FK">Ш¬ШІШ§Ш¦Ш± ЩЃШ§Ъ© Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="FM">Щ…Ш§Ш¦Ъ©Ш±Щ€Щ†ЫЊШІЫЊШ§</territory>
+			<territory type="FO">Ш¬ШІШ§Ш¦Ш±ЩЃШ§Ш±Щ€</territory>
+			<territory type="FR">ЩЃШ±Ш§Щ†Ші</territory>
+			<territory type="GA">ШєЫЊШЁЩ€Щ†</territory>
+			<territory type="GB">ШЁШ±Ш·Ш§Щ†ЫЊЫЃ</territory>
+			<territory type="GE">Ш¬Ш§Ш±Ш¬ЫЊШ§</territory>
+			<territory type="GF">ЩЃШ±Ш§Щ†ШіЫЊШіЫЊ ЪЇЫЊ ШўЩ†Ш§</territory>
+			<territory type="GG">ЪЇШ±Щ†ШІЫЊ</territory>
+			<territory type="GH">ЪЇЪѕШ§Щ†Ш§</territory>
+			<territory type="GL">ЪЇШ±ЫЊЩ† Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="GM">ЪЇЫЊЩ…ШЁЫЊШ§</territory>
+			<territory type="GN">ЪЇЩ†ЫЊ</territory>
+			<territory type="GQ">Ш§ШіШЄЩ€Ш§Ш¦ЫЊ ЪЇЩ†ЫЊ</territory>
+			<territory type="GR">ЫЊЩ€Щ†Ш§Щ†</territory>
+			<territory type="GS">Ш¬Щ†Щ€ШЁЫЊ Ш¬Ш§Ш±Ш¬ЫЊШ§ Ш§Щ€Ш± Ш¬ШІШ§Ш¦Ш± Ш¬Щ†Щ€ШЁЫЊ ШіЫЊЩ†Ъ€Щ€Ъ†</territory>
+			<territory type="GW">ЪЇЩ†ЫЊ ШЁШіШ§Ш¦Щ€</territory>
+			<territory type="HM">Ш¬ШІЫЊШ±ЫЃ ЫЃШ±Ъ€ Ш§Щ€Ш± Ш¬ШІШ§Ш¦Ш± Щ…Ъ©Ъ€Щ€Щ†Щ„Ъ€</territory>
+			<territory type="HN">ЫЃЩ€Щ†Ъ€Щ€Ш±Ш§Ші</territory>
+			<territory type="HR">Ъ©Ш±Щ€ШґЫЊШ§</territory>
+			<territory type="HT">ЫЃШ§Ш¦Щ№ЫЊ</territory>
+			<territory type="HU">ЫЃЩ†ЪЇШ±ЫЊ</territory>
+			<territory type="ID">Ш§Щ†Ъ€Щ€Щ†ЫЊШґЫЊШ§</territory>
+			<territory type="IE">ШўШ¦Ш± Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="IL">Ш§ШіШ±Ш§Ш¦ЫЊЩ„</territory>
+			<territory type="IN">ШЁЪѕШ§Ш±ШЄ</territory>
+			<territory type="IO">ШЁШ­Ш±ЪѕЩ†ШЇ Ъ©Ш§ ШЁШ±Щ№Шґ Ш№Щ„Ш§Щ‚ЫЃ</territory>
+			<territory type="IQ">Ш№Ш±Ш§Щ‚</territory>
+			<territory type="IR">Ш§ЫЊШ±Ш§Щ†</territory>
+			<territory type="IS">ШўШ¦Ші Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="IT">Ш§Щ№Щ„ЫЊ</territory>
+			<territory type="JE">Ш¬Ш±ШіЫЊ</territory>
+			<territory type="JO">Ш§Ш±ШЇЩ†</territory>
+			<territory type="JP">Ш¬Ш§ЩѕШ§Щ†</territory>
+			<territory type="KE">Ъ©ЫЊЩ†ЫЊШ§</territory>
+			<territory type="KG">Ъ©Ш±ШєШіШЄШ§Щ†</territory>
+			<territory type="KH">Ъ©Щ…ШЁЩ€Ъ€ЫЊШ§</territory>
+			<territory type="KI">Ъ©ЩђШ±ШЁШ§ШЄЫЊ</territory>
+			<territory type="KM">Ъ©Щ€Щ…Щ€Ш±Щ€Ші</territory>
+			<territory type="KN">ШіЫЊЩ†Щ№ Ъ©Щ№Ші Ш§Щ€Ш± Щ†ЫЊЩ€Ші</territory>
+			<territory type="KP">ШґЩ…Ш§Щ„ЫЊ Ъ©Щ€Ш±ЫЊШ§</territory>
+			<territory type="KR">Ш¬Щ†Щ€ШЁЫЊ Ъ©Щ€Ш±ЫЊШ§</territory>
+			<territory type="KY">Ш¬ШІШ§Ш¦Ш± Ъ©ЫЊЩ…Щ†</territory>
+			<territory type="KZ">Щ‚ШІШ§Щ‚ШіШЄШ§Щ†</territory>
+			<territory type="LA">Щ„Ш§Ш¤Ші</territory>
+			<territory type="LB">Щ„ШЁЩ†Ш§Щ†</territory>
+			<territory type="LC">ШіЫЊЩ†Щ№ Щ„Щ€ШіЫЊШ§</territory>
+			<territory type="LI">Щ„Ъ©Щ№Щ†ШіЩ№Ш§Ш¦Щ†</territory>
+			<territory type="LK">ШіШ±ЫЊ Щ„Щ†Ъ©Ш§</territory>
+			<territory type="LR">Щ„Ш§Ш¦ШЁЫЊШ±ЫЊШ§</territory>
+			<territory type="LS">Щ„ЫЊШіЩ€ШЄЪѕЩ€</territory>
+			<territory type="LT">Щ„ШЄЪѕЩ€Ш§Щ†ЫЊШ§</territory>
+			<territory type="LV">Щ„Щ№Щ€ЩђЫЊШ§</territory>
+			<territory type="LY">Щ„ЫЊШЁЫЊШ§</territory>
+			<territory type="MA">Щ…Ш±Ш§Ъ©Шґ</territory>
+			<territory type="MD">Щ…Ш§Щ„ШЇЩ€Щ€Ш§</territory>
+			<territory type="MG">Щ…Ъ€ШєШ§ШіЪ©Ш±</territory>
+			<territory type="MH">Ш¬ШІШ§Ш¦Ш± Щ…Ш§Ш±ШґЩ„</territory>
+			<territory type="MK">Щ…Щ‚ШЇЩ€Щ†ЫЊЫЃ</territory>
+			<territory type="ML">Щ…Ш§Щ„ЫЊ</territory>
+			<territory type="MM">Щ…ЫЊШ§Щ†Щ…Ш±</territory>
+			<territory type="MN">Щ…Щ†ЪЇЩ€Щ„ЫЊШ§</territory>
+			<territory type="MO">Щ…Ш§Ъ©Ш§Ш¤</territory>
+			<territory type="MP">ШґЩ…Ш§Щ„ЫЊ Щ…Ш§Ш±ЫЊШ§Щ†Ш§Ш¬ШІШ§Ш¦Ш±</territory>
+			<territory type="MR">Щ…Щ€Ш±ЫЊШ·Ш§Щ†ЫЊЫЃ</territory>
+			<territory type="MW">Щ…Щ„Ш§Щ€ЫЊ</territory>
+			<territory type="MX">Щ…ЫЊЪ©ШіЫЊЪ©Щ€</territory>
+			<territory type="MY">Щ…Щ„Ш§Ш¦ЫЊШґЫЊШ§</territory>
+			<territory type="MZ">Щ…Щ€ШІЩ†ШЁЫЊЩ‚</territory>
+			<territory type="NA">Щ†Щ…ЫЊШЁЫЊШ§</territory>
+			<territory type="NC">Щ†ЫЊЩ€ Ъ©ЫЊЩ„ЫЊЪ€Щ€Щ†ЫЊШ§</territory>
+			<territory type="NE">Щ†Ш§Ш¦ЫЊШ¬Ш±</territory>
+			<territory type="NF">Ш¬ШІЫЊШ±ЫЃ Щ†Ш§Ш±ЩЃЩ€Щ„Ъ©</territory>
+			<territory type="NG">Щ†Ш§Ш¦ЫЊШ¬ЫЊШ±ЫЊШ§</territory>
+			<territory type="NI">Щ†Ъ©Ш§Ш±Ш§ЪЇЩ€Ш§</territory>
+			<territory type="NL">Щ†ЫЊШЇШ±Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="NO">Щ†Ш§Ш±Щ€Ы’</territory>
+			<territory type="NP">Щ†ЫЊЩѕШ§Щ„</territory>
+			<territory type="NZ">Щ†ЫЊЩ€ШІЫЊ Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="OM">Ш№Щ…Ш§Щ†</territory>
+			<territory type="PE">ЩѕЫЊШ±Щ€</territory>
+			<territory type="PF">ЩЃШ±Ш§Щ†ШіЫЊШіЫЊ ЩѕЩ€Щ„ЫЊЩ†ЫЊШіЫЊШ§</territory>
+			<territory type="PG">ЩѕШ§ЩѕЩ€Ш§ Щ†ЫЊЩ€ ЪЇЩ†ЫЊ</territory>
+			<territory type="PH">ЩЃЩ„ЩѕШ§Ш¦Щ†</territory>
+			<territory type="PK">ЩѕШ§Ъ©ШіШЄШ§Щ†</territory>
+			<territory type="PL">ЩѕЩ€Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="PM">ШіЫЊЩ†Щ№ ЩѕШ§Ш¦Ш±Ы’ Ш§Щ€Ш± Щ…ЫЊЪ©Щ€ЫЊЩ„Щ€Щ†</territory>
+			<territory type="PS">ЩЃЩ„ШіШ·ЫЊЩ†</territory>
+			<territory type="PT">ЩѕШ±ШЄЪЇШ§Щ„</territory>
+			<territory type="PY">ЩѕЫЊШ±Ш§ЪЇЩ€Ш¦Ы’</territory>
+			<territory type="RO">Ш±Щ€Щ…Ш§Щ†ЫЊЫЃ</territory>
+			<territory type="RU">Ш±Щ€Ші</territory>
+			<territory type="RW">Ш±Щ€Ш§Щ†Ъ€Ш§</territory>
+			<territory type="SA">ШіШ№Щ€ШЇЫЊ Ш№Ш±ШЁ</territory>
+			<territory type="SB">Ш¬ШІШ§Ш¦Ш±ШіЩ€Щ„Щ…Щ€Щ†</territory>
+			<territory type="SC">ШіЫ’ ШґЩ„ШІ</territory>
+			<territory type="SD">ШіЩ€Ъ€Ш§Щ†</territory>
+			<territory type="SE">ШіЩ€ЫЊЪ€Щ†</territory>
+			<territory type="SH">ШіЫЊЩ†Щ№ ЪѕЫЊЩ„ЫЊЩ†Ш§</territory>
+			<territory type="SI">ШіЩ„Щ€Ш§Щ†ЫЊЫЃ</territory>
+			<territory type="SK">ШіЩ„Щ€Щ€Ш§Ъ©ЫЊЫЃ</territory>
+			<territory type="SL">ШіЫЊШ±Ш§Щ„ЫЊЩ€Щ†</territory>
+			<territory type="SM">ШіШ§Щ† Щ…ЫЊШ±ЫЊЩ†Щ€</territory>
+			<territory type="SN">ШіЫЊЩ†ЫЊЪЇШ§Щ„</territory>
+			<territory type="SO">ШµЩ€ЩѕШ§Щ„ЫЊЫЃ</territory>
+			<territory type="SR">ШіЩ€Ш±ЫЊЩ†Ш§Щ…</territory>
+			<territory type="SY">ШіЫЊШ±ЫЊШ§</territory>
+			<territory type="SZ">ШіЩ€Ш§ШІЫЊ Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="TC">Ш¬ШІШ§Ш¦Ш± Ъ©ЫЊЪ©Ші Ш§Щ€Ш± ШЄШ±Ъ©ЫЊЩ‘ЫЃ</territory>
+			<territory type="TD">Ъ†Ш§Ъ€</territory>
+			<territory type="TF">Ш¬Щ†Щ€ШЁЫЊ ЩЃШ±Ш§Щ†ШіЫЊШіЫЊ Ш№Щ„Ш§Щ‚ЫЃ Ш¬Ш§ШЄ</territory>
+			<territory type="TG">Щ№Щ€ЪЇЩ€</territory>
+			<territory type="TH">ШЄЪѕШ§Ш¦ЫЊ Щ„ЫЊЩ†Ъ€</territory>
+			<territory type="TJ">ШЄШ§Ш¬Ъ©ШіШЄШ§Щ†</territory>
+			<territory type="TK">Щ№Щ€Ъ©ЫЊЩ„Ш§Ш¤</territory>
+			<territory type="TL">Щ…ШґШ±Щ‚ЫЊ ШЄЫЊЩ…Щ€Ш±</territory>
+			<territory type="TM">ШЄШ±Ъ©Щ…Ш§Щ†ШіШЄШ§Щ†</territory>
+			<territory type="TN">ШЄЫЊЩ€Щ†Ші</territory>
+			<territory type="TO">ШЄЩ€Щ†ЪЇШ§</territory>
+			<territory type="TR">ШЄШ±Ъ©ЫЊ</territory>
+			<territory type="TT">Щ№Ш±ЫЊЩ†ЫЊЪ€Ш§Ъ€ Ш§Щ€Ш± Щ№Щ€ШЁШ§ЪЇЩ€</territory>
+			<territory type="TV">Щ№Щ€Ш§Щ„Щ€</territory>
+			<territory type="TW">ШЄШ§Ш¦ЫЊЩ€Ш§Щ†</territory>
+			<territory type="TZ">ШЄЩ†ШІШ§Щ†ЫЊЫЃ</territory>
+			<territory type="UA">ЫЊЩ€Ъ©Ш±Ш§Ш¦Щ†</territory>
+			<territory type="UG">ЫЊЩ€ЪЇЩ†Ъ€Ш§</territory>
+			<territory type="UM">Ш±ЫЊШ§ШіШЄ ЫЃШ§Ш¦Ы’ Щ…ШЄШ­ШЇЫЃ Ш§Щ€Ш± ШЁЫЊШ±Щ€Щ†ЫЊ Ш¬ШІШ§Ш¦Ш±</territory>
+			<territory type="US">Ш±ЫЊШ§ШіШЄ ЫЃШ§Ш¦Ы’ Щ…ШЄШ­ШЇЫЃ Ш§Щ…Ш±ЫЊЪ©Ш§</territory>
+			<territory type="UY">ЫЃЩ€Ш±Ш§ЪЇЩ€Ш¦Ы’</territory>
+			<territory type="UZ">Ш§ШІШЁЪ©ШіШЄШ§Щ†</territory>
+			<territory type="VA">Щ€ЫЊЩ№ЫЊЪ©Щ† ШіЩ№ЫЊ</territory>
+			<territory type="VC">ШіЫЊЩ†Щ№ Ъ©ЫЊШ±Щ† Ш§Щ€Ш± ЪЇШ±ЫЊЩ†Ш§Ъ€Ш§Ш¦Щ†ШІ</territory>
+			<territory type="VE">Щ€ЫЊЩ†ШІЩ€Щ„Ш§</territory>
+			<territory type="VG">Ш¬ШІШ§Ш¦Ш± Щ€Ш±Ш¬Щ†ШЊ ШЁШ±Щ№Шґ</territory>
+			<territory type="VI">Ш¬ШІШ§Ш¦Ш± Щ€Ш±Ш¬Щ†ШЊ Ш§Щ…Ш±ЫЊЪ©ЫЃ</territory>
+			<territory type="VN">Щ€ЫЊШЄ Щ†Ш§Щ…</territory>
+			<territory type="VU">Щ€Ш§Щ†Щ€Ш§Щ№Щ€</territory>
+			<territory type="WF">Щ€Ш§Щ„Ші Ш§Щ€Ш± ЩЃШЄЩ€Щ†ЫЃ</territory>
+			<territory type="WS">ШіШ§Щ…Щ€Ш§</territory>
+			<territory type="YE">ЫЊЩ…Щ†</territory>
+			<territory type="ZA">Ш¬Щ†Щ€ШЁЫЊ Ш§ЩЃШ±ЫЊЩ‚ЫЃ</territory>
+			<territory type="ZM">ШІЫЊЩ…ШЁЫЊШ§</territory>
+			<territory type="ZW">ШІЩ…ШЁШ§ШЁЩ€Ы’</territory>
+			<territory type="ZZ">Unknown or Invalid Region</territory>
+		</territories>
+		<keys>
+			<key type="calendar">Ъ©ЫЊЩ„Щ†Ъ€Ш±</key>
+			<key type="collation">Щ…Щ€Ш§ШІЩ†ЫЃ</key>
+			<key type="currency">Ъ©Ш±Щ†ШіЫЊ</key>
+		</keys>
+		<types>
+			<type type="big5han" key="collation">Ш±Щ€Ш§ЫЊШЄЫЊ Ъ†ЫЊЩ†ЫЊ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ-Big5</type>
+			<type type="buddhist" key="calendar">ШЁШЇЪѕ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="chinese" key="calendar">Ш±Щ€Ш§ЫЊШЄЫЊ Ъ†ЫЊЩ†ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="direct" key="collation">ШЁЩ„Ш§Щ€Ш§ШіШ·ЫЃ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ</type>
+			<type type="gb2312han" key="collation">ШіШ§ШЇЫЃ Ъ†ЫЊЩ†ЫЊ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ-GB2312</type>
+			<type type="gregorian" key="calendar">ЪЇШ±ЫЊЪЇЩ€Ш±ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="hebrew" key="calendar">Ш№ШЁШ±Ш§Щ†ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="indian" key="calendar">ЫЃЩ†ШЇЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="islamic" key="calendar">Ш§ШіЩ„Ш§Щ…ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="islamic-civil" key="calendar">ЫЃШ¬Ш±ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="japanese" key="calendar">Ш¬Ш§ЩѕШ§Щ†ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="phonebook" key="collation">ЩЃЩ€Щ† Щ†Ш§Щ…ЫЃ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ</type>
+			<type type="pinyin" key="collation">ЩѕЩ† ЫЊЩ† Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ</type>
+			<type type="roc" key="calendar">ШіШ§ШЇЫЃ Ъ†ЫЊЩ†ЫЊ Ъ©ЫЊЩ„Щ†Ъ€Ш±</type>
+			<type type="stroke" key="collation">Щ„Ъ©ЫЊШ±ЫЊ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ</type>
+			<type type="traditional" key="collation">Ш±Щ€Ш§ЫЊШЄЫЊ Ъ†ЪѕШ§Щ†Щ№ ШЄШ±ШЄЫЊШЁ</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="US">Ш§Щ…Ш±ЫЊЪ©ЫЊ</measurementSystemName>
+			<measurementSystemName type="metric">Ш§Ш№ШґШ§Ш±ЫЊ</measurementSystemName>
+		</measurementSystemNames>
+		<codePatterns>
+			<codePattern type="language">ШІШЁШ§Щ†:{0}</codePattern>
+			<codePattern type="script">Ш±ШіЩ… Ш§Щ„Ш®Ш·:{0}</codePattern>
+			<codePattern type="territory">Ш®Ш·ЫЃ:{0}</codePattern>
+		</codePatterns>
+	</localeDisplayNames>
+	<layout>
+		<orientation characters="right-to-left"/>
+	</layout>
+	<characters>
+		<exemplarCharacters>[ШЈ Ш¤ Ш§ Шў ШЁ Щѕ ШЄ Щ№ Ш« Ш¬ Ъ† Ш­-ШЇ Ъ€ Ш° Ш± Ъ‘ ШІ Ъ Ші-Шє ЩЃ Щ‚ Ъ© ЪЇ Щ„-Щ† Ъє Щ€ ЫЃ ЫЊ ШЎ Ш¦ Ы’ Щ» Ш© Щє Щј ЩЅ Щ‡ Ъѕ ЩЉ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u0610 \u0611 \u0613 \u0614 \u064E \u0650 \u064F \u0670 \u064B \u0651]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">Ш¬Щ†Щ€Ш±ЫЊ</month>
+							<month type="2">ЩЃШ±Щ€Ш±ЫЊ</month>
+							<month type="3">Щ…Ш§Ш± Ъ†</month>
+							<month type="4">Ш§ЩѕШ±ЩЉЩ„</month>
+							<month type="5">Щ…Ш¦</month>
+							<month type="6">Ш¬Щ€Щ†</month>
+							<month type="7">Ш¬Щ€Щ„Ш§Ш¦</month>
+							<month type="8">Ш§ЪЇШіШЄ</month>
+							<month type="9">ШіШЄЩ…ШЁШ±</month>
+							<month type="10">Ш§Ъ©ШЄЩ€ШЁШ±</month>
+							<month type="11">Щ†Щ€Щ…ШЁШ±</month>
+							<month type="12">ШЇШіЩ…ШЁШ±</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">Ш¬</month>
+							<month type="2">ЩЃ</month>
+							<month type="3">Щ…</month>
+							<month type="4">Ш§</month>
+							<month type="5">Щ…</month>
+							<month type="6">Ш¬</month>
+							<month type="7">Ш¬</month>
+							<month type="8">Ш§</month>
+							<month type="9">Ші</month>
+							<month type="10">Ш§</month>
+							<month type="11">Щ†</month>
+							<month type="12">ШЇ</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="narrow">
+							<day type="sun">Ш§</day>
+							<day type="mon">Щѕ</day>
+							<day type="tue">Щ…</day>
+							<day type="wed">ШЁ</day>
+							<day type="thu">Ш¬</day>
+							<day type="fri">Ш¬</day>
+							<day type="sat">ЫЃ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">Ш§ШЄЩ€Ш§Ш±</day>
+							<day type="mon">ЩѕЩЉШ±</day>
+							<day type="tue">Щ…Щ†ЪЇЩ„</day>
+							<day type="wed">ШЁШЇЩ‡</day>
+							<day type="thu">Ш¬Щ…Ш№Ш±Ш§ШЄ</day>
+							<day type="fri">Ш¬Щ…Ш№ЫЃ</day>
+							<day type="sat">ЫЃЩЃШЄЫЃ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">1ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="2">2ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="3">3ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="4">4ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">ЩѕЫЃЩ„ЫЊ ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="2">ШЇЩ€ШіШ±ЫЊ ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="3">ШЄЩЉШіШ±ЫЊ ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+							<quarter type="4">Ъ†Щ€ШЄЩ‡ЫЊ ШіЫЃ Щ…Ш§ЫЃЫЊ</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>Щ‚ШЁЩ„ ШЇЩ€ЩѕЫЃШ±</am>
+				<pm>ШЁШ№ШЇ ШЇЩ€ЩѕЫЃШ±</pm>
+				<eras>
+					<eraNames>
+						<era type="0">Щ‚ШЁЩ„ Щ…ШіЩЉШ­</era>
+						<era type="1">Ш№ЩЉШіЩ€ЫЊ ШіЩ†</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">Щ‚ Щ…</era>
+						<era type="1">Ш№ЩЉШіЩ€ЫЊ ШіЩ†</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d, MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d, MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d, MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>h:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>h:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>h:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>h:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="M">LL</dateFormatItem>
+						<dateFormatItem id="MEd">E, M-d</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMEd">E MMM d</dateFormatItem>
+						<dateFormatItem id="MMMMEd">E MMMM d</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
+						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
+						<dateFormatItem id="Md">M-d</dateFormatItem>
+						<dateFormatItem id="d">ШЇ</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">y</dateFormatItem>
+						<dateFormatItem id="yM">yyyy-M</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, yyyy-d-M</dateFormatItem>
+						<dateFormatItem id="yMMM">y MMM</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, y MMM d</dateFormatItem>
+						<dateFormatItem id="yMMMM">y MMMM</dateFormatItem>
+						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
+						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
+						<dateFormatItem id="yyQ">yy Q</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} вЂ“ {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">M ШЄШ§ M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E, MM-dd ШЄШ§ E, MM-dd</greatestDifference>
+							<greatestDifference id="d">E, MMM dd вЂ“ E, MMM dd</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">LLL-LLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E, MMM d вЂ“ E, MMM d</greatestDifference>
+							<greatestDifference id="d">E, MMM d вЂ“ E, MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMM">
+							<greatestDifference id="M">LLLL-LLLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">MMM d ШЄШ§ MMM d</greatestDifference>
+							<greatestDifference id="d">MMM d ШЄШ§ d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">MM-dd ШЄШ§ MM-dd</greatestDifference>
+							<greatestDifference id="d">M/d ШЄШ§ d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">h a ШЄШ§ h a</greatestDifference>
+							<greatestDifference id="h">hвЂ“h a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="a">h:mm a ШЄШ§ h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm ШЄШ§ h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm ШЄШ§ h:mm a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">h:mm a вЂ“ h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm ШЄШ§ h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm ШЄШ§ h:mm a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">h a вЂ“ h a v</greatestDifference>
+							<greatestDifference id="h">h ШЄШ§ h a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y ШЄШ§ y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">yyyy-MM ШЄШ§ MM</greatestDifference>
+							<greatestDifference id="y">yyyy-MM ШЄШ§ yyyy-MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">E, yyyy-MM-dd вЂ“ E, yyyy-MM-dd</greatestDifference>
+							<greatestDifference id="d">E, yyyy-MM-dd ШЄШ§ E, yyyy-MM-dd</greatestDifference>
+							<greatestDifference id="y">E, yyyy-MM-dd вЂ“ E, yyyy-MM-dd</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">MMMвЂ“MMM y</greatestDifference>
+							<greatestDifference id="y">MMMвЂ“MMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E, MMM d вЂ“ E, MMM d, y</greatestDifference>
+							<greatestDifference id="d">E, MMM d вЂ“ E, MMM d, y</greatestDifference>
+							<greatestDifference id="y">E, MMM d, y ШЄШ§ E, MMM d, y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMM">
+							<greatestDifference id="M">yyyy-MM ШЄШ§ MM</greatestDifference>
+							<greatestDifference id="y">yyyy-MM ШЄШ§ yyyy-MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">MMM d ШЄШ§ MMM d, y</greatestDifference>
+							<greatestDifference id="d">MMM dвЂ“d, y</greatestDifference>
+							<greatestDifference id="y">MMM d, y ШЄШ§ MMM d, y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">yyyy-MM-dd ШЄШ§ MM-dd</greatestDifference>
+							<greatestDifference id="d">yyyy-MM-dd ШЄШ§ dd</greatestDifference>
+							<greatestDifference id="y">MM-dd-yyyy ШЄШ§ MM-dd-yyyy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+				<fields>
+					<field type="era">
+						<displayName>ШЇЩ€Ш±</displayName>
+					</field>
+					<field type="year">
+						<displayName>ШіШ§Щ„</displayName>
+					</field>
+					<field type="month">
+						<displayName>Щ…ЫЃЫЊЩ†ЫЃ</displayName>
+					</field>
+					<field type="week">
+						<displayName>ЫЃЩЃШЄЫЃ</displayName>
+					</field>
+					<field type="day">
+						<displayName>ШЇЩ†</displayName>
+						<relative type="-3">ШЄШ±ШіЩ€Ъє</relative>
+						<relative type="-2">ЩѕШ±ШіЩ€Ъє</relative>
+						<relative type="-1">Ъ©Щ„</relative>
+						<relative type="0">ШўШ¬</relative>
+						<relative type="1">Ъ©Щ„</relative>
+						<relative type="2">ЩѕШ±ШіЩ€Ъє</relative>
+						<relative type="3">ШЄШ±ШіЩ€Ъє</relative>
+					</field>
+					<field type="weekday">
+						<displayName>ЫЃЩЃШЄЫ’ Ъ©Ш§ ШЇЩ†</displayName>
+					</field>
+					<field type="dayperiod">
+						<displayName>Ш±Ш§ШЄ/ШµШЁШ­</displayName>
+					</field>
+					<field type="hour">
+						<displayName>ЪЇЪѕЩ†Щ№ЫЃ</displayName>
+					</field>
+					<field type="minute">
+						<displayName>Щ…Щ†Щ№</displayName>
+					</field>
+					<field type="second">
+						<displayName>ШіЫЊЪ©Щ†Ъ€</displayName>
+					</field>
+					<field type="zone">
+						<displayName>ШІЩ€Щ†</displayName>
+					</field>
+				</fields>
+			</calendar>
+			<calendar type="islamic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">Щ…Ш­Ш±Щ…</month>
+							<month type="2">ШµЩЃШ±</month>
+							<month type="3">Ш± ШЁЩЉШ№ Ш§Щ„Ш§Щ€Щ„</month>
+							<month type="4">Ш± ШЁЩЉШ№ Ш§Щ„Ш«Ш§Щ†ЫЊ</month>
+							<month type="5">Ш¬Щ…Ш§ШЇЫЊ Ш§Щ„Ш§Щ€Щ„</month>
+							<month type="6">Ш¬Щ…Ш§ШЇЫЊ Ш§Щ„Ш«Ш§Щ†ЫЊ</month>
+							<month type="7">Ш±Ш¬ШЁ</month>
+							<month type="8">ШґШ№ШЁШ§Щ†</month>
+							<month type="9">Ш±Щ…Ш¶Ш§Щ†</month>
+							<month type="10">ШґЩ€Ш§Щ„</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<eras>
+					<eraNames>
+						<era type="1">Ш№ЩЉШіЩ€ЫЊ ШіЩ†</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">Щ‚ Щ…</era>
+						<era type="1">CE</era>
+					</eraAbbr>
+				</eras>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>Unknown</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>Ш§Щ†Ъ€Щ€Ш±Ш§</exemplarCity>
+			</zone>
+			<zone type="America/Anguilla">
+				<exemplarCity>Ш§Щ†ЪЇЩ€ЫЊЩ„Ш§</exemplarCity>
+			</zone>
+			<zone type="America/Aruba">
+				<exemplarCity>Ш§Ш±Щ€ШЁШ§</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity>ШЁШ§Ш± ШЁШ§Ъ€Щ€Ші</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>ШЁШ­Ш±ЫЊЩ†</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity>ШЁШ±Щ…Щ€ШЇЫЃ</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity>ШЁШ±Щ€Щ†Ш§Ш¦ЫЊ</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity>ШЁЫЊЩ„ЫЊШІ</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>Ъ©Щ€ШіЩ№Ш§ Ш±ЫЊЪ©Ш§</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity>Ъ©ЫЊЩѕ Щ€Ш±Ъ€</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>Ш¬ШЁЩ€ШЄЫЊ</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>Ъ€Щ€Щ…ЫЊЩ†ЫЊЪ©Ш§</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>ЩЃШ¬ЫЊ</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity>ШєШ±Щ†Ш§Ш·ЫЃ</exemplarCity>
+			</zone>
+			<zone type="Europe/Gibraltar">
+				<exemplarCity>Ш¬ШЁШ±Ш§Щ„Щ№Ш±</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity>ЪЇЩ€Ш§Ъ€ЫЊЩ„Щ€Щѕ</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>ЪЇЩ€Ш¦Щ№Ы’ Щ…Ш§Щ„Ш§</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guam">
+				<exemplarCity>ЪЇЩ€Ш§Щ…</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>ЪЇЫЊШ§Щ†Ш§</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>ЫЃШ§Щ†ЪЇ Ъ©Ш§Щ†ЪЇ</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>Ш¬Щ…Ш§Ш¦ЫЊЪ©Ш§</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity>Ъ©Щ€ЫЊШЄ</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>Щ„ЫЊЪЇШІЩ…ШЁШ±ЪЇ</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>Щ…Щ€Щ†Ш§Ъ©Щ€</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity>Щ…Ъ©Ш§Ш¦Щ€</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity>Щ…Ш§Ш±Щ№Щ†ЫЊЪ©</exemplarCity>
+			</zone>
+			<zone type="America/Montserrat">
+				<exemplarCity>Щ…Щ€Щ†Щ№ ШіШ±Ш§Щ№</exemplarCity>
+			</zone>
+			<zone type="Europe/Malta">
+				<exemplarCity>Щ…Ш§Щ„Щ№Ш§</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity>Щ…Ш§Ш±ЫЊШґШі</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>Щ…Ш§Щ„ШЇЫЊЩѕ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Nauru">
+				<exemplarCity>Щ†Щ€Ш±Щ€</exemplarCity>
+			</zone>
+			<zone type="Pacific/Niue">
+				<exemplarCity>Щ†ЫЊЩ€Ш¦Ы’</exemplarCity>
+			</zone>
+			<zone type="America/Panama">
+				<exemplarCity>ЩѕШ§Щ†Ш§Щ…ЫЃ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity>ЩѕЩ№ Ъ©ЫЊШ±Щ†</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity>ЩѕЩ€Ш±Щ№Щ€ Ш±ЫЊЪ©Щ€</exemplarCity>
+			</zone>
+			<zone type="Pacific/Palau">
+				<exemplarCity>ЩѕШ§Щ„Ш§Ш¦Щ€</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>Щ‚Ш·Ш±</exemplarCity>
+			</zone>
+			<zone type="Indian/Reunion">
+				<exemplarCity>Ш±ЫЊ ЫЊЩ€Щ†ЫЊЩ†</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>ШіЩ†ЪЇШ§ЩѕЩ€Ш±</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>Ш§ЫЊЩ„ШіЩ„Щ€Ш§Ъ€Щ€Ш±</exemplarCity>
+			</zone>
+			<zone type="Indian/Mayotte">
+				<exemplarCity>Щ…Ш§ЫЊЩ€Щ№</exemplarCity>
+			</zone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>.</decimal>
+			<group>,</group>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<patternDigit>#</patternDigit>
+			<plusSign>+</plusSign>
+			<minusSign>-</minusSign>
+			<exponential>Щ‚</exponential>
+			<perMille>вЂ°</perMille>
+			<infinity>в€ћ</infinity>
+			<nan>ЫЊЫЃ Ш№ШЇШЇ Щ†ЫЃЫЊЪє</nan>
+		</symbols>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<scientificFormats>
+			<scientificFormatLength>
+				<scientificFormat>
+					<pattern>#E0</pattern>
+				</scientificFormat>
+			</scientificFormatLength>
+		</scientificFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+			<unitPattern count="one">вЂЏ{0} {1} вЂЏ</unitPattern>
+		</currencyFormats>
+		<currencies>
+			<currency type="AED">
+				<displayName>Щ…ШЄШ­ШЇЫЃ Ш№Ш±ШЁ Ш§Щ…Ш§Ш±Ш§ШЄЫЊ ШЇШ±ЫЃЩ…</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>Ш§Ш±Ш¬Щ†Щ№Ш§Ш¦Щ† ЩѕЫЊШіЫЃ</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>ШўШіЩ№Ш±ЫЊЩ„ЫЊЩ† Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>ШЁЩ„ШєШ§Ш±ЫЊЩ† Щ„ЫЊЩ€</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>ШЁЩ€Щ„ЫЊЩ€ЫЊЩ† ШЁЩ€Щ„ЫЊЩ€ЫЊШ§Щ†Щ€</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>ШЁШ±Ш§ШІЫЊЩ„ЫЊ Ш±ЫЊШ¦Щ„</displayName>
+			</currency>
+			<currency type="CAD">
+				<displayName>Ъ©Щ†ЫЊЪ€ЫЊЩ† Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>ШіЩ€Ш¦Ші ЩЃШ±Ш§Щ†Ъ©Ші</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>Ъ†Щ„Щ‘ЫЊЩ† ЩѕЫЊШіЫЃ</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>ЫЊЩ€ШўЩ† Ш±ЫЊЩ†Щ…Щ†ШЁЫЊ</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>Ъ©Щ€Щ„Щ…ШЁЫЊЩ† ЩѕЫЊШіЫЃ</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>Ъ†ЫЊЪ© Ъ©Ш±Щ€Щ†Ш§</displayName>
+			</currency>
+			<currency type="DEM">
+				<displayName>Ъ€Ъ† Щ…Ш§Ш±Ъ©Ші</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>Ъ€Щ†Щ…Ш§Ш±Ъ© Ъ©Ш±Щ€Щ†Ш±</displayName>
+			</currency>
+			<currency type="EEK">
+				<displayName>Ш§ЫЊШіЩ№Щ€Щ†ЫЊЩ† Ъ©Ш±Щ€Щ†</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>Щ…ШµШ±ЫЊ ЩѕШ§Ш¦Щ€Щ†Ъ€</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>ЫЊЩ€Ш±Щ€</displayName>
+			</currency>
+			<currency type="FRF">
+				<displayName>ЩЃШ±Ш§Щ†ШіЫЊШіЫЊ ЩЃШ±Ш§Щ†Ъ©</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>Ш§Щ†ЪЇЩ„ШіШЄШ§Щ†ЫЊ ЩѕШ§Щ€Щ†Ъ€ ШіЩ№Ш±Щ„Щ†ЪЇ</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>ЪѕШ§Щ†ЪЇ Ъ©Ш§Щ†ЪЇ Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>Ъ©Ш±Щ€ШґЫЊЩ† Ъ©Щ€Щ†Ш§</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>ЫЃЩ†ЪЇШ±ЫЊЩ† ЩЃЩ€Ш±Щ†Щ№</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>Ш§Щ†Ъ€Щ€Щ†ЫЊШґЫЊЩ† Ш±Щ€ЩѕЫЊЫЃ</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>Ш§ШіШ±Ш§Ш¦ЫЊЩ„ЫЊ ШґЫЊЪ©Щ„</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>Ш§Щ†Ъ€ЫЊЩ† Ш±Щ€ЩѕЫЊЫЃ</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>Ш¬Ш§ЩѕШ§Щ†ЫЊ ЫЊЩ†</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>Ш¬Щ†Щ€ШЁЫЊ Ъ©Щ€Ш±ЫЊШ§Ш¦ЫЊ Ш¬ЫЊШЄШ§Ы”</displayName>
+			</currency>
+			<currency type="LTL">
+				<displayName>Щ„ЫЊШЄЪѕЩ€Ш§Щ†ЫЊ Щ„ЫЊЩ№Ш§Ші</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>Щ…Ш±Ш§Ъ©ШґЫЊ ШЇШ±ЫЃЩ…</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>Щ…ЫЊЪ©ШіЫЊЪ©ЫЊ ЩѕЫЊШіЫЃ</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>Щ…Щ„Ш§Ш¦ЫЊШґЫЊЩ† Ш±Щ†ЪЇЩ№</displayName>
+			</currency>
+			<currency type="NOK">
+				<displayName>Щ†Ш§Ш±Щ€Ы’ Ъ©Ш±Щ€Щ†Ш±</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>Щ†ЫЊЩ€ШІЫЊ Щ„ЫЊЩ†Ъ€ Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>ЩѕЫЊШ±Щ€ЫЊЩ† Щ†ЫЊЩ€Щ€ШіЩ€Щ„</displayName>
+			</currency>
+			<currency type="PHP">
+				<displayName>ЩЃЩ„ЩѕШ§Ш¦ЫЊЩ†ЫЊ ЩѕЫЊШіЫЃ</displayName>
+			</currency>
+			<currency type="PKR">
+				<displayName>ЩѕШ§Ъ©ШіШЄШ§Щ†ЫЊ Ш±Щ€ЩѕЫЊЫЃ</displayName>
+				<symbol>Ш±Щ€ЩѕЫ’</symbol>
+			</currency>
+			<currency type="PLN">
+				<displayName>ЩѕЩ€Щ„Шґ Щ†ЫЊЩ€ ШІЩ„Щ€Щ№ЫЊ</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>Щ†ЫЊШ§ Ш±Щ€Щ…Ш§Щ†ЫЊШ§Ш¦ЫЊ Щ„ЫЊЩ€</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>ШіШ±ШЁЫЊЩ† ШЇЫЊЩ†Ш§Ш±</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>Ш±Щ€ШіЫЊ Ш±Щ€ШЁЩ„</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>ШіШ№Щ€ШЇЫЊ Ш±ЫЊШ§Щ„</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>ШіЩ€ЫЊЪ€Щ† Ъ©Ш±Щ€Щ†Ш±</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>ШіЩ†ЪЇШ§ ЩѕЩ€Ш± Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="SIT">
+				<displayName>ШіЩ„Щ€Ш§Щ†ЫЊЩ† Щ№Щ€Щ„Ш±</displayName>
+			</currency>
+			<currency type="SKK">
+				<displayName>ШіЩ„Щ€Щ€Ъ© Ъ©Ш±Щ€Щ†Ш§</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>ШЄЪѕШ§Ш¦ЫЊ ШЁШ§ЫЃШЄ</displayName>
+			</currency>
+			<currency type="TRL">
+				<displayName>ШЄШ±Ъ©ЫЊ Щ„ЫЊШ±Ш§</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>Щ†ЫЊШ§ ШЄШ±Ъ©ЫЊ Щ„ЫЊШ±Ш§</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>Щ†ЫЊЩ€ ШЄШ§Ш¦ЫЊЩ€Ш§Щ† Ъ€Ш§Щ„Ш±</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>Ш§Щ…Ш±ЫЊЪ©ЫЊ Ъ€Ш§Щ„Ш±</displayName>
+				<symbol>Ъ€Ш§Щ„Ш±</symbol>
+			</currency>
+			<currency type="VEB">
+				<displayName>Щ€ЫЊЩ†ШІЩ€ЫЊЩ„Ш§ ШЁЩ€Щ„ЫЊЩ€Ш±</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>Ш¬Щ†Щ€ШЁЫЊ Ш§ЩЃШ±ЫЊЩ‚ЫЊ Ш±Ш§Щ†Ъ€</displayName>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>yes:y</yesstr>
+			<nostr>no:n</nostr>
+		</messages>
+	</posix>
+</ldml>

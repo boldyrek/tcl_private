@@ -1,0 +1,248 @@
+
+28-07-2012 06:10:01 --- INFO: start: 28-07-2012 06:10:01
+28-07-2012 06:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 06:10:02 --- INFO: Authorized request
+28-07-2012 06:10:07 --- ERROR: Database_Exception [ 0 ]: [1062] Duplicate entry '2T2HA31U94C027529-86680' for key 'vincode_option' ( INSERT INTO `ccl_grabber_options` (`vincode`, `option`, `exists`) VALUES ('2T2HA31U94C027529', '86680', '0') ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(2, 'INSERT INTO `cc...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('production')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/model/core.php(474): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(328): Jelly_Model_Core->save()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/adesa.php(115): Source->_cache_options(2, 2)
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Adesa->execute()
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->run()
+#7 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#9 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#10 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#11 {main}
+28-07-2012 06:40:01 --- INFO: start: 28-07-2012 06:40:01
+28-07-2012 06:40:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 06:49:36 --- ERROR: Database_Exception [ 0 ]: [1062] Duplicate entry 'JTJHA31U050081976-86680' for key 'vincode_option' ( INSERT INTO `ccl_grabber_options` (`vincode`, `option`, `exists`) VALUES ('JTJHA31U050081976', '86680', '0') ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(2, 'INSERT INTO `cc...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('production')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/model/core.php(474): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(328): Jelly_Model_Core->save()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/megaavto.php(129): Source->_cache_options(2, 9)
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Megaavto->execute()
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->run()
+#7 [internal function]: Controller_Home->action_execute('9', 'home/execute/9', Object(Route))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#9 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#10 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#11 {main}
+28-07-2012 07:38:04 --- INFO: start: 28-07-2012 07:38:04
+28-07-2012 07:38:04 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 07:45:56 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 52, did not pass the filter by options: 12, added: 17, new vincodes: 3
+28-07-2012 07:45:56 --- INFO: finish: 28-07-2012 07:45:56
+28-07-2012 07:45:56 --- INFO: elapsed time: ~472.71 sec., memory usage: ~2.7 Mb.
+28-07-2012 07:49:43 --- INFO: start: 28-07-2012 07:49:43
+28-07-2012 07:49:43 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 07:52:10 --- ERROR: Database_Exception [ 0 ]: [1062] Duplicate entry 'JTJBT20X770144600-86680' for key 'vincode_option' ( INSERT INTO `ccl_grabber_options` (`vincode`, `option`, `exists`) VALUES ('JTJBT20X770144600', '86680', '1') ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(2, 'INSERT INTO `cc...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('production')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/model/core.php(474): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(328): Jelly_Model_Core->save()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/megaavto.php(129): Source->_cache_options(5, 9)
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Megaavto->execute()
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->run()
+#7 [internal function]: Controller_Home->action_execute('9', 'home/execute/9', Object(Route))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#9 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#10 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#11 {main}
+28-07-2012 07:54:42 --- INFO: start: 28-07-2012 07:54:42
+28-07-2012 07:54:42 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 07:57:03 --- ERROR: Database_Exception [ 0 ]: [1062] Duplicate entry 'JTJBT20X770137596-86680' for key 'vincode_option' ( INSERT INTO `ccl_grabber_options` (`vincode`, `option`, `exists`) VALUES ('JTJBT20X770137596', '86680', '0') ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(2, 'INSERT INTO `cc...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('production')
+#2 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/model/core.php(474): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(328): Jelly_Model_Core->save()
+#4 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/megaavto.php(129): Source->_cache_options(5, 9)
+#5 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Megaavto->execute()
+#6 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->run()
+#7 [internal function]: Controller_Home->action_execute('9', 'home/execute/9', Object(Route))
+#8 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#9 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#10 /home/clients/boldyrek_ftp0/domains/tcl.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#11 {main}
+28-07-2012 08:03:37 --- INFO: start: 28-07-2012 08:03:37
+28-07-2012 08:03:37 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 08:06:02 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 56, did not pass the filter by options: 12, added: 13, new vincodes: 0
+28-07-2012 08:06:02 --- INFO: finish: 28-07-2012 08:06:02
+28-07-2012 08:06:02 --- INFO: elapsed time: ~145.51 sec., memory usage: ~2.49 Mb.
+28-07-2012 08:10:01 --- INFO: start: 28-07-2012 08:10:01
+28-07-2012 08:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 08:10:02 --- INFO: Authorized request
+28-07-2012 08:10:09 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 08:10:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:10:19 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:10:52 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 1
+28-07-2012 08:10:55 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 08:10:55 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:10:56 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:11:09 --- INFO: Toyota 4RUNNER 4WD V6 - found: 15, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 08:11:10 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:11:10 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:11:10 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 08:11:14 --- INFO: Toyota 4RUNNER Limited V6 - found: 22, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 08:11:14 --- INFO: finish: 28-07-2012 08:11:14
+28-07-2012 08:11:14 --- INFO: elapsed time: ~73 sec., memory usage: ~2.21 Mb.
+28-07-2012 08:40:01 --- INFO: start: 28-07-2012 08:40:01
+28-07-2012 08:40:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 08:42:26 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 54, did not pass the filter by options: 12, added: 15, new vincodes: 0
+28-07-2012 08:42:26 --- INFO: finish: 28-07-2012 08:42:26
+28-07-2012 08:42:26 --- INFO: elapsed time: ~145.72 sec., memory usage: ~2.49 Mb.
+28-07-2012 09:10:01 --- INFO: start: 28-07-2012 09:10:01
+28-07-2012 09:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 09:10:02 --- INFO: Authorized request
+28-07-2012 09:10:08 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 09:10:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:09 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:23 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:26 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 09:10:26 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:27 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:34 --- INFO: Toyota 4RUNNER 4WD V6 - found: 15, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 09:10:34 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:34 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:35 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 09:10:38 --- INFO: Toyota 4RUNNER Limited V6 - found: 23, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 09:10:38 --- INFO: finish: 28-07-2012 09:10:39
+28-07-2012 09:10:38 --- INFO: elapsed time: ~37.06 sec., memory usage: ~2.2 Mb.
+28-07-2012 09:40:02 --- INFO: start: 28-07-2012 09:40:02
+28-07-2012 09:40:02 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 09:42:30 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 53, did not pass the filter by options: 12, added: 16, new vincodes: 0
+28-07-2012 09:42:30 --- INFO: finish: 28-07-2012 09:42:30
+28-07-2012 09:42:30 --- INFO: elapsed time: ~148.79 sec., memory usage: ~2.49 Mb.
+28-07-2012 10:00:01 --- INFO: start: 28-07-2012 10:00:01
+28-07-2012 10:00:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 10:00:01 --- INFO: Authorized request
+28-07-2012 10:00:07 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 10:00:07 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:08 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:22 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:25 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 10:00:25 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:25 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:33 --- INFO: Toyota 4RUNNER 4WD V6 - found: 16, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 10:00:33 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:33 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:33 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 10:00:37 --- INFO: Toyota 4RUNNER Limited V6 - found: 24, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 10:00:37 --- INFO: finish: 28-07-2012 10:00:37
+28-07-2012 10:00:37 --- INFO: elapsed time: ~36.79 sec., memory usage: ~2.2 Mb.
+28-07-2012 10:30:01 --- INFO: start: 28-07-2012 10:30:01
+28-07-2012 10:30:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 10:32:23 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 54, did not pass the filter by options: 12, added: 15, new vincodes: 0
+28-07-2012 10:32:23 --- INFO: finish: 28-07-2012 10:32:23
+28-07-2012 10:32:23 --- INFO: elapsed time: ~142.48 sec., memory usage: ~2.49 Mb.
+28-07-2012 11:10:01 --- INFO: start: 28-07-2012 11:10:01
+28-07-2012 11:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 11:10:02 --- INFO: Authorized request
+28-07-2012 11:10:08 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 11:10:08 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:09 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:22 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:26 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 11:10:26 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:26 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:33 --- INFO: Toyota 4RUNNER 4WD V6 - found: 17, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 11:10:34 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:34 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:34 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 11:10:38 --- INFO: Toyota 4RUNNER Limited V6 - found: 25, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 11:10:38 --- INFO: finish: 28-07-2012 11:10:38
+28-07-2012 11:10:38 --- INFO: elapsed time: ~36.45 sec., memory usage: ~2.2 Mb.
+28-07-2012 11:40:01 --- INFO: start: 28-07-2012 11:40:01
+28-07-2012 11:40:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 11:42:25 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 54, did not pass the filter by options: 12, added: 15, new vincodes: 0
+28-07-2012 11:42:25 --- INFO: finish: 28-07-2012 11:42:25
+28-07-2012 11:42:25 --- INFO: elapsed time: ~143.69 sec., memory usage: ~2.49 Mb.
+28-07-2012 12:20:01 --- INFO: start: 28-07-2012 12:20:01
+28-07-2012 12:20:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 12:20:02 --- INFO: Authorized request
+28-07-2012 12:20:08 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 12:20:08 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:10 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:23 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:27 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 12:20:27 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:27 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:34 --- INFO: Toyota 4RUNNER 4WD V6 - found: 17, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 12:20:35 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:35 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:35 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 12:20:39 --- INFO: Toyota 4RUNNER Limited V6 - found: 25, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 12:20:39 --- INFO: finish: 28-07-2012 12:20:39
+28-07-2012 12:20:39 --- INFO: elapsed time: ~38.36 sec., memory usage: ~2.21 Mb.
+28-07-2012 12:50:01 --- INFO: start: 28-07-2012 12:50:01
+28-07-2012 12:50:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 12:52:23 --- INFO: Lexus GX 470 - found: 159, pass primary filters: 81, did not pass the filter by colors: 53, did not pass the filter by options: 12, added: 16, new vincodes: 0
+28-07-2012 12:52:23 --- INFO: finish: 28-07-2012 12:52:23
+28-07-2012 12:52:23 --- INFO: elapsed time: ~142.54 sec., memory usage: ~2.49 Mb.
+28-07-2012 13:20:01 --- INFO: start: 28-07-2012 13:20:01
+28-07-2012 13:20:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 13:20:03 --- INFO: Authorized request
+28-07-2012 13:20:09 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 13:20:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:12 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:25 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:29 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 13:20:29 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:29 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:36 --- INFO: Toyota 4RUNNER 4WD V6 - found: 17, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 13:20:36 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:37 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:37 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 13:20:41 --- INFO: Toyota 4RUNNER Limited V6 - found: 25, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 13:20:41 --- INFO: finish: 28-07-2012 13:20:41
+28-07-2012 13:20:41 --- INFO: elapsed time: ~39.46 sec., memory usage: ~2.21 Mb.
+28-07-2012 13:50:01 --- INFO: start: 28-07-2012 13:50:01
+28-07-2012 13:50:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 13:56:59 --- INFO: Lexus GX 470 - found: 168, pass primary filters: 83, did not pass the filter by colors: 56, did not pass the filter by options: 12, added: 15, new vincodes: 1
+28-07-2012 13:56:59 --- INFO: finish: 28-07-2012 13:56:59
+28-07-2012 13:56:59 --- INFO: elapsed time: ~417.29 sec., memory usage: ~2.51 Mb.
+28-07-2012 16:10:01 --- INFO: start: 28-07-2012 16:10:01
+28-07-2012 16:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 16:10:02 --- INFO: Authorized request
+28-07-2012 16:10:08 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 16:10:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:11 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:24 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:28 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 16:10:28 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:29 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:36 --- INFO: Toyota 4RUNNER 4WD V6 - found: 17, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 16:10:36 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:36 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:37 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 16:10:41 --- INFO: Toyota 4RUNNER Limited V6 - found: 25, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 16:10:41 --- INFO: finish: 28-07-2012 16:10:41
+28-07-2012 16:10:41 --- INFO: elapsed time: ~39.56 sec., memory usage: ~2.21 Mb.
+28-07-2012 16:40:01 --- INFO: start: 28-07-2012 16:40:01
+28-07-2012 16:40:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 16:47:27 --- INFO: Lexus GX 470 - found: 172, pass primary filters: 83, did not pass the filter by colors: 56, did not pass the filter by options: 12, added: 15, new vincodes: 0
+28-07-2012 16:47:27 --- INFO: finish: 28-07-2012 16:47:27
+28-07-2012 16:47:27 --- INFO: elapsed time: ~445.41 sec., memory usage: ~2.51 Mb.
+28-07-2012 18:10:01 --- INFO: start: 28-07-2012 18:10:01
+28-07-2012 18:10:01 --- INFO: ----------Source_Adesa (cli)
+28-07-2012 18:10:02 --- INFO: Authorized request
+28-07-2012 18:10:08 --- INFO: Lexus RX 330 - found: 10, pass primary filters: 6, did not pass the filter by colors: 4, did not pass the filter by options: 2, added: 0, new vincodes: 0
+28-07-2012 18:10:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:10 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:23 --- INFO: Lexus GX 470 - found: 8, pass primary filters: 5, did not pass the filter by colors: 5, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:27 --- INFO: Lexus LX 470 - found: 1, pass primary filters: 1, did not pass the filter by colors: 1, did not pass the filter by options: , added: 0, new vincodes: 0
+28-07-2012 18:10:27 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:27 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:34 --- INFO: Toyota 4RUNNER 4WD V6 - found: 16, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: , added: 1, new vincodes: 0
+28-07-2012 18:10:34 --- INFO: Toyota Highlander 4WD - found: 13, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:35 --- INFO: Toyota Highlander - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:35 --- INFO: Lexus RX 350 - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+28-07-2012 18:10:39 --- INFO: Toyota 4RUNNER Limited V6 - found: 24, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: , added: 2, new vincodes: 0
+28-07-2012 18:10:39 --- INFO: finish: 28-07-2012 18:10:39
+28-07-2012 18:10:39 --- INFO: elapsed time: ~37.48 sec., memory usage: ~2.21 Mb.
+28-07-2012 18:40:01 --- INFO: start: 28-07-2012 18:40:01
+28-07-2012 18:40:01 --- INFO: ----------Source_Megaavto (cli)
+28-07-2012 18:42:24 --- INFO: Lexus GX 470 - found: 172, pass primary filters: 83, did not pass the filter by colors: 55, did not pass the filter by options: 12, added: 16, new vincodes: 0
+28-07-2012 18:42:24 --- INFO: finish: 28-07-2012 18:42:24
+28-07-2012 18:42:24 --- INFO: elapsed time: ~142.36 sec., memory usage: ~2.51 Mb.

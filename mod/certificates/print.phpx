@@ -1,0 +1,15 @@
+<?
+
+//
+// готовим сертификат к выводу для печати
+//
+if(!isset($_GET['clear'])) header('Location: '.$root_path.'?'.$_SERVER['QUERY_STRING'].'&clear');
+
+$cert = mysql_fetch_array(mysql_query("SELECT * FROM `ccl_certificates` WHERE `car` = '".intval($_GET['id'])."'"));
+
+$car = @mysql_fetch_array(mysql_query("SELECT * FROM `ccl_cars` WHERE `id` = '".intval($_GET['id'])."'"));
+
+require($_SERVER['DOCUMENT_ROOT']."/mod/certificates/templates/cert_file.php");
+
+echo $cert_file;
+?>

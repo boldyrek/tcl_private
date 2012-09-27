@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.66 $"/>
+		<generation date="$Date: 2009/05/05 23:06:37 $"/>
+		<language type="kk"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="af">Р±СѓСЂ</language>
+			<language type="am">Р°РјС…Р°СЂ</language>
+			<language type="ar">Р°СЂР°Р±С€Р°</language>
+			<language type="as">Р°СЃСЃР°Рј</language>
+			<language type="be">Р±РµР»Р°СЂСѓСЃ</language>
+			<language type="bg">Р±РѕР»РіР°СЂ</language>
+			<language type="bh">Р±РёС…Р°СЂРё</language>
+			<language type="bn">Р±РµРЅРіР°Р»</language>
+			<language type="br">Р±СЂРёС‚</language>
+			<language type="bs">Р±РѕСЃРЅРёСЏ</language>
+			<language type="ca">РєР°С‚Р°Р»Р°РЅ</language>
+			<language type="cs">С‡РµС…</language>
+			<language type="cy">РІР°Р»Р»РёР№</language>
+			<language type="da">РґР°С‚</language>
+			<language type="de">РЅРµРјС–СЃ</language>
+			<language type="el">РіСЂРµРє</language>
+			<language type="en">Р°Т“С‹Р»С€С‹РЅ</language>
+			<language type="eo">СЌСЃРїРµСЂР°РЅС‚Рѕ</language>
+			<language type="es">РёСЃРїР°РЅ</language>
+			<language type="et">СЌСЃС‚РѕРЅ</language>
+			<language type="eu">Р±Р°СЃРє</language>
+			<language type="fa">РїР°СЂСЃС‹</language>
+			<language type="fi">С„РёРЅ</language>
+			<language type="fil">РїРёР»РёРїРёРЅРѕ</language>
+			<language type="fo">С„Р°СЂРµСЂ</language>
+			<language type="fr">С„СЂР°РЅС†СѓР·</language>
+			<language type="fy">С„СЂРёСЃ</language>
+			<language type="ga">РёСЂР»Р°РЅРґС€Р°</language>
+			<language type="gd">РЎРѕР»С‚ТЇСЃС‚С–Рє РЁРѕС‚Р»Р°РЅРґРёСЏ</language>
+			<language type="gl">РіР°Р»РёС†РёСЏС€Р°</language>
+			<language type="gn">РіСѓР°СЂР°РЅРё</language>
+			<language type="gu">РіСѓРґР¶Р°СЂР°С‚Рё</language>
+			<language type="he">РёРІСЂРёС‚</language>
+			<language type="hi">С…РёРЅРґРё</language>
+			<language type="hr">С…РѕСЂРІР°С‚</language>
+			<language type="hu">РјР°РґСЊСЏСЂ</language>
+			<language type="hy">Р°СЂРјСЏРЅ</language>
+			<language type="ia">РёРЅС‚РµСЂР»РёРЅРіРІР°</language>
+			<language type="id">РёРЅРґРѕРЅРµР·РёСЏ</language>
+			<language type="ie">РёРЅС‚РµСЂР»РёРЅРіРІРµ</language>
+			<language type="is">РёСЃР»Р°РЅРґ</language>
+			<language type="it">РёС‚Р°Р»РёСЏРЅ</language>
+			<language type="ja">Р¶Р°РїРѕРЅ</language>
+			<language type="jv">СЏРІР°</language>
+			<language type="ka">РіСЂСѓР·РёРЅ</language>
+			<language type="kk">ТљР°Р·Р°Т›</language>
+			<language type="km">РєР°РјР±РѕРґР¶РёСЏ</language>
+			<language type="kn">РєР°РЅРЅР°РґР°</language>
+			<language type="ko">РєУ™СЂС–СЃ</language>
+			<language type="ku">РєТЇСЂРґ</language>
+			<language type="ky">Т›С‹СЂТ“С‹Р·</language>
+			<language type="la">Р»Р°С‚С‹РЅ</language>
+			<language type="ln">Р»РёРЅРіР°Р»Р°</language>
+			<language type="lo">Р»Р°РѕСЃ</language>
+			<language type="lt">Р»РёС‚РІР°</language>
+			<language type="lv">Р»Р°С‚С‹С€</language>
+			<language type="mk">РјР°РєРµРґРѕРЅ</language>
+			<language type="ml">РјР°Р»Р°Р№СЏР»Р°Рј</language>
+			<language type="mn">РјРѕРЅТ“РѕР»</language>
+			<language type="mr">РјР°СЂР°С‚С…Рё</language>
+			<language type="ms">РјР°Р»Р°Р№</language>
+			<language type="mt">РјР°Р»СЊС‚Р°</language>
+			<language type="ne">РЅРµРїР°Р»</language>
+			<language type="nl">РіРѕР»Р»Р°РЅРґ</language>
+			<language type="no">РЅРѕСЂРІРµРі</language>
+			<language type="oc">РѕРєСЃРёС‚Р°РЅ</language>
+			<language type="or">РѕСЂРёСЏ</language>
+			<language type="pa">РїР°РЅРґР¶Р°Р±</language>
+			<language type="pl">РїРѕР»СЏРє</language>
+			<language type="ps">РїР°С€С‚Рѕ</language>
+			<language type="pt">РїРѕСЂС‚СѓРіР°Р»</language>
+			<language type="ro">СЂСѓРјС‹РЅ</language>
+			<language type="ru">РѕСЂС‹СЃ</language>
+			<language type="sa">СЃР°РЅСЃРєСЂРёС‚</language>
+			<language type="sd">СЃРёРЅРґС…Рё</language>
+			<language type="sh">СЃРµСЂР±С…РѕСЂРІР°С‚</language>
+			<language type="si">СЃРёРЅРіР°Р»</language>
+			<language type="sk">СЃР»РѕРІР°Рє</language>
+			<language type="sl">СЃР»РѕРІРµРЅ</language>
+			<language type="so">СЃРѕРјР°Р»Рё</language>
+			<language type="sq">Р°Р»Р±Р°РЅ</language>
+			<language type="sr">СЃРµСЂР±</language>
+			<language type="st">СЃРµСЃРѕС‚Рѕ</language>
+			<language type="su">СЃСѓРґР°РЅ</language>
+			<language type="sv">С€РІРµРґ</language>
+			<language type="sw">СЃСѓР°С…РёР»Рё</language>
+			<language type="ta">С‚Р°РјРёР»</language>
+			<language type="te">С‚РµР»СѓРіСѓ</language>
+			<language type="th">С‚Р°Р№</language>
+			<language type="ti">С‚РёРіСЂРёРЅСЊСЏ</language>
+			<language type="tk">С‚ТЇСЂРєРјРµРЅ</language>
+			<language type="tlh">РєР»РёРЅРіРѕРЅ</language>
+			<language type="tr">С‚ТЇСЂС–РєС€Рµ</language>
+			<language type="tw">С‚РІРё</language>
+			<language type="ug">Т±Р№Т“С‹СЂ</language>
+			<language type="uk">СѓРєСЂР°РёРЅ</language>
+			<language type="ur">СѓСЂРґСѓ</language>
+			<language type="uz">У©Р·Р±РµРє</language>
+			<language type="vi">РІСЊРµС‚РЅР°Рј</language>
+			<language type="xh">С…РѕСЃР°</language>
+			<language type="yi">РёРґРёС€</language>
+			<language type="zu">Р·СѓР»СѓСЃ</language>
+		</languages>
+		<territories>
+			<territory type="KZ">ТљР°Р·Р°Т›СЃС‚Р°РЅ</territory>
+			<territory type="TO">РўРѕРЅРіР°</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[Р° У™ Р±-Рµ С‘ Р¶-Р№ С– Рє Т› Р»-РЅ ТЈ Рѕ-Сѓ Т± ТЇ С„-СЏ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[Т»]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">Т›Р°ТЈ.</month>
+							<month type="2">Р°Т›Рї.</month>
+							<month type="3">РЅР°Сѓ.</month>
+							<month type="4">СЃУ™Сѓ.</month>
+							<month type="5">РјР°Рј.</month>
+							<month type="6">РјР°Сѓ.</month>
+							<month type="7">С€С–Р».</month>
+							<month type="8">С‚Р°Рј.</month>
+							<month type="9">Т›С‹СЂ.</month>
+							<month type="10">Т›Р°Р·.</month>
+							<month type="11">Т›Р°СЂ.</month>
+							<month type="12">Р¶РµР»С‚.</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">Т›Р°ТЈС‚Р°СЂ</month>
+							<month type="2">Р°Т›РїР°РЅ</month>
+							<month type="3">РЅР°СѓСЂС‹Р·</month>
+							<month type="4">СЃУ™СѓС–СЂ</month>
+							<month type="5">РјР°РјС‹СЂ</month>
+							<month type="6">РјР°СѓСЃС‹Рј</month>
+							<month type="7">С€С–Р»РґРµ</month>
+							<month type="8">С‚Р°РјС‹Р·</month>
+							<month type="9">Т›С‹СЂРєТЇР№РµРє</month>
+							<month type="10">Т›Р°Р·Р°РЅ</month>
+							<month type="11">Т›Р°СЂР°С€Р°</month>
+							<month type="12">Р¶РµР»С‚РѕТ›СЃР°РЅ</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">Р¶СЃ.</day>
+							<day type="mon">РґСЃ.</day>
+							<day type="tue">СЃСЃ.</day>
+							<day type="wed">СЃСЂ.</day>
+							<day type="thu">Р±СЃ.</day>
+							<day type="fri">Р¶Рј.</day>
+							<day type="sat">СЃТ».</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">Р¶РµРєСЃРµРЅС–</day>
+							<day type="mon">РґСѓР№СЃРµРЅР±С–</day>
+							<day type="tue">СЃРµР№СЃРµРЅР±С–</day>
+							<day type="wed">СЃУ™СЂРµРЅР±С–</day>
+							<day type="thu">Р±РµР№СЃРµРЅР±С–</day>
+							<day type="fri">Р¶Т±РјР°</day>
+							<day type="sat">СЃРµРЅР±С–</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">BCE</era>
+						<era type="1">CE</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d MMMM y 'Р¶'.</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y 'Р¶'.</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>dd.MM.yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd.MM.yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MMdd">dd.MM</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM.yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y 'Р¶'.</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">M-M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E, dd.MM - E, dd.MM</greatestDifference>
+							<greatestDifference id="d">E, dd.MM - E, dd.MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">MMM-MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E, d MMM - E, d MMM</greatestDifference>
+							<greatestDifference id="d">E, d - E, d MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">d MMM - d MMM</greatestDifference>
+							<greatestDifference id="d">d-d MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">dd.MM - dd.MM</greatestDifference>
+							<greatestDifference id="d">dd.MM - dd.MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="h">HH-HH</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="h">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="h">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm-HH:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="h">HH-HH v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y-y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">MM.yy - MM.yy</greatestDifference>
+							<greatestDifference id="y">MM.yy - MM.yy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">E, dd.MM.yy - E, dd.MM.yy</greatestDifference>
+							<greatestDifference id="d">E, dd.MM.yy - E, dd.MM.yy</greatestDifference>
+							<greatestDifference id="y">E, dd.MM.yy - E, dd.MM.yy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">MMM-MMM y 'Р¶'.</greatestDifference>
+							<greatestDifference id="y">MMM y 'Р¶'. - MMM y 'Р¶'.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E, d MMM - E, d MMM y 'Р¶'.</greatestDifference>
+							<greatestDifference id="d">E, d - E, d MMM y 'Р¶'.</greatestDifference>
+							<greatestDifference id="y">E, d MMM y 'Р¶'. - E, d MMM y 'Р¶'.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">d MMM - d MMM y 'Р¶'.</greatestDifference>
+							<greatestDifference id="d">d-d MMM y 'Р¶'.</greatestDifference>
+							<greatestDifference id="y">d MMM y 'Р¶'. - d MMM y 'Р¶'.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">dd.MM.yy - dd.MM.yy</greatestDifference>
+							<greatestDifference id="d">dd.MM.yy - dd.MM.yy</greatestDifference>
+							<greatestDifference id="y">dd.MM.yy - dd.MM.yy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>В </group>
+		</symbols>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="KZT">
+				<symbol>С‚ТЈРі.</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>РёУ™:Рё</yesstr>
+			<nostr>Р¶РѕТ›:Р¶</nostr>
+		</messages>
+	</posix>
+</ldml>

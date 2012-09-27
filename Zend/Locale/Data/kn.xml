@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.72 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="kn"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">аІ…аІ«аІѕаІ°аіЌ</language>
+			<language type="ab">аІ…аІ¬аіЌаІ–аІѕаІњаІїаІЇаІЁаіЌ</language>
+			<language type="ace">аІ…аІ›аІїаІЁаіЂаІёаіЌ</language>
+			<language type="ach">аІ…аІ•аі‹аІІаІї</language>
+			<language type="ada">аІ…аІЎаІ‚аІ—аіЌвЂЊаІ®аі†</language>
+			<language type="ady">аІ…аІЎаі€аІаі†</language>
+			<language type="ae">аІ…аІµаі†аІёаіЌаІџаІЁаіЌ</language>
+			<language type="af">аІ†аІ«аіЌаІ°аІїаІ•аІѕаІЁаіЌаІёаіЌ</language>
+			<language type="afa">аІ†аІ«аіЌаІ°аі‹-аІЏаІ¶аІїаІЇаІѕаІџаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="afh">аІ†аІ«аіЌаІ°аІїаІ№аІїаІІаІї</language>
+			<language type="ain">аІђаІЁаіЃ</language>
+			<language type="ak">аІ…аІ•аІЁаіЌ</language>
+			<language type="akk">аІ…аІ•аіЌаІ•аІѕаІЎаІїаІЇаІЁаіЌ</language>
+			<language type="ale">аІ…аІІаі†аІЇаіЃаІџаіЌ</language>
+			<language type="alg">аІ…аІІаіЌаІ—аіЉаІ‚аІ•аіЌаІµаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="alt">аІ¦аІ•аіЌаІ·аІїаІЈ аІ…аІІаіЌаІџаІѕаІЇаіЌ</language>
+			<language type="am">аІ…аІ‚аІ№аІ°аІїаІ•аіЌ</language>
+			<language type="an">аІ…аІ°аІ—аіЉаІЁаіЂаІёаіЌ</language>
+			<language type="ang">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="anp">аІ†аІ‚аІ—аІїаІ•аІѕ</language>
+			<language type="apa">аІ…аІЄаІѕаІљаІї аІ­аІѕаІ·аі†</language>
+			<language type="ar">аІ…аІ°аі‡аІ¬аІїаІ•аіЌ</language>
+			<language type="arc">аІ…аІ°аІѕаІ®аІїаІ•аіЌ</language>
+			<language type="arn">аІ…аІ°аіЊаІ•аі‡аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="arp">аІ…аІ°аІЄаІѕаІ№аі‹</language>
+			<language type="art">аІ•аіѓаІ¤аІ• аІ­аІѕаІ·аі†</language>
+			<language type="arw">аІ…аІ°аІѕаІµаІѕаІ•аіЌ</language>
+			<language type="as">аІ…аІёаіЌаІёаІѕаІ®аіЂаІёаіЌ</language>
+			<language type="ast">аІ†аІёаіЌаІџаіЃаІ°аІїаІЇаІЁаіЌ</language>
+			<language type="ath">аІ…аІҐаІЄаІѕаІёаіЌаІ•аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="aus">аІ†аІёаіЌаІџаіЌаІ°аі‡аІІаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="av">аІ…аІµаІ°аІїаІ•аіЌ</language>
+			<language type="awa">аІ…аІµаІ§аІї</language>
+			<language type="ay">аІ…аІЇаіЌаІ®аІѕаІ°аІѕ</language>
+			<language type="az">аІ…аІњаІ°аіЌвЂЊаІ¬аі€аІњаІѕаІЁаІї</language>
+			<language type="ba">аІ¬аІ¶аіЌаІ•аІїаІ°аіЌ</language>
+			<language type="bad">аІ¬аІѕаІ‚аІЎаІѕ</language>
+			<language type="bai">аІ¬аІ®аІїаІІаі‡аІ•аі† аІ­аІѕаІ·аі†</language>
+			<language type="bal">аІ¬аІІаі‚аІљаІї</language>
+			<language type="ban">аІ¬аІІаІїаІЁаіЂаІёаіЌ</language>
+			<language type="bas">аІ¬аІёаІѕ</language>
+			<language type="bat">аІ¬аІѕаІІаіЌаІџаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="be">аІ¬аі†аІІаІ°аі‚аІёаІїаІЇаІЁаіЌ</language>
+			<language type="bej">аІ¬аі‡аІњаІѕ</language>
+			<language type="bem">аІ¬аі†аІ‚аІ¬аІѕ</language>
+			<language type="ber">аІ¬аі†аІ°аіЌаІ¬аІ°аіЌ</language>
+			<language type="bg">аІ¬аІІаіЌаІ—аі‡аІ°аІїаІЇаІЁаіЌ</language>
+			<language type="bh">аІ¬аІїаІ№аІѕаІ°аІї</language>
+			<language type="bho">аІ­аі‹аІњаІЄаіЃаІ°аІї</language>
+			<language type="bi">аІ¬аІїаІёаіЌаІІаІѕаІ®аІѕ</language>
+			<language type="bik">аІ¬аІїаІ•аіЉаІІаіЌ</language>
+			<language type="bin">аІ¬аІїаІЁаІї</language>
+			<language type="bla">аІёаІїаІ•аіЌаІёаІїаІ•аІѕ</language>
+			<language type="bm">аІ¬аІ‚аІ¬аІѕаІ°аІѕ</language>
+			<language type="bn">аІ¬аі†аІ‚аІ—аІѕаІІаІї</language>
+			<language type="bnt">аІ¬аІ‚аІџаіЃ</language>
+			<language type="bo">аІџаІїаІ¬аі‡аІџаІїаІЇаІЁаіЌ</language>
+			<language type="br">аІ¬аіЌаІ°аі†аІџаІЁаіЌ</language>
+			<language type="bra">аІ¬аіЌаІ°аІѕаІњаіЌ</language>
+			<language type="bs">аІ¬аі‹аІёаіЌаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="btk">аІ¬аІџаІѕаІ•аіЌ</language>
+			<language type="bua">аІ¬аіЃаІ°аІїаІЇаІџаіЌ</language>
+			<language type="bug">аІ¬аіЃаІ—аІїаІЁаіЂаІёаіЌ</language>
+			<language type="byn">аІ¬аіЌаІІаІїаІЁаіЌ</language>
+			<language type="ca">аІ•аі†аІџаІІаІѕаІЁаіЌ</language>
+			<language type="cad">аІ•аіЌаІЇаІѕаІЎаіЌаІЎаі‹</language>
+			<language type="cai">аІ®аІ§аіЌаІЇ аІ…аІ®аі‡аІ°аІїаІ•аІЁаіЌ аІ‡аІ‚аІЎаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="car">аІ•аІѕаІ°аІїаІ¬аіЌ</language>
+			<language type="cau">аІ•аІ•аі‡аІ¶аІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="cch">аІ…аІџаіЌаІёаІ®аіЌ</language>
+			<language type="ce">аІљаі†аІљаІЁаіЌ</language>
+			<language type="ceb">аІёаі†аІ¬аіЃаІ†аІЁаі‹</language>
+			<language type="cel">аІёаі†аІІаіЌаІџаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="ch">аІ•аІ®аіЉаІ°аіЉ</language>
+			<language type="chb">аІљаІїаІ¬аіЌаІљаІѕ</language>
+			<language type="chg">аІљаІ—аІџаІѕаІЇаіЌ</language>
+			<language type="chk">аІљаі‚аІ•аІїаІёаі†</language>
+			<language type="chm">аІ®аІѕаІ°аІї</language>
+			<language type="chn">аІљаІїаІЁаі‚аІ•аіЌ аІњаІѕаІ°аіЌаІ—аі‹аІЁаіЌ</language>
+			<language type="cho">аІљаі‹аІ•аіЌаІџаІѕаІµаіЌ</language>
+			<language type="chp">аІљаІїаІЄаі†аІµаіЌаІЇаІѕаІЁаіЌ</language>
+			<language type="chr">аІљаіЂаІ°аі‹аІ•аіЂ</language>
+			<language type="chy">аІљаіЂаІЇаі†аІЁаіЌаІЁаі‡</language>
+			<language type="cmc">аІљаІѕаІ®аІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="co">аІ•аіЉаІ°аіЌаІёаІїаІ•аІЁаіЌ</language>
+			<language type="cop">аІ•аіЉаІЄаіЌаІџаІїаІ•аіЌ</language>
+			<language type="cpe">аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ-аІ®аі‚аІІаІ¦ аІ•аіЌаІ°аІїаІЇаі‹аІІаіЌ аІ…аІҐаІµаІѕ аІЄаІїаІЎаіЌаІ—аІїаІЁаіЌ</language>
+			<language type="cpf">аІ«аіЌаІ°аі†аІ‚аІљаіЌ-аІ®аі‚аІІаІ¦ аІ•аіЌаІ°аІїаІЇаі‹аІІаіЌ аІ…аІҐаІµаІѕ аІЄаІїаІЎаіЌаІ—аІїаІЁаіЌ</language>
+			<language type="cpp">аІЄаі‹аІ°аіЌаІљаіЃаІ—аіЂаІёаіЌ- аІ®аі‚аІІаІ¦ аІ•аіЌаІ°аІїаІЇаі‹аІІаіЌ аІ…аІҐаІµаІѕ аІЄаІїаІЎаіЌаІ—аІїаІЁаіЌ</language>
+			<language type="cr">аІ•аіЌаІ°аіЂ</language>
+			<language type="crh">аІ•аіЌаІ°аІїаІ®аіЂаІЇаІЁаіЌ аІџаІ°аіЌаІ•аІїаІ·аіЌ</language>
+			<language type="crp">аІ•аіЌаІ°аІїаІЇаі‹аІІаіЌ аІ…аІҐаІµаІѕ аІЄаІїаІЎаіЌаІ—аІїаІЁаіЌ</language>
+			<language type="cs">аІњаі†аІ•аіЌ</language>
+			<language type="csb">аІ•аІ¶аіЃаІ¬аІїаІЇаІЁаіЌ</language>
+			<language type="cu">аІљаІ°аіЌаІљаіЌ аІёаіЌаІІаІѕаІµаІїаІ•аіЌ</language>
+			<language type="cus">аІ•аіЃаІ·аІїаІџаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="cv">аІљаіЃаІµаІѕаІ¶аіЌ</language>
+			<language type="cy">аІµаі†аІІаіЌаІ¶аіЌ</language>
+			<language type="da">аІЎаіЌаІЇаІѕаІЁаІїаІ¶аіЌ</language>
+			<language type="dak">аІЎаІ•аі‹аІџ</language>
+			<language type="dar">аІ¦аІ°аіЌаІ—аіЌаІµаІѕ</language>
+			<language type="day">аІ¦аІѕаІЇаІ•аіЌ</language>
+			<language type="de">аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="de_AT">аІ†аІёаіЌаІџаіЌаІ°аІїаІЇаІЁаіЌ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="de_CH">аІёаіЌаІµаІїаІёаіЌ аІ№аі€ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="del">аІЎаі†аІІаІѕаІµаі‡аІ°аіЌ</language>
+			<language type="den">аІёаіЌаІІаі‡аІµаіЌ</language>
+			<language type="dgr">аІЎаі‹аІ—аіЌаІ°аІїаІ¬аіЌ</language>
+			<language type="din">аІЎаІїаІ‚аІ•аІѕ</language>
+			<language type="doi">аІЎаі‹аІ—аіЌаІ°аІї</language>
+			<language type="dra">аІЎаіЌаІ°аІѕаІµаІїаІЎаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="dsb">аІІаі‹аІµаІ°аіЌ аІёаі‹аІ°аіЌаІ¬аІїаІЇаІЁаіЌ</language>
+			<language type="dua">аІЎаіЃаІµаІѕаІІаІѕ</language>
+			<language type="dum">аІ®аІ§аіЌаІЇ аІЎаІљаіЌ</language>
+			<language type="dv">аІ¦аІїаІµаі†аІ№аІї</language>
+			<language type="dyu">аІЎаіЌаІЇаі‚аІІаІѕ</language>
+			<language type="dz">аІњаі‹аІ‚аІ—аіЌвЂЊаІ–аІѕ</language>
+			<language type="ee">аІЏаІµаіЌ</language>
+			<language type="efi">аІЋаІ«аІїаІ•аіЌ</language>
+			<language type="egy">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ€аІњаІїаІЄаіЌаІџаІїаІЇаІЁаіЌ</language>
+			<language type="eka">аІЋаІ•аІѕаІњаіЃаІ•аіЌ</language>
+			<language type="el">аІ—аіЌаІ°аіЂаІ•аіЌ</language>
+			<language type="elx">аІЋаІІаІѕаІ®аі€аІџаіЌ</language>
+			<language type="en">аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="en_AU">аІ†аІёаіЌаІџаіЌаІ°аі‡аІІаІїаІЇаІЁаіЌ аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="en_CA">аІ•аі†аІЁаі†аІЎаІїаІЇаІЁаіЌ аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="en_GB">аІ¬аіЌаІ°аІїаІџаІїаІ·аіЌ аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="en_US">аІЇаіЃ.аІЋаІёаіЌ. аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="enm">аІ®аІ§аіЌаІЇ аІ‡аІ‚аІ—аіЌаІІаіЂаІ·аіЌ</language>
+			<language type="eo">аІЋаІёаіЌаІЄаі†аІ°аІѕаІ‚аІџаіЉ</language>
+			<language type="es">аІёаіЌаІЄаіЌаІЇаІѕаІЁаІїаІ·аіЌ</language>
+			<language type="es_419">аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ аІ…аІ®аі‡аІ°аІїаІ•аІЁаіЌ аІёаіЌаІЄаіЌаІЇаІѕаІЁаІїаІ¶аіЌ</language>
+			<language type="es_ES">аІђаІ¬аі‡аІ°аІїаІЇаІЁаіЌ аІёаіЌаІЄаіЌаІЇаІѕаІЁаІїаІ¶аіЌ</language>
+			<language type="et">аІЋаІёаіЌаІџаіЉаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="eu">аІ¬аІѕаІёаіЌаІ•аіЌ</language>
+			<language type="ewo">аІ‡аІµаІѕаІ‚аІЎаі‹</language>
+			<language type="fa">аІЄаІ°аіЌаІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="fan">аІ«аі†аІ‚аІ—аіЌ</language>
+			<language type="fat">аІ«аІѕаІ‚аІџаІї</language>
+			<language type="ff">аІ«аіЃаІІаІѕаІ№аіЌ</language>
+			<language type="fi">аІ«аІїаІЁаіЌаІЁаІїаІ¶аіЌ</language>
+			<language type="fil">аІ«аІїаІІаІїаІЄаІїаІЁаіЉ</language>
+			<language type="fiu">аІ«аІїаІЁаіЌаІЁаі‹-аІ‰аІ—аіЌаІ°аІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="fj">аІ«аІїаІњаІїаІЇаІЁаіЌ</language>
+			<language type="fo">аІ«аІ°аі‹аІёаІї</language>
+			<language type="fon">аІ«аі‹аІЁаіЌ</language>
+			<language type="fr">аІ«аіЌаІ°аі†аІ‚аІљаіЌ</language>
+			<language type="fr_CA">аІ•аі†аІЁаі†аІЎаІїаІЇаІЁаіЌ аІ«аіЌаІ°аі†аІ‚аІљаіЌ</language>
+			<language type="fr_CH">аІёаіЌаІµаІїаІёаіЌ аІ«аіЌаІ°аі†аІ‚аІљаіЌ</language>
+			<language type="frm">аІ®аІ§аіЌаІЇ аІ«аіЌаІ°аі†аІ‚аІљаіЌ</language>
+			<language type="fro">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ«аіЌаІ°аі†аІ‚аІљаіЌ</language>
+			<language type="frr">аІ‰аІ¤аіЌаІ¤аІ° аІ«аіЌаІ°аІїаІёаІїаІЇаІЁаіЌ</language>
+			<language type="frs">аІЄаі‚аІ°аіЌаІµ аІ«аіЌаІ°аІїаІёаІїаІЇаІЁаіЌ</language>
+			<language type="fur">аІ«аіЌаІ°аІїаІЇаіЃаІІаІїаІЇаІЁаіЌ</language>
+			<language type="fy">аІЄаІ¶аіЌаІљаІїаІ® аІ«аіЌаІ°аІїаІёаІїаІЇаІЁаіЌ</language>
+			<language type="ga">аІђаІ°аІїаІ·аіЌ</language>
+			<language type="gaa">аІ—аІѕ</language>
+			<language type="gay">аІ—аІѕаІЇаі‹</language>
+			<language type="gba">аІ—аіЌаІ¬аІѕаІЇаІѕ</language>
+			<language type="gd">аІёаіЌаІ•аІѕаІџаІїаІ¶аіЌ аІ—аіЌаІЇаІѕаІІаІїаІ•аіЌ</language>
+			<language type="gem">аІњаІ°аіЌаІ®аІЁаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="gez">аІ—аіЂаІќаіЌ</language>
+			<language type="gil">аІ—аІїаІІаіЌаІ¬аІ°аіЌаІџаіЂаІёаіЌ</language>
+			<language type="gl">аІ—аіЌаІЇаІѕаІІаІїаІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="gmh">аІ®аІ§аіЌаІЇ аІ№аі€ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="gn">аІ—аіЊаІ°аІѕаІЁаІї</language>
+			<language type="goh">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ№аі€ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="gon">аІ—аіЉаІ‚аІЎаІї</language>
+			<language type="gor">аІ—аіЉаІ°аіЉаІ‚аІџаІѕаІІаі‹</language>
+			<language type="got">аІ—аі‹аІҐаІїаІ•аіЌ</language>
+			<language type="grb">аІ—аіЌаІ°аі‡аІ¬аі‹</language>
+			<language type="grc">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ—аіЌаІ°аіЂаІ•аіЌ</language>
+			<language type="gsw">аІёаіЌаІµаІїаІёаіЌ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="gu">аІ—аіЃаІњаІ°аІѕаІ¤аІї</language>
+			<language type="gv">аІ®аіЌаІЇаІѕаІ‚аІ•аіЌаІёаіЌ</language>
+			<language type="gwi">аІ—аіЌаІµаІїаІљаіЌвЂЊаІ‡аІЁаіЌ</language>
+			<language type="ha">аІ№аіЊаІёаІѕ</language>
+			<language type="hai">аІ№аі€аІЎаІѕ</language>
+			<language type="haw">аІ№аІµаІѕаІЇаІїаІЇаІЁаіЌ</language>
+			<language type="he">аІ№аіЂаІ¬аіЌаІ°аіЌаІЇаі‚</language>
+			<language type="hi">аІ№аІїаІ‚аІ¦аІї</language>
+			<language type="hil">аІ№аІїаІІаІїаІ—аі‡аІЁаІЁаіЌ</language>
+			<language type="him">аІ№аІїаІ®аІѕаІљаІІаІї</language>
+			<language type="hit">аІ№аІїаІџаіЌаІџаІїаІџаі†</language>
+			<language type="hmn">аІ®аі‹аІ‚аІ—аіЌ</language>
+			<language type="ho">аІ№аІїаІ°аІї аІ®аіЉаІџаіЃ</language>
+			<language type="hr">аІ•аіЌаІ°аіЉаІЇаі‡аІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="hsb">аІ…аІЄаіЌаІЄаІ°аіЌ аІёаІ°аіЌаІ¬аІїаІЇаІЁаіЌ</language>
+			<language type="ht">аІ№аі€аІ¤аІїаІЇаІЁаіЌ</language>
+			<language type="hu">аІ№аІ‚аІ—аі‡аІ°аІїаІЇаІЁаіЌ</language>
+			<language type="hup">аІ№аі‚аІЄаІѕ</language>
+			<language type="hy">аІ…аІ°аіЌаІ®аі‡аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="hz">аІ№аі†аІ°аі†аІ°аіЉ</language>
+			<language type="ia">аІ‡аІ‚аІџаІ°аіЌаІІаІїаІ‚аІ—аіЃаІµаІѕ</language>
+			<language type="iba">аІ‡аІ¬аІѕаІЁаіЌ</language>
+			<language type="id">аІ‡аІ‚аІЎаі‹аІЁаі‡аІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="ie">аІ‡аІ‚аІџаІ°аіЌаІІаІїаІ‚аІ—аіЌ</language>
+			<language type="ig">аІ‡аІ—аіЌаІ¬аіЉ</language>
+			<language type="ii">аІёаІїаІљаіЃаІ…аІЁаіЌ аІЇаІї</language>
+			<language type="ijo">аІ‡аІњаі‹</language>
+			<language type="ik">аІ‡аІЁаіЃаІЄаІїаІЇаІѕаІ•аіЌ</language>
+			<language type="ilo">аІ‡аІІаіЌаІІаІїаІ•аі‹</language>
+			<language type="inc">аІ­аІѕаІ°аІ¤аіЂаІЇ аІ­аІѕаІ·аі†</language>
+			<language type="ine">аІ‡аІ‚аІЎаі‹-аІЇаі‚аІ°аі‹аІЄаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="inh">аІ‡аІ‚аІ—аіЃаІ·аіЌ</language>
+			<language type="io">аІ‡аІЎаіЉ</language>
+			<language type="ira">аІ‡аІ°аІѕаІЁаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="iro">аІ‡аІ°аі‹аІ•аіЌаІµаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="is">аІђаІёаіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаІїаІ•аіЌ</language>
+			<language type="it">аІ‡аІџаІѕаІІаІїаІЇаІЁаіЌ</language>
+			<language type="iu">аІ‡аІЁаіЃаІ•аіЌаІџаІїаІџаіЃаІџаіЌ</language>
+			<language type="ja">аІњаІЄаІѕаІЁаіЂаІёаіЌ</language>
+			<language type="jbo">аІІаіЉаІњаіЌаІ¬аІѕаІЁаіЌ</language>
+			<language type="jpr">аІњаі‚аІЎаІїаІЇаі‹-аІЄаІ°аіЌаІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="jrb">аІњаі‚аІЎаІїаІЇаі‹-аІ…аІ°аі‡аІ¬аІїаІ•аіЌ</language>
+			<language type="jv">аІњаІµаІѕаІЁаіЂаІёаіЌ</language>
+			<language type="ka">аІњаІѕаІ°аіЌаІњаІїаІЇаІЁаіЌ</language>
+			<language type="kaa">аІ•аІѕаІ°аІѕ-аІ•аІІаіЌаІЄаІѕаІ•аіЌ</language>
+			<language type="kab">аІ•аІ¬аі€аІІаіЌ</language>
+			<language type="kac">аІ•аІљаІїаІЁаіЌ</language>
+			<language type="kaj">аІњаіЌаІњаіЃ</language>
+			<language type="kam">аІ•аІ‚аІ¬аІѕ</language>
+			<language type="kar">аІ•аІ°аі†аІЁаіЌ</language>
+			<language type="kaw">аІ•аІѕаІµаІї</language>
+			<language type="kbd">аІ•аІ¬аІ°аіЌаІЎаІїаІЇаІЁаіЌ</language>
+			<language type="kcg">аІџаіЌаІЇаІѕаІЄаіЌ</language>
+			<language type="kfo">аІ•аі‹аІ°аі‹</language>
+			<language type="kg">аІ•аІѕаІ‚аІ—аі‹</language>
+			<language type="kha">аІ–аІѕаІёаІї</language>
+			<language type="khi">аІ–аі‹аІ‡аІёаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="kho">аІ–аі‹аІџаІѕаІЁаіЂаІёаіЌ</language>
+			<language type="ki">аІ•аІїаІ•аіЃаІЇаіЃ</language>
+			<language type="kj">аІ•аіЌаІµаІѕаІЁаіЌвЂЊаІЇаІѕаІ®аІѕ</language>
+			<language type="kk">аІ•аІќаІ•аіЌ</language>
+			<language type="kl">аІ•аІІаІѕаІІаіЌаІІаІїаІёаіЃаІџаіЌ</language>
+			<language type="km">аІ–аІ®аі‡аІ°аіЌ</language>
+			<language type="kmb">аІ•аІїаІ‚аІ¬аіЃаІ‚аІЎаіЃ</language>
+			<language type="kn">аІ•аІЁаіЌаІЁаІЎ</language>
+			<language type="ko">аІ•аі‹аІ°аІїаІЇаІЁаіЌ</language>
+			<language type="kok">аІ•аіЉаІ‚аІ•аІЈаІї</language>
+			<language type="kos">аІ•аіЉаІёаІ°аІїаІЇаІЁаіЌ</language>
+			<language type="kpe">аІ•аІЄаі†аІІаіЌаІІаі†</language>
+			<language type="kr">аІ•аІЁаіЃаІ°аІї</language>
+			<language type="krc">аІ•аІ°аІљаІЇаіЌ-аІ¬аІІаіЌаІ•аІѕаІ°аіЌ</language>
+			<language type="krl">аІ•аІ°аі‡аІІаІїаІЇаІЁаіЌ</language>
+			<language type="kro">аІ•аіЌаІ°аіЃ</language>
+			<language type="kru">аІ•аіЃаІ°аіЃаІ–аіЌ</language>
+			<language type="ks">аІ•аІѕаІ¶аіЌаІ®аіЂаІ°аІї</language>
+			<language type="ku">аІ•аіЃаІ°аіЌаІ¦аІїаІ·аіЌ</language>
+			<language type="kum">аІ•аіЃаІ®аі€аІ•аіЌ</language>
+			<language type="kut">аІ•аіЃаІџаі‡аІЁаІѕаІЇаіЌ</language>
+			<language type="kv">аІ•аі‹аІ®аІї</language>
+			<language type="kw">аІ•аі‹аІ°аіЌаІЁаІїаІ·аіЌ</language>
+			<language type="ky">аІ•аІїаІ°аіЌаІњаІїаІќаіЌ</language>
+			<language type="la">аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ</language>
+			<language type="lad">аІ•аІѕаІЎаІїаІЁаі‹</language>
+			<language type="lah">аІІаІ№аІ‚аІЎаІѕ</language>
+			<language type="lam">аІІаІ‚аІ¬аІѕ</language>
+			<language type="lb">аІІаІ•аіЌаІёаІ‚аІ¬аІ°аіЌаІ—аіЌ</language>
+			<language type="lez">аІІаі†аІњаіЌаІаІїаІЇаІЁаіЌ</language>
+			<language type="lg">аІ—аІ‚аІЎаІѕ</language>
+			<language type="li">аІІаІїаІ‚аІ¬аІ°аіЌаІ—аІїаІ¶аіЌ</language>
+			<language type="ln">аІІаІїаІ‚аІ—аІѕаІІ</language>
+			<language type="lo">аІІаІѕаІµаі‹</language>
+			<language type="lol">аІ®аіЉаІ‚аІ—аі‹</language>
+			<language type="loz">аІІаі‹аІњаІї</language>
+			<language type="lt">аІІаІїаІҐаіЃаІµаі‡аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="lu">аІІаі‚аІ¬аІѕ-аІ•аІџаІѕаІ‚аІ—аІѕ</language>
+			<language type="lua">аІІаі‚аІ¬аІѕ-аІІаіЃаІІаіЃаІ†</language>
+			<language type="lui">аІІаі‚аІЇаІїаІёаі†аІЁаі‹</language>
+			<language type="lun">аІІаіЃаІ‚аІЎаІѕ</language>
+			<language type="luo">аІІаіЃаІµаі‹</language>
+			<language type="lus">аІІаіЃаІ¶аІѕаІЇаіЌ</language>
+			<language type="lv">аІІаІџаіЌаІµаІїаІЇаІЁаіЌ</language>
+			<language type="mad">аІ®аІ¦аіЃаІ°аіЂаІёаіЌ</language>
+			<language type="mag">аІ®аІ—аІѕаІ№аІї</language>
+			<language type="mai">аІ®аі€аІҐаІїаІІаІї</language>
+			<language type="mak">аІ®аІ•аІѕаІёаІ°аіЌ</language>
+			<language type="man">аІ®аІ‚аІЎаІїаІ‚аІ—аіЉ</language>
+			<language type="map">аІ†аІёаіЌаІџаіЌаІ°аі‹аІЁаі‡аІ·аіЌаІЇаІЁаіЌ</language>
+			<language type="mas">аІ®аІёаІѕаІЇаіЌ</language>
+			<language type="mdf">аІ®аі‹аІ•аіЌаІ·</language>
+			<language type="mdr">аІ®аІ‚аІ¦аІѕаІ°аіЌ</language>
+			<language type="men">аІ®аі†аІ‚аІЎаі†</language>
+			<language type="mg">аІ®аІІаІ—аІѕаІёаІї</language>
+			<language type="mga">аІ®аІ§аіЌаІЇ аІђаІ°аІїаІ·аіЌ</language>
+			<language type="mh">аІ®аІѕаІ°аіЌаІ¶аІІаіЌаІІаіЂаІёаіЌ</language>
+			<language type="mi">аІ®аІѕаІµаі‹аІ°аІї</language>
+			<language type="mic">аІ®аІїаІ•аіЌвЂЊаІ®аіЌаІЇаІѕаІ•аіЌ</language>
+			<language type="min">аІ®аІїаІЁаІ‚аІ—аіЌвЂЊаІ•аІ¬аІѕаІµаіЃ</language>
+			<language type="mis">аІёаІ®аіЌаІ®аІїаІ¶аіЌаІ° аІ­аІѕаІ·аі†</language>
+			<language type="mk">аІ®аі†аІёаІїаІЎаі‹аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="mkh">аІ®аі‹аІЁаіЌ-аІ–аІ®аі‡аІ°аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="ml">аІ®аІІаі†аІЇаІѕаІіаІ‚</language>
+			<language type="mn">аІ®аІ‚аІ—аі‹аІІаІїаІЇаІЁаіЌ</language>
+			<language type="mnc">аІ®аІ‚аІљаіЃ</language>
+			<language type="mni">аІ®аІЈаІїаІЄаіЃаІ°аІї</language>
+			<language type="mno">аІ®аІЁаі‹аІ¬аі‹ аІ­аІѕаІ·аі†</language>
+			<language type="mo">аІ®аІѕаІІаіЌаІЎаіЂаІµаІїаІЇаІЁаіЌ</language>
+			<language type="moh">аІ®аіЉаІ№аІѕаІµаіЌаІ•аіЌ</language>
+			<language type="mos">аІ®аіЉаІёаіЌаІёаІї</language>
+			<language type="mr">аІ®аІ°аІѕаІ аІї</language>
+			<language type="ms">аІ®аІІаІЇ</language>
+			<language type="mt">аІ®аІѕаІІаіЌаІџаіЂаІёаіЌ</language>
+			<language type="mul">аІ¬аІ№аіЃаІёаІ‚аІ–аіЌаІЇаі†аІЇ аІ­аІѕаІ·аі†аІ—аІіаіЃ</language>
+			<language type="mun">аІ®аіЃаІ‚аІЎаІѕ аІ­аІѕаІ·аі†</language>
+			<language type="mus">аІ•аіЌаІ°аіЂаІ•аіЌ</language>
+			<language type="mwl">аІ•аІїаІ°аІѕаІ‚аІЎаіЂаІёаіЌ</language>
+			<language type="mwr">аІ®аІѕаІ°аіЌаІµаІѕаІЎаІї</language>
+			<language type="my">аІ¬аІ°аіЌаІ®аіЂаІёаіЌ</language>
+			<language type="myn">аІ®аІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="myv">аІЋаІ°аіЌвЂЊаІќаіЌаІЇаІѕ</language>
+			<language type="na">аІЁаіЊаІ°аіЃ</language>
+			<language type="nah">аІЁаІ№аіЊаІџаІї</language>
+			<language type="nai">аІ‰аІ¤аіЌаІ¤аІ° аІ…аІ®аі‡аІ°аІїаІ•аІ¦ аІ‡аІ‚аІЎаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="nap">аІЁаІїаІЇаІѕаІЄаіЉаІІаІїаІџаІЁаіЌ</language>
+			<language type="nb">аІЁаі‹аІ°аіЌаІµаі‡аІњаІїаІЇаІЁаіЌ аІ¬аіЉаІ•аіЌаІ®аІІаіЌ</language>
+			<language type="nd">аІ‰аІ¤аіЌаІ¤аІ° аІ¦аі†аІ¬аі†аІІаі†</language>
+			<language type="nds">аІІаі‹ аІњаІ°аіЌаІ®аІЁаіЌ</language>
+			<language type="ne">аІЁаі‡аІЄаІѕаІіаІї</language>
+			<language type="new">аІЁаі‡аІµаІѕаІ°аіЂ</language>
+			<language type="ng">аІЎаі‹аІ‚аІ—аІѕ</language>
+			<language type="nia">аІЁаІїаІЇаІѕаІёаіЌ</language>
+			<language type="nic">аІЁаі€аІ—аІ°аіЌ-аІ•аіЉаІ°аіЌаІЎаіЉаІ«аІЁаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="niu">аІЁаІїаІЇаіЃаІµаІЁаіЌ</language>
+			<language type="nl">аІЎаІљаіЌ</language>
+			<language type="nl_BE">аІ«аіЌаІІаі†аІ®аІїаІ·аіЌ</language>
+			<language type="nn">аІЁаІѕаІ°аіЌаІµаі‡аІњаІїаІЇаІЁаіЌ аІЁаі‚аІЁаІѕаІ°аіЌаІёаіЌаІ•аіЌ</language>
+			<language type="no">аІЁаІѕаІ°аіЌаІµаі‡аІњаІїаІЇаІЁаіЌ</language>
+			<language type="nog">аІЁаіЉаІ—аІѕаІЇаіЌ</language>
+			<language type="non">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІЁаі‹аІ°аіЌаІёаіЌ</language>
+			<language type="nqo">аІЋаІЁаіЌвЂЊаІ•аі‹</language>
+			<language type="nr">аІ¦аІ•аіЌаІ·аІїаІЈ аІ¦аі†аІ¬аі†аІІаі†</language>
+			<language type="nso">аІ‰аІ¤аіЌаІ¤аІ° аІёаі‹аІҐаі‹</language>
+			<language type="nub">аІЁаіЃаІ¬аІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="nv">аІЁаІµаІѕаІњаіЉ</language>
+			<language type="nwc">аІ¶аІѕаІёаіЌаІ¤аіЌаІ°аіЂаІЇ аІЁаі‡аІµаІѕаІ°аІї</language>
+			<language type="ny">аІЁаіЌаІЇаІѕаІ‚аІњаІѕ</language>
+			<language type="nym">аІЁаіЌаІЇаІѕаІ®аіЌвЂЊаІµаі†аІ‚аІњаІї</language>
+			<language type="nyn">аІЁаіЌаІЇаІѕаІЁаіЌвЂЊаІ•аі‹аІІаі†</language>
+			<language type="nyo">аІЁаіЌаІЇаі‹аІ°аі‹</language>
+			<language type="nzi">аІњаіЂаІ®аІѕ</language>
+			<language type="oc">аІ†аІ•аіЌаІёаІїаІџаІѕаІЁаіЌ</language>
+			<language type="oj">аІ’аІњаІїаІ¬аіЌаІµаІѕ</language>
+			<language type="om">аІ’аІ°аіЉаІ®аіЉ</language>
+			<language type="or">аІ“аІ°аІїаІЇаІѕ</language>
+			<language type="os">аІ’аІёаіЌаІёаі†аІџаІїаІ•аіЌ</language>
+			<language type="osa">аІ“аІёаІѕаІњаіЌ</language>
+			<language type="ota">аІ’аІџаіЌаІџаі‹аІ®аІЁаіЌ аІ¤аіЃаІ°аіЌаІ•аІїаІ·аіЌ</language>
+			<language type="oto">аІ’аІџаіЌаІџаі‹аІ®аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="pa">аІЄаІ‚аІњаІѕаІ¬аІї</language>
+			<language type="paa">аІЄаІЄаіЃаІµаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="pag">аІЄаІ‚аІ—аІѕаІёаІїаІЁаІЁаіЌ</language>
+			<language type="pal">аІЄаІ№аіЌаІІаІµаІї</language>
+			<language type="pam">аІЄаІ‚аІЄаІѕаІ‚аІ—аІѕ</language>
+			<language type="pap">аІЄаІѕаІЄаІїаІЇаІ®аі†аІ‚аІџаі‹</language>
+			<language type="pau">аІЄаІІаіЃаІ†аІЁаіЌ</language>
+			<language type="peo">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІЄаІ°аіЌаІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="phi">аІ«аІїаІІаІїаІ«аі€аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="phn">аІ«аіЂаІЁаІїаІ·аІїаІЇаІЁаіЌ</language>
+			<language type="pi">аІЄаІѕаІІаІї</language>
+			<language type="pl">аІЄаі‹аІІаІїаІ¶аіЌ</language>
+			<language type="pon">аІЄаі‹аІЁаіЌвЂЊвЂЊаІЄаІїаІЇаІЁаіЌ</language>
+			<language type="pra">аІЄаіЌаІ°аІѕаІ•аіѓаІ¤аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="pro">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІЄаіЌаІ°аіЉаІµаі†аІЁаіЌаІ¶аІїаІЇаІІаіЌ</language>
+			<language type="ps">аІЄаІѕаІ·аіЌаІџаі‹</language>
+			<language type="pt">аІЄаі‹аІ°аіЌаІљаіЃаІ—аіЂаІёаіЌ</language>
+			<language type="pt_BR">аІ¬аіЌаІ°аі†аІњаІїаІІаІїаІЇаІЁаіЌ аІЄаі‹аІ°аіЌаІљаіЃаІ—аіЂаІёаіЌ</language>
+			<language type="pt_PT">аІђаІ¬аіЂаІ°аІїаІЇаІЁаіЌ аІЄаі‹аІ°аіЌаІљаіЃаІ—аіЂаІёаіЌ</language>
+			<language type="qu">аІ•аіЌаІµаі†аІљаіЃаІµаІѕ</language>
+			<language type="raj">аІ°аІѕаІњаІѕаІёаіЌаІҐаІѕаІЁаІї</language>
+			<language type="rap">аІ°аІѕаІЄаІѕаІЁаіЃаІЇаІї</language>
+			<language type="rar">аІ°аІѕаІ°аі‹аІџаіЉаІ‚аІ—аІЁаіЌ</language>
+			<language type="rm">аІ°аІ№аі‡аІџаі‹-аІ°аі‹аІ®аіЌаІЇаІѕаІЁаіЌаІёаіЌ</language>
+			<language type="rn">аІ°аіЃаІ‚аІЎаІї</language>
+			<language type="ro">аІ°аіЉаІ®аіЌаІЇаІѕаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="roa">аІ°аі‹аІ®аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="rom">аІ°аі‹аІ®аІѕаІЁаІї</language>
+			<language type="root">аІ°аі‚аІџаіЌ</language>
+			<language type="ru">аІ°аІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="rup">аІ…аІ°аі‹аІ®аІѕаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="rw">аІ•аіЂаІЁаіЌаІЇаІѕаІ°аіЃаІµаІѕаІ‚аІЎаІѕ</language>
+			<language type="sa">аІёаІ‚аІёаіЌаІ•аіѓаІ¤</language>
+			<language type="sad">аІёаІ‚аІЎаІѕаІµаі‡</language>
+			<language type="sah">аІЇаІѕаІ•аіЃаІџаіЌ</language>
+			<language type="sai">аІ¦аІ•аіЌаІ·аІїаІЈ аІ…аІ®аі‡аІ°аІїаІ•аІ¦ аІ‡аІ‚аІЎаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sal">аІёаІІаІїаІ·аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sam">аІёаІ®аІ°аІїаІџаІЁаіЌ аІ…аІ°аІѕаІ®аІїаІ•аіЌ</language>
+			<language type="sas">аІёаІёаІѕаІ•аіЌ</language>
+			<language type="sat">аІёаІ‚аІ¤аІѕаІІаІї</language>
+			<language type="sc">аІёаІ°аіЌаІЎаіЂаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="scn">аІёаІїаІёаІїаІІаІїаІЇаІЁаіЌ</language>
+			<language type="sco">аІёаіЌаІ•аі‹аІџаіЌаІёаіЌ</language>
+			<language type="sd">аІёаІїаІ‚аІ§аІї</language>
+			<language type="se">аІ‰аІ¤аіЌаІ¤аІ° аІёаІѕаІ®аІї</language>
+			<language type="sel">аІёаі†аІІаіЌаІ•аІЄаіЌ</language>
+			<language type="sem">аІёаі†аІ®аІїаІџаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sg">аІёаІѕаІ‚аІ—аі‹</language>
+			<language type="sga">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІђаІ°аІїаІ·аіЌ</language>
+			<language type="sgn">аІёаІ‚аІњаіЌаІћаІѕ аІ­аІѕаІ·аі†</language>
+			<language type="sh">аІёаІ°аіЌаІ¬аі‹-аІ•аіЌаІ°аіЉаІЇаі‡аІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="shn">аІ¶аІѕаІЁаіЌ</language>
+			<language type="si">аІёаІїаІ‚аІ№аІі</language>
+			<language type="sid">аІёаІїаІЎаІѕаІ®аі‹</language>
+			<language type="sio">аІёаІїаІµаіЃаІ…аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sit">аІёаі€аІЁаі‹-аІџаІїаІ¬аі‡аІџаІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sk">аІёаіЌаІІаі‹аІµаІѕаІ•аіЌ</language>
+			<language type="sl">аІёаіЌаІІаі‹аІµаі‡аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="sla">аІёаіЌаІІаІѕаІµаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="sm">аІёаІ®аі‹аІµаІЁаіЌ</language>
+			<language type="sma">аІ¦аІ•аіЌаІ·аІїаІЈ аІёаІѕаІ®аІї</language>
+			<language type="smi">аІёаІѕаІ®аІї аІ­аІѕаІ·аі†</language>
+			<language type="smj">аІІаі‚аІІаіЌ аІёаІѕаІ®аІї</language>
+			<language type="smn">аІ‡аІЁаІ°аІї аІёаІѕаІ®аІї</language>
+			<language type="sms">аІёаіЌаІ•аі‹аІџаіЌ аІёаІѕаІ®аІї</language>
+			<language type="sn">аІ¶аі‹аІЁаІѕ</language>
+			<language type="snk">аІёаі‹аІЁаІїаІ‚аІ•аі†</language>
+			<language type="so">аІёаі‹аІ®аІѕаІІаІї</language>
+			<language type="sog">аІёаі‹аІ—аіЌаІЎаІїаІЏаІЁаіЌ</language>
+			<language type="son">аІёаі‹аІ‚аІаІѕаІЇаіЌ</language>
+			<language type="sq">аІ…аІІаіЌаІ¬аі‡аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="sr">аІёаІ°аіЌаІ¬аІїаІЇаІЁаіЌ</language>
+			<language type="srn">аІёаіЌаІ°аІѕаІЁаІЁаіЌ аІџаі‹аІ‚аІ—аі‹</language>
+			<language type="srr">аІёаі‡аІ°аі‡аІ°аіЌ</language>
+			<language type="ss">аІёаіЌаІµаІѕаІ¤аІї</language>
+			<language type="ssa">аІЁаІїаІІаі‹-аІёаІ№аІѕаІ°аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="st">аІ¦аІ•аіЌаІ·аІїаІЈ аІёаі‹аІҐаі‹</language>
+			<language type="su">аІёаіЃаІ‚аІЎаІѕаІЁаіЂаІёаіЌ</language>
+			<language type="suk">аІёаіЃаІ•аіЃаІ®аІѕ</language>
+			<language type="sus">аІёаіЃаІёаіЃ</language>
+			<language type="sux">аІёаіЃаІ®аі‡аІ°аІїаІЇаІЁаіЌ</language>
+			<language type="sv">аІёаіЌаІµаіЂаІЎаІїаІ·аіЌ</language>
+			<language type="sw">аІёаіЌаІµаІ№аІїаІІаІї</language>
+			<language type="syc">аІ¶аІѕаІёаіЌаІ¤аіЌаІ°аіЂаІЇ аІёаІїаІ°аІїаІЇаІ•аіЌ</language>
+			<language type="syr">аІёаІїаІ°аІїаІЇаІ•аіЌ</language>
+			<language type="ta">аІ¤аІ®аІїаІіаіЃ</language>
+			<language type="tai">аІҐаІѕаІЇаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="te">аІ¤аі†аІІаіЃаІ—аіЃ</language>
+			<language type="tem">аІџаІїаІ®аіЌаІЁаі†</language>
+			<language type="ter">аІџаі†аІ°аі†аІЁаі‹</language>
+			<language type="tet">аІџаі‡аІџаІ®аіЌ</language>
+			<language type="tg">аІ¤аІѕаІњаІїаІ•аіЌ</language>
+			<language type="th">аІҐаІѕаІЇаІї</language>
+			<language type="ti">аІџаі€аІ—аіЌаІ°аІїаІЁаіЌаІЇаІѕ</language>
+			<language type="tig">аІџаі€аІ—аіЌаІ°аі†</language>
+			<language type="tiv">аІџаІїаІµаіЌ</language>
+			<language type="tk">аІџаІ°аіЌаІ•аіЌвЂЊаІ®аі†аІЁаіЌ</language>
+			<language type="tkl">аІџаіЉаІ•аі†аІІаІѕаІµаіЌ</language>
+			<language type="tl">аІџаіЌаІЇаІѕаІ—аІІаі‹аІ—аіЌ</language>
+			<language type="tlh">аІ•аіЌаІІаІїаІ‚аІ—аі‹аІЁаіЌ</language>
+			<language type="tli">аІџаіЌаІІаІїаІ‚аІ—аІїаІџаіЌ</language>
+			<language type="tmh">аІџаІ®аІѕаІ·аі†аІ•аіЌ</language>
+			<language type="tn">аІёаіЌаІµаІѕаІЁаІѕ</language>
+			<language type="to">аІџаіЉаІ‚аІ—аІѕ</language>
+			<language type="tog">аІЁаіЌаІЇаІѕаІёаІѕ аІџаі‹аІ‚аІ—аІѕ</language>
+			<language type="tpi">аІџаі‹аІ•аіЌ аІЄаІїаІёаІїаІЁаіЌ</language>
+			<language type="tr">аІџаІ°аіЌаІ•аІїаІ¶аіЌ</language>
+			<language type="ts">аІёаі‹аІ‚аІ—аІѕ</language>
+			<language type="tsi">аІёаІїаІ‚аІ¶аІїаІЇаІЁаіЌ</language>
+			<language type="tt">аІџаІѕаІџаІ°аіЌ</language>
+			<language type="tum">аІџаіЃаІ‚аІ¬аіЃаІ•</language>
+			<language type="tup">аІџаі‚аІЄаІї аІ­аІѕаІ·аі†</language>
+			<language type="tut">аІ†аІІаіЌаІџаІѕаІЇаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="tvl">аІџаіЃаІµаІѕаІІаіЃ</language>
+			<language type="tw">аІџаіЌаІµаІї</language>
+			<language type="ty">аІ¤аІ№аІїаІ¤аІїаІЇаІЁаіЌ</language>
+			<language type="tyv">аІџаіЃаІµаІїаІЁаІїаІЇаІЁаіЌ</language>
+			<language type="udm">аІ‰аІЎаіЌвЂЊаІ®аіЃаІ°аіЌаІџаіЌ</language>
+			<language type="ug">аІ‰аІЇаІїаІаІ°аіЌ</language>
+			<language type="uga">аІ‰аІ—аІѕаІ°аІїаІџаІїаІ•аіЌ</language>
+			<language type="uk">аІ‰аІ•аіЌаІ°аі€аІЁаІїаІЇаІЁаіЌ</language>
+			<language type="umb">аІ‰аІ‚аІ¬аіЃаІ‚аІЎаіЃ</language>
+			<language type="und">аІ…аІЄаІ°аІїаІљаІїаІ¤ аІ…аІҐаІµаІѕ аІ…аІ®аІѕаІЁаіЌаІЇ аІ­аІѕаІ·аі†</language>
+			<language type="ur">аІ‰аІ°аіЌаІ¦аіЃ</language>
+			<language type="uz">аІ‰аІњаіЌаІ¬аі‡аІ•аіЌ</language>
+			<language type="vai">аІµаІѕаІЇаІї</language>
+			<language type="ve">аІµаі†аІ‚аІЎаІѕ</language>
+			<language type="vi">аІµаІїаІЇаі‡аІџаіЌаІЁаІѕаІ®аіЂаІёаіЌ</language>
+			<language type="vo">аІµаі‹аІІаІѕаІЄаіЃаІ•аіЌ</language>
+			<language type="vot">аІµаі‹аІџаІїаІ•аіЌ</language>
+			<language type="wa">аІµаІѕаІІаі‚аІЁаіЌ</language>
+			<language type="wak">аІµаІѕаІ•аІѕаІ·аІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="wal">аІµаІІаІѕаІ®аі‹</language>
+			<language type="war">аІµаІ°аІѕаІЇаіЌ</language>
+			<language type="was">аІµаІѕаІ·аі‹</language>
+			<language type="wen">аІёаі‹аІ°аіЌаІ¬аІїаІЇаІЁаіЌ аІ­аІѕаІ·аі†</language>
+			<language type="wo">аІµаі‹аІІаі‹аІ«аіЌ</language>
+			<language type="xal">аІ•аІІаіЌвЂЊаІ®аі€аІ•аіЌ</language>
+			<language type="xh">аІ·аі‹аІёаІѕ</language>
+			<language type="yao">аІЇаІѕаІ“</language>
+			<language type="yap">аІЇаІЄаіЂаІёаі†</language>
+			<language type="yi">аІЇаІїаІЎаіЌаІЎаІїаІ·аіЌ</language>
+			<language type="yo">аІЇаіЉаІ°аіЃаІ¬аІѕ</language>
+			<language type="ypk">аІЇаі‚аІЄаІїаІ•аіЌ аІ­аІѕаІ·аі†</language>
+			<language type="za">аІќаі‚аІµаІѕаІ‚аІ—аіЌ</language>
+			<language type="zap">аІќаі‹аІЄаіЉаІџаі†аІ•аіЌ</language>
+			<language type="zbl">аІ¬аіЌаІІаІїаІёаіЌвЂЊаІёаІїаІ‚аІ¬аІІаіЌаІёаіЌ</language>
+			<language type="zen">аІќаі†аІЁаІѕаІ—аІѕ</language>
+			<language type="zh">аІљаі€аІЁаіЂаІёаіЌ</language>
+			<language type="zh_Hans">аІёаІїаІ‚аІЄаіЌаІІаІїаІ«аі€аІЎаіЌ аІљаі€аІЁаіЂаІёаіЌ</language>
+			<language type="zh_Hant">аІџаіЌаІ°аі†аІЎаіЂаІ¶аІЁаІІаіЌ аІљаі€аІЁаіЂаІёаіЌ</language>
+			<language type="znd">аІќаІ‚аІЎаі‡</language>
+			<language type="zu">аІњаіЃаІІаіЃ</language>
+			<language type="zun">аІќаі‚аІЁаІї</language>
+			<language type="zxx">аІЇаІѕаІµаіЃаІ¦аі‡ аІ­аІѕаІ·аІѕаІёаІ‚аІ¬аІ‚аІ§аІї аІµаІїаІ·аІЇаІµаІїаІІаіЌаІІ</language>
+			<language type="zza">аІњаІѕаІќаІѕ</language>
+		</languages>
+		<scripts>
+			<script type="Arab">аІ…аІ°аі‡аІ¬аІїаІ•аіЌ</script>
+			<script type="Armi">аІ‡аІ‚аІЄаіЂаІ°аІїаІЇаІІаіЌ аІ…аІ°аі†аІ®аІѕаІЇаІїаІ•аіЌ</script>
+			<script type="Armn">аІ…аІ°аіЌаІ®аі‡аІЁаІїаІЇаІЁаіЌ</script>
+			<script type="Avst">аІ…аІµаі†аІёаіЌаІ¤аІѕаІЁаіЌ</script>
+			<script type="Bali">аІ¬аІѕаІІаІїаІЁаіЂаІёаіЌ</script>
+			<script type="Batk">аІ¬аІѕаІџаІ•аіЌ</script>
+			<script type="Beng">аІ¬аі†аІ‚аІ—аІѕаІІаІї</script>
+			<script type="Blis">аІ¬аіЌаІІаІїаІёаіЌвЂЊаІёаІїаІ‚аІ¬аІІаіЌаІёаіЌ</script>
+			<script type="Bopo">аІ¬аі‹аІЄаіЉаІ®аі‹аІ«аі‹</script>
+			<script type="Brah">аІ¬аіЌаІ°аІѕаІ№аіЌаІ®аІї</script>
+			<script type="Brai">аІ¬аіЌаІ°аі€аІІаіЌ</script>
+			<script type="Bugi">аІ¬аІ—аІїаІЁаіЂаІёаіЌ</script>
+			<script type="Buhd">аІ¬аіЃаІ№аІїаІ¦аіЌ</script>
+			<script type="Cakm">аІ•аІѕаІ•аІ‚</script>
+			<script type="Cans">аІЇаіЃаІЁаІїаІџаі†аІЎаіЌ аІ•аі†аІЁаі†аІЎаІїаІЇаІЁаіЌ аІ…аІ¬аіЉаІ°аІїаІњаІїаІЁаІІаіЌ аІёаІїаІІаіЌаІЇаІѕаІ¬аІїаІ•аіЌаІёаіЌ</script>
+			<script type="Cari">аІ•аІ°аі‡аІЁаіЌ</script>
+			<script type="Cham">аІљаІѕаІ®аіЌ</script>
+			<script type="Cher">аІљаі†аІ°аі‹аІ•аіЂ</script>
+			<script type="Cirt">аІёаІїаІ°аіЌаІҐаіЌ</script>
+			<script type="Copt">аІ•аІѕаІЄаіЌаІџаІїаІ•аіЌ</script>
+			<script type="Cprt">аІёаІїаІЄаіЌаІ°аІїаІЇаІѕаІџаіЌ</script>
+			<script type="Cyrl">аІёаІїаІ°аІїаІІаІїаІ•аіЌ</script>
+			<script type="Cyrs">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІљаІ°аіЌаІљаіЌ аІёаіЌаІІаі‹аІµаІѕаІЁаІїаІ•аіЌ аІёаІїаІ°аІїаІІаІїаІ•аіЌ</script>
+			<script type="Deva">аІ¦аі‡аІµаІЁаІѕаІ—аІ°аІї</script>
+			<script type="Dsrt">аІЎаІёаІ°аіЌаІџаіЌ</script>
+			<script type="Egyd">аІ€аІњаІїаІЄаіЌаІџаІїаІЇаІЁаіЌ аІЎаі†аІ®аі‹аІџаІїаІ•аіЌ</script>
+			<script type="Egyh">аІ€аІњаІїаІЄаіЌаІџаІїаІЇаІЁаіЌ аІ№аІЇаІѕаІ°аІїаІџаІїаІ•аіЌ</script>
+			<script type="Egyp">аІ€аІњаІїаІЄаіЌаІџаІїаІЇаІЁаіЌ аІ№аіЂаІ°аі‹аІ—аіЌаІІаІїаІ«аіЌаІёаіЌ</script>
+			<script type="Ethi">аІ‡аІҐаІїаІЇаі‹аІЄаІїаІЇаІѕ</script>
+			<script type="Geok">аІњаІѕаІ°аіЌаІњаІїаІЇаІЁаіЌ аІ–аіЃаІёаіЌаІ¤аіЃаІ°аІї</script>
+			<script type="Geor">аІњаІѕаІ°аіЌаІњаІїаІЇаІЁаіЌ</script>
+			<script type="Glag">аІ—аіЌаІІаІѕаІ—аі‹аІІаІїаІџаІїаІ•аіЌ</script>
+			<script type="Goth">аІ—аі‹аІ¤аІїаІ•аіЌ</script>
+			<script type="Grek">аІ—аіЌаІ°аіЂаІ•аіЌ</script>
+			<script type="Gujr">аІ—аіЃаІњаІ°аІѕаІ¤аІї</script>
+			<script type="Guru">аІ—аіЃаІ°аіЃаІ®аіЃаІ–аІї</script>
+			<script type="Hang">аІ№аіЌаІЇаІѕаІ‚аІ—аІІаіЌ</script>
+			<script type="Hani">аІ№аІѕаІЁаіЌ</script>
+			<script type="Hano">аІ№аІЁаі‚аІЁаі‚</script>
+			<script type="Hans">аІёаІ°аІіаіЂаІ•аіѓаІ¤ аІ№аІѕаІЁаіЌ</script>
+			<script type="Hant">аІёаІѕаІ‚аІЄаіЌаІ°аІ¦аІѕаІЇаІїаІ• аІ№аІѕаІЁаіЌ</script>
+			<script type="Hebr">аІ№аіЂаІ¬аіЌаІ°аі‚</script>
+			<script type="Hira">аІ№аІїаІ°аІ—аІѕаІЁаІѕ</script>
+			<script type="Hmng">аІЄаІ№аІµаіЌ аІ№аіЌаІ®аі‹аІ‚аІ—аіЌ</script>
+			<script type="Hrkt">аІ•аІџаІ•аІѕаІЁаІѕ аІ…аІҐаІµаІѕ аІ№аІїаІ°аІ—аІѕаІЁаІѕ</script>
+			<script type="Hung">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІ№аІ‚аІ—аі‡аІ°аІїаІЇаІЁаіЌ</script>
+			<script type="Inds">аІёаІїаІ‚аІ§аі‚</script>
+			<script type="Ital">аІЄаіЌаІ°аІѕаІљаіЂаІЁаіЌ аІ‡аІџаІѕаІІаІїаІ•аіЌ</script>
+			<script type="Java">аІњаІѕаІµаІЁаіЂаІёаіЌ</script>
+			<script type="Jpan">аІњаІѕаІЄаІЁаіЂаІёаіЌ</script>
+			<script type="Kali">аІ•аі†аІЇаІѕ аІІаІї</script>
+			<script type="Kana">аІ•аІџаІ•аІѕаІЁаІѕ</script>
+			<script type="Khar">аІ–аІ°аі‹аІ¶аіЌаІ¤аІї</script>
+			<script type="Khmr">аІ–аІ®аі‡аІ°аіЌ</script>
+			<script type="Knda">аІ•аІЁаіЌаІЁаІЎ</script>
+			<script type="Kore">аІ•аіЉаІ°аІїаІЇаІЁаіЌ</script>
+			<script type="Kthi">аІ•аі€аІҐаІї</script>
+			<script type="Lana">аІІаІѕаІЁаІѕ</script>
+			<script type="Laoo">аІІаІѕаІµаі‹</script>
+			<script type="Latf">аІ«аіЌаІ°аІѕаІ•аіЌаІ¤аІ°аіЌ аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ</script>
+			<script type="Latg">аІ—аі‡аІІаІїаІ•аіЌ аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ</script>
+			<script type="Latn">аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ</script>
+			<script type="Lepc">аІІаі†аІЄаіЌаІљаІѕ</script>
+			<script type="Limb">аІІаІїаІ‚аІ¬аіЃ</script>
+			<script type="Lina">аІІаіЂаІЁаІЇаІ°аіЌ аІЋ</script>
+			<script type="Linb">аІІаіЂаІЁаІЇаІ°аіЌ аІ¬аІї</script>
+			<script type="Lyci">аІІаі€аІёаІїаІЇаІЁаіЌ</script>
+			<script type="Lydi">аІІаІїаІЎаІїаІЇаІЁаіЌ</script>
+			<script type="Mand">аІ®аІ‚аІЎаі‡аІЇаІЁаіЌ</script>
+			<script type="Mani">аІ®аІЁаІїаІљаі€аІЇаІЁаіЌ</script>
+			<script type="Maya">аІ®аІЇаІѕаІЁаіЌ аІ№аіЂаІ°аі‹аІ—аіЌаІІаІїаІ«аіЌаІёаіЌ</script>
+			<script type="Mero">аІ®аі†аІ°аіЉаІЇаІїаІџаІїаІ•аіЌ</script>
+			<script type="Mlym">аІ®аІІаі†аІЇаІѕаІіаІ‚</script>
+			<script type="Mong">аІ®аІ‚аІ—аі‹аІІаІїаІЇаІЁаіЌ</script>
+			<script type="Moon">аІ®аі‚аІЁаіЌ</script>
+			<script type="Mtei">аІ®аі€аІ¤аІї аІ®аІЇаі†аІ•аіЌ</script>
+			<script type="Mymr">аІ®аіЌаІЇаІѕаІЁаіЌаІ®аІѕаІ°аіЌ</script>
+			<script type="Nkoo">аІЋаІЁаіЌвЂЌаІ•аі‹</script>
+			<script type="Ogam">аІ“аІаІ®аіЌ</script>
+			<script type="Olck">аІ“аІІаіЌ аІљаІїаІ•аІї</script>
+			<script type="Orkh">аІ“аІ°аіЌаІ–аі‹аІЁаіЌ</script>
+			<script type="Orya">аІ“аІ°аІїаІЇаІѕ</script>
+			<script type="Osma">аІ“аІёаіЌаІ®аІѕаІЁаіЌаІЇаІѕ</script>
+			<script type="Perm">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІЄаі†аІ°аіЌаІ®аІїаІ•аіЌ</script>
+			<script type="Phag">аІ«аІѕаІ—аіЌаІёаіЌ-аІЄаІѕ</script>
+			<script type="Phli">аІ‡аІЁаіЌаІёаіЌвЂЊаІ•аіЌаІ°аІїаІЄаіЌаІ¶аІЁаІІаіЌ аІЄаІѕаІ№аіЌаІІаІµаІї</script>
+			<script type="Phlp">аІёаІѕаІІаіЌаІџаІ°аіЌ аІЄаІѕаІ№аіЌаІІаІµаІї</script>
+			<script type="Phlv">аІ¬аіЃаІ•аіЌ аІЄаІѕаІ№аіЌаІІаІµаІї</script>
+			<script type="Phnx">аІ«аіЂаІЁаІїаІ¶аІїаІЇаІЁаіЌ</script>
+			<script type="Plrd">аІЄаіЉаІІаіЌаІІаІѕаІ°аіЌаІЎаіЌ аІ«аіЉаІЁаі†аІџаІїаІ•аіЌ</script>
+			<script type="Prti">аІ‡аІЁаіЌаІёаіЌвЂЊаІ•аіЌаІ°аІїаІЄаіЌаІ¶аІЁаІІаіЌ аІЄаІѕаІ°аіЌаІҐаІїаІЇаІЁаіЌ</script>
+			<script type="Qaai">аІ‡аІЁаіЌвЂЌаІ№аі†аІ°аІїаІџаі†аІЎаіЌ</script>
+			<script type="Rjng">аІ°аі†аІњаІѕаІ‚аІ—аіЌ</script>
+			<script type="Roro">аІ°аі‹аІ‚аІ—аі‹аІ°аі‹аІ‚аІ—аі‹</script>
+			<script type="Runr">аІ°аі‚аІЁаІїаІ•аіЌ</script>
+			<script type="Samr">аІёаІ®аІѕаІ°аІїаІџаІЁаіЌ</script>
+			<script type="Sara">аІёаІ°аІѕаІџаІї</script>
+			<script type="Saur">аІёаіЊаІ°аІѕаІ·аіЌаІџаіЌаІ°</script>
+			<script type="Sgnw">аІёаі€аІЁаіЌвЂЊаІ°аі€аІџаІїаІ‚аІ—аіЌ</script>
+			<script type="Shaw">аІ¶аІѕаІµаІїаІЇаІѕаІЁаіЌ</script>
+			<script type="Sinh">аІёаІїаІ‚аІ№аІі</script>
+			<script type="Sund">аІёаіЃаІ‚аІЎаІѕаІЁаіЂаІёаіЌ</script>
+			<script type="Sylo">аІёаі€аІІаі‹аІџаІї аІЁаІ—аіЌаІ°аІї</script>
+			<script type="Syrc">аІёаІїаІ°аІїаІЇаІѕаІ•аіЌ</script>
+			<script type="Syre">аІЋаІёаіЌаІџаіЌаІ°аІѕаІ‚аІњаІїаІІаі‹ аІёаІїаІ°аІїаІЇаІѕаІ•аіЌ</script>
+			<script type="Syrj">аІЄаІ¶аіЌаІљаІїаІ® аІёаІїаІ°аІїаІЇаІѕаІ•аіЌ</script>
+			<script type="Syrn">аІЄаі‚аІ°аіЌаІµ аІёаІїаІ°аІїаІЇаІѕаІ•аіЌ</script>
+			<script type="Tagb">аІџаІѕаІ—аіЌаІ¬аІѕаІЁаІµаІѕ</script>
+			<script type="Tale">аІҐаІѕаІЇаіЌ аІІаІї</script>
+			<script type="Talu">аІЁаіЌаІЇаі‚ аІҐаІѕаІЇаіЌ аІІаіЃаІ‡</script>
+			<script type="Taml">аІ¤аІ®аІїаІіаіЃ</script>
+			<script type="Tavt">аІҐаІѕаІЇаіЌ аІµаІїаІЇаі†аІџаіЌ</script>
+			<script type="Telu">аІ¤аі†аІІаіЃаІ—аіЃ</script>
+			<script type="Teng">аІ¤аі†аІ‚аІ—аіЌвЂЊаІµаІѕаІ°аіЌ</script>
+			<script type="Tfng">аІџаІїаІ«аІїаІЁаІѕаІаіЌ</script>
+			<script type="Tglg">аІџаіЌаІЇаІѕаІ—аІІаі‹аІ—аіЌ</script>
+			<script type="Thaa">аІҐаІѕаІЁаІѕ</script>
+			<script type="Thai">аІҐаІѕаІЇаіЌ</script>
+			<script type="Tibt">аІџаІїаІ¬аі‡аІџаІЁаіЌ</script>
+			<script type="Ugar">аІ‰аІ—аІѕаІ°аІїаІџаІїаІ•аіЌ</script>
+			<script type="Vaii">аІµаІѕаІЇаіЌ</script>
+			<script type="Visp">аІµаІїаІёаІїаІ¬аІІаіЌ аІёаіЌаІЄаіЂаІљаіЌ</script>
+			<script type="Xpeo">аІЄаіЌаІ°аІѕаІљаіЂаІЁ аІЄаІ°аіЌаІ¶аІїаІЇаІЁаіЌ</script>
+			<script type="Xsux">аІёаіЃаІ®аі‡аІ°аі‹-аІ…аІ•аіЌаІ•аІѕаІЎаІїаІЇаІЁаіЌ аІ•аіЌаІЇаі‚аІЁаІїаІ«аІѕаІ°аіЌаІ®аіЌ</script>
+			<script type="Yiii">аІЇаІї</script>
+			<script type="Zmth">аІ—аІЈаіЂаІ¤ аІёаІ‚аІ•аі‡аІ¤аІІаІїаІЄаІї</script>
+			<script type="Zsym">аІёаІ‚аІ•аі‡аІ¤аІ—аІіаіЃ</script>
+			<script type="Zxxx">аІ…аІІаІїаІ–аІїаІ¤</script>
+			<script type="Zyyy">аІёаІѕаІ®аІѕаІЁаіЌаІЇ</script>
+			<script type="Zzzz">аІ…аІњаіЌаІћаІѕаІ¤ аІ…аІҐаІµ аІ…аІ®аІѕаІЁаіЌаІЇаІµаІѕаІ¦ аІІаІїаІЄаІї</script>
+		</scripts>
+		<territories>
+			<territory type="001">аІµаІїаІ¶аіЌаІµ</territory>
+			<territory type="002">аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="003">аІ‰аІ¤аіЌаІ¤аІ° аІ…аІ®аі‡аІ°аІїаІ•аІѕ</territory>
+			<territory type="005">аІ¦аІ•аіЌаІ·аІїаІЈ аІ…аІ®аі‡аІ°аІїаІ•аІѕ</territory>
+			<territory type="009">аІ“аІ¶аІїаІЇаІѕаІЁаІѕ</territory>
+			<territory type="011">аІЄаІ¶аіЌаІљаІїаІ® аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="013">аІ®аІ§аіЌаІЇ аІ…аІ®аі‡аІ°аІїаІ•аІѕ</territory>
+			<territory type="014">аІЄаі‚аІ°аіЌаІµ аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="015">аІ‰аІ¤аіЌаІ¤аІ° аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="017">аІ®аІ§аіЌаІЇ аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="018">аІ†аІ«аіЌаІ°аІїаІ•аІѕаІ¦ аІ¦аІ•аіЌаІ·аІїаІЈ аІ­аІѕаІ—</territory>
+			<territory type="019">аІ…аІ®аі†аІ°аІїаІ•аІѕаІёаіЌ</territory>
+			<territory type="021">аІ…аІ®аі‡аІ°аІїаІ•аІѕаІ¦ аІ‰аІ¤аіЌаІ¤аІ° аІ­аІѕаІ—</territory>
+			<territory type="029">аІ•аі†аІ°аі‡аІ¬аІїаІЇаІЁаіЌ</territory>
+			<territory type="030">аІЏаІ·аіЌаІЇаІѕаІ¦ аІЄаі‚аІ°аіЌаІµ аІ­аІѕаІ—</territory>
+			<territory type="034">аІЏаІ·аіЌаІЇаІѕаІ¦ аІ¦аІ•аіЌаІ·аІїаІЈ аІ­аІѕаІ—</territory>
+			<territory type="035">аІ†аІ—аіЌаІЁаі‡аІЇ аІЏаІ·аіЌаІЇаІѕ</territory>
+			<territory type="039">аІ¦аІ•аіЌаІ·аІїаІЈ аІЇаі‚аІ°аі‹аІЄаіЌ</territory>
+			<territory type="053">аІ†аІёаіЌаІџаіЌаІ°аі‡аІІаІїаІЇаІѕ аІ№аІѕаІ—аі‚ аІЁаіЌаІЇаі‚аІќаІїаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="054">аІ®аі‡аІІаІїаІЁаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="057">аІ®аі€аІ•аіЌаІ°аі‹аІЁаі‡аІ¶аІїаІЇаІЁаіЌ аІЄаіЌаІ°аІ¦аі‡аІ¶</territory>
+			<territory type="061">аІЄаі‹аІІаІїаІЁаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="062">аІ¦аІ•аіЌаІ·аІїаІЈ-аІ®аІ§аіЌаІЇ аІЏаІ·аіЌаІЇаІѕ</territory>
+			<territory type="142">аІЏаІ·аіЌаІЇаІѕ</territory>
+			<territory type="143">аІ®аІ§аіЌаІЇ аІЏаІ·аіЌаІЇаІѕ</territory>
+			<territory type="145">аІЄаІ¶аіЌаІљаІїаІ® аІЏаІ·аіЌаІЇаІѕ</territory>
+			<territory type="150">аІЇаі‚аІ°аі‹аІЄаіЌ</territory>
+			<territory type="151">аІЄаі‚аІ°аіЌаІµ аІЇаі‚аІ°аі‹аІЄаіЌ</territory>
+			<territory type="154">аІ‰аІ¤аіЌаІ¤аІ° аІЇаі‚аІ°аі‹аІЄаіЌ</territory>
+			<territory type="155">аІЄаІ¶аіЌаІљаІїаІ® аІЇаі‚аІ°аі‹аІЄаіЌ</territory>
+			<territory type="172">аІёаіЌаІµаІ‚аІ¤аІ‚аІ¤аіЌаІ°аіЌаІЇ аІ°аІѕаІ·аіЌаІџаіЌаІ°аІ—аІі аІ•аІѕаІ®аІЁаіЌвЂЊаІµаі†аІІаіЌаІ¤аіЌ</territory>
+			<territory type="200">аІњаі†аІ•аіЉаІёаіЌаІІаі‹аІµаІѕаІ•аІїаІЇаІѕ</territory>
+			<territory type="419">аІІаіЌаІЇаІѕаІџаІїаІЁаіЌ аІ…аІ®аі‡аІ°аІїаІ•аІѕ аІ®аІ¤аіЌаІ¤аіЃ аІ•аі†аІ°аІїаІ¬аІїаІЇаІЁаіЌ</territory>
+			<territory type="830">аІ›аІѕаІЁаі†аІІаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="AD">аІ…аІ‚аІЎаі‹аІ°аІѕ</territory>
+			<territory type="AE">аІёаІ‚аІЇаіЃаІ•аіЌаІ¤ аІ…аІ°аІ¬аіЌ аІЋаІ®аІїаІ°аі‡аІџаІёаіЌ</territory>
+			<territory type="AF">аІ…аІ«аІаІѕаІЁаІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="AG">аІ†аІ‚аІџаІїаІ—аіЃаІµаІѕ аІ®аІ¤аіЌаІ¤аіЃ аІ¬аІ°аіЌаІ¬аіЃаІЎаІѕ</territory>
+			<territory type="AI">аІ†аІ‚аІ—аіЃаІЇаІїаІІаіЌаІІаІѕ</territory>
+			<territory type="AL">аІ…аІІаіЌаІ¬аі‡аІЁаІїаІЇаІѕ</territory>
+			<territory type="AM">аІ…аІ°аіЌаІ®аі‡аІЁаІїаІЇаІѕ</territory>
+			<territory type="AN">аІЁаі†аІ¦аІ°аіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="AO">аІ…аІ‚аІ—аі‹аІІаІѕ</territory>
+			<territory type="AQ">аІ…аІ‚аІџаІѕаІ°аіЌаІџаІїаІ•аІѕ</territory>
+			<territory type="AR">аІ…аІ°аіЌаІњаі†аІ‚аІџаі€аІЁаІѕ</territory>
+			<territory type="AS">аІ…аІ®аі‡аІ°аІїаІ•аІЁаіЌ аІёаІ®аі‹аІµаІѕ</territory>
+			<territory type="AT">аІ†аІёаіЌаІџаіЌаІ°аІїаІЇаІѕ</territory>
+			<territory type="AU">аІ†аІёаіЌаІџаіЌаІ°аі‡аІІаІїаІЇ</territory>
+			<territory type="AW">аІ…аІ°аіЃаІ¬аІѕ</territory>
+			<territory type="AX">аІ†аІІаіЌаІЇаІѕаІ‚аІЎаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="AZ">аІ…аІњаІ°аіЌаІ¬аі€аІњаІѕаІЁаіЌ</territory>
+			<territory type="BA">аІ¬аі‹аІёаіЌаІЁаІїаІЇаІѕ аІ®аІ¤аіЌаІ¤аіЃ аІ№аІ°аіЌаІњаі†аІ—аі‹аІµаІїаІЁаІѕ</territory>
+			<territory type="BB">аІ¬аІѕаІ°аіЌаІ¬аІЎаі‹аІёаіЌ</territory>
+			<territory type="BD">аІ¬аІѕаІ‚аІ—аіЌаІІаІѕаІ¦аі‡аІ¶аіЌ</territory>
+			<territory type="BE">аІ¬аі†аІІаіЌаІњаІїаІЇаІ®аіЌ</territory>
+			<territory type="BF">аІ¬аіЃаІ°аіЌаІ•аІїаІЁаІѕ аІ«аІѕаІёаі‹</territory>
+			<territory type="BG">аІ¬аІІаіЌаІ—аі‡аІ°аІїаІЇаІЁаіЌ</territory>
+			<territory type="BH">аІ¬аІ№аІ°аі€аІЁаіЌ</territory>
+			<territory type="BI">аІ¬аіЃаІ°аіЃаІ‚аІЎаІї</territory>
+			<territory type="BJ">аІ¬аі†аІЁаІїаІЁаіЌ</territory>
+			<territory type="BL">аІёаі‡аІ‚аІџаіЌ аІ¬аІѕаІ°аіЌаІҐаі†аІІаі†аІ®аІї</territory>
+			<territory type="BM">аІ¬аІ°аіЌаІ®аіЃаІЎаІѕ</territory>
+			<territory type="BN">аІ¬аіЌаІ°аі‚аІЁаІї</territory>
+			<territory type="BO">аІ¬аІІаіЌаІ—аі‡аІ°аІїаІЇаІѕ</territory>
+			<territory type="BR">аІ¬аіЌаІ°аі†аІњаІїаІІаіЌ</territory>
+			<territory type="BS">аІ¬аІ№аІѕаІ®аІѕаІёаіЌ</territory>
+			<territory type="BT">аІ­аі‚аІ¤аІѕаІЁаіЌ</territory>
+			<territory type="BV">аІ¬аі‹аІµаі†аІџаіЌ аІ¦аіЌаІµаіЂаІЄ</territory>
+			<territory type="BW">аІ¬аі‹аІџаіЌаІёаіЌвЂЊаІµаІѕаІЁаІѕ</territory>
+			<territory type="BY">аІ¬аіЉаІІаІїаІµаІїаІЇаІѕ</territory>
+			<territory type="BZ">аІ¬аі†аІІаІїаІњаіЌ</territory>
+			<territory type="CA">аІ•аі†аІЁаІЎаІѕ</territory>
+			<territory type="CC">аІ•аіЉаІ•аіЉаІёаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="CD">аІ•аІѕаІ‚аІ—аі‹ - аІ•аІїаІЁаіЌаІ¶аІѕаІёаІѕ</territory>
+			<territory type="CF">аІ®аІ§аіЌаІЇ аІ†аІ«аіЌаІ°аІїаІ•аІѕ аІ—аІЈаІ°аІѕаІњаіЌаІЇ</territory>
+			<territory type="CG">аІ•аІѕаІ‚аІ—аі‹ - аІ¬аіЌаІ°аІѕаІњаІѕаІµаІїаІІаіЌаІІаі‡</territory>
+			<territory type="CH">аІёаіЌаІµаІїаІЎаіЌаІњаІ°аіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="CI">аІђаІµаІ°аІї аІ•аі‹аІёаіЌаІџаіЌ</territory>
+			<territory type="CK">аІ•аіЃаІ•аіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="CL">аІљаІїаІІаІї</territory>
+			<territory type="CM">аІ•аіЌаІЇаІѕаІ®аІ°аі‹аІЁаіЌ</territory>
+			<territory type="CN">аІљаіЂаІЁ</territory>
+			<territory type="CO">аІ•аіЉаІІаІ‚аІ¬аІїаІЇаІѕ</territory>
+			<territory type="CR">аІ•аіЉаІёаіЌаІџаІѕ аІ°аІїаІ•аІѕ</territory>
+			<territory type="CS">аІёаі†аІ°аіЌаІ¬аІїаІЇаІѕ аІ®аІ¤аіЌаІ¤аіЃ аІ®аіЉаІ‚аІџаіЉаІЁаі†аІ—аіЌаІ°аі‹</territory>
+			<territory type="CU">аІ•аіЌаІЇаі‚аІ¬аІѕ</territory>
+			<territory type="CV">аІ•аі‡аІЄаіЌ аІµаІ°аіЌаІЎаі†</territory>
+			<territory type="CX">аІ•аіЌаІ°аІїаІёаіЌвЂЊаІ®аІёаіЌ аІ¦аіЌаІµаіЂаІЄ</territory>
+			<territory type="CY">аІёаі€аІЄаіЌаІ°аІёаіЌ</territory>
+			<territory type="CZ">аІљаі†аІ•аіЌ аІ°аІїаІЄаІ¬аіЌаІІаІїаІ•аіЌ</territory>
+			<territory type="DE">аІњаІ°аіЌаІ®аІЁаІї</territory>
+			<territory type="DJ">аІњаІїаІ¬аі‹аІџаІї</territory>
+			<territory type="DK">аІЎаі†аІЁаіЌаІ®аІѕаІ°аіЌаІ•аіЌ</territory>
+			<territory type="DM">аІЎаіЉаІ®аІїаІЁаІїаІ•аІѕ</territory>
+			<territory type="DO">аІЎаіЉаІ®аі†аІЁаІїаІ•аіЌ аІ°аІїаІЄаІ¬аіЌаІІаІїаІ•аіЌ</territory>
+			<territory type="DZ">аІ…аІІаіЌаІ—аі‡аІ°аІїаІЇаІѕ</territory>
+			<territory type="EC">аІ€аІ•аіЌаІµаі†аІЎаІѕаІ°аіЌ</territory>
+			<territory type="EE">аІЋаІёаіЌаІ¤аіЉаІЁаІїаІЇ</territory>
+			<territory type="EG">аІ€аІњаІїаІЄаіЌаІџаіЌ</territory>
+			<territory type="EH">аІЄаІ¶аіЌаІљаІїаІ® аІёаІ№аІѕаІ°аІѕ</territory>
+			<territory type="ER">аІЏаІ°аІїаІџаіЌаІ°аІїаІЇаІѕ</territory>
+			<territory type="ES">аІёаіЌаІЄаі€аІЁаіЌ</territory>
+			<territory type="ET">аІ‡аІҐаІїаІЇаі‹аІЄаІїаІЇаІѕ</territory>
+			<territory type="FI">аІ«аІїаІЁаіЌвЂЌвЂЌаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="FJ">аІ«аІїаІњаІї</territory>
+			<territory type="FK">аІ«аіЌаІ№аІѕаІ•аіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="FM">аІ®аі€аІ•аіЌаІ°аі‹аІЁаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="FO">аІ«аІ°аі‹ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="FR">аІ«аіЌаІ°аІѕаІЁаіЌаІёаіЌ</territory>
+			<territory type="GA">аІ—аі†аІ¬аіЉаІЁаіЌ</territory>
+			<territory type="GB">аІ¬аіЌаІ°аІїаІџаІЁаіЌ/аІ‡аІ‚аІ—аіЌаІІаі†аІ‚аІЎаіЌ</territory>
+			<territory type="GD">аІ—аіЌаІ°аі†аІЁаі†аІЎаІѕ</territory>
+			<territory type="GE">аІњаІѕаІ°аіЌаІњаІїаІЇаІѕ</territory>
+			<territory type="GF">аІ«аіЌаІ°аі†аІ‚аІљаіЌ аІ—аІЇаІѕаІЁаІѕ</territory>
+			<territory type="GG">аІ—аіЃаІ°аіЌаІЁаІњаіЂ</territory>
+			<territory type="GH">аІаІѕаІЁаІѕ</territory>
+			<territory type="GI">аІ—аІїаІ¬аіЌаІ°аІѕаІІаіЌаІџаІ°аіЌ</territory>
+			<territory type="GL">аІ—аіЌаІ°аіЂаІЁаіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="GM">аІ—аіЌаІЇаІѕаІ‚аІ¬аІїаІЇаІѕ</territory>
+			<territory type="GN">аІ—аІїаІЁаІї</territory>
+			<territory type="GP">аІ—аіЃаІЎаі†аІІаі‹аІЄаіЌ</territory>
+			<territory type="GQ">аІ€аІ•аіЌаІµаі†аІџаі‹аІ°аІїаІЇаІІаіЌ аІ—аІїаІЁаІї</territory>
+			<territory type="GR">аІ—аіЌаІ°аіЂаІёаіЌ</territory>
+			<territory type="GS">аІ¦аІ•аіЌаІ·аІїаІЈ аІњаІѕаІ°аіЌаІњаІїаІЇаІѕ аІ®аІ¤аіЌаІ¤аіЃ аІ¦аІ•аіЌаІ·аІїаІЈ аІёаіЌаІЇаІѕаІ‚аІЎаіЌвЂЊаІµаІїаІљаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="GT">аІ—аіЌаІµаІѕаІџаі†аІ®аІѕаІІаІѕ</territory>
+			<territory type="GU">аІ—аіЃаІЇаІѕаІ®аіЌ</territory>
+			<territory type="GW">аІ—аІїаІЁаІї-аІ¬аІїаІёаіЌаІёаІѕаІµаіЌ</territory>
+			<territory type="GY">аІ—аІЇаІѕаІЁаІѕ</territory>
+			<territory type="HK">аІ№аІѕаІ‚аІ—аіЌ аІ•аІѕаІ‚аІ—аіЌ SAR аІљаіЂаІЁаІѕ</territory>
+			<territory type="HM">аІ№аІ°аіЌаІЎаіЌ аІ¦аіЌаІµаіЂаІЄ аІ®аІ¤аіЌаІ¤аіЃ аІ®аІѕаІ•аіЌвЂЊаІЎаіЉаІЁаІѕаІІаіЌаІЎаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="HN">аІ№аіЉаІ‚аІЎаіЃаІ°аІѕаІёаіЌ</territory>
+			<territory type="HR">аІ•аіЌаІ°аі‹аІЇаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="HT">аІ№аі€аІџаІї</territory>
+			<territory type="HU">аІ№аІ‚аІ—аі‡аІ°аІї</territory>
+			<territory type="ID">аІ‡аІ‚аІЎаі‹аІЁаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="IE">аІђаІ°аіЌаІІаі†аІ‚аІЎаіЌ</territory>
+			<territory type="IL">аІ‡аІёаіЌаІ°аі‡аІІаіЌ</territory>
+			<territory type="IM">аІђаІІаіЌ аІ†аІ«аіЌ аІ®аіЌаІЇаІѕаІЁаіЌ</territory>
+			<territory type="IN">аІ­аІѕаІ°аІ¤</territory>
+			<territory type="IO">аІ¬аіЌаІ°аІїаІџаіЂаІ¶аіЌ аІ‡аІ‚аІЎаІїаІЇаІЁаіЌ аІ®аІ№аІѕаІёаІѕаІ—аІ° аІЄаіЌаІ°аІ¦аі‡аІ¶</territory>
+			<territory type="IQ">аІ‡аІ°аІѕаІ•аіЌ</territory>
+			<territory type="IR">аІ‡аІ°аІѕаІЁаіЌ</territory>
+			<territory type="IS">аІђаІёаіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="IT">аІ‡аІџаІІаІї</territory>
+			<territory type="JE">аІњаі†аІ°аіЌаІёаІї</territory>
+			<territory type="JM">аІњаІ®аі€аІ•аІѕ</territory>
+			<territory type="JO">аІњаі‹аІ°аіЌаІЎаІѕаІЁаіЌ</territory>
+			<territory type="JP">аІњаІЄаІѕаІЁаіЌ</territory>
+			<territory type="KE">аІ•аіЂаІЁаіЌаІЇаІѕ</territory>
+			<territory type="KG">аІ•аІїаІ°аіЌаІ—аІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="KH">аІ•аІѕаІ‚аІ¬аі‹аІЎаІїаІЇаІѕ</territory>
+			<territory type="KI">аІ•аІїаІ°аІїаІ¬аІѕаІ¤аІї</territory>
+			<territory type="KM">аІ•аіЉаІ®аіЉаІ°аіЉаІёаіЌ</territory>
+			<territory type="KN">аІёаі‡аІ‚аІџаіЌ аІ•аІїаІџаіЌаІёаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІЁаі†аІµаІїаІёаіЌ</territory>
+			<territory type="KP">аІ‰аІ¤аіЌаІ¤аІ° аІ•аі‹аІ°аІїаІЇаІѕ</territory>
+			<territory type="KR">аІ¦аІ•аіЌаІ·аІїаІЈ аІ•аі‹аІ°аІїаІЇаІѕ</territory>
+			<territory type="KW">аІ•аіЃаІµаі€аІ¤аіЌ</territory>
+			<territory type="KY">аІ•аі‡аІ®аІЁаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="KZ">аІ•аІќаІѕаІ•аІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="LA">аІІаІѕаІµаі‹аІёаіЌ</territory>
+			<territory type="LB">аІІаі†аІ¬аІЁаІѕаІЁаіЌ</territory>
+			<territory type="LC">аІёаі‡аІ‚аІџаіЌ аІІаі‚аІёаІїаІЇаІѕ</territory>
+			<territory type="LI">аІІаІїаІљаі†аІЁаіЌвЂЊаІёаіЌаІџаі€аІЁаіЌ</territory>
+			<territory type="LK">аІ¶аіЌаІ°аіЂаІІаІ‚аІ•аІѕ</territory>
+			<territory type="LR">аІІаІїаІ¬аі‡аІ°аІїаІЇаІѕ</territory>
+			<territory type="LS">аІІаі†аІҐаі‹аІёаіЉ</territory>
+			<territory type="LT">аІІаІїаІҐаіЃаІµаі‡аІЁаІїаІЇаІѕ</territory>
+			<territory type="LU">аІІаІ•аіЌаІёаІ‚аІ¬аІ°аіЌаІ—аіЌ</territory>
+			<territory type="LV">аІІаІѕаІџаіЌаІµаІїаІЇаІѕ</territory>
+			<territory type="LY">аІІаІїаІ¬аІїаІЇаІѕ</territory>
+			<territory type="MA">аІ®аіЉаІ°аІѕаІ•аіЌаІ•аіЉ</territory>
+			<territory type="MC">аІ®аіЉаІЁаІѕаІ•аіЉ</territory>
+			<territory type="MD">аІ®аіЉаІІаіЌаІЎаі‹аІµаІѕ</territory>
+			<territory type="ME">аІ®аіЉаІ‚аІџаі†аІЁаі†аІ—аіЌаІ°аі‹</territory>
+			<territory type="MF">аІёаі‡аІ‚аІџаіЌ аІ®аІѕаІ°аіЌаІџаІїаІЁаіЌ</territory>
+			<territory type="MG">аІ®аІЎаІ—аІѕаІёаіЌаІ•аІ°аіЌ</territory>
+			<territory type="MH">аІ®аІѕаІ°аіЌаІ¶аІІаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="MK">аІ®аіЌаІЇаІѕаІёаІїаІЎаі‹аІЁаІїаІЇаІѕ</territory>
+			<territory type="ML">аІ®аІѕаІІаІї</territory>
+			<territory type="MM">аІ®аІЇаІЁаіЌаІ®аІѕаІ°аіЌ</territory>
+			<territory type="MN">аІ®аіЉаІ‚аІ—аі‹аІІаІїаІЇаІѕ</territory>
+			<territory type="MO">аІ®аІ•аІѕаІµаіЌ SAR аІљаіЂаІЁаІѕ</territory>
+			<territory type="MP">аІ‰аІ¤аіЌаІ¤аІ° аІ®аІ°аІїаІЇаІѕаІЁаІѕ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="MQ">аІ®аІѕаІ°аіЌаІџаІїаІЁаІїаІ•аіЌ</territory>
+			<territory type="MR">аІ®аІѕаІ°аІїаІџаІѕаІЁаІїаІЇаІѕ</territory>
+			<territory type="MS">аІ®аі‹аІ‚аІџаіЌвЂЊаІёаі†аІ°аі†аІџаіЌ</territory>
+			<territory type="MT">аІ®аІѕаІІаіЌаІџаІѕ</territory>
+			<territory type="MU">аІ®аІѕаІ°аІїаІ¶аІїаІЇаІёаіЌ</territory>
+			<territory type="MV">аІ®аІѕаІІаіЌаІЎаІїаІµаіЌаІёаіЌ</territory>
+			<territory type="MW">аІ®аІІаІѕаІµаІї</territory>
+			<territory type="MX">аІ®аі†аІ•аіЌаІёаІїаІ•аіЉ</territory>
+			<territory type="MY">аІ®аІІаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="MZ">аІ®аіЉаІњаІѕаІ‚аІ¬аІїаІ•аіЌ</territory>
+			<territory type="NA">аІЁаІ®аіЂаІ¬аІїаІЇаІѕ</territory>
+			<territory type="NC">аІЁаіЌаІЇаі‚ аІ•аіЌаІЇаІѕаІІаІїаІЎаі‹аІЁаІїаІЇаІѕ</territory>
+			<territory type="NE">аІЁаі€аІњаІ°аіЌ</territory>
+			<territory type="NF">аІЁаІѕаІ°аіЌвЂЊаІ«аі‹аІ•аіЌ аІ¦аіЌаІµаіЂаІЄ</territory>
+			<territory type="NG">аІЁаі€аІњаіЂаІ°аІїаІЇаІѕ</territory>
+			<territory type="NI">аІЁаІїаІ•аІѕаІ°аІѕаІ—аіЃаІµаІѕ</territory>
+			<territory type="NL">аІЁаі†аІ¦аІ°аіЌвЂЊаІІаіЌаІЇаІѕаІ‚аІЎаіЌаІёаіЌ</territory>
+			<territory type="NO">аІЁаІѕаІ°аіЌаІµаі‡</territory>
+			<territory type="NP">аІЁаі‡аІЄаІѕаІі</territory>
+			<territory type="NR">аІЁаіЊаІ°аіЃ</territory>
+			<territory type="NU">аІЁаІїаІЇаіЃ</territory>
+			<territory type="NZ">аІЁаіЌаІЇаі‚аІњаІїаІІаі†аІ‚аІЎаіЌ</territory>
+			<territory type="OM">аІ“аІ®аІЁаіЌ</territory>
+			<territory type="PA">аІЄаІЁаІѕаІ®аІѕ</territory>
+			<territory type="PE">аІЄаі†аІ°аіЃ</territory>
+			<territory type="PF">аІ«аіЌаІ°аі†аІ‚аІљаіЌ аІЄаі‹аІІаІїаІЁаі‡аІ¶аІїаІЇаІѕ</territory>
+			<territory type="PG">аІЄаІЄаіЃаІµаІѕ аІЁаіЌаІЇаі‚аІ—аіЂаІЁаІїаІЇаІѕ</territory>
+			<territory type="PH">аІ«аІїаІІаІїаІ«аі€аІЁаіЌаІёаіЌ</territory>
+			<territory type="PK">аІЄаІѕаІ•аІїаІёаіЌаІ¤аІѕаІЁ</territory>
+			<territory type="PL">аІЄаі‹аІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="PM">аІёаі‡аІ‚аІџаіЌ аІЄаІїаІЇаІ°аі† аІ®аІ¤аіЌаІ¤аіЃ аІ®аІїаІ•аі†аІІаІЁаіЌ</territory>
+			<territory type="PN">аІЄаІїаІџаіЌвЂЊаІ•аі€аІ°аіЌаІЁаіЌ</territory>
+			<territory type="PR">аІЄаіЌаІЇаі‚аІ°аіЌаІџаі‹ аІ°аІїаІ•аіЉ</territory>
+			<territory type="PS">аІЄаіЌаІЇаІѕаІІаІїаІёаіЌаІџаі‡аІЁаІїаІЇаІЁаіЌ аІЄаіЌаІ°аІ¦аі‡аІ¶</territory>
+			<territory type="PT">аІЄаі‹аІ°аіЌаІљаіЃаІ—аІІаіЌ</territory>
+			<territory type="PW">аІЄаІІаІѕаІµаіЃ</territory>
+			<territory type="PY">аІЄаІ°аІѕаІ—аіЌаІµаі‡</territory>
+			<territory type="QA">аІ•аІ¤аІѕаІ°аіЌ</territory>
+			<territory type="QO">аІ”аІџаіЌвЂЊаІІаі€аІЇаІїаІ‚аІ—аіЌ аІ“аІ¶аІїаІЇаІѕаІЁаІїаІЇаІѕ</territory>
+			<territory type="QU">аІЇаіЃаІ°аі‹аІЄаІїаІЇаІЁаіЌ аІЇаі‚аІЁаІїаІЇаІЁаіЌ</territory>
+			<territory type="RE">аІ°аіЂаІЇаі‚аІЁаІїаІЇаІЁаіЌ</territory>
+			<territory type="RO">аІ°аіЉаІ®аіЌаІЇаІѕаІЁаІїаІЇаІѕ</territory>
+			<territory type="RS">аІёаі†аІ°аіЌаІ¬аІїаІЇаІѕ</territory>
+			<territory type="RU">аІ°аІ¶аІїаІЇаІѕ</territory>
+			<territory type="RW">аІ°аіЃаІµаІѕаІ‚аІЎаІѕ</territory>
+			<territory type="SA">аІёаіЊаІ¦аІї аІ…аІ°аі‡аІ¬аІїаІЇаІѕ</territory>
+			<territory type="SB">аІёаіЉаІІаіЉаІ®аІЁаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="SC">аІёаіЂаІ¶аі†аІІаіЌаІІаі†аІёаіЌ</territory>
+			<territory type="SD">аІёаі‚аІЎаІѕаІЁаіЌ</territory>
+			<territory type="SE">аІёаіЌаІµаіЂаІЎаІЁаіЌ</territory>
+			<territory type="SG">аІёаІїаІ‚аІ—аІЄаіЃаІ°</territory>
+			<territory type="SH">аІёаі‡аІ‚аІџаіЌ аІ№аі†аІІаі†аІЁаІѕ</territory>
+			<territory type="SI">аІёаіЌаІІаі‹аІµаі‡аІЁаІїаІЇаІѕ</territory>
+			<territory type="SJ">аІёаіЌаІµаІѕаІІаіЌаІ¬аІѕаІ°аіЌаІЎаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІњаІѕаІЁаіЌ аІ®аІѕаІЇаі†аІЁаіЌ</territory>
+			<territory type="SK">аІёаіЌаІІаі‹аІµаІѕаІ•аІїаІЇаІѕ</territory>
+			<territory type="SL">аІёаІїаІЇаі†аІ°аіЌаІ°аІѕ аІІаІїаІЇаі‹аІЁаіЌ</territory>
+			<territory type="SM">аІёаіЌаІЇаІѕаІЁаіЌ аІ®аі†аІ°аІїаІЁаі‹</territory>
+			<territory type="SN">аІёаі†аІЁаі†аІ—аІІаіЌ</territory>
+			<territory type="SO">аІёаіЉаІ®аІѕаІІаІїаІЇаІѕ</territory>
+			<territory type="SR">аІёаіЃаІ°аІїаІЁаІѕаІ®</territory>
+			<territory type="ST">аІёаІѕаІµаі‹ аІџаі‹аІ®аіЌ аІ®аІ¤аіЌаІ¤аіЃ аІЄаіЌаІ°аІїаІЁаіЌаІёаІїаІЄаі†</territory>
+			<territory type="SV">аІЋаІІаіЌ аІёаІѕаІІаіЌаІµаі‡аІЎаІѕаІ°аіЌ</territory>
+			<territory type="SY">аІёаІїаІ°аІїаІЇаІѕ</territory>
+			<territory type="SZ">аІёаіЌаІµаІѕаІњаІїаІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="TC">аІџаІ°аіЌаІ•аіЌаІёаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІ•аі€аІ•аі‹аІёаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="TD">аІљаІѕаІЎаіЌ</territory>
+			<territory type="TF">аІ«аіЌаІ°аі†аІ‚аІљаіЌ аІ¦аІ•аіЌаІ·аІїаІЈ аІЄаіЌаІ°аІ¦аі‡аІ¶аІ—аІіаіЃ</territory>
+			<territory type="TG">аІџаі‹аІ—аі‹</territory>
+			<territory type="TH">аІҐаі€аІІаіЌаІЇаІѕаІ‚аІЎаіЌ</territory>
+			<territory type="TJ">аІ¤аІњаІѕаІ•аІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="TK">аІџаіЉаІ•аі†аІІаІѕаІµаіЌ</territory>
+			<territory type="TL">аІЄаі‚аІ°аіЌаІµ аІ¤аІїаІ®аі‹аІ°аіЌ</territory>
+			<territory type="TM">аІ¤аіЃаІ°аіЌаІ•аІ®аі†аІЁаІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="TN">аІџаіЃаІЁаІїаІ¶аІїаІЇаІѕ</territory>
+			<territory type="TO">аІџаіЉаІ‚аІ—</territory>
+			<territory type="TR">аІџаІ°аіЌаІ•аІї</territory>
+			<territory type="TT">аІџаіЌаІ°аІїаІЁаІїаІЎаІѕаІЎаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІџаіЉаІ¬аіЌаІЇаІѕаІ—аіЉ</territory>
+			<territory type="TV">аІџаіЃаІµаІѕаІІаіЃ</territory>
+			<territory type="TW">аІҐаі€аІµаІѕаІЁаіЌ</territory>
+			<territory type="TZ">аІџаІѕаІ‚аІњаІѕаІЁаІїаІЇаІѕ</territory>
+			<territory type="UA">аІ‰аІ•аіЌаІ°аі€аІЁаіЌ</territory>
+			<territory type="UG">аІ‰аІ—аІѕаІ‚аІЎаІѕ</territory>
+			<territory type="UM">аІёаІ‚аІЇаіЃаІ•аіЌаІ¤ аІёаІ‚аІёаіЌаІҐаІѕаІЁ аІ®аі€аІЁаІ°аіЌ аІ”аІџаіЌвЂЊаІІаі€аІЇаІїаІ‚аІ—аіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="US">аІ…аІ®аі‡аІ°аІїаІ•аІѕ аІёаІ‚аІЇаіЃаІ•аіЌаІ¤ аІёаІ‚аІёаіЌаІҐаІѕаІЁ</territory>
+			<territory type="UY">аІ‰аІ°аіЃаІ—аіЌаІµаі‡</territory>
+			<territory type="UZ">аІ‰аІњаіЌаІ¬аі‡аІ•аІїаІёаіЌаІҐаІѕаІЁаіЌ</territory>
+			<territory type="VA">аІµаіЌаІЇаІѕаІџаІїаІ•аІЁаіЌ</territory>
+			<territory type="VC">аІёаі‡аІ‚аІџаіЌ аІµаІїаІЁаіЌаІёаі†аІ‚аІџаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІ—аіЌаІ°аі†аІЁаі†аІЎаі€аІЁаіЌаІёаіЌ</territory>
+			<territory type="VE">аІµаі†аІЁаі†аІњаіЃаІµаі†аІІаІѕ</territory>
+			<territory type="VG">аІ¬аіЌаІ°аІїаІџаІїаІ·аіЌ аІµаІ°аіЌаІњаІїаІЁаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="VI">аІЇаіЃ.аІЋаІёаіЌ. аІµаІ°аіЌаІњаІїаІЁаіЌ аІ¦аіЌаІµаіЂаІЄаІ—аІіаіЃ</territory>
+			<territory type="VN">аІµаІїаІЇаі‡аІџаіЌаІЁаІѕаІ®аіЌ</territory>
+			<territory type="VU">аІµаІЁаіЊаІџаіЃ</territory>
+			<territory type="WF">аІµаІѕаІІаІїаІёаіЌ аІ®аІ¤аіЌаІ¤аіЃ аІ«аіЃаІџаіЃаІЁаІѕ</territory>
+			<territory type="WS">аІёаІ®аі‹аІµаІѕ</territory>
+			<territory type="YE">аІЇаі†аІ®аІЁаіЌ</territory>
+			<territory type="YT">аІ®аІЇаіЉаІџаіЌаІџаі†</territory>
+			<territory type="ZA">аІ¦аІ•аіЌаІ·аІїаІЈ аІ†аІ«аіЌаІ°аІїаІ•аІѕ</territory>
+			<territory type="ZM">аІќаІѕаІ‚аІ¬аІїаІЇаІѕ</territory>
+			<territory type="ZW">аІњаІїаІ‚аІ¬аІѕаІ¬аіЌаІµаі†</territory>
+			<territory type="ZZ">аІ…аІЄаІ°аІїаІљаІїаІ¤ аІ…аІҐаІµаІѕ аІ…аІ®аІѕаІЁаіЌаІЇ аІЄаіЌаІ°аІ¦аі‡аІ¶</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[аІј аІ‚ аІѓ аі¦-аіЇ аІ…-аІ‹ аі  аІЊ аіЎ аІЋ-аІђ аІ’-аІЁ аІЄ-аІІ аІµ-аІ№ аІі аіћ аІЅ-аі„ аі†-аі€ аіЉ-аіЌ аі• аі–]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>'</quotationStart>
+		<quotationEnd>'</quotationEnd>
+		<alternateQuotationStart>&quot;</alternateQuotationStart>
+		<alternateQuotationEnd>&quot;</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">аІњаІЁаІµаІ°аіЂ</month>
+							<month type="2">аІ«аі†аІ¬аіЌаІ°аІµаІ°аіЂ</month>
+							<month type="3">аІ®аІѕаІ°аіЌаІљаіЌ</month>
+							<month type="4">аІЋаІЄаіЌаІ°аІїаІІаіЌ</month>
+							<month type="5">аІ®аі†</month>
+							<month type="6">аІњаі‚аІЁаіЌ</month>
+							<month type="7">аІњаіЃаІІаі€</month>
+							<month type="8">аІ†аІ—аІёаіЌаІџаіЌ</month>
+							<month type="9">аІёаІЄаіЌаІџаі†аІ‚аІ¬аІ°аіЌ</month>
+							<month type="10">аІ…аІ•аіЌаІџаі‹аІ¬аІ°аіЌ</month>
+							<month type="11">аІЁаІµаі†аІ‚аІ¬аІ°аіЌ</month>
+							<month type="12">аІЎаІїаІёаі†аІ‚аІ¬аІ°аіЌ</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">аІњаІЁаІµаІ°аіЂ</month>
+							<month type="2">аІ«аі†аІ¬аіЌаІ°аІµаІ°аіЂ</month>
+							<month type="3">аІ®аІѕаІ°аіЌаІљаіЌ</month>
+							<month type="4">аІЋаІЄаіЌаІ°аІїаІІаіЌ</month>
+							<month type="5">аІ®аі†</month>
+							<month type="6">аІњаі‚аІЁаіЌ</month>
+							<month type="7">аІњаіЃаІІаі€</month>
+							<month type="8">аІ†аІ—аІёаіЌаІџаіЌ</month>
+							<month type="9">аІёаІЄаіЌаІџаі†аІ‚аІ¬аІ°аіЌ</month>
+							<month type="10">аІ…аІ•аіЌаІџаі‹аІ¬аІ°аіЌ</month>
+							<month type="11">аІЁаІµаі†аІ‚аІ¬аІ°аіЌ</month>
+							<month type="12">аІЎаІїаІёаі†аІ‚аІ¬аІ°аіЌ</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">аІњ</month>
+							<month type="2">аІ«аі†</month>
+							<month type="3">аІ®аІѕ</month>
+							<month type="4">аІЋ</month>
+							<month type="5">аІ®аі‡</month>
+							<month type="6">аІњаі‚</month>
+							<month type="7">аІњаіЃ</month>
+							<month type="8">аІ†</month>
+							<month type="9">аІёаі†</month>
+							<month type="10">аІ…</month>
+							<month type="11">аІЁ</month>
+							<month type="12">аІЎаІї</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">аІ°.</day>
+							<day type="mon">аІёаі‹.</day>
+							<day type="tue">аІ®аІ‚.</day>
+							<day type="wed">аІ¬аіЃ.</day>
+							<day type="thu">аІ—аіЃ.</day>
+							<day type="fri">аІ¶аіЃ.</day>
+							<day type="sat">аІ¶аІЁаІї.</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">аІ°аІµаІїаІµаІѕаІ°</day>
+							<day type="mon">аІёаі‹аІ®аІµаІѕаІ°</day>
+							<day type="tue">аІ®аІ‚аІ—аІіаІµаІѕаІ°</day>
+							<day type="wed">аІ¬аіЃаІ§аІµаІѕаІ°</day>
+							<day type="thu">аІ—аіЃаІ°аіЃаІµаІѕаІ°</day>
+							<day type="fri">аІ¶аіЃаІ•аіЌаІ°аІµаІѕаІ°</day>
+							<day type="sat">аІ¶аІЁаІїаІµаІѕаІ°</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">аІ°</day>
+							<day type="mon">аІёаі‹</day>
+							<day type="tue">аІ®аІ‚</day>
+							<day type="wed">аІ¬аіЃ</day>
+							<day type="thu">аІ—аіЃ</day>
+							<day type="fri">аІ¶аіЃ</day>
+							<day type="sat">аІ¶</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">аІ’аІ‚аІ¦аіЃ 1</quarter>
+							<quarter type="2">аІЋаІ°аІЎаіЃ 2</quarter>
+							<quarter type="3">аІ®аі‚аІ°аіЃ 3</quarter>
+							<quarter type="4">аІЁаІѕаІІаіѓаІ• 4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>am</am>
+				<pm>pm</pm>
+				<eras>
+					<eraNames>
+						<era type="0">аІ€аІёаІЄаі‚аІµаіЇ.</era>
+						<era type="1">аІ•аіЌаІ°аІїаІёаіЌаІ¤ аІ¶аІ•</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">BCE</era>
+						<era type="1">CE</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d-M-yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>hh:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>hh:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>hh:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>hh:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd-MM</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM-yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<defaultNumberingSystem>knda</defaultNumberingSystem>
+		<symbols>
+			<nativeZeroDigit>аі¦</nativeZeroDigit>
+		</symbols>
+		<decimalFormats>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern>#,##,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>В¤В #,##,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="INR">
+				<symbol>а¤°аҐЃ</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+	<posix>
+		<messages>
+			<yesstr>аІ№аіЊаІ¦аіЃ</yesstr>
+			<nostr>аІ‡аІІаіЌаІІ:аІ…аІІаіЌаІІ</nostr>
+		</messages>
+	</posix>
+</ldml>

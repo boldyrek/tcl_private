@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.62 $"/>
+		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<language type="zh"/>
+		<script type="Hans"/>
+		<territory type="SG"/>
+	</identity>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<dateFormats>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>dd/MM/yy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>ahh:mm:ssz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>ahh:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="Md">Mжњ€dж—Ґ</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0}и‡і{1}</intervalFormatFallback>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">dd/MMEи‡іdd/MME</greatestDifference>
+							<greatestDifference id="d">dd/MMEи‡іdd/MME</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">dd/MMи‡іdd/MM</greatestDifference>
+							<greatestDifference id="d">dd/MMи‡іdd/MM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="a">ahhи‡іahh</greatestDifference>
+							<greatestDifference id="h">ahhи‡іhh</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="a">ahh:mmи‡іahh:mm</greatestDifference>
+							<greatestDifference id="h">ahh:mmи‡іhh:mm</greatestDifference>
+							<greatestDifference id="m">ahh:mmи‡іhh:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="a">ahh:mmи‡іahh:mmv</greatestDifference>
+							<greatestDifference id="h">ahh:mmи‡іhh:mmv</greatestDifference>
+							<greatestDifference id="m">ahh:mmи‡іhh:mmv</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="a">ahhи‡іahhv</greatestDifference>
+							<greatestDifference id="h">ahhи‡іhhv</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y-y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">MM/yyи‡іMM/yy</greatestDifference>
+							<greatestDifference id="y">MM/yyи‡іMM/yy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">dd/MM/yyEи‡іdd/MM/yyE</greatestDifference>
+							<greatestDifference id="d">dd/MM/yyEи‡іdd/MM/yyE</greatestDifference>
+							<greatestDifference id="y">dd/MM/yyEи‡іdd/MM/yyE</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">dd/MM/yyи‡іdd/MM/yy</greatestDifference>
+							<greatestDifference id="d">dd/MM/yyи‡іdd/MM/yy</greatestDifference>
+							<greatestDifference id="y">dd/MM/yyи‡іdd/MM/yy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+	</dates>
+</ldml>
+

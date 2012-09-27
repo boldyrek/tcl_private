@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.76 $"/>
+		<generation date="$Date: 2009/05/05 23:06:37 $"/>
+		<language type="km"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">бћ—бћ¶бћџбћ¶бћўбћ¶бћ бџ’бћњбћ¶бћљ</language>
+			<language type="ae">бћ—бћ¶бћџбћ¶бћўбћ¶бћњбџ‚бћџбџ’бћЏбћ„бџ‹</language>
+			<language type="af">бћ—бћ¶бћџбћ¶бћўбћ¶бћ бџ’бћњбџ’бћљбћёбћЂбћ¶бћўбћ¶бћ“</language>
+			<language type="am">бћўбџ†бћ бћ¶бћљбћ·бћЂ</language>
+			<language type="an">бћ—бћ¶бћџбћ¶бћўбћ¶бћљбџ‰бћ¶бћ бџ’бћ‚бџ„бћ“</language>
+			<language type="ar">бћ—бћ¶бћџбћ¶бћўбћ¶бћљбџ‰бћ¶бћ”бџ‹</language>
+			<language type="ay">бћ—бћ¶бћџбћ¶бћўбћёбћбџ‰бћ¶бћљбџ‰бћ¶</language>
+			<language type="az">бћ—бћ¶бћџбћ¶бћўбћ¶бћ бџЉбџ’бћџбџ‚бћљбћ”бџ‚бћ бџ’бћџбћ„бџ‹</language>
+			<language type="be">бћ—бћ¶бћџбћ¶бћ”бџЃбћЎбћ¶бћљбћ»бћџбџ’бћџ</language>
+			<language type="bg">бћ—бћ¶бћџбћ¶бћ”бџЉбћ»бћ›бћ бџ’бћЂбћ¶бћљбћё</language>
+			<language type="bh">бћ—бћ¶бћџбћ¶бћ”бћ·бћ бћ¶бћљ</language>
+			<language type="bm">бћ—бћ¶бћџбћ¶бћ”бћ¶бћбџ’бћ”бћ¶бћљбћ¶</language>
+			<language type="bn">бћ—бћ¶бћџбћ¶бћ”бџЃбћ“бџ’бћЂбћ¶бћ›бћё</language>
+			<language type="bo">бћ—бћ¶бћџбћ¶бћ‘бћёбћ”бџЃ</language>
+			<language type="br">бћ”бџ’бћљбћёбћџбџ’бћЏбћ»бћ“</language>
+			<language type="bs">бћ”бџЉбћјбћџбџ’бћ“бџЂбћљ</language>
+			<language type="ca">бћ—бћ¶бћџбћ¶бћЂбћ¶бћЏбћ¶бћЎбћ¶бћ“</language>
+			<language type="cs">бћ—бћ¶бћџбћ¶бћ†бџЃбћЂ</language>
+			<language type="cy">бћњбџЃбћ›</language>
+			<language type="da">бћ—бћ¶бћџбћ¶бћЉбћ¶бћЋбћєбћбџ‰бћ¶бћЂ</language>
+			<language type="de">бћ—бћ¶бћџбћ¶бћўбћ¶бћ›бџ’бћ›бћєбћбџ‰бћ„бџ‹</language>
+			<language type="dz">бћ—бћ¶бћџбћ¶бћ”бџЉбћјбћЏбћ¶бћ“</language>
+			<language type="el">бћ—бћ¶бћџбћ¶бћЂбџ’бћљбћ·бћ…</language>
+			<language type="en">бћ—бћ¶бћџбћ¶бћўбћ„бџ‹бћ‚бџ’бћ›бџЃбћџ</language>
+			<language type="eo">бћ—бћ¶бћџбћ¶бћўбџЃбћџбџ’бћ–бџЃбћљбџ‰бћ¶бћ“бџ’бћ‘бџ„</language>
+			<language type="es">бћ—бћ¶бћџбћ¶бћўбџЃбћџбџ’бћ”бџ‰бћ¶бћ‰</language>
+			<language type="et">бћ—бћ¶бћџбћ¶бћўбџЃбћџбџ’бћЏбћјбћ“бћё</language>
+			<language type="eu">бћ—бћ¶бћџбћ¶бћ”бћ¶бћџбџ’бћЂбџЃ</language>
+			<language type="fa">бћ—бћєбћџбџЂбћ“</language>
+			<language type="fi">бћ—бћ¶бћџбћ¶бћ бџ’бћњбћ¶бџ†бћ„бћЎбћ„бџ‹</language>
+			<language type="fil">бћ–бћёбћ›бћёбћ–бћёбћ“</language>
+			<language type="fj">бћ бџ’бћњбџ‰бћёбћ бџ’бћџбџ‰бћё</language>
+			<language type="fo">бћ бџ’бћњбћ¶бћљбћјбћџ</language>
+			<language type="fr">бћ—бћ¶бћџбћ¶бћ”бћ¶бћљбћ¶бџ†бћ„</language>
+			<language type="fy">бћ бџ’бћљбћёбћџбћ„бџ‹</language>
+			<language type="ga">бћ—бћ¶бћџбћ¶бћ бџ’бћЂбџ‚бћ›бћ·бћ‚</language>
+			<language type="gd">бћ—бћ¶бћџбћ¶бћ бџ’бћЂбџ‚бћ›бћ·бћ‚ [gd]</language>
+			<language type="gl">бћ—бћ¶бћџбћ¶бћ бџ’бћЂбћ¶бћ›бћёбћџбџ‰бћё</language>
+			<language type="gn">бћ—бћ¶бћџбћ¶бћ бџ’бћЂбћЅбћљбџ‰бћ¶бћ“бћё</language>
+			<language type="gu">бћ—бћ¶бћџбћ¶бћ бџ’бћЂбћ»бћ™бџ‰бћ¶бћљбћ¶бћ‘бћё</language>
+			<language type="he">бћ—бћ¶бћџбћ¶бћ бџЃбћ”бџ’бћљбћ·</language>
+			<language type="hi">бћ—бћ¶бћџбћ¶бћ бџ‰бћ·бћ“бћЊбћё</language>
+			<language type="hr">бћЂбџ’бћљбћјбћўбћ¶бћ‘бџЂбћ“</language>
+			<language type="hu">бћ—бћ¶бћџбћ¶бћ бћ»бћ„бћ‚бџ’бћљбћё</language>
+			<language type="hy">бћ—бћ¶бћџбћ¶бћўбћ¶бћљбћбџЃбћ“бћё</language>
+			<language type="ia">бћўбћёбћ“бћ’бћѕбћ›бћёбћ„</language>
+			<language type="id">бћ—бћ¶бћџбћ¶бћҐбћЋбџ’бћЊбћјбћ“бџЃбћџбџЉбћё</language>
+			<language type="is">бћ—бћ¶бћџбћ¶бћўбџ‰бћёбћџбџ’бћ›бћ„бџ‹</language>
+			<language type="it">бћ—бћ¶бћџбћ¶бћўбџЉбћёбћЏбћ¶бћ›бћё</language>
+			<language type="ja">бћ—бћ¶бћџбћ¶бћ‡бћ”бџ‰бћ»бћ“</language>
+			<language type="jv">бћ—бћ¶бћџбћ¶бћ™бџ‰бћ¶бћњбћ¶</language>
+			<language type="ka">бћ—бћ¶бћџбћ¶бћ бџ’бћџбћЂбћ бџ’бћџбџ‰бћё</language>
+			<language type="kk">бћ—бћ¶бћџбћ¶бћЂбћ¶бћ бџ’бћџбћ¶бћЂбџ‹бћџбџ’бћЏбћ„бџ‹бџ‹</language>
+			<language type="km">бћ—бћ¶бћџбћ¶бћЃбџ’бћбџ‚бћљ</language>
+			<language type="kn">бћ—бћ¶бћџбћ¶бћЂбћ·бћЋбћ¶бћЉбћ¶</language>
+			<language type="ko">бћ—бћ¶бћџбћ¶бћЂбћјбћљбџ‰бџЃ</language>
+			<language type="ku">бћ—бћ¶бћџбћ¶бћѓбћєбћЉ</language>
+			<language type="ky">бћ—бћ¶бћџбћ¶бћ‚бџЂбћљбћ бџ’бћ‚бћёбћџбџ’бћЏбћ„бџ‹</language>
+			<language type="la">бћ—бћ¶бћџбћ¶бћЎбћ¶бћЏбџ†бћ¶бћ„</language>
+			<language type="ln">бћ›бћёбћ“бћЂбћ¶бћЎбћ¶</language>
+			<language type="lo">бћ—бћ¶бћџбћ¶бћЎбћ¶бћњ</language>
+			<language type="lt">бћ—бћ¶бћџбћ¶бћ›бћёбћ‘бћ»бћ™бћўбћ¶бћ“бћё</language>
+			<language type="lv">бћ—бћ¶бћџбћ¶бћЎбћ¶бћЏбћњбћёбћ™бџ‰бћ¶</language>
+			<language type="mg">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћЉбћ¶бћ бџ’бћЂбћ¶бћџбћЂбћ¶бћљ</language>
+			<language type="mi">бћ—бћ¶бћџбћ¶бћбџ‰бџ„бћљбћё</language>
+			<language type="mk">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћџбџЃбћЉбћјбћ“бћё</language>
+			<language type="ml">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћЎбћ¶бћЎбћ¶бћ™бџ‰бћ¶бћ“</language>
+			<language type="mn">бћ—бћ¶бћџбћ¶бћбџ‰бћ»бћ„бћ бџ’бћ‚бџ„бћ›бћё</language>
+			<language type="mo">бћ—бћ¶бћџбћ¶бћбџ‰бћ»бћ›бћЉбћ¶бћњбћё</language>
+			<language type="mr">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћљбћ¶бћ’бћё</language>
+			<language type="ms">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћ›бџЃбћџбџ‰бћё</language>
+			<language type="mt">бћ—бћ¶бћџбћ¶бћбџ‰бћ¶бћ›бџ‹бћЏбћ¶</language>
+			<language type="ne">бћ—бћ¶бћџбћ¶бћ“бџЃбћ”бџ‰бћ¶бћ›бџ‹</language>
+			<language type="nl">бћ—бћ¶бћџбћ¶бћ бћ»бћ›бџ’бћ›бћ„бџ‹</language>
+			<language type="nn">бћ“бџђбћљбћњбџЃ</language>
+			<language type="no">бћ—бћ¶бћџбћ¶бћ“бџђбћљбћњбџ‚бћџ</language>
+			<language type="oc">бћўбћјбћџбћёбћЏбћ¶бћ“бџ‹</language>
+			<language type="or">бћ—бћ¶бћџбћ¶бћўбћјбћљбћёбћ™бџ‰бћ¶</language>
+			<language type="pa">бћ—бћ¶бћџбћ¶бћ–бћјбћ“бћ™бџ‰бћ¶бћ”бџЉбћё</language>
+			<language type="pl">бћ—бћ¶бћџбћ¶бћ”бџ‰бћјбћЎбћјбћ‰</language>
+			<language type="ps">бћ”бћ¶бћџбџ’бћЏбћј</language>
+			<language type="pt">бћ—бћ¶бћџбћ¶бћ–бџђбћљбћ‘бћ»бћ™бћ бџ’бћЂбћ¶бћ›бџ‹</language>
+			<language type="qu">бћ—бћ¶бћџбћ¶бћЂбџЃбћ‘бџ’бћ‡бћјбћўбћ¶</language>
+			<language type="rn">бћ—бћ¶бћџбћ¶бћљбћјбћ“бџ’бћЊбћё</language>
+			<language type="ro">бћ—бћ¶бћџбћ¶бћљбћјбћбџ‰бћ¶бћ“бћё</language>
+			<language type="ru">бћ—бћ¶бћџбћ¶аёЈаё±бћљбћјбћџбџ’бћџбџ‰бћё</language>
+			<language type="sa">бћ—бћ¶бћџбћ¶бћџбџ†бћџбџ’бћЂбџ’бћљбћ№бћЏ</language>
+			<language type="sd">бћ—бћ¶бћџбћ¶бћџбџ‰бћёбћ“бџ’бћЉбћё</language>
+			<language type="sh">бћџбћѕбћ”бћјбћЂбџ’бћљбћјбћ‘бџЂбћ“</language>
+			<language type="si">бћџбћёбћ“бћ бћ¶бћ›бћ·бћџ</language>
+			<language type="sk">бћ—бћ¶бћџбћ¶бћџбџ’бћ›бћјбћњбџ‰бћ¶бћ‚бћё</language>
+			<language type="sl">бћ—бћ¶бћџбћ¶бћџбџ’бћ›бћјбћњбџ‰бћ¶бћ“бћё</language>
+			<language type="sm">бћ—бћ¶бћџбћ¶бћџбћ¶бћбћјбћўбћ¶</language>
+			<language type="so">бћ—бћ¶бћџбћ¶бћџбћјбћбџ‰бћ¶бћ›бћё</language>
+			<language type="sq">бћ—бћ¶бћџбћ¶бћўбћ¶бћ›бџ‹бћ”бћ¶бћ“бћё</language>
+			<language type="sr">бћџбћѕбћ”бџЂбћ“</language>
+			<language type="st">бћџбџЃбћџбћјбћЉбћј</language>
+			<language type="su">бћ—бћ¶бџ†бћџбћ¶бћџбџЉбћјбћЉбћ„бџ‹</language>
+			<language type="sv">бћ—бћ¶бћџбћ¶бћџбџЉбћ»бћ™бћўбџ‚бћЉ</language>
+			<language type="sw">бћ—бћ¶бћџбћ¶бћџбџ’бћњбћ¶бћ бџ‰бћёбћ›бћё</language>
+			<language type="ta">бћ—бћ¶бћџбћ¶бћЏбћ¶бћбћёбћ›</language>
+			<language type="te">бћ—бћ¶бћџбћ¶бћЏбџЃбћ›бћјбћ бџ’бћ‚бћј</language>
+			<language type="tg">бћ—бћ¶бћџбћ¶бћЏбћ¶бћЉбћ бџ’бћџбџ‰бћёбћ‚бћёбћџбџ’бћЏбћ„бџ‹</language>
+			<language type="th">бћ—бћ¶бћџбћ¶бћђбџѓ</language>
+			<language type="ti">бћ‘бћёбћљбћ·бћ“бћ™бћ¶</language>
+			<language type="tk">бћ—бћ¶бћџбћ¶бћ‘бћЅбћ‚бћбџЃбћ“бћёбћџбџ’бћЏбћ„бџ‹</language>
+			<language type="tlh">бћЃбџ’бћ›бћ·бћ„бћџбћ»бћ“</language>
+			<language type="to">бћ—бћ¶бћџбћ¶бћЏбћ»бћ„бћ бџ’бћ‚бџ„</language>
+			<language type="tr">бћ—бћ¶бћџбћ¶бћ‘бћЅбћљбћ‚бћё</language>
+			<language type="tt">бћ—бћ¶бћџбћ¶бћЏбћ¶бћЏбћ¶бћљ</language>
+			<language type="tw">бћ‘бџ’бћњбћё</language>
+			<language type="uk">бћ—бћ¶бћџбћ¶бћўбџЉбћ»бћ™бћЂбџ’бћљбџ‚бћ“</language>
+			<language type="ur">бћ—бћ¶бћџбћ¶бћўбџЉбћјбћљбџ’бћЊбћј</language>
+			<language type="uz">бћ—бћ¶бћџбћ¶бћўбџЉбћјбћ бџ’бћџбћ”бџЃбћ‚бћёбћџбџ’бћЏбћ„бџ‹</language>
+			<language type="vi">бћ—бћ¶бћџбћ¶бћњбџЂбћЏбћЋбћ¶бћ</language>
+			<language type="xh">бћ—бћ¶бћџбћ¶бћѓбћџбћ¶</language>
+			<language type="yi">бћ—бћ¶бћџбћ¶бћ™бћёбћЊбћёбћ бџ’бћџ</language>
+			<language type="yo">бћ—бћ¶бћџбћ¶бћ™бћљбћјбћ”бћ¶</language>
+			<language type="za">бћ—бћ¶бћџбћ¶бћ…бћЅбћ„</language>
+			<language type="zh">бћ—бћ¶бћџбћ¶бћ…бћ·бћ“</language>
+			<language type="zu">бћ—бћ¶бћџбћ¶бћ бџ’бћџбџ‰бћјбћ›бћј</language>
+		</languages>
+		<territories>
+			<territory type="AD">бћўбћ¶бћ“бћЉбћјбћљбџ‰бћ¶</territory>
+			<territory type="AE">бћўбџЃбћбћёбћљбџ‰бџ‚бћ‘бћўбћ¶бћљбџ‰бћ¶бћ”бџ‹бћљбћЅбћ</territory>
+			<territory type="AF">бћўбћ¶бћ бџ’бћњбћ бџ’бћ‚бћ¶бћ“бћёбћџбџ’бћђбћ¶бћ“</territory>
+			<territory type="AL">бћўбћ¶бћ›бџ‹бћ”бћ¶бћ“бћё</territory>
+			<territory type="AM">бћўбћ¶бћљбћбџЃбћ“бћё</territory>
+			<territory type="AO">бћўбћ„бџ‹бћ бџ’бћ‚бџ„бћЎбћ¶</territory>
+			<territory type="AR">бћўбћ¶бћ бџ’бћџбћ„бџ‹бћ‘бћёбћ“</territory>
+			<territory type="AT">бћўбћјбћ‘бџ’бћљбћёбћџ</territory>
+			<territory type="AU">бћўбћјбћџбџ’бћЏбџ’бћљбћ¶бћ›бћё</territory>
+			<territory type="AZ">бћўбћ¶бћ бџЉбџ’бћџбџ‚бћљбћ”бџ‚бћ бџ’бћџбћ„бџ‹</territory>
+			<territory type="BA">бћ”бћјбћџбџ’бћ“бџ‰бћё</territory>
+			<territory type="BB">бћ”бћ¶бћљбћ”бћ¶бћЉбћјбћџ</territory>
+			<territory type="BD">бћ”бћ„бџ‹бћЂбџ’бћ›бћ¶бћЉбџЃбћџбџ’бћ </territory>
+			<territory type="BE">бћ”бџ‚бћ›бћ бџ’бћџбџ‰бћ·бћЂ</territory>
+			<territory type="BF">бћ”бџЉбћјбћљбћ‚бћёбћЋбћ¶бћ бџ’бћњбћ¶бћџбћј</territory>
+			<territory type="BG">бћ”бџЉбћ»бћ›бћ бџ’бћ‚бћ¶бћљбћё</territory>
+			<territory type="BH">бћ”бћ¶бћљбџ‰бџ‚бћ“</territory>
+			<territory type="BI">бћ”бџЉбћјбћљбћ»бћ“бћЊбћё</territory>
+			<territory type="BJ">бћ”бџЃбћЋбћ¶бџ†бћ„</territory>
+			<territory type="BN">бћ”бџЉбџ’бћљбћ»бћ™бћЋбџЃ</territory>
+			<territory type="BO">бћ”бћјбћ›бћёбћњбћё</territory>
+			<territory type="BR">бћ”бџ’бћљбџЃбћџбџЉбћёбћ›</territory>
+			<territory type="BS">бћ”бћ¶бћ бћ¶бћбџ‰бћ¶</territory>
+			<territory type="BT">бћ”бџЉбћјбћЏбћ¶бћ“</territory>
+			<territory type="BW">бћ”бћ»бћЏбћџбџ’бћњбћ¶бћЋбћ¶</territory>
+			<territory type="BY">бћ”бџЃбћЎбћ¶бћљбћ»бћџбџ’бћџ</territory>
+			<territory type="BZ">бћ”бџЃбћ›бћёбћ бџ’бћџ</territory>
+			<territory type="CA">бћЂбћ¶бћЋбћ¶бћЉбћ¶</territory>
+			<territory type="CF">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћўбћ¶бћ бџ’бћњбџ’бћљбћ·бћЂбћЂбћЋбџ’бћЉбћ¶бћ›</territory>
+			<territory type="CG">бћЂбћ»бћ„бћ бџ’бћ‚бџ„</territory>
+			<territory type="CH">бћџбџ’бћњбћёбћџ</territory>
+			<territory type="CI">бћЂбћјбћЉбћЊбћёбћњбџђбћљ</territory>
+			<territory type="CL">бћ€бћёбћ›бћё</territory>
+			<territory type="CM">бћЂбћ¶бћбџЃбћљбћјбћ“</territory>
+			<territory type="CN">бћ…бћ·бћ“</territory>
+			<territory type="CO">бћЂбћјбћЎбћ»бџ†бћ”бџЉбћё</territory>
+			<territory type="CR">бћЂбћјбћџбџ’бћЏбћ¶бћљбћёбћЂбћ¶</territory>
+			<territory type="CU">бћ‚бћ»бћ™бћ”бћ¶</territory>
+			<territory type="CV">бћЂбћ¶бћ”бћњбџ‚бћљ</territory>
+			<territory type="CY">бћџбџ‰бћёбћ–бћљбџЌ</territory>
+			<territory type="CZ">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћ†бџЃбћЂ</territory>
+			<territory type="DE">бћўбћ¶бћ›бџ’бћ›бћєбћбџ‰бћ„бџ‹</territory>
+			<territory type="DJ">бћ бџ’бћџбџ‰бћёбћ”бћјбћ‘бћё</territory>
+			<territory type="DK">бћЉбћ¶бћЋбћєбћбџ‰бћ¶бћЂ</territory>
+			<territory type="DM">бћЉбћјбћбћёбћ“бћёбћЂбћ¶</territory>
+			<territory type="DO">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћЉбћјбћбћёбћ“бћёбћЂбџ‚бћ“</territory>
+			<territory type="DZ">бћўбћ¶бћ›бџ‹бћ бџ’бћџбџЃбћљбћё</territory>
+			<territory type="EC">бћўбџЃбћЂбџ’бћњбћ¶бћЊбџђбћљ</territory>
+			<territory type="EE">бћўбџЃбћџбџ’бћЏбћјбћ“бћё</territory>
+			<territory type="EG">бћўбџЃбћ бџ’бћџбџ‰бћёбћ”</territory>
+			<territory type="EH">бћџбћ¶бћ бћ¶бћљбџ‰бћ¶бћЃбћ¶бћ„бћ›бћ·бћ…</territory>
+			<territory type="ER">бћўбџЃбћљбћёбћ‘бџ’бћљбћ¶</territory>
+			<territory type="ES">бћўбџЃбћџбџ’бћ”бџ‰бћ¶бћ‰</territory>
+			<territory type="ET">бћўбџЃбћЏбџ’бћ™бћјбћ–бћё</territory>
+			<territory type="FI">бћ бџ’бћњбћ¶бџ†бћ„бћЎбћ„бџ‹</territory>
+			<territory type="FJ">бћ бџ’бћњбџ‰бћёбћ бџ’бћџбџ‰бћё</territory>
+			<territory type="FM">бћбћ·бћЂбџ’бћљбћјбћ“бџЃбћџбџЉбћё</territory>
+			<territory type="FR">бћ”бћ¶бћљбћ¶бџ†бћ„</territory>
+			<territory type="GA">бћ бџ’бћ‚бћ¶бћ”бћ»бћ„</territory>
+			<territory type="GE">бћ бџ’бћџбћЂбћ бџ’бћџбџ‰бћё</territory>
+			<territory type="GH">бћ бџ’бћЂбћ¶бћЋбћ¶</territory>
+			<territory type="GM">бћ бџ’бћ‚бћ¶бџ†бћ”бџЉбћё</territory>
+			<territory type="GN">бћ бџ’бћ‚бћёбћЋбџЃ</territory>
+			<territory type="GQ">бћ бџ’бћ‚бћёбћЋбџЃбћўбџЃбћЂбџ’бћњбћ¶бћ‘бџђбћљ</territory>
+			<territory type="GR">бћЂбџ’бћљбћ·бћ…</territory>
+			<territory type="GT">бћ бџ’бћ‚бћ¶бћЏбџЃбћбџ‰бћ¶бћЎбћ¶</territory>
+			<territory type="GW">бћ бџ’бћ‚бћёбћЋбџЃбћ”бџЉбћёбћџбћј</territory>
+			<territory type="GY">бћ бџ’бћ‚бћёбћ™бџ‰бћ¶бћЋбћ¶</territory>
+			<territory type="HK">бћ бћ»бћ„бћЂбћ»бћ„</territory>
+			<territory type="HN">бћ бћ»бћ„бћЊбћЅбћљбџ‰бћ¶бћџбџ‹</territory>
+			<territory type="HR">бћЂбџ’бћљбћјбћўбћ¶бћџбџЉбћё</territory>
+			<territory type="HT">бћ бџѓбћ‘бћё</territory>
+			<territory type="HU">бћ бћ»бћ„бћ‚бџ’бћљбћё</territory>
+			<territory type="ID">бћҐбћЋбџ’бћЊбћјбћ“бџЃбћџбџЉбћё</territory>
+			<territory type="IE">бћўбџЂбћљбћЎбћ„бџ‹</territory>
+			<territory type="IL">бћўбџЉбћёбћџбџ’бћљбћ¶бћўбџ‚бћ›</territory>
+			<territory type="IN">бћҐбћЋбџ’бћЊбћ¶</territory>
+			<territory type="IQ">бћўбџЉбћёбћљбџ‰бћ¶бћЂбџ‹</territory>
+			<territory type="IR">бћўбџЉбћёбћљбџ‰бћ„бџ‹</territory>
+			<territory type="IS">бћўбџ‰бћёбћџбџ’бћ›бћ„бџ‹</territory>
+			<territory type="IT">бћўбџЉбћёбћЏбћ¶бћ›бћё</territory>
+			<territory type="JM">бћ бџ’бћџбћ¶бћбџ‰бћ¶бћўбџ‰бћ·бћ‚</territory>
+			<territory type="JO">бћ бџЉбџ’бћџбћЂбћЉбћ¶бћ“бћё</territory>
+			<territory type="JP">бћ‡бћ”бџ‰бћ»бћ“</territory>
+			<territory type="KE">бћЂбџЃбћ“бћ™бџ‰бћ¶</territory>
+			<territory type="KG">бћ‚бџЂбћљбћ бџ’бћ‚бћёбћџбџ’бћЏбћ„бџ‹</territory>
+			<territory type="KH">бћЂбћбџ’бћ–бћ»бћ‡бћ¶</territory>
+			<territory type="KI">бћ‚бћ·бћљбћ·бћ”бћ¶бћ‘бћё</territory>
+			<territory type="KM">бћЂбћ»бџ†бћбџ‰бћјбћљбџ‰бћјбћџ</territory>
+			<territory type="KP">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћ”бџ’бћљбћ‡бћ¶бћ’бћ·бћ”бћЏбџЃбћ™бџ’бћ™бћ”бџ’бћљбћ‡бћ¶бћбћ¶бћ“бћ·бћЏбћЂбћјбћљбџ‰бџЃ</territory>
+			<territory type="KR">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћЂбћјбћљбџ‰бџЃ</territory>
+			<territory type="KW">бћ‚бћ»бћ™бћњбџ‰бџ‚бћЏ</territory>
+			<territory type="KZ">бћЂбћ¶бћ бџ’бћџбћ¶бћЂбџ‹бћџбџ’бћЏбћ¶бћ„бџ‹бџ‹</territory>
+			<territory type="LA">бћЎбћ¶бћњ</territory>
+			<territory type="LB">бћ›бћёбћ”бћ„бџ‹</territory>
+			<territory type="LI">бћ›бћ·бћ…бћ‘бџЃбћ“бћџбџ’бћЏбџ‚бћ“</territory>
+			<territory type="LK">бћџбџ’бћљбћёбћ›бћ„бџ’бћЂбћ¶</territory>
+			<territory type="LR">бћ›бћёбћ”бџЃбћљбћёбћ™бџ‰бћ¶</territory>
+			<territory type="LS">бћ›бћѕбћџбћјбћЏбћј</territory>
+			<territory type="LT">бћ›бћёбћ‘бћ»бћ™бћўбћ¶бћ“бћё</territory>
+			<territory type="LU">бћ›бћ»бћ…бћ бџ’бћџбџ†бћ”бћЅбћљ</territory>
+			<territory type="LV">бћЎбћ¶бћЏбћњбћёбћ™бџ‰бћ¶</territory>
+			<territory type="LY">бћ›бћёбћ”бџЉбћё</territory>
+			<territory type="MA">бћбџ‰бћ¶бћљбџ‰бћ»бћЂ</territory>
+			<territory type="MC">бћбџ‰бћјбћЋбћ¶бћЂбћј</territory>
+			<territory type="MD">бћџбћ¶бћ’бћ¶бћљбћЋбћљбћЉбџ’бћ‹бћбџ‰бћ»бћ›бћЉбћ¶бћњбћё</territory>
+			<territory type="MG">бћбџ‰бћ¶бћЉбћ¶бћ бџ’бћЂбћ¶бћџбџ’бћЂбћ¶бћљ</territory>
+			<territory type="MK">бћбџ‰бћ¶бћџбџЃбћЉбћ“</territory>
+			<territory type="ML">бћбџ‰бћ¶бћ›бћё</territory>
+			<territory type="MM">бћбћёбћ™бџ‰бћ¶бћ“бџ‹бћбџ‰бћ¶</territory>
+			<territory type="MN">бћбџ‰бћ»бћ„бћ бџ’бћ‚бџ„бћ›бћё</territory>
+			<territory type="MR">бћбџ‰бћјбћљбћёбћЏбћ¶бћ“бћё</territory>
+			<territory type="MT">бћбџ‰бћ¶бћ›бџ‹бћЏбћ¶</territory>
+			<territory type="MU">бћбџ‰бћјбћљбћёбћ‘бћ»бћџ</territory>
+			<territory type="MX">бћбџ‰бћ·бћ…бћџбћ·бћЂ</territory>
+			<territory type="MY">бћбџ‰бћ¶бћ›бџЃбћџбџ‰бћё</territory>
+			<territory type="MZ">бћбџ‰бћјбћ бџ’бћџбћ¶бџ†бћ”бџЉбћ·бћЂ</territory>
+			<territory type="NA">бћЋбћ¶бћбћёбћ”бџЉбћё</territory>
+			<territory type="NE">бћ“бћёбћ бџ’бћџбџЃбћљ</territory>
+			<territory type="NG">бћ“бћёбћ бџ’бћџбџЃбћљбћёбћ™бџ‰бћ¶</territory>
+			<territory type="NI">бћ“бћёбћЂбћ¶бћљбџ‰бћ¶бћ бџ’бћ‚бџђбћљ</territory>
+			<territory type="NL">бћ бћјбћ›бџ’бћ›бћ„бџ‹</territory>
+			<territory type="NO">бћ“бџђбћљбћњбџ‚бћџ</territory>
+			<territory type="NP">бћ“бџЃбћ”бџ‰бћ¶бћ›бџ‹</territory>
+			<territory type="NZ">бћ“бћјбћњбџ‚бћ›бћ бџ’бћџбџЃбћЎбћ„бџ‹</territory>
+			<territory type="OM">бћўбћјбћбџ‰бћ„бџ‹</territory>
+			<territory type="PA">бћ”бџ‰бћ¶бћЋбћ¶бћбџ‰бћ¶</territory>
+			<territory type="PE">бћ”бџ‰бџЃбћљбћј</territory>
+			<territory type="PG">бћ”бџ‰бћ¶бћ–бћјбћўбћ¶бћ“бћјбћњбџ‚бћ›бћ бџ’бћ‚бћёбћЋбџЃ</territory>
+			<territory type="PH">бћ бџ’бћњбџ‰бћёбћ›бћёбћ–бћёбћ“</territory>
+			<territory type="PK">бћ”бџ‰бћ¶бћ‚бћёбћџбџ’бћђбћ¶бћ“</territory>
+			<territory type="PL">бћ”бџ‰бћјбћ›бћјбћ‰</territory>
+			<territory type="PR">бћ–бџђбћљбћЏбћјбћљбћёбћЂбћј</territory>
+			<territory type="PS">бћ”бџ‰бћ¶бћ›бџЃбћџбџ’бћ‘бћёбћ“</territory>
+			<territory type="PT">бћ–бџђбћљбћ‘бћ»бћ™бћ бџ’бћЂбћ¶бћ›бџ‹</territory>
+			<territory type="PY">бћ”бџ‰бћ¶бћљбџ‰бћ¶бћ бџ’бћ‚бћ¶бћ™</territory>
+			<territory type="QA">бћЂбћ¶бћЏбћ¶бћљ</territory>
+			<territory type="RO">бћљбћјбћбџ‰бћ¶бћ“бћё</territory>
+			<territory type="RU">бћљбћјбћџбџ’бћџбџЉбћё</territory>
+			<territory type="RW">бћљбћњбџ‰бћ¶бћ“бџ‹бћЉбћ¶</territory>
+			<territory type="SA">бћўбћ¶бћљбџ‰бћ¶бћ”бџЉбћёбћџбћ¶бћўбџЉбћјбћЊбћёбћЏ</territory>
+			<territory type="SC">бћџбћёбћџбџ‚бћ›</territory>
+			<territory type="SD">бћџбџЉбћјбћЉбћ„бџ‹</territory>
+			<territory type="SE">бћџбџЉбћ»бћ™бћўбџ‚бћЉ</territory>
+			<territory type="SG">бћџбћ·бћ„бџ’бћ бћ”бћ»бћљбћё</territory>
+			<territory type="SI">бћџбџ’бћ›бћјбћњбџЃбћ“бћё</territory>
+			<territory type="SK">бћџбџ’бћ›бћјбћњбџ‰бћ¶бћ‚бћё</territory>
+			<territory type="SL">бћџбџЃбћљбџ‰бћ¶бћЎбџЃбћўбћјбћ“</territory>
+			<territory type="SN">бћџбџЃбћ“бџЃбћ бџ’бћЂбћ¶бћ›бџ‹</territory>
+			<territory type="SO">бћџбћјбћбџ‰бћ¶бћ›бћё</territory>
+			<territory type="SR">бћџбћјбћљбћёбћЋбћ¶бћ</territory>
+			<territory type="SV">бћўбџ‚бћ›бћџбћ¶бћ›бџ‹бћњбџ‰бћ¶бћЊбџђбћљ</territory>
+			<territory type="SY">бћџбџЉбћёбћљбћё</territory>
+			<territory type="SZ">бћџбћјбћ бџ’бћџбџ‰бћёбћЎбћ„бџ‹</territory>
+			<territory type="TD">бћ†бћ¶бћЉ</territory>
+			<territory type="TG">бћЏбћјбћ бџ’бћ‚бћј</territory>
+			<territory type="TH">бћђбџѓ</territory>
+			<territory type="TJ">бћЏбћ¶бћЉбћ бџ’бћџбџ‰бћёбћ‚бћёбћџбџ’бћЏбћ„бџ‹</territory>
+			<territory type="TL">бћ‘бћёбћбџђбћљбћЃбћ¶бћ„бћЂбћѕбћЏ</territory>
+			<territory type="TM">бћ‘бћЅбћ‚бћбџЃбћ“бћёбћџбџ’бћЏбћ„бџ‹</territory>
+			<territory type="TN">бћ‘бћ»бћ™бћ“бџЃбћџбџЉбћё</territory>
+			<territory type="TO">бћЏбћ»бћ„бћ бџ’бћ‚бћ¶</territory>
+			<territory type="TR">бћ‘бћЅбћљбћ‚бћё</territory>
+			<territory type="TT">бћ‘бџ’бћљбћёбћ“бћёбћЉбћ¶бћЉбћ“бћ№бћ„бћЏбћјбћ”бћ¶бћ бџ’бћ‚бџ„</territory>
+			<territory type="TW">бћЏбџѓбћњбџ‰бћ¶бћ“бџ‹</territory>
+			<territory type="TZ">бћЏбћ„бџ‹бћ бџ’бћџбћ¶бћ“бћё</territory>
+			<territory type="UA">бћўбџЉбћ»бћ™бћЂбџ’бћљбџ‚бћ“</territory>
+			<territory type="UG">бћўбџЉбћјбћ бџ’бћЂбћ„бџ‹бћЉбћ¶</territory>
+			<territory type="US">бћџбћ бћљбћЉбџ’бћ‹бћўбћ¶бћбџЃбћљбћ·бћЂ</territory>
+			<territory type="UY">бћўбџЉбћ»бћ™бћљбћ»бћ™бћ бџ’бћ‚бћ¶бћ™</territory>
+			<territory type="UZ">бћўбџЉбћјбћ бџ’бћџбћ”бџЃбћ‚бћёбћџбџ’бћЏбћ„бџ‹</territory>
+			<territory type="VA">бћњбџ‰бћ¶бћ‘бћёбћЂбћ„бџ‹</territory>
+			<territory type="VE">бћњбџЃбћ“бџЃбћ бџ’бћџбџЉбћ»бћ™бћЎбћ¶</territory>
+			<territory type="VN">бћњбџЂбћЏбћЋбћ¶бћ</territory>
+			<territory type="WS">бћџбћ¶бћбћјбћўбћ¶</territory>
+			<territory type="YE">бћ™бџЃбћбџ‚бћ“</territory>
+			<territory type="ZA">бћўбћ¶бћ бџ’бћњбџ’бћљбћ·бћЂбћЃбћ¶бћ„бћЏбџ’бћ”бћјбћ„</territory>
+			<territory type="ZM">бћ бџ’бћџбћ¶бџ†бћ”бџЉбћё</territory>
+			<territory type="ZW">бћ бџ’бћџбџЉбћёбћбћ”бћ¶бћ”бћњбџ‰бџЃ</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[\u17CE \u17CF \u17D1 \u17D0 бџ€ \u17CB \u17C9 \u17CA \u17CD \u17CC бћЂ-бћљ бћ« бћ¬ бћ› бћ­ бћ® бћњ бћџ-бћў {бћўбћ¶} бћҐ-бћ§ {бћ§бћЂ} бћЄ бћ© бћЇ-бћі бћ¶-бџ‡ \u17D2]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u17B4 \u17B5\u200B бћќ бћћ]</exemplarCharacters>
+	</characters>
+	<delimiters>
+		<quotationStart>'</quotationStart>
+		<quotationEnd>'</quotationEnd>
+		<alternateQuotationStart>&quot;</alternateQuotationStart>
+		<alternateQuotationEnd>&quot;</alternateQuotationEnd>
+	</delimiters>
+	<dates>
+		<calendars>
+			<calendar type="buddhist">
+				<eras>
+					<eraAbbr>
+						<era type="0">бћ–.бћџ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<default choice="long"/>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE бћђбџ’бћ„бџѓ d бћЃбџ‚ MMMM бћ†бџ’бћ“бћ¶бџ† y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>EEEE бћђбџ’бћ„бџѓ d бћЃбџ‚ MMMM бћ†бџ’бћ“бћ¶бџ† y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<default choice="medium"/>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="long">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">бџЎ</month>
+							<month type="2">бџў</month>
+							<month type="3">бџЈ</month>
+							<month type="4">бџ¤</month>
+							<month type="5">бџҐ</month>
+							<month type="6">бџ¦</month>
+							<month type="7">бџ§</month>
+							<month type="8">бџЁ</month>
+							<month type="9">бџ©</month>
+							<month type="10">бџЎбџ </month>
+							<month type="11">бџЎбџЎ</month>
+							<month type="12">бџЎбџў</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">бћбћЂбћљбћ¶</month>
+							<month type="2">бћЂбћ»бћбџ’бћ—бџ€</month>
+							<month type="3">бћбћ·бћ“бћ¶</month>
+							<month type="4">бћбџЃбћџбћ¶</month>
+							<month type="5">бћ§бћџбћ—бћ¶</month>
+							<month type="6">бћбћ·бћђбћ»бћ“бћ¶</month>
+							<month type="7">бћЂбћЂбџ’бћЂбћЉбћ¶</month>
+							<month type="8">бћџбћёбћ бћ¶</month>
+							<month type="9">бћЂбћ‰бџ’бћ‰бћ¶</month>
+							<month type="10">бћЏбћ»бћ›бћ¶</month>
+							<month type="11">бћњбћ·бћ…бџ’бћ†бћ·бћЂбћ¶</month>
+							<month type="12">бћ’бџ’бћ“бћј</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">бћўбћ¶</day>
+							<day type="mon">бћ…</day>
+							<day type="tue">бћў</day>
+							<day type="wed">бћ–бћ»</day>
+							<day type="thu">бћ–бџ’бћљ</day>
+							<day type="fri">бћџбћ»</day>
+							<day type="sat">бћџ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">бћђбџ’бћ„бџѓбћўбћ¶бћ‘бћ·бћЏбџ’бћ™</day>
+							<day type="mon">вЂ‹бћђбџ’бћ„бџѓбћ…бџђбћ“бџ’бћ‘</day>
+							<day type="tue">бћђбџ’бћ„бџѓбћўбћ„бџ’бћ‚бћ¶бћљ</day>
+							<day type="wed">бћђбџ’бћ„бџѓбћ–бћ»бћ’</day>
+							<day type="thu">бћђбџ’бћ„бџѓбћ–бџ’бћљбћ бћџбџ’бћ”бћЏбћ·бџЌ</day>
+							<day type="fri">бћђбџ’бћ„бџѓбћџбћ»бћЂбџ’бћљ</day>
+							<day type="sat">бћђбџ’бћ„бџѓбћџбџ…бћљбџЌ</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">бћЏбџ’бћљбћёбџЎ</quarter>
+							<quarter type="2">бћЏбџ’бћљбћёбџў</quarter>
+							<quarter type="3">бћЏбџ’бћљбћёбџЈ</quarter>
+							<quarter type="4">бћЏбџ’бћљбћёбџ¤</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">бћЏбџ’бћљбћёбћбћ¶бћџбћ‘бћёбџЎ</quarter>
+							<quarter type="2">бћЏбџ’бћљбћёбћбћ¶бћџбћ‘бћёбџў</quarter>
+							<quarter type="3">бћЏбџ’бћљбћёбћбћ¶бћџбћ‘бћёбџЈ</quarter>
+							<quarter type="4">бћЏбџ’бћљбћёбћбћ¶бћџбћ‘бћёбџ¤</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>бћ–бџ’бћљбћ№бћЂ</am>
+				<pm>бћ›бџ’бћ„бћ¶бћ…</pm>
+				<eras>
+					<eraNames>
+						<era type="0">бћбћ»бћ“вЂ‹бћ‚бџ’бћљбћ·бћџбџ’бћЏбћџбћЂбћљбћ¶бћ‡</era>
+						<era type="1">бћ‚бџ’бћљбћ·бћџбџ’бћЏбћџбћЂбћљбћ¶бћ‡</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">бћбћ»бћ“вЂ‹бћ‚.бћџ.</era>
+						<era type="1">бћ‚.бћџ.</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE бћђбџ’бћ„бџѓ d бћЃбџ‚ MMMM бћ†бџ’бћ“бћ¶бџ† y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d бћЃбџ‚ MMMM бћ†бџ’бћ“бћ¶бџ† y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM y</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/yyyy</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>H бћбџ‰бџ„бћ„ m бћ“бћ¶бћ‘бћё ss бћњбћ·бћ“бћ¶бћ‘бћёвЂ‹ zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>H бћбџ‰бџ„бћ„ m бћ“бћ¶бћ‘бћё ss бћњбћ·бћ“бћ¶бћ‘бћёвЂ‹z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>H:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>H:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="long">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="medium">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<dateTimeFormatLength type="short">
+						<dateTimeFormat>
+							<pattern>{1}, {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="hhmm">hh:mm a</dateFormatItem>
+						<dateFormatItem id="hhmmss">hh:mm:ss a</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ yy</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+					</availableFormats>
+					<intervalFormats>
+						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatItem id="M">
+							<greatestDifference id="M">M-M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MEd">
+							<greatestDifference id="M">E, d/M - E, d/M</greatestDifference>
+							<greatestDifference id="d">E, d/M - E, d/M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMM">
+							<greatestDifference id="M">MMM-MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEd">
+							<greatestDifference id="M">E, MMM d - E, MMM d</greatestDifference>
+							<greatestDifference id="d">E, MMM d - E, MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMd">
+							<greatestDifference id="M">MMM d - MMM d</greatestDifference>
+							<greatestDifference id="d">MMM d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Md">
+							<greatestDifference id="M">d/M - d/M</greatestDifference>
+							<greatestDifference id="d">d/M - d/M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="d">
+							<greatestDifference id="d">d-d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="h">
+							<greatestDifference id="h">H-H</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hm">
+							<greatestDifference id="h">H:mm-H:mm</greatestDifference>
+							<greatestDifference id="m">H:mm-H:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hmv">
+							<greatestDifference id="h">H:mm-H:mm v</greatestDifference>
+							<greatestDifference id="m">H:mm-H:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="hv">
+							<greatestDifference id="h">H-H v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="y">
+							<greatestDifference id="y">y-y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yM">
+							<greatestDifference id="M">M/yyyy - M/yyyy</greatestDifference>
+							<greatestDifference id="y">M/yyyy - M/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMEd">
+							<greatestDifference id="M">E, d/M/yyyy - E, d/M/yyyy</greatestDifference>
+							<greatestDifference id="d">E, d/M/yyyy - E, d/M/yyyy</greatestDifference>
+							<greatestDifference id="y">E, d/M/yyyy - E, d/M/yyyy</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMM">
+							<greatestDifference id="M">y MMM-MMM</greatestDifference>
+							<greatestDifference id="y">y MMM - y MMM</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEd">
+							<greatestDifference id="M">E, y MMM dd - E, y MMM dd</greatestDifference>
+							<greatestDifference id="d">E, y MMM dd - E, y MMM dd</greatestDifference>
+							<greatestDifference id="y">E, y MMM dd - E, y MMM dd</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMd">
+							<greatestDifference id="M">y MMM d - MMM d</greatestDifference>
+							<greatestDifference id="d">y MMM d-d</greatestDifference>
+							<greatestDifference id="y">y MMM d - y MMM d</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMd">
+							<greatestDifference id="M">d/M/yyyy - d/M/yyyy</greatestDifference>
+							<greatestDifference id="d">d/M/yyyy - d/M/yyyy</greatestDifference>
+							<greatestDifference id="y">d/M/yyyy - d/M/yyyy</greatestDifference>
+						</intervalFormatItem>
+					</intervalFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<symbols>
+			<decimal>,</decimal>
+			<group>.</group>
+		</symbols>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>#,##0.00В¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="KHR">
+				<displayName>Riel</displayName>
+				<symbol>бџ›</symbol>
+			</currency>
+		</currencies>
+	</numbers>
+</ldml>
+

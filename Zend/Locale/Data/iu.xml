@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.41 $"/>
+		<generation date="$Date: 2009/05/05 23:06:37 $"/>
+		<language type="iu"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="iu">бђѓб“„б’ѓб‘Ћб‘ђб‘¦ б‘Ћб‘Ћб•‹бђ…б“Їб–…</language>
+		</languages>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters>[бђѓ-бђ† бђЉ бђ‹ бђ±-бђґ бђё бђ№ б‘‰ б‘Ћ-б‘‘ б‘• б‘– б‘¦ б‘­-б‘° б‘І б‘і б’ѓ б’‹-б’Ћ б’ђ б’‘ б’Ў б’Ґ-б’Ё б’Є б’« б’» б“‚-б“… б“‡ б“€ б“ђ б“•-б“ б“љ б“› б“Є б“Ї-б“І б“ґ б“µ б”… б”Ё-б”« б”­ б”® б”ѕ б•†-б•‰ б•‹ б•Њ б•ђ б••-б•љ б•ќ б•ї-б–ѓ б–… б–Џ б–‘-б–• б™±-б™¶ б–– б– -б–¦]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">б”­б“ђб“„бђЉб“•</month>
+							<month type="2">б••б•ќб•—бђЉб“•</month>
+							<month type="3">б’«б‘¦б“Ї</month>
+							<month type="4">бђЉбђѓб‘‰бђіб“—</month>
+							<month type="5">б’Єбђѓ</month>
+							<month type="6">б”«б“‚</month>
+							<month type="7">б”Єб“љбђѓ</month>
+							<month type="8">бђЉбђ…б’Ўб’Ќб“Ї</month>
+							<month type="9">б“°б‘¦б‘Џб•ќб•™</month>
+							<month type="10">бђ†б‘¦б‘‘б•ќб•™</month>
+							<month type="11">б“…б•™бђѓб•ќб•™</month>
+							<month type="12">б‘Џб“°б•ќб•™</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">б”­б“ђб“„бђЉб“•</month>
+							<month type="2">б••б•ќб•—бђЉб“•</month>
+							<month type="3">б’«б‘¦б“Ї</month>
+							<month type="4">бђЉбђѓб‘‰бђіб“—</month>
+							<month type="5">б’Єбђѓ</month>
+							<month type="6">б”«б“‚</month>
+							<month type="7">б”Єб“љбђѓ</month>
+							<month type="8">бђЉбђ…б’Ўб’Ќб“Ї</month>
+							<month type="9">б“°б‘¦б‘Џб•ќб•™</month>
+							<month type="10">бђ†б‘¦б‘‘б•ќб•™</month>
+							<month type="11">б“…б•™бђѓб•ќб•™</month>
+							<month type="12">б‘Џб“°б•ќб•™</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">б“€б‘¦б“°б–‘б”­</day>
+							<day type="mon">б“‡б’Ўб’ђб”ѕб”­бђ…</day>
+							<day type="tue">б“‡б’Ўб’ђб”ѕб”­бђ…б“•б–…б‘­</day>
+							<day type="wed">бђ±б–“б‘¦б“Їб–…</day>
+							<day type="thu">б“Їб‘•б’»б’Ґб–…</day>
+							<day type="fri">б‘•б“Єб“•б•ђб’Ґб–…</day>
+							<day type="sat">б“€б‘¦б“°б–‘б”­б“•б–…б•ї</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">б“€б‘¦б“°б–‘б”­</day>
+							<day type="mon">б“‡б’Ўб’ђб”ѕб”­бђ…</day>
+							<day type="tue">б“‡б’Ўб’ђб”ѕб”­бђ…б“•б–…б‘­</day>
+							<day type="wed">бђ±б–“б‘¦б“Їб–…</day>
+							<day type="thu">б“Їб‘•б’»б’Ґб–…</day>
+							<day type="fri">б‘•б“Єб“•б•ђб’Ґб–…</day>
+							<day type="sat">б“€б‘¦б“°б–‘б”­б“•б–…б•ї</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">1</day>
+							<day type="mon">2</day>
+							<day type="tue">3</day>
+							<day type="wed">4</day>
+							<day type="thu">5</day>
+							<day type="fri">6</day>
+							<day type="sat">7</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">BCE</era>
+						<era type="1">CE</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, y MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>y MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+		</calendars>
+		<timeZoneNames>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0}</regionFormat>
+		</timeZoneNames>
+	</dates>
+</ldml>

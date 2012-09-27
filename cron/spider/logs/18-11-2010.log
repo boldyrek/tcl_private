@@ -1,0 +1,442 @@
+2010-11-18T09:14:20+00:00 INFO (6): Exporttrader
+2010-11-18T09:14:21+00:00 INFO (6): Каптча получена и записана в локальный файл
+2010-11-18T09:14:32+00:00 INFO (6): Каптча распознана: 85846
+2010-11-18T09:14:32+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T09:14:33+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T09:14:33+00:00 INFO (6): Запрос авторизован
+2010-11-18T09:14:40+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T09:14:40+00:00 INFO (6): Тип 1 - найдено: 73, прошли первичные фильтры: 29, не прошли фильтр по цветам: 10, добавлено: 19, новых вин-кодов: 3
+2010-11-18T09:14:49+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T09:14:49+00:00 INFO (6): Тип 2 - найдено: 118, прошли первичные фильтры: 22, не прошли фильтр по цветам: 6, добавлено: 16, новых вин-кодов: 3
+2010-11-18T09:14:52+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T09:14:52+00:00 INFO (6): Тип 3 - найдено: 29, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 1
+2010-11-18T09:14:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T09:14:56+00:00 INFO (6): Тип 4 - найдено: 46, прошли первичные фильтры: 19, не прошли фильтр по цветам: 14, добавлено: 5, новых вин-кодов: 1
+2010-11-18T09:15:02+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T09:15:02+00:00 INFO (6): Тип 5 - найдено: 35, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 3
+2010-11-18T09:15:06+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T09:15:06+00:00 INFO (6): Тип 6 - найдено: 19, прошли первичные фильтры: 17, не прошли фильтр по цветам: 15, добавлено: 2, новых вин-кодов: 2
+2010-11-18T09:15:08+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T09:15:08+00:00 INFO (6): Тип 7 - найдено: 22, прошли первичные фильтры: 17, не прошли фильтр по цветам: 17, добавлено: 0, новых вин-кодов: 1
+2010-11-18T09:15:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T09:15:09+00:00 INFO (6): Тип 8 - найдено: 8, прошли первичные фильтры: 5, не прошли фильтр по цветам: 5, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:12+00:00 INFO (6): Тип 9 - найдено: 56, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T09:15:17+00:00 INFO (6): Тип 10 - найдено: 125, прошли первичные фильтры: 13, не прошли фильтр по цветам: 0, добавлено: 13, новых вин-кодов: 1
+2010-11-18T09:15:21+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T09:15:21+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:26+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T09:15:26+00:00 INFO (6): Тип 22 - найдено: 138, прошли первичные фильтры: 2, не прошли фильтр по цветам: 1, добавлено: 1, новых вин-кодов: 0
+2010-11-18T09:15:31+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T09:15:31+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 2
+2010-11-18T09:15:31+00:00 INFO (6): Adesa
+2010-11-18T09:15:32+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T09:15:33+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T09:15:33+00:00 INFO (6): Запрос авторизован
+2010-11-18T09:15:35+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T09:15:35+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 1
+2010-11-18T09:15:35+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T09:15:35+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:36+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:36+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T09:15:36+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:37+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T09:15:37+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 1
+2010-11-18T09:15:37+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T09:15:37+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:38+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T09:15:38+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:38+00:00 INFO (6): Тип 18 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:38+00:00 INFO (6): Тип 19 - найдено: 13, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T09:15:38+00:00 INFO (6): Тип 20 - найдено: 19, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T09:15:39+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T09:15:39+00:00 INFO (6): Тип 24 - найдено: 19, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T09:15:39+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T09:15:39+00:00 INFO (6): Тип 25 - найдено: 18, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T09:15:39+00:00 INFO (6): Тип 26 - найдено: 7, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:41:51+00:00 INFO (6): Exporttrader
+2010-11-18T12:41:52+00:00 INFO (6): Каптча получена и записана в локальный файл
+2010-11-18T12:42:19+00:00 INFO (6): Каптча распознана: 70735
+2010-11-18T12:42:20+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T12:42:20+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T12:42:20+00:00 INFO (6): Запрос авторизован
+2010-11-18T12:47:32+00:00 INFO (6): Exporttrader
+2010-11-18T12:47:32+00:00 INFO (6): Запрос авторизован
+2010-11-18T12:47:37+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T12:47:37+00:00 INFO (6): Тип 1 - найдено: 77, прошли первичные фильтры: 30, не прошли фильтр по цветам: 11, добавлено: 19, новых вин-кодов: 0
+2010-11-18T12:47:43+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T12:47:43+00:00 INFO (6): Тип 2 - найдено: 128, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T12:47:44+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T12:47:44+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:47:50+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T12:47:50+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 2
+2010-11-18T12:47:52+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T12:47:52+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:47:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T12:47:54+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T12:47:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T12:47:56+00:00 INFO (6): Тип 7 - найдено: 23, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:47:58+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T12:47:58+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 1
+2010-11-18T12:48:02+00:00 INFO (6): Тип 9 - найдено: 55, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T12:48:08+00:00 INFO (6): Тип 10 - найдено: 126, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T12:48:13+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T12:48:13+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:19+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T12:48:19+00:00 INFO (6): Тип 22 - найдено: 146, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:48:23+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T12:48:23+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:48:23+00:00 INFO (6): Adesa
+2010-11-18T12:48:23+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T12:48:24+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T12:48:24+00:00 INFO (6): Запрос авторизован
+2010-11-18T12:48:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T12:48:25+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 0
+2010-11-18T12:48:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T12:48:25+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:25+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T12:48:25+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:26+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T12:48:26+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:26+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T12:48:26+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:26+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T12:48:26+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:26+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T12:48:26+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:27+00:00 INFO (6): Тип 19 - найдено: 13, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T12:48:27+00:00 INFO (6): Тип 20 - найдено: 19, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T12:48:27+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T12:48:27+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T12:48:27+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T12:48:27+00:00 INFO (6): Тип 25 - найдено: 18, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T12:48:28+00:00 INFO (6): Тип 26 - найдено: 7, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:41:16+00:00 INFO (6): Exporttrader
+2010-11-18T13:41:17+00:00 INFO (6): Запрос авторизован
+2010-11-18T13:41:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T13:41:20+00:00 INFO (6): Тип 1 - найдено: 77, прошли первичные фильтры: 30, не прошли фильтр по цветам: 11, добавлено: 19, новых вин-кодов: 0
+2010-11-18T13:41:27+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T13:41:27+00:00 INFO (6): Тип 2 - найдено: 128, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T13:41:29+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T13:41:29+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:41:32+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T13:41:32+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T13:41:35+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T13:41:35+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:41:36+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T13:41:36+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T13:41:38+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T13:41:38+00:00 INFO (6): Тип 7 - найдено: 23, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:41:39+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T13:41:39+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:41:43+00:00 INFO (6): Тип 9 - найдено: 55, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T13:41:48+00:00 INFO (6): Тип 10 - найдено: 126, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T13:41:53+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T13:41:53+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:04+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T13:42:04+00:00 INFO (6): Тип 22 - найдено: 146, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:42:07+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T13:42:07+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:42:07+00:00 INFO (6): Adesa
+2010-11-18T13:42:09+00:00 INFO (6): Запрос авторизован
+2010-11-18T13:42:10+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T13:42:10+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 0
+2010-11-18T13:42:10+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T13:42:10+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:10+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:10+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T13:42:10+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T13:42:11+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T13:42:11+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T13:42:11+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T13:42:11+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:12+00:00 INFO (6): Тип 19 - найдено: 13, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T13:42:12+00:00 INFO (6): Тип 20 - найдено: 19, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T13:42:12+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T13:42:12+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T13:42:13+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T13:42:13+00:00 INFO (6): Тип 25 - найдено: 19, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T13:42:13+00:00 INFO (6): Тип 26 - найдено: 7, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:51:34+00:00 INFO (6): Exporttrader
+2010-11-18T14:51:35+00:00 INFO (6): Запрос авторизован
+2010-11-18T14:51:38+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T14:51:38+00:00 INFO (6): Тип 1 - найдено: 77, прошли первичные фильтры: 30, не прошли фильтр по цветам: 11, добавлено: 19, новых вин-кодов: 0
+2010-11-18T14:51:44+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T14:51:44+00:00 INFO (6): Тип 2 - найдено: 128, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T14:51:46+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T14:51:46+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:51:49+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T14:51:49+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T14:51:50+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T14:51:50+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:51:52+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T14:51:52+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T14:51:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T14:51:54+00:00 INFO (6): Тип 7 - найдено: 23, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:51:55+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T14:51:55+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:51:58+00:00 INFO (6): Тип 9 - найдено: 55, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T14:52:03+00:00 INFO (6): Тип 10 - найдено: 126, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T14:52:07+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T14:52:07+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:13+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T14:52:13+00:00 INFO (6): Тип 22 - найдено: 146, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:52:15+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T14:52:15+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:52:15+00:00 INFO (6): Adesa
+2010-11-18T14:52:16+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T14:52:17+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T14:52:17+00:00 INFO (6): Запрос авторизован
+2010-11-18T14:52:17+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T14:52:17+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 0
+2010-11-18T14:52:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T14:52:18+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:18+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T14:52:18+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T14:52:18+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T14:52:18+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:19+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T14:52:19+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:19+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T14:52:19+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:19+00:00 INFO (6): Тип 19 - найдено: 13, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T14:52:19+00:00 INFO (6): Тип 20 - найдено: 20, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T14:52:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T14:52:20+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T14:52:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T14:52:20+00:00 INFO (6): Тип 25 - найдено: 19, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T14:52:20+00:00 INFO (6): Тип 26 - найдено: 8, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:14:15+00:00 INFO (6): Exporttrader
+2010-11-18T15:14:16+00:00 INFO (6): Запрос авторизован
+2010-11-18T15:14:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T15:14:20+00:00 INFO (6): Тип 1 - найдено: 77, прошли первичные фильтры: 30, не прошли фильтр по цветам: 11, добавлено: 19, новых вин-кодов: 0
+2010-11-18T15:14:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T15:14:25+00:00 INFO (6): Тип 2 - найдено: 128, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T15:14:28+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T15:14:28+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:14:30+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T15:14:30+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T15:14:32+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T15:14:32+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:14:34+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T15:14:34+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:14:36+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T15:14:36+00:00 INFO (6): Тип 7 - найдено: 23, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:14:38+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T15:14:38+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:14:40+00:00 INFO (6): Тип 9 - найдено: 55, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T15:14:46+00:00 INFO (6): Тип 10 - найдено: 126, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T15:14:52+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T15:14:52+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:01+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T15:15:01+00:00 INFO (6): Тип 22 - найдено: 146, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:15:06+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T15:15:06+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:15:06+00:00 INFO (6): Adesa
+2010-11-18T15:15:08+00:00 INFO (6): Запрос авторизован
+2010-11-18T15:15:08+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T15:15:08+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:15:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T15:15:09+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:09+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T15:15:09+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T15:15:09+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T15:15:09+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:10+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T15:15:10+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:10+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T15:15:10+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:10+00:00 INFO (6): Тип 19 - найдено: 13, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:15:10+00:00 INFO (6): Тип 20 - найдено: 20, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:15:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T15:15:11+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:15:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T15:15:11+00:00 INFO (6): Тип 25 - найдено: 19, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:15:11+00:00 INFO (6): Тип 26 - найдено: 8, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:30:56+00:00 INFO (6): Exporttrader
+2010-11-18T15:30:57+00:00 INFO (6): Запрос авторизован
+2010-11-18T15:31:01+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T15:31:01+00:00 INFO (6): Тип 1 - найдено: 77, прошли первичные фильтры: 31, не прошли фильтр по цветам: 12, добавлено: 19, новых вин-кодов: 0
+2010-11-18T15:31:07+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T15:31:07+00:00 INFO (6): Тип 2 - найдено: 128, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T15:31:09+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T15:31:09+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T15:31:11+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T15:31:14+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T15:31:14+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:16+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T15:31:16+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:31:17+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T15:31:17+00:00 INFO (6): Тип 7 - найдено: 23, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:19+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T15:31:19+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:21+00:00 INFO (6): Тип 9 - найдено: 55, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T15:31:26+00:00 INFO (6): Тип 10 - найдено: 126, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T15:31:32+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T15:31:32+00:00 INFO (6): Тип 21 - найдено: 85, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:39+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T15:31:39+00:00 INFO (6): Тип 22 - найдено: 146, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:41+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T15:31:41+00:00 INFO (6): Тип 23 - найдено: 60, прошли первичные фильтры: 7, не прошли фильтр по цветам: 6, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:41+00:00 INFO (6): Adesa
+2010-11-18T15:31:43+00:00 INFO (6): Запрос авторизован
+2010-11-18T15:31:43+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T15:31:43+00:00 INFO (6): Тип 11 - найдено: 6, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:31:43+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T15:31:43+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:44+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:44+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T15:31:44+00:00 INFO (6): Тип 14 - найдено: 3, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:44+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T15:31:44+00:00 INFO (6): Тип 15 - найдено: 4, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:44+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T15:31:44+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:45+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T15:31:45+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:45+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T15:31:45+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:45+00:00 INFO (6): Тип 19 - найдено: 14, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:31:45+00:00 INFO (6): Тип 20 - найдено: 20, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T15:31:47+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T15:31:47+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T15:31:47+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T15:31:47+00:00 INFO (6): Тип 25 - найдено: 19, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T15:31:48+00:00 INFO (6): Тип 26 - найдено: 8, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T16:25:06+00:00 INFO (6): Exporttrader
+2010-11-18T16:25:07+00:00 INFO (6): Запрос авторизован
+2010-11-18T16:25:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T16:25:11+00:00 INFO (6): Тип 1 - найдено: 78, прошли первичные фильтры: 31, не прошли фильтр по цветам: 12, добавлено: 19, новых вин-кодов: 0
+2010-11-18T16:25:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T16:25:18+00:00 INFO (6): Тип 2 - найдено: 130, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T16:25:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T16:25:20+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T16:25:23+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T16:25:23+00:00 INFO (6): Тип 4 - найдено: 56, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T16:25:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T16:25:25+00:00 INFO (6): Тип 5 - найдено: 37, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T16:25:27+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T16:25:27+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T16:25:29+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T16:25:29+00:00 INFO (6): Тип 7 - найдено: 24, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T16:25:30+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T16:25:30+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T16:25:33+00:00 INFO (6): Тип 9 - найдено: 62, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T17:18:03+00:00 INFO (6): Exporttrader
+2010-11-18T17:18:04+00:00 INFO (6): Запрос авторизован
+2010-11-18T17:18:07+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T17:18:07+00:00 INFO (6): Тип 1 - найдено: 78, прошли первичные фильтры: 31, не прошли фильтр по цветам: 12, добавлено: 19, новых вин-кодов: 0
+2010-11-18T17:18:13+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T17:18:13+00:00 INFO (6): Тип 2 - найдено: 130, прошли первичные фильтры: 23, не прошли фильтр по цветам: 6, добавлено: 17, новых вин-кодов: 0
+2010-11-18T17:18:15+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T17:18:15+00:00 INFO (6): Тип 3 - найдено: 33, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T17:18:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T17:18:18+00:00 INFO (6): Тип 4 - найдено: 55, прошли первичные фильтры: 27, не прошли фильтр по цветам: 20, добавлено: 7, новых вин-кодов: 0
+2010-11-18T17:18:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T17:18:20+00:00 INFO (6): Тип 5 - найдено: 38, прошли первичные фильтры: 16, не прошли фильтр по цветам: 15, добавлено: 1, новых вин-кодов: 0
+2010-11-18T17:18:22+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T17:18:22+00:00 INFO (6): Тип 6 - найдено: 22, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T17:18:23+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T17:18:23+00:00 INFO (6): Тип 7 - найдено: 24, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T17:18:25+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T17:18:25+00:00 INFO (6): Тип 8 - найдено: 9, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:28+00:00 INFO (6): Тип 9 - найдено: 63, прошли первичные фильтры: 4, не прошли фильтр по цветам: 0, добавлено: 4, новых вин-кодов: 0
+2010-11-18T17:18:35+00:00 INFO (6): Тип 10 - найдено: 129, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T17:18:40+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T17:18:40+00:00 INFO (6): Тип 21 - найдено: 90, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:45+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T17:18:45+00:00 INFO (6): Тип 22 - найдено: 151, прошли первичные фильтры: 3, не прошли фильтр по цветам: 2, добавлено: 1, новых вин-кодов: 0
+2010-11-18T17:18:50+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T17:18:50+00:00 INFO (6): Тип 23 - найдено: 64, прошли первичные фильтры: 8, не прошли фильтр по цветам: 7, добавлено: 1, новых вин-кодов: 1
+2010-11-18T17:18:50+00:00 INFO (6): Adesa
+2010-11-18T17:18:50+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T17:18:52+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T17:18:52+00:00 INFO (6): Запрос авторизован
+2010-11-18T17:18:53+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T17:18:53+00:00 INFO (6): Тип 11 - найдено: 8, прошли первичные фильтры: 3, не прошли фильтр по цветам: 1, добавлено: 2, новых вин-кодов: 1
+2010-11-18T17:18:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T17:18:54+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:54+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T17:18:54+00:00 INFO (6): Тип 14 - найдено: 4, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T17:18:56+00:00 INFO (6): Тип 15 - найдено: 5, прошли первичные фильтры: 4, не прошли фильтр по цветам: 4, добавлено: 0, новых вин-кодов: 1
+2010-11-18T17:18:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T17:18:56+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T17:18:56+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:56+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T17:18:56+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:56+00:00 INFO (6): Тип 19 - найдено: 15, прошли первичные фильтры: 3, не прошли фильтр по цветам: 0, добавлено: 3, новых вин-кодов: 0
+2010-11-18T17:18:57+00:00 INFO (6): Тип 20 - найдено: 22, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T17:18:57+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T17:18:57+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T17:18:57+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T17:18:57+00:00 INFO (6): Тип 25 - найдено: 20, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T17:18:58+00:00 INFO (6): Тип 26 - найдено: 7, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T20:45:49+00:00 INFO (6): Exporttrader
+2010-11-18T20:45:50+00:00 INFO (6): Каптча получена и записана в локальный файл
+2010-11-18T20:46:00+00:00 INFO (6): Каптча распознана: 50357
+2010-11-18T20:46:01+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T20:46:02+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T20:46:02+00:00 INFO (6): Запрос авторизован
+2010-11-18T20:46:06+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T20:46:06+00:00 INFO (6): Тип 1 - найдено: 81, прошли первичные фильтры: 31, не прошли фильтр по цветам: 12, добавлено: 19, новых вин-кодов: 0
+2010-11-18T20:46:11+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T20:46:11+00:00 INFO (6): Тип 2 - найдено: 137, прошли первичные фильтры: 24, не прошли фильтр по цветам: 6, добавлено: 18, новых вин-кодов: 0
+2010-11-18T20:46:13+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '202') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '3'
+2010-11-18T20:46:13+00:00 INFO (6): Тип 3 - найдено: 37, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T20:46:16+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T20:46:16+00:00 INFO (6): Тип 4 - найдено: 65, прошли первичные фильтры: 31, не прошли фильтр по цветам: 23, добавлено: 8, новых вин-кодов: 0
+2010-11-18T20:46:18+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T20:46:18+00:00 INFO (6): Тип 5 - найдено: 41, прошли первичные фильтры: 19, не прошли фильтр по цветам: 17, добавлено: 2, новых вин-кодов: 0
+2010-11-18T20:46:20+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T20:46:20+00:00 INFO (6): Тип 6 - найдено: 27, прошли первичные фильтры: 23, не прошли фильтр по цветам: 21, добавлено: 2, новых вин-кодов: 0
+2010-11-18T20:46:22+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T20:46:22+00:00 INFO (6): Тип 7 - найдено: 25, прошли первичные фильтры: 17, не прошли фильтр по цветам: 16, добавлено: 1, новых вин-кодов: 0
+2010-11-18T20:46:23+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T20:46:23+00:00 INFO (6): Тип 8 - найдено: 10, прошли первичные фильтры: 6, не прошли фильтр по цветам: 6, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:26+00:00 INFO (6): Тип 9 - найдено: 66, прошли первичные фильтры: 4, не прошли фильтр по цветам: 0, добавлено: 4, новых вин-кодов: 1
+2010-11-18T20:46:33+00:00 INFO (6): Тип 10 - найдено: 136, прошли первичные фильтры: 12, не прошли фильтр по цветам: 0, добавлено: 12, новых вин-кодов: 0
+2010-11-18T20:46:38+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T20:46:38+00:00 INFO (6): Тип 21 - найдено: 90, прошли первичные фильтры: 4, не прошли фильтр по цветам: 4, добавлено: 0, новых вин-кодов: 1
+2010-11-18T20:46:45+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T20:46:45+00:00 INFO (6): Тип 22 - найдено: 167, прошли первичные фильтры: 4, не прошли фильтр по цветам: 2, добавлено: 2, новых вин-кодов: 0
+2010-11-18T20:46:49+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1D4') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '13'
+2010-11-18T20:46:49+00:00 INFO (6): Тип 23 - найдено: 66, прошли первичные фильтры: 9, не прошли фильтр по цветам: 8, добавлено: 1, новых вин-кодов: 0
+2010-11-18T20:46:49+00:00 INFO (6): Adesa
+2010-11-18T20:46:50+00:00 INFO (6): Авторизация: запрос №1 прошел
+2010-11-18T20:46:51+00:00 INFO (6): Авторизация: запрос №2 прошел
+2010-11-18T20:46:51+00:00 INFO (6): Запрос авторизован
+2010-11-18T20:46:53+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '4P2', '8P6', 'UCAB8', '202', '3P4', '6R6') OR `color_inside` NOT IN ('LB22', 'LB00', 'WZ22') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '1'
+2010-11-18T20:46:53+00:00 INFO (6): Тип 11 - найдено: 10, прошли первичные фильтры: 5, не прошли фильтр по цветам: 2, добавлено: 3, новых вин-кодов: 1
+2010-11-18T20:46:53+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('1C0', '6T1', '1E0', '062', '065', '202', '8R6') OR `color_inside` NOT IN ('LA22', 'LA11', 'LA00') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '2'
+2010-11-18T20:46:53+00:00 INFO (6): Тип 12 - найдено: 7, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:53+00:00 INFO (6): Тип 13 - найдено: 0, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:53+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '4'
+2010-11-18T20:46:53+00:00 INFO (6): Тип 14 - найдено: 4, прошли первичные фильтры: 2, не прошли фильтр по цветам: 2, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1F0', '070') OR `color_inside` NOT IN ('LK10', 'LH10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '5'
+2010-11-18T20:46:54+00:00 INFO (6): Тип 15 - найдено: 5, прошли первичные фильтры: 4, не прошли фильтр по цветам: 4, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LG10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '6'
+2010-11-18T20:46:54+00:00 INFO (6): Тип 16 - найдено: 2, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202') OR `color_inside` NOT IN ('LF10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '7'
+2010-11-18T20:46:54+00:00 INFO (6): Тип 17 - найдено: 2, прошли первичные фильтры: 1, не прошли фильтр по цветам: 1, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:54+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '070') OR `color_inside` NOT IN ('LA10') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '8'
+2010-11-18T20:46:54+00:00 INFO (6): Тип 18 - найдено: 1, прошли первичные фильтры: 0, не прошли фильтр по цветам: 0, добавлено: 0, новых вин-кодов: 0
+2010-11-18T20:46:55+00:00 INFO (6): Тип 19 - найдено: 14, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T20:46:55+00:00 INFO (6): Тип 20 - найдено: 24, прошли первичные фильтры: 2, не прошли фильтр по цветам: 0, добавлено: 2, новых вин-кодов: 0
+2010-11-18T20:46:57+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('A69D') OR `color_inside` NOT IN ('08A', '18A', '21T') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '11'
+2010-11-18T20:46:57+00:00 INFO (6): Тип 24 - найдено: 22, прошли первичные фильтры: 3, не прошли фильтр по цветам: 3, добавлено: 0, новых вин-кодов: 1
+2010-11-18T20:46:57+00:00 DEBUG (7): DELETE FROM `ccl_et_cars` WHERE (`color_outside` NOT IN ('202', '1D4', '056') OR `color_inside` NOT IN ('LB12', 'FA12') OR `color_outside` IS NULL OR `color_inside` IS NULL) AND `search_type` = '12'
+2010-11-18T20:46:57+00:00 INFO (6): Тип 25 - найдено: 20, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0
+2010-11-18T20:46:57+00:00 INFO (6): Тип 26 - найдено: 6, прошли первичные фильтры: 1, не прошли фильтр по цветам: 0, добавлено: 1, новых вин-кодов: 0

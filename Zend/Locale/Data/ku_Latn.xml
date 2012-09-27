@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.19 $"/>
+		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<language type="ku"/>
+		<script type="Latn"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="ar">erebГ®</language>
+			<language type="en">Г®ngilГ®zГ®</language>
+			<language type="ja">japonГ®</language>
+			<language type="ku">kurdГ®</language>
+		</languages>
+		<scripts>
+			<script type="Arab">erebГ®</script>
+		</scripts>
+		<territories>
+			<territory type="001">CГ®han</territory>
+			<territory type="TR">Tirkiye</territory>
+		</territories>
+		<keys>
+			<key type="calendar">salname</key>
+			<key type="collation">rГЄzkirin</key>
+		</keys>
+		<types>
+			<type type="gregorian" key="calendar">mГ®ladГ®</type>
+			<type type="islamic" key="calendar">hГ®crГ®</type>
+		</types>
+	</localeDisplayNames>
+	<layout>
+		<orientation characters="left-to-right"/>
+	</layout>
+	<characters>
+		<exemplarCharacters>[a-c Г§ d e ГЄ f-i Г® j-s Еџ t u Г» v-z]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">Г§il</month>
+							<month type="2">sib</month>
+							<month type="3">adr</month>
+							<month type="4">nГ®s</month>
+							<month type="5">gul</month>
+							<month type="6">hez</month>
+							<month type="7">tГ®r</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">Г§ile</month>
+							<month type="2">sibat</month>
+							<month type="3">adar</month>
+							<month type="4">nГ®san</month>
+							<month type="5">gulan</month>
+							<month type="6">hezГ®ran</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1">Г§</month>
+							<month type="2">s</month>
+							<month type="3">a</month>
+							<month type="4">n</month>
+							<month type="5">g</month>
+							<month type="6">h</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">yЕџ</day>
+							<day type="mon">dЕџ</day>
+							<day type="tue">sЕџ</day>
+							<day type="wed">Г§Еџ</day>
+							<day type="thu">pЕџ</day>
+							<day type="fri">Г®n</day>
+							<day type="sat">Еџ</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">yekЕџem</day>
+							<day type="mon">duЕџem</day>
+							<day type="tue">ЕџГЄ</day>
+							<day type="wed">Г§arЕџem</day>
+							<day type="thu">pГЄncЕџem</day>
+							<day type="fri">Г®n</day>
+							<day type="sat">ЕџemГ®</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun">y</day>
+							<day type="mon">d</day>
+							<day type="tue">s</day>
+							<day type="wed">Г§</day>
+							<day type="thu">p</day>
+							<day type="fri">Г®</day>
+							<day type="sat">Еџ</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Г‡1</quarter>
+							<quarter type="2">Г‡2</quarter>
+							<quarter type="3">Г‡3</quarter>
+							<quarter type="4">Г‡4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">Г‡1</quarter>
+							<quarter type="2">Г‡2</quarter>
+							<quarter type="3">Г‡3</quarter>
+							<quarter type="4">Г‡4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<am>BN</am>
+				<pm>PN</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0">BZ</era>
+						<era type="1">PZ</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<fields>
+					<field type="year">
+						<displayName>sal</displayName>
+					</field>
+					<field type="month">
+						<displayName>meh</displayName>
+					</field>
+					<field type="week">
+						<displayName>hefte</displayName>
+					</field>
+					<field type="day">
+						<displayName>roj</displayName>
+					</field>
+					<field type="hour">
+						<displayName>demjimГЄr</displayName>
+					</field>
+					<field type="minute">
+						<displayName>xulek</displayName>
+					</field>
+					<field type="second">
+						<displayName>Г§irke</displayName>
+					</field>
+				</fields>
+			</calendar>
+			<calendar type="islamic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="wide">
+							<month type="1">muбє–erem</month>
+							<month type="2">sefer</month>
+							<month type="3">rebГ®Кїulewel</month>
+							<month type="4">rebГ®Кїulaxer</month>
+							<month type="5">cemazГ®yelewel</month>
+							<month type="6">cemazГ®yelaxer</month>
+							<month type="7">receb</month>
+							<month type="8">ЕџeКїban</month>
+							<month type="9">remezan</month>
+							<month type="10">Еџewal</month>
+							<month type="11">zГ®lqeКїde</month>
+							<month type="12">zГ®lбє–ece</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+		</calendars>
+	</dates>
+	<posix>
+		<messages>
+			<yesstr>erГЄ:e</yesstr>
+			<nostr>na:n</nostr>
+		</messages>
+	</posix>
+</ldml>
