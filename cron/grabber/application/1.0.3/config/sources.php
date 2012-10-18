@@ -80,14 +80,14 @@ return array
       (
          'url' => 'http://www.dealerblock.ca/servlet/login/?null&redirect=',
          'redirect_url' => 'http://www.dealerblock.ca/home/index.do',
-         'ident' => 'ValentinaShevchik',
+         'ident' => 'DmitriiBoldyre',
          'post_fields' => array
          (
             'language' => 'en_US',
             'hostapplication' => 'adesa',
             'hostlocale' => 'en_US',
-            'username' => 'makmalauto',
-            'password' => 'cars12345',
+            'username' => 'sobex',
+            'password' => 'sobex123',
          ),
       ),
 
