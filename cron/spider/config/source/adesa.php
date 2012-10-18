@@ -13,15 +13,15 @@ return array
          (
             'url' => 'http://www.dealerblock.ca/servlet/login/?null&redirect=',
             'redirect' => 'http://www.dealerblock.ca/home/index.do',
-            'ident' => 'Valentina Shevchik',
+            'ident' => 'Dmitrii Boldyrev',
             'post_fields' => array
             (
                'language' => 'en_US',
                'loginAttempts' => '',
                'hostapplication' => 'adesa',
                'hostlocale' => 'en_US',
-               'username' => 'makmalauto',
-               'password' => 'newcar12345',
+               'username' => 'sobex',
+               'password' => 'sobex123',
             ),
          ),
          
