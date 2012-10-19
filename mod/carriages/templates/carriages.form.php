@@ -8,7 +8,17 @@ function makeSlotList($content, $n) {
 
 
     if (false === $cars){
-        $sql = "SELECT * FROM `ccl_".ACCOUNT_SUFFIX."cars` WHERE `delivered` = '0' AND `container`!='0'";
+        
+        if (!empty($content)){
+            $sql = "SELECT * FROM `ccl_".ACCOUNT_SUFFIX."cars` WHERE `container`!='0' AND (`delivered` = '0' OR `carriage`='".$content['id']."')";    
+        }
+        else{
+            $sql = "SELECT * FROM `ccl_".ACCOUNT_SUFFIX."cars` WHERE `container`!='0' AND `delivered` = '0'";    
+        }
+        
+        
+        
+        
         $query = mysql_query($sql);
         while ($tmp=mysql_fetch_assoc($query)){
             $cars[] = $tmp;
@@ -52,6 +62,11 @@ function containerForm($mode, $content) {
     $slot3 = '<select name="slot3" tabindex="8" class="monoSelect">'.makeSlotList($content, 3).'</select>';
     $slot4 = '<select name="slot4" tabindex="9" class="monoSelect">'.makeSlotList($content, 4).'</select>';
     $slot5 = '<select name="slot5" tabindex="10" class="monoSelect">'.makeSlotList($content, 5).'</select>';
+    $slot6 = '<select name="slot6" tabindex="10" class="monoSelect">'.makeSlotList($content, 6).'</select>';
+    $slot7 = '<select name="slot7" tabindex="10" class="monoSelect">'.makeSlotList($content, 7).'</select>';
+    $slot8 = '<select name="slot8" tabindex="10" class="monoSelect">'.makeSlotList($content, 8).'</select>';
+    $slot9 = '<select name="slot9" tabindex="10" class="monoSelect">'.makeSlotList($content, 9).'</select>';
+    $slot10 = '<select name="slot10" tabindex="10" class="monoSelect">'.makeSlotList($content, 10).'</select>';
 
 
 
@@ -83,7 +98,7 @@ function containerForm($mode, $content) {
 		<td align="right" class="title rowB"><strong>'.$translate->_('ожидаемая дата<br>прибытия').'</strong></td>
 		<td class="rowA rowB title"><input type="text" name="arrive_date" value="'.$content['arrive_date'].'" id="arrive_date" tabindex="3"></td>
 		<td class="title rowB"><img src="'.$root_path.'img/ccl/cal.gif" border=0 onclick="show_calendar(\'arrive_date\', \'\', myDateFormat);" class="datePicker"></td>
-		<td class="title rowB" align="right">'.captionLink($content['slot1'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot2'], '№2').'</td>
+		<td class="title rowB" align="right">'.captionLink($content['slot2'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot2'], '№2').'</td>
 		<td class="rowA rowB title">'.$slot2.'</td>
 	  </tr>
 	  
@@ -111,16 +126,49 @@ function containerForm($mode, $content) {
 		<td class="rowA rowB title">'.$slot5.'</td>
 	  </tr>
 	  
-	
 	  
-	 <tr>
+	  <tr>
 		<td align="right" class="title rowB"><input type="checkbox" name="arrived" value="1" style="border:0px;" tabindex="5" id="arrived"'.($content['arrived'] == '1' ? ' checked="checked"' : '').' tabindex="7"></td>
 		<td class="rowA rowB title"><label for="arrived" style="cursor:hand; cursor:pointer;">'.$translate->_('доставлен').'</label></td>
 		<td class="title rowB"></td>
-		<td class="title rowB" align="right">'.$translate->_('станция<br>назначения').'</td>
-		<td class="title rowB">'.$station.'</td>
+		<td class="title rowB" align="right">'.captionLink($content['slot6'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot6'], '№6').'</td>
+		<td class="rowA rowB title">'.$slot6.'</td>
 	  </tr>
-	  	  
+	  
+	  <tr>
+		<td align="right" class="title rowB">'.$translate->_('станция<br>назначения').'</td>
+		<td class="rowA rowB title">'.$station.'</td>
+		<td class="title rowB"></td>
+		<td class="title rowB" align="right">'.captionLink($content['slot7'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot7'], '№7').'</td>
+		<td class="rowA rowB title">'.$slot7.'</td>
+	  </tr>
+	  
+	  <tr>
+		<td align="right" class="title rowB"></td>
+		<td class="rowA rowB title"></td>
+		<td class="title rowB"></td>
+		<td class="title rowB" align="right">'.captionLink($content['slot8'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot8'], '№8').'</td>
+		<td class="rowA rowB title">'.$slot8.'</td>
+	  </tr>
+	  
+	   <tr>
+		<td align="right" class="title rowB"></td>
+		<td class="rowA rowB title"></td>
+		<td class="title rowB"></td>
+		<td class="title rowB" align="right">'.captionLink($content['slot9'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot9'], '№9').'</td>
+		<td class="rowA rowB title">'.$slot9.'</td>
+	  </tr>
+	  
+	
+	   <tr>
+		<td align="right" class="title rowB"></td>
+		<td class="rowA rowB title"></td>
+		<td class="title rowB"></td>
+		<td class="title rowB" align="right">'.captionLink($content['slot10'], '0', $root_path.'?mod=cars&sw=form&car_id='.$content['slot10'], '№10').'</td>
+		<td class="rowA rowB title">'.$slot10.'</td>
+	  </tr>
+	  
+	
 	  ';
 
 

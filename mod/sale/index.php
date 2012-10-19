@@ -1,5 +1,4 @@
 <?
-
 require('class.php');
 
 $page = new carsForSale();

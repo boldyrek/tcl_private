@@ -39,7 +39,7 @@ class CarsForm extends Proto {
          $this->car_id = intval($_GET['car_id']);
 
          $sql = "SELECT ccl_".ACCOUNT_SUFFIX."cars.*,ccl_".ACCOUNT_SUFFIX."cars.sold as car_is_sold,ccl_".ACCOUNT_SUFFIX."customers.name, ccl_".ACCOUNT_SUFFIX."customers.dealer as isdealer, ccl_".ACCOUNT_SUFFIX."customers.id as buyer_id,
-         ccl_".ACCOUNT_SUFFIX."forsale.id as sell_id, ccl_".ACCOUNT_SUFFIX."forsale.price as sell_price, ccl_".ACCOUNT_SUFFIX."forsale.comment as sell_comment, ccl_".ACCOUNT_SUFFIX."forsale.active_through as sell_active_through, ccl_".ACCOUNT_SUFFIX."forsale.sold as sold, ccl_".ACCOUNT_SUFFIX."transporters.name as sup_name
+         ccl_".ACCOUNT_SUFFIX."forsale.id as sell_id, ccl_".ACCOUNT_SUFFIX."forsale.price as sell_price,  ccl_".ACCOUNT_SUFFIX."forsale.dealer_price as dealer_sell_price, ccl_".ACCOUNT_SUFFIX."forsale.comment as sell_comment, ccl_".ACCOUNT_SUFFIX."forsale.active_through as sell_active_through, ccl_".ACCOUNT_SUFFIX."forsale.sold as sold, ccl_".ACCOUNT_SUFFIX."transporters.name as sup_name
          FROM `ccl_".ACCOUNT_SUFFIX."customers`
          RIGHT JOIN `ccl_".ACCOUNT_SUFFIX."cars`
          ON (ccl_".ACCOUNT_SUFFIX."customers.id=ccl_".ACCOUNT_SUFFIX."cars.buyer)
@@ -1409,6 +1409,14 @@ class CarsForm extends Proto {
 							<br>
 							<!-- <a href="#" onclick="doDieselRePost('.$this->content['sell_id'].', '.$this->car_id.');">Выложить на Diesel еще раз</a>
 							<br><span id="_repostInfo"></span> -->
+							<br>
+							'.$this->translate->_('цена').': <br>
+							<input type="text" name="sellPrice" size="6" style="border:1px solid #bbb; width:150px;" value="'.$this->content['sell_price'].'">
+							<br><br>
+							'.$this->translate->_('диллерская цена').': <br>
+							<input type="text" name="dealer_sell_price" size="6" style="border:1px solid #bbb; width:150px;" value="'.$this->content['dealer_sell_price'].'">
+							<br><br>
+							
 						</td>
 						<td colspan="2">
 							'.$this->translate->_('комментарий').': 
@@ -1419,7 +1427,7 @@ class CarsForm extends Proto {
 					</tr>
 					<tr>
 						<td width="103">
-							'.$this->translate->_('цена').': <input type="text" name="sellPrice" size="5" style="border:1px solid #bbb;" value="'.$this->content['sell_price'].'">
+							
 							
 						</td>
 						<td>

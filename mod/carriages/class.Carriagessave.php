@@ -27,6 +27,11 @@ class CarriagesSave extends Proto {
 		`slot3` = '".intval($_POST['slot3'])."', 
 		`slot4` = '".intval($_POST['slot4'])."', 
 		`slot5` = '".intval($_POST['slot5'])."', 
+		`slot6` = '".intval($_POST['slot6'])."', 
+		`slot7` = '".intval($_POST['slot7'])."', 
+		`slot8` = '".intval($_POST['slot8'])."', 
+		`slot9` = '".intval($_POST['slot9'])."', 
+		`slot10` = '".intval($_POST['slot10'])."', 
 		`arrived` = '".intval($_POST['arrived'])."'";
 
         if ($info['treking']!=$_POST['treking']){
@@ -46,7 +51,7 @@ class CarriagesSave extends Proto {
         $res = $this->mysqlQuery($sql);
     
 
-        for ($i=1; $i<=5; $i++){
+        for ($i=1; $i<=10; $i++){
             $this->updateCars($_POST['slot'.$i]);
         }
 

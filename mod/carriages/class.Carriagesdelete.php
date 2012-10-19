@@ -25,6 +25,10 @@ class CarriagesDelete extends Proto {
         $sql = "UPDATE `ccl_".ACCOUNT_SUFFIX."cars` SET `carriage`='' WHERE `carriage`='".intval($_GET['id'])."'";
         $res = $this->mysqlQuery($sql);
         
+        $sql="DELETE FROM `ccl_".ACCOUNT_SUFFIX."carriage` WHERE `id`='".intval($_GET['id'])."'";
+        $res = $this->mysqlQuery($sql);
+        
+        
         $this->redirect($this->root_path.'?mod=carriages');
         die;
             

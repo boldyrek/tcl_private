@@ -30,10 +30,11 @@ class CarsForSale extends Proto {
                    $comment = mysql_real_escape_string(strip_tags($_POST['sellComment']));
 
 			$sql = "INSERT INTO `ccl_".ACCOUNT_SUFFIX."forsale`
-			(`car`, `price`, `comment`, `comment_admin`, `date`, `active_through`, `sold`)
+			(`car`, `price`, `dealer_price`, `comment`, `comment_admin`, `date`, `active_through`, `sold`)
 			VALUES ( 
 			'".intval($_GET['car_id'])."', 
 			'".intval($_POST['sellPrice'])."', 
+			'".intval($_POST['dealer_sell_price'])."', 
 			'".$comment."',
                         '".$comment."',
 			'".date('Y-m-d')."',
@@ -55,7 +56,9 @@ class CarsForSale extends Proto {
                         $comment = mysql_real_escape_string(strip_tags($_POST['sellComment']));
 			
 			$sql = "UPDATE `ccl_".ACCOUNT_SUFFIX."forsale`
-			SET `price`='".intval($_POST['sellPrice'])."',
+			SET 
+			`price`='".intval($_POST['sellPrice'])."',
+			`dealer_price`='".intval($_POST['dealer_sell_price'])."',
 			`comment` = '".$comment."',
                         `comment_admin` = '".$comment."',
 			`sold` = '".($_POST['sold']=='on'?'1':'0')."',
@@ -178,7 +181,7 @@ class CarsForSale extends Proto {
 			$myimg = mysql_fetch_array(mysql_query("SELECT file FROM `ccl_".ACCOUNT_SUFFIX."cars_photos` WHERE car = ".intval($_GET['car_id'])." ORDER BY id ASC LIMIT 1"));
 
 		if(file_exists('upload_diesel.jpg')) unlink ('upload_diesel.jpg');	// deleting old file
-		copy('photos/'.intval($_GET['car_id']).'/'.$myimg['file'], 'upload_diesel.jpg');	// copying new file
+		@copy('photos/'.intval($_GET['car_id']).'/'.$myimg['file'], 'upload_diesel.jpg');	// copying new file
 
 
 		require($_SERVER['DOCUMENT_ROOT'].'/diesel/class.Diesel.php');		

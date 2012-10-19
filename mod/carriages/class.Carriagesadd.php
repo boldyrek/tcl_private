@@ -31,6 +31,11 @@ class CarriagesAdd extends Proto {
          `slot3`,
          `slot4`,
          `slot5`,
+         `slot6`,
+         `slot7`,
+         `slot8`,
+         `slot9`,
+         `slot10`,
          `arrived`,
          `treking`,
          `treking_date`)
@@ -45,15 +50,21 @@ class CarriagesAdd extends Proto {
 		'".intval($_POST['slot3'])."', 
 		'".intval($_POST['slot4'])."', 
 		'".intval($_POST['slot5'])."', 
+		'".intval($_POST['slot6'])."', 
+		'".intval($_POST['slot7'])."', 
+		'".intval($_POST['slot8'])."', 
+		'".intval($_POST['slot9'])."', 
+		'".intval($_POST['slot10'])."', 
 		'".intval($_POST['arrived'])."', 
 		'".mysql_real_escape_string(($_POST['treking']))."', 
 		NOW())";
-
+        
+        
         $this->mysqlQuery($request);
 
         $this->lastInsertId = mysql_insert_id();
 
-        for ($i=1; $i<=5; $i++){
+        for ($i=1; $i<=10; $i++){
             $this->updateCars($_POST['slot'.$i]);
         }
 
