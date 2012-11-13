@@ -10,7 +10,7 @@ return array
          'hostname' => 'localhost',
          'database' => 'boldyrek_db1',
          'username' => 'root',
-         'password' => '',
+         'password' => 'ieSeTiengae7Sh',
          'persistent' => FALSE,
       ),
       'table_prefix' => 'ccl_',

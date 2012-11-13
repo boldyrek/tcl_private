@@ -80,14 +80,14 @@ return array
       (
          'url' => 'http://www.dealerblock.ca/servlet/login/?null&redirect=',
          'redirect_url' => 'http://www.dealerblock.ca/home/index.do',
-         'ident' => 'ValentinaShevchik',
+         'ident' => 'DmitriiBoldyrev',
          'post_fields' => array
          (
             'language' => 'en_US',
             'hostapplication' => 'adesa',
             'hostlocale' => 'en_US',
-            'username' => 'makmalauto',
-            'password' => 'cars12345',
+            'username' => 'sobex',
+            'password' => 'sobex123',
          ),
       ),
 
@@ -365,18 +365,17 @@ return array
    // megaavto
    9 => array(
       'remote_options' => array(
-         CURLOPT_REFERER => 'http://mega-avto.com/usa/index.php',
+         CURLOPT_REFERER => 'http://a.mega-avto.com/usa/index.php',
       ),
 
-      'url' => 'http://mega-avto.com/usa/',
+      'url' => 'http://a.mega-avto.com/usa/',
 
       'options' => array('камера заднего вида', 'навигация'),
 
       'search' => array(
-         // 'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
-         'items' => array(153),
-         'url' => 'http://mega-avto.com/usa/index.php?mode=searchresults&sid=Zz',
-         'offset_url' => 'http://mega-avto.com/usa/index.php?mode=searchresults',
+         'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
+         'url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults&sid=Zz',
+         'offset_url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults',
          'offset' => 25,
          'fields' => array(
             'saveRecentSearch' => 'true',

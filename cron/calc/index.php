@@ -3,7 +3,7 @@
 /**
  * Application version.
  */
-define('APPVERSION', '0.1.3');
+define('APPVERSION', '0.1.4');
 
 /**
  * The directory in which your application specific resources are located.

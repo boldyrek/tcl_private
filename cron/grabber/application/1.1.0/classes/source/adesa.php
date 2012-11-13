@@ -4,12 +4,17 @@ class Source_Adesa extends Source implements Kohana_Source {
 
    public function execute()
    {
-      if (! $this->_login())
+    
+       
+       
+   	
+   	if (! $this->_login())
       {
          Kohana::$log->add(Log::ERROR, 'Unauthorized request');
          return;
       }
-
+      
+      
       ob_start();
       echo Remote::factory(Arr::get($this->_config, 'runlist_url'), $this->_remote_options);
       ob_end_clean();
@@ -55,7 +60,7 @@ class Source_Adesa extends Source implements Kohana_Source {
          );
 
          $response = Remote::factory($search['url'], $options)->execute();
-
+                  
          if (strpos($response, 'Error 500') !== FALSE)
          {
             Kohana::$log->add(Log::ERROR, '500 Internal Server Error');
@@ -276,6 +281,7 @@ class Source_Adesa extends Source implements Kohana_Source {
    protected function _is_logged($response = FALSE)
    {
       $login = Arr::get($this->_config, 'login');
+      
 
       if (! $response)
          $response = Remote::factory(Arr::get($login, 'redirect_url'), $this->_remote_options)->execute();

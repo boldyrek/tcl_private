@@ -1,0 +1,579 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-10-31 12:54:38 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'root'@'localhost' (using password: NO) ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2012-10-31 12:54:44 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'root'@'localhost' (using password: NO) ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2012-10-31 12:54:57 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'root'@'localhost' (using password: NO) ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2012-10-31 12:59:37 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'root'@'localhost' (using password: NO) ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2012-10-31 13:01:48 --- ERROR: Kohana_Exception [ 0 ]: MDS calculation period has expired in 13-04-2012 ~ APPPATH\classes\autotrader\mds.php [ 28 ]
+2012-10-31 13:09:31 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:09:31 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:03:06 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:03:06 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:03:16 --- DEBUG: MDS. Mercedes-Benz M-Class, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:03:16 --- DEBUG: MDS. Mercedes-Benz M-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:03:22 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - Mercedes, EXCEPTION - nav|navigation|navi
+2012-10-31 13:03:22 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:03:22 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:03:25 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - infiniti, EXCEPTION - nav|navigation|navi
+2012-10-31 13:03:25 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:03:25 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:03:42 --- DEBUG: MDS. Honda Accord Crosstour, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:03:42 --- DEBUG: MDS. Honda Accord Crosstour, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:04:09 --- DEBUG: MDS. Toyota Venza, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:04:09 --- DEBUG: MDS. Toyota Venza, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:04:31 --- DEBUG: MDS. Toyota Venza, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:04:31 --- DEBUG: MDS. Toyota Venza, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:04:36 --- DEBUG: MDS. BMW X5, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:04:36 --- DEBUG: MDS. BMW X5, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:04:48 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - sport package, EXCEPTION - 
+2012-10-31 13:04:48 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:04:48 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:04:57 --- DEBUG: MDS. Subaru Forester, 2009: VPD - 0, MDS - 0, CONDITION - nav|navi|navigation, EXCEPTION - 
+2012-10-31 13:04:57 --- DEBUG: MDS. Subaru Forester, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:04 --- DEBUG: MDS. Subaru Forester, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:05:04 --- DEBUG: MDS. Subaru Forester, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:10 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:05:10 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:10 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - toyota, EXCEPTION - nav|navigation|navi 
+2012-10-31 13:05:13 --- DEBUG: MDS. Toyota Highlander, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:05:13 --- DEBUG: MDS. Toyota Highlander, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:27 --- DEBUG: MDS. Toyota Sienna, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:05:27 --- DEBUG: MDS. Toyota Sienna, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:32 --- DEBUG: MDS. Toyota Sienna, 2007: VPD - 0, MDS - 0, CONDITION - navi|navigation|nav, EXCEPTION - 
+2012-10-31 13:05:32 --- DEBUG: MDS. Toyota Sienna, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:05:48 --- DEBUG: MDS. Toyota Sienna, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:05:48 --- DEBUG: MDS. Toyota Sienna, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:01 --- DEBUG: MDS. Toyota Sienna, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:06:01 --- DEBUG: MDS. Toyota Sienna, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:09 --- DEBUG: MDS. Toyota Sienna, 2010: VPD - 0, MDS - 0, CONDITION - navigation|nav|navi, EXCEPTION - 
+2012-10-31 13:06:09 --- DEBUG: MDS. Toyota Sienna, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:15 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:06:15 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - tech, EXCEPTION - 
+2012-10-31 13:06:15 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:36 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:06:36 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:36 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - nav|navigation|navi
+2012-10-31 13:06:51 --- DEBUG: MDS. Acura MDX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi|tech, EXCEPTION - 
+2012-10-31 13:06:51 --- DEBUG: MDS. Acura MDX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:06:55 --- DEBUG: MDS. Acura RDX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:06:55 --- DEBUG: MDS. Acura RDX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:07:13 --- DEBUG: MDS. Acura RDX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:07:13 --- DEBUG: MDS. Acura RDX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:07:22 --- DEBUG: MDS. Acura RDX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:07:22 --- DEBUG: MDS. Acura RDX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:07:27 --- DEBUG: MDS. Acura TL, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:07:27 --- DEBUG: MDS. Acura TL, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:07:33 --- DEBUG: MDS. Acura TL, 2007: VPD - 0, MDS - 0, CONDITION - nav|navi|navigation, EXCEPTION - 
+2012-10-31 13:07:33 --- DEBUG: MDS. Acura TL, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:07:54 --- DEBUG: MDS. Acura TL, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:07:54 --- DEBUG: MDS. Acura TL, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:00 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:00 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - nav}navigation|navi, EXCEPTION - 
+2012-10-31 13:08:00 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:00 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - navi|navigation|nav, EXCEPTION - 
+2012-10-31 13:08:03 --- DEBUG: MDS. Acura TSX, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:03 --- DEBUG: MDS. Acura TSX, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:07 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:07 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - 
+2012-10-31 13:08:07 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:12 --- DEBUG: MDS. Acura TSX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:12 --- DEBUG: MDS. Acura TSX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:33 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:33 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:33 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - nav|navigation|navi
+2012-10-31 13:08:42 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:42 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - 
+2012-10-31 13:08:42 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:46 --- DEBUG: MDS. Honda Odyssey, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:46 --- DEBUG: MDS. Honda Odyssey, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:08:52 --- DEBUG: MDS. Honda Odyssey, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:08:52 --- DEBUG: MDS. Honda Odyssey, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:18 --- DEBUG: MDS. Honda Odyssey, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:09:18 --- DEBUG: MDS. Honda Odyssey, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:26 --- DEBUG: MDS. Honda Odyssey, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:09:26 --- DEBUG: MDS. Honda Odyssey, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:48 --- DEBUG: MDS. Honda Odyssey, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:09:48 --- DEBUG: MDS. Honda Odyssey, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - ex, EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - ex-l, EXCEPTION - 
+2012-10-31 13:10:34 --- DEBUG: MDS. Honda CR-V, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:10:34 --- DEBUG: MDS. Honda CR-V, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:10:53 --- DEBUG: MDS. Honda CR-V, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:10:53 --- DEBUG: MDS. Honda CR-V, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:24 --- DEBUG: MDS. Honda CR-V, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:24 --- DEBUG: MDS. Honda CR-V, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:35 --- DEBUG: MDS. Honda CR-V, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:35 --- DEBUG: MDS. Honda CR-V, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:50 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:50 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - a, EXCEPTION - 
+2012-10-31 13:11:50 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:58 --- DEBUG: MDS. Honda Pilot, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:58 --- DEBUG: MDS. Honda Pilot, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:08 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:08 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - pilot, EXCEPTION - nav|navigation|navi
+2012-10-31 13:12:08 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:14 --- DEBUG: MDS. Honda Pilot, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:14 --- DEBUG: MDS. Honda Pilot, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:34 --- DEBUG: MDS. Honda Pilot, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:34 --- DEBUG: MDS. Honda Pilot, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:44 --- DEBUG: MDS. Mitsubishi Outlander, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:44 --- DEBUG: MDS. Mitsubishi Outlander, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:10 --- DEBUG: MDS. Nissan Murano, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:10 --- DEBUG: MDS. Nissan Murano, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:17 --- DEBUG: MDS. Nissan Murano, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:17 --- DEBUG: MDS. Nissan Murano, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:24 --- DEBUG: MDS. Nissan Maxima, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:13:24 --- DEBUG: MDS. Nissan Maxima, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:27 --- DEBUG: MDS. Nissan Maxima, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:27 --- DEBUG: MDS. Nissan Maxima, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:33 --- DEBUG: MDS. Nissan Pathfinder, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:33 --- DEBUG: MDS. Nissan Pathfinder, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:38 --- DEBUG: MDS. Nissan Pathfinder, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:38 --- DEBUG: MDS. Nissan Pathfinder, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:44 --- DEBUG: MDS. Nissan Pathfinder, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:44 --- DEBUG: MDS. Nissan Pathfinder, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:53 --- DEBUG: MDS. Nissan Pathfinder, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:53 --- DEBUG: MDS. Nissan Pathfinder, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:14:03 --- DEBUG: MDS. Nissan Pathfinder, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:14:03 --- DEBUG: MDS. Nissan Pathfinder, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:15:19 --- DEBUG: MDS. Honda Accord, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:15:19 --- DEBUG: MDS. Honda Accord, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:05 --- DEBUG: MDS. Honda Accord, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:05 --- DEBUG: MDS. Honda Accord, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:24 --- DEBUG: MDS. Honda Accord, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:24 --- DEBUG: MDS. Honda Accord, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:35 --- DEBUG: MDS. Infiniti G, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:35 --- DEBUG: MDS. Infiniti G, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:15 --- DEBUG: MDS. Infiniti G, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:15 --- DEBUG: MDS. Infiniti G, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:32 --- DEBUG: MDS. Infiniti G, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:32 --- DEBUG: MDS. Infiniti G, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:40 --- DEBUG: MDS. Infiniti G, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:40 --- DEBUG: MDS. Infiniti G, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:56 --- DEBUG: MDS. Subaru Impreza WRX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:09 --- DEBUG: MDS. Subaru Impreza WRX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:28 --- DEBUG: MDS. Subaru Impreza WRX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:28 --- DEBUG: MDS. Subaru Impreza WRX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:18:41 --- DEBUG: MDS. Subaru Impreza WRX, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:41 --- DEBUG: MDS. Subaru Impreza WRX, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:18:44 --- DEBUG: MDS. Subaru Outback, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:52 --- DEBUG: MDS. Subaru Outback, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:55 --- DEBUG: MDS. Subaru Outback, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:55 --- DEBUG: MDS. Subaru Outback, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:19:00 --- DEBUG: MDS. Subaru Outback, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:00 --- DEBUG: MDS. Subaru Outback, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:19:10 --- DEBUG: MDS. Subaru Tribeca, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:24 --- DEBUG: MDS. Subaru Tribeca, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:26 --- DEBUG: MDS. Subaru Tribeca, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:28 --- DEBUG: MDS. Subaru Tribeca, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:48 --- DEBUG: MDS. Lexus RX 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:48 --- DEBUG: MDS. Lexus RX 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:20:12 --- DEBUG: MDS. Lexus RX 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:20:12 --- DEBUG: MDS. Lexus RX 350, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:20:52 --- DEBUG: MDS. Lexus RX 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:23 --- DEBUG: MDS. Lexus RX 350, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:23 --- DEBUG: MDS. Lexus RX 350, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:26 --- DEBUG: MDS. Lexus GS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:26 --- DEBUG: MDS. Lexus GS 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:33 --- DEBUG: MDS. Lexus GS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:35 --- DEBUG: MDS. Lexus GS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:42 --- DEBUG: MDS. Lexus ES 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:42 --- DEBUG: MDS. Lexus ES 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:00 --- DEBUG: MDS. Lexus ES 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:00 --- DEBUG: MDS. Lexus ES 350, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:08 --- DEBUG: MDS. Lexus ES 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:08 --- DEBUG: MDS. Lexus ES 350, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:16 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:16 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:16 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - audi, EXCEPTION - nav|navigation|navi
+2012-10-31 13:22:19 --- DEBUG: MDS. Audi A8, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:21 --- DEBUG: MDS. Audi A8, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:27 --- DEBUG: MDS. Audi A6, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:36 --- DEBUG: MDS. Audi A6, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:39 --- DEBUG: MDS. Audi A6, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:54 --- DEBUG: MDS. Audi A4, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:07 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:07 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - s line|s-line, EXCEPTION - 
+2012-10-31 13:23:07 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:07 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - Cabriolet|convertible|cabrio, EXCEPTION - 
+2012-10-31 13:23:33 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:33 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - avant|avante, EXCEPTION - 
+2012-10-31 13:23:33 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:23:33 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - Cabriolet|convertible|cabrio, EXCEPTION - 
+2012-10-31 13:23:42 --- DEBUG: MDS. Audi A4, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:47 --- DEBUG: MDS. Audi Q5, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:47 --- DEBUG: MDS. Audi Q5, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:52 --- DEBUG: MDS. Audi Q5, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:52 --- DEBUG: MDS. Audi Q5, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:54 --- DEBUG: MDS. Audi Q7, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:00 --- DEBUG: MDS. Audi Q7, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:12 --- DEBUG: MDS. Audi Q7, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:15 --- DEBUG: MDS. Mercedes-Benz E-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:15 --- DEBUG: MDS. Mercedes-Benz E-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:24:23 --- DEBUG: MDS. Mercedes-Benz E-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:29 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:24:29 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - e300|3.0l, EXCEPTION - 
+2012-10-31 13:24:29 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - e350, EXCEPTION - 
+2012-10-31 13:24:29 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:24:43 --- DEBUG: MDS. Mercedes-Benz E-Class, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:25:04 --- DEBUG: MDS. Mercedes-Benz GLK-Class, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:25:04 --- DEBUG: MDS. Mercedes-Benz GLK-Class, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:25:16 --- DEBUG: MDS. Mercedes-Benz C-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:25:16 --- DEBUG: MDS. Mercedes-Benz C-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:26:12 --- DEBUG: MDS. Mercedes-Benz C-Class, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:26:12 --- DEBUG: MDS. Mercedes-Benz C-Class, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:26:16 --- DEBUG: MDS. Mercedes-Benz S-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:01 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:01 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:27:06 --- DEBUG: MDS. Lexus IS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:15 --- DEBUG: MDS. Lexus IS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:26 --- DEBUG: MDS. Lexus IS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:31 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:41 --- DEBUG: MDS. Lexus IS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:56 --- DEBUG: MDS. Lexus IS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:07 --- DEBUG: MDS. Lexus IS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:40 --- DEBUG: MDS. BMW 1-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:42 --- DEBUG: MDS. BMW 1-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:48 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:48 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - 128, EXCEPTION - 
+2012-10-31 13:28:48 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - 135, EXCEPTION - 
+2012-10-31 13:28:48 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:28:48 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:50 --- DEBUG: MDS. BMW 1-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:50 --- DEBUG: MDS. BMW 1-Series, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:54 --- DEBUG: MDS. BMW 1-Series, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:54 --- DEBUG: MDS. BMW 1-Series, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:58 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:58 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:28:58 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:00 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:00 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:29:00 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:29:01 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:29:01 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:29:01 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 328xi, EXCEPTION - 
+2012-10-31 13:29:01 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 335xi, EXCEPTION - 
+2012-10-31 13:29:03 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:03 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - 328xi, EXCEPTION - 
+2012-10-31 13:29:03 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - 335xi, EXCEPTION - 
+2012-10-31 13:29:03 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - xdrive, EXCEPTION - 
+2012-10-31 13:29:08 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - Convertible, EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - xdrive, EXCEPTION - 
+2012-10-31 13:29:11 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:29:13 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:13 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 550, EXCEPTION - 
+2012-10-31 13:29:13 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 530, EXCEPTION - 
+2012-10-31 13:29:13 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 525, EXCEPTION - 
+2012-10-31 13:29:19 --- DEBUG: MDS. BMW 5-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:19 --- DEBUG: MDS. BMW 5-Series, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:22 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:22 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:22 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 550, EXCEPTION - 
+2012-10-31 13:29:22 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 535, EXCEPTION - 
+2012-10-31 13:29:22 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 528, EXCEPTION - 
+2012-10-31 13:29:25 --- DEBUG: MDS. BMW 5-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:36 --- DEBUG: MDS. BMW X3, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:36 --- DEBUG: MDS. BMW X3, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:45 --- DEBUG: MDS. BMW X3, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:45 --- DEBUG: MDS. BMW X3, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:56 --- DEBUG: MDS. BMW X3, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:30:06 --- DEBUG: MDS. BMW X3, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:09:54 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:09:58 --- DEBUG: MDS. Mercedes-Benz M-Class, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:09:58 --- DEBUG: MDS. Mercedes-Benz M-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:10:06 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - Mercedes, EXCEPTION - nav|navigation|navi
+2012-10-31 13:10:06 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:10:06 --- DEBUG: MDS. Mercedes-Benz M-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:10:10 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - infiniti, EXCEPTION - nav|navigation|navi
+2012-10-31 13:10:10 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:10:10 --- DEBUG: MDS. Infiniti FX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:10:36 --- DEBUG: MDS. Honda Accord Crosstour, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:10:36 --- DEBUG: MDS. Honda Accord Crosstour, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:01 --- DEBUG: MDS. Toyota Venza, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:01 --- DEBUG: MDS. Toyota Venza, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:18 --- DEBUG: MDS. Toyota Venza, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:18 --- DEBUG: MDS. Toyota Venza, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:33 --- DEBUG: MDS. BMW X5, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:33 --- DEBUG: MDS. BMW X5, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:43 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - sport package, EXCEPTION - 
+2012-10-31 13:11:43 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:11:43 --- DEBUG: MDS. BMW X5, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:11:49 --- DEBUG: MDS. Subaru Forester, 2009: VPD - 0, MDS - 0, CONDITION - nav|navi|navigation, EXCEPTION - 
+2012-10-31 13:11:49 --- DEBUG: MDS. Subaru Forester, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:04 --- DEBUG: MDS. Subaru Forester, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:04 --- DEBUG: MDS. Subaru Forester, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:20 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:12:20 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:20 --- DEBUG: MDS. Toyota Highlander, 2008: VPD - 0, MDS - 0, CONDITION - toyota, EXCEPTION - nav|navigation|navi 
+2012-10-31 13:12:25 --- DEBUG: MDS. Toyota Highlander, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:25 --- DEBUG: MDS. Toyota Highlander, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:43 --- DEBUG: MDS. Toyota Sienna, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:12:43 --- DEBUG: MDS. Toyota Sienna, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:12:58 --- DEBUG: MDS. Toyota Sienna, 2007: VPD - 0, MDS - 0, CONDITION - navi|navigation|nav, EXCEPTION - 
+2012-10-31 13:12:58 --- DEBUG: MDS. Toyota Sienna, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:07 --- DEBUG: MDS. Toyota Sienna, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:13:07 --- DEBUG: MDS. Toyota Sienna, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:14 --- DEBUG: MDS. Toyota Sienna, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:14 --- DEBUG: MDS. Toyota Sienna, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:28 --- DEBUG: MDS. Toyota Sienna, 2010: VPD - 0, MDS - 0, CONDITION - navigation|nav|navi, EXCEPTION - 
+2012-10-31 13:13:28 --- DEBUG: MDS. Toyota Sienna, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:13:38 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:13:38 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - tech, EXCEPTION - 
+2012-10-31 13:13:38 --- DEBUG: MDS. Acura MDX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:14:04 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:14:04 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:14:04 --- DEBUG: MDS. Acura MDX, 2008: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - nav|navigation|navi
+2012-10-31 13:14:36 --- DEBUG: MDS. Acura MDX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi|tech, EXCEPTION - 
+2012-10-31 13:14:36 --- DEBUG: MDS. Acura MDX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:14:48 --- DEBUG: MDS. Acura RDX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:14:48 --- DEBUG: MDS. Acura RDX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:15:04 --- DEBUG: MDS. Acura RDX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:15:04 --- DEBUG: MDS. Acura RDX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:15:23 --- DEBUG: MDS. Acura RDX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:15:23 --- DEBUG: MDS. Acura RDX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:15:32 --- DEBUG: MDS. Acura TL, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:15:32 --- DEBUG: MDS. Acura TL, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:15:40 --- DEBUG: MDS. Acura TL, 2007: VPD - 0, MDS - 0, CONDITION - nav|navi|navigation, EXCEPTION - 
+2012-10-31 13:15:40 --- DEBUG: MDS. Acura TL, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:05 --- DEBUG: MDS. Acura TL, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:05 --- DEBUG: MDS. Acura TL, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:16 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:16 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - nav}navigation|navi, EXCEPTION - 
+2012-10-31 13:16:16 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:16 --- DEBUG: MDS. Acura TL, 2009: VPD - 0, MDS - 0, CONDITION - navi|navigation|nav, EXCEPTION - 
+2012-10-31 13:16:23 --- DEBUG: MDS. Acura TSX, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:23 --- DEBUG: MDS. Acura TSX, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:28 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:28 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - 
+2012-10-31 13:16:28 --- DEBUG: MDS. Acura TSX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:36 --- DEBUG: MDS. Acura TSX, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:36 --- DEBUG: MDS. Acura TSX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:58 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:16:58 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:16:58 --- DEBUG: MDS. Acura TSX, 2009: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - nav|navigation|navi
+2012-10-31 13:17:06 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:06 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - acura, EXCEPTION - 
+2012-10-31 13:17:06 --- DEBUG: MDS. Acura TSX, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:17 --- DEBUG: MDS. Honda Odyssey, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:17 --- DEBUG: MDS. Honda Odyssey, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:17:34 --- DEBUG: MDS. Honda Odyssey, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:17:34 --- DEBUG: MDS. Honda Odyssey, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:12 --- DEBUG: MDS. Honda Odyssey, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:18:12 --- DEBUG: MDS. Honda Odyssey, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:26 --- DEBUG: MDS. Honda Odyssey, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:18:26 --- DEBUG: MDS. Honda Odyssey, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:18:58 --- DEBUG: MDS. Honda Odyssey, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:18:58 --- DEBUG: MDS. Honda Odyssey, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:04 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:19:04 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:19:04 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - ex, EXCEPTION - 
+2012-10-31 13:19:04 --- DEBUG: MDS. Honda CR-V, 2007: VPD - 0, MDS - 0, CONDITION - ex-l, EXCEPTION - 
+2012-10-31 13:19:47 --- DEBUG: MDS. Honda CR-V, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:19:47 --- DEBUG: MDS. Honda CR-V, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:20:12 --- DEBUG: MDS. Honda CR-V, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:20:12 --- DEBUG: MDS. Honda CR-V, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:20:38 --- DEBUG: MDS. Honda CR-V, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:20:38 --- DEBUG: MDS. Honda CR-V, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:20:57 --- DEBUG: MDS. Honda CR-V, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:20:57 --- DEBUG: MDS. Honda CR-V, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:02 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:02 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - a, EXCEPTION - 
+2012-10-31 13:21:02 --- DEBUG: MDS. Honda Pilot, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:07 --- DEBUG: MDS. Honda Pilot, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:07 --- DEBUG: MDS. Honda Pilot, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:25 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:25 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - pilot, EXCEPTION - nav|navigation|navi
+2012-10-31 13:21:25 --- DEBUG: MDS. Honda Pilot, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:21:44 --- DEBUG: MDS. Honda Pilot, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:21:44 --- DEBUG: MDS. Honda Pilot, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:06 --- DEBUG: MDS. Honda Pilot, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:06 --- DEBUG: MDS. Honda Pilot, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:12 --- DEBUG: MDS. Mitsubishi Outlander, 2011: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:12 --- DEBUG: MDS. Mitsubishi Outlander, 2011: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:38 --- DEBUG: MDS. Nissan Murano, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:38 --- DEBUG: MDS. Nissan Murano, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:42 --- DEBUG: MDS. Nissan Murano, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:42 --- DEBUG: MDS. Nissan Murano, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:51 --- DEBUG: MDS. Nissan Maxima, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:22:51 --- DEBUG: MDS. Nissan Maxima, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:22:59 --- DEBUG: MDS. Nissan Maxima, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:22:59 --- DEBUG: MDS. Nissan Maxima, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:06 --- DEBUG: MDS. Nissan Pathfinder, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:06 --- DEBUG: MDS. Nissan Pathfinder, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:13 --- DEBUG: MDS. Nissan Pathfinder, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:13 --- DEBUG: MDS. Nissan Pathfinder, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:22 --- DEBUG: MDS. Nissan Pathfinder, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:22 --- DEBUG: MDS. Nissan Pathfinder, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:25 --- DEBUG: MDS. Nissan Pathfinder, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:25 --- DEBUG: MDS. Nissan Pathfinder, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:23:31 --- DEBUG: MDS. Nissan Pathfinder, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:23:31 --- DEBUG: MDS. Nissan Pathfinder, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:25:01 --- DEBUG: MDS. Honda Accord, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:25:01 --- DEBUG: MDS. Honda Accord, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:25:44 --- DEBUG: MDS. Honda Accord, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:25:44 --- DEBUG: MDS. Honda Accord, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:07 --- DEBUG: MDS. Honda Accord, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:27:07 --- DEBUG: MDS. Honda Accord, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:27:32 --- DEBUG: MDS. Infiniti G, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:27:32 --- DEBUG: MDS. Infiniti G, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:12 --- DEBUG: MDS. Infiniti G, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:12 --- DEBUG: MDS. Infiniti G, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:23 --- DEBUG: MDS. Infiniti G, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:23 --- DEBUG: MDS. Infiniti G, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:30 --- DEBUG: MDS. Infiniti G, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:28:30 --- DEBUG: MDS. Infiniti G, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:34 --- DEBUG: MDS. Subaru Impreza WRX, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:28:49 --- DEBUG: MDS. Subaru Impreza WRX, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:07 --- DEBUG: MDS. Subaru Impreza WRX, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:07 --- DEBUG: MDS. Subaru Impreza WRX, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:21 --- DEBUG: MDS. Subaru Impreza WRX, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:21 --- DEBUG: MDS. Subaru Impreza WRX, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:24 --- DEBUG: MDS. Subaru Outback, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:27 --- DEBUG: MDS. Subaru Outback, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:31 --- DEBUG: MDS. Subaru Outback, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:31 --- DEBUG: MDS. Subaru Outback, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:36 --- DEBUG: MDS. Subaru Outback, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:36 --- DEBUG: MDS. Subaru Outback, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:29:44 --- DEBUG: MDS. Subaru Tribeca, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:47 --- DEBUG: MDS. Subaru Tribeca, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:54 --- DEBUG: MDS. Subaru Tribeca, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:29:57 --- DEBUG: MDS. Subaru Tribeca, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:30:04 --- DEBUG: MDS. Lexus RX 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:30:04 --- DEBUG: MDS. Lexus RX 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:30:31 --- DEBUG: MDS. Lexus RX 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:30:31 --- DEBUG: MDS. Lexus RX 350, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:31:04 --- DEBUG: MDS. Lexus RX 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:34 --- DEBUG: MDS. Lexus RX 350, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:31:34 --- DEBUG: MDS. Lexus RX 350, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:39 --- DEBUG: MDS. Lexus GS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:39 --- DEBUG: MDS. Lexus GS 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:31:50 --- DEBUG: MDS. Lexus GS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:54 --- DEBUG: MDS. Lexus GS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:58 --- DEBUG: MDS. Lexus ES 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:31:58 --- DEBUG: MDS. Lexus ES 350, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:32:23 --- DEBUG: MDS. Lexus ES 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:23 --- DEBUG: MDS. Lexus ES 350, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:32:31 --- DEBUG: MDS. Lexus ES 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:31 --- DEBUG: MDS. Lexus ES 350, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:32:34 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:34 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:32:34 --- DEBUG: MDS. Audi A8, 2007: VPD - 0, MDS - 0, CONDITION - audi, EXCEPTION - nav|navigation|navi
+2012-10-31 13:32:39 --- DEBUG: MDS. Audi A8, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:41 --- DEBUG: MDS. Audi A8, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:48 --- DEBUG: MDS. Audi A6, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:51 --- DEBUG: MDS. Audi A6, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:32:54 --- DEBUG: MDS. Audi A6, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:00 --- DEBUG: MDS. Audi A4, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:09 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:09 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - s line|s-line, EXCEPTION - 
+2012-10-31 13:33:09 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:33:09 --- DEBUG: MDS. Audi A4, 2008: VPD - 0, MDS - 0, CONDITION - Cabriolet|convertible|cabrio, EXCEPTION - 
+2012-10-31 13:33:25 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:25 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - avant|avante, EXCEPTION - 
+2012-10-31 13:33:25 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi , EXCEPTION - 
+2012-10-31 13:33:25 --- DEBUG: MDS. Audi A4, 2009: VPD - 0, MDS - 0, CONDITION - Cabriolet|convertible|cabrio, EXCEPTION - 
+2012-10-31 13:33:30 --- DEBUG: MDS. Audi A4, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:32 --- DEBUG: MDS. Audi Q5, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:32 --- DEBUG: MDS. Audi Q5, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:33:42 --- DEBUG: MDS. Audi Q5, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:42 --- DEBUG: MDS. Audi Q5, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:33:45 --- DEBUG: MDS. Audi Q7, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:33:52 --- DEBUG: MDS. Audi Q7, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:03 --- DEBUG: MDS. Audi Q7, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:06 --- DEBUG: MDS. Mercedes-Benz E-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:06 --- DEBUG: MDS. Mercedes-Benz E-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:34:10 --- DEBUG: MDS. Mercedes-Benz E-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:16 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:16 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - e300|3.0l, EXCEPTION - 
+2012-10-31 13:34:16 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - e350, EXCEPTION - 
+2012-10-31 13:34:16 --- DEBUG: MDS. Mercedes-Benz E-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:34:26 --- DEBUG: MDS. Mercedes-Benz E-Class, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:57 --- DEBUG: MDS. Mercedes-Benz GLK-Class, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:34:57 --- DEBUG: MDS. Mercedes-Benz GLK-Class, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:35:04 --- DEBUG: MDS. Mercedes-Benz C-Class, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:35:04 --- DEBUG: MDS. Mercedes-Benz C-Class, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:35:40 --- DEBUG: MDS. Mercedes-Benz C-Class, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:35:40 --- DEBUG: MDS. Mercedes-Benz C-Class, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:35:48 --- DEBUG: MDS. Mercedes-Benz S-Class, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:35:54 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:35:54 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:35:57 --- DEBUG: MDS. Lexus IS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:11 --- DEBUG: MDS. Lexus IS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:24 --- DEBUG: MDS. Lexus IS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:38 --- DEBUG: MDS. Lexus IS 350, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:41 --- DEBUG: MDS. Lexus IS 350, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:51 --- DEBUG: MDS. Lexus IS 350, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:56 --- DEBUG: MDS. Lexus IS 350, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:36:58 --- DEBUG: MDS. BMW 1-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:04 --- DEBUG: MDS. BMW 1-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:07 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:07 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - 128, EXCEPTION - 
+2012-10-31 13:37:07 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - 135, EXCEPTION - 
+2012-10-31 13:37:07 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:37:07 --- DEBUG: MDS. BMW 1-Series, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:37:41 --- DEBUG: MDS. BMW 1-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:41 --- DEBUG: MDS. BMW 1-Series, 2009: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:37:45 --- DEBUG: MDS. BMW 1-Series, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:45 --- DEBUG: MDS. BMW 1-Series, 2010: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:37:48 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:48 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:37:48 --- DEBUG: MDS. BMW 3-Series, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 328xi, EXCEPTION - 
+2012-10-31 13:37:52 --- DEBUG: MDS. BMW 3-Series, 2007: VPD - 0, MDS - 0, CONDITION - 335xi, EXCEPTION - 
+2012-10-31 13:37:55 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:37:55 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - 328xi, EXCEPTION - 
+2012-10-31 13:37:55 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - 335xi, EXCEPTION - 
+2012-10-31 13:37:55 --- DEBUG: MDS. BMW 3-Series, 2008: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - xdrive, EXCEPTION - 
+2012-10-31 13:38:00 --- DEBUG: MDS. BMW 3-Series, 2009: VPD - 0, MDS - 0, CONDITION - Convertible, EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 323, EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 328, EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - 335, EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - xdrive, EXCEPTION - 
+2012-10-31 13:38:02 --- DEBUG: MDS. BMW 3-Series, 2010: VPD - 0, MDS - 0, CONDITION - convertible, EXCEPTION - 
+2012-10-31 13:38:06 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:06 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 550, EXCEPTION - 
+2012-10-31 13:38:06 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 530, EXCEPTION - 
+2012-10-31 13:38:06 --- DEBUG: MDS. BMW 5-Series, 2006: VPD - 0, MDS - 0, CONDITION - 525, EXCEPTION - 
+2012-10-31 13:38:10 --- DEBUG: MDS. BMW 5-Series, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:10 --- DEBUG: MDS. BMW 5-Series, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:38:13 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:38:13 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:13 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 550, EXCEPTION - 
+2012-10-31 13:38:13 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 535, EXCEPTION - 
+2012-10-31 13:38:13 --- DEBUG: MDS. BMW 5-Series, 2008: VPD - 0, MDS - 0, CONDITION - 528, EXCEPTION - 
+2012-10-31 13:38:16 --- DEBUG: MDS. BMW 5-Series, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:52 --- DEBUG: MDS. BMW X3, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:52 --- DEBUG: MDS. BMW X3, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:38:56 --- DEBUG: MDS. BMW X3, 2007: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:38:56 --- DEBUG: MDS. BMW X3, 2007: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:39:05 --- DEBUG: MDS. BMW X3, 2008: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:39:13 --- DEBUG: MDS. BMW X3, 2009: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:46:03 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:46:49 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:46:49 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 13:47:02 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - nav|navigation|navi, EXCEPTION - 
+2012-10-31 13:47:02 --- DEBUG: MDS. Mercedes-Benz M-Class, 2006: VPD - 0, MDS - 0, CONDITION - , EXCEPTION - 
+2012-10-31 19:20:18 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected T_PROTECTED ~ APPPATH\classes\autotrader.php [ 335 ]

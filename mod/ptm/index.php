@@ -2,7 +2,7 @@
 
 define('DOCROOT', $_SERVER['DOCUMENT_ROOT']);
 define('SYSPATH', DOCROOT.'/mod/ptm');
-define('VERSION', '0.1.3');
+define('VERSION', '0.1.4');
 
 set_time_limit(0);
 error_reporting(E_ALL^E_NOTICE);
