@@ -206,7 +206,7 @@ return array
    19 => array
    (
       'parent' => 9,
-      'mark' => 'Honda',
+      'mark' => 'Lexus', //former Honda
       'cache' => TRUE,
       'fields' => array
       (
@@ -214,15 +214,15 @@ return array
          // 'y2' => 2003,
          // 'km' => 110000,
          'km2' => '',
-         'mk' => 'HONDA',
-         'ml' => array('CR-V', 'CR-V 2WD', 'CR-V 4WD'),
+         'mk' => 'Lexus',
+         'ml' => array('LX570', 'LX 570', 'LX 570 4WD'),
          'search' => 'Search Now'
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRD788|SHSRD788)[A-Z0-9]{9}/',
+         'vincode' => '/[A-Z0-9]{0,17}/',
          // 'mileage' => 110000,
-         'color' => '/Silver/i',
+         'color' => FALSE,
          'series' => FALSE,
       ),
       // 'colors' => NULL
@@ -717,12 +717,12 @@ return array
    93 => array
    (
       'parent' => 9,
-      'mark' => 'Honda',
+      'mark' => 'Lexus',
       'cache' => FALSE,
       'fields' => array
       (
-         'make' => 4294960968,
-         'model' => 4294961135,
+         'make' => 4294960951,
+         'model' => 4294937812,
          // 'fromYear' => 2002,
          // 'toYear' => 2003,
       ),
@@ -732,9 +732,9 @@ return array
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRD788|SHSRD788)[A-Z0-9]{9}/',
+         'vincode' => '/[A-Z0-9]{0,17}/',
          // 'mileage' => 110000,
-         'color' => '/silver|серебро|серебристый/iu',
+         'color' => FALSE,
          'series' => FALSE,
       ),
       // 'colors' => NULL
@@ -1233,12 +1233,12 @@ return array
    157 => array
    (
       'parent' => 9,
-      'mark' => 'Honda',
+      'mark' => 'Lexus',
       'cache' => FALSE,
       'fields' => array
       (
-         'make' => 4294960968,
-         'model' => 4294961135,
+         'make' => 4294960951,
+         'model' => 4294937812,
          // 'fromYear' => 2002,
          // 'toYear' => 2003,
       ),
@@ -1248,9 +1248,9 @@ return array
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRD788|SHSRD788)[A-Z0-9]{9}/',
+         'vincode' => '/[A-Z0-9]{0,17}/',
          // 'mileage' => 110000,
-         'color' => '/silver|серебро|серебристый/iu',
+         'color' => FALSE,
          'series' => FALSE,
       ),
       // 'colors' => NULL
