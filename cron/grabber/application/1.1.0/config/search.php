@@ -718,7 +718,7 @@ return array
    (
       'parent' => 9,
       'mark' => 'Lexus',
-      'cache' => FALSE,
+      'cache' => TRUE,
       'fields' => array
       (
          'make' => 4294960951,
@@ -728,7 +728,7 @@ return array
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960968+4294961135&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294937812&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
@@ -1234,7 +1234,7 @@ return array
    (
       'parent' => 9,
       'mark' => 'Lexus',
-      'cache' => FALSE,
+      'cache' => TRUE,
       'fields' => array
       (
          'make' => 4294960951,
@@ -1244,8 +1244,8 @@ return array
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960968+4294961135&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
-      ),
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294937812&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+      ),                    
       'filters' => array
       (
          'vincode' => '/[A-Z0-9]{0,17}/',
