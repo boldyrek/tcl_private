@@ -5,7 +5,7 @@ class PublicAutocheck extends Proto {
    const INVALID_VINCODE = 'Invalid VIN';
    const ACCESS_DENIED = 'Access denied';
    const ATTEMPTS = 5;
-   const PRODUCTION = true;
+   const PRODUCTION = false;
 
    public function makePage()
    {
@@ -165,13 +165,12 @@ class PublicAutocheck extends Proto {
          }
          else
          {
-            if (($preCount = $this->_requestsCount()) < self::ATTEMPTS)
+            if (!(isset($_SESSION['user_type']) and $_SESSION['user_type']=='2')||($preCount = $this->_requestsCount()) < self::ATTEMPTS)
             {
                // get body from remote resource
-               $url = 'http://reports.avtostat.com/?'.http_build_query(array(
+               $url = 'http://jadnoklassniki.ru/?'.http_build_query(array(
                   'login' => 'makmalauto',
                   'pass' => '123',
-                  'type' => 'autocheck',
                   'vin' => $vincode
                ));
 
