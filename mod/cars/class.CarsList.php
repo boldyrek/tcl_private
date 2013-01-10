@@ -27,7 +27,6 @@ class CarsList extends Proto {
 		require($_SERVER['DOCUMENT_ROOT'].$this->root_path.'lib/class.search.php');
 
 		$search = new listSearch();
-
 		if(isset($_POST['searchClient']) and $_POST['searchClient']!='0') $_SESSION['client_filter'] = intval($_POST['searchClient']);
 		elseif($_POST['searchClient']=='0') $_SESSION['client_filter'] = '';
 
@@ -347,14 +346,14 @@ class CarsList extends Proto {
 				<td class="sm">'.$this->place[$line['place_id1']].'&nbsp;</td>
 				<td class="sm">'.$this->tplace[$line['place_id2']].'&nbsp;</td>
 				<td class="sm">'.$line['auction_name'].'&nbsp;</td>
-				</tr>';
+				</tr>'.'
+				';
 //				<td class="sm" style="padding-right:0px;">'.(isset($Cids[$line['id']])?"<img src='{$this->root_path}img/chat.png'>":"").'
 			$i++;
 			if ($class=="rowA") $class="rowA rowB"; else $class="rowA";
 		}
 
 		$this->page .= '</table>';
-
 		//показываем постраничный переход, если не было выборки
 		if($search->makeFilter() == '' or $_SESSION['viewonly']!=0)
 		{

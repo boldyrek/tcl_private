@@ -221,26 +221,20 @@ padding:5px;
 	<table width="100%" align="center" cellpadding="10" cellspacing="0" class="termsTable">
 	  <tr>
 		<td align="center"><strong>Wiring instructions:
-<br />The Bank of Nova Scotia
-<br />Institution code #002
-<br />
-<br />Richmond Hill Main
-<br />10850 Yonge Street Unit #1
-<br />Richmond Hill, ON L4C 3E4
-<br />
-<br />Swift code: NOSCCATT
-<br />Routing or ABA #026002532
+
+<br />Royal Bank of Canada
+<br />Yonge & Sunset Branch
+<br />12935 Yonge Street
+<br />Richmond Hill ON L4E0G7
+<br />Routing No: 09999
+<br />Institution code# 003
+<br />Account# 4001814
+<br />SWIFT: ROYCCAT2
+
 <br />
 <br />Beneficiary name:
 <br />Sobex Enterprises Inc.
 <br />Beneficiary address: 92 Dovetail Drive Richmond Hill ON L4E5A7 Canada
-<br />Account #308820140511
-<!--<br>HSBC Bank Canada
-<br>Richmond Hill Branch
-<br>330 Highway #7 East, Unit 111
-<br>Richmond Hill, Ontario L4B 3P8
-<br>SWIFT Code: HKBC CATT
-<br>Account Number: 10122-016-400399-070 (US Funds)-->
 </strong></td>
 	  </tr>
 	</table>

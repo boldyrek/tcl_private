@@ -57,6 +57,7 @@ class CarsForm extends Proto {
          $this->content['id'] = '0';
          $this->content['ready'] = '0';
          $this->content['type'] = 1;
+         $this->content['country_id'] =121;
       }
 
       if ($this->content['id'] == '')
@@ -287,14 +288,16 @@ class CarsForm extends Proto {
       $cr_list = '';
       if ($num > 0)
       {
-
+            $index = 1;
          while ($line = mysql_fetch_array($this->cr))
          {
             $ico = fileIco($line['file']);
             $cr_list .= $this->wrapFile('<a href="'.$this->root_path.'photos/'.ACCOUNT_SUFFIX.$this->car_id.'/'.$line['file'].'" target="_blank">
 				<img src="'.$this->root_path.'img/ico/'.$ico.'" vspace="5" border="0"></a>
-				'.($line['filename'] != '' ? "<div style='font-size:9px;'>{$line['filename']}</div>" : '').'
+				'.($line['filename'] != '' ? "<div class='fileBlockText'>{$line['filename']}</div>" : '').'
 				<a href="'.$this->root_path.'?mod=cars&sw=delete&what=certificate&name='.$line['file'].'" class="delete" onclick="return confirm(\''.$this->translate->_('Вы действительно хотите удалить Отчет о состоянии автомобиля или CR?').'\')">'.$this->translate->_('удалить').'</a>');
+             if ($index%5==0) $adddoc_file .="<div class='clearbox'></div>";
+             $index++;
          }
       }
       //#######################################
@@ -485,7 +488,7 @@ class CarsForm extends Proto {
       // файл после-продажной инспекции
       if (mysql_num_rows($this->inspection) > 0)
       {
-
+        $index=1;
          while ($line = mysql_fetch_array($this->inspection))
          {
 
@@ -493,14 +496,17 @@ class CarsForm extends Proto {
 
             $inspection_file .= $this->wrapFile('
 			<a href="'.$this->root_path.'photos/'.ACCOUNT_SUFFIX.$this->car_id.'/'.$line['file'].'" target="_blank"><img src="'.$this->root_path.'img/ico/'.$ico.'" vspace="5" border="0"></a><br>
-			'.($line['filename'] != '' ? "<div style='font-size:9px;'>{$line['filename']}</div>" : '').'
+			'.($line['filename'] != '' ? "<div class='fileBlockText'>{$line['filename']}</div>" : '').'
 			<a href="'.$this->root_path.'?mod=cars&sw=delete&what=inspection_file&name='.$line['file'].'" class="delete" onclick="return confirm(\''.$this->translate->_('Вы действительно хотите удалить После Продажную инспекцию?').'\')">'.$this->translate->_('удалить').'</a>');
+             if ($index%5==0) $adddoc_file .="<div class='clearbox'></div>";
+             $index++;
          }
       }
 
       // файлы AutoCheck
       if (mysql_num_rows($this->autocheck) > 0)
       {
+          $index=1;
          while ($line = mysql_fetch_array($this->autocheck))
          {
 
@@ -508,15 +514,17 @@ class CarsForm extends Proto {
 
             $autocheck_file .= $this->wrapFile('
 			<a href="'.$this->root_path.'photos/'.ACCOUNT_SUFFIX.$this->car_id.'/'.$line['file'].'" target="_blank"><img src="'.$this->root_path.'img/ico/'.$ico.'" vspace="5" border="0"></a><br>
-			'.($line['filename'] != '' ? "<div style='font-size:9px;'>{$line['filename']}</div>" : '').'
+			'.($line['filename'] != '' ? "<div class='fileBlockText'>{$line['filename']}</div>" : '').'
 			<a href="'.$this->root_path.'?mod=cars&sw=delete&what=autocheck_file&name='.$line['file'].'" class="delete" onclick="return confirm(\''.$this->translate->_('Вы действительно хотите удалить этот файл?').'\')">'.$this->translate->_('удалить').'</a>');
+             if ($index%5==0) $adddoc_file .="<div class='clearbox'></div>";
+             $index++;
          }
       }
 
       // файл Сопроводительный документ
       if (mysql_num_rows($this->adddoc) > 0)
       {
-
+            $index=1;
          while ($line = mysql_fetch_array($this->adddoc))
          {
 
@@ -524,8 +532,10 @@ class CarsForm extends Proto {
 
             $adddoc_file .= $this->wrapFile('
 			<a href="'.$this->root_path.'photos/'.ACCOUNT_SUFFIX.$this->car_id.'/'.$line['file'].'" target="_blank"><img src="'.$this->root_path.'img/ico/'.$ico.'" vspace="5" border="0"></a><br>
-			'.($line['filename'] != '' ? "<div style='font-size:9px;'>{$line['filename']}</div>" : '').'
+			'.($line['filename'] != '' ? "<div class='fileBlockText'>{$line['filename']}</div>" : '').'
 			<a href="'.$this->root_path.'?mod=cars&sw=delete&what=adddoc_file&name='.$line['file'].'" class="delete" onclick="return confirm(\''.$this->translate->_('Вы действительно хотите удалить Сопроводительный документ?').'\')">'.$this->translate->_('удалить').'</a>');
+             if ($index%5==0) $adddoc_file .="<div class='clearbox'></div>";
+                 $index++;
          }
       }
 

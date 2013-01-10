@@ -168,11 +168,13 @@ class PublicAutocheck extends Proto {
             if (!(isset($_SESSION['user_type']) and $_SESSION['user_type']=='2')||($preCount = $this->_requestsCount()) < self::ATTEMPTS)
             {
                // get body from remote resource
-               $url = 'http://jadnoklassniki.ru/?'.http_build_query(array(
-                  'login' => 'makmalauto',
-                  'pass' => '123',
-                  'vin' => $vincode
-               ));
+                //$url = 'http://reports.avtostat.com/?'.http_build_query(array(
+                $url = 'http://reports.avtostat.com/?'.http_build_query(array(
+                    'login' => 'makmalauto',
+                    'pass' => '123',
+                    'type' => 'autocheck',
+                    'vin' => $vincode
+                ));
 
                $curl = curl_init($url);
 

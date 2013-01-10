@@ -85,18 +85,23 @@ class Source_Megaavto extends Source implements Kohana_Source {
                         $item_url = $this->_config['url'].$item_url;
 
                         $item_url = str_replace('&amp;', '&', $item_url);
+                        $cached_item=Jelly::select('cars_cache')->where('url','=',$item_url)->execute()->current();
 
-                        $response = Remote::factory($item_url, $this->_remote_options)->execute();
+                        if ($cached_item->url==null)
+                        {
+                            $response = Remote::factory($item_url, $this->_remote_options)->execute();
 
-                        $filters = $condition['filters'] + array(
-                        'mileage' => $car->mileage
-                        );
+                            $filters = $condition['filters'] + array(
+                            'mileage' => $car->mileage
+                            );
+                            $item = $this->_parse($response, $filters);
+                        }
+                        else
+                        {
+                            $item = Jelly::factory('cars_cache')->get_item_from_cache($cached_item);
+                        }
 
-
-
-                        $item = $this->_parse($response, $filters);
-
-                        if (! empty($item))
+                        if (! empty($item)  && !$this->_is_exist_vincode($item['vincode'],$search_id))
                         {
                             $item['url'] = $item_url;
                             $item['source_id'] = $this->_id;
@@ -111,14 +116,19 @@ class Source_Megaavto extends Source implements Kohana_Source {
                             ->set_path(strtoupper($item['vincode']).'-MEGAAVTO')
                             ->import($response);
                             }*/
-
                             Jelly::factory('cars')
-                            ->set($item)
-                            ->save();
+                                ->set($item)
+                                ->save();
 
+                            if ($cached_item->url==null)
+                            {
+                                Jelly::factory('cars_cache')
+                                    ->set($item)
+                                    ->save();
+
+                                $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+                            }
                             $passed++;
-
-                            $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
                         }
                     }
 
@@ -186,6 +196,7 @@ class Source_Megaavto extends Source implements Kohana_Source {
         preg_match('#<td[^>]+>VIN:</td><td><span><a[^>]+>(.+)</a></span>#U', $content, $vincode);
         preg_match('#<td[^>]+>Цвет кузова:</td><td>(.+)</td>#U', $content, $exterior);
         preg_match('#<td>.*<strong>Состояние:</strong><a[^>]+>.+</a><br />\$(.+)</td>#U', $content, $price);
+        preg_match('#<strong>Местоположение:</strong><br />(.+)\-(.+)<br /><strong>#U', $content, $state);
 
         $name = Arr::get($make, 1).' '.Arr::get($model, 1).' '.Arr::get($modification, 1);
         $date_auction = preg_replace('#(\d{2})/(\d{2})/(\d{4})\s\|\s(?:(\d{2}:\d{2})?).*#', '$3-$1-$2 $4', Arr::get($date_auction, 1));
@@ -193,6 +204,7 @@ class Source_Megaavto extends Source implements Kohana_Source {
         $mileage = (int) str_replace(',', '', Arr::get($mileage, 1));
         $price = (int) str_replace(',', '', Arr::get($price, 1));
         $exterior = Arr::get($exterior, 1);
+        $state = Arr::get($state, 1);
 
 
         try
@@ -214,6 +226,7 @@ class Source_Megaavto extends Source implements Kohana_Source {
                 'mileage' => $mileage,
                 'price' => $price,
                 'exterior' => $exterior,
+                'state' => $state,
                 'picture' => preg_match('#<img src="/usa/getImgs.php.*"[^>]+>#', $content)
                 );
             }

@@ -963,4 +963,4 @@ Function.prototype.wtbind = function(obj){
 var _tag=new WebTrends();
 _tag.dcsGetId();
 
-document.write("<scr"+"ipt type='text/javascript' src='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://" + _tag.domain + "/basesdc.js"+"'><\/scr"+"ipt>");
+document.write("<scr"+"ipt type='text/javascript' src='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://Adesa/basesdc.js"+"'><\/scr"+"ipt>");

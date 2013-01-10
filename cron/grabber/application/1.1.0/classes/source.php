@@ -131,7 +131,6 @@ class Source {
             ->where('vincode', '=', $vincode)
             ->limit(1)
             ->execute();
-
          // кода нету в таблице
          if (! $vin->loaded())
          {
@@ -192,6 +191,10 @@ class Source {
                ->where('vincode', '=', $vincode)
                ->limit(1)
                ->execute();
+             $select2 = Jelly::select('cars_cache')
+                 ->where('vincode', '=', $vincode)
+                 ->limit(1)
+                 ->execute();
 
             $binds = array(
                'vincode_date_added' => Arr::get($values, 'date_added'),
@@ -202,8 +205,11 @@ class Source {
 
             // обновляем таблицу машин
             Jelly::factory('cars')
-               ->set($binds)
-               ->save($select->id);
+             ->set($binds)
+             ->save($select->id);
+             Jelly::factory('cars_cache')
+                 ->set($binds)
+                 ->save($select2->id);
          }
       }
 
@@ -380,6 +386,15 @@ class Source {
       
       return $not_passed;
    }
+    public function _is_exist_vincode($vincode,$search_id)
+    {
+        $car = Jelly::Select('cars')
+            ->where('search_id', '=', $search_id)
+            ->where('vincode', '=', $vincode)
+            ->execute()
+            ->current();
+        return $car->loaded();
+    }
 
    public function __destruct()
    {

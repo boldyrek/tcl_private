@@ -7,9 +7,9 @@ return array(
       'connection' => array
       (
          'hostname' => 'localhost',
-         'database' => 'boldyrek_db0',
+         'database' => 'boldyrek_db1',
          'username' => 'root',
-         'password' => '',
+         'password' => 'ieSeTiengae7Sh',
          'persistent' => FALSE,
       ),
       'table_prefix' => 'ccl_grabber_',

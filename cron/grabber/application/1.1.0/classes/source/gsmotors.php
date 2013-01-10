@@ -82,16 +82,22 @@ class Source_Gsmotors extends Source implements Kohana_Source {
                foreach ($urls AS $item_url)
                {
                   $item_url = $this->_config['url'].$item_url;
+                  $cached_item=Jelly::select('cars_cache')->where('url','=',$item_url)->execute()->current();
 
+                  if ($cached_item->url==null)
+                  {
                   $response = Remote::factory($item_url, $this->_remote_options)->execute();
-
                   $filters = $condition['filters'] + array(
                      'mileage' => $car->mileage
                   );
-
                   $item = $this->_parse($response, $filters);
+                  }
+                   else
+                   {
+                       $item = Jelly::factory('cars_cache')->get_item_from_cache($cached_item);
+                   }
 
-                  if (! empty($item))
+                  if (! empty($item) && !$this->_is_exist_vincode($item['vincode'],$search_id))
                   {
                      $item['url'] = $item_url;
                      $item['source_id'] = $this->_id;
@@ -99,7 +105,7 @@ class Source_Gsmotors extends Source implements Kohana_Source {
                      $item['search_id'] = $search_id;
                      $item['options'] = $this->_get_options($this, $item_url);
 
-                     if ($item['picture'])
+                     if ($item['picture']&&$cached_item->url==null)
                      {
                         Filecache::factory()
                            ->set_url($item_url)
@@ -111,9 +117,17 @@ class Source_Gsmotors extends Source implements Kohana_Source {
                      ->set($item)
                      ->save();
 
+                      if ($cached_item->url==null)
+                      {
+                          Jelly::factory('cars_cache')
+                              ->set($item)
+                              ->save();
+
+                          $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+                      }
                      $passed++;
 
-                     $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+
                   }
                }
 
@@ -181,7 +195,7 @@ class Source_Gsmotors extends Source implements Kohana_Source {
       preg_match('#<td[^>]+>Пробег:</td><td><span>(.+)(?:\s+mi)?</span>#U', $content, $mileage);
       preg_match('#<td[^>]+>VIN:</td><td><span>(.+)</span>#U', $content, $vincode);
       preg_match('#<td[^>]+>Цвет кузова:</td><td>(.+)</td>#U', $content, $exterior);
-
+      preg_match('#<strong>Местоположение:</strong><br />(.+)\-(.+)<br /><strong>#U', $content, $state);
       $pre_price = '';
 
       if (! preg_match('#<td><br />Купить сейчас на OVE.com.*\$(.*)</td>#U', $content, $price))
@@ -198,6 +212,7 @@ class Source_Gsmotors extends Source implements Kohana_Source {
       $vincode = strtoupper(Arr::get($vincode, 1));
       $mileage = (int) str_replace(',', '', Arr::get($mileage, 1));
       $exterior = Arr::get($exterior, 1);
+      $state = Arr::get($state, 1);
 
       try
       {
@@ -219,6 +234,7 @@ class Source_Gsmotors extends Source implements Kohana_Source {
                'mileage' => $mileage,
                'price' => $pre_price.Arr::get($price, 1),
                'exterior' => $exterior,
+               'state' => $state,
                'picture' => preg_match('/<img.*id="image"[^>]+>/', $content)
             );
          }

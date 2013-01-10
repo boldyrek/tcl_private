@@ -36,7 +36,7 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
    'action' => 'index',
 ));
 
-Kohana::$environment = Kohana::PRODUCTION;
+Kohana::$environment = Kohana::DEVELOPMENT;
 
 if (Kohana::$environment == Kohana::PRODUCTION)
 {

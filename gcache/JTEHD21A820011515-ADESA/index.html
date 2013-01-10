@@ -1,79 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<Script>
-function popup(url) 
-{
- var isDebug =false;
- var width  = 440;
- var height = 400;
 
- //params  = 'width='+screen.width;
- //params += ', height='+screen.height;
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                     
  
- var left   = (screen.width  - width)/2;
- var top    = (screen.height - height)/2;
- var params = 'width='+width;
- params += ', height='+height;
- params += ', top='+top
- params += ', left='+left;
- params += ', directories=0';
- params += ', location=N';
- params += ', menubar=0';
- params += ', resizable=0';
- params += ', resizable=N';
- params += ', status=1';
- params += ', toolbar=0';
- params += ', titlebar=Y';
- if(isDebug)
- alert('URL : '+url+'\n\nPARAMS : '+params);
- var newwin = window.open(url, 'ADESA', params, false);
- if(window.focus)
- {
-   newwin.focus();
- }
- return true;
-}
-</Script>
-<script type="text/javascript">
-     document.domain = document.domain.split(".").slice(-2).join("."); 
-</script>
 
-
-
-
-
-
-
-
-
+ 
 
 
 
   
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
+      
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">       
 <head>
-<meta http-equiv="pragma" content="no-cache">
-<meta http-equiv="expires" content="0">
-<meta http-equiv="cache-control" content="no-cache">
-<META NAME="WT.cg_n" CONTENT="DealerBlock">
-<META NAME="WT.cg_s" CONTENT="DealerBlock_Condition_Report_Viewing">
+  <meta http-equiv="pragma" content="no-cache"> 
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="cache-control" content="no-cache">
+  <META NAME="WT.cg_n"  CONTENT="DealerBlock">
+  <META NAME="WT.cg_s"  CONTENT="DealerBlock_Condition_Report_Viewing">
 <link href="master.0.9.css" rel="stylesheet" type="text/css" />
 <link href="conditionReport.css" rel="stylesheet" type="text/css" />
 
@@ -84,7 +39,7 @@ function popup(url)
 		<META NAME="DCS.dcsaut" CONTENT="ValentinaShevchik"> 
 		<META NAME="DCSext.dealer_id" 	CONTENT="174938">   
 		<META NAME="DCSext.ip_address" 	CONTENT="88.214.207.23">
-        <META NAME="DCSext.time_stamp"      CONTENT="08/24/2012-17:10:02">
+        <META NAME="DCSext.time_stamp"      CONTENT="08/22/2012-19:10:01">
         <META NAME="DCSext.dealer_country"      CONTENT="CA">
         <META NAME="DCSext.dealer_type"      CONTENT="DEALER"> 
         <META NAME="DCSext.dealership_name"      CONTENT="Makmal_North_America">
@@ -154,13 +109,12 @@ _tag.dcsCollect();
 
 
 
-<title>ADESA OnLine Auto Auction - Condition Report</title>
+  <title>ADESA OnLine Auto Auction - Vehicle Details</title>
 </head>
-<body onload="Nifty('div.box','transparent');createCRImagesJSON();">
-
+ <body onload="Nifty('div.box','transparent')"  >
+ 
 <table class="wrapper" align="center" cellspacing="0" cellpadding="0">
-
-	
+<!--tr><td-->
 
 
 
@@ -576,7 +530,7 @@ _tag.dcsCollect();
 				<div class="infoLeft">
 					
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						3941 
+						2390 
 							vehicles available for purchase 
 					
 				</div>
@@ -594,690 +548,50 @@ _tag.dcsCollect();
 
 
 
-
+<!--/td></tr-->
 	<tr>
-		<td><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link
-	href="adesa_cr.css"
-	rel="stylesheet" type="text/css" media="all" />
-<link
-	href="adesa_cr-print.css"
-	rel="stylesheet" type="text/css" media="print" />
-<script type="text/javascript"
-	src="jquery-1.4.4.min.js"></script>
-<script type="text/javascript"
-	src="jquery-ui-1.8.10.custom.min.js"></script>
-<script type="text/javascript"
-	src="jquery.galleriffic.js"></script>
+		<td>
+			
 
-<script type="text/javascript"
-	src="jquery.opacityrollover.js"></script>
-<script type="text/javascript"
-	src="jquery.labelify.js"></script>
-<script type="text/javascript"
-	src="jquery.multiSelect.js"></script>
-<script type="text/javascript"
-	src="jquery.multiselect.filter.js"></script>
-<script type="text/javascript"
-	src="adesa_config_2011-06-25.js"></script>
-<script src="jquery.jMultiSelect.js" type="text/javascript"></script>
-<script type="text/javascript"
-	src="cr.js"></script>
-<!--[if lt IE 7]><script type="text/javascript" src="iehover-fix.js" ></script><![endif]-->
-<tr>
-	<td valign="top">
-	<table cellspacing="0" cellpadding="0" border="0" align="left">
-		<tbody>
-			<tr>
-				<td width="100%" valign="top">
-				<div id="cr-wrapper" class="cr-wrapper">
-				<div class="cr-header">
-				<div class="cr-logo"><img alt="ADESA"
-					src="adesalogo-cr.gif"></div>
-				<div class="printOnly"><img
-					src="adesalogo-print-cr.gif"></div>
-				<div class="cr-title">
-				<h1>Condition Report</h1>
-				<div class="cr-assistance">For Assistance: 888-526-7326</div>
-				</div>
-				<div class="cr-toolbar">
-					<img src="bg-cr-toolbar-left.gif">
-					<!--
-						Ramla S. - CR106400/DR108087-Begin
-		 				NOV 2011
-		 				Create a URL for condition report back button with refined search params.
-					-->
-					
-                	
-                	                	   
-                		
-                	
-                	
-                		
-                	
-                	
-                		<a  href="http://www.adesa.ca/home?LBflag=true&scrollPosition=&vf=yes&sortby=A_VHL_RUNNUM&y1=2001&y2=2005&mk=TOYOTA&ml=HIGHLANDER&ml=HIGHLANDER 4WD&ml=HIGHLANDER 4WD V6&ml=HIGHLANDER B&bs=&km=100000&km2=&pv=&ds=&st=&vpp=250&optSearchCountry=all&nw=&&vf=yes">
-                    		<img src="btn-cr-back.gif" alt="Back" align="top" class="btn-lpadding" />
-                   		</a>
-                	 
-                	
-                	<!-- Ramla S. - CR106400/DR108087-End -->
-					<a href='javascript:print();'><img align="top"
-						class="btn-rlpadding" alt="Print"
-						src="btn-cr-print.gif">
-					</a>
-					<img src="bg-cr-toolbar-right.gif">
-				</div>
-				</div>
-				<div id="cr-content" class="cr-content">
-				<div class="cr-mod-vehicle">
-				<h1>2002 TOYOTA HIGHLANDER BASE</h1>
-				<div class="cr-buttons">
-					<a href='/CarFaxRequest.do?vin=JTEHD21A820011515&amp;sellerId=100177' target="_blank"><img
-						src="btn-cr-carfaxNEW.gif"
-						alt="Carfax Vehicle History Report" /></a>
-				  </div>
-				<div class="cr-details">
-				<table width="100%" border="0" cellpadding="1" cellspacing="0">
-					<tr valign="top">
-						<td width="27%"><strong>Consignor:</strong></td>
-						<td colspan="2">Dealer Avenue</td>
-					</tr>
-					<tr valign="top">
-						<td><strong>Location:</strong></td>
+<table  width="100%" border="0" height="100%">
+	  <tr>
+		    <td valign="top"> 
+			      <table width="80%" align="center"  border="0" cellpadding="0" cellspacing="0">
+				        <tr>
+				  	      <td align="left" valign="top">
+								<table border="0" width="100%" align="center">
+							        <tr>
+							          	<td>	       	  
+							          		<a href="javascript:history.go(-1);">
+				        						<img src="back_eng.gif" alt="" border="0" />
+				     						 </a>
+				     					</td>
+				     				</tr>
+								</table>  	      
+					      </td>
+					    </tr>
 
-						<td colspan="2">ADESA PA, 30 Industrial Road York, PA 17406</td>
-					</tr>
-					<tr valign="top">
-						<td><strong>Distance:</strong></td>
-						<td colspan="2">482&nbsp;KM</td>
-					</tr>
-					<tr valign="top">
-
-						<td><strong>Inspection:</strong></td>
-						<td colspan="2"></td>
-					</tr>
-					<tr valign="top">
-						<td><strong> Transportation:</strong></td>
-						
-							<td width="45%"><span class="tooltipTransportation">
-							<div class="tooltip2">
-							Ready Auto Transport Quote: 
-							<span><img src="ReadyAutoTransport.jpg"><p>Ready's reputation for superior customer service and performance has made us the preferred auto transport provider for thousands of dealerships nationwide.</p> <p>In addition to great service, Ready has developed a valuable online Dealer Portal to assist you in managing your unique transportation requirements. Ready's Dealer Portal allows you to get instant firm quotes and manage the transportation of all vehicles purchased online and offline 24/7. Visit us at <a target='_blank' href='http://www.ReadyAT.com'>www.ReadyAT.com</a> to register.</p> <strong>3 Easy Ways to Order</strong><ul><li>Call us M-F 7:00am-4:30pm (MST) at <strong>866-245-5582</strong></li><li>Fax your order to <strong>480-558-3209</strong></li> <li>Email your order to <a href='mailto:Sales@ReadyAT.com'>Sales@ReadyAT.com</a></li></ul>
-							</span></div>
-							</span></td>
-							<td width="38%" valign="top">NA*</td>
-						
-					</tr>
-					<tr valign="top">
-						<td><strong>Certifications:</strong></td>
-						
-					</tr>
-					<tr valign="top">
-						<td>&nbsp;</td>
-						<td colspan="2">&nbsp;</td>
-					</tr>
-				</table>
-				</div>
-				</div>
-				<div class="cr-mod-auction">
-				<div class="cr-block">
-				<div class="c_480 left">
-				<div> 
-					<img
-						src="logo-LiveBlock-sm.gif">
-				 
-				
-					<br />
-					<strong> 
-						Run #77
-					</strong> 
-				
-				
-					<br />
-					<strong> 
-						Lane
-						E
-					</strong> 
-				 
-				
-				</div>
-				</div>
-				<div class="c_480 right">
-				<div class="mod_lmargin">Start Date: 29-Aug-2012<br />
-				Start Time: 10:00 AM EST<br />
-				 Current Time: <span id="currentTime">5:11 PM EST</span>
-					
-					<script>InitializeTimer(1345842686401, -4, 'currentTime');</script>
-					</div>
-				</div>
-				<br clear="all">
-				<br>
-				 
-				
-					<table width="100%" border="0" cellspacing="1" cellpadding="1">
-						<tr>
-							<td></td>
-							<td align="right"></td>
-
-						</tr>
-						<tr>
-							<td> <span
-								class="tooltipTopRight-large"><a href="#"><span> </span></a></span></td>
-							<td align="right"></td>
-						</tr>
-					</table>
-					
-				 <br clear="all">
-				</div>
-				</div>
-				<div class="cr-mod-gallery noPrint" style="display: block;">
-				<div class="gallery" id="gallery">
-				<div class="image-header">&nbsp;</div>
-				<div class="slideshow-container">
-				<div class="loader" id="loading" style="display: none;"></div>
-				<div class="slideshow" id="slideshow"><span
-					class="image-wrapper current" style="opacity: 1;"><a
-					title="Image Description 1" href="#2" rel="history"
-					class="advance-link">&nbsp;<img alt="" src=""></a></span></div>
-				</div>
-				<div class="caption-container" id="caption"><span
-					class="image-caption current" style="opacity: 1;">
-				<div class="caption">
-				<div class="image-desc"></div>
-				</div>
-				</span></div>
-				<div class="controls" id="controls">
-				<div class="nav-controls"><a rel="history" class="prev"
-					href="#18">&nbsp;</a><a rel="history" class="next" href="#2">&nbsp;</a></div>
-				</div>
-				</div>
-				<div class="cr-gallery-thumbnails">
-				<div class="thumb-header">&nbsp;</div>
-				<div class="navigation" id="thumbs"
-					style="margin: 0pt; padding: 0pt; float: left; clear: none; width: 100%; opacity: 1;">
-				<div class="top pagination"><span class="current">1</span><a
-					title="2" href="#10" rel="history">2</a><a title=""
-					href="#10" rel="history"></a></div>
-				<ul class="thumbs">
-				</ul>
-				</div>
-				<div class="thumb-toolbar"><a
-					onclick="return popitup('/members/CR_imageviewer-js.html')"
-					href='/members/CR_imageviewer-js.html'><img
-					src="btn-cr-larger_images.gif"></a>
-				</div>
-				</div>
-				</div>
-				<input type="hidden" id="crImagesJSON"
-					value='{&#034;CR Images&#034;: {
-  &#034;crMainImage&#034;: {
-    &#034;label&#034;: &#034;Detailed View&#034;,
-    &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_1.jpg&#034;,
-    &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_1.jpg&#034;,
-    &#034;caption&#034;: &#034;&#034;
-  },
-  &#034;images&#034;: {
-    &#034;label&#034;: &#034;Vehicle Images&#034;,
-    &#034;list&#034;: [
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_2.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_2.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_3.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_3.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_4.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_4.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_5.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_5.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_6.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_6.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_7.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_7.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_8.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_8.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_9.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_9.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24L/jtehd21a820011515_10.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-24S/jtehd21a820011515_10.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      }
-    ]
-  },
-  &#034;isImagesAvailable&#034;: true,
-  &#034;isMainImageAvailable&#034;: true,
-  &#034;crImagePopupTitle&#034;: &#034;ADESA OnLine Auto Auction - View Image&#034;,
-  &#034;crImagePrev&#034;: &#034;Prev&#034;,
-  &#034;crImageNext&#034;: &#034;Next&#034;,
-  &#034;playSlideShow&#034;: &#034;Play Slideshow&#034;,
-  &#034;pauseSlideShow&#034;: &#034;Pause Slideshow&#034;,
-  &#034;previousPhoto&#034;: &#034;Previous Photo&#034;,
-  &#034;nextPhoto&#034;: &#034;Next Photo&#034;,
-  &#034;photoCount&#034;: &#034;Photo {0} of {1}&#034;
-}}' />
-				<input type="hidden" id="prev"
-					value='Prev' />
-				<input type="hidden" id="next"
-					value='Next' />
-				<div class="cr-mod-info">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<tr valign="top">
-
-						<td width="50%" align="left"><!-- Vehicle Information -->
-						<table width="99%" class="cr-info-table" id="cr-vehicle-info"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th colspan="4" align="center">Vehicle Information</th>
-								</tr>
-							</thead>
-							<tr valign="top">
-
-								<td width="16%"><strong>VIN:</strong></td>
-								<td width="30%">JTEHD21A820011515</td>
-								<td width="23%"><strong>Stock #:</strong></td>
-								<td width="31%">126510</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Engine:</strong></td>
-								<td>4 Cylinder Gas [4G]</td>
-
-								<td><strong>Ext. Color:</strong></td>
-								<td>WHITE</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Trans:</strong></td>
-								<td>Automatic Transmission</td>
-
-								<td><strong>Int. Color:</strong></td>
-								<td>TAN</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Body Style:</strong></td>
-								<td>4 DR 4WD SUV</td>
-
-								<td><strong>Int. Type:</strong></td>
-								<td>Cloth Interior</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Odometer:</strong></td>
-								<td>168,699 MI</td>
-
-								<td><strong>Title State/ Prov:</strong></td>
-								<td></td>
-							</tr>
-							<tr valign="top">
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td><strong>In Service Date:</strong></td>
-								<td></td>
-							</tr>
-						</table>
-						<!-- Options -->
-						<table cellspacing="1" cellpadding="4" width="99%" id="cr-options-left" class="cr-info-table">
-                              	<thead>
-                                	<tr valign="top" class="rowB">
-										<th align="center">Options</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr valign="top" class="rowB">
-                               			<td><div class="option-abv">4WD  AC  PL  PW  HT  AFCC</div>
-                               			<div class="option-desc hidden">
-										
-											4WD - 4WD<br />
-										
-											AC - Air Conditioning<br />
-										
-											PL - Power Lock<br />
-										
-											PW - Power Window<br />
-										
-											HT - Hard Top<br />
-										
-											AFCC - AM\FM\Cass\CD<br />
-										
-										</div></td>
-                             		</tr>
-								
-									<tr valign="top" class="noPrint rowA">
-										<td><a class="showhideAll" href="#">Show Option Descriptions</a>
-										<input type="hidden" id="showOptionDesc"	value='Show Option Descriptions' />
-										<input type="hidden" id="hideOptionDesc"	value='Hide Option Descriptions' />
-										</td>
-									</tr>
-								
-							</tbody>
-						</table>
-						<!-- Accessories -->
-						<table width="99%" class="cr-info-table" id="cr-accessories-left"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Accessories</th>
-								</tr>
-							</thead>
-							
-								<tr valign="top">
-									<td>2.4L I-4 EFI DOHC</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>4WD</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>5 Passenger</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>&nbsp;</td>
-								</tr>
-							
-						</table>
-						<!-- Wheels & Tires -->
-						<table width="99%" class="cr-info-table" id="cr-wheels-tires"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Wheels and Tires</th>
-								</tr>
-							</thead>
-							
-								<tr>
-									<td>L FEND Wheel Oxidized</td>
-								</tr>
-							
-								<tr>
-									<td>L QTR Wheel Oxidized</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Type Standard</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Type Standard</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Type Standard</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 16 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 6/32</td>
-								</tr>
-							
-								<tr>
-									<td>Tire Brand Continental</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 16 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Tire Brand Hankook</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 6/32</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 16 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Type Standard</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 5/32</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 16 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 5/32</td>
-								</tr>
-							
-						</table>
-						</td>
-						<td align="right" width="50%"><!-- Announcements -->
-						<table width="99%" class="cr-info-table announcements"
-							id="cr-announcements" cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Announcements</th>
-
-								</tr>
-							</thead>
-							
-							
-								<tr>
-									<td>100K and over</td>
-								</tr>
-							
-								<tr>
-									<td>OVER 100,000</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-						</table>
-						<!-- Remarks -->
-						<table width="99%" class="cr-info-table" id="cr-remarks"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Remarks</th>
-								</tr>
-							</thead>
-							
-								<tr valign="top">
-									<td>Drivable Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Interior Color TAN</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Roof Luggage Rack Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Mileage 168699</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Seat Manual</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Number of Remotes 1</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Rear Defrost Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Heated Seats None</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Power Mirrors Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Odometer Digits 6</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Odometer Type Digital</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Master Key 1</td>
-								</tr>
-							
-						</table>
-						</td>
-					</tr>
-					<tr>
-						<td valign="top" colspan="2"><!-- Additional Info -->
-						<table width="100%" class="cr-info-table" id="cr-additional-info">
-							<thead>
-								<tr>
-									<th colspan="2">Additional Information</th>
-								</tr>
-							</thead>
-							<tr valign="top">
-								<td width="50%">
-								<table width="100%" border="0" cellpadding="4" cellspacing="1">
-									<tr>
-										<th>Exterior Information</th>
-									</tr>
-									
-										<tr valign="top">
-											<td>R QTR Panel Previous Repair</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>RR DR Panel Previous Repair</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>REAR Deck Lid Scratches - Heavy 1 - 3 inches</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>RF DR Mirror Housing Scratches - Heavy 1 - 3 inches</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>FRONT Roof Oxidized</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>FRONT Windshield Cracked 12+ inches</td>
-										</tr>
-									
-								</table>
-								</td>
-								<td width="50%">
-								<table width="100%" border="0" cellpadding="4" cellspacing="1">
-									<tr>
-										<th>Interior Information</th>
-									</tr>
-									
-										<tr valign="top">
-											<td>INT Seats LF Burned 1 - 3 inches</td>
-										</tr>
-									
-								</table>
-								</td>
-							</tr>
-						</table>
-						<!-- Condition Disclaimer --> <!-- OEM Information -->
-						<table width="100%" class="cr-info-table apNoShow"
-							id="cr-oem-info" cellpadding="4" cellspacing="1">
-							
-							
-						</table>
-						<!-- Transportation Disclaimer --> 
-						
-							
-								<div id="transportation-disclaimer" class="cr-disclaimer"><strong>Transportation Disclaimer:</strong>&nbsp;Transportation is between the dealer chosen transporter and dealer.  ADESA makes no representations or warranties, express or implied, with respect to transportation pricing, delivery dates and/or times.  ADESA shall not be responsible for any loss or damage as the result of any (i) pricing discrepancy of transporter, (ii) transporter&#039;s delay in delivery, or (iii) failure to deliver.  Further, in no event shall ADESA and its employees be liable for any damage to vehicles transported by transporter.  Quotes displayed are valid for 48 hours.</div>
-							
-						
-						
-						</td>
-					</tr>
-				</table>
-				</div>
-				<ul class="printOnly"></ul>
-				</div>
-				</div>
-				<!--end main CR wrapper--></td>
-
-			</tr>
-		</tbody>
-	</table>
-	</td>
-</tr>
+				        <tr>
+				  	      <td align="left" valign="top">&nbsp;
+					      </td>
+					    </tr>
+					    			      
+				        <tr> 
+				          <td valign="top">
+								<table border="0" width="100%" align="center">
+									 
+								          <tr><td class="errmsg" align="left"><font size="2">Sorry, this vehicle is in a closed sale and you do not have the appropriate franchises associated with your account. <br> Please contact your Home Auction if you have any questions.</font></td></tr>
+									 
+								 </table>
+				          </td>
+				        </tr>
+			      </table>
+		     </td>
+	  </tr>
+</table>
 		</td>
 	</tr>
-	
+
 <tr>
 	<td >
 	<div class="footer">

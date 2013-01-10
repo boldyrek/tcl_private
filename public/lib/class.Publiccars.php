@@ -750,7 +750,7 @@ class PublicCars extends Proto {
 
                 if ($content['number'] != '')
                 {
-                    $this->page.='<h3>'.$this->translate->_('Идет в контейнере').'</h3>
+                    $this->page.='<h3>'.$this->translate->_('Идет в контейнере').':'.$content['number'].'</h3>
 				<table width="692" border="0" cellpadding="0" cellspacing="0" class="list">
 				  <tr>
 				     <td width="25%" align="right" class="title"><strong>'.$this->translate->_('Дата погрузки в контейнер').':</strong></td>

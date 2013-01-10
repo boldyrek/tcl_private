@@ -17,7 +17,7 @@ class Remote {
 
    public static function factory($url, $options = NULL)
    {
-      return new Remote($url, $options);
+   	return new Remote($url, $options);
    }
 
    public function execute($follow_location = FALSE)

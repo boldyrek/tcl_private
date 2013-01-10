@@ -1176,6 +1176,7 @@ class Core extends Proto {
 
       $id = (int) $_GET['target'];
 
+       $_SESSION['autocheck_allowed']=true;
       $query = mysql_query('SELECT COUNT(*) AS `total` FROM `ccl_grabber_cars` WHERE `target_id` = '.$id);
       $row = mysql_fetch_array($query, MYSQL_ASSOC);
       $total = (int) $row['total'];
@@ -1201,6 +1202,10 @@ class Core extends Proto {
          $name = sprintf('%s %d-%d', $car->name, $car->year_from, $car->year_to);
 
          $this->page .= '<script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>';
+          $this->page .='<script type="text/javascript" src="/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	 <script type="text/javascript" src="/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	 <link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+     <script type="text/javascript" src="/js/carlist.js"></script>';
          $this->page .= '<div class="location"><a href="/?mod='.MODULE.'">'.ucfirst(MODULE).'</a> / '.$name.'</div>';
          $this->page .= '<table width="970" border="0" cellspacing="0" cellpadding="0" class="list vlines">';
          $this->page .= '<tr class="title sortButtons">';
@@ -1214,8 +1219,10 @@ class Core extends Proto {
          $this->page .= $this->sorterTD(MODULE, 'date_auction', $this->translate->_('Дата аукциона'));
          $this->page .= $this->sorterTD(MODULE, 'exterior_code', $this->translate->_('Цвет кузова'));
          $this->page .= $this->sorterTD(MODULE, 'interior_code', $this->translate->_('Цвет салона'));
+         $this->page .= $this->sorterTD(MODULE, 'state', $this->translate->_('Штат'));
          $this->page .= $this->sorterTD(MODULE, 'date_made', $this->translate->_('Дата выпуска'));
          $this->page .= '<td>'.$this->translate->_('Опции').'</td>';
+         $this->page .= '<td>'.$this->translate->_('Autocheck').'</td>';
          $this->page .= '<td>'.$this->translate->_('Коды опций').'</td>';
          $this->page .= '<td>'.$this->translate->_('Ссылка').'</td>';
          $this->page .= '<td>'.$this->translate->_('Копии в кэше').'</td>';
@@ -1274,8 +1281,10 @@ class Core extends Proto {
                <td class="sm">'.(! empty($row->date_auction) ? $row->date_auction : '-').'</td>
                <td class="sm">'.$exterior.'</td>
                <td class="sm">'.$interior.'</td>
+               <td class="sm">'.(! empty($row->state) ? $row->state : '-').'</td>
                <td class="sm">'.(! empty($row->date_made) ? preg_replace('/(\d{4})(?:\.)?(\d{2})/', '$2.$1', $row->date_made) : '-').'</td>
                <td class="sm">'.(! empty($row->options) ? $row->options : '-').'</td>
+               <td class="sm mono">'.'<a href="/public/autocheck/'.$row->vincode.'.html" onclick="showAutocheck(this,\''.$row->vincode.'\'); return false;" >Autocheck</a>'.'&nbsp;</td>
                <td class="sm">';
             
                $q = mysql_query("SELECT hl FROM `ccl_grabber_admin_options` WHERE `car_id` = {$row->target_id} LIMIT 1");

@@ -695,11 +695,11 @@ span.tooltip span.tooltipTopRight p {
                 height:60px !important;
                 width:290px;
                 padding: 10px 10px 0 10px;
-                background:url("http://media.adesa.com/adesa/common/images/ui/bg-VehicleCount.gif") 0 0 repeat-x;
+                background:url("../../images/ui/bg-VehicleCount.gif") 0 0 repeat-x;
 
 }
 #VehicleCount div.divlink:hover {
-    background-image: url("http://media.adesa.com/adesa/common/images/ui/bg-VehicleCount-hover.gif");
+    background-image: url("../../images/ui/bg-VehicleCount-hover.gif");
     cursor: pointer;
 }
 #VehicleCount div.divlink:hover h3 {
@@ -713,12 +713,12 @@ span.tooltip span.tooltipTopRight p {
                 height:60px !important;
                 width:151px;
                 padding: 10px 5px 0 10px;
-                background:url("http://media.adesa.com/adesa/common/images/ui/bg-VehicleCount.gif") 0 0 repeat-x;
+                background:url("../../images/ui/bg-VehicleCount.gif") 0 0 repeat-x;
                 float:left;
                 margin:0 1px 0 0;
 }
 #VehicleCount div.divlink2:hover {
-    background-image: url("http://media.adesa.com/adesa/common/images/ui/bg-VehicleCount-hover.gif");
+    background-image: url("../../images/ui/bg-VehicleCount-hover.gif");
 	cursor:pointer;
 }
 #VehicleCount div.divlink2:hover h3 {
@@ -758,13 +758,13 @@ span.tooltip span.tooltipTopRight p {
                 height:70px !important;
                 width:310px;
                 padding: 0;
-                background:url(http://media.adesa.com/adesa/common/images/ui/ad-ol-secure-homepage-button1-ph1.jpg) 0 0 repeat-x;
+                background:url(http://media.adesa.com/adesa/common/images/ui/button_SSO2.jpg) 0 0 repeat-x;
                 float:left;
                 clear:right;
 }
 
 #VehicleCount div.divlinkSSO:hover {
-                background:url(http://media.adesa.com/adesa/common/images/ui/ad-ol-secure-homepage-button2-ph1.jpg) 0 0 repeat-x;
+                background:url(http://media.adesa.com/adesa/common/images/ui/button_SSO2-hover.jpg) 0 0 repeat-x;
 }
 
 
@@ -853,8 +853,7 @@ div.content-box a:link, div.content-box a:visited {
     -moz-border-top-colors: none;
     background: url("../../images/ui/bg-interimSearchResults-dealerblock.gif") repeat scroll 0 0 #25929E;
     border-bottom-left-radius: 6px;
-    /*border-color: #006C79 -moz-use-text-color #006C79 #006C79;*/
-    border-color: #006C79;
+    border-color: #006C79 -moz-use-text-color #006C79 #006C79;
     border-style: solid none solid solid;
     border-width: 1px medium 1px 1px;
 }
@@ -869,8 +868,7 @@ div.content-box a:link, div.content-box a:visited {
     -moz-border-top-colors: none;
     background: url("../../images/ui/bg-interimSearchResults-runlist.gif") repeat scroll 0 0 #D68834;
     border-bottom-right-radius: 6px;
-    /*border-color: #CD6825 #CD6825 #CD6825 -moz-use-text-color;*/
-    border-color: #CD6825;
+    border-color: #CD6825 #CD6825 #CD6825 -moz-use-text-color;
     border-style: solid solid solid none;
     border-width: 1px 1px 1px medium;
 }
@@ -1691,23 +1689,12 @@ div.content-orange h6 a:link {
 div.note {
     background-color: #FDC651;
     border-radius: 3px 3px 3px 3px;
-    color: blue;
+    color: #333333;
     font-size: 0.9em;
     line-height: 1.2em;
     margin: 0 0 15px;
     padding: 5px;
 }
-
-div.note-black {
-    background-color: #FDC651;
-    border-radius: 3px 3px 3px 3px;
-    color: black;
-    font-size: 0.9em;
-    line-height: 1.2em;
-    margin: 0 0 15px;
-    padding: 5px;
-}
-
 .brown-border {
     border: 1px solid #D3CAB7;
 }
@@ -1928,102 +1915,4 @@ span.tooltip {
 span.tooltip span p a{
                 color:#000000;
                 text-decoration:underline;
-}
-
-/* OpenLane Vehicle Search Results Panel */
-
-@charset "utf-8";
-.wrapper tbody tr td table tbody tr td .container_12 #InterimResults-OL {
-}
-
-#InterimResults-OL{
-	border: 1px solid #cd6825;
-	border-left:none;
-	-moz-border-radius-bottomRight: 6px;
-	-webkit-border-radius-bottomright: 6px;
-	border-bottom-right-radius: 6px;
-	background-color: #6d3191;
-	background-image: url(http://media.adesa.com/adesa/common/images/ui/bg-interim-olSecureSearchResultsPurple.gif);
-	background-repeat: repeat;
-}
-#InterimResults-OL:hover{
-	background-color: #6C2E91;
-	background-image: url(http://media.adesa.com/adesa/common/images/ui/bg-interim-olSecureSearchResultsPurple2.gif);
-	background-repeat: repeat-x;
-	background-position: 0 top;
-	font-size: 12px;
-}
-.interimResults-ResultBlock{
-	height:120px;
-	width:219px !important;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	padding: 0px 5px 0px 5px;
-	text-align:center;
-	color: #FFFFFF;
-	border-top: none;
-	font-weight: bold;
-}
-#InterimResults-OL{
-	-moz-border-radius-bottomRight: 6px;
-	-webkit-border-radius-bottomright: 6px;
-	border-bottom-right-radius: 6px;
-	background-color: #6C2E91;
-	background-image: url(http://media.adesa.com/adesa/common/images/ui/bg-interim-olSecureSearchResultsPurple.gif);
-	background-repeat: repeat-x;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: none;
-	border-top-color: #6C2E91;
-	border-right-color: #6C2E91;
-	border-bottom-color: #6C2E91;
-	border-left-color: #6C2E91;
-}
-
-#InterimResults-USRunList {
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background: url("../../images/ui/bg-interimSearchResults-runlist.gif") repeat scroll 0 0 #D68834;
-    border-bottom-left-radius: 6px;
-    /*border-color: #CD6825 -moz-use-text-color #CD6825 #CD6825;*/
-	border-color: #CD6825;
-    border-style: solid none solid solid;
-    border-width: 1px medium 1px 1px;
-}
-#InterimResults-USRunList a {
-    text-decoration: none;
-}
-#InterimResults-USRunList:hover {
-    background: url("../../images/ui/bg-interimSearchResults-runlist.gif") repeat-x scroll 0 -50px #D68834;
-}
-#InterimResults-USRunList.interimResults-ResultBlock:hover {
-    cursor: pointer;
-}
-#InterimResults-USRunList a:link, #InterimResults-USRunList a:visited {
-    color: #FFFFFF;
-    display: inline-block;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-}
-#InterimResults-USRunList a.zero:link, #InterimResults-USRunList a.zero:visited {
-    border-bottom: medium none;
-    color: #FFFFFF;
-    cursor: default;
-    display: inline-block;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-    text-decoration: none;
-}
-#InterimResults-USRunList a:hover {
-    border: medium none;
 }

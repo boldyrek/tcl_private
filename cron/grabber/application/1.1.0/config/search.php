@@ -165,7 +165,7 @@ return array
          // 'km' => 100000,
          'km2' => '',
          'mk' => 'LEXUS',
-         'ml' => array('LX470', 'LX 470', 'LX 470 4WD'),
+         'ml' => array('RX350', 'RX 350', 'RX 350 4WD'),
          'search' => 'Search Now'
       ),
       'filters' => array
@@ -231,21 +231,21 @@ return array
    20 => array
    (
       'parent' => 10,
-      'mark' => 'Honda',
-      'cache' => FALSE,
+      'mark' => 'Toyota',
+      'cache' => TRUE,
       'fields' => array
       (
          // 'y1' => 2007,
          // 'y2' => 2008,
          // 'km' => 100000,
          'km2' => '',
-         'mk' => 'HONDA',
-         'ml' => array('CR-V', 'CR-V 2WD', 'CR-V 4WD'),
+         'mk' => '',
+         'ml' => array('Venza'),
          'search' => 'Search Now'
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRE487|5J6RE487|JHLRE485|5J6RE485)[A-Z0-9]{9}/',
+         'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
          // 'mileage' => 100000,
          'color' => FALSE,
          'series' => FALSE,
@@ -256,7 +256,7 @@ return array
    24 => array
    (
       'parent' => 11,
-      'mark' => 'Mitsubishi',
+      'mark' => 'Toyota',
       'cache' => TRUE,
       'fields' => array
       (
@@ -264,13 +264,13 @@ return array
          // 'y2' => 2003,
          // 'km' => 110000,
          'km2' => '',
-         'mk' => 'MITSUBISHI',
-         'ml' => array('MONTERO', 'MONTERO SPORT', 'MONTEROSPORT', 'MONTERO SPORT 2WD', 'MONTERO SPORT 4WD'),
+         'mk' => 'Toyota',
+         'ml' => array('4 RUNNER', '4RUNNER', '4 RUNNER BAS', '4 RUNNER LIMITED', '4 RUNNER SPT', '4 RUNNER SR5', '4RUNNER LTD', '4RUNNER SR5', '4RUNNER SR5/SPORT', '4RUNNER 4WD', '4RUNNER 4WD V6', '4RUNNER 4WD V8'),
          'search' => 'Search Now'
       ),
       'filters' => array
       (
-         'vincode' => '/[A-Z0-9]{4}W5[A-Z0-9]{11}/',
+         'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
          // 'mileage' => 110000,
          'color' => FALSE,
          'series' => FALSE,
@@ -670,13 +670,13 @@ return array
       'fields' => array
       (
          'make' => 4294960951,
-         'model' => 4294961000,
+         'model' => 4294961324,
          // 'fromYear' => 2000,
          // 'toYear' => 2002,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961000&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961324&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
@@ -729,7 +729,7 @@ return array
       'offset_fields' => array
       (
          'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294937812&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
-      ),
+      ),                    
       'filters' => array
       (
          'vincode' => '/[A-Z0-9]{0,17}/',
@@ -743,22 +743,22 @@ return array
    94 => array
    (
       'parent' => 10,
-      'mark' => 'Honda',
-      'cache' => FALSE,
+      'mark' => 'Toyota',
+      'cache' => TRUE,
       'fields' => array
       (
-         'make' => 4294960968,
-         'model' => 4294961135,
+         'make' => 4294960953,
+         'model' => 4294907742,
          // 'fromYear' => 2007,
          // 'toYear' => 2008,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960968+4294961135&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960953+4294907742&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRE487|5J6RE487|JHLRE485|5J6RE485)[A-Z0-9]{9}/',
+         'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
          // 'mileage' => 100000,
          'color' => FALSE,
          'series' => FALSE,
@@ -769,22 +769,22 @@ return array
    95 => array
    (
       'parent' => 11,
-      'mark' => 'Mitsubishi',
+      'mark' => 'Toyota',
       'cache' => TRUE,
       'fields' => array
       (
-         'make' => 4294960935,
-         'model' => 4294961205,
+         'make' => 4294960953,
+         'model' => 4294961038,
          // 'fromYear' => 2001,
          // 'toYear' => 2003,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960935+4294961205&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
-      ),
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960953+4294961038&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+      ),                     
       'filters' => array
       (
-         'vincode' => '/[A-Z0-9]{4}W5[A-Z0-9]{11}/',
+         'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
          // 'mileage' => 110000,
          'color' => FALSE,
          'series' => FALSE,
@@ -1186,13 +1186,13 @@ return array
       'fields' => array
       (
          'make' => 4294960951,
-         'model' => 4294961000,
+         'model' => 4294961324,
          // 'fromYear' => 2000,
          // 'toYear' => 2002,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961000&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961324&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
@@ -1259,23 +1259,24 @@ return array
    158 => array
    (
       'parent' => 10,
-      'mark' => 'Honda',
+      'mark' => 'Toyota',
       'cache' => FALSE,
       'fields' => array
       (
-         'make' => 4294960968,
-         'model' => 4294961135,
+         'make' => 4294960953,
+         'model' => 4294907742,
          // 'fromYear' => 2007,
          // 'toYear' => 2008,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960968+4294961135&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960953+4294907742&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
-         'vincode' => '/(JHLRE487|5J6RE487|JHLRE485|5J6RE485)[A-Z0-9]{9}/',
+         //'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
          // 'mileage' => 100000,
+         'vincode' => '/[A-Z0-9]{0,17}/',
          'color' => FALSE,
          'series' => FALSE,
       ),
@@ -1285,22 +1286,22 @@ return array
    159 => array
    (
       'parent' => 11,
-      'mark' => 'Mitsubishi',
+      'mark' => 'Toyota',
       'cache' => TRUE,
       'fields' => array
       (
-         'make' => 4294960935,
-         'model' => 4294961205,
+         'make' => 4294960953,
+         'model' => 4294961038,
          // 'fromYear' => 2001,
          // 'toYear' => 2003,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960935+4294961205&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960953+4294961038&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
-         'vincode' => '/[A-Z0-9]{4}W5[A-Z0-9]{11}/',
+         'vincode' => '/[A-Z0-9]{4}B[A-Z0-9]{11}/',
          // 'mileage' => 110000,
          'color' => FALSE,
          'series' => FALSE,

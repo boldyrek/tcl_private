@@ -1,1492 +1,601 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<Script>
-function popup(url) 
-{
- var isDebug =false;
- var width  = 440;
- var height = 400;
-
- //params  = 'width='+screen.width;
- //params += ', height='+screen.height;
- 
- var left   = (screen.width  - width)/2;
- var top    = (screen.height - height)/2;
- var params = 'width='+width;
- params += ', height='+height;
- params += ', top='+top
- params += ', left='+left;
- params += ', directories=0';
- params += ', location=N';
- params += ', menubar=0';
- params += ', resizable=0';
- params += ', resizable=N';
- params += ', status=1';
- params += ', toolbar=0';
- params += ', titlebar=Y';
- if(isDebug)
- alert('URL : '+url+'\n\nPARAMS : '+params);
- var newwin = window.open(url, 'ADESA', params, false);
- if(window.focus)
- {
-   newwin.focus();
- }
- return true;
-}
-</Script>
-<script type="text/javascript">
-     document.domain = document.domain.split(".").slice(-2).join("."); 
-</script>
 
 
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<head>
-<meta http-equiv="pragma" content="no-cache">
-<meta http-equiv="expires" content="0">
-<meta http-equiv="cache-control" content="no-cache">
-<META NAME="WT.cg_n" CONTENT="DealerBlock">
-<META NAME="WT.cg_s" CONTENT="DealerBlock_Condition_Report_Viewing">
-<link href="master.0.9.css" rel="stylesheet" type="text/css" />
-<link href="conditionReport.css" rel="stylesheet" type="text/css" />
-
-
-   
-
-		<!-- Web Trends Meta tags and data -->
-		<META NAME="DCS.dcsaut" CONTENT="ValentinaShevchik"> 
-		<META NAME="DCSext.dealer_id" 	CONTENT="174938">   
-		<META NAME="DCSext.ip_address" 	CONTENT="88.214.207.23">
-        <META NAME="DCSext.time_stamp"      CONTENT="09/10/2012-19:10:00">
-        <META NAME="DCSext.dealer_country"      CONTENT="CA">
-        <META NAME="DCSext.dealer_type"      CONTENT="DEALER"> 
-        <META NAME="DCSext.dealership_name"      CONTENT="Makmal_North_America">
-		<!-- Load HTML containing JavaScript to post data to Web Trends SDC -->
-		
-		<!-- START OF SmartSource Data Collector TAG -->
-<!-- Copyright (c) 1996-2009 WebTrends Inc.  All rights reserved. -->
-<!-- Version: 8.6.2 -->
-<!-- Tag Builder Version: 3.0  -->
-<!-- Created: 8/25/2009 8:03:56 PM -->
-<script src="dcsp6ro5kbotnwvjh6yh0dmsg_3j1y.js" type="text/javascript"></script>
-<!-- ----------------------------------------------------------------------------------- -->
-<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
-<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
-<!-- ----------------------------------------------------------------------------------- -->
-<script type="text/javascript">
-//<![CDATA[
-var _tag=new WebTrends();
-_tag.dcsGetId();
-//]]>>
-</script>
-<script type="text/javascript">
-//<![CDATA[
-// Add custom parameters here.
-//_tag.DCSext.param_name=param_value;
-_tag.dcsCollect();
-//]]>>
-</script>
-<noscript>
-<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="8.6.2"/></div>
-</noscript>
-<noscript>
-<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="8.6.2"/></div>
-</noscript>
-<!-- END OF SmartSource Data Collector TAG -->
- 
-		
-	
-
-
-
-
-
-<!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />  -->
-<link href="reset.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="global.css" rel="stylesheet" type="text/css" media="all" />
-<!-- <link href="print.css" rel="stylesheet" type="text/css" media="print" /> -->
-<!--[if IE]><link href="IE-only.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
-<SCRIPT src="niftycube.js" type="text/javascript"></SCRIPT>
-<SCRIPT src="iehover-fix.js" type="text/javascript"></SCRIPT>
-<script type="text/javascript" src="ExpandCollapse.js"></script>
-<script type="text/javascript" src="autoFocus.js" ></script>
-<script type="text/javascript" src="AC_RunActiveContent.js" ></script>
-<script type="text/javascript" src="trHover.js" ></script>
-
-<!-- <script type="text/javascript" src="webTrends.js" ></script> -->
-<!--[if lt IE 7]>
-	<script type="text/javascript" src="iehover-fix.js" ></script>
-<![endif]-->
-
-<link href="adesa_framework.css" rel="stylesheet" type="text/css" media="all" />
-<link href="adesa_app.css" rel="stylesheet" type="text/css" media="all" />
-
-<link href="colorbox.css" rel="stylesheet" type="text/css" media="all" />
-
-
-
-
-
-<title>ADESA OnLine Auto Auction - Condition Report</title>
+<html>
+<head><title>
+	Vehicle Details
+</title><meta name="robots" content="noindex, nofollow" /><link rel="stylesheet" href="StyleSheet.css?6" type="text/css" /><link rel="stylesheet" href="styleshdrbl.css?5" type="text/css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="cars2.js"></script>
+	<script type="text/javascript" src="global.js"></script>
+	<script type="text/javascript" src="auctionpipeline.js"></script>
 </head>
-<body onload="Nifty('div.box','transparent');createCRImagesJSON();">
-
-<table class="wrapper" align="center" cellspacing="0" cellpadding="0">
-
-	
-
-
-
-
-	
-
-
- 
-
-
-
-	<tr> 
-		<td >
-			<div class="banner">
-    			<div class="printlogo">
-		   			<img src="adesalogo-print.gif" width="164" height="50" />
-		   		</div>
-		    	<div class="banlogo">
-		    		<a href="/home/index.do">
-		    			<img src="adesalogo1.gif" alt="ADESA :: Working Wonders" width="180" height="60" border="0" />
-		    		</a>
-		   		</div>
-    			<div class="banad2">&nbsp;</div>
-    			<div class="banprofile">
-					Welcome: 
-					<span style="font-size:1.1em;FONT-FAMILY:verdana;">
-						<strong> ValentinaShevchik</strong>
-					</span>
-					<br />
-					<a href="/servlet/logoff" class="link_small">Log Out</a>&raquo; 
-     			</div>  
-    		</div>
-    		
-
-
-  
-<script src="jquery-1.4.4.min.js" type="text/javascript" ></script>
-<script src="jquery-ui-1.8.10.custom.min.js" type="text/javascript" ></script>
-<script src="jquery.multiSelect.js" type="text/javascript"></script>
-<script src="jquery.multiselect.filter.js" type="text/javascript"></script>
-<script src="jquery.jMultiSelect.js" type="text/javascript"></script>
-<script src="jquery.labelify.js" type="text/javascript"></script>
-<script src="adesa_config_2011-06-25.js" type="text/javascript"></script>
-<SCRIPT src="niftycube.js" type="text/javascript"></SCRIPT>
-  
- <script type="text/javascript">
-        <!--
- 
-	function getAuctionClickFlag() {
-	var key;
-	var comUrl;
-	var url1;
-	var url2;
-	var url3;
-	var allAu;
-	url1='http://www.adesa.ca/';
-	url2='/contact-us';
-	url3='?logged_in=false';
-	allAu='all-auctions';
-	key=document.getElementById('auction_pkey').value;
-	if(key!="")
-	{
-    if (key.indexOf("#")>-1)
-    {
-    comUrl=url1+allAu+key;
-    }
-     else if (key=="all-auctions")
-    {
-    comUrl=url1+key;
-    }
-    else
-    {
-    comUrl=url1+key;
-    }
-	window.open(comUrl)
-  	}
-  	}
-	 -->
- </script>
- 
-  
-
-
-		  <div class="toolBar">
-			<div class="mod_rlmargin">
-			<div class="toolBarLeft2">For assistance, Call (888) 526-7326</div>
-			<div class="toolBarRight">
-				<form id="tbAuctionFinder" name="tbAuctionFinder" method="post" action="">
-				<input id="AuctionFinderText" type="hidden" name="AuctionFinderText" value='Select an Auction' />
-				<select class="tbSelect" id="auction_pkey" name="auction_pkey" gtbfieldid="4">
-						<option value="all-auctions" class="listhead">View All</option>
-						<option value=""></option>
-						
-						
-						<option value="#AD_CA" class="listhead">ADESA Canada</option>
-                         <option value="Calgary" >Calgary</option>
-<option value="Edmonton" >Edmonton</option>
-<option value="Guadalajara" >Guadalajara</option>
-<option value="Halifax" >Halifax</option>
-<option value="Kitchener" >Kitchener</option>
-<option value="MexicoCity" >Mexico City</option>
-<option value="Moncton" >Moncton</option>
-<option value="Montreal" >Montreal</option>
-<option value="Ottawa" >Ottawa</option>
-<option value="QuebecCity" >Quebec City</option>
-<option value="Saskatoon" >Saskatoon</option>
-<option value="StJohns" >St. John`s</option>
-<option value="Toronto" >Toronto</option>
-<option value="Vancouver" >Vancouver</option>
-<option value="Winnipeg" >Winnipeg</option>
-
-                         <option value=""></option>
-                         <option value="#AD_US" class="listhead">ADESA U.S.</option>
-						 <option value="Atlanta" >Atlanta</option>
-<option value="Austin" >Austin</option>
-<option value="Birmingham" >Birmingham</option>
-<option value="Boston" >Boston</option>
-<option value="Buffalo" >Buffalo</option>
-<option value="CentralKentucky" >Central Kentucky</option>
-<option value="Charlotte" >Charlotte</option>
-<option value="CincinnatiDayton" >Cincinnati/Dayton</option>
-<option value="Cleveland" >Cleveland</option>
-<option value="ColoradoSprings" >Colorado Springs</option>
-<option value="Concord" >Concord</option>
-<option value="Dallas" >Dallas</option>
-<option value="DesMoines" >Des Moines</option>
-<option value="EastTennessee" >East Tennessee</option>
-<option value="Fargo" >Fargo</option>
-<option value="GoldenGate" >Golden Gate</option>
-<option value="GreatLakes" >Great Lakes</option>
-<option value="Houston" >Houston</option>
-<option value="Indianapolis" >Indianapolis</option>
-<option value="Jacksonville" >Jacksonville</option>
-<option value="KansasCity" >Kansas City</option>
-<option value="Knoxville" >Knoxville</option>
-<option value="Lansing" >Lansing</option>
-<option value="LasVegas" >Las Vegas</option>
-<option value="Lexington" >Lexington</option>
-<option value="LittleRock" >Little Rock</option>
-<option value="LongIsland" >Long Island</option>
-<option value="LosAngeles" >Los Angeles</option>
-<option value="Memphis" >Memphis</option>
-<option value="Minneapolis" >Minneapolis</option>
-<option value="Nashville" >Nashville</option>
-<option value="NewJersey" >New Jersey</option>
-<option value="NorthernOhio" >Northern Ohio</option>
-<option value="Ocala" >Ocala</option>
-<option value="PA" >PA</option>
-<option value="Phoenix" >Phoenix</option>
-<option value="Pittsburgh" >Pittsburgh</option>
-<option value="Raleigh" >Raleigh</option>
-<option value="Sacramento" >Sacramento</option>
-<option value="SanAntonio" >San Antonio</option>
-<option value="SanDiego" >San Diego</option>
-<option value="Sarasota" >Sarasota</option>
-<option value="Seattle" >Seattle</option>
-<option value="Shreveport" >Shreveport</option>
-<option value="SiouxFalls" >Sioux Falls</option>
-<option value="StLouis" >St. Louis</option>
-<option value="Syracuse" >Syracuse</option>
-<option value="Tampa" >Tampa</option>
-<option value="Tulsa" >Tulsa</option>
-<option value="WashingtonDC" >Washington DC</option>
-<option value="Wisconsin" >Wisconsin</option>
-												
-
-						
-						
-						 <option value=""></option>	
-						 <option value="#AD_MX" class="listhead">ADESA Mexico</option>
-						 <option value="MexicoCity">Mexico City</option>
-					</select>
-					
-					<input type="image" onclick="getAuctionClickFlag();" src="btn-selectAuction-go.png" id="btnAuctionGo" class="btn-auction" />
-				</form>
-			</div>
-		</div>
- 	</div>
-            
-            <div id="cpraHiddenModalContent" style="display: none;">
-                <div id="cpraModalContent" style="width: 300px;height: 125px;">
-                   <form id="cpraModalContentForm" action="/getCarProofLink">
-                       <div id="cpraModalContentR1Error" style="float: left;padding: 5px;margin-left: 95px; display: none;font-size: small;color: red;">
-                          Please enter a valid VIN
-                       </div>
-                       <br clear="left" />
-                       <div id="cpraModalContentR2" style="float: left;padding: 5px;margin: 5px;">
-                          <div id="cpraModalContentR2Vin" style="width: 80px; text-align: left; float: left; margin-right: 5px;">
-                              <span style="font-size: small; text-align: left">
-                                  Enter VIN
-                              </span>
-                          </div>
-                          <div style="float: left;">
-                              <input type="text" maxlength="17" width="20" id="cpraVin" name="cpraVin" 
-                                  style="width: 160px;margin-left: 5px;height: 16px; border: 1px solid black;">
-                          </div>
-                       </div>
-                       <br clear="left" />
-                       <div id="cpraModalContentR3Buttons" style="float: left;padding: 5px;margin: 5px; width: 95%;">
-                          <div style="width: 50%; float: left;">
-                              <input type="button" name="cpraSubmit" id="cpraSubmit" style="padding: 4px; margin-left: 50px;" 
-                                onclick="if (!cpraValidateAndSubmit()) { return false; }"
-                                  value="Submit" />
-                          </div>
-                          <div style="width: 50%; float: left;">
-                              <input type="button" name="cpraCancel" id="cpraCancel" onclick="cpraClearData();" style="padding: 4px; margin-left: 20px;"
-                                  value="Cancel" />
-                          </div>
-                       </div>
-                   </form>
-                </div>
-            </div>
-            
-			<div id="nav">
-				<ul class="nav">
-					<li>
-						<a href="/home/index.do">Home</a>
-					</li>
-					<li>
-						<a href="/home/purchaseOnline.do">BID / BUY</a>
-						<ul>
-							<li>
-								<a href="/SiteTransfer/toLiveBlock.do" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/TransfertoLiveBlock/Menu','WT.ti', 'Transfer To LiveBlock_Menu','WT.cg_n','LiveBlock','WT.cg_s','Home');">ADESA LiveBlock</a>
-							</li>
-							<li>
-								
-									<a href="/members/homePage.jsp">ADESA DealerBlock</a>
-							   
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="/home/runlists.do">Run Lists</a>
-						<ul>
-							<li>
-								<a href="/xamsrunlist/xamsLocation.jsp">Search by Auction</a>
-							</li>
-							<li>
-								<a href="/xamsrunlist/xamsConsignor.jsp">Search by Consignor</a>
-							</li>
-							<li>
-								<a href="/xamsrunlist/searchamsRunlist.jsp">Search All Inventory</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="/notifyme/notifyme1.jsp">Notify Me</a>
-					</li>
-					<li>
-						<a href="/SiteTransfer/toAMG.do">Market Guide</a>
-						<ul>
-							<li>
-								<a href="/SiteTransfer/toAMGAuction.do">Auction Averages</a>
-							</li>
-							<li>
-								<a href="/SiteTransfer/toAMGNational.do">National Averages</a>
-							</li>
-							<li>
-								<a href="/SiteTransfer/toAMGWeekly.do">Actual Weekly Sales Results</a>
-							</li>
-						</ul>
-					</li>			
-					<li>
-						<a href="/admin/admin.jsp">My ADESA</a>
-						<ul>
-							<li>
-								<a class="parent" href="#">
-									User Account
-								</a>  
-								<ul>	
-									<li class="rowB">
-										<a href="/admin/passwordChange.jsp">
-											Change my password
-										</a>
-									</li>
-									
-										<li class="rowA">
-											<a href="/servlet/checkOutProfiles?action=view">
-												Edit my Autocheckout Settings
-											</a>
-										</li>
-									
-									
-										<li class="rowB">
-											<a href="/members/checkOut.jsp">
-												View Purchase Summary
-											</a>
-										</li>
-																
-																	
-										<li class="rowA">
-											<a href="/displayAutobids.do">
-												My DealerBlock Autobids
-											</a>
-										</li>
-									
-									
-										<li class="rowB">
-											<a href="/members/dealerBlockPurchase.jsp">
-											My DealerBlock Purchases
-											</a>
-										</li>
-									
-									
-										<li class="rowA">
-											<a href="/ReportConfigServlet?reportName=DEALER_PURCHASE_REPORT&jspName=dealerReport.jsp">
-												My Reports
-											</a>
-										</li>
-									
-									
-										<li class="rowB">
-											<a href="/SiteTransfer/toLiveBlock/Reports.do"  target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/TransfertoLiveBlock/PurchasesReportMenu', 'WT.ti', 'Transfer To LiveBlock_Purchases Report Menu','WT.cg_n','LiveBlock','WT.cg_s','Purchases_Report');">
-												My LiveBlock Purchases
-											</a>
-										</li>
-									
-									
-										<li class="rowA">
-											<a href="/searchForAVehicle.do?reset=true">
-												Search for a Vehicle
-											</a>
-										</li>
-									
-									
-										<li class="rowB">
-											<a href="/communication/communicationSetUp">
-												ADESA Communications
-											</a>
-										</li>
-									
-									
-										<li class="rowA">
-											<a href="/admin/subscribe/mainmenu.do">
-												Subscription Services
-											</a>
-										</li>
-									
-														
-								</ul>
-							</li>
+<body>
+    <script src="urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    _uacct = "UA-193614-3";
+    urchinTracker();
+    </script>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+        <tr>
+            <td width="100%" bgcolor="black" align="center">
+                <table cellpadding="0" cellspacing="0" border="0" width="737">
+                    <tr>
+                        <td align="center" bgcolor="#2B2955"><img src="pipelinenonav.gif" alt="Auction Pipeline" /></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="white"><img src="blank.gif" height="1" width="1" /></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#005589">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center" bgcolor="white">
+                            <!-- Main Body Content -->
                             
-                             
-                                <li>
-                                    <a class="parent" href="#">
-                                        CarProof Report Archive
-                                    </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#" id="cpraMenuItem" class="cpraMenuItem" onclick="return openCPRAPopupWindow();"
-                                                title="CarProof Request">
-                                                Search for VIN
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            
-                            
-							
-									
-							
-							
-							
-							
-									
-								
-						</ul>													
-					</li>
-					
-					<li>
-						<a href="http://blog.adesa.ca" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','http://blog.adesa.ca','WT.ti','Secure_Blog','WT.cg_n','Secure','WT.cg_s','Blog')">
-							BLOG
-						</a>
-					</li>
-					
-					<li>
-						<a href="/home/help.do">
-							Help
-						</a>
-					</li>
-				</ul>
-		
-				<div id="quickSearch">
-					<form action="/members/vehFinderQuickSearchResult.jsp" >
-						<table align="right" border="0">
-							<tr>
-								<td>
-									<span class="tooltip"><img src="icon-question.png" style="margin-right:3px;"/>
-										<span class="tooltipBottomLeft">
-											<p>Enter any combination of the following values to find your vehicle.  VIN, Year, Make, Model, Series, Color, Consignor, City. </p>
-										</span>
-									</span> 
-								</td>
-								<td align="right" valign="top">
-									<input id="qs" class="tblHdrFontColor labelify" name="queryString" title="Quick Search" />
-									<input type="image" src="btn-quickSearch-go.png" id="btnAuctionGo2" class="btn-quickSearch" />
-								</td>
-							</tr>
-						</table>
-						<input type="hidden" name="pgr" value="quicksearch" >
-					</form>
-					<script>
-						function quickSearchGo(queryString) {
-						return (!(queryString=='Quick Search' || queryString==''));
-						}
-					</script>
-				</div>
-		
-			</div>
-	
-	 
-			<div class="infoBar">
-				<div class="infoLeft">
-					
-						&nbsp;&nbsp;&nbsp;&nbsp;
-						3762 
-							vehicles available for purchase 
-					
-				</div>
-				<div class="infoRight">
-					<a href="http://images.adesa.com/training/us/landing.html" target="_blank">
-						Online training 
-					</a>
-				</div>
-	  		</div>
-   	 		
- 		</td>
-	</tr>
- 
-  
 
 
+<form method="post" action="carreport.aspx?VIN=JTJBT20X940066588" id="ctl00" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExOTEwMDYxNzcPZBYCZg9kFgICBQ9kFgJmD2QWMgIDDxYCHgRUZXh0BfgOPHNjcmlwdD4NCnZhciB2T2ZmZXIgPSAncGgxX3R4dE9mZmVyQW1vdW50JzsNCnZhciB2SW1hZ2VzID0gbmV3IEFycmF5KCk7DQp2YXIgdkltYWdlc0JpZyA9IG5ldyBBcnJheSgpOw0KdmFyIHZJbWFnZUluZGV4ID0gMDsNCnZhciB2Q2VydEltYWdlID0gJ2h0dHA6Ly9zMy5hbWF6b25hd3MuY29tL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTEuSlBHLmpwZyc7DQp2YXIgdkNlcnRJbmRleCA9ICcwJzsNCnZJbWFnZUluZGV4ID0gMDsNCnZJbWFnZXNbMF09J2h0dHA6Ly9pbWcuYXVjdGlvbnBpcGVsaW5lLmNvbS9JTUcvQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41MS5KUEcuanBnO3dpZHRoPTI0MDtjYj0wJzsNCnZJbWFnZXNCaWdbMF09J2h0dHA6Ly9zMy5hbWF6b25hd3MuY29tL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTEuSlBHLmpwZyc7DQp2SW1hZ2VzWzFdPSdodHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTIuSlBHLmpwZzt3aWR0aD0yNDA7Y2I9MCc7DQp2SW1hZ2VzQmlnWzFdPSdodHRwOi8vczMuYW1hem9uYXdzLmNvbS9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjUyLkpQRy5qcGcnOw0KdkltYWdlc1syXT0naHR0cDovL2ltZy5hdWN0aW9ucGlwZWxpbmUuY29tL0lNRy9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjUzLkpQRy5qcGc7d2lkdGg9MjQwO2NiPTAnOw0KdkltYWdlc0JpZ1syXT0naHR0cDovL3MzLmFtYXpvbmF3cy5jb20vQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41My5KUEcuanBnJzsNCnZJbWFnZXNbM109J2h0dHA6Ly9pbWcuYXVjdGlvbnBpcGVsaW5lLmNvbS9JTUcvQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41NC5KUEcuanBnO3dpZHRoPTI0MDtjYj0wJzsNCnZJbWFnZXNCaWdbM109J2h0dHA6Ly9zMy5hbWF6b25hd3MuY29tL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTQuSlBHLmpwZyc7DQp2SW1hZ2VzWzRdPSdodHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTUuSlBHLmpwZzt3aWR0aD0yNDA7Y2I9MCc7DQp2SW1hZ2VzQmlnWzRdPSdodHRwOi8vczMuYW1hem9uYXdzLmNvbS9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjU1LkpQRy5qcGcnOw0KdkltYWdlc1s1XT0naHR0cDovL2ltZy5hdWN0aW9ucGlwZWxpbmUuY29tL0lNRy9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjU2LkpQRy5qcGc7d2lkdGg9MjQwO2NiPTAnOw0KdkltYWdlc0JpZ1s1XT0naHR0cDovL3MzLmFtYXpvbmF3cy5jb20vQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41Ni5KUEcuanBnJzsNCnZJbWFnZXNbNl09J2h0dHA6Ly9pbWcuYXVjdGlvbnBpcGVsaW5lLmNvbS9JTUcvQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41Ny5KUEcuanBnO3dpZHRoPTI0MDtjYj0wJzsNCnZJbWFnZXNCaWdbNl09J2h0dHA6Ly9zMy5hbWF6b25hd3MuY29tL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTcuSlBHLmpwZyc7DQp2SW1hZ2VzWzddPSdodHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTguSlBHLmpwZzt3aWR0aD0yNDA7Y2I9MCc7DQp2SW1hZ2VzQmlnWzddPSdodHRwOi8vczMuYW1hem9uYXdzLmNvbS9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjU4LkpQRy5qcGcnOw0KZG9jdW1lbnQuYm9keS5vbmxvYWQgPSAiU2V0SW1hZ2UodkltYWdlSW5kZXgpOyI7DQo8L3NjcmlwdD4NCmQCDw8PFgIeC05hdmlnYXRlVXJsBRtDYXJSZXBvcnQuYXNoeD9WSUQ9MTI1NjIxMzNkZAIRD2QWAgIFD2QWAgIED2QWAgIBDxBkZBYAZAIVDxYCHwAFJTIwMDQgTGV4dXMgR1ggNDcwIDRXRCA0RCBVdGlsaXR5IDQuN0xkAhcPFgIfAAURSlRKQlQyMFg5NDAwNjY1ODhkAhkPZBYCAgEPFgIfAAUER3JheWQCGw8WAh8ABQVCZWlnZWQCHA8WAh8ABXYmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDs8Yj5JbnRlcmlvcjwvYj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDtMZWF0aGVyZAIeDxYCHgdWaXNpYmxlZxYCAgEPFgIfAAWgATEzMCw2Mzg8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQgd2luZG93Lm9wZW4oJ29kby9hY3R1YWwuaHRtJywnX2JsYW5rJywnaGVpZ2h0PTEyMCx3aWR0aD0zMDAsdG9wPTUwLGxlZnQ9NTAnKTsiPiZuYnNwOzxmb250IGNvbG9yPSJncmVlbiI+QWN0dWFsIE1pbGVzPC9mb250PjwvYT5kAiAPFgIfAmcWAgIBDxYCHwAFEzQuN0wgOC1DeWxpbmRlciBHYXNkAiIPFgIfAmcWAgIBDxYCHwAFCUF1dG9tYXRpY2QCLA8WAh8ABSFCcmFzaGVyJ3MgU2FjcmFtZW50byBBdXRvIEF1Y3Rpb25kAi4PFgIfAAUNUmlvIExpbmRhLCBDQWQCMA9kFgICAQ8WAh8ABT4mYnVsbDsgPGZvbnQgY29sb3I9Ymx1ZT5EZWFsZXIgT25seSBTYWxlPC9mb250PiAtIEp1biAxMiwgMjAxMmQCNA8WAh8CZxYEAgEPFgIfAAUEMDQxM2QCAg8WAh8ABUgmbmJzcDsmbmJzcDs8Yj5JbnYgIzwvYj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDtkAjgPZBYEAgMPFgIfAAXKAzxkaXYgaWQ9ImR2VmVoSW1hZ2Vab29tIiBzdHlsZT0icG9zaXRpb246cmVsYXRpdmU7Ij48YSBpbWFnZT0iaHR0cDovL3MzLmFtYXpvbmF3cy5jb20vQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41MS5KUEcuanBnIiBpZD12ZWhJbWFnZVpvb20+PGltZyB3aWR0aD0yNDAgaGVpZ2h0PTE4MCBpZD1pbWdTbGlkZSBpbWFnZUluZGV4PSIwIiBzcmM9Imh0dHA6Ly9pbWcuYXVjdGlvbnBpcGVsaW5lLmNvbS9JTUcvQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41MS5KUEcuanBnO3dpZHRoPTI0MDtjYj0wIiBzdHlsZT0iYmFja2dyb3VuZC1pbWFnZTp1cmwoaHR0cDovL2ltZy5hdWN0aW9ucGlwZWxpbmUuY29tL0lNRy9BdWN0aW9uUGlwZWxpbmUvQlNBQTEyNTYyMTMzLTMwOTI0LjUxLkpQRy5qcGc7d2lkdGg9MjQwO2NiPTApO2N1cnNvcjpwb2ludGVyOyIgLz48L2E+PC9kaXY+ZAIFD2QWAgIBDxYCHwAFAThkAjoPFgIfAmcWAgIDDxYCHwAFogE8QSBocmVmPSJqYXZhc2NyaXB0OnZvaWQgd2luZG93Lm9wZW4oJ1dhcnJhbnR5L1NFTExFUkRBWU9GLmh0bScsJ19ibGFuaycsJ2hlaWdodD0xMjAsd2lkdGg9NDMwLHRvcD01MCxsZWZ0PTUwJyk7Ij48Zm9udCBjb2xvcj0iZ3JlZW4iPlNlbGxlcidzIFdhcnJhbnR5PC9mb250PjwvYT5kAjwPFgIfAmcWAgIBDxYCHwAFoAExMzAsNjM4PGEgaHJlZj0iamF2YXNjcmlwdDp2b2lkIHdpbmRvdy5vcGVuKCdvZG8vYWN0dWFsLmh0bScsJ19ibGFuaycsJ2hlaWdodD0xMjAsd2lkdGg9MzAwLHRvcD01MCxsZWZ0PTUwJyk7Ij4mbmJzcDs8Zm9udCBjb2xvcj0iZ3JlZW4iPkFjdHVhbCBNaWxlczwvZm9udD48L2E+ZAI+DxYCHwAFEk5vdCB5ZXQgYXQgYXVjdGlvbmQCTg9kFgQCAw8WAh8ABZMHPHRhYmxlIGlkPXRibFRyYW5zcG9ydCBzdHlsZT0idGFibGUtbGF5b3V0OmZpeGVkOyIgd2lkdGg9IjEwMCUiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCIgYm9yZGVyPSIwIiBjbGFzcz0iRGFtYWdlIiBSYXRGcm9tWmlwPSI5NTY3MyIgUmF0VklOPSJKVEpCVDIwWDk0MDA2NjU4OCIgUmF0VmVoaWNsZVJ1bnM9IlRydWUiIFVJRD0iMCIgUmF0SFJlZj0iaHR0cHM6Ly93d3cucmF0bW92ZXMuY29tL0FQL1F1aWNrUXVvdGUuYXNweD9WSU49SlRKQlQyMFg5NDAwNjY1ODgmWUVBUj0yMDA0Jk1BS0U9TGV4dXMmTU9ERUw9R1ggNDcwIDRXRCZDT0xPUj1HcmF5Jk1JTEVBR0U9MTMwNjM4JlNUT1JJTkdMT0NBVElPTj1CcmFzaGVyJTI3cytTYWNyYW1lbnRvK0F1dG8rQXVjdGlvbiZTVE9SSU5HQUREMT02MjMzK0JsYWNrdG9wK1JvYWQmU1RPUklOR0NJVFk9UmlvK0xpbmRhJlNUT1JJTkdTVEFURT1DQSZTVE9SSU5HWklQPTk1NjczJlNUT1JJTkdDT05UQUNUPVRlc3QmU1RPUklOR1BIT05FPVRlc3QmSUQ9QVBMJlBJRD1ZJlVTRVI9QVBMX1VzZXImUEFTU1dPUkQ9ZGVtbzEyMyIgPjx0ciBzdHlsZT0iaGVpZ2h0OjIycHg7IiBjbGFzcz0iaGVhZCI+PHRkIHN0eWxlPSJ3aWR0aDoxNjsiPjwvdGQ+PHRkIHN0eWxlPSJ3aWR0aDoxNzsiPjwvdGQ+PHRkIHN0eWxlPSJ3aWR0aDoyMDBweDsiPjxiPkRlYWxlcnNoaXA8L2I+PC90ZD48dGQ+PGI+RHJvcC1vZmYgTG9jYXRpb248L2I+PC90ZD48dGQgc3R5bGU9IndpZHRoOjk1OyB0ZXh0LWFsaWduOmNlbnRlcjsiPjxiPkRheXMgdG8gRGVsaXZlcjwvYj48L3RkPjx0ZCBzdHlsZT0idGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6NzBweDsiPjxiPipGaXJtIFByaWNlPC9iPjwvdGQ+PHRkIHN0eWxlPSJ3aWR0aDo1NTsgdGV4dC1hbGlnbjpjZW50ZXI7Ij48L3RkPjwvdHI+ZAIFDxYCHwAFCDwvdGFibGU+ZAJQD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIFFgoCAQ9kFgQCAw8WAh8ABQ00IFdoZWVsIERyaXZlZAIFDxYCHwJoZAICD2QWBgIBDxYCHwJoZAIDDxYCHwAFDjggQ3lsaW5kZXIgR2FzZAIFDxYCHwJoZAIDD2QWBAIBDxYCHwJoZAIDDxYCHwAFDUFNL0ZNL0NEIFRhcGVkAgQPZBYEAgMPFgIfAAUWQXV0b21hdGljIFRyYW5zbWlzc2lvbmQCBQ8WAh8CaGQCBQ9kFgYCAQ8WAh8CaGQCAw8WAh8ABQ1DRCBDaGFuZ2VyICgpZAIFDxYCHwJoZAJWD2QWBAIBDxYCHwAFWzxmb250IHNpemU9IjEiIGNvbG9yPSJyZWQiPiZuYnNwOyoqQ29uZGl0aW9uIFJlcG9ydCBub3QgYXZhaWxhYmxlIGZvciB0aGlzIHZlaGljbGUqKjwvZm9udD5kAgQPFgIfAwIBFgQCAQ9kFiYCAQ8WAh8CZxYCAgEPFgIfAAUGJm5ic3A7ZAIDDw8WBB4ISW1hZ2VVcmwFXmh0dHA6Ly9pbWcuYXVjdGlvbnBpcGVsaW5lLmNvbS9JTUcvQXVjdGlvblBpcGVsaW5lL0JTQUExMjU2MjEzMy0zMDkyNC41MS5KUEcuanBnO3dpZHRoPTYwO2NiPTAfAmcWBB4KaW1hZ2VJbmRleAUBMB4FY2xhc3MFB0ltZ0xpbmtkAgUPFgIfAAUBMWQCBw8WAh8ABQYmbmJzcDtkAgkPFgIfAAUKUGhvdG8gT25seWQCCw8WAh8ABQYmbmJzcDtkAg0PFgIfAAUGJm5ic3A7ZAIPDxYCHwAFBiZuYnNwO2QCEQ8WAh8ABQYmbmJzcDtkAhMPFgIfAAUGJm5ic3A7ZAIVDxYCHwAFBiZuYnNwO2QCFw8WAh8ABQYmbmJzcDtkAhkPFgIfAAUGJm5ic3A7ZAIbDxYCHwAFBiZuYnNwO2QCHQ8WAh8ABQYmbmJzcDtkAh8PFgIfAAUCLS1kAiEPFgIfAAUCLS1kAiMPFgIfAmhkAiUPFgIfAmcWFgIBDxYCHwAFDyZuYnNwOyBTdWJ0b3RhbGQCAw8WAh8ABQItLWQCBQ8WAh8ABQItLWQCBw8WAh8ABQItLWQCCQ8WAh8ABQItLWQCCw8WAh8ABQItLWQCDQ8WAh8ABQItLWQCDw8WAh8ABQItLWQCEQ8WAh8ABQItLWQCEw8WAh8ABQItLWQCFQ8WAh8ABQItLWQCAg9kFhQCAQ8WAh8ABQItLWQCAw8WAh8ABQItLWQCBQ8WAh8ABQItLWQCBw8WAh8ABQItLWQCCQ8WAh8ABQItLWQCCw8WAh8ABQItLWQCDQ8WAh8ABQItLWQCDw8WAh8ABQItLWQCEQ8WAh8ABQItLWQCEw8WAh8ABQItLWQCWA8WAh8CZxYCAgEPFgIfAGVkAlwPFgIfAmhkAmAPZBYCAgEPFgIfAwIIFhICAQ9kFgQCAw8WBh4Dc3JjBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTEuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATAfBgUHSW1nTGlua2QCBQ8WAh8CaGQCAg9kFgYCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTIuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATEfBgUHSW1nTGlua2QCBQ8WAh8CaGQCAw9kFgYCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTMuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATIfBgUHSW1nTGlua2QCBQ8WAh8CaGQCBA9kFgYCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTQuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATMfBgUHSW1nTGlua2QCBQ8WAh8CaGQCBQ9kFgYCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTUuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATQfBgUHSW1nTGlua2QCBQ8WAh8CaGQCBg9kFgYCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTYuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATUfBgUHSW1nTGlua2QCBQ8WAh8CaGQCBw9kFgQCAQ8WAh8CaGQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTcuSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATYfBgUHSW1nTGlua2QCCA9kFgQCAw8WBh8HBV5odHRwOi8vaW1nLmF1Y3Rpb25waXBlbGluZS5jb20vSU1HL0F1Y3Rpb25QaXBlbGluZS9CU0FBMTI1NjIxMzMtMzA5MjQuNTguSlBHLmpwZzt3aWR0aD02MDtjYj0wHwUFATcfBgUHSW1nTGlua2QCBQ8WAh8CaGQCCQ9kFgICAQ8WAh8CaGRkoi6vFUKCYqIrMx8lgt+tzSDdA+A=" />
+</div>
 
+<div class="aspNetHidden">
 
-	<tr>
-		<td><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link
-	href="adesa_cr.css"
-	rel="stylesheet" type="text/css" media="all" />
-<link
-	href="adesa_cr-print.css"
-	rel="stylesheet" type="text/css" media="print" />
-<script type="text/javascript"
-	src="jquery-1.4.4.min.js"></script>
-<script type="text/javascript"
-	src="jquery-ui-1.8.10.custom.min.js"></script>
-<script type="text/javascript"
-	src="jquery.galleriffic.js"></script>
-
-<script type="text/javascript"
-	src="jquery.opacityrollover.js"></script>
-<script type="text/javascript"
-	src="jquery.labelify.js"></script>
-<script type="text/javascript"
-	src="jquery.multiSelect.js"></script>
-<script type="text/javascript"
-	src="jquery.multiselect.filter.js"></script>
-<script type="text/javascript"
-	src="adesa_config_2011-06-25.js"></script>
-<script src="jquery.jMultiSelect.js" type="text/javascript"></script>
-<script type="text/javascript"
-	src="cr.js"></script>
-<!--[if lt IE 7]><script type="text/javascript" src="iehover-fix.js" ></script><![endif]-->
-<tr>
-	<td valign="top">
-	<table cellspacing="0" cellpadding="0" border="0" align="left">
-		<tbody>
-			<tr>
-				<td width="100%" valign="top">
-				<div id="cr-wrapper" class="cr-wrapper">
-				<div class="cr-header">
-				<div class="cr-logo"><img alt="ADESA"
-					src="adesalogo-cr.gif"></div>
-				<div class="printOnly"><img
-					src="adesalogo-print-cr.gif"></div>
-				<div class="cr-title">
-				<h1>Condition Report</h1>
-				<div class="cr-assistance">For Assistance: 888-526-7326</div>
-				</div>
-				<div class="cr-toolbar">
-					<img src="bg-cr-toolbar-left.gif">
-					<!--
-						Ramla S. - CR106400/DR108087-Begin
-		 				NOV 2011
-		 				Create a URL for condition report back button with refined search params.
-					-->
-					
-                	
-                	                	   
-                		
-                	
-                	
-                		
-                	
-                	
-                		<a  href="http://www.adesa.ca/home?LBflag=true&scrollPosition=&vf=yes&sortby=A_VHL_RUNNUM&y1=2003&y2=2004&mk=LEXUS&ml=GX470&ml=GX 470&ml=GX 470 4WD&bs=&km=95000&km2=&pv=&ds=&st=&vpp=250&optSearchCountry=all&nw=&&vf=yes">
-                    		<img src="btn-cr-back.gif" alt="Back" align="top" class="btn-lpadding" />
-                   		</a>
-                	 
-                	
-                	<!-- Ramla S. - CR106400/DR108087-End -->
-					<a href='javascript:print();'><img align="top"
-						class="btn-rlpadding" alt="Print"
-						src="btn-cr-print.gif">
-					</a>
-					<img src="bg-cr-toolbar-right.gif">
-				</div>
-				</div>
-				<div id="cr-content" class="cr-content">
-				<div class="cr-mod-vehicle">
-				<h1>2004 LEXUS GX470 NA</h1>
-				<div class="cr-buttons">
-					<a href='/CarFaxRequest.do?vin=JTJBT20X940066588&amp;sellerId=13168' target="_blank"><img
-						src="btn-cr-carfaxNEW.gif"
-						alt="Carfax Vehicle History Report" /></a>
-				  </div>
-				<div class="cr-details">
-				<table width="100%" border="0" cellpadding="1" cellspacing="0">
-					<tr valign="top">
-						<td width="27%"><strong>Consignor:</strong></td>
-						<td colspan="2">ADESA Open Fleet &amp; Lease Consignors</td>
-					</tr>
-					<tr valign="top">
-						<td><strong>Location:</strong></td>
-
-						<td colspan="2">ADESA Sacramento, 8649 Kiefer Blvd. Sacramento, CA 95826</td>
-					</tr>
-					<tr valign="top">
-						<td><strong>Distance:</strong></td>
-						<td colspan="2">3,527&nbsp;KM</td>
-					</tr>
-					<tr valign="top">
-
-						<td><strong>Inspection:</strong></td>
-						<td colspan="2"></td>
-					</tr>
-					<tr valign="top">
-						<td><strong> Transportation:</strong></td>
-						
-							<td width="45%"><span class="tooltipTransportation">
-							<div class="tooltip2">
-							Ready Auto Transport Quote: 
-							<span><img src="ReadyAutoTransport.jpg"><p>Ready's reputation for superior customer service and performance has made us the preferred auto transport provider for thousands of dealerships nationwide.</p> <p>In addition to great service, Ready has developed a valuable online Dealer Portal to assist you in managing your unique transportation requirements. Ready's Dealer Portal allows you to get instant firm quotes and manage the transportation of all vehicles purchased online and offline 24/7. Visit us at <a target='_blank' href='http://www.ReadyAT.com'>www.ReadyAT.com</a> to register.</p> <strong>3 Easy Ways to Order</strong><ul><li>Call us M-F 7:00am-4:30pm (MST) at <strong>866-245-5582</strong></li><li>Fax your order to <strong>480-558-3209</strong></li> <li>Email your order to <a href='mailto:Sales@ReadyAT.com'>Sales@ReadyAT.com</a></li></ul>
-							</span></div>
-							</span></td>
-							<td width="38%" valign="top">NA*</td>
-						
-					</tr>
-					<tr valign="top">
-						<td><strong>Certifications:</strong></td>
-						
-					</tr>
-					<tr valign="top">
-						<td>&nbsp;</td>
-						<td colspan="2">&nbsp;</td>
-					</tr>
-				</table>
-				</div>
-				</div>
-				<div class="cr-mod-auction">
-				<div class="cr-block">
-				<div class="c_480 left">
-				<div> 
-					<img
-						src="logo-LiveBlock-sm.gif">
-				 
-				
-					<br />
-					<strong> 
-						Run #6
-					</strong> 
-				
-				
-					<br />
-					<strong> 
-						Lane
-						E
-					</strong> 
-				 
-				
-				</div>
-				</div>
-				<div class="c_480 right">
-				<div class="mod_lmargin">Start Date: 13-Sep-2012<br />
-				Start Time: 12:00 PM EST<br />
-				 Current Time: <span id="currentTime">7:11 PM EST</span>
-					
-					<script>InitializeTimer(1347318674788, -4, 'currentTime');</script>
-					</div>
-				</div>
-				<br clear="all">
-				<br>
-				 
-				
-					<table width="100%" border="0" cellspacing="1" cellpadding="1">
-						<tr>
-							<td></td>
-							<td align="right"></td>
-
-						</tr>
-						<tr>
-							<td> <span
-								class="tooltipTopRight-large"><a href="#"><span> </span></a></span></td>
-							<td align="right"></td>
-						</tr>
-					</table>
-					
-				 <br clear="all">
-				</div>
-				</div>
-				<div class="cr-mod-gallery noPrint" style="display: block;">
-				<div class="gallery" id="gallery">
-				<div class="image-header">&nbsp;</div>
-				<div class="slideshow-container">
-				<div class="loader" id="loading" style="display: none;"></div>
-				<div class="slideshow" id="slideshow"><span
-					class="image-wrapper current" style="opacity: 1;"><a
-					title="Image Description 1" href="#2" rel="history"
-					class="advance-link">&nbsp;<img alt="" src=""></a></span></div>
-				</div>
-				<div class="caption-container" id="caption"><span
-					class="image-caption current" style="opacity: 1;">
-				<div class="caption">
-				<div class="image-desc"></div>
-				</div>
-				</span></div>
-				<div class="controls" id="controls">
-				<div class="nav-controls"><a rel="history" class="prev"
-					href="#18">&nbsp;</a><a rel="history" class="next" href="#2">&nbsp;</a></div>
-				</div>
-				</div>
-				<div class="cr-gallery-thumbnails">
-				<div class="thumb-header">&nbsp;</div>
-				<div class="navigation" id="thumbs"
-					style="margin: 0pt; padding: 0pt; float: left; clear: none; width: 100%; opacity: 1;">
-				<div class="top pagination"><span class="current">1</span><a
-					title="2" href="#10" rel="history">2</a><a title=""
-					href="#10" rel="history"></a></div>
-				<ul class="thumbs">
-				</ul>
-				</div>
-				<div class="thumb-toolbar"><a
-					onclick="return popitup('/members/CR_imageviewer-js.html')"
-					href='/members/CR_imageviewer-js.html'><img
-					src="btn-cr-larger_images.gif"></a>
-				</div>
-				</div>
-				</div>
-				<input type="hidden" id="crImagesJSON"
-					value='{&#034;CR Images&#034;: {
-  &#034;crMainImage&#034;: {
-    &#034;label&#034;: &#034;Detailed View&#034;,
-    &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_1.jpg&#034;,
-    &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_1.jpg&#034;,
-    &#034;caption&#034;: &#034;&#034;
-  },
-  &#034;images&#034;: {
-    &#034;label&#034;: &#034;Vehicle Images&#034;,
-    &#034;list&#034;: [
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_2.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_2.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_3.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_3.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_4.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_4.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_5.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_5.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_6.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_6.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_7.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_7.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_8.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_8.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_9.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_9.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_10.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_10.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_11.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_11.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_12.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_12.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_13.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_13.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_14.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_14.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_15.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_15.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10L/jtjbt20x940066588_16.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-09-10S/jtjbt20x940066588_16.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      }
-    ]
-  },
-  &#034;isImagesAvailable&#034;: true,
-  &#034;isMainImageAvailable&#034;: true,
-  &#034;crImagePopupTitle&#034;: &#034;ADESA OnLine Auto Auction - View Image&#034;,
-  &#034;crImagePrev&#034;: &#034;Prev&#034;,
-  &#034;crImageNext&#034;: &#034;Next&#034;,
-  &#034;playSlideShow&#034;: &#034;Play Slideshow&#034;,
-  &#034;pauseSlideShow&#034;: &#034;Pause Slideshow&#034;,
-  &#034;previousPhoto&#034;: &#034;Previous Photo&#034;,
-  &#034;nextPhoto&#034;: &#034;Next Photo&#034;,
-  &#034;photoCount&#034;: &#034;Photo {0} of {1}&#034;
-}}' />
-				<input type="hidden" id="prev"
-					value='Prev' />
-				<input type="hidden" id="next"
-					value='Next' />
-				<div class="cr-mod-info">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<tr valign="top">
-
-						<td width="50%" align="left"><!-- Vehicle Information -->
-						<table width="99%" class="cr-info-table" id="cr-vehicle-info"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th colspan="4" align="center">Vehicle Information</th>
-								</tr>
-							</thead>
-							<tr valign="top">
-
-								<td width="16%"><strong>VIN:</strong></td>
-								<td width="30%">JTJBT20X940066588</td>
-								<td width="23%"><strong>Stock #:</strong></td>
-								<td width="31%">150622</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Engine:</strong></td>
-								<td>8 Cylinder Gas [8G]</td>
-
-								<td><strong>Ext. Color:</strong></td>
-								<td>GRAY</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Trans:</strong></td>
-								<td>Automatic Transmission</td>
-
-								<td><strong>Int. Color:</strong></td>
-								<td>BEIGE</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Body Style:</strong></td>
-								<td>4 DR 4WD SUV</td>
-
-								<td><strong>Int. Type:</strong></td>
-								<td>Leather Interior</td>
-							</tr>
-							<tr valign="top">
-								<td><strong>Odometer:</strong></td>
-								<td>131,721 MI</td>
-
-								<td><strong>Title State/ Prov:</strong></td>
-								<td>California</td>
-							</tr>
-							<tr valign="top">
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td><strong>In Service Date:</strong></td>
-								<td></td>
-							</tr>
-						</table>
-						<!-- Options -->
-						<table cellspacing="1" cellpadding="4" width="99%" id="cr-options-left" class="cr-info-table">
-                              	<thead>
-                                	<tr valign="top" class="rowB">
-										<th align="center">Options</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr valign="top" class="rowB">
-                               			<td><div class="option-abv">4WD  ACI  AD  CC  PL  PW  MN  AB  PS  AFCC</div>
-                               			<div class="option-desc hidden">
-										
-											4WD - 4WD<br />
-										
-											ACI - Independent Climate Control<br />
-										
-											AD - Air Bag - Dual<br />
-										
-											CC - Cruise Control<br />
-										
-											PL - Power Lock<br />
-										
-											PSDP - Seat - Power Driver and Passenger<br />
-										
-											PW - Power Window<br />
-										
-											MN - Moon Roof<br />
-										
-											AB - Anti-Lock Brakes [A]<br />
-										
-											PS - Power Steering<br />
-										
-											AFCC - AM\FM\Cass\CD<br />
-										
-										</div></td>
-                             		</tr>
-								
-									<tr valign="top" class="noPrint rowA">
-										<td><a class="showhideAll" href="#">Show Option Descriptions</a>
-										<input type="hidden" id="showOptionDesc"	value='Show Option Descriptions' />
-										<input type="hidden" id="hideOptionDesc"	value='Hide Option Descriptions' />
-										</td>
-									</tr>
-								
-							</tbody>
-						</table>
-						<!-- Accessories -->
-						<table width="99%" class="cr-info-table" id="cr-accessories-left"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Accessories</th>
-								</tr>
-							</thead>
-							
-								<tr valign="top">
-									<td>4.7L V8 EFI</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>4WD</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>7 Passenger</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Heated Seats - Driver and Passenger</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Independent Climate Control</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Memory Seat</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Seat Type - Bucket</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Traction Control</td>
-								</tr>
-							
-						</table>
-						<!-- Wheels & Tires -->
-						<table width="99%" class="cr-info-table" id="cr-wheels-tires"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Wheels and Tires</th>
-								</tr>
-							</thead>
-							
-								<tr>
-									<td>Wheel Type Chrome</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 8/32</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 17 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Type Chrome</td>
-								</tr>
-							
-								<tr>
-									<td>Tire Brand MONTANA</td>
-								</tr>
-							
-								<tr>
-									<td>Tread Depth 8/32</td>
-								</tr>
-							
-								<tr>
-									<td>Wheel Diameter 17 inches</td>
-								</tr>
-							
-								<tr>
-									<td>Tire Brand MONTANA</td>
-								</tr>
-							
-								<tr>
-									<td>Tire Rating Average</td>
-								</tr>
-							
-						</table>
-						</td>
-						<td align="right" width="50%"><!-- Announcements -->
-						<table width="99%" class="cr-info-table announcements"
-							id="cr-announcements" cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Announcements</th>
-
-								</tr>
-							</thead>
-							
-							
-								<tr>
-									<td>As-is (red light)</td>
-								</tr>
-							
-								<tr>
-									<td>No ARB-Mechanical or Frame</td>
-								</tr>
-							
-								<tr>
-									<td>DMV $0   EXP 9/24/12</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-								<tr>
-									<td>&nbsp;</td>
-								</tr>
-							
-						</table>
-						<!-- Remarks -->
-						<table width="99%" class="cr-info-table" id="cr-remarks"
-							cellpadding="4" cellspacing="1">
-							<thead>
-								<tr valign="top">
-									<th align="center">Remarks</th>
-								</tr>
-							</thead>
-							
-								<tr valign="top">
-									<td>Jack Assembly Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Interior Condition Average</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Roof Luggage Rack Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Fuel Empty</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Spare Wheel Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Mech. Rating Average</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Fog Lights Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Odometer Type Digital</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Lug Wrench Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Engine Type Gas</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>License State California</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Wood Trim Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Mats Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Power Mirrors Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Privacy Package Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Tow Package Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>R Running Board Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>License Exp. 9/12</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Radio Make Factory</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>EPA Sticker CA</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Rear Defrost Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>License 6TSL096</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Headlight Type Standard</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>S Airbag R Front Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Drivable Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Interior Color BEIGE</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Odometer Digits 6</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Spare Tire Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>L Running Board Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Ignition Keys 1</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Curtain Airbag L Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Mileage 131721</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>S Airbag Left Front Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Curtain Airbag R Yes</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Vehicle Condition Average</td>
-								</tr>
-							
-								<tr valign="top">
-									<td>Airbag Front Left Yes</td>
-								</tr>
-							
-						</table>
-						</td>
-					</tr>
-					<tr>
-						<td valign="top" colspan="2"><!-- Additional Info -->
-						<table width="100%" class="cr-info-table" id="cr-additional-info">
-							<thead>
-								<tr>
-									<th colspan="2">Additional Information</th>
-								</tr>
-							</thead>
-							<tr valign="top">
-								<td width="50%">
-								<table width="100%" border="0" cellpadding="4" cellspacing="1">
-									<tr>
-										<th>Exterior Information</th>
-									</tr>
-									
-										<tr valign="top">
-											<td>LR DR Panel Chipped less than 1 inch</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>RF DR Mirror Housing Scratches - Heavy less than 1 inch</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>FRONT Windshield Cracked 12+ inches</td>
-										</tr>
-									
-								</table>
-								</td>
-								<td width="50%">
-								<table width="100%" border="0" cellpadding="4" cellspacing="1">
-									<tr>
-										<th>Interior Information</th>
-									</tr>
-									
-										<tr valign="top">
-											<td>INT Steering Wheel Worn</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>INT Seats LF Worn</td>
-										</tr>
-									
-										<tr valign="top">
-											<td>INT Seats RF Worn</td>
-										</tr>
-									
-								</table>
-								</td>
-							</tr>
-						</table>
-						<!-- Condition Disclaimer --> <!-- OEM Information -->
-						<table width="100%" class="cr-info-table apNoShow"
-							id="cr-oem-info" cellpadding="4" cellspacing="1">
-							
-							
-						</table>
-						<!-- Transportation Disclaimer --> 
-						
-							
-								<div id="transportation-disclaimer" class="cr-disclaimer"><strong>Transportation Disclaimer:</strong>&nbsp;Transportation is between the dealer chosen transporter and dealer.  ADESA makes no representations or warranties, express or implied, with respect to transportation pricing, delivery dates and/or times.  ADESA shall not be responsible for any loss or damage as the result of any (i) pricing discrepancy of transporter, (ii) transporter&#039;s delay in delivery, or (iii) failure to deliver.  Further, in no event shall ADESA and its employees be liable for any damage to vehicles transported by transporter.  Quotes displayed are valid for 48 hours.</div>
-							
-						
-						
-						</td>
-					</tr>
-				</table>
-				</div>
-				<ul class="printOnly"></ul>
-				</div>
-				</div>
-				<!--end main CR wrapper--></td>
-
-			</tr>
-		</tbody>
-	</table>
-	</td>
-</tr>
-		</td>
-	</tr>
-	
-<tr>
-	<td >
-	<div class="footer">
-		<div class="footerLeft">
-			Copyright &copy; <script>document.write(copyrightYear());</script> ADESA. All Rights Reserved.                             
-		</div>
-		
-   
-   <script type="text/javascript">
-        <!--
- 
-	function openFooterLink(page) {
-
-	var url1;
-	var url2;
-    var comUrl;
-	url1='http://www.adesa.ca/';
-	url2='?locale=en_CA&logged_in=true';
-    comUrl=url1+page+url2;
-	window.open(comUrl,'Footer','top=300, left=200,toolbar=yes,status=no,scrollbars=yes,resizable=yes,width=1000,height=500');
-  
-	}
-	
-	function openMobileFooterLink(page) {
-	var url1;
-	var url2;
-    var comUrl;
-    var queryString;
-	url1='http://m.adesa.com/mt/';
-	url2='http://www.adesa.ca/';
-	queryString = "?un_jtt_redirect";
-    comUrl=url1+url2+page+queryString;
-	window.open(comUrl,'Footer','top=300, left=200,toolbar=yes,status=no,scrollbars=yes,resizable=yes,width=1000,height=500');
-	
-	}
-	 -->
- </script>
-		<div class="footerRight"><a  onclick="openFooterLink('legal')"  href="#" >Legal</a> | <a onclick="openFooterLink('privacy-policy')"  href="#"  >Privacy Policy</a> | <a onclick="openFooterLink('all-auctions')"   href="#">Contact Us</a>  | <a onclick="javascript:window.open('/communication/communicationSetUp');return false"   href="#">Sign Up for Email</a> | <a  href="http://karauctionservices.com/wps/portal/kar/careers/" target="_blank">Careers</a> | 
-		<a onclick="openMobileFooterLink('home')" href="#" >ADESA mobile</a></div>
-	</div>
-	</td>
-</tr>
-
-<script type="text/javascript" src="jquery.colorbox-min.js"></script>
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwK03cu3DgKsichoArHo6eoKyGIwgWMyFkm8sPbuh/z+aCWTEfo=" />
+</div>
+<div id="dvTip" style="display:none; width:163;"></div>
 <script type="text/javascript">
-$(document).ready(function() {
-    $("#cpraVin").bind("keypress", function(e) {
-        var code = (e.keyCode ? e.keyCode : e.which);
-        if (code == 13) {
-            cpraValidateAndSubmit(); 
-            e.preventDefault();
-        }
-    });
-});
 
-function openCPRAPopupWindow() {
-    var _title = "<span id='cpraPopupTitleText'>CarProof Request</span>";
-    var cbOptions = {
-        inline:true, 
-        href:"#cpraModalContent", 
-        opacity: "0.75", 
-        overlayClose: false, 
-        escKey: false, 
-        transition: "none",
-        innerWidth: "300px",
-        innerHeight: "125px",
-        open: true,
-        title: _title
-    };
-    $.colorbox(cbOptions);
-    return true;
+function OpenWLDiv() 
+{
+    document.getElementById(sdivWatchList).style.display = "block";
 }
+function CloseWLDiv() 
+{
+    document.getElementById(sdivWatchList).style.display = "none";
+}
+</script>
+<script>
+var vOffer = 'ph1_txtOfferAmount';
+var vImages = new Array();
+var vImagesBig = new Array();
+var vImageIndex = 0;
+var vCertImage = 'http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.51.JPG.jpg';
+var vCertIndex = '0';
+vImageIndex = 0;
+vImages[0]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.51.JPG.jpg;width=240;cb=0';
+vImagesBig[0]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.51.JPG.jpg';
+vImages[1]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.52.JPG.jpg;width=240;cb=0';
+vImagesBig[1]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.52.JPG.jpg';
+vImages[2]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.53.JPG.jpg;width=240;cb=0';
+vImagesBig[2]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.53.JPG.jpg';
+vImages[3]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.54.JPG.jpg;width=240;cb=0';
+vImagesBig[3]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.54.JPG.jpg';
+vImages[4]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.55.JPG.jpg;width=240;cb=0';
+vImagesBig[4]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.55.JPG.jpg';
+vImages[5]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.56.JPG.jpg;width=240;cb=0';
+vImagesBig[5]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.56.JPG.jpg';
+vImages[6]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.57.JPG.jpg;width=240;cb=0';
+vImagesBig[6]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.57.JPG.jpg';
+vImages[7]='http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.58.JPG.jpg;width=240;cb=0';
+vImagesBig[7]='http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.58.JPG.jpg';
+document.body.onload = "SetImage(vImageIndex);";
+</script>
 
-function cpraClearData() {
-    $("#cpraModalContentR1Error").hide();
-    $("#cpraVin").val("");
-    $.colorbox.close();
-}
+<input type="hidden" name="ctl00$ph1$hidBidAction" id="ph1_hidBidAction" /> 
+<input type="hidden" name="ctl00$ph1$hidBidCurrent" id="ph1_hidBidCurrent" /> 
 
-function cpraValidateAndSubmit() {
-    var cpraVin = $.trim($("#cpraVin").val());
-    if ((cpraVin == null) || (cpraVin.length < 17)) {
-        $("#cpraModalContentR1Error").show();
-        $("#cpraVin").val("");
-        return false;
-    }
-    var reqUrl = "/getCarProofLink";
-    var reqData = { 'vin' : cpraVin };
-    $.get(reqUrl, reqData, function(data) {
-        cpraClearData();
-        if (data.indexOf("http") != 0) {
-            window.location.reload(1);
-            return false;
-        }
-        if (data.length > 12) {
-            var winObj = window.open(data, "_blank", "width=1024,height=768,resizable=yes,scrollbars=yes");
-            if (winObj.focus) {
-                winObj.focus();
-            }
-        }
-    });
-    return true;
-}
+<table border="0" cellpadding="0" cellspacing="0" width="737">
+<!--Listings subject to change w/o notice.....-->
+<tr>
+<td align="center">
+    <table>
+        <tr>
+            <td width="150px">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+            </td>
+            <td align="center"> 
+                All listings are subject to change without notice.<br/>  
+                Information is deemed to be reliable, but not guaranteed until announced on the
+                auction block.
+            </td>
+            <td align="right" width="150px">
+                <a id="ph1_lnkGetAcrobat" title="Get Adobe Reader"><img title="Get Adobe Reader" src="getacro.gif" alt="" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="ph1_lnkPrint" title="Click for Printer-Friendly Adobe .pdf" href="CarReport.ashx?VID=12562133"><img title="Click for Printer-Friendly Adobe .pdf" src="PDF_icon.gif" alt="" /></a>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center">
+    
+
+
+
+    <table width="100%" cellpadding="2" cellspacing="5" border="0"><tr>
+            <td valign="top">
+                <div id="tblReport">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" >
+                    
+                    <tr>
+                        <td style="vertical-align:top; width:380;">
+                            
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                
+                               
+                                <tr>
+                                    <td class="secHdr" colspan="2">&nbsp;Vehicle Description</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><img src="blank.gif" alt="" height="4" width="1"/></td>
+                                </tr>
+                                <tr>
+                                    <td class="Caption" id="Colo" width="100px">Vehicle</td>
+                                    <td class="ulText" width="263px"><b>2004 Lexus GX 470 4WD 4D Utility 4.7L</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="Caption" width="100px">VIN</td>
+                                    <td class="ulText" id="tdVIN" width="263px">JTJBT20X940066588</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="Caption" width="100px">Ext. Color</td>
+                                    <td class="ulText" width="263px">Gray</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="Caption" width="100px">Int. Color</td>
+                                    <td class="ulText" width="263px">Beige&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Interior</b>&nbsp;&nbsp;&nbsp;&nbsp;Leather</td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td class="Caption" width="100px">Mileage</td>
+                                        <td class="ulText" width="263px">130,638<a href="javascript:void window.open('odo/actual.htm','_blank','height=120,width=300,top=50,left=50');">&nbsp;<font color="green">Actual Miles</font></a></td>
+                                    </tr>
+                                
+                                
+                                    <tr>
+                                        <td class="Caption" width="100px">Engine</td>
+                                        <td class="ulText" width="263px">4.7L 8-Cylinder Gas</td>
+                                    </tr>
+                                
+                                
+                                    <tr>
+                                        <td class="Caption" width="100px">Transmission</td>
+                                        <td class="ulText" width="263px">Automatic</td>
+                                    </tr>
+                                
+                                
+                                
+                                
+                                <tr>
+                                    <td colspan="2"><img src="blank.gif" alt="" border="0" height="6" width="1"/></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2" class="secHdr" align="left">&nbsp;Auction Data</td>
+                                </tr>
+                                
+                                 <tr>
+                                    <td class="Caption" nowrap="nowrap">Auction</td>
+                                    <td class="ulText" width="263px">Brasher's Sacramento Auto Auction</td>
+                                </tr>
+                                 <tr>
+                                    <td class="Caption" nowrap="nowrap">Veh Location</td>
+                                    <td class="ulText" width="263px">Rio Linda, CA</td>
+                                </tr>
+                                
+                                
+                                
+                                    <tr>
+                                        <td class="Caption" nowrap="nowrap">Run #</td>
+                                        <td class="ulText" width="263px">0413&nbsp;&nbsp;<b>Inv #</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    </tr>
+                                
+                                
+                                
+                           </table>
+                        </td>
+                        <td width="5px">
+                            <img src="blank.gif" alt="" border="0" width="5" height="1"/></td>
+                        <td bgcolor="#cccccc" width="1px">
+                            <img src="blank.gif" alt="" border="0" width="1" height="1" id="IMG1" onclick="return IMG1_onclick()"/></td>
+                        <td width="5px">
+                            <img src="blank.gif" alt="" border="0" width="5" height="1"/></td>
+                        <td valign="top" width="363px">
+                            <table width="363px" cellpadding="0" cellspacing="0" border="0">
+                               
+                                    <tr>
+                                        <td colspan="2">
+                                        
+                                            <table width="363px" cellpadding="0" cellspacing="0" border="0" >
+                                                <tr>
+                                                    <td style="vertical-align:top; text-align:center; width:60;">
+                                                         
+                                                    </td>
+                                                    <td>
+                                                        <table cellpadding="0" cellspacing="0" border="0" >
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:center; vertical-align:top;">
+                                                                    <div id="dvVehImageZoom" style="position:relative;"><a image="http://s3.amazonaws.com/AuctionPipeline/BSAA12562133-30924.51.JPG.jpg" id=vehImageZoom><img width=240 height=180 id=imgSlide imageIndex="0" src="cb=0" style="background-image:url(http://img.auctionpipeline.com/IMG/AuctionPipeline/BSAA12562133-30924.51.JPG.jpg;width=240;cb=0);cursor:pointer;" /></a></div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"></td>
+                                                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td colspan="2" align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0"><tr>
+                                                                            <td>
+                                                                                <div id='dvMagnification' alt='Click to Toggle Magnification' style='text-align:left;display: block; padding-left: 25px; padding-top: 5px; background: url(image/mag_glass.gif) no-repeat scroll 0pt 35% transparent; height: 25px;cursor:pointer;'>
+                                                                                    Magnification: <span id='spMagSetting'>Off</span>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr></table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" align="center">
+                                                                    <table cellpadding="0" cellspacing="0" border="0"><tr>
+                                                                            <td class="Nav" width="0" align="right" onclick="PrevImage();">&lt;</td>
+                                                                            <td align="center">&nbsp; [ 8 Images ] &nbsp;</td>
+                                                                            <td align="left" width="0" class="Nav" onclick="NextImage();">&gt;</td>
+                                                                        </tr></table>
+                                                                </td>
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td colspan="2" style="height:5px;"></td>
+                                                            </tr>
+                                                         </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        
+                                        </td>
+                                    </tr>    
+                                
+                                
+
+                                <tr>
+                                    <td colspan="2" class="secHdr" align="left">&nbsp;Declarations</td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td class="Caption" nowrap="nowrap">Warranty</td>
+                                        <td class="ulText" width="263px"><A href="javascript:void window.open('Warranty/SELLERDAYOF.htm','_blank','height=120,width=430,top=50,left=50');"><font color="green">Seller's Warranty</font></a></td>
+                                    </tr>
+                                
+                                
+                                    <tr>
+                                        <td class="Caption" nowrap="nowrap">Mileage</td>
+                                        <td class="ulText" width="263px">130,638<a href="javascript:void window.open('odo/actual.htm','_blank','height=120,width=300,top=50,left=50');">&nbsp;<font color="green">Actual Miles</font></a></td>
+                                    </tr>
+                                
+                                <tr>
+                                    <td class="Caption" nowrap="nowrap">Title</td>
+                                    <td class="ulText" width="263px">Not yet at auction</td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                
+                                <tr>
+                                    <td class="Caption" nowrap="nowrap">CR</td>
+                                    <td class="ulText" width="263px"></td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="height:8"></td>
+                    </tr>
+
+                    
+                    
+                    
+                    <tr>
+                        <td colspan="5" class="secHdr" align="left">&nbsp;Equipment</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" id="EquipmentSection">
+                            
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="Equipment">
+                                    <tr>
+                                        <td colspan="3" style="width:630"></td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td><span>&bull;</span>4 Wheel Drive</td>
+                                    
+                                
+                                    
+                                        <td><span>&bull;</span>8 Cylinder Gas</td>
+                                    
+                                
+                                    
+                                        <td><span>&bull;</span>AM/FM/CD Tape</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td><span>&bull;</span>Automatic Transmission</td>
+                                    
+                                
+                                    
+                                        <td><span>&bull;</span>CD Changer ()</td>
+                                    
+                                
+                                    </tr>
+                                        <tr>
+                                            <td colspan="3" style="height:8"></td>
+                                        </tr>
+                                    </table>
+                                
+                        </td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td colspan="5" class="secHdr" align="left"><a name="condition"></a>&nbsp;Damage Descriptions&nbsp;<font size="1" color="red">&nbsp;**Condition Report not available for this vehicle**</font></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            
+                            
+                                    <table width="100%" class="Damage" cellpadding="0" cellspacing="2" border="0">
+                                        <tr>
+                                            <td colspan="11"><img src="blank.gif" alt="" height="5" width="1"/></td>
+                                        </tr>
+                                        <tr class="head" valign="top">
+                                            <td style="width:60"><b>Image</b></td>
+                                            <td colspan="2"><b>Location</b></td>
+                                            <td><b>Damage<br />Action</b></td>
+                                            <td><b>Severity</b></td>
+                                            <td align="right"><b>Parts</b></td>
+                                            <td align="right"><b>Other</b></td>
+                                            <td><b>Repair<br />Hours</b></td>
+                                            <td><b>Paint<br />Hours</b></td>
+                                            <td><b>Part<br />Hours</b></td>
+                                            <td align="right"><b>Total</b></td>
+                                        </tr>
+                                
+                                    
+                                    <tr>
+                                        <td colspan="11" style="height:5"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11" class="Region">&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr class="item" valign="top">
+                                        <td><img id="ph1_rptDamageItems_imgDamage_0" imageIndex="0" class="ImgLink" src="cb=0" style="height:45px;width:60px;" /></td>
+                                        <td><b>1</b></td>
+                                        <td>&nbsp;</td>
+                                        <td>Photo Only<br />&nbsp;</td>   
+                                        <td>&nbsp;</td>   
+                                        <td align="right">&nbsp;</td>  
+                                        <td align="right">&nbsp;</td>  
+                                        <td align="right">&nbsp;<br />&nbsp;</td>   
+                                        <td align="right">&nbsp;<br />&nbsp;</td>   
+                                        <td align="right">&nbsp;<br />&nbsp;</td>   
+                                        <td align="right"><b>--<br />--</b></td>
+                                    </tr>
+                                    
+                                    <tr class="lin">
+                                        <td colspan="11" style="height:1"></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td colspan="11" style="height:5"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">&nbsp;</td>
+                                        <td class="ftrcap"><b>&nbsp; Subtotal</b></td>  
+                                        <td class="sub"><b>--</b><br />&nbsp;</td>
+                                        <td class="sub"><b>--</b><br />&nbsp;</td>
+                                        <td class="sub"><b>--<br />--</b></td>
+                                        <td class="sub"><b>--<br />--</b></td>
+                                        <td class="sub"><b>--<br />--</b></td>
+                                        <td class="sub"><b>--<br />--</b></td>
+                                    </tr>
+                                    
+                                
+                                    <tr>
+                                        <td colspan="11" style="height:5"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">&nbsp;</td>
+                                        <td class="ftrcap"><b>Total</b></td>  
+                                        <td class="ftr"><b>--</b><br />&nbsp;</td>
+                                        <td class="ftr"><b>--</b><br />&nbsp;</td>
+                                        <td class="ftr"><b>--<br />--</b></td>
+                                        <td class="ftr"><b>--<br />--</b></td>
+                                        <td class="ftr"><b>--<br />--</b></td>
+                                        <td class="ftr"><b>--<br />--</b></td>
+                                    </tr>
+                                    </table>
+                                
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    
+                    
+                    
+                        <tr>
+                            <td colspan="5" class="secHdr" align="left">&nbsp;Additional Information</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="left"></td>
+                        </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </table>
+                </div>
+                
+                <div>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td colspan="5" class="secHdr" align="left">&nbsp;Vehicle Pictures</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" align="left">
+                            
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr class="Caption">
+                                            <td colspan="8" nowrap="nowrap">Click on pictures to view enlargement</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8"><img src="blank.gif" alt="" height="4" width="1" border="0"></td>
+                                        </tr>
+                                
+                                    <tr>
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_0" imageIndex="0" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_1" imageIndex="1" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_2" imageIndex="2" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_3" imageIndex="3" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_4" imageIndex="4" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_5" imageIndex="5" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_6" imageIndex="6" class="ImgLink" /></td>
+                                    </tr>
+                                
+                                    <tr>
+                                    <td style="height:55;width:100" align="center"><img src="cb=0" id="ph1_rptImages_imgVehicle_7" imageIndex="7" class="ImgLink" /></td>
+                                    
+                                
+                                    
+                                        <td><div id="dvBackToReport" style="display:none;font-size:16px;font-weight:bold;"><a href="javascript:{BackToVehicleReport();}"><img alt="" src="backtov.gif" border="0" /></a></div></td>
+                                    </tr>
+                                    </table>
+                                
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <div id="divCert" style="display:none;position:absolute;width:200;height:200;"><img id="imgCert" src="blank.gif" alt="" /></div>
+                <img id="imgBigPicture" src="blank.gif" alt="" style="display:none;" />
+                </div>
+                
+                
+            </td>
+        </tr></table>
+        
+        
+    </td>
+    </tr>
+    </table>
+    
+    </form>
+
+<div id="popupDealershipEdit" class="popup_block">
+    <form id="ACRpt" action="AutoCheck.ashx" method="post" target="_blank">
+        <input name="VIN" id="txtACVIN" type="hidden" />
+        <input name="SID" id="txtACSID" type="hidden" />
+    </form>
+    <div>
+        <input id="txtFilled" type="hidden" />
+        <div><img alt="AutoCheck" src="ACBanner.gif" /></div>
+        <div style="height:20px;"></div>
+        <div style="font-size:11px;" id="acInstr">This feature will use your existing AutoCheck account credentials (and you'll be charged by AutoCheck accordingly). Enter your AutoCheck account number below to begin. To sign up for AutoCheck, click <a href="http://www.autocheck.com/members/gateway.do" target="_blank">here</a></div>
+        <div style="height:20px;" id="acInstrPad"></div>
+        <table id="tblAutoChkDealerships" style="width:500px;display:none;" border="0" cellspacing="0">
+            <thead>
+                <th style="text-align:left;width:220px;padding:5px;">Dealership</th>
+                <th style="text-align:left;width:170px;padding:5px;">Account Number</th>
+                <th style="width:110px;"></th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="divNoDealers" style="text-align:center;height:50px;display:none;">There are no dealerships associated with your account.<br />To manage your dealerships click <span style="color:#1a60d8;cursor:pointer;"><a class="acClose" href="Account2.aspx" target="_blank">here</a></span>.</div>
+        <img id="imgLoadDealers" alt="wait" src="wait.gif" />
+        <div style="height:20px;"></div>
+    </div>
+    
+</div>
+
+<script type="text/javascript" src="jquery.js?1"></script>
+<script type="text/javascript" src="jquery.ui.js?1"></script>
+<script type="text/javascript" src="framework.js"></script>
+<script type="text/javascript" src="carreport.js?8"></script>
+<script type='text/javascript' src="jquery.zoom.js"></script>
+<link rel="stylesheet" type="text/css" href="jqzoom.css" />
+<script type="text/javascript">
+
+    var tgImageZoomOn = false;
+    var msgInvalidBid = "An invalid value has been entered, the bid amount must be a number without commas."
+    var msgDeleteBid =  'Clicking "Confirm" below will remove all bids you have placed on this vehicle.'; 
+    var msgMaxBidLessCurrent = 'The "Change Max Bid" value can' + "'" + 't be less than the current vehicle bid of $';
+    var msgChangeBid =  'Clicking "Change Bid" will set your new bid on this vehicle to $';
+    var msgPlaceBid = 'By proceding with the Place Bid option you agree to make an offer' +
+                      ' to purchase this vehicle subject to all posted auction policies, seller approval and prior sale.'
+                     
+    var bArchivedVehicle = false;
+    
+    	var Layouts = new Object();
+	Layouts.TransZipAdd = {
+		layoutspec: [
+			{fld:'TransportZipID',type:'number',label:'TransportZipID',column:0,ordinal:-1,tab:0,key:false,maxlen:12,precision:0,nullable:false, readonly:false, lookup:null},
+			{fld:'DealerName',type:'string',label:'Name',column:0,ordinal:0,tab:0,key:false,maxlen:26,precision:0,nullable:true, readonly:false, lookup:null,width:'250px'},
+			{fld:'Address',type:'string',label:'Address',column:0,ordinal:1,tab:0,key:false,maxlen:50,precision:0,nullable:true, readonly:false, lookup:null,width:'250px'},
+			{fld:'City',type:'string',label:'City',column:0,ordinal:2,tab:0,key:false,maxlen:20,precision:0,nullable:true, readonly:false, lookup:null,width:'140px'},
+			{fld:'State',type:'string',label:'State',column:0,ordinal:3,tab:0,key:false,maxlen:2,precision:0,nullable:true, readonly:false, lookup:null,width:'30px'},
+			{fld:'Zipcode',type:'string',label:'Zipcode',column:0,ordinal:4,tab:0,key:false,maxlen:5,precision:0,nullable:false, readonly:false, lookup:null,width:'60px'},
+			{fld:'ContactName',type:'string',label:'Contact Name',column:1,ordinal:0,tab:0,key:false,maxlen:50,precision:0,nullable:true, readonly:false, lookup:null,width:'250px'},
+			{fld:'ContactPhone',type:'string',label:'Contact Phone',column:1,ordinal:1,tab:0,key:false,maxlen:20,precision:0,nullable:true, readonly:false, lookup:null,width:'140px'},
+			{fld:'ContactEmail',type:'string',label:'Contact Email',column:1,ordinal:2,tab:0,key:false,maxlen:50,precision:0,nullable:true, readonly:false, lookup:null,width:'250px'}		]}
+
+    var varTransZipAddEdit;
+
 </script>
 
 
-</table>
+                            <!-- End of Main Body Content -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="height:20px; background-color:#005589; color:White; padding: 2px 10px 2px 0px"><font color="white">&copy;2009 Pipeline LLC</font></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="black" height="100%">&nbsp;</td>
+        </tr>
+    </table>
+
 </body>
+</html>

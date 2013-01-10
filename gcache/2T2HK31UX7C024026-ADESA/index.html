@@ -84,7 +84,7 @@ function popup(url)
 		<META NAME="DCS.dcsaut" CONTENT="ValentinaShevchik"> 
 		<META NAME="DCSext.dealer_id" 	CONTENT="174938">   
 		<META NAME="DCSext.ip_address" 	CONTENT="88.214.207.23">
-        <META NAME="DCSext.time_stamp"      CONTENT="08/27/2012-19:10:01">
+        <META NAME="DCSext.time_stamp"      CONTENT="04/20/2012-19:12:17">
         <META NAME="DCSext.dealer_country"      CONTENT="CA">
         <META NAME="DCSext.dealer_type"      CONTENT="DEALER"> 
         <META NAME="DCSext.dealership_name"      CONTENT="Makmal_North_America">
@@ -147,9 +147,6 @@ _tag.dcsCollect();
 
 <link href="adesa_framework.css" rel="stylesheet" type="text/css" media="all" />
 <link href="adesa_app.css" rel="stylesheet" type="text/css" media="all" />
-
-<link href="colorbox.css" rel="stylesheet" type="text/css" media="all" />
-
 
 
 
@@ -339,41 +336,6 @@ _tag.dcsCollect();
 			</div>
 		</div>
  	</div>
-            
-            <div id="cpraHiddenModalContent" style="display: none;">
-                <div id="cpraModalContent" style="width: 300px;height: 125px;">
-                   <form id="cpraModalContentForm" action="/getCarProofLink">
-                       <div id="cpraModalContentR1Error" style="float: left;padding: 5px;margin-left: 95px; display: none;font-size: small;color: red;">
-                          Please enter a valid VIN
-                       </div>
-                       <br clear="left" />
-                       <div id="cpraModalContentR2" style="float: left;padding: 5px;margin: 5px;">
-                          <div id="cpraModalContentR2Vin" style="width: 80px; text-align: left; float: left; margin-right: 5px;">
-                              <span style="font-size: small; text-align: left">
-                                  Enter VIN
-                              </span>
-                          </div>
-                          <div style="float: left;">
-                              <input type="text" maxlength="17" width="20" id="cpraVin" name="cpraVin" 
-                                  style="width: 160px;margin-left: 5px;height: 16px; border: 1px solid black;">
-                          </div>
-                       </div>
-                       <br clear="left" />
-                       <div id="cpraModalContentR3Buttons" style="float: left;padding: 5px;margin: 5px; width: 95%;">
-                          <div style="width: 50%; float: left;">
-                              <input type="button" name="cpraSubmit" id="cpraSubmit" style="padding: 4px; margin-left: 50px;" 
-                                onclick="if (!cpraValidateAndSubmit()) { return false; }"
-                                  value="Submit" />
-                          </div>
-                          <div style="width: 50%; float: left;">
-                              <input type="button" name="cpraCancel" id="cpraCancel" onclick="cpraClearData();" style="padding: 4px; margin-left: 20px;"
-                                  value="Cancel" />
-                          </div>
-                       </div>
-                   </form>
-                </div>
-            </div>
-            
 			<div id="nav">
 				<ul class="nav">
 					<li>
@@ -383,7 +345,7 @@ _tag.dcsCollect();
 						<a href="/home/purchaseOnline.do">BID / BUY</a>
 						<ul>
 							<li>
-								<a href="/SiteTransfer/toLiveBlock.do" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/TransfertoLiveBlock/Menu','WT.ti', 'Transfer To LiveBlock_Menu','WT.cg_n','LiveBlock','WT.cg_s','Home');">ADESA LiveBlock</a>
+								<a href="/SiteTransfer/toLiveBlock.do" target="_blank">ADESA LiveBlock</a>
 							</li>
 							<li>
 								
@@ -473,7 +435,7 @@ _tag.dcsCollect();
 									
 									
 										<li class="rowB">
-											<a href="/SiteTransfer/toLiveBlock/Reports.do"  target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/TransfertoLiveBlock/PurchasesReportMenu', 'WT.ti', 'Transfer To LiveBlock_Purchases Report Menu','WT.cg_n','LiveBlock','WT.cg_s','Purchases_Report');">
+											<a href="/SiteTransfer/toLiveBlock/Reports.do"  target="_blank">
 												My LiveBlock Purchases
 											</a>
 										</li>
@@ -502,23 +464,6 @@ _tag.dcsCollect();
 														
 								</ul>
 							</li>
-                            
-                             
-                                <li>
-                                    <a class="parent" href="#">
-                                        CarProof Report Archive
-                                    </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#" id="cpraMenuItem" class="cpraMenuItem" onclick="return openCPRAPopupWindow();"
-                                                title="CarProof Request">
-                                                Search for VIN
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            
-                            
 							
 									
 							
@@ -576,7 +521,7 @@ _tag.dcsCollect();
 				<div class="infoLeft">
 					
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						4429 
+						4699 
 							vehicles available for purchase 
 					
 				</div>
@@ -730,7 +675,7 @@ _tag.dcsCollect();
 				
 					<br />
 					<strong> 
-						Run #99
+						Run #82
 					</strong> 
 				
 				
@@ -744,11 +689,11 @@ _tag.dcsCollect();
 				</div>
 				</div>
 				<div class="c_480 right">
-				<div class="mod_lmargin">Start Date: 28-Aug-2012<br />
+				<div class="mod_lmargin">Start Date: 24-Apr-2012<br />
 				Start Time: 10:00 AM EST<br />
-				 Current Time: <span id="currentTime">7:14 PM EST</span>
+				 Current Time: <span id="currentTime">7:13 PM EST</span>
 					
-					<script>InitializeTimer(1346109256232, -4, 'currentTime');</script>
+					<script>InitializeTimer(1334963608719, -4, 'currentTime');</script>
 					</div>
 				</div>
 				<br clear="all">
@@ -813,41 +758,36 @@ _tag.dcsCollect();
 					value='{&#034;CR Images&#034;: {
   &#034;crMainImage&#034;: {
     &#034;label&#034;: &#034;Detailed View&#034;,
-    &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_1.jpg&#034;,
-    &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_1.jpg&#034;,
+    &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_1.jpg&#034;,
+    &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_1.jpg&#034;,
     &#034;caption&#034;: &#034;&#034;
   },
   &#034;images&#034;: {
     &#034;label&#034;: &#034;Vehicle Images&#034;,
     &#034;list&#034;: [
       {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_2.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_2.jpg&#034;,
+        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_2.jpg&#034;,
+        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_2.jpg&#034;,
         &#034;caption&#034;: &#034;&#034;
       },
       {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_3.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_3.jpg&#034;,
+        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_3.jpg&#034;,
+        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_3.jpg&#034;,
         &#034;caption&#034;: &#034;&#034;
       },
       {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_4.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_4.jpg&#034;,
+        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_4.jpg&#034;,
+        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_4.jpg&#034;,
         &#034;caption&#034;: &#034;&#034;
       },
       {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_5.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_5.jpg&#034;,
+        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_5.jpg&#034;,
+        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_5.jpg&#034;,
         &#034;caption&#034;: &#034;&#034;
       },
       {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_6.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_6.jpg&#034;,
-        &#034;caption&#034;: &#034;&#034;
-      },
-      {
-        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27L/2t2hk31ux7c024026_7.jpg&#034;,
-        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-08-27S/2t2hk31ux7c024026_7.jpg&#034;,
+        &#034;largeImageURL&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20L/2t2hk31ux7c024026_6.jpg&#034;,
+        &#034;url&#034;: &#034;http://images.adesa.com/pic/LB/2012-04-20S/2t2hk31ux7c024026_6.jpg&#034;,
         &#034;caption&#034;: &#034;&#034;
       }
     ]
@@ -884,7 +824,7 @@ _tag.dcsCollect();
 								<td width="16%"><strong>VIN:</strong></td>
 								<td width="30%">2T2HK31UX7C024026</td>
 								<td width="23%"><strong>Stock #:</strong></td>
-								<td width="31%">374977</td>
+								<td width="31%">356871</td>
 							</tr>
 							<tr valign="top">
 								<td><strong>Engine:</strong></td>
@@ -909,7 +849,7 @@ _tag.dcsCollect();
 							</tr>
 							<tr valign="top">
 								<td><strong>Odometer:</strong></td>
-								<td>99,848 MI</td>
+								<td>99,752 MI</td>
 
 								<td><strong>Title State/ Prov:</strong></td>
 								<td></td>
@@ -1108,7 +1048,7 @@ _tag.dcsCollect();
 							</thead>
 							
 								<tr valign="top">
-									<td>This vehicle has NOT been inspected,  buyers of this vehicle should be aware that a Mandatory 7 Day post sale inspection (PSI) is required at buyer expense for green light vehicles.  A PSI is not required for vehicles sold AS-IS.  AS-IS vehicles are determined based upon age, mileage and sale price all of which may vary from market to market based upon local market differences.  NAAA in lane arbitration policies apply to this vehicle.</td>
+									<td>&nbsp;</td>
 								</tr>
 							
 								<tr valign="top">
@@ -1158,7 +1098,7 @@ _tag.dcsCollect();
 									</tr>
 									
 										<tr valign="top">
-											<td>&nbsp;</td>
+											<td>This vehicle has NOT been inspected,  buyers of this vehicle should be aware that a Mandatory 7 Day post sale inspection (PSI) is required at buyer expense for green light vehicles.  A PSI is not required for vehicles sold AS-IS.  AS-IS vehicles are determined based upon age, mileage and sale price all of which may vary from market to market based upon local market differences.  NAAA in lane arbitration policies apply to this vehicle.</td>
 										</tr>
 									
 								</table>
@@ -1206,7 +1146,7 @@ _tag.dcsCollect();
 </tr>
 		</td>
 	</tr>
-	
+	 
 <tr>
 	<td >
 	<div class="footer">
@@ -1249,68 +1189,6 @@ _tag.dcsCollect();
 	</div>
 	</td>
 </tr>
-
-<script type="text/javascript" src="jquery.colorbox-min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $("#cpraVin").bind("keypress", function(e) {
-        var code = (e.keyCode ? e.keyCode : e.which);
-        if (code == 13) {
-            cpraValidateAndSubmit(); 
-            e.preventDefault();
-        }
-    });
-});
-
-function openCPRAPopupWindow() {
-    var _title = "<span id='cpraPopupTitleText'>CarProof Request</span>";
-    var cbOptions = {
-        inline:true, 
-        href:"#cpraModalContent", 
-        opacity: "0.75", 
-        overlayClose: false, 
-        escKey: false, 
-        transition: "none",
-        innerWidth: "300px",
-        innerHeight: "125px",
-        open: true,
-        title: _title
-    };
-    $.colorbox(cbOptions);
-    return true;
-}
-
-function cpraClearData() {
-    $("#cpraModalContentR1Error").hide();
-    $("#cpraVin").val("");
-    $.colorbox.close();
-}
-
-function cpraValidateAndSubmit() {
-    var cpraVin = $.trim($("#cpraVin").val());
-    if ((cpraVin == null) || (cpraVin.length < 17)) {
-        $("#cpraModalContentR1Error").show();
-        $("#cpraVin").val("");
-        return false;
-    }
-    var reqUrl = "/getCarProofLink";
-    var reqData = { 'vin' : cpraVin };
-    $.get(reqUrl, reqData, function(data) {
-        cpraClearData();
-        if (data.indexOf("http") != 0) {
-            window.location.reload(1);
-            return false;
-        }
-        if (data.length > 12) {
-            var winObj = window.open(data, "_blank", "width=1024,height=768,resizable=yes,scrollbars=yes");
-            if (winObj.focus) {
-                winObj.focus();
-            }
-        }
-    });
-    return true;
-}
-</script>
 
 
 </table>

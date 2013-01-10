@@ -29,6 +29,7 @@ class Model_Cars extends Jelly_Model {
          'interior' => new Field_String,
          'exterior' => new Field_String,
          'date_made' => new Field_String,
+         'state' =>new Field_String,
          'url' => new Field_String,
          'picture' => new Field_Integer(array('default' => 0)),
       ));

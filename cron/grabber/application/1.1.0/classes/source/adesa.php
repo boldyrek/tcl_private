@@ -96,17 +96,31 @@ class Source_Adesa extends Source implements Kohana_Source {
             {
                foreach ($items AS $item)
                {
+                   $cached_item=Jelly::select('cars_cache')->where('url','=',$item['url'])->execute()->current();
+
+                   if ($cached_item->url==null)
+                   {
                   $item['source_id'] = $this->_id;
                   $item['target_id'] = $car_id;
                   $item['search_id'] = $search_id;
                   $item['options'] = $this->_get_options($this, $item['url']);
                   $item['picture'] = $this->_picture_exists($item['url'], $item['vincode']);
+                   }
+                   else
+                       $item = Jelly::factory('cars_cache')->get_item_from_cache($cached_item);
+                    if (!$this->_is_exist_vincode($item['vincode'],$search_id)){
+                          Jelly::factory('cars')
+                          ->set($item)
+                          ->save();
 
-                  Jelly::factory('cars')
-                  ->set($item)
-                  ->save();
-
-                  $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+                           if ($cached_item->url==null)
+                           {
+                               Jelly::factory('cars_cache')
+                                   ->set($item)
+                                   ->save();
+                               $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+                           }
+                    }
                }
                
                $colors = $this->_get_colors($car_id);
@@ -193,7 +207,7 @@ class Source_Adesa extends Source implements Kohana_Source {
             }
 
             $mileage = str_replace(',', '', Arr::get($score, 4));
-            
+
             $mileage = (strpos($mileage, 'K') !== FALSE
             ? floor((int) $mileage / 1.609344) // km. into ml.
             : (int) $mileage);                 // ml. into ml.
