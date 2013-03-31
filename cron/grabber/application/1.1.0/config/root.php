@@ -12,7 +12,8 @@ return array
       // 6 => 'Cars',
       7 => 'Gsmotors',
       // 8 => 'Avtobest',
-      9 => 'Megaavto'
+      9 => 'Megaavto',
+      10 => 'Avantag'
    ),
 
    'options' => array

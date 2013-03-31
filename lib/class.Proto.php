@@ -583,6 +583,7 @@ abstract class Proto {
                {
                   $this->page .= '<dd><a href="/public/?mod=autocheck">Autocheck</a></dd>';
                   $this->page .= '<dd><a href="/public/?mod=datebyvin">Date by VIN</a></dd>';
+                  $this->page .= '<dd><a href="http://www.makmalauto.com/dealersentrance11672/">Диллерские цены</a></dd>';
                }
 
                $this->page .= '</dl></td>';
@@ -952,7 +953,7 @@ abstract class Proto {
         require_once($_SERVER['DOCUMENT_ROOT'].'/lib/phpmailer/class.pop3.php');
 
         $mail = new PHPMailer(false); // the true param means it will throw exceptions on errors, which we need to catch
-        $mail->IsSMTP(); // telling the class to use SMTP
+    //    $mail->IsSMTP(); // telling the class to use SMTP
         $mail->CharSet = 'utf-8';
 
         try {

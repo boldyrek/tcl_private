@@ -17,9 +17,9 @@ class Source_Megaavto extends Source implements Kohana_Source {
             ->execute()
             ->current();
 
-            $fields = $condition['fields'] + array(
-            'fromYear' => $car->year_from,
-            'toYear' => $car->year_to,
+            $fields = $search['fields']+ $condition['fields'] + array(
+                'fromYear' => $car->year_from,
+                'toYear' => $car->year_to,
             );
 
             $options = $this->_remote_options + array(
@@ -50,7 +50,6 @@ class Source_Megaavto extends Source implements Kohana_Source {
             $added = 0;
             $passed = 0;
             $cached = 0;
-
             if ($total > 0)
             {
                 if ($total > ($offset = $search['offset']))
@@ -64,8 +63,8 @@ class Source_Megaavto extends Source implements Kohana_Source {
 
                     $search['offset_fields']['recordOffset'] = $page;
 
-                    $offset_fields = $search['offset_fields'] + $condition['offset_fields'];
-
+                    //$offset_fields = $search['offset_fields'] + $condition['offset_fields'];
+                    $offset_fields = $search['fields']+ $condition['fields'] + $search['offset_fields'] + $condition['offset_fields'];
                     $offset_fields['submittedQstr'] .= $car->year_from.'+'.$car->year_to;
 
                     $options = $this->_remote_options + array(
@@ -196,7 +195,8 @@ class Source_Megaavto extends Source implements Kohana_Source {
         preg_match('#<td[^>]+>VIN:</td><td><span><a[^>]+>(.+)</a></span>#U', $content, $vincode);
         preg_match('#<td[^>]+>Цвет кузова:</td><td>(.+)</td>#U', $content, $exterior);
         preg_match('#<td>.*<strong>Состояние:</strong><a[^>]+>.+</a><br />\$(.+)</td>#U', $content, $price);
-        preg_match('#<strong>Местоположение:</strong><br />(.+)\-(.+)<br /><strong>#U', $content, $state);
+        preg_match('#<td[^>]+>Штат:</td><td><span>(.+)</span>#U', $content, $state);
+        //preg_match('#<strong>Местоположение:</strong><br />(.+)\-(.+)<br /><strong>#U', $content, $state);
 
         $name = Arr::get($make, 1).' '.Arr::get($model, 1).' '.Arr::get($modification, 1);
         $date_auction = preg_replace('#(\d{2})/(\d{2})/(\d{4})\s\|\s(?:(\d{2}:\d{2})?).*#', '$3-$1-$2 $4', Arr::get($date_auction, 1));

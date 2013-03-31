@@ -165,7 +165,7 @@ return array
          // 'km' => 100000,
          'km2' => '',
          'mk' => 'LEXUS',
-         'ml' => array('RX350', 'RX 350', 'RX 350 4WD'),
+         'ml' => array('LX470', 'LX 470', 'LX 470 4WD'),
          'search' => 'Search Now'
       ),
       'filters' => array
@@ -670,13 +670,13 @@ return array
       'fields' => array
       (
          'make' => 4294960951,
-         'model' => 4294961324,
+         'model' => 4294961000,
          // 'fromYear' => 2000,
          // 'toYear' => 2002,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961324&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961000&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
@@ -1186,13 +1186,13 @@ return array
       'fields' => array
       (
          'make' => 4294960951,
-         'model' => 4294961324,
+         'model' => 4294961000,
          // 'fromYear' => 2000,
          // 'toYear' => 2002,
       ),
       'offset_fields' => array
       (
-         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961324&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+         'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960951+4294961000&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
       ),
       'filters' => array
       (
@@ -1464,4 +1464,527 @@ return array
       ),
       // 'colors' => 9
    ),
+
+    // AVANTAG
+    185 => array
+    (
+        'parent' => 1,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7460,
+            // 'fromYear' => 2001,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7460&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 120000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 1
+    ),
+
+    186 => array
+    (
+        'parent' => 2,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7464,
+            // 'fromYear' => 2004,
+            // 'toYear' => 2006,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7464&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 2
+    ),
+
+    187 => array
+    (
+        'parent' => 3,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7896,
+            // 'fromYear' => 2006,
+            // 'toYear' => 2007,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7896&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 3
+    ),
+
+    188 => array
+    (
+        'parent' => 4,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7461,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2004,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7461&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 95000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 4
+    ),
+
+    189 => array
+    (
+        'parent' => 5,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7461,
+            // 'fromYear' => 2005,
+            // 'toYear' => 2006,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7461&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 75000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 5
+    ),
+
+    190 => array
+    (
+        'parent' => 6,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7481,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2004,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7481&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 75000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 6
+    ),
+
+    191 => array
+    (
+        'parent' => 7,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7481,
+            // 'fromYear' => 2000,
+            // 'toYear' => 2002,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7481&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 7
+    ),
+
+    192 => array
+    (
+        'parent' => 8,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7931,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2004,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7931&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 75000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 8
+    ),
+
+    193 => array
+    (
+        'parent' => 9,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 20481,
+            // 'fromYear' => 2002,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+20481&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            // 'mileage' => 110000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => NULL
+    ),
+
+    194 => array
+    (
+        'parent' => 10,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 35407,
+            // 'fromYear' => 2007,
+            // 'toYear' => 2008,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+35407&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => NULL
+    ),
+
+    195 => array
+    (
+        'parent' => 11,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7443,
+            // 'fromYear' => 2001,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+            // 'mileage' => 110000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 10
+    ),
+
+    196 => array
+    (
+        'parent' => 12,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7443,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2006,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/JTEBU14R[A-Z0-9]{9}/',
+            // 'mileage' => 60000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 9
+    ),
+
+    197 => array
+    (
+        'parent' => 13,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7757,
+            // 'fromYear' => 2001,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7757&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 11
+    ),
+
+    198 => array
+    (
+        'parent' => 14,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7581,
+            // 'fromYear' => 2001,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7581&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/JTEHD[A-Z0-9]{12}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 12
+    ),
+
+    205 => array
+    (
+        'parent' => 15,
+        'mark' => 'Subaru',
+        'cache' => FALSE,
+        'fields' => array
+        (
+            'make' => 8317,
+            'model' => 7771,
+            // 'fromYear' => 2009,
+            // 'toYear' => 2010,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8317+7771&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{10}H[A-Z0-9]{6}/',
+            // 'mileage' => 80000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => NULL
+    ),
+
+    /*
+    212 => array
+    (
+       'parent' => 16,
+       'mark' => 'Nissan',
+       'cache' => FALSE,
+       'fields' => array
+       (
+          'make' => 4294960941,
+          'model' => 4294937917,
+          // 'fromYear' => 2008,
+          // 'toYear' => 2009,
+       ),
+       'offset_fields' => array
+       (
+          'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960941+4294937917&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+       ),
+       'filters' => array
+       (
+          'vincode' => '/JN8AS58V[A-Z0-9]{9}/',
+          // 'mileage' => 80000,
+          'color' => FALSE,
+          'series' => FALSE,
+       ),
+       // 'colors' => NULL
+    ),
+    */
+
+    241 => array
+    (
+        'parent' => 17,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7581,
+            // 'fromYear' => 2001,
+            // 'toYear' => 2003,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7581&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 13
+    ),
+
+    /*242 => array
+    (
+       'parent' => 18,
+       'mark' => 'Acura',
+       'cache' => FALSE,
+       'fields' => array
+       (
+          'make' => 4294960945,
+          'model' => 4294961239,
+          // 'fromYear' => 2001,
+          // 'toYear' => 2003,
+       ),
+       'offset_fields' => array
+       (
+          'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960945+4294961239&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+       ),
+       'filters' => array
+       (
+          'vincode' => '/2HNYD189[A-Z0-9]{9}/',
+          // 'mileage' => 100000,
+          'color' => '/silver|gray|серебро|серебристый/iu',
+          'series' => FALSE,
+       ),
+       // 'colors' => NULL
+    ),*/
+
+    247 => array
+    (
+        'parent' => 19,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7906,
+            // 'fromYear' => 2007,
+            // 'toYear' => 2008,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8304+7906&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 2
+    ),
+
+    248 => array
+    (
+        'parent' => 20,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8302,
+            'model' => 7443,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2007,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/JTEBU17[A-Z0-9]{10}/',
+            // 'mileage' => 100000,
+            'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 9
+    ),
 );

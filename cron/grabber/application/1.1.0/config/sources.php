@@ -373,7 +373,8 @@ return array
       'options' => array('камера заднего вида', 'навигация'),
 
       'search' => array(
-         'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
+         //'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
+          'items' => array(185,186,187,188,189,190,191,192,193,194,195,196,197,198,241,247,248),
          'url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults&sid=Zz',
          'offset_url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults',
          'offset' => 25,
@@ -401,7 +402,6 @@ return array
             'zipCode' => 11223,
             'sellerCompany' => '',
             'newSort' => 'false',
-            'previousSortKeys' => '',
             'sortIndicator' => 'desc',
             'submittedFilters' => '',
             'vehicleUniqueId' => '',
@@ -411,8 +411,79 @@ return array
             'displayDistance' => '',
             'distanceUnits' => 'MILES',
             'distance' => 0,
-            'zipCode' => 11223,
          )
       )
    ),
+    10 => array
+    (
+        'remote_options' => array
+        (
+            CURLOPT_REFERER => 'http://www.avantag.net/manheim/index.php',
+        ),
+
+        'url' => 'http://www.avantag.net/manheim/',
+
+        'options' => array('камера заднего вида', 'навигация'),
+
+        'search' => array
+        (
+            'items' => array(185,186,187,188,189,190,191,192,193,194,195,196,197,198,241,247,248),
+            'url' => 'http://www.avantag.net/manheim/index.php',
+            'offset_url' => 'http://www.avantag.net/manheim/index.php',
+            'offset' => 25,
+            'fields' => array
+            (
+                'action' => 'list',
+                'searchOperation' => 'Search',
+                'saveRecentSearch' => 'true',
+                'searchTab' => 'tabAll',
+                'submittedQstr' => '',
+                'recordOffset' => 0,
+                'sortKeys' => '',
+                'previousSortKeys' => '',
+                'sortIndicator' => '',
+                'newSort' => 'false',
+                'distanceInMiles' => '',
+                'vehicleUniqueId' => '',
+                'detailPageUrl' => '',
+                'vehicleTypes' => '4294967293+4294967292+4294967291+4294967290',
+                'inventoryChannels' => '',
+                'distance' => 0,
+                'zipCode' => 07001,
+                'resultsPerPage' => 25,
+            ),
+            'offset_fields' => array
+            (
+                'list' => 1,
+                'vehicleTypes' => '-1',
+
+                'fromOdometer' => 0,
+                'toOdometer' => 'ALL',
+                'mmrRanges' => 'ALL',
+                'regions' => 'on',
+
+                'searchOperation' => 'Paging',
+                'srpSortKeys' => '',
+                'wbSortKeys' => '',
+                'wbResultsPerPage' => 25,
+                'srpResultsPerPage' => 25,
+                'wtTracker' => '(wtSearchType,PowerSearch Other)(wtRefLinkPrefix,ps_srp_)(wtSavedSearchRefLink,)(wtSavedSearchTypeLink,)',
+
+                'sellerCompany' => '',
+                'vin' => '',
+                'channel' => '',
+                'workbookOffset' => 0,
+                'sortKeys' => 'Year|1',
+                'previousSortKeys' => '',
+                'zipCode' => 07001,
+                'newSort' => 'false',
+                'sortIndicator' => 'desc',
+                'submittedFilters' => '',
+                'vehicleUniqueId' => '',
+                'detailPageUrl' => '',
+                'displayDistance' => '',
+                'distanceInMiles' =>'',
+            )
+        )
+    ),
 );
