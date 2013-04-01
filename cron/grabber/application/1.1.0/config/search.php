@@ -1474,7 +1474,7 @@ return array
         'fields' => array
         (
             'make' => 8304,
-            'model' => 7460,
+            'model' => 7906,
             // 'fromYear' => 2001,
             // 'toYear' => 2003,
         ),
@@ -1484,7 +1484,7 @@ return array
         ),
         'filters' => array
         (
-            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
             // 'mileage' => 120000,
             'color' => FALSE,
             'series' => FALSE,
@@ -1625,12 +1625,12 @@ return array
     191 => array
     (
         'parent' => 7,
-        'mark' => 'Lexus',
+        'mark' => 'Toyota',
         'cache' => TRUE,
         'fields' => array
         (
-            'make' => 8304,
-            'model' => 7481,
+            'make' => 8302,
+            'model' => 7596,
             // 'fromYear' => 2000,
             // 'toYear' => 2002,
         ),
@@ -1640,7 +1640,7 @@ return array
         ),
         'filters' => array
         (
-            'vincode' => '/[A-Z0-9]{0,17}/',
+            'vincode' => '/5TDB[A-Z0-9]{13}/',
             // 'mileage' => 100000,
             'color' => FALSE,
             'series' => FALSE,
@@ -1752,7 +1752,7 @@ return array
         // 'colors' => 10
     ),
 
-    196 => array
+    196 => array //4runner ne limitovii
     (
         'parent' => 12,
         'mark' => 'Toyota',
@@ -1856,36 +1856,7 @@ return array
         // 'colors' => NULL
     ),
 
-    /*
-    212 => array
-    (
-       'parent' => 16,
-       'mark' => 'Nissan',
-       'cache' => FALSE,
-       'fields' => array
-       (
-          'make' => 4294960941,
-          'model' => 4294937917,
-          // 'fromYear' => 2008,
-          // 'toYear' => 2009,
-       ),
-       'offset_fields' => array
-       (
-          'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+4294960941+4294937917&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
-       ),
-       'filters' => array
-       (
-          'vincode' => '/JN8AS58V[A-Z0-9]{9}/',
-          // 'mileage' => 80000,
-          'color' => FALSE,
-          'series' => FALSE,
-       ),
-       // 'colors' => NULL
-    ),
-    */
-
-    241 => array
-    (
+    241 => array(
         'parent' => 17,
         'mark' => 'Toyota',
         'cache' => TRUE,
@@ -1945,8 +1916,8 @@ return array
         (
             'make' => 8304,
             'model' => 7906,
-            // 'fromYear' => 2007,
-            // 'toYear' => 2008,
+            'fromYear' => 2007,
+            'toYear' => 2008,
         ),
         'offset_fields' => array
         (
@@ -1987,4 +1958,77 @@ return array
         ),
         // 'colors' => 9
     ),
+   249 => array
+    (
+        'parent' => 22,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 102408,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2007,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+             'color' => FALSE,
+            'series' => FALSE,
+        ),
+        // 'colors' => 9
+    ),
+	250 => array
+    (
+        'parent' => 23,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7906,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2007,
+        ),
+   		'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+             'color' => FALSE,
+            'series' => FALSE,
+    ),
+        // 'colors' => 9
+    ),
+    251 => array
+    (
+        'parent' => 24,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+        (
+            'make' => 8304,
+            'model' => 7906,
+            // 'fromYear' => 2003,
+            // 'toYear' => 2007,
+        ),
+        'offset_fields' => array
+        (
+            'submittedQstr' => 'N=4294967293+4294967292+4294967291+4294967290+8302+7443&Ne=4294967294+4294960998+4294961936&Nf=Year|BTWN ',
+        ),
+        'filters' => array
+        (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+             'color' => FALSE,
+            'series' => FALSE,
+    ),
+        // 'colors' => 9
+    ),
+
 );

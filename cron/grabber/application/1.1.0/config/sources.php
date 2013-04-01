@@ -374,7 +374,7 @@ return array
 
       'search' => array(
          //'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
-          'items' => array(185,186,187,188,189,190,191,192,193,194,195,196,197,198,241,247,248),
+          'items' => array(185,186,187,188,189,190,191,192,193,194,195,196,251,197,198,241,247,248,249,250),
          'url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults&sid=Zz',
          'offset_url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults',
          'offset' => 25,
