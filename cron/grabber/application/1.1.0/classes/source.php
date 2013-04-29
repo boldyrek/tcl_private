@@ -8,13 +8,13 @@ class Source {
 
    public function __construct($id)
    {
-      // check source ID
+       // check source ID
       if (! Kohana::config('root.sources.'.$id))
          throw new Kohana_Exception('Source with id :id not found', array(':id' => $id));
 
       // get source config
       $config = Kohana::config('sources.'.$id);
-
+      
       // set source config
       $this->_config = $config;
       
@@ -79,7 +79,8 @@ class Source {
 
    protected function _get_options(Source $source, $url)
    {
-      $ident = $source->get_ident($url);
+      
+       $ident = $source->get_ident($url);
 
       $cache = Jelly::select('cache')
          ->where('source_id', '=', $this->_id)

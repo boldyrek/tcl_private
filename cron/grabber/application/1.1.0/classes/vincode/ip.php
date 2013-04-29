@@ -2,8 +2,8 @@
 
 class Vincode_Ip extends Vincode {
 
+   //const URL = 'http://88.214.194.128/index_option.php';
    const URL = 'http://198.154.195.133/decode/index_option.php';
-
    public function get($vincode, $mark = NULL)
    {
       $content = Remote::factory(self::URL.'?'.http_build_query(array('vin' => $vincode, 'option' => '')), $this->_remote_options);

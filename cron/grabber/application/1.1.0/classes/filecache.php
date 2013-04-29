@@ -2,143 +2,165 @@
 
 class Filecache {
 
-   protected $_remote_options = array();
+    protected $_remote_options = array();
 
-   protected $_url;
-   
-   protected $_path;
+    protected $_url;
 
-   public function __construct()
-   {
-   }
+    protected $_path;
 
-   public static function factory()
-   {
-      return new Filecache;
-   }
+    public function __construct()
+    {
+    }
 
-   public function set_url($url)
-   {
-      $this->_url = $url;
+    public static function factory()
+    {
+        return new Filecache;
+    }
 
-      return $this;
-   }
+    public function set_url($url)
+    {
+        $this->_url = $url;
 
-   public function set_path($path)
-   {
-      $path = DOCROOT.'../../gcache/'.trim($path, '/');
+        return $this;
+    }
 
-      if (! is_dir($path))
-      {
-         @mkdir($path, 0755, TRUE);
+    public function set_path($path)
+    {
+        $path = DOCROOT.'../../gcache/'.trim($path, '/');
 
-         @chmod($path, 0755);
-      }
-      else
-      {
-         $path = FALSE;
-      }
+        if (! is_dir($path))
+        {
+            @mkdir($path, 0755, TRUE);
 
-      $this->_path = $path;
+            @chmod($path, 0755);
+        }
+        else
+        {
+            $path = FALSE;
+        }
 
-      return $this;
-   }
+        $this->_path = $path;
 
-   public function set_remote_options(array $remote_options)
-   {
-      $this->_remote_options = $remote_options;
+        return $this;
+    }
 
-      return $this;
-   }
+    public function set_remote_options(array $remote_options)
+    {
+        $this->_remote_options = $remote_options;
 
-   public function import($html = FALSE)
-   {
-      // cache already exists
-      if (FALSE === $this->_path)
-         return TRUE;
+        return $this;
+    }
 
-      if (! $html)
-      {
-         $html = Remote::factory($this->_url, $this->_remote_options)->execute();
-      }
+    public function import($html = FALSE)
+    {
+        // cache already exists
+        if (FALSE === $this->_path)
+        return TRUE;
 
-      // JUST OVERWRITE FILES
+        if (! $html)
+        {
+            $html = Remote::factory($this->_url, $this->_remote_options)->execute();
+        }
 
-      // get all "<img|script src=''>" paths
-      preg_match_all('/src=(["\'])(.*?)\1/', $html, $src);
+        // JUST OVERWRITE FILES
 
-      // get all "<link href=''>" paths
-      preg_match_all('/<link.*href=["\'](.*)["\'].*>/sU', $html, $href);
+        // get all "<img|script src=''>" paths
+        preg_match_all('/src=(["\'])(.*?)\1/', $html, $src);
 
-      // merge paths
-      $matches = array_merge($src[2], $href[1]);
+        // get all "<link href=''>" paths
+        preg_match_all('/<link.*href=["\'](.*)["\'].*>/sU', $html, $href);
 
-      // for all images, scripts & styles
-      foreach ($matches AS $path)
-      {
-         if (trim($path) != '')
-         {
-            // external source as "http(s)://"
-            if (preg_match('#http?(s)?://#', $path))
+        // merge paths
+        $matches = array_merge($src[2], $href[1]);
+
+        // for all images, scripts & styles
+        foreach ($matches AS $path)
+        {
+            if (trim($path) != '')
             {
-               // parse url
-               $parsed_url = parse_url($path);
+                // external source as "http(s)://"
+                if (preg_match('#http?(s)?://#', $path))
+                {
+                    // parse url
+                    $parsed_url = parse_url($path);
 
-               // http://www.auctionpipeline.com hack
-               $path = str_replace(';', '?', $parsed_url['path']);
+                    // http://www.auctionpipeline.com hack
+                    $path = str_replace(';', '?', $parsed_url['path']);
 
-               // source without query string
-               $source = $parsed_url['scheme'].'://'.$parsed_url['host'].parse_url($path, PHP_URL_PATH);
+                    // source without query string
+                    $source = $parsed_url['scheme'].'://'.$parsed_url['host'].parse_url($path, PHP_URL_PATH);
+                }
+                else // local source
+                {
+                    if (strpos($path, '/') === 0) // absolute path as "/"
+                    {
+                        $parsed_url = parse_url($this->_url);
+
+                        $source = $parsed_url['scheme'].'://'.$parsed_url['host'].$path;
+                    }
+                    else // relative path such as "../" or empty path
+                    {
+                        // find full path to source file (without quesry string)
+                        $source = rtrim(dirname($this->_url), '/').'/'.parse_url($path, PHP_URL_PATH);
+                    }
+                }
+
+                // find desctination path
+                $dest = $this->_path.'/'.pathinfo($source, PATHINFO_BASENAME);
+
+                // copy source file into local storage if file is not exists
+                if (! file_exists($dest))
+                {
+                    @copy($source, $dest);
+                }
             }
-            else // local source
-            {
-               if (strpos($path, '/') === 0) // absolute path as "/"
-               {
-                  $parsed_url = parse_url($this->_url);
-                  
-                  $source = $parsed_url['scheme'].'://'.$parsed_url['host'].$path;
-               }
-               else // relative path such as "../" or empty path
-               {
-                  // find full path to source file (without quesry string)
-                  $source = rtrim(dirname($this->_url), '/').'/'.parse_url($path, PHP_URL_PATH);
-               }
-            }
+        }
 
-            // find desctination path
-            $dest = $this->_path.'/'.pathinfo($source, PATHINFO_BASENAME);
+        unset($matches);
 
-            // copy source file into local storage if file is not exists
-            if (! file_exists($dest))
-            {
-               @copy($source, $dest);
-            }
-         }
-      }
+        // replace script & images src.
+        $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"]#U', 'src="$1"', $html);
 
-      unset($matches);
+        // replace style & favicon href.
+        $html = preg_replace('#<link(.+)href=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"](.+)>#sU', '<link$1href="$2"$4>', $html);
 
-      // replace script & images src.
-      $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"]#U', 'src="$1"', $html);
+        // write into file
+        $filename = $this->_path.'/index.html';
 
-      // replace style & favicon href.
-      $html = preg_replace('#<link(.+)href=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"](.+)>#sU', '<link$1href="$2"$4>', $html);
+        @file_put_contents($filename, $html);
 
-      // write into file
-      $filename = $this->_path.'/index.html';
+        unset($html);
 
-      @file_put_contents($filename, $html);
+        // write/update changelog time
+        $h = fopen($this->_path.'/changelog.txt', 'w+');
 
-      unset($html);
+        fwrite($h, (string) time());
 
-      // write/update changelog time
-      $h = fopen($this->_path.'/changelog.txt', 'w+');
+        fclose($h);
 
-      fwrite($h, (string) time());
-      
-      fclose($h);
+        return TRUE;
+    }
 
-      return TRUE;
-   }
+
+    public function easyImport($html){
+        // write into file
+        if (FALSE === $this->_path)
+        return TRUE;
+
+        $filename = $this->_path.'/index.html';
+
+        @file_put_contents($filename, $html);
+
+        unset($html);
+
+        // write/update changelog time
+        $h = fopen($this->_path.'/changelog.txt', 'w+');
+
+        fwrite($h, (string) time());
+
+        fclose($h);
+
+        return TRUE;
+    }
 
 }

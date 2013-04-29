@@ -374,7 +374,7 @@ return array
 
       'search' => array(
          //'items' => array(149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165),
-          'items' => array(247,249,185,186,187,188,189,190,191,192,193,194,195,196,251,197,198,241,248,250),
+          'items' => array(252,247,249,185,186,187,188,189,190,191,192,193,194,195,196,251,197,198,241,248,250),
          'url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults&sid=Zz',
          'offset_url' => 'http://a.mega-avto.com/usa/index.php?mode=searchresults',
          'offset' => 25,
@@ -414,6 +414,8 @@ return array
          )
       )
    ),
+   
+   //avantag
     10 => array
     (
         'remote_options' => array
@@ -486,4 +488,43 @@ return array
             )
         )
     ),
+    
+    //198.154.195.13
+    11 => array(
+    
+     'remote_options' => array
+        (
+            CURLOPT_REFERER => 'http://198.154.195.133/auction/index.php',
+        ),
+
+        'url' => 'http://198.154.195.133/auction/',
+        'options' => array('камера заднего вида', 'навигация'),
+        
+         'search' => array
+        (
+            'items' => array(11009,11002, 11003, 11004, 11005, 11006, 11007, 11008, 11010, 11011, 11012, 11013, 11014, 11017, 11019, 11020, 11022, 11023, 11024, 11025),
+            'url' => 'http://198.154.195.133/auction/index.php?mode=searchresults&sid=Zz',
+            'offset_url' => 'http://198.154.195.133/auction/index.php?mode=searchresults&sid=Zz',
+            'offset' => 500,
+            'fields' => array
+            (
+                'mmrRanges' => 'ALL',
+                'tabAll' => 'searchTab',
+                'zipCode' => 11223,
+                'newSort' => false,
+                'srpResultsPerPage' => 500,
+                'saleDate'=>'Дата продажи',
+                'saveRecentSearch'=>false,
+                'searchOperation'=>'Search',
+                'submittedQstr'=>rand(1, 1000000),
+                'vehicleTypes'=>'-1'
+                
+            ),
+            'offset_fields' => array()
+        )
+        
+         
+
+    ),
+    
 );

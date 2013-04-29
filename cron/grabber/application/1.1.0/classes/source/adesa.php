@@ -14,11 +14,6 @@ class Source_Adesa extends Source implements Kohana_Source {
          return;
       }
       
-      
-      ob_start();
-      echo Remote::factory(Arr::get($this->_config, 'runlist_url'), $this->_remote_options);
-      ob_end_clean();
-
       $search = $this->_config['search'];
 
       foreach ($this->_get_active_items($search['items']) AS $search_id)
