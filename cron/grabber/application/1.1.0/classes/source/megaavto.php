@@ -194,7 +194,8 @@ class Source_Megaavto extends Source implements Kohana_Source {
         preg_match('#<td[^>]+>Пробег:</td><td><span>(.+)(?:\s+mi)?</span>#U', $content, $mileage);
         preg_match('#<td[^>]+>VIN:</td><td><span><a[^>]+>(.+)</a></span>#U', $content, $vincode);
         preg_match('#<td[^>]+>Цвет кузова:</td><td>(.+)</td>#U', $content, $exterior);
-        preg_match('#<td>.*<strong>Состояние:</strong><a[^>]+>.+</a><br />\$(.+)</td>#U', $content, $price);
+        //preg_match('#<td>.*<strong>Состояние:</strong><a[^>]+>.+</a><br />\$(.+)</td>#U', $content, $price);
+        preg_match('#<b>Подготовлено</b></a><br />\$([^<]*)</td>#U', $content, $price);
         preg_match('#<td[^>]+>Штат:</td><td><span>(.+)</span>#U', $content, $state);
         //preg_match('#<strong>Местоположение:</strong><br />(.+)\-(.+)<br /><strong>#U', $content, $state);
 

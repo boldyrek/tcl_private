@@ -1318,6 +1318,7 @@ class Core extends Proto {
 
             $base = '/gcache/'.$row->vincode;
 
+            $cache_line = '';
             foreach ($this->_config['root']['sources'] AS $source)
             {
                $src = $base.'-'.strtoupper($source);
@@ -1332,9 +1333,11 @@ class Core extends Proto {
                   ? 'Обновлен '.date('d-m-Y H:i:s', file_get_contents($changelog_file))
                   : '';
 
-                  $this->page .= '<a href="'.$src.'" title="'.$title.'" target="_blank">'.$source.'</a>&nbsp;';
+                  $cache_line .= ($cache_line != '' ? '<br />' : '').'<a href="'.$src.'" title="'.$title.'" target="_blank">'.$source.'</a>';
                }
             }
+            
+            $this->page .= $cache_line;
 
             $this->page .= '</td>
                <td class="sm recommend"><a href="/?mod='.MODULE.'&action=recommend&id='.$row->id.'" title="Рекомендовать"><img src="/img/recommend.png" /></a></td>

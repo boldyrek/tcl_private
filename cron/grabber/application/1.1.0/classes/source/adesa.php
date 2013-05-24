@@ -4,20 +4,18 @@ class Source_Adesa extends Source implements Kohana_Source {
 
    public function execute()
    {
-    
-       
-       
-   	
-   	if (! $this->_login())
+      
+      if (! $this->_login())
       {
          Kohana::$log->add(Log::ERROR, 'Unauthorized request');
          return;
       }
-      
+            
       $search = $this->_config['search'];
-
+      $second_search = $this->_config['second_search'];
+           
       foreach ($this->_get_active_items($search['items']) AS $search_id)
-      {
+      {          
          $condition = Kohana::config('search.'.$search_id);
 
          $car_id = $condition['parent'];
@@ -53,98 +51,115 @@ class Source_Adesa extends Source implements Kohana_Source {
             CURLOPT_POSTFIELDS => $fields,
             CURLOPT_REFERER => $search['url'],
          );
+         
+         Remote::factory($this->_config['runlist_url'], $this->_remote_options)->execute();
 
-         $response = Remote::factory($search['url'], $options)->execute();
-                  
-         if (strpos($response, 'Error 500') !== FALSE)
-         {
-            Kohana::$log->add(Log::ERROR, '500 Internal Server Error');
-            return;
-         }
+         $request_url = $search['url'];
+         $request_options = $options;
+         
+         $second_cnt = -1;
+         $offset_cnt = 0;
+         
+         while (true) {
+             $response = Remote::factory($request_url, $request_options)->execute();
 
-         $total = 0;
-         // $pages = 1;
+             if (strpos($response, 'Error 500') !== FALSE)
+             {
+                Kohana::$log->add(Log::ERROR, '500 Internal Server Error');
+                return;
+             }
 
-         if (! (bool) preg_match('/No Records Found/i', $response))
-         {
-            if ((bool) preg_match('#<span><font[^>]+>(\d+)</font></span> Total Vehicles?#i', $response, $matches))
-               $total = (int) Arr::get($matches, 1);
-         }
+             $total = 0;
+             // $pages = 1;
 
-         $passed = 0;
-         $filtered_by_colors = 0;
-         $filtered_by_options = 0;
-         $added = 0;
-         $cached = 0;
+             if (! (bool) preg_match('/No Records Found/i', $response))
+             {
+                if ((bool) preg_match('#<span><font[^>]+>(\d+)</font></span> Total Vehicles?#i', $response, $matches))
+                   $total = (int) Arr::get($matches, 1);
+             }
 
-         if ($total > 0)
-         {
-            $filters = $condition['filters'] + array(
-               'mileage' => $car->mileage
-            );
+             if ($total > 0 && $second_cnt == -1) {
+                 $second_cnt = intval($total/$search['offset']);
+                 if ($second_cnt*$search['offset'] < $total) {
+                     $second_cnt++;
+                 }
+             }
+             
+             $passed = 0;
+             $filtered_by_colors = 0;
+             $filtered_by_options = 0;
+             $added = 0;
+             $cached = 0;
 
-            $items = $this->_parse($response, $filters);
+             if ($total > 0)
+             {
+                $filters = $condition['filters'] + array(
+                   'mileage' => $car->mileage
+                );
 
-            $passed += sizeof($items);
+                $items = $this->_parse($response, $filters);
+                
+                $passed += sizeof($items);
 
-            if (! empty($items))
-            {
-               foreach ($items AS $item)
-               {
-                   $cached_item=Jelly::select('cars_cache')->where('url','=',$item['url'])->execute()->current();
-
-                   if ($cached_item->url==null)
+                if (! empty($items))
+                {
+                   foreach ($items AS $item)
                    {
-                  $item['source_id'] = $this->_id;
-                  $item['target_id'] = $car_id;
-                  $item['search_id'] = $search_id;
-                  $item['options'] = $this->_get_options($this, $item['url']);
-                  $item['picture'] = $this->_picture_exists($item['url'], $item['vincode']);
+                        $cached_item = Jelly::select('cars_cache')->where('url','=',$item['url'])->execute()->current();
+
+                        if ($cached_item->url == null) {
+                           $item['source_id'] = $this->_id;
+                           $item['target_id'] = $car_id;
+                           $item['search_id'] = $search_id;
+                           $item['options']   = $this->_get_options($this, $item['url']);
+                           $item['picture']   = $this->_picture_exists($item['url'], $item['vincode']);
+                        } else {
+                           $item = Jelly::factory('cars_cache')->get_item_from_cache($cached_item);
+                        }
+                        if (!$this->_is_exist_vincode($item['vincode'],$search_id)){
+                              Jelly::factory('cars')
+                              ->set($item)
+                              ->save();
+
+                               if ($cached_item->url==null)
+                               {
+                                   Jelly::factory('cars_cache')
+                                       ->set($item)
+                                       ->save();
+                                   $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
+                               }
+                        }
                    }
-                   else
-                       $item = Jelly::factory('cars_cache')->get_item_from_cache($cached_item);
-                    if (!$this->_is_exist_vincode($item['vincode'],$search_id)){
-                          Jelly::factory('cars')
-                          ->set($item)
-                          ->save();
 
-                           if ($cached_item->url==null)
-                           {
-                               Jelly::factory('cars_cache')
-                                   ->set($item)
-                                   ->save();
-                               $cached += $this->_cache($item['vincode'], $condition['mark'], $car_id, $condition['cache']);
-                           }
-                    }
-               }
-               
-               $colors = $this->_get_colors($car_id);
+                   $colors = $this->_get_colors($car_id);
 
-               if (! empty($colors))
-               {
-                  $filtered_by_colors = Jelly::factory('cars')
-                     ->color_filter($search_id, $colors);
-               }
-               
-               $filtered_by_options = $this->_cache_options($car_id, $this->_id);
+                   if (! empty($colors))
+                   {
+                      $filtered_by_colors = Jelly::factory('cars')
+                         ->color_filter($search_id, $colors);
+                   }
 
-               unset($items);
-            }
+                   $filtered_by_options = $this->_cache_options($car_id, $this->_id);
 
-            $added = $passed - ($filtered_by_colors + $filtered_by_options);
+                   unset($items);
+                }
 
-            /*
-            if ($total > ($offset = Arr::get($search, 'offset')))
-            {
-               $pages = (int) ceil($total/$offset);
-            }
+                $added = $passed - ($filtered_by_colors + $filtered_by_options);
+             }
+             
+             $second_cnt--;
+             $offset_cnt++;
+             if ($second_cnt <= 0) break;
 
-            for ($i = 0; $i < $pages; $i++)
-            {
-               $search['url'] = 'http://www.dealerblock.ca/xamsrunlist/xsearchVehResult.jsp?order=A_VHL_RUNNUM&sortby=A_VHL_RUNNUM&cl=&sr=&km3=&vf=yes&cn3=&queryString=null&notifyme=&offset=';
-               $response = Remote::factory($search['url'].($i*$offset), $this->_remote_options)->execute();
-            }
-            */
+             $fields = http_build_query(Arr::get($second_search, 'fields')).'&offset='.($offset_cnt*$search['offset']);
+
+             $request_options = $this->_remote_options + array(
+                CURLOPT_POST => TRUE,
+                CURLOPT_POSTFIELDS => $fields,
+                CURLOPT_REFERER => $search['url'],
+             );
+
+             $request_url = $second_search['url'];
          }
 
          Jelly::factory('statuses')
@@ -173,7 +188,7 @@ class Source_Adesa extends Source implements Kohana_Source {
    }
 
    protected function _parse($content, array $filters = NULL)
-   {
+   {     
       $output = array();
 
       $pattern  = '#<div class="col2">\s+<span class="ymm">\s+<a.*href="(.+)".*>\s+(.+)</a>\s+</span>';
@@ -294,7 +309,7 @@ class Source_Adesa extends Source implements Kohana_Source {
 
       if (! $response)
          $response = Remote::factory(Arr::get($login, 'redirect_url'), $this->_remote_options)->execute();
-
+      
       if ((bool) preg_match('/'.Arr::get($login, 'ident').'/', $response))
       {
          Kohana::$log->add(Log::INFO, 'Authorized request');

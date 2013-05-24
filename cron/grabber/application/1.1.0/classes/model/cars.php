@@ -35,20 +35,42 @@ class Model_Cars extends Jelly_Model {
       ));
    }
 
+   protected function _is_intcolors_empty ($int_colors) {
+       if (is_array($int_colors)) {
+           $cnt = 0;
+           foreach ($int_colors as $key => $value) {
+               if (!empty($value)) $cnt++;
+           }
+           
+           return ($cnt <= 0);
+       } else {
+           return empty($int_colors);
+       }
+   }
+   
    public function color_filter($search_id, array $colors)
    {
       $found = 0;
 
       $matches = array();
-
+      
       foreach ($colors AS $ext => $ints)
       {
-         $match = Jelly::select('cars')
-         ->where('exterior_code', '=', $ext)
-         ->where('interior_code', 'IN', $ints)
-         ->where('search_id', '=', $search_id)
-         ->execute()
-         ->as_array();
+          
+         if (!$this->_is_intcolors_empty ($ints)) {
+             $match = Jelly::select('cars')
+             ->where('exterior_code', '=', trim($ext))
+             ->where('interior_code', 'IN', $ints)
+             ->where('search_id', '=', $search_id)
+             ->execute()
+             ->as_array();
+         } else {
+             $match = Jelly::select('cars')
+             ->where('exterior_code', '=', trim($ext))
+             ->where('search_id', '=', $search_id)
+             ->execute()
+             ->as_array();             
+         }
 
          foreach ($match AS $item)
          {

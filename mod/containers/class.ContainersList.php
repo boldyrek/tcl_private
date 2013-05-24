@@ -18,7 +18,7 @@ class ContainersList extends Proto {
 	function getContent() {
 		require($_SERVER['DOCUMENT_ROOT'].$this->root_path.'lib/class.search.php');
 		$search = new listSearch();
-		
+		/*
 		foreach($suppliersPorts as $k => $v) {
 			foreach($v['ports'] as $port => $id) {
 			$ids .= $id.',';
@@ -29,6 +29,8 @@ class ContainersList extends Proto {
 			$portSelect .= '>'.$v['name'].'</option>';	
 			$ids = '';
 		};
+                 * 
+                 */
 		//#########################################
 		
 		//список экспедиторов
@@ -252,7 +254,7 @@ class ContainersList extends Proto {
 	
 	function clistTD($id, $item) {
 		return '
-		<td onclick="document.location=\''.$this->root_path.'?mod=containers&sw=form&cont_id='.$id.'\'">'.$item.'</td>';
+		<td onclick="document.location=\''.$this->root_path.'?mod=containers&sw=form&cont_id='.$id.'\'">'.$item.'&nbsp;</td>';
 	}
 
 	function looter($bag, $goods)

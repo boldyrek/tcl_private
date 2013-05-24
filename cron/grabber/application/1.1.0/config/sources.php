@@ -100,15 +100,35 @@ return array
 
       'search' => array
       (
-         'items' => array(11,12,13,14,15,16,17,18,19,20,24,25,26,28,/*100,107,*/131,/*132,*/145,146),
+         'items' => array(11,12,13,14,15,16,17,18,19,20,24,25,26,27,/*100,107,*/131,/*132,*/145,146),
          'url' => 'http://www.dealerblock.ca/servlet/AmsRunlist?action=complete',
          'offset' => 250,
          'fields' => array
          (
             'optSearchCountry' => 'all',
             'vf' => 'yes',
-            'vpp' => 250,
+            'search' => 'Search Now',
+            'lc' => '',
+            'sd' => '',
+            'cnType' => '',
+            'vpp' => 250
          ),
+      ),
+      'second_search' => array
+      (
+         'url' => 'http://www.dealerblock.ca/xamsrunlist/xsearchVehResult.jsp',
+         'fields' => array
+         (
+            'order' => 'A_VHL_RUNNUM',
+            'sortby' => 'A_VHL_RUNNUM',
+            'cl' => '',
+            'sr' => '',
+            'km3' => '',
+            'vf' => 'yes',
+            'cn3' => '',
+            'queryString' => 'null',
+            'notifyme' => ''
+         ) 
       )
    ),
 
@@ -502,7 +522,7 @@ return array
         
          'search' => array
         (
-            'items' => array(11009,11002, 11003, 11004, 11005, 11006, 11007, 11008, 11010, 11011, 11012, 11013, 11014, 11017, 11019, 11020, 11022, 11023, 11024, 11025),
+            'items' => array(11002, 11003, 11004, 11005, 11006, 11007, 11008, 11009, 11010, 11011, 11012, 11013, 11014, 11017, 11019, 11020, 11022, 11023, 11024, 11025),
             'url' => 'http://198.154.195.133/auction/index.php?mode=searchresults&sid=Zz',
             'offset_url' => 'http://198.154.195.133/auction/index.php?mode=searchresults&sid=Zz',
             'offset' => 500,
@@ -526,5 +546,47 @@ return array
          
 
     ),
-    
+
+   // Export Of Cars
+   12 => array
+   (
+      'domain' => 'http://www.exportofcars.com/carsearch/',
+
+      'cookie_file' => Kohana::$cache_dir.'/export_of_cars/cookie.dat',
+
+      'remote_options' => array
+      (
+         CURLOPT_COOKIEFILE => Kohana::$cache_dir.'/export_of_cars/cookie.dat',
+         CURLOPT_COOKIEJAR => Kohana::$cache_dir.'/export_of_cars/cookie.dat',
+         CURLOPT_REFERER => 'http://www.exportofcars.com/carsearch/',
+      ),
+
+      'search' => array
+      (
+         'items' => array(/*12100, 12101,*/ 12002, 12003, 12004, 12005, 12006, 12007, 12008, 12009, 12010, 12011, 12012, 12013, 12014, 12017, 12019, 12020, 12022, 12023, 12024, 12025),
+         'url' => 'http://www.exporttrader.com/connect.php3?rvshowbuynow=1&conntype=js&lang=en&connectcharset=utf-8&nocloru=',
+         'offset' => 200,
+         'fields' => array
+         (
+             'se_search_year_1' => '',
+             'se_search_year_2' => '',
+             'se_search_make' => '',
+             'se_search_model' => '',
+             'se_search_unit_code' => '',
+             'se_search_color_exterior' => '',
+             'se_search_color_interior' => '',
+             'se_search_vin' => '',
+             'se_search_odometer_km_1' => '',
+             'se_search_odometer_km_2' => '',
+             'se_search_odometer_km_switch' => 1,
+             'se_search_buy_now_price_sort_1' => '',
+             'se_search_buy_now_price_sort_2' => '',
+             'se_search_buy_now_price_only' => '',
+             'full_text_search_string' => '',
+             'flag_basic_view' => 1,
+             'flag_search_submit' => 'Submit'
+         )
+      )
+   ),
+
 );

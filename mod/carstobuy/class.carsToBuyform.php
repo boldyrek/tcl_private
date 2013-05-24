@@ -56,13 +56,62 @@ class carsToBuyform extends Proto {
 		$this->clients = $this->getCustomersList();
 	}
 
+        private function LoadFormData(&$content, &$founds_by_vin) {
+                if (!isset($_SESSION['ccl_carstobuy_add_FormData'])) {
+                    return false;
+                }
+                
+                $founds_by_vin = $_SESSION['ccl_carstobuy_add_FormData']['founds_by_vin'];
+                
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['model'])) $content['model'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['model']; else $content['model'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['body'])) $content['body'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['body']; else $content['body'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['auctionname'])) $content['auctionname'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['auctionname']; else $content['auctionname'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['lane'])) $content['lane'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['lane']; else $content['lane'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['run'])) $content['run'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['run']; else $content['run'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['time'])) $content['time'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['time']; else $content['time'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['vin'])) $content['vin'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['vin']; else $content['vin'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['salon'])) $content['salon'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['salon']; else $content['salon'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['maxprice'])) $content['maxprice'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['maxprice']; else $content['maxprice'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['url'])) $content['url'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['url']; else $content['url'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['years'])) $content['years'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['years']; else $content['years'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['prepay'])) $content['prepay'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['prepay']; else $content['prepay'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['client'])) $content['client'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['client']; else $content['client'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['other'])) $content['other'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['other']; else $content['other'] = '';
+                if (isset($_SESSION['ccl_carstobuy_add_FormData']['post']['date'])) $content['date'] = $_SESSION['ccl_carstobuy_add_FormData']['post']['date']; else $content['date'] = '';
+                
+                unset($_SESSION['ccl_carstobuy_add_FormData']);
+                
+                return true;
+        }
 
+
+        protected function warning_message_car_exist($founds_by_vin) {
+            $this->page .= '<div style="position:absolute; margin-left: 705px; margin-top:0px; padding-left: 5px; width:260px; background-color:#fff;">';
+            $this->page .= '<h2 style="color: red;">'.$this->translate->_('Внимание!').'</h2>';
+            $this->page .= '<strong>'.$this->translate->_('Автомобили с таким VIN кодом уже присутствуют в БД').'</strong>';
+            foreach ($founds_by_vin as $indx => $rec) {
+                if ($rec['table_name'] == 'carstobuy') {
+                    $link = '<a href="/?mod=carstobuy&sw=form&car_id='.$rec['id'].'" target="_blank">'.(trim($rec['model']) == '' ? $rec['vin'] : trim($rec['model'])).'</a>';
+                } else {
+                    $link = '<a href="/?mod=cars&sw=form&car_id='.$rec['id'].'" target="_blank">'.(trim($rec['model']) == '' ? $rec['frame'] : trim($rec['model'])).'</a>';
+                }
+                $this->page .= '<p>'.$link.'</p>';
+            }
+            $this->page .= '</div>';
+        }
+        
 	function car_edit() {
 
 		//адрес формы
 		if(!isset($_GET['add'])) $form_link = '&sw=save&id='.$this->car_id;
 		else $form_link = '&sw=add';
 
+                $founds_by_vin = array();
+                if ($this->LoadFormData(&$this->content, &$founds_by_vin)) {
+                    $this->warning_message_car_exist($founds_by_vin);
+                    $form_link = $form_link.'&second='.urlencode($this->content['vin']);
+                }
+                
 		//формирование списка покупателей и дилеров
 		$num = @mysql_num_rows($this->clients);
 		$i=1;

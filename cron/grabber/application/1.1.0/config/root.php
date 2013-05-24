@@ -15,6 +15,7 @@ return array
       9 => 'Megaavto',
       10 => 'Avantag',
       11 => 'Auction',
+      12 => 'ExpOfCars',
       
    ),
 

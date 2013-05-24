@@ -159,7 +159,7 @@ class Source {
 
                // запрашиваем данные
                $data = Vincode::factory($driver)->get($vincode, $mark);
-
+               
                if (FALSE !== $data)
                {
                   // обединяем полученные данные с текущими
@@ -167,7 +167,7 @@ class Source {
 
                   // данные для записи в таблицу машин
                   $values = $_data;
-               }
+               }               
             }
             else
             {
@@ -189,13 +189,13 @@ class Source {
          if (! empty($values))
          {
             $select = Jelly::select('cars')
-               ->where('vincode', '=', $vincode)
-               ->limit(1)
-               ->execute();
+                  ->where('vincode', '=', $vincode)
+                  ->limit(1)
+                  ->execute();
              $select2 = Jelly::select('cars_cache')
-                 ->where('vincode', '=', $vincode)
-                 ->limit(1)
-                 ->execute();
+                  ->where('vincode', '=', $vincode)
+                  ->limit(1)
+                  ->execute();
 
             $binds = array(
                'vincode_date_added' => Arr::get($values, 'date_added'),
@@ -203,12 +203,12 @@ class Source {
                'exterior_code'=> Arr::get($values, 'exterior_code'),
                'date_made' => Arr::get($values, 'date_made')
             );
-
+            
             // обновляем таблицу машин
             Jelly::factory('cars')
-             ->set($binds)
-             ->save($select->id);
-             Jelly::factory('cars_cache')
+                 ->set($binds)
+                 ->save($select->id);
+            Jelly::factory('cars_cache')
                  ->set($binds)
                  ->save($select2->id);
          }

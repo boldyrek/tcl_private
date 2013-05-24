@@ -116,7 +116,7 @@ class ReportsList extends Proto {
 			<tr class="vlines rowA">
 				<td>'.(substr($info['model'],0,30)).'</td>
 				<td style="font-family:monospace;">'.substr($info['frame'],0,3).'...'.substr($info['frame'],strlen($info['frame'])-8,8).'</td>
-				<td>'.(substr($info['name'],0,25)).'...</td>
+				<td>'.(mb_substr($info['name'],0,25)).'...</td>
 				<td align="right">'.$info['total'].'</td>
 				<td align="right">'.$paid.'</td>
 				<td align="right">'.$info['invoice'].'</td>
@@ -126,11 +126,17 @@ class ReportsList extends Proto {
 		}
 	}
 	
-	function getPayments($car) {
+	function getPayments($car) {               
+                $paid = mysql_fetch_array($this->mysqlQuery("
+			SELECT SUM(amount) as amount FROM `ccl_".ACCOUNT_SUFFIX."accounting`
+			WHERE `car` = '".intval($car)."' AND `type`=1"));                
+                /*
 		$paid = mysql_fetch_array($this->mysqlQuery("
 		SELECT SUM(amount) as amount FROM `ccl_".ACCOUNT_SUFFIX."payments`
 		WHERE `car` = '".intval($car)."'"));
-		return $paid['amount'];
+                 * 
+                 */
+		return intval($paid['amount']);
 	}
 	
 	function filterForm() {

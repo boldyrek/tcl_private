@@ -4,7 +4,7 @@ class PublicAutocheck extends Proto {
 
    const INVALID_VINCODE = 'Invalid VIN';
    const ACCESS_DENIED = 'Access denied';
-   const ATTEMPTS = 5;
+   const ATTEMPTS = 10;
    const PRODUCTION = false;
 
    public function makePage()

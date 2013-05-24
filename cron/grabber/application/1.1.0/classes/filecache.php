@@ -119,7 +119,7 @@ class Filecache {
         unset($matches);
 
         // replace script & images src.
-        $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"]#U', 'src="$1"', $html);
+        $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.;=]+.(\w+))[\'"]#U', 'src="$1"', $html);
 
         // replace style & favicon href.
         $html = preg_replace('#<link(.+)href=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"](.+)>#sU', '<link$1href="$2"$4>', $html);
