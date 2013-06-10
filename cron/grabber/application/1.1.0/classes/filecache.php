@@ -51,7 +51,7 @@ class Filecache {
         return $this;
     }
 
-    public function import($html = FALSE)
+    public function import($html = FALSE, $is_oodle = FALSE)
     {
         // cache already exists
         if (FALSE === $this->_path)
@@ -73,6 +73,7 @@ class Filecache {
         // merge paths
         $matches = array_merge($src[2], $href[1]);
 
+        $rep_cache = array();
         // for all images, scripts & styles
         foreach ($matches AS $path)
         {
@@ -106,7 +107,18 @@ class Filecache {
                 }
 
                 // find desctination path
-                $dest = $this->_path.'/'.pathinfo($source, PATHINFO_BASENAME);
+                if ($is_oodle) {
+                    $pi = pathinfo($source);
+                    $pi['dirname'] = preg_replace('/[:\/\.]/', '_', $pi['dirname']);
+                    $dest = $pi['dirname'].'_'.$pi['basename'];
+                    if (!isset($pi['extension'])) $dest = $dest.'.css';
+
+                    $rep_cache[$source] = $dest;
+
+                    $dest = $this->_path.'/'.$dest;
+                } else {
+                    $dest = $this->_path.'/'.pathinfo($source, PATHINFO_BASENAME);
+                }
 
                 // copy source file into local storage if file is not exists
                 if (! file_exists($dest))
@@ -118,11 +130,18 @@ class Filecache {
 
         unset($matches);
 
-        // replace script & images src.
-        $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.;=]+.(\w+))[\'"]#U', 'src="$1"', $html);
+        if ($is_oodle) {
+            foreach ($rep_cache as $old_val => $new_val) {
+                $html = str_replace($old_val, $new_val, $html);
+            }
+        } else {
+            // replace script & images src.
+            //$html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.;=]+.(\w+))[\'"]#U', 'src="$1"', $html);
+            $html = preg_replace('#src=[\'"].*([-_a-zA-Z0-9.;=?&]+.(\w+))[\'"]#U', 'src="$1"', $html);
 
-        // replace style & favicon href.
-        $html = preg_replace('#<link(.+)href=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"](.+)>#sU', '<link$1href="$2"$4>', $html);
+            // replace style & favicon href.
+            $html = preg_replace('#<link(.+)href=[\'"].*([-_a-zA-Z0-9.]+.(\w+))[\'"](.+)>#sU', '<link$1href="$2"$4>', $html);
+        }
 
         // write into file
         $filename = $this->_path.'/index.html';

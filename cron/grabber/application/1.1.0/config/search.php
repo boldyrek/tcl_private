@@ -2882,4 +2882,388 @@ return array
             'series' => FALSE,
         ),
     ),
+	
+/////////////////////////////////////////////////////////////////////////////
+    
+    //Lexus RX 330
+    13002 => array(
+        'parent' => 2,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'rx_300',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 12000)
+        ),
+    ),
+    //Lexus RX 400H 
+    13003 => array(
+        'parent' => 3,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'rx_400',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 13000)
+        ),
+    ),
+    //Lexus GX 470 
+    13004 => array(
+        'parent' => 4,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'gx_470',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+    //Lexus GX 470 
+    13005 => array(
+        'parent' => 5,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'gx_470',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 25000)
+        ),
+    ),
+    //Lexus LX 470 
+    13006 => array(
+        'parent' => 6,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'lx_470',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 29000)
+        ),
+    ),
+    //Toyota Sequoia
+    13007 => array(
+        'parent' => 7,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'sequoia',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 25000)
+        ),
+    ),
+    //Toyota Land Cruiser
+    13008 => array(
+        'parent' => 8,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'land_cruiser',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 20000)
+        ),
+    ),
+    //Lexus LX 570
+    13009 => array(
+        'parent' => 9,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'lx',
+            'trim' => '570',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 70000)
+        ),
+    ),
+    //Toyota Venza
+    13010 => array(
+        'parent' => 10,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'venza',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 18000)
+        ),
+    ),
+    //Toyota 4runner 2010
+    12011 => array(
+        'parent' => 11,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => '4runner',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 27000)
+        ),
+    ),
+    //Toyota 4runner 4WD
+    13012 => array(
+        'parent' => 12,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => '4runner',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/JTEBU14R[A-Z0-9]{9}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 12000)
+        ),
+    ),
+    //Toyota RAV 4
+    13013 => array(
+        'parent' => 13,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'rav4',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+    //Toyota Highlander 4WD
+    13014 => array(
+        'parent' => 14,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'highlander',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/JTEHD[A-Z0-9]{12}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+    //Toyota Highlander
+    13017 => array(
+        'parent' => 17,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'highlander',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}E[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+    //Lexus RX 350
+    13019 => array(
+        'parent' => 19,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'rx_350',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 16000)
+        ),
+    ),
+    //Toyota 4RUNNER Limited V6
+    13020 => array(
+        'parent' => 20,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => '4runner',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/JTEBU17[A-Z0-9]{10}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 12000)
+        ),
+    ),
+    //Lexus GX 460
+    13022 => array(
+        'parent' => 22,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'gx_460',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 40000)
+        ),
+    ),
+    //Lexus RX 350
+    13023 => array(
+        'parent' => 23,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'rx_350',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 27000)
+        ),
+    ),
+    //Toyota Highlander
+    13024 => array(
+        'parent' => 24,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'highlander',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{0,17}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+    //Lexus GS300
+    13025 => array(
+        'parent' => 25,
+        'mark' => 'Lexus',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'gs_300',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+			'price' => array(10000, 15000)
+        ),
+    ),
+
 );

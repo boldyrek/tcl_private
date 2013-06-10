@@ -71,4 +71,20 @@ class Filter {
       return preg_match($series, $match);
    }
 
+   public function price($price, $match = NULL)
+   {
+      if ($price === FALSE) return 1;
+	        
+	  $match = intval(trim($match));
+	  if ($price == 0) return 1;
+	  
+	  if (!is_array($price)) {
+	      $price = array($price, $price);
+	  }
+	  
+	  if (!isset($price[0]) || !isset($price[1])) return 0;
+	  
+      return ($match >= $price[0] && $match <= $price[1]) ? 1 : 0;
+   }
+
 }

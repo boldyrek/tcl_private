@@ -589,4 +589,37 @@ return array
       )
    ),
 
+   // Oodle
+   13 => array
+   (
+      'domain' => 'http://cars.oodle.com/',
+       
+      'cookie_file' => Kohana::$cache_dir.'/oodle/cookie.dat',
+
+      'remote_options' => array
+      (
+         CURLOPT_COOKIEFILE => Kohana::$cache_dir.'/oodle/cookie.dat',
+         CURLOPT_COOKIEJAR => Kohana::$cache_dir.'/oodle/cookie.dat',
+         CURLOPT_REFERER => 'http://developer.oodle.com/listings',
+      ),
+       
+      'search' => array
+      (
+         'items' => array(13002, 13003, 13004, 13005, 13006, 13007, 13008, 13009, 13010, 13011, 13012, 13013, 13014, 13017, 13019, 13020, 13022, 13023, 13024, 13025),
+         'url' => 'http://api.oodle.com/api/v2/listings',
+
+         'start' => 1,
+         'offset' => 50,
+         
+         'fields' => array
+         (
+             'key' => '712580A5D01E',
+             'region' => 'usa',
+             'category' => 'vehicle/car',
+             'attributes' => 'condition_used',
+             'format' => 'php_serial'
+         )
+      )
+   ),
+
 );

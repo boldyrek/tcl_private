@@ -4,7 +4,6 @@ define('MODULE', 'grabber');
 define('DOCROOT', $_SERVER['DOCUMENT_ROOT']);
 define('SYSPATH', DOCROOT.'/mod/'.MODULE);
 define('VERSION', '1.1.0');
-
 set_time_limit(0);
 error_reporting(E_ALL^E_NOTICE);
 ini_set('display_erorrs', 'On');
