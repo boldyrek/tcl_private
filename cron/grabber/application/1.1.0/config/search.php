@@ -2893,7 +2893,7 @@ return array
         'fields' => array
             (
             'make' => 'lexus',
-            'model' => 'rx_300',
+            'model' => 'rx_330',
             'trim' => '',
         ),
         'filters' => array
@@ -2901,7 +2901,7 @@ return array
             'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 12000)
+			'price' => array(1000, 13000)
         ),
     ),
     //Lexus RX 400H 
@@ -2920,7 +2920,7 @@ return array
             'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 13000)
+			'price' => array(5000, 15000)
         ),
     ),
     //Lexus GX 470 
@@ -2939,7 +2939,7 @@ return array
             'vincode' => '/[A-Z0-9]{0,17}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 15000)
+			'price' => array(10000, 26000)
         ),
     ),
     //Lexus GX 470 
@@ -2958,7 +2958,7 @@ return array
             'vincode' => '/[A-Z0-9]{0,17}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 25000)
+			'price' => array(10000, 27000)
         ),
     ),
     //Lexus LX 470 
@@ -2993,10 +2993,10 @@ return array
         ),
         'filters' => array
             (
-            'vincode' => '/[A-Z0-9]{0,17}/',
+            'vincode' => '/5TD[[DBJY]]{0,13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 25000)
+			'price' => array(10000, 28000)
         ),
     ),
     //Toyota Land Cruiser
@@ -3026,8 +3026,8 @@ return array
         'fields' => array
             (
             'make' => 'lexus',
-            'model' => 'lx',
-            'trim' => '570',
+            'model' => 'lx_570',
+            'trim' => '',
         ),
         'filters' => array
             (
@@ -3129,7 +3129,7 @@ return array
             'vincode' => '/JTEHD[A-Z0-9]{12}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 15000)
+			'price' => array(5000, 8000)
         ),
     ),
     //Toyota Highlander
@@ -3148,7 +3148,7 @@ return array
             'vincode' => '/[A-Z0-9]{3}E[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 15000)
+			'price' => array(5000, 8000)
         ),
     ),
     //Lexus RX 350
@@ -3167,7 +3167,7 @@ return array
             'vincode' => '/[A-Z0-9]{3}H[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 16000)
+			'price' => array(5000, 16000)
         ),
     ),
     //Toyota 4RUNNER Limited V6
@@ -3186,7 +3186,7 @@ return array
             'vincode' => '/JTEBU17[A-Z0-9]{10}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 12000)
+             'price' => array(500, 12000)
         ),
     ),
     //Lexus GX 460
@@ -3205,7 +3205,7 @@ return array
             'vincode' => '/[A-Z0-9]{0,17}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 40000)
+			'price' => array(10000, 50000)
         ),
     ),
     //Lexus RX 350
@@ -3221,7 +3221,7 @@ return array
         ),
         'filters' => array
             (
-            'vincode' => '/[A-Z0-9]{0,17}/',
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
 			'price' => array(10000, 27000)
@@ -3240,10 +3240,11 @@ return array
         ),
         'filters' => array
             (
-            'vincode' => '/[A-Z0-9]{0,17}/',
-            'color' => FALSE,
+            //'vincode' => '/[A-Z0-9]{3}[EDB]{0,13}/',
+            'vincode' => '/[A-Z0-9]{3}[EDB][A-Z0-9]{13}/',
+			'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 15000)
+			'price' => array(10000, 20000)
         ),
     ),
     //Lexus GS300
