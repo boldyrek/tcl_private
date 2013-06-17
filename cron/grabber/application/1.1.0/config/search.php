@@ -2993,7 +2993,7 @@ return array
         ),
         'filters' => array
             (
-            'vincode' => '/5TD[[DBJY]]{0,13}/',
+            'vincode' => '/5TD[DBJY][A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
 			'price' => array(10000, 28000)
@@ -3050,10 +3050,10 @@ return array
         ),
         'filters' => array
             (
-            'vincode' => '/[A-Z0-9]{0,17}/',
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
             'color' => FALSE,
             'series' => FALSE,
-			'price' => array(10000, 18000)
+			'price' => array(10000, 25000)
         ),
     ),
     //Toyota 4runner 2010
@@ -3264,6 +3264,43 @@ return array
             'color' => FALSE,
             'series' => FALSE,
 			'price' => array(10000, 15000)
+        ),
+    ),
+    13026 => array(
+        'parent' => 26,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'toyota',
+            'model' => 'fj_cruiser',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/JTEB[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+            'price' => array(10000, 14000)
+        ),
+    ),
+        13027 => array(
+        'parent' => 27,
+        'mark' => 'Toyota',
+        'cache' => TRUE,
+        'fields' => array
+            (
+            'make' => 'lexus',
+            'model' => 'rx_350',
+            'trim' => '',
+        ),
+        'filters' => array
+            (
+            'vincode' => '/[A-Z0-9]{3}B[A-Z0-9]{13}/',
+            'color' => FALSE,
+            'series' => FALSE,
+            'price' => array(10000, 45000)
+
         ),
     ),
 
